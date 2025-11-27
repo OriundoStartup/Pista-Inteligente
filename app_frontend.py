@@ -138,12 +138,11 @@ def main():
             config['credentials'],
             config['cookie']['name'],
             config['cookie']['key'],
-            config['cookie']['expiry_days'],
-            config['preauthorized']
+            config['cookie']['expiry_days']
         )
 
         # Login widget
-        authenticator.login('Login', 'sidebar')
+        authenticator.login('Login', 'main')
 
         if st.session_state["authentication_status"] is False:
             st.error('Usuario/Contraseña incorrectos')
