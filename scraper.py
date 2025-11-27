@@ -39,7 +39,7 @@ def generar_datos_simulados(dias_atras=90):
                     })
     df = pd.DataFrame(datos)
     # Inyección de patrón repetido para prueba
-    print("Inyectando patrón de prueba '3-7-10'...")
+    # print("Inyectando patrón de prueba '3-7-10'...")
     if len(df) > 0:
         df.at[0, 'llegada_str'] = '3-7-10'
         df.at[0, 'primero'] = 3
@@ -59,7 +59,7 @@ def obtener_resultados_hipodromo(url_base, fecha, hipodromo_nombre):
     """
     resultados = []
     url = f"{url_base}?fecha={fecha}"
-    print(f"Consultando {hipodromo_nombre}: {url}")
+    # print(f"Consultando {hipodromo_nombre}: {url}")
     try:
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -157,7 +157,7 @@ def obtener_programa_proxima_jornada():
         driver = webdriver.Chrome(options=chrome_options)
         
         # 1. Scraping Hipódromo Chile
-        print("Obteniendo programa de Hipódromo Chile...")
+        # print("Obteniendo programa de Hipódromo Chile...")
         try:
             url_proximos = "https://www.hipodromo.cl/carreras-proximos-programas"
             driver.get(url_proximos)
@@ -167,7 +167,7 @@ def obtener_programa_proxima_jornada():
             try:
                 fecha_elem = driver.find_element(By.CSS_SELECTOR, 'h3.text-center')
                 fecha_text = fecha_elem.text
-                print(f"  Fecha encontrada: {fecha_text}")
+                # print(f"  Fecha encontrada: {fecha_text}")
                 
                 # Convertir fecha a formato YYYY-MM-DD
                 parts = fecha_text.split()
@@ -191,7 +191,7 @@ def obtener_programa_proxima_jornada():
             # Buscar enlaces a programas de carreras
             try:
                 enlaces_programa = driver.find_elements(By.LINK_TEXT, "Programa")
-                print(f"  Encontrados {len(enlaces_programa)} enlaces de programa")
+                # print(f"  Encontrados {len(enlaces_programa)} enlaces de programa")
                 
                 for i, enlace in enumerate(enlaces_programa[:12], 1):  # Máximo 12 carreras
                     try:
@@ -225,7 +225,7 @@ def obtener_programa_proxima_jornada():
                                     'nro_carrera': i,
                                     'caballos': ','.join(map(str, caballos))
                                 })
-                                print(f"  -> Carrera {i}: {len(caballos)} caballos")
+                                # print(f"  -> Carrera {i}: {len(caballos)} caballos")
                             
                             # Cerrar ventana y volver a la principal
                             driver.close()
@@ -246,7 +246,7 @@ def obtener_programa_proxima_jornada():
             print(f"Error al obtener programa de Hipódromo Chile: {e}")
         
         # 2. Scraping Club Hípico
-        print("\nObteniendo programa de Club Hípico...")
+        # print("\nObteniendo programa de Club Hípico...")
         try:
             fecha_prueba = date.today() + timedelta(days=1)
             fecha_str_ch = fecha_prueba.strftime('%Y-%m-%d')
@@ -289,7 +289,7 @@ def obtener_programa_proxima_jornada():
                             'nro_carrera': nro_carrera,
                             'caballos': ','.join(map(str, caballos))
                         })
-                        print(f"  -> Carrera {nro_carrera}: {len(caballos)} caballos")
+                        # print(f"  -> Carrera {nro_carrera}: {len(caballos)} caballos")
                     else:
                         # Si no hay caballos, probablemente no hay más carreras
                         break
