@@ -1,0 +1,10 @@
+streamlit
+pandas
+streamlit-authenticator
+pyyaml
+rich
+requests
+beautifulsoup4
+selenium
+openpyxl
+lxml
