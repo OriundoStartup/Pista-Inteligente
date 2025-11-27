@@ -172,7 +172,7 @@ def main():
         )
 
         # Login widget - PRIORIDAD: Primera función de renderizado
-        authenticator.login('Login', 'main')
+        authenticator.login(location='main')
 
         # Control de flujo estricto
         if st.session_state["authentication_status"]:
