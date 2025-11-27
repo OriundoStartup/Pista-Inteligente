@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MVP de Análisis Hípico para Detección de Patrones Repetidos
 
 Este proyecto es un Producto Mínimo Viable (MVP) diseñado para analizar resultados de carreras hípicas y detectar patrones de llegada (trifectas) que se repiten en el tiempo.
@@ -17,3 +18,6 @@ Para probar la simulación y el análisis:
 ```bash
 python analisis.py
 ```
+=======
+# Pista-Inteligente
+>>>>>>> 88f03bb2a901e9eba705f0c182d8cde1ebcf7c33
