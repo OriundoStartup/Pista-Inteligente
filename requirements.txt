@@ -6,3 +6,7 @@ requests
 beautifulsoup4
 selenium
 lxml
+scikit-learn
+joblib
+google-genai
+numpy

@@ -461,17 +461,6 @@ def obtener_programa_proxima_jornada():
                         
             except Exception as e:
                 print(f"  Error al buscar enlaces de programa: {e}")
-                
-        except Exception as e:
-            print(f"Error al obtener programa de Hipódromo Chile: {e}")
-        
-        # 2. Scraping Club Hípico
-        # print("\nObteniendo programa de Club Hípico...")
-        try:
-            fecha_prueba = date.today() + timedelta(days=1)
-            fecha_str_ch = fecha_prueba.strftime('%Y-%m-%d')
-            
-            for nro_carrera in range(1, 15):  # Probar hasta 14 carreras
                 try:
                     url_carrera_ch = f"https://www.clubhipico.cl/carreras/programa-y-resultados/?fecha={fecha_str_ch}&carrera={nro_carrera}"
                     driver.get(url_carrera_ch)
@@ -627,7 +616,7 @@ if __name__ == "__main__":
     # 1) Generar y guardar datos simulados
     df_sim = generar_datos_simulados(5)
     guardar_datos_en_db(df_sim)
-    print("✅ Datos simulados guardados en la base de datos.")
+    print("[OK] Datos simulados guardados en la base de datos.")
 
     # 2) Probar scraping real para tres fechas (ayer, hoy, mañana)
     from datetime import date, timedelta
@@ -646,7 +635,7 @@ if __name__ == "__main__":
         guardar_datos_en_db(df_real)
         print(f"✅ Se guardaron {len(df_real)} registros reales en la DB.")
     else:
-        print("ℹ️ No se obtuvieron datos reales para las fechas de prueba (posiblemente fechas sin carreras).")
+        print("[INFO] No se obtuvieron datos reales para las fechas de prueba (posiblemente fechas sin carreras).")
 
     # 3) Obtener programa de próxima jornada
     print("\n" + "="*60)
