@@ -1,0 +1,776 @@
+/* =========================================
+   ESTILOS GENERALES
+   ========================================= */
+.stApp {
+    background-color: #0e1117;
+}
+
+.alert-table {
+    background-color: #ff4b4b20;
+    border: 2px solid #ff4b4b;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.metric-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* =========================================
+   CHATBOT FLOTANTE
+   ========================================= */
+
+/* Botón Flotante */
+.floating-chat-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: 2px solid #00ffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    z-index: 100000;
+    cursor: pointer;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floating-chat-btn:hover {
+    transform: scale(1.1);
+}
+
+.floating-chat-btn img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Ventana de Chat */
+.chat-window {
+    position: fixed;
+    bottom: 110px;
+    right: 30px;
+    width: 380px;
+    height: 500px;
+    background: #1a1c24;
+    border: 1px solid #00ffff;
+    border-radius: 15px;
+    z-index: 99999;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Ocultar elementos nativos de Streamlit que interfieren */
+div[data-testid="stToolbar"] {
+    display: none;
+}
+
+/* Ajuste del input de chat nativo */
+.stChatInput {
+    position: fixed !important;
+    bottom: 125px !important;
+    right: 45px !important;
+    width: 350px !important;
+    z-index: 100001 !important;
+}
+
+/* Botón Toggle Invisible (Controlador) */
+.st-key-chat_toggle_btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    z-index: 100001;
+}
+
+.st-key-chat_toggle_btn button {
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 0 !important;
+    /* Totalmente transparente */
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* Mensajes del Chat */
+.chat-message-container {
+    position: fixed;
+    bottom: 180px;
+    right: 30px;
+    width: 380px;
+    height: 380px;
+    overflow-y: auto;
+    z-index: 100002;
+    padding: 10px;
+}
+
+/* Hack para posicionar el contenedor de mensajes de Streamlit */
+div[data-testid="stVerticalBlock"]:has(div.chat-message) {
+    position: fixed;
+    bottom: 180px;
+    right: 30px;
+    width: 380px;
+    height: 380px;
+    overflow-y: auto;
+    z-index: 100002;
+    padding: 10px;
+}
+
+/* =========================================
+   PUBLICIDAD Y MONETIZACIÓN
+   ========================================= */
+
+/* Banner Horizontal Premium */
+.ad-banner-horizontal {
+    background: linear-gradient(90deg, #1a1c24 0%, #2d3436 100%);
+    border: 1px solid #333;
+    border-left: 4px solid #00ffff;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.ad-banner-horizontal:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 255, 255, 0.1);
+}
+
+.ad-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.ad-label {
+    font-size: 10px;
+    color: #888;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    border-left: 1px solid #444;
+    padding-left: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.ad-text {
+    flex-grow: 1;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-cta {
+    background: #00ffff;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background 0.3s;
+    white-space: nowrap;
+}
+
+.ad-cta:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* Sidebar Ads */
+.ad-container-sidebar {
+    background: #1e212b;
+    border: 1px solid #444;
+    border-top: 3px solid #00ff00;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.ad-badge {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background: #00ff00;
+    color: #000;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.ad-container-sidebar h3 {
+    margin: 10px 0 5px 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.ad-container-sidebar p {
+    font-size: 12px;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.ad-button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background: transparent;
+    border: 1px solid #666;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 12px;
+    transition: all 0.3s;
+}
+
+.ad-button:hover {
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Ventana de Chat */
+.chat-window {
+    position: fixed;
+    bottom: 110px;
+    right: 30px;
+    width: 380px;
+    height: 500px;
+    background: #1a1c24;
+    border: 1px solid #00ffff;
+    border-radius: 15px;
+    z-index: 99999;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Ocultar elementos nativos de Streamlit que interfieren */
+div[data-testid="stToolbar"] {
+    display: none;
+}
+
+/* Ajuste del input de chat nativo */
+.stChatInput {
+    position: fixed !important;
+    bottom: 125px !important;
+    right: 45px !important;
+    width: 350px !important;
+    z-index: 100001 !important;
+}
+
+/* Botón Toggle Invisible (Controlador) */
+.st-key-chat_toggle_btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    z-index: 100001;
+}
+
+.st-key-chat_toggle_btn button {
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 0 !important;
+    /* Totalmente transparente */
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* Mensajes del Chat */
+.chat-message-container {
+    position: fixed;
+    bottom: 180px;
+    right: 30px;
+    width: 380px;
+    height: 380px;
+    overflow-y: auto;
+    z-index: 100002;
+    padding: 10px;
+}
+
+/* Hack para posicionar el contenedor de mensajes de Streamlit */
+div[data-testid="stVerticalBlock"]:has(div.chat-message) {
+    position: fixed;
+    bottom: 180px;
+    right: 30px;
+    width: 380px;
+    height: 380px;
+    overflow-y: auto;
+    z-index: 100002;
+    padding: 10px;
+}
+
+/* =========================================
+   PUBLICIDAD Y MONETIZACIÓN
+   ========================================= */
+
+/* Banner Horizontal Premium */
+.ad-banner-horizontal {
+    background: linear-gradient(90deg, #1a1c24 0%, #2d3436 100%);
+    border: 1px solid #333;
+    border-left: 4px solid #00ffff;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.ad-banner-horizontal:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 255, 255, 0.1);
+}
+
+.ad-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.ad-label {
+    font-size: 10px;
+    color: #888;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    border-left: 1px solid #444;
+    padding-left: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.ad-text {
+    flex-grow: 1;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-cta {
+    background: #00ffff;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background 0.3s;
+    white-space: nowrap;
+}
+
+.ad-cta:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* Sidebar Ads */
+.ad-container-sidebar {
+    background: #1e212b;
+    border: 1px solid #444;
+    border-top: 3px solid #00ff00;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.ad-badge {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background: #00ff00;
+    color: #000;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.ad-container-sidebar h3 {
+    margin: 10px 0 5px 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.ad-container-sidebar p {
+    font-size: 12px;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.ad-button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background: transparent;
+    border: 1px solid #666;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 12px;
+    transition: all 0.3s;
+}
+
+.ad-button:hover {
+    background: #333;
+    border-color: #fff;
+    color: #fff;
+}
+
+.ad-tag {
+    background: #333;
+    color: #ccc;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+/* =========================================
+   TARJETAS DE CARRERA (PROGRAMA)
+   ========================================= */
+.race-card {
+    background: #1e212b;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.2s;
+}
+
+.race-card:hover {
+    border-color: #00ffff;
+    transform: translateY(-3px);
+}
+
+.race-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.race-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ffff;
+    background: rgba(0, 255, 255, 0.1);
+    padding: 5px 12px;
+    border-radius: 8px;
+}
+
+.race-time {
+    opacity: 0 !important;
+    /* Totalmente transparente */
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* Mensajes del Chat */
+.chat-message-container {
+    position: fixed;
+    bottom: 180px;
+    right: 30px;
+    width: 380px;
+    height: 380px;
+    overflow-y: auto;
+    z-index: 100002;
+    padding: 10px;
+}
+
+/* Hack para posicionar el contenedor de mensajes de Streamlit */
+div[data-testid="stVerticalBlock"]:has(div.chat-message) {
+    position: fixed;
+    bottom: 180px;
+    right: 30px;
+    width: 380px;
+    height: 380px;
+    overflow-y: auto;
+    z-index: 100002;
+    padding: 10px;
+}
+
+/* =========================================
+   PUBLICIDAD Y MONETIZACIÓN
+   ========================================= */
+
+/* Banner Horizontal Premium */
+.ad-banner-horizontal {
+    background: linear-gradient(90deg, #1a1c24 0%, #2d3436 100%);
+    border: 1px solid #333;
+    border-left: 4px solid #00ffff;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.ad-banner-horizontal:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 255, 255, 0.1);
+}
+
+.ad-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.ad-label {
+    font-size: 10px;
+    color: #888;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    border-left: 1px solid #444;
+    padding-left: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.ad-text {
+    flex-grow: 1;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-cta {
+    background: #00ffff;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background 0.3s;
+    white-space: nowrap;
+}
+
+.ad-cta:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* Sidebar Ads */
+.ad-container-sidebar {
+    background: #1e212b;
+    border: 1px solid #444;
+    border-top: 3px solid #00ff00;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.ad-badge {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background: #00ff00;
+    color: #000;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.ad-container-sidebar h3 {
+    margin: 10px 0 5px 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.ad-container-sidebar p {
+    font-size: 12px;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.ad-button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background: transparent;
+    border: 1px solid #666;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 12px;
+    transition: all 0.3s;
+}
+
+.ad-button:hover {
+    background: #333;
+    border-color: #fff;
+    color: #fff;
+}
+
+.ad-tag {
+    background: #333;
+    color: #ccc;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+/* =========================================
+   TARJETAS DE CARRERA (PROGRAMA)
+   ========================================= */
+.race-card {
+    background: #1e212b;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.2s;
+}
+
+.race-card:hover {
+    border-color: #00ffff;
+    transform: translateY(-3px);
+}
+
+.race-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.race-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ffff;
+    background: rgba(0, 255, 255, 0.1);
+    padding: 5px 12px;
+    border-radius: 8px;
+}
+
+.race-time {
+    font-size: 12px;
+    color: #888;
+    font-family: monospace;
+}
+
+.race-content {
+    font-size: 14px;
+    color: #ddd;
+}
+
+/* =========================================
+   TARJETAS DE PATRONES (LA TERCERA ES LA VENCIDA)
+   ========================================= */
+.pattern-card {
+    background: linear-gradient(145deg, #1e212b, #252836);
+    border: 1px solid #444;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.pattern-card:hover {
+    transform: translateY(-5px);
+    border-color: #00ff00;
+    box-shadow: 0 8px 20px rgba(0, 255, 0, 0.15);
+}
+
+.pattern-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.pattern-badge {
+    background: rgba(255, 75, 75, 0.2);
+    color: #ff4b4b;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 75, 75, 0.4);
+}
+
+.pattern-numbers-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pattern-number {
+    width: 40px;
+    height: 40px;
+    background: #00ffff;
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.pattern-details {
+    font-size: 12px;
+    color: #aaa;
+    margin-bottom: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.pattern-details p {
+    margin: 3px 0;
+}
+
+.probability-bar-bg {
+    width: 100%;
+    height: 6px;
+    background: #333;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.probability-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 1s ease-out;
+}
