@@ -1,11 +1,15 @@
 import google.generativeai as genai
+import os
 import streamlit as st
 from .data_manager import cargar_programa
 
 def configurar_gemini():
     """Configura la API key de Gemini."""
-    if "GEMINI_API_KEY" in st.secrets:
-        genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+    api_key = os.getenv('GEMINI_API_KEY')
+    if not api_key:
+        st.error('⚠️ GEMINI_API_KEY no está configurada en variables de entorno')
+        return
+    genai.configure(api_key=api_key)
 
 def get_gemini_response(prompt):
     """Obtiene respuesta del modelo Gemini con contexto hípico."""

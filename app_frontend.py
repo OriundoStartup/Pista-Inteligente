@@ -171,18 +171,6 @@ def analizar_probabilidad_caballos(caballos_jornada, historial_resultados):
     return df_comb[['Combinación', '1º Lugar', '2º Lugar', '3º Lugar']]
 >>>>>>> a854cad (feat: Implementación de la vista de Análisis Público, Integración del Chatbot con Gemini y Banners de Publicidad Estática.)
 
-# --- FUNCIONES DE IA (GEMINI) ---
-
-def inicializar_gemini():
-    """Inicializa el cliente de Gemini."""
-    try:
-        api_key = st.secrets["GEMINI_API_KEY"]
-        genai.configure(api_key=api_key)
-        # Usamos gemini-2.0-flash que está disponible y es muy rápido
-        return genai.GenerativeModel('gemini-2.0-flash')
-    except Exception as e:
-        st.error(f"Error al inicializar Gemini: {e}")
-        return None
 
 def cargar_contexto_desde_db():
     """Carga datos reales desde la base de datos para el contexto del chatbot."""
@@ -288,8 +276,8 @@ def main():
 
     # Cargar configuración de autenticación
     try:
-        with open('auth_config.yaml') as file:
-            config = yaml.load(file, Loader=SafeLoader)
+        with open('auth_config.yaml', encoding='utf-8', errors='ignore') as file:
+            config = yaml.safe_load(file)
             
         authenticator = stauth.Authenticate(
             config['credentials'],
@@ -466,7 +454,7 @@ def main():
                             })
                         
                         df_alerta = pd.DataFrame(datos_alerta).sort_values(by="🔄 Total Repeticiones", ascending=False)
-                        st.dataframe(df_alerta, use_container_width=True, hide_index=True)
+                        st.dataframe(df_alerta, width='stretch', hide_index=True)
                     else:
                         st.info("ℹ️ No hay patrones con 3 o más repeticiones.")
 >>>>>>> a854cad (feat: Implementación de la vista de Análisis Público, Integración del Chatbot con Gemini y Banners de Publicidad Estática.)

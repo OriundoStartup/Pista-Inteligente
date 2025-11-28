@@ -1,0 +1,28 @@
+credentials:
+  usernames:
+    demo_gratis:
+      email: demo@pistainteligente.com
+      name: Demo Gratuito
+      password: $2b$12$HASH_DEMO_AQUI  # Cambiar por hash real
+      plan: gratuito
+    admin_premium:
+      email: admin@pistainteligente.com
+      name: Admin Premium
+      password: Salvador2024  # Cambiar por hash real
+      plan: premium
+    # Agrega más usuarios según necesites:
+    # usuario_nuevo:
+    #   email: usuario@ejemplo.com
+    #   name: Nombre Usuario
+    #   password: $2b$12$TU_HASH_AQUI
+    #   plan: gratuito  # o premium
+
+cookie:
+  expiry_days: 30
+  key: Salvador2024  # ⚠️ MUY IMPORTANTE
+  name: pista_inteligente_auth
+
+preauthorized:
+  emails:
+  - admin@pistainteligente.com
+  # Agrega más emails preautorizados si es necesario
