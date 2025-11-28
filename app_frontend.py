@@ -12,6 +12,8 @@ from src.models.data_manager import cargar_datos, analizar_probabilidad_caballos
 from src.views.chatbot_view import render_chatbot
 from src.views.ads_view import render_ad_sidebar, render_ad_banner
 from src.views.program_view import render_program_view
+from src.views.patterns_view import render_patterns_view
+from src.views.analysis_view import render_analysis_view
 
 # Configuración de la página
 st.set_page_config(
@@ -116,24 +118,19 @@ def main():
             tab1, tab2, tab3, tab4 = st.tabs(["🚨 Patrones a Vigilar", "📈 Análisis Completo", "📺 Teletrack Live", "🔮 Jornada Próxima"])
 
             with tab1:
-                st.markdown("## 🚨 Patrones de Alta Frecuencia")
                 es_premium = (st.session_state["username"] == 'admin_premium')
                 
                 if not es_premium:
                     st.warning("🔒 Contenido Exclusivo para Suscriptores Premium")
+                    st.markdown("### 🎯 La Tercera es la Vencida")
+                    st.markdown("Descubre los patrones que están a punto de repetirse por tercera vez.")
                     if st.button("Desbloquear Acceso Premium", type="primary"):
                         st.markdown(f'<meta http-equiv="refresh" content="0;url={pago_link.URL_PAGO}">', unsafe_allow_html=True)
                 else:
-                    patrones_alerta = conteo[conteo >= 3]
-                    if not patrones_alerta.empty:
-                        st.success('¡Análisis Confirmado! A COBRAR LOS QUE SABEN.')
-                        st.dataframe(patrones_alerta, width='stretch')
-                    else:
-                        st.info("No hay patrones con 3+ repeticiones.")
+                    render_patterns_view()
 
             with tab2:
-                st.markdown("## 📈 Todos los Patrones Repetidos")
-                st.dataframe(conteo[conteo > 1], width='stretch')
+                render_analysis_view()
 
             with tab3:
                 st.markdown("## 📺 Teletrack / Carreras en Vivo")

@@ -202,3 +202,49 @@ def obtener_patrones_la_tercera():
     # Ordenar por probabilidad (más recientes primero)
     resultados.sort(key=lambda x: x['probabilidad'], reverse=True)
     return resultados
+
+def obtener_estadisticas_generales():
+    """Calcula estadísticas generales de números ganadores."""
+    df = cargar_datos()
+    if df.empty:
+        return {}, pd.DataFrame()
+        
+    stats = {
+        'total_carreras': len(df),
+        'hipodromos': df['hipodromo'].nunique(),
+        'dias_registrados': df['fecha'].nunique()
+    }
+    
+    # Frecuencia de ganadores (1er lugar)
+    top_ganadores = df['primero'].value_counts().reset_index()
+    top_ganadores.columns = ['Numero', 'Victorias']
+    
+    # Frecuencia de 2dos lugares
+    top_segundos = df['segundo'].value_counts().reset_index()
+    top_segundos.columns = ['Numero', 'Segundos']
+    
+    # Frecuencia de 3ros lugares
+    top_terceros = df['tercero'].value_counts().reset_index()
+    top_terceros.columns = ['Numero', 'Terceros']
+    
+    # Merge para tabla completa
+    df_stats = top_ganadores.merge(top_segundos, on='Numero', how='outer').merge(top_terceros, on='Numero', how='outer').fillna(0)
+    df_stats['Total Podios'] = df_stats['Victorias'] + df_stats['Segundos'] + df_stats['Terceros']
+    df_stats = df_stats.sort_values('Total Podios', ascending=False)
+    
+    return stats, df_stats
+
+def obtener_top_quinelas():
+    """Devuelve las parejas (1ro y 2do) más frecuentes independientemente del orden."""
+    df = cargar_datos()
+    if df.empty:
+        return pd.DataFrame()
+        
+    quinelas = []
+    for _, row in df.iterrows():
+        if row['primero'] and row['segundo']:
+            # Ordenar par para que 1-2 sea igual a 2-1 (Quinela)
+            par = sorted([str(row['primero']), str(row['segundo'])])
+            quinelas.append(f"{par[0]} - {par[1]}")
+            
+    return pd.Series(quinelas).value_counts().head(10).reset_index(name='Frecuencia').rename(columns={'index': 'Quinela'})
