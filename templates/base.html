@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Pista Inteligente 2025{% endblock %}</title>
+
+    <!-- Google Fonts: Outfit (Modern Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+    <!-- Meta SEO -->
+    <meta name="description"
+        content="Predicciones hípicas con Inteligencia Artificial. Análisis avanzado para Hipódromo Chile y Club Hípico.">
+</head>
+
+<body>
+
+    <!-- Header Glassmorphism -->
+    <header class="glass-header">
+        <a href="/" class="brand">
+            <img src="{{ url_for('static', filename='img/logo.jpg') }}" alt="Logo"
+                style="height: 40px; border-radius: 50%;">
+            <span>Pista Inteligente</span>
+        </a>
+        <nav class="nav-links">
+            <a href="/" class="nav-link {% if request.path == '/' %}active{% endif %}">Inicio</a>
+            <a href="/programa" class="nav-link {% if request.path == '/programa' %}active{% endif %}">Predicciones</a>
+            <a href="/analisis" class="nav-link {% if request.path == '/analisis' %}active{% endif %}">Patrones</a>
+            <a href="/estadisticas"
+                class="nav-link {% if request.path == '/estadisticas' %}active{% endif %}">Estadísticas</a>
+        </nav>
+    </header>
+
+    <!-- Brand Header Image (Cabecera) -->
+    <div class="container" style="padding-bottom:0; text-align:center;">
+        <img src="{{ url_for('static', filename='img/header_brand.png') }}" alt="Cabecera Pista Inteligente"
+            style="width:100%; max-width:1200px; height:auto; border-radius:12px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+    </div>
+
+    <!-- Ad Unit: Top Banner -->
+    <div class="container">
+        <div class="ad-banner">
+            <span>Publicidad Principal (728x90)</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+        {% block content %}{% endblock %}
+
+        <!-- Ad Unit: Bottom Banner -->
+        <div class="ad-banner" style="margin-top: 3rem;">
+            <span>Publicidad Inferior (728x90)</span>
+        </div>
+
+        <!-- Ad Unit: Extra Text Ad -->
+        <div class="glass-card"
+            style="text-align:center; padding:1rem; margin-top:1rem; border:1px dashed var(--secondary);">
+            <p style="color:var(--text-muted); font-size:0.9rem;">Espacio Publicitario Patrocinado</p>
+        </div>
+    </main>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-fab" id="chatbotBtn">
+        <img src="{{ url_for('static', filename='img/bot_avatar.png') }}" alt="Chat"
+            style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
+    </div>
+
+    <div class="chatbot-window" id="chatbotWindow">
+        <div class="chat-header">
+            <div style="display:flex; align-items:center; gap:0.5rem;">
+                <img src="{{ url_for('static', filename='img/bot_avatar.png') }}"
+                    style="height:30px; width:30px; border-radius:50%; border:1px solid white;">
+                <span>🤖 Asistente Hípico</span>
+            </div>
+            <span style="cursor:pointer" id="closeChat">✖</span>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <div class="msg bot">Hola, soy tu asistente de IA. ¿En qué te puedo ayudar hoy?</div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="chatInput" class="chat-input" placeholder="Pregunta sobre una carrera...">
+            <button id="sendBtn"
+                style="padding:0.5rem; background:var(--secondary); border:none; border-radius:4px; cursor:pointer">➤</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Chatbot Logic
+        const chatBtn = document.getElementById('chatbotBtn');
+        const chatWindow = document.getElementById('chatbotWindow');
+        const closeChat = document.getElementById('closeChat');
+        const sendBtn = document.getElementById('sendBtn');
+        const chatInput = document.getElementById('chatInput');
+        const chatBody = document.getElementById('chatBody');
+
+        chatBtn.addEventListener('click', () => {
+            chatWindow.style.display = chatWindow.style.display === 'flex' ? 'none' : 'flex';
+        });
+
+        closeChat.addEventListener('click', () => {
+            chatWindow.style.display = 'none';
+        });
+
+        async function sendMessage() {
+            const text = chatInput.value.trim();
+            if (!text) return;
+
+            // User Message
+            addMessage(text, 'user');
+            chatInput.value = '';
+
+            // AI Response
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: text })
+                });
+                const data = await response.json();
+                addMessage(data.response, 'bot');
+            } catch (error) {
+                addMessage('Lo siento, hubo un error al conectar con la IA.', 'bot');
+            }
+        }
+
+        function addMessage(text, sender) {
+            const div = document.createElement('div');
+            div.className = `msg ${sender}`;
+            div.innerText = text;
+            chatBody.appendChild(div);
+            chatBody.scrollTop = chatBody.scrollHeight;
+        }
+
+        sendBtn.addEventListener('click', sendMessage);
+        chatInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') sendMessage();
+        });
+    </script>
+</body>
+
+</html>

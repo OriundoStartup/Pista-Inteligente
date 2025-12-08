@@ -1,0 +1,142 @@
+00:02:22 | INFO     | 🚀 Inicializando navegador...
+00:02:23 | INFO     | ✅ Navegador listo
+00:02:23 | INFO     | 
+======================================================================
+00:02:23 | INFO     | 🔮 OBTENIENDO TODOS LOS PROGRAMAS (próximas 3 jornadas)
+00:02:23 | INFO     | 📥 DESCARGA DE PDFs: ACTIVADA
+00:02:23 | INFO     | ======================================================================
+00:02:23 | INFO     | 
+============================================================
+00:02:23 | INFO     | 🔮 HIPÓDROMO CHILE - PROGRAMAS
+00:02:23 | INFO     |    📅 Límite: próximas 3 jornadas
+00:02:23 | INFO     |    📥 Descarga de PDFs: ACTIVADA
+00:02:23 | INFO     | ============================================================
+00:02:23 | INFO     |    🌐 Cargando: https://hipodromo.cl/carreras-proximos-programas
+00:02:37 | WARNING  |    ⚠️ Timeout esperando table.table-hover
+00:02:39 | DEBUG    |    📄 HTML guardado: html_dumps\HC_programas_v3.html
+00:02:39 | INFO     | 
+   📥 BUSCANDO PDFs EN HIPÓDROMO CHILE...
+00:02:39 | INFO     |    📄 PDFs encontrados: 8
+00:02:39 | INFO     |    📥 Descargando PDF: HC_programa_Código_de_Carreras.pdf
+00:02:39 | DEBUG    |       URL: https://www.hipodromo.cl/generales_pdf/hipodromochile/2019_Reglamento_de_Carreras_de_Chile_2.pdf
+00:02:39 | INFO     |    ✅ PDF descargado: HC_programa_Código_de_Carreras.pdf (870.4 KB)
+00:02:39 | INFO     |    📥 Descargando PDF: HC_programa_Reglamento_Tarjeta_Teletrak_Mó.pdf
+00:02:39 | DEBUG    |       URL: https://storage.elturf.com/archivos_sitio/hipodromochile/pdf/reglamento-teletrak/REGLAMENTO_Y_CONDICIONES_DE_USO_TARJETA_TELETRAK_MOVIL_AL_PORTADOR_FISICA_Y_DIGITAL_18.05.2021.pdf
+00:02:40 | INFO     |    ✅ PDF descargado: HC_programa_Reglamento_Tarjeta_Teletrak_Mó.pdf (417.8 KB)
+00:02:40 | INFO     |    📥 Descargando PDF: HC_programa_Términos_y_Condiciones_Enganch.pdf
+00:02:40 | DEBUG    |       URL: https://storage.elturf.com/archivos_sitio/hipodromochile/pdf/reglamento-teletrak/ENGANCHE_DIGITAL_v%C3%ADa_Whatsapp_Func.Terminos_y_Condiciones.pdf
+00:02:40 | INFO     |    ✅ PDF descargado: HC_programa_Términos_y_Condiciones_Enganch.pdf (32.2 KB)
+00:02:40 | INFO     |    📄 PDF ya existe: HC_programa_Código_de_Carreras.pdf
+00:02:40 | INFO     |    📥 Descargando PDF: HC_programa_Próximos_Programas.pdf
+00:02:40 | DEBUG    |       URL: https://hipodromo.cl/carreras-proximos-programas
+00:02:40 | WARNING  |    ⚠️ No parece ser un PDF: text/html; charset=utf-8
+00:02:40 | INFO     |    ✅ PDF descargado: HC_programa_Próximos_Programas.pdf (14.9 KB)
+00:02:40 | INFO     |    📥 Descargando PDF: HC_programa_Programa_de_Temporada.pdf
+00:02:40 | DEBUG    |       URL: https://hipodromo.cl/carreras-programa-temporada
+00:02:41 | WARNING  |    ⚠️ No parece ser un PDF: text/html; charset=utf-8
+00:02:41 | INFO     |    ✅ PDF descargado: HC_programa_Programa_de_Temporada.pdf (14.9 KB)
+00:02:41 | INFO     |    📥 Descargando PDF: HC_programa_Programas.pdf
+00:02:41 | DEBUG    |       URL: https://hipodromo.cl
+00:02:41 | WARNING  |    ⚠️ No parece ser un PDF: text/html; charset=utf-8
+00:02:41 | INFO     |    ✅ PDF descargado: HC_programa_Programas.pdf (14.9 KB)
+00:02:41 | INFO     |    📄 PDF ya existe: HC_programa_Próximos_Programas.pdf
+00:02:41 | WARNING  |    ⚠️ No se encontraron fechas de programas
+00:02:41 | INFO     | 
+============================================================
+00:02:41 | INFO     | 🔮 CLUB HÍPICO DE SANTIAGO - PROGRAMAS
+00:02:41 | INFO     |    📅 Límite: próximas 3 jornadas
+00:02:41 | INFO     |    📥 Descarga de PDFs: ACTIVADA
+00:02:41 | INFO     | ============================================================
+00:02:41 | INFO     |    🌐 Cargando: https://www.clubhipico.cl/carreras/programa/
+00:02:56 | DEBUG    |    📄 HTML guardado: html_dumps\CHS_programas_v3.html
+00:02:56 | INFO     | 
+   📥 BUSCANDO PDFs EN CLUB HÍPICO...
+00:02:56 | INFO     |    📄 PDFs encontrados: 4
+00:02:56 | INFO     |    📥 Descargando PDF: CHS_programa_20251201.pdf
+00:02:56 | DEBUG    |       URL: https://www.clubhipico.cl/carreras/resumen-jornada/
+00:02:57 | WARNING  |    ⚠️ No parece ser un PDF: text/html; charset=UTF-8
+00:02:57 | INFO     |    ✅ PDF descargado: CHS_programa_20251201.pdf (169.1 KB)
+00:02:57 | INFO     |    📄 PDF ya existe: CHS_programa_20251201.pdf
+00:02:57 | INFO     |    📄 PDF ya existe: CHS_programa_20251201.pdf
+00:02:57 | INFO     |    📄 PDF ya existe: CHS_programa_20251201.pdf
+00:02:57 | INFO     |    📋 Fechas encontradas: 33
+00:02:57 | INFO     |       ✓ 2025-12-01 (en 0 días)
+00:02:57 | DEBUG    |       ✗ 2025-01-24 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-01-17 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-01-10 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-01-03 (pasada)
+00:02:57 | DEBUG    |       ✗ 2024-12-27 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-09-17 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-09-08 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-09-05 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-08-25 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-08-22 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-11-28 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-11-21 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-11-17 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-10-31 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-10-24 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-08-11 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-10-20 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-10-10 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-09-14 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-02-10 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-11-10 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-10-03 (pasada)
+00:02:57 | DEBUG    |       ✗ 2024-09-29 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-11-14 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-11-07 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-01-31 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-09-22 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-09-12 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-10-17 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-07-04 (pasada)
+00:02:57 | DEBUG    |       ✗ 2025-10-05 (pasada)
+00:02:57 | DEBUG    |       ✗ 2024-04-01 (pasada)
+00:02:57 | INFO     | 
+   ✅ Fechas futuras válidas: 1
+00:02:57 | INFO     |    🎯 Procesando TOP 1 jornadas:
+00:02:57 | INFO     | 
+   [1/1] 📅 2025-12-01
+00:02:57 | INFO     |    🌐 Cargando: https://www.clubhipico.cl/carreras/programa-y-resultados/?fecha=2025-12-01&carrera=1
+00:03:02 | INFO     | 
+   📥 BUSCANDO PDFs EN CLUB HÍPICO...
+00:03:02 | INFO     |    📄 PDFs encontrados: 4
+00:03:02 | INFO     |    📄 PDF ya existe: CHS_programa_20251201.pdf
+00:03:02 | INFO     |    📄 PDF ya existe: CHS_programa_20251201.pdf
+00:03:02 | INFO     |    📄 PDF ya existe: CHS_programa_20251201.pdf
+00:03:02 | INFO     |    📄 PDF ya existe: CHS_programa_20251201.pdf
+00:03:02 | INFO     |        ✅ 87 carreras extraídas
+00:03:02 | INFO     | 
+   ✅ Total programas CHS: 87
+00:03:02 | INFO     | 
+   📊 ESTADÍSTICAS DE FILTRADO:
+00:03:02 | INFO     |       ✅ Procesados:        87
+00:03:02 | INFO     |       ⏮️  Filtrados antiguos: 32
+00:03:02 | INFO     |       ⏭️  Filtrados futuros:  0
+00:03:02 | INFO     | 
+   📥 ESTADÍSTICAS DE PDFs:
+00:03:02 | INFO     |       ✅ Descargados: 1
+00:03:02 | INFO     |       ❌ Fallidos:    0
+00:03:02 | INFO     | 
+============================================================
+00:03:02 | INFO     | 📥 RESUMEN DE PDFs DESCARGADOS
+00:03:02 | INFO     | ============================================================
+00:03:02 | INFO     | 
+   📁 Hipódromo Chile:
+00:03:02 | INFO     |       📄 HC_programa_Código_de_Carreras.pdf (870.4 KB)
+00:03:02 | INFO     |       📄 HC_programa_Reglamento_Tarjeta_Teletrak_Mó.pdf (417.8 KB)
+00:03:02 | INFO     |       📄 HC_programa_Términos_y_Condiciones_Enganch.pdf (32.2 KB)
+00:03:02 | INFO     |       📄 HC_programa_Próximos_Programas.pdf (14.9 KB)
+00:03:02 | INFO     |       📄 HC_programa_Programa_de_Temporada.pdf (14.9 KB)
+00:03:02 | INFO     |       📄 HC_programa_Programas.pdf (14.9 KB)
+00:03:02 | INFO     | 
+   📁 Club Hípico de Santiago:
+00:03:02 | INFO     |       📄 CHS_programa_20251201.pdf (169.1 KB)
+00:03:02 | INFO     | 
+   📊 Total: 7 PDFs (1534.2 KB)
+00:03:02 | INFO     |    📂 Ubicación: C:\espacioDeTrabajo\HipicaAntigracity\pdfs_programas
+00:03:02 | INFO     | 📁 Exportado: exports\CHS_programas_20251201_20251201_000302.csv
+00:03:02 | INFO     |    📅 Fechas incluidas: 2025-12-01
+00:03:03 | INFO     | 📁 Excel exportado: exports\pista_inteligente_programas_20251201_20251201_000302.xlsx
+00:03:05 | INFO     | 🔒 Bot cerrado

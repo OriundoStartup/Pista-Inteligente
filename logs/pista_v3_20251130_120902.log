@@ -1,0 +1,51 @@
+12:09:02 | INFO     | 🚀 Inicializando navegador...
+12:09:03 | INFO     | ✅ Navegador listo
+12:09:03 | INFO     | 
+======================================================================
+12:09:03 | INFO     | 📊 OBTENIENDO TODOS LOS RESULTADOS (últimos 30 días)
+12:09:03 | INFO     | ======================================================================
+12:09:03 | INFO     | 
+============================================================
+12:09:03 | INFO     | 📊 HIPÓDROMO CHILE - RESULTADOS
+12:09:03 | INFO     |    📅 Ventana: últimos 10 días
+12:09:03 | INFO     | ============================================================
+12:09:03 | INFO     |    📆 Rango válido: 2025-11-20 → 2025-11-30
+12:09:03 | INFO     |    🌐 Cargando: https://hipodromo.cl/carreras-ultimos-resultados
+12:09:08 | DEBUG    |    📄 HTML guardado: html_dumps\HC_resultados_v3.html
+12:09:08 | INFO     |    📅 Reunión: Reunión N°83 Hipódromo Chile, Sábado 29 de Noviembre del año 2025
+12:09:08 | INFO     |    📋 Carreras encontradas: 21
+12:09:08 | INFO     |    ✅ Carreras procesadas: 21
+12:09:08 | INFO     |    ✅ Registros totales: 63
+12:09:08 | INFO     | 
+   📊 ESTADÍSTICAS DE FILTRADO:
+12:09:08 | INFO     |       ✅ Procesados:        63
+12:09:08 | INFO     |       ⏮️  Filtrados antiguos: 0
+12:09:08 | INFO     |       ⏭️  Filtrados futuros:  0
+12:09:08 | INFO     | 
+============================================================
+12:09:08 | INFO     | 📊 CLUB HÍPICO DE SANTIAGO - RESULTADOS
+12:09:08 | INFO     |    📅 Ventana: últimos 10 días
+12:09:08 | INFO     | ============================================================
+12:09:08 | INFO     |    📆 Rango válido: 2025-11-20 → 2025-11-30
+12:09:08 | INFO     |    🌐 Cargando: https://www.clubhipico.cl/carreras/resultados/
+12:09:14 | DEBUG    |    📄 HTML guardado: html_dumps\CHS_resultados_v3.html
+12:09:14 | INFO     |    📋 Tablas encontradas: 15
+12:09:14 | INFO     |    ✅ Registros en rango: 6
+12:09:14 | INFO     | 
+   📊 ESTADÍSTICAS DE FILTRADO:
+12:09:14 | INFO     |       ✅ Procesados:        6
+12:09:14 | INFO     |       ⏮️  Filtrados antiguos: 78
+12:09:14 | INFO     |       ⏭️  Filtrados futuros:  0
+12:09:14 | INFO     | 
+============================================================
+12:09:14 | INFO     | 🔮 HIPÓDROMO CHILE - PROGRAMAS
+12:09:14 | INFO     |    📅 Límite: próximas 3 jornadas
+12:09:14 | INFO     | ============================================================
+12:09:14 | INFO     |    🌐 Cargando: https://hipodromo.cl/carreras-proximos-programas
+12:09:27 | WARNING  |    ⚠️ Timeout esperando table.table-hover
+12:09:29 | DEBUG    |    📄 HTML guardado: html_dumps\HC_programas_v3.html
+12:09:29 | WARNING  |    ⚠️ No se encontraron fechas de programas
+12:09:29 | INFO     | 📁 Exportado: exports\HC_resultados_v3_20251130_120929.csv
+12:09:29 | INFO     | 📁 Exportado: exports\CHS_resultados_v3_20251130_120929.csv
+12:09:29 | INFO     | 📁 Excel exportado: exports\pista_inteligente_v3_20251130_120929.xlsx
+12:09:31 | INFO     | 🔒 Bot cerrado

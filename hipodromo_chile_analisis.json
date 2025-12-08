@@ -1,0 +1,48 @@
+{
+  "url": "https://www.hipodromo.cl/carreras-proximos-programas",
+  "status_code": 200,
+  "num_enlaces_programa": 30,
+  "enlaces_programa": [
+    {
+      "href": "/carreras-proximos-programas",
+      "texto": "Próximos Programas"
+    },
+    {
+      "href": "/carreras-proximos-pronosticos",
+      "texto": "Pronósticos"
+    },
+    {
+      "href": "/carreras-proximas-inscripciones",
+      "texto": "Inscripciones"
+    },
+    {
+      "href": "/carreras-volante-carreras",
+      "texto": "Volante de Carreras"
+    },
+    {
+      "href": "/carreras-novedades-pdf",
+      "texto": "Novedades"
+    },
+    {
+      "href": "/carreras-aprontes",
+      "texto": "Aprontes"
+    },
+    {
+      "href": "/carreras-aprontes-proximas-reuniones",
+      "texto": "Aprontes Próximas Reuniones"
+    },
+    {
+      "href": "/carreras-retiros-todos",
+      "texto": "Retiros"
+    },
+    {
+      "href": "/carreras-retiros-historicos",
+      "texto": "Retiros Históricos"
+    },
+    {
+      "href": "/carreras-ejemplares-debutantes",
+      "texto": "Debutantes"
+    }
+  ],
+  "num_tablas": 0
+}

@@ -1,0 +1,17 @@
+hipodromo
+codigo_hipodromo
+fecha
+carrera
+posicion
+peso_fs
+jinete
+peso_jinete
+distancia_cpos
+ganador
+ganador_rut
+indice
+dividendo
+tiempo
+pista
+mandil
+es_victoria

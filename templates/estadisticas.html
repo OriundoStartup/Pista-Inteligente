@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block title %}Estadísticas - Pista Inteligente{% endblock %}
+
+{% block content %}
+<div class="glass-card">
+    <div class="section-title">📊 Estadísticas de Rendimiento</div>
+    <p style="color:var(--text-muted); margin-bottom:1.5rem;">
+        Análisis histórico de Jinetes, Caballos y Pistas para evaluar tendencias.
+    </p>
+
+    <!-- TOP JINETES -->
+    <div class="glass-card" style="margin-bottom: 2rem; border-left: 4px solid var(--accent);">
+        <h3 style="color:white; margin-bottom:1rem;">🏇 Mejores Jinetes (Por Eficiencia)</h3>
+        <div style="overflow-x:auto;">
+            <table class="modern-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Jinete</th>
+                        <th>Carreras</th>
+                        <th>Ganadas</th>
+                        <th>Top 3</th>
+                        <th>Eficiencia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for j in stats.jinetes %}
+                    <tr>
+                        <td>{{ loop.index }}</td>
+                        <td style="font-weight:bold; color:var(--text-main);">{{ j.jinete }}</td>
+                        <td>{{ j.carreras }}</td>
+                        <td>{{ j.ganadas }}</td>
+                        <td>{{ j.top3 }}</td>
+                        <td>
+                            <div class="score-badge" style="background: rgba(16, 185, 129, 0.2); color: #34d399;">
+                                {{ "%.1f"|format(j.eficiencia) }}%
+                            </div>
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="6">Sin datos suficientes.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+
+        <!-- TOP CABALLOS -->
+        <div class="glass-card" style="border-left: 4px solid var(--primary);">
+            <h3 style="color:white; margin-bottom:1rem;">🐴 Caballos Más Ganadores</h3>
+            <table class="modern-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Caballo</th>
+                        <th>Carreras</th>
+                        <th>Victorias</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for c in stats.caballos %}
+                    <tr>
+                        <td>{{ loop.index }}</td>
+                        <td style="font-weight:bold; color:var(--text-main);">{{ c.caballo }}</td>
+                        <td>{{ c.carreras }}</td>
+                        <td style="color:var(--accent);">{{ c.ganadas }}</td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="4">Sin datos.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ESTADISTICAS PISTA -->
+        <div class="glass-card" style="border-left: 4px solid var(--secondary);">
+            <h3 style="color:white; margin-bottom:1rem;">📍 Rendimiento por Pista</h3>
+            <table class="modern-table">
+                <thead>
+                    <tr>
+                        <th>Hipódromo</th>
+                        <th>Carreras</th>
+                        <th>Prom. Div</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for p in stats.pistas %}
+                    <tr>
+                        <td>{{ p.hipodromo }}</td>
+                        <td>{{ p.carreras }}</td>
+                        <td>${{ "%.1f"|format(p.promedio_div) }}</td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="3">Sin datos.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,74 @@
+01:22:20 | INFO     | 🚀 Inicializando navegador...
+01:22:21 | INFO     | ✅ Navegador listo
+01:22:21 | INFO     | 
+======================================================================
+01:22:21 | INFO     | 📊 OBTENIENDO TODOS LOS RESULTADOS
+01:22:21 | INFO     | ======================================================================
+01:22:21 | INFO     | 
+============================================================
+01:22:21 | INFO     | 📊 HIPÓDROMO CHILE - RESULTADOS
+01:22:21 | INFO     | ============================================================
+01:22:21 | INFO     |    🌐 Cargando: https://hipodromo.cl/carreras-ultimos-resultados
+01:22:25 | DEBUG    |    📄 HTML guardado: html_dumps\HC_resultados_parsed.html
+01:22:25 | INFO     |    📅 Reunión: Reunión N°83 Hipódromo Chile, Sábado 29 de Noviembre del año 2025
+01:22:25 | INFO     |    📋 Carreras encontradas: 21
+01:22:25 | INFO     |    ✅ Carreras procesadas: 21
+01:22:25 | INFO     |    ✅ Registros totales: 63
+01:22:25 | INFO     | 
+============================================================
+01:22:25 | INFO     | 📊 CLUB HÍPICO DE SANTIAGO - RESULTADOS
+01:22:25 | INFO     | ============================================================
+01:22:25 | INFO     |    🌐 Cargando: https://www.clubhipico.cl/carreras/resultados/
+01:22:32 | DEBUG    |    📄 HTML guardado: html_dumps\CHS_resultados_parsed.html
+01:22:32 | INFO     |    📋 Tablas encontradas: 15
+01:22:32 | INFO     |    ✅ Registros totales: 84
+01:22:32 | INFO     | 
+============================================================
+01:22:32 | INFO     | 🔮 HIPÓDROMO CHILE - PROGRAMAS
+01:22:32 | INFO     | ============================================================
+01:22:32 | INFO     |    🌐 Cargando: https://hipodromo.cl/carreras-proximos-programas
+01:22:45 | WARNING  |    ⚠️ Timeout esperando table.table-hover
+01:22:47 | DEBUG    |    📄 HTML guardado: html_dumps\HC_programas_parsed.html
+01:22:47 | INFO     |    📅 
+01:22:47 | WARNING  |    ⚠️ No se encontró tabla de programas
+01:22:47 | INFO     | 📁 Exportado: exports\HC_resultados_20251130_012247.csv
+01:22:47 | INFO     | 📁 Exportado: exports\CHS_resultados_20251130_012247.csv
+01:22:47 | INFO     | 📁 Excel exportado: exports\pista_inteligente_20251130_012247.xlsx
+01:22:49 | INFO     | 🔒 Bot cerrado
+01:23:15 | INFO     | 🚀 Inicializando navegador...
+01:23:16 | INFO     | ✅ Navegador listo
+01:23:16 | INFO     | 
+======================================================================
+01:23:16 | INFO     | 📊 OBTENIENDO TODOS LOS RESULTADOS
+01:23:16 | INFO     | ======================================================================
+01:23:16 | INFO     | 
+============================================================
+01:23:16 | INFO     | 📊 HIPÓDROMO CHILE - RESULTADOS
+01:23:16 | INFO     | ============================================================
+01:23:16 | INFO     |    🌐 Cargando: https://hipodromo.cl/carreras-ultimos-resultados
+01:23:20 | DEBUG    |    📄 HTML guardado: html_dumps\HC_resultados_parsed.html
+01:23:20 | INFO     |    📅 Reunión: Reunión N°83 Hipódromo Chile, Sábado 29 de Noviembre del año 2025
+01:23:20 | INFO     |    📋 Carreras encontradas: 21
+01:23:20 | INFO     |    ✅ Carreras procesadas: 21
+01:23:20 | INFO     |    ✅ Registros totales: 63
+01:23:20 | INFO     | 
+============================================================
+01:23:20 | INFO     | 📊 CLUB HÍPICO DE SANTIAGO - RESULTADOS
+01:23:20 | INFO     | ============================================================
+01:23:20 | INFO     |    🌐 Cargando: https://www.clubhipico.cl/carreras/resultados/
+01:23:29 | DEBUG    |    📄 HTML guardado: html_dumps\CHS_resultados_parsed.html
+01:23:29 | INFO     |    📋 Tablas encontradas: 15
+01:23:29 | INFO     |    ✅ Registros totales: 84
+01:23:29 | INFO     | 
+============================================================
+01:23:29 | INFO     | 🔮 HIPÓDROMO CHILE - PROGRAMAS
+01:23:29 | INFO     | ============================================================
+01:23:29 | INFO     |    🌐 Cargando: https://hipodromo.cl/carreras-proximos-programas
+01:23:41 | WARNING  |    ⚠️ Timeout esperando table.table-hover
+01:23:43 | DEBUG    |    📄 HTML guardado: html_dumps\HC_programas_parsed.html
+01:23:44 | INFO     |    📅 
+01:23:44 | WARNING  |    ⚠️ No se encontró tabla de programas
+01:23:44 | INFO     | 📁 Exportado: exports\HC_resultados_20251130_012344.csv
+01:23:44 | INFO     | 📁 Exportado: exports\CHS_resultados_20251130_012344.csv
+01:23:44 | INFO     | 📁 Excel exportado: exports\pista_inteligente_20251130_012344.xlsx
+01:23:46 | INFO     | 🔒 Bot cerrado

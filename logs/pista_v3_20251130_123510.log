@@ -1,0 +1,45 @@
+12:35:10 | INFO     | 🚀 Inicializando navegador...
+12:35:11 | INFO     | ✅ Navegador listo
+12:35:11 | INFO     | 
+======================================================================
+12:35:11 | INFO     | 🔮 OBTENIENDO TODOS LOS PROGRAMAS (próximas 2 jornadas)
+12:35:11 | INFO     | ======================================================================
+12:35:11 | INFO     | 
+============================================================
+12:35:11 | INFO     | 🔮 HIPÓDROMO CHILE - PROGRAMAS
+12:35:11 | INFO     |    📅 Límite: próximas 2 jornadas
+12:35:11 | INFO     | ============================================================
+12:35:11 | INFO     |    🌐 Cargando: https://hipodromo.cl/carreras-proximos-programas
+12:35:24 | WARNING  |    ⚠️ Timeout esperando table.table-hover
+12:35:26 | DEBUG    |    📄 HTML guardado: html_dumps\HC_programas_v3.html
+12:35:26 | WARNING  |    ⚠️ No se encontraron fechas de programas
+12:35:26 | INFO     | 
+============================================================
+12:35:26 | INFO     | 🔮 CLUB HÍPICO DE SANTIAGO - PROGRAMAS
+12:35:26 | INFO     |    📅 Límite: próximas 2 jornadas
+12:35:26 | INFO     | ============================================================
+12:35:26 | INFO     |    🌐 Cargando: https://www.clubhipico.cl/carreras/programa/
+12:35:42 | WARNING  |    ⚠️ Timeout esperando table
+12:35:44 | DEBUG    |    📄 HTML guardado: html_dumps\CHS_programas_v3.html
+12:35:44 | INFO     |    📋 Fechas encontradas: 1
+12:35:44 | INFO     |       ✓ 2025-12-01 (en 1 días)
+12:35:44 | INFO     | 
+   ✅ Fechas futuras válidas: 1
+12:35:44 | INFO     |    🎯 Procesando TOP 1 jornadas:
+12:35:44 | INFO     | 
+   [1/1] 📅 2025-12-01
+12:35:44 | INFO     |    🌐 Cargando: https://www.clubhipico.cl/carreras/programa-digital/?fecha=2025-12-01
+12:35:57 | WARNING  |    ⚠️ Timeout esperando table
+12:35:59 | INFO     |        ✅ 1 carreras extraídas
+12:35:59 | INFO     | 
+   ✅ Total programas CHS: 1
+12:35:59 | INFO     | 
+   📊 ESTADÍSTICAS DE FILTRADO:
+12:35:59 | INFO     |       ✅ Procesados:        1
+12:35:59 | INFO     |       ⏮️  Filtrados antiguos: 0
+12:35:59 | INFO     |       ⏭️  Filtrados futuros:  0
+12:35:59 | INFO     | 📁 Exportado: exports\CHS_programas_20251201_20251130_123559.csv
+12:35:59 | INFO     |    📅 Fechas incluidas: 2025-12-01
+12:35:59 | INFO     | 📁 Excel exportado: exports\pista_inteligente_programas_20251201_20251130_123559.xlsx
+12:35:59 | INFO     |    📅 Fechas CHS: 2025-12-01
+12:36:01 | INFO     | 🔒 Bot cerrado

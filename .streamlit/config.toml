@@ -1,6 +1,0 @@
-[server]
-headless = true
-email = ""
-
-[browser]
-gatherUsageStats = false

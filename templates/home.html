@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio - Pista Inteligente AI{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <h1>El Futuro de la Hípica <br> es Inteligente</h1>
+    <p>
+        Utilizamos Inteligencia Artificial avanzada para analizar miles de carreras,
+        detectar patrones ocultos y entregarte las mejores probabilidades de ganar.
+    </p>
+    <a href="/programa" class="cta-button">Ver Predicciones de Hoy</a>
+</section>
+
+<div class="glass-card">
+    <div class="section-title">📊 Estadísticas en Tiempo Real</div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+        <div style="text-align: center; padding: 2rem;">
+            <h3 style="font-size: 3rem; color: var(--secondary);">{{ stats.total_carreras }}</h3>
+            <p>Carreras Analizadas</p>
+        </div>
+        <div style="text-align: center; padding: 2rem;">
+            <h3 style="font-size: 3rem; color: var(--primary);">{{ stats.aciertos_ultimo_mes }}%</h3>
+            <p>Precisión (Último Mes)</p>
+        </div>
+        <div style="text-align: center; padding: 2rem;">
+            <h3 style="font-size: 3rem; color: var(--accent);">{{ stats.dividendos_generados }}</h3>
+            <p>Dividendos Generados</p>
+        </div>
+    </div>
+</div>
+
+<div class="glass-card">
+    <div class="section-title">🏆 Top Jinetes de la Temporada</div>
+    <table class="modern-table">
+        <thead>
+            <tr>
+                <th>Jinete</th>
+                <th>Triunfos</th>
+                <th>Eficiencia</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for jinete in top_jinetes %}
+            <tr>
+                <td>{{ jinete.nombre }}</td>
+                <td>{{ jinete.triunfos }}</td>
+                <td>{{ jinete.eficiencia }}%</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

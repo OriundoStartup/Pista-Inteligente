@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}Análisis de Patrones - Pista Inteligente{% endblock %}
+
+{% block content %}
+<div class="glass-card">
+    <div class="section-title">📊 La Tercera es la Vencida (Patrones)</div>
+    <p style="color:var(--text-muted); margin-bottom:1.5rem;">
+        Caballos que han llegado 2do o 3ro en sus últimas dos carreras y podrían ganar hoy.
+    </p>
+
+    <div style="margin-bottom: 2rem;">
+        <label style="color:var(--secondary); margin-right: 1rem;">Filtrar por Hipódromo:</label>
+        <div style="display:inline-flex; gap:0.5rem;">
+            <a href="/analisis?hipodromo=Todos" class="nav-link {% if hipodromo_filter == 'Todos' %}active{% endif %}"
+                style="border:1px solid var(--border-glass)">Todos</a>
+            {% for hip in hipodromos %}
+            <a href="/analisis?hipodromo={{ hip }}" class="nav-link {% if hipodromo_filter == hip %}active{% endif %}"
+                style="border:1px solid var(--border-glass)">{{ hip }}</a>
+            {% endfor %}
+        </div>
+    </div>
+
+    {% for patron in patrones %}
+    <div class="glass-card" style="margin-bottom:1.5rem; background: rgba(0,0,0,0.3);">
+        <h3 style="color:var(--primary); margin-bottom:0.5rem;">
+            🏆 {{ patron.tipo }} <span style="font-size:0.9rem; color:var(--text-muted);">(Repetido {{ patron.veces }}
+                veces en el historial)</span>
+        </h3>
+
+        <table class="modern-table" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Puesto</th>
+                    <th>Nº</th>
+                    <th>Caballo</th>
+                    <th>Jinete</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in patron.detalle %}
+                <tr>
+                    <td>
+                        {% if item.puesto == 1 %}🥇 1º{% elif item.puesto == 2 %}🥈 2º{% elif item.puesto == 3 %}🥉 3º{%
+                        else %}{{ item.puesto }}º{% endif %}
+                    </td>
+                    <td>{{ item.numero }}</td>
+                    <td style="font-weight:bold; color:var(--text-main);">{{ item.caballo }}</td>
+                    <td>{{ item.jinete }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <div style="text-align:center; padding:3rem; color:var(--text-muted);">
+        No se encontraron combinaciones repetidas (Quinela/Trifecta) en el historial reciente.
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

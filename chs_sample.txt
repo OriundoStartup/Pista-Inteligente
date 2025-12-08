@@ -1,0 +1,6 @@
+                 hipodromo codigo_hipodromo  ... mandil  es_victoria
+0  Club Hípico de Santiago              CHS  ...     10        False
+1  Club Hípico de Santiago              CHS  ...      9        False
+2  Club Hípico de Santiago              CHS  ...      9        False
+
+[3 rows x 17 columns]

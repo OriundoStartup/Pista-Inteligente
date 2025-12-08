@@ -1,0 +1,12 @@
+12:26:04 | INFO     | 🚀 Inicializando navegador...
+12:26:06 | INFO     | ✅ Navegador listo
+12:26:06 | INFO     | 
+============================================================
+12:26:06 | INFO     | 🔮 HIPÓDROMO CHILE - PROGRAMAS
+12:26:06 | INFO     |    📅 Límite: próximas 2 jornadas
+12:26:06 | INFO     | ============================================================
+12:26:06 | INFO     |    🌐 Cargando: https://hipodromo.cl/carreras-proximos-programas
+12:26:19 | WARNING  |    ⚠️ Timeout esperando table.table-hover
+12:26:21 | DEBUG    |    📄 HTML guardado: html_dumps\HC_programas_v3.html
+12:26:21 | WARNING  |    ⚠️ No se encontraron fechas de programas
+12:26:23 | INFO     | 🔒 Bot cerrado

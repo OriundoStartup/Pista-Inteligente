@@ -1,0 +1,6 @@
+   posicion           ganador           jinete
+0         4        GRAN PIOLA  JS. VILLABLANCA
+1        13        PRIMA TOWN      JS. PAREDES
+2        14            GENIUS      V. BRACETTI
+3        11  DEBES SOBREVIVIR      JS. PAREDES
+4         1   SPECIAL MACHINE      JS. PAREDES
