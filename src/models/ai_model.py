@@ -4,6 +4,15 @@ import os
 import time
 from .data_manager import cargar_programa, obtener_analisis_jornada, obtener_estadisticas_generales
 
+def configurar_gemini():
+    """Configura la API key de Gemini desde vaariables de entorno."""
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        print("⚠️ ADVERTENCIA: GEMINI_API_KEY no encontrada en variables de entorno.")
+    else:
+        genai.configure(api_key=api_key)
+
+
 def generar_contexto_hipico():
     """Genera un string de contexto con predicciones y estadísticas."""
     contexto = []
@@ -54,7 +63,8 @@ def get_gemini_response_stream(prompt, history=[]):
         contexto_hipico = generar_contexto_hipico()
         
         # Configurar modelo
-        model = genai.GenerativeModel('gemini-2.0-flash-exp')
+        # Configurar modelo (Usando versión verificada por script)
+        model = genai.GenerativeModel('gemini-flash-latest')
         
         # System Prompt Mejorado
         system_prompt = f"""
@@ -76,14 +86,33 @@ def get_gemini_response_stream(prompt, history=[]):
         # Nota: Gemini API maneja history en start_chat object, pero flask pasa history list.
         # Por simplicidad en este MVP, inyectamos el prompt actual con el system prompt.
         
+        # Iniciar chat con reintentos
         chat = model.start_chat(history=history)
-        
         full_prompt = f"{system_prompt}\n\nPREGUNTA DEL USUARIO: {prompt}"
-        response = chat.send_message(full_prompt, stream=True)
-        
-        for chunk in response:
-            if chunk.text:
-                yield chunk.text
+
+        max_retries = 3
+        base_delay = 2
+
+        for attempt in range(max_retries):
+            try:
+                response = chat.send_message(full_prompt, stream=True)
+                for chunk in response:
+                    if chunk.text:
+                        yield chunk.text
+                break # Éxito, salir del loop de reintentos
+            
+            except Exception as e:
+                # Si es error de cuota (429) o servidor (503), reintentar
+                error_str = str(e)
+                if "429" in error_str or "503" in error_str:
+                    if attempt < max_retries - 1:
+                        sleep_time = base_delay * (2 ** attempt) # 2s, 4s, 8s
+                        yield f"⏳ Servidor ocupado, reintentando en {sleep_time}s... "
+                        time.sleep(sleep_time)
+                        continue
+                
+                # Si no es recuperable o se acabaron los intentos, lanzar
+                raise e
                 
     except Exception as e:
         yield f"⚠️ Error analizando la carrera: {str(e)}"

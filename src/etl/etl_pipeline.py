@@ -21,7 +21,7 @@ from datetime import datetime
 from typing import Optional, Dict, List, Tuple, Set
 
 # Path relativo para que funcione desde cualquier ubicación del proyecto
-DB_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'hipica_data.db')
+DB_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'data', 'db', 'hipica_data.db')
 
 # ============================================================================
 # UTILIDADES DE LIMPIEZA

@@ -298,6 +298,39 @@ body {
     border-radius: 8px;
 }
 
+/* ================= UTILITIES ================= */
+/* Dynamic Score Colors */
+.text-score-high {
+    color: #4ade80;
+}
+
+.text-score-mid {
+    color: #a78bfa;
+}
+
+.text-score-low {
+    color: #9ca3af;
+}
+
+/* Dynamic Score Bars */
+.bar-score-high {
+    background: linear-gradient(90deg, #22c55e, #4ade80);
+}
+
+.bar-score-mid {
+    background: linear-gradient(90deg, #7c3aed, #a78bfa);
+}
+
+.bar-score-low {
+    background: #4b5563;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
 /* ================= MOBILE RESPONSIVE ================= */
 @media (max-width: 768px) {
     .glass-header {

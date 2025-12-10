@@ -1,2 +1,0 @@
-﻿hipodromo,codigo_hipodromo,fecha,reunion,carrera,hora,distancia,tipo,grado,condicion,posicion,caballo,ano_nacimiento,padre
-

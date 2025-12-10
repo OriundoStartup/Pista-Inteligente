@@ -43,9 +43,33 @@
                     <td style="font-weight:600; color:var(--text-main);">{{ pred.caballo }}</td>
                     <td>{{ pred.jinete }}</td>
                     <td>
-                        <div
-                            style="background: rgba(139, 92, 246, 0.2); border-radius:4px; padding:2px 8px; display:inline-block; border:1px solid var(--primary);">
-                            🤖 {{ "%.1f"|format(pred.puntaje_ia|float) }}
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <!-- Top Pick Badge -->
+                            {% if loop.index == 1 %}
+                            <span title="Favorito de la IA" style="font-size: 1.2rem;">🥇</span>
+                            {% elif loop.index == 2 %}
+                            <span title="Segunda Opción" style="font-size: 1rem; opacity:0.8;">🥈</span>
+                            {% elif loop.index == 3 %}
+                            <span title="Tercera Opción" style="font-size: 1rem; opacity:0.8;">🥉</span>
+                            {% endif %}
+
+                            <!-- Score Visual -->
+                            <div style="flex-grow: 1; min-width: 80px;">
+                                <div
+                                    style="display: flex; justify-content: space-between; font-size: 0.8rem; margin-bottom: 2px;">
+                                    <span style="font-weight: bold; color: white;">IA Confianza</span>
+                                    <span style="font-weight: bold;"
+                                        class="{% if pred.puntaje_ia > 80 %}text-score-high{% elif pred.puntaje_ia > 50 %}text-score-mid{% else %}text-score-low{% endif %}">
+                                        {{ "%.1f"|format(pred.puntaje_ia|float) }}%
+                                    </span>
+                                </div>
+                                <div
+                                    style="background: rgba(255,255,255,0.1); height: 6px; border-radius: 10px; overflow: hidden;">
+                                    <div class="progress-fill {% if pred.puntaje_ia > 80 %}bar-score-high{% elif pred.puntaje_ia > 50 %}bar-score-mid{% else %}bar-score-low{% endif %}"
+                                        {{ ('style="width: ' ~ pred.puntaje_ia ~ '%;"') | safe }}>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </td>
                 </tr>
