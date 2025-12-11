@@ -8,6 +8,7 @@ import json
 import joblib
 import numpy as np
 from datetime import datetime
+from .features import FeatureEngineering
 
 @functools.lru_cache(maxsize=1)
 def cargar_datos(nombre_db='data/db/hipica_data.db'):
@@ -27,6 +28,7 @@ def cargar_datos(nombre_db='data/db/hipica_data.db'):
     except Exception as e:
         return pd.DataFrame()
 
+@functools.lru_cache(maxsize=4)
 def cargar_datos_3nf(nombre_db='data/db/hipica_data.db'):
     """Carga datos desde la estructura 3NF normalizada."""
     if not os.path.exists(nombre_db) and os.path.exists(f'data/db/{nombre_db}'):
@@ -114,6 +116,7 @@ def cargar_programa(nombre_db='data/db/hipica_data.db'):
     except:
         return pd.DataFrame()
 
+@functools.lru_cache(maxsize=1)
 def obtener_analisis_jornada():
     """Genera análisis usando ML."""
     df_programa = cargar_programa()
@@ -123,24 +126,33 @@ def obtener_analisis_jornada():
         
     analisis_completo = []
     
-    # Cargar modelo ML v2 si existe
+    # Cargar modelo ML v3 + Features
+    model = None
+    fe = None
     try:
-        model = joblib.load('src/models/rf_model_v2.pkl')
-        encoders = joblib.load('src/models/encoders_v2.pkl')
+        model = joblib.load('src/models/gb_model_v3.pkl')
+        fe = FeatureEngineering.load('src/models/feature_eng_v2.pkl')
         ml_available = True
     except:
         ml_available = False
     
-    # Cargar datos históricos
+    # Cargar datos históricos para features
     df_historial = cargar_datos_3nf()
     
     if not df_programa.empty:
         if 'fecha' in df_programa.columns:
             df_programa['fecha_dt'] = pd.to_datetime(df_programa['fecha'])
-            # Filtrar para mostrar SOLO la última jornada disponible (el programa más reciente)
+            # Filtrar para mostrar programas desde hoy en adelante
             if not df_programa.empty:
-                latest_date = df_programa['fecha_dt'].max()
-                df_programa = df_programa[df_programa['fecha_dt'] == latest_date]
+                today = datetime.now().strftime('%Y-%m-%d')
+                future_programs = df_programa[df_programa['fecha'] >= today]
+                
+                if not future_programs.empty:
+                    df_programa = future_programs
+                else:
+                    # Si no hay futuros, mostrar el último disponible (fallback)
+                    latest_date = df_programa['fecha_dt'].max()
+                    df_programa = df_programa[df_programa['fecha_dt'] == latest_date]
 
             
     if 'numero' in df_programa.columns and not df_programa.empty:
@@ -157,20 +169,25 @@ def obtener_analisis_jornada():
             # Extract context for ML
             distancia_val = grupo.iloc[0]['distancia'] 
             try:
-                # Convert '1.200' -> 1200 if needed
                 distancia_val = float(str(distancia_val).replace('.','')) if isinstance(distancia_val, str) else float(distancia_val)
             except:
                 distancia_val = 1100.0
 
             fecha_val = grupo.iloc[0]['fecha']
-            # Pista guessing (Usually hardcoded or from track name, we'll pass generic if missing)
-            pista_val = grupo.iloc[0].get('condicion', 'ARENA') # Or 'pista' column if exists
+            pista_val = grupo.iloc[0].get('condicion', 'ARENA')
+            
+            # Context dict
+            ctx = {
+                'distancia': distancia_val,
+                'fecha': fecha_val,
+                'pista': pista_val,
+                'hipodromo': hipodromo
+            }
 
             if ml_available and not df_historial.empty:
-                # Usar historial 3NF cargado
-                predicciones = analizar_probabilidad_caballos(caballos_df, df_historial, model=model, encoders=encoders, context={'distancia': distancia_val, 'fecha': fecha_val, 'pista': pista_val})
+                predicciones = analizar_probabilidad_caballos(caballos_df, df_historial, model=model, fe=fe, context=ctx)
             else:
-                predicciones = analizar_probabilidad_caballos(caballos_df, df_historial)
+                predicciones = analizar_probabilidad_caballos(caballos_df, df_historial, model=None, fe=None, context=ctx)
             
             caballos_df.columns = ['Nº', 'Caballo', 'Jinete', 'Stud', 'Peso']
             
@@ -187,130 +204,138 @@ def obtener_analisis_jornada():
     analisis_completo.sort(key=lambda x: (x['fecha'], x['hipodromo'], x['carrera']))
     return analisis_completo
 
-def analizar_probabilidad_caballos(caballos_df, historial_resultados, model=None, encoders=None, context=None):
+def analizar_probabilidad_caballos(caballos_df, historial_resultados, model=None, fe=None, context=None):
     """Analiza probabilidades usando ML + Heurística híbrida."""
     if historial_resultados.empty or caballos_df.empty:
         return []
 
     predicciones = []
     
-    # Pre-calcular stats globales para eficiencia (Optimización)
-    jockey_stats = {}
-    if model:
-        try:
-            # Simple global stats
-            grp_j = historial_resultados.groupby('jinete_id')
-            jockey_stats = {
-                'wins': grp_j['posicion'].apply(lambda x: (x==1).sum()),
-                'total': grp_j['posicion'].count()
-            }
-        except:
-            pass
-
-    # Contexto
+    # 1. Prepare Input for FeatureEngineering
+    # We need to construct a DF that looks like 'get_raw_data' result but for the current race candidates.
+    # We essentially need to find their history to calc lag features.
+    
+    # Optimization: Filter history to only relevant horses/jockeys to speed up lookups
+    # But for now, we pass full history to 'fe' or let 'fe' handle it? 
+    # Current 'fe.transform' expects a DF with history COLUMNS pre-calculated if logic is complex
+    # OR it calculates them from the rows provided. 
+    
+    # Problem: 'fe.transform' calculates rolling stats on the PROVIDED df.
+    # If we provide a DF with just 1 row per horse (current race), rolling stats will be NaN or 0.
+    # WE NEED TO APPEND CURRENT RACE TO HISTORY TO CALC ROLLING, THEN PREDICT ON LAST ROW.
+    
+    # Strategy:
+    # For each horse in current race:
+    # 1. Get its history from historial_resultados
+    # 2. Append a "current" row with race context (dist, pista, etc)
+    # 3. Call fe.transform on this combined small DF
+    # 4. Extract the last row (the current prediction input)
+    
+    # Context
     distancia = context.get('distancia', 1000) if context else 1000
     fecha_carrera = pd.to_datetime(context.get('fecha', datetime.now())) if context else datetime.now()
     pista = context.get('pista', 'ARENA') if context else 'ARENA'
+    
+    # Pre-filter history
+    relevant_horses = set(caballos_df['nombre'].values)
+    # We match by Name because ID might be missing in program or distinct.
+    # Ideally should use ID. Assuming 'nombre' is key.
+    
+    # Create rows for batch prediction
+    batch_rows = []
+    horse_indices = []
 
-    for _, row in caballos_df.iterrows():
-        try:
-            val_num = row.get('numero') if 'numero' in row else row.get('Nº', 0)
-            numero = int(val_num)
-        except:
-            numero = 0
-            
-        nombre = row.get('nombre') if 'nombre' in row else row.get('Caballo', f"Caballo {numero}")
-        jinete = row.get('jinete') if 'jinete' in row else row.get('Jinete', "Jinete")
+    for idx, row in caballos_df.iterrows():
+        nombre = row.get('nombre')
+        val_num = row.get('numero', 0)
+        jinete_nombre = row.get('jinete', 'Jinete')
+        peso_val = row.get('peso', 470)
         
-        # --- 1. Heuristic Score (Base Layer) ---
+        # Heuristic Score (legacy fallback/hybrid factor)
         heuristic_score = 50.0
-        caballo_hist = historial_resultados[historial_resultados['caballo'] == nombre]
+        # Find horse checks
+        caballo_hist = historial_resultados[historial_resultados['caballo'] == nombre].sort_values('fecha')
         
         if not caballo_hist.empty:
-            victorias = len(caballo_hist[caballo_hist['posicion'] == 1])
-            heuristic_score += (victorias * 4.0)
-            top3 = len(caballo_hist[caballo_hist['posicion'] <= 3])
-            heuristic_score += (top3 * 2.0)
-            # Recent form
-            last_3 = caballo_hist.head(3)
-            if not last_3.empty:
-                avg_pos = last_3['posicion'].mean()
-                if avg_pos <= 3: heuristic_score += 15
-                elif avg_pos <= 6: heuristic_score += 5
+            # Simple stats for legacy score
+            wins = len(caballo_hist[caballo_hist['posicion'] == 1])
+            heuristic_score += (wins * 2.0)
         else:
             heuristic_score = 45.0 # Debutante
 
-        heuristic_score = max(10.0, min(99.0, heuristic_score))
+        # ML Prep
+        if model and fe:
+            # Construct a row representing this race attempt
+            # We need to map columns expected by 'fe.transform' logic IF it runs full calculation
+            # But 'fe.transform' expects raw SQL columns: 
+            # [posicion, mandil, tiempo, peso_fs, dividendo, caballo_id, jinete_id, fecha, hipodromo_id, distancia, pista, condicion]
+            
+            # We fake dummy IDs if needed or use name-based lookups if we refactored FE to use names?
+            # FE uses 'caballo_id', 'jinete_id'.
+            # We must map names to IDs from history.
+            
+            c_id = 0
+            j_id = 0
+            if not caballo_hist.empty:
+                c_id = caballo_hist.iloc[0]['caballo_id']
+                
+            # Find Jinete ID
+            j_hist = historial_resultados[historial_resultados['jinete'] == jinete_nombre]
+            if not j_hist.empty:
+                j_id = j_hist.iloc[0]['jinete_id']
 
-        # --- 2. ML Prediction (Intelligence Layer) ---
-        ml_prob = 0.0
-        if model and not caballo_hist.empty:
+            # Create the "Current" row
+            # Note: 'posicion', 'tiempo', 'dividendo' are unknown (Target), set to NaN or 0
+            current_row = {
+                'fecha': fecha_carrera,
+                'caballo_id': c_id,
+                'jinete_id': j_id,
+                'distancia': distancia,
+                'pista': pista,
+                'peso_fs': peso_val,
+                'mandil': val_num,
+                'tiempo': 0, # Unknown
+                'posicion': 0, # Unknown
+                'is_win': 0 # Unknown
+            }
+            
+            # Combine history + current
+            # We need strictly the columns that 'fe' uses for grouping
+            cols_needed = ['fecha', 'caballo_id', 'jinete_id', 'distancia', 'pista', 'peso_fs', 'mandil', 'tiempo', 'posicion']
+            
+            # Reduce history to needed cols
+            h_subset = caballo_hist[cols_needed].copy()
+            # Append current
+            h_subset = pd.concat([h_subset, pd.DataFrame([current_row])], ignore_index=True)
+            
+            # Run FE
+            # Note: calculating for just one horse is fast enough
             try:
-                # Build Feature Vector matching train_v2.py
-                # ['days_rest', 'avg_pos_3', 'win_rate', 'races_count', 'jockey_eff', 'distancia', 'avg_speed_3', 'pista_encoded', 'mandil']
-                
-                # Days Rest
-                last_date = pd.to_datetime(caballo_hist.iloc[0]['fecha'])
-                days_rest = (fecha_carrera - last_date).days
-                if days_rest < 0: days_rest = 30 # Data error fix
-                
-                # Avg Pos 3
-                avg_pos_3 = caballo_hist.head(3)['posicion'].mean()
-                if pd.isna(avg_pos_3): avg_pos_3 = 8.0
-                
-                # Win Rate
-                wins = len(caballo_hist[caballo_hist['posicion'] == 1])
-                cnt = len(caballo_hist)
-                win_rate = wins / cnt if cnt > 0 else 0
-                
-                # Jockey Eff (Approximate by name lookup if ID missing in df or using ID column)
-                # Assuming 'jinete_id' in history matches... but we might just use name to find ID
-                # Simplification: use global avg if not found easily
-                # Let's try to find jinete in history
-                j_eff = 0.1
-                # (Skipping complex lookup for speed reliability in this step, defaulting to .10)
-                
-                # Avg Speed
-                # Need to parse times. Expensive loop. Skip or simple approx.
-                avg_speed_3 = 14.0 # Default placeholder for robust inference
-                
-                # Encode Pista
-                p_enc = 0
-                if encoders and 'pista' in encoders:
-                    try:
-                        p_enc = encoders['pista'].transform([str(pista)])[0]
-                    except:
-                        p_enc = 0
-
-                features = np.array([[
-                    days_rest, avg_pos_3, win_rate, cnt,
-                    j_eff, distancia, avg_speed_3, p_enc, numero
-                ]])
+                # Transform constructs features including rolling windows
+                # The last row is our target
+                feats = fe.transform(h_subset, is_training=False)
+                last_feat = feats.iloc[-1:].copy()
                 
                 # Predict
-                ml_prob = model.predict_proba(features)[0][1] # Probability of Class 1 (Win)
+                prob = model.predict_proba(last_feat)[0][1]
+                ml_score = prob * 100 * 2.5 # Scale roughly
+                ml_score = min(99, ml_score)
                 
             except Exception as e:
                 # print(f"ML Error for {nombre}: {e}")
-                ml_prob = 0.0
-        
-        # --- 3. Blending (Hybrid AI) ---
-        # Si ML tiene confianza alta, pesa más.
-        # Score final (0-100)
-        # ML Prob (0.0 - 0.5 usually for multi-class/hard problems) -> Scale to 0-100
-        # A good horse might have 20-30% win prob in a 15 horse race.
-        
-        ml_score = ml_prob * 300 # Scale 0.33 -> 100 roughly
-        ml_score = min(100, ml_score)
-        
-        final_score = (heuristic_score * 0.4) + (ml_score * 0.6)
+                ml_score = 50.0 # Neural fallback
+        else:
+             ml_score = 50.0
+
+        # Hybrid
+        final_score = (heuristic_score * 0.3) + (ml_score * 0.7)
         
         predicciones.append({
-            'numero': numero,
+            'numero': int(val_num),
             'caballo': nombre,
-            'jinete': jinete,
+            'jinete': jinete_nombre,
             'puntaje_ia': round(final_score, 1),
-            'prob_ml': f"{ml_prob*100:.1f}%" # Debug info
+            'prob_ml': f"{ml_score:.1f}"
         })
         
     predicciones.sort(key=lambda x: x['puntaje_ia'], reverse=True)
@@ -358,8 +383,6 @@ def obtener_patrones_la_tercera(hipodromo_filtro=None):
         
         # Extract data
         caballos = top4['caballo'].tolist()
-        # jinetes = top4['jinete'].tolist()
-        # numeros = top4['mandil'].tolist()
         
         # Quinela (Top 2 - Any Order for Box, but let's check Exacta for now or sorted tuple)
         # User said "Quinela", usually 1-2 any order.
@@ -401,15 +424,15 @@ def obtener_patrones_la_tercera(hipodromo_filtro=None):
         return None
 
     for sig, count in quinelas.items():
-        p = pack_patron(sig, count, 'Quinela (2 aciertos)')
+        p = pack_patron(sig, count, 'Quinela Repetida (2 Aciertos)')
         if p: patrones.append(p)
 
     for sig, count in trifectas.items():
-        p = pack_patron(sig, count, 'Trifecta (3 aciertos)')
+        p = pack_patron(sig, count, 'Trifecta Repetida (3 Aciertos)')
         if p: patrones.append(p)
         
     for sig, count in superfectas.items():
-        p = pack_patron(sig, count, 'Superfecta (4 aciertos)')
+        p = pack_patron(sig, count, 'Superfecta Repetida (4 Aciertos)')
         if p: patrones.append(p)
 
     # Sort by count desc
@@ -460,3 +483,4 @@ def obtener_estadisticas_generales():
     except Exception as e:
         print(f"Error calculando estadisticas: {e}")
         return {'jinetes': [], 'caballos': [], 'pistas': [], 'total_carreras': 0}
+

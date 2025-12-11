@@ -1,0 +1,27 @@
+# gcloud ignore file - Overrides .gitignore for deployment
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment & Secrets (Be careful generally, but we need DB)
+.env
+.venv
+venv/
+env/
+
+# Git
+.git
+.gitignore
+.github
+
+# Editor
+.vscode
+.idea
+
+# Exclude large exports if not needed
+exports/
+
+# IMPORTANT: We do NOT exclude *.db here because we need the SQLite DB in Cloud Run

@@ -1,0 +1,25 @@
+# Archivos de entorno y secretos
+.env
+.venv
+venv/
+env/
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git
+.git
+.gitignore
+
+# Archivos de sistema
+.DS_Store
+
+# Archivos de IDE
+.vscode/
+
+# Datos locales que no deberían subir (opcional, depende de tu app)
+# data/
+# exports/

@@ -11,10 +11,32 @@ def is_port_in_use(port):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         return s.connect_ex(('localhost', port)) == 0
 
+def kill_server_on_port(port):
+    """Mata el proceso que ocupa el puerto especificado (Windows/Linux)"""
+    import signal
+    print(f"🔄 Intentando liberar puerto {port}...")
+    try:
+        if sys.platform == 'win32':
+            # Buscar PID usando netstat
+            cmd = f'netstat -ano | findstr :{port}'
+            result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+            lines = result.stdout.strip().split('\n')
+            for line in lines:
+                parts = line.split()
+                if len(parts) > 4:
+                    pid = parts[-1]
+                    print(f"   -> Matando proceso PID {pid}...")
+                    subprocess.run(f'taskkill /F /PID {pid}', shell=True, capture_output=True)
+        else:
+            # Linux/Mac logic (fuser/lsof could be used, or simple killall python)
+            pass
+    except Exception as e:
+        print(f"⚠️ No se pudo liberar puerto: {e}")
+
 def main():
     print("""
     ==================================================
-       🏇 SISTEMA DE HÍPICA INTELIGENTE - SYNC V2 🏇
+       🏇 SISTEMA DE HÍPICA INTELIGENTE - SYNC V2.1 🏇
     ==================================================
     DETECTANDO ARCHIVOS EN /exports...
     """)
@@ -40,12 +62,11 @@ def main():
         elapsed = time.time() - start_time
         print(f"\n✅ SINCRONIZACIÓN COMPLETADA en {elapsed:.2f} segundos.")
         print(" -> La Base de Datos ha sido actualizada.")
-        print(" -> Modelos de Predicción (Random Forest): ACTUALIZADOS.")
+        print(" -> Modelos de Predicción (V3 - HistGradientBoosting): ACTUALIZADOS.")
         
         # 3. Abrir Vista
-        print("\n[PASO 3/3] Iniciando/Verificando Servidor Web...")
+        print("\n[PASO 3/3] Reiniciando Servidor Web (para aplicar cambios)...")
         
-        # Abrir navegador automáticamente
         target_port = 5000
         try:
             port_env = os.environ.get("PORT")
@@ -54,22 +75,23 @@ def main():
         except:
             target_port = 5000
 
+        # FORCE RESTART: Kill old process to clear cache
+        kill_server_on_port(target_port)
+        time.sleep(2) # Esperar a que se libere
+
         url = f"http://localhost:{target_port}"
+        print(f"[INFO] Iniciando servidor web en {url}...")
         
-        # Verificar si el servidor ya esta corriendo
-        if is_port_in_use(target_port):
-            print(f"[INFO] Servidor detectado en puerto {target_port}. Abriendo navegador...")
-            webbrowser.open(url)
-        else:
-            print(f"[INFO] Servidor NO detectado. Iniciando servidor web...")
-            webbrowser.open(url) # Abrimos antes para que cargue cuando levante
-            try:
-                # Ejecutar app.py
-                subprocess.run([sys.executable, "app.py"], check=True)
-            except KeyboardInterrupt:
-                print("\n[INFO] Servidor detenido por usuario.")
-            except Exception as e:
-                print(f"[ERROR] No se pudo iniciar el servidor: {e}")
+        # Abrir navegador
+        webbrowser.open(url)
+        
+        # Iniciar servidor
+        try:
+            subprocess.run([sys.executable, "app.py"], check=True)
+        except KeyboardInterrupt:
+            print("\n[INFO] Servidor detenido por usuario.")
+        except Exception as e:
+            print(f"[ERROR] No se pudo iniciar el servidor: {e}")
 
     except Exception as e:
         print(f"\n❌ ERROR CRÍTICO: {e}")

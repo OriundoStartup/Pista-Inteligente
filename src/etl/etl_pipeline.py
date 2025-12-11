@@ -70,7 +70,7 @@ class DataCleaner:
         if pd.isna(tiempo_str) or not tiempo_str:
             return None
         tiempo = DataCleaner.clean_text(tiempo_str)
-        if tiempo and re.match(r'\d+:\d+', tiempo):
+        if tiempo and re.match(r'[\d\.:]+', tiempo):
             return tiempo
         return None
     
@@ -335,7 +335,7 @@ class HipicaETL:
 
         # Detectar tipo y Metadatos del nombre del archivo
         # Formato esperado: PROGRAMA_CODIGO_YYYY-MM-DD.csv
-        is_program = 'programa' in filename.lower()
+        is_program = 'progr' in filename.lower()
         
         # Normalizar nombres de columnas (Map headers)
         # Soporta formatos CHC (Cab. N°), VSC (Numero) y HC (Carrera_Nro)
@@ -365,7 +365,8 @@ class HipicaETL:
             'distancia': 'distancia',
             'Hora': 'hora',
             'hora': 'hora',
-            'Tiempo': 'hora',
+            'Tiempo': 'tiempo',
+            'tiempo': 'tiempo',
             'Haras_Stud': 'stud',
             'Stud': 'stud',
             'stud': 'stud',
@@ -387,6 +388,11 @@ class HipicaETL:
         
         # Eliminar columnas duplicadas si existen
         df = df.loc[:, ~df.columns.duplicated()]
+
+        # Fix: Si falta la columna 'numero' (caso CHC 2025-12-12), generarla secuencialmente por carrera
+        if 'numero' not in df.columns and 'carrera' in df.columns:
+            print("⚠️ Columna 'numero' no detectada. Generando secuencia automática por carrera...")
+            df['numero'] = df.groupby('carrera').cumcount() + 1
 
         # Mapeo de Codigos
         hipodromos_k = {
@@ -515,6 +521,11 @@ class HipicaETL:
             item['posicion'] = DataCleaner.clean_numero(row.get('posicion'))
             item['peso_fs'] = DataCleaner.clean_decimal(row.get('peso_fs'))
             item['dividendo'] = DataCleaner.clean_decimal(row.get('dividendo'))
+            # Debug
+            # if _ < 5 and (row.get('tiempo') is not None): 
+            #      print(f"DEBUG TIME ROW: {row.get('tiempo')}")
+            
+            item['tiempo'] = DataCleaner.clean_tiempo(row.get('tiempo'))
             item['mandil'] = DataCleaner.clean_numero(row.get('mandil')) 
             
             if not item['fecha'] or not item['hipodromo_txt'] or not item['caballo_txt']:
@@ -584,15 +595,15 @@ class HipicaETL:
             # Agregar a batch participaciones
             participaciones_batch.append((
                 carrera_id, caballo_id, jinete_id, stud_id,
-                item['posicion'], item['peso_fs'], item['dividendo'], item['mandil']
+                item['posicion'], item['peso_fs'], item['dividendo'], item['mandil'], item['tiempo']
             ))
             
         # Paso 5: Bulk Insert Participaciones
         if participaciones_batch:
             self.cursor.executemany('''
                 INSERT OR IGNORE INTO participaciones 
-                (carrera_id, caballo_id, jinete_id, stud_id, posicion, peso_fs, dividendo, mandil)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                (carrera_id, caballo_id, jinete_id, stud_id, posicion, peso_fs, dividendo, mandil, tiempo)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
             ''', participaciones_batch)
             self.conn.commit()
             print(f"   ✅ {len(participaciones_batch)} participaciones procesadas.")

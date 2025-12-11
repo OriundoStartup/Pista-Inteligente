@@ -30,7 +30,7 @@ def generar_contexto_hipico():
                     nombres = [f"{p['caballo']} (Score: {int(p['puntaje_ia'])})" for p in top_preds]
                     pred_str = ", ".join(nombres)
                 
-                contexto.append(f"- {carrera['hipodromo']} Carrera {carrera['nro_carrera']} ({carrera['distancia']}): Favoritos IA -> {pred_str}")
+                contexto.append(f"- {carrera['hipodromo']} Carrera {carrera['carrera']} ({carrera['distancia']}): Favoritos IA -> {pred_str}")
         else:
             contexto.append("No hay un programa cargado actualmente.")
     except Exception as e:

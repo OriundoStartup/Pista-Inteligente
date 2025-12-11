@@ -92,6 +92,26 @@ body {
     text-shadow: 0 0 10px var(--primary-glow);
 }
 
+/* ================= HERO BANNER (Cabecera) ================= */
+.hero-banner {
+    width: 100%;
+    max-height: 160px;
+    overflow: hidden;
+    background: linear-gradient(180deg, #0f172a 0%, rgba(15, 23, 42, 0.95) 100%);
+    border-bottom: 1px solid var(--border-glass);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-banner-img {
+    width: 100%;
+    max-height: 160px;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(0.95) contrast(1.05);
+}
+
 /* ================= HERO SECTION ================= */
 .hero {
     min-height: 80vh;
@@ -143,7 +163,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem 2rem;
 }
 
 .glass-card {

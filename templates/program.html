@@ -21,7 +21,7 @@
     {% for carrera in analisis %}
     <div class="glass-card" style="margin-bottom: 1rem; border-left: 4px solid var(--primary);">
         <h3 style="color:white; margin-bottom:0.5rem;">
-            {{ carrera.hipodromo }} - Carrera {{ carrera.nro_carrera }}
+            {{ carrera.hipodromo }} - Carrera {{ carrera.carrera }}
             <span style="font-size:0.8rem; color:var(--text-muted); float:right">
                 📅 {{ carrera.fecha }} | 🕒 {{ carrera.hora }} | 🏁 {{ carrera.distancia }}m
             </span>
@@ -76,6 +76,15 @@
                 {% endfor %}
             </tbody>
         </table>
+        
+        <!-- Ad Unit: Sponsored Prediction (Direct Ads) -->
+        <div style="margin-top: 1rem; padding: 0.5rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center;">
+            <p style="margin:0; font-size: 0.8rem; color: var(--text-muted);">
+                Pronóstico auspiciado por: 
+                <span style="color: var(--secondary); font-weight: bold;">[TU MARCA AQUÍ]</span>
+            </p>
+            <a href="mailto:juancamposgomez80@gmail.com" style="font-size: 0.75rem; color: var(--text-muted); text-decoration: none;">Cotizar este espacio 📧</a>
+        </div>
     </div>
     {% else %}
     <div style="text-align:center; padding:3rem; color:var(--text-muted);">

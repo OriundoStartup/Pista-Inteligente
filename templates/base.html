@@ -18,7 +18,7 @@
     <meta name="description"
         content="Predicciones hípicas con Inteligencia Artificial. Análisis avanzado para Hipódromo Chile y Club Hípico.">
     <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5579178295407019"
         crossorigin="anonymous"></script>
 </head>
 
@@ -41,16 +41,15 @@
     </header>
 
     <!-- Brand Header Image (Cabecera) -->
-    <div class="container" style="padding-bottom:0; text-align:center;">
+    <div class="hero-banner">
         <img src="{{ url_for('static', filename='img/header_brand.png') }}" alt="Cabecera Pista Inteligente"
-            style="width:100%; max-width:1200px; height:auto; border-radius:12px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+            class="hero-banner-img">
     </div>
 
-    <!-- Ad Unit: Top Banner -->
-    <!-- Ad Unit: Top Banner -->
+    <!-- Top Banner: Google AdSense -->
     <div class="container" style="text-align: center; margin-bottom: 1rem;">
-        <!-- Pista Inteligente Top Responsive -->
-        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+        <!-- AdSense Display Unit -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5579178295407019"
             data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
@@ -61,21 +60,23 @@
     <main class="container">
         {% block content %}{% endblock %}
 
-        <!-- Ad Unit: Bottom Banner -->
-        <!-- Ad Unit: Bottom Banner -->
+        <!-- Bottom Banner: Google AdSense -->
         <div class="container" style="text-align: center; margin-top: 3rem;">
-            <!-- Pista Inteligente Bottom Responsive -->
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-                data-ad-slot="0987654321" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <!-- AdSense Display Unit -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5579178295407019"
+                data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </div>
 
-        <!-- Ad Unit: Extra Text Ad -->
-        <div class="glass-card"
-            style="text-align:center; padding:1rem; margin-top:1rem; border:1px dashed var(--secondary);">
-            <p style="color:var(--text-muted); font-size:0.9rem;">Espacio Publicitario Patrocinado</p>
+        <!-- Sidebar/Extra: Google AdSense -->
+        <div style="text-align:center; margin-top:1rem;">
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5579178295407019"
+                data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </div>
     </main>
 

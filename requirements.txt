@@ -11,3 +11,4 @@ python-dotenv
 lxml
 numpy
 plotly
+gunicorn
