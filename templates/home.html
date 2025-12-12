@@ -16,15 +16,21 @@
     <div class="section-title">📊 Estadísticas en Tiempo Real</div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
         <div style="text-align: center; padding: 2rem;">
-            <h3 style="font-size: 3rem; color: var(--secondary);">{{ stats.total_carreras }}</h3>
+            <span class="stat-number"
+                style="font-size: 3rem; color: var(--secondary); display: block; font-weight: 800;">{{
+                stats.total_carreras }}</span>
             <p>Carreras Analizadas</p>
         </div>
         <div style="text-align: center; padding: 2rem;">
-            <h3 style="font-size: 3rem; color: var(--primary);">{{ stats.aciertos_ultimo_mes }}%</h3>
+            <span class="stat-number"
+                style="font-size: 3rem; color: var(--primary); display: block; font-weight: 800;">{{
+                stats.aciertos_ultimo_mes }}%</span>
             <p>Precisión (Último Mes)</p>
         </div>
         <div style="text-align: center; padding: 2rem;">
-            <h3 style="font-size: 3rem; color: var(--accent);">{{ stats.dividendos_generados }}</h3>
+            <span class="stat-number"
+                style="font-size: 3rem; color: var(--accent); display: block; font-weight: 800;">{{
+                stats.dividendos_generados }}</span>
             <p>Dividendos Generados</p>
         </div>
     </div>

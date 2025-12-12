@@ -20,12 +20,12 @@
 
     {% for carrera in analisis %}
     <div class="glass-card" style="margin-bottom: 1rem; border-left: 4px solid var(--primary);">
-        <h3 style="color:white; margin-bottom:0.5rem;">
+        <h2 style="color:white; margin-bottom:0.5rem; font-size: 1.25rem;">
             {{ carrera.hipodromo }} - Carrera {{ carrera.carrera }}
             <span style="font-size:0.8rem; color:var(--text-muted); float:right">
                 📅 {{ carrera.fecha }} | 🕒 {{ carrera.hora }} | 🏁 {{ carrera.distancia }}m
             </span>
-        </h3>
+        </h2>
 
         <table class="modern-table">
             <thead>
