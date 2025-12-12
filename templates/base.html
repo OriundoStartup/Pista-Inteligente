@@ -20,6 +20,43 @@
     <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5579178295407019"
         crossorigin="anonymous"></script>
+
+    <!-- Firebase SDK (Analytics + Performance) -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+        import { getPerformance } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-performance.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyCEKzonZpbAMEDML3noTJbxg3Zr89Ojp7k",
+            authDomain: "pista-inteligente.firebaseapp.com",
+            projectId: "pista-inteligente",
+            storageBucket: "pista-inteligente.firebasestorage.app",
+            messagingSenderId: "286245664040",
+            appId: "1:286245664040:web:d4b9f31c39e7de909c0c1d",
+            measurementId: "G-ZPL096F6VZ"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+
+        // Analytics - rastrea usuarios y eventos
+        const analytics = getAnalytics(app);
+
+        // Performance Monitoring - mide tiempos de carga
+        const perf = getPerformance(app);
+
+        // Log page view event
+        logEvent(analytics, 'page_view', {
+            page_title: document.title,
+            page_location: window.location.href,
+            page_path: window.location.pathname
+        });
+
+        // Make analytics available globally for custom events
+        window.firebaseAnalytics = analytics;
+        window.logFirebaseEvent = (eventName, params) => logEvent(analytics, eventName, params);
+    </script>
 </head>
 
 <body>
