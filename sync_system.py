@@ -64,38 +64,60 @@ def main():
         print(" -> La Base de Datos ha sido actualizada.")
         print(" -> Modelos de Predicción (V3 - HistGradientBoosting): ACTUALIZADOS.")
         
-        # 3. Abrir Vista
-        print("\n[PASO 3/3] Reiniciando Servidor Web (para aplicar cambios)...")
-        
-        target_port = 5000
-        try:
-            port_env = os.environ.get("PORT")
-            if port_env:
-                target_port = int(port_env)
-        except:
-            target_port = 5000
-
-        # FORCE RESTART: Kill old process to clear cache
-        kill_server_on_port(target_port)
-        time.sleep(2) # Esperar a que se libere
-
-        url = f"http://localhost:{target_port}"
-        print(f"[INFO] Iniciando servidor web en {url}...")
-        
-        # Abrir navegador
-        webbrowser.open(url)
-        
-        # Iniciar servidor
-        try:
-            subprocess.run([sys.executable, "app.py"], check=True)
-        except KeyboardInterrupt:
-            print("\n[INFO] Servidor detenido por usuario.")
-        except Exception as e:
-            print(f"[ERROR] No se pudo iniciar el servidor: {e}")
+        # 3. Deploy a Cloud Run (Firebase)
+        print("\n[PASO 3/3] Desplegando a Cloud Run (Firebase)...")
+        deploy_to_cloud_run()
 
     except Exception as e:
         print(f"\n❌ ERROR CRÍTICO: {e}")
         input("Presiona Enter para salir...")
 
+def deploy_to_cloud_run():
+    """Despliega la aplicación a Google Cloud Run"""
+    try:
+        # Commit cambios a Git primero
+        print("   📦 Commiteando cambios a Git...")
+        subprocess.run(["git", "add", "."], cwd=os.path.dirname(__file__) or ".", check=False)
+        subprocess.run(
+            ["git", "commit", "-m", "sync: Actualización automática de datos y modelos"],
+            cwd=os.path.dirname(__file__) or ".",
+            check=False,
+            capture_output=True
+        )
+        subprocess.run(["git", "push"], cwd=os.path.dirname(__file__) or ".", check=False)
+        print("   ✅ Cambios pusheados a GitHub")
+        
+        # Desplegar a Cloud Run
+        print("   🚀 Desplegando a Cloud Run...")
+        result = subprocess.run(
+            [
+                "gcloud", "run", "deploy", "pista-inteligente",
+                "--source", ".",
+                "--region", "us-central1",
+                "--allow-unauthenticated",
+                "--quiet"
+            ],
+            cwd=os.path.dirname(__file__) or ".",
+            capture_output=True,
+            text=True
+        )
+        
+        if result.returncode == 0:
+            print("   ✅ DEPLOY EXITOSO a Cloud Run!")
+            # Extraer URL del output
+            for line in result.stdout.split('\n'):
+                if 'https://' in line:
+                    print(f"   🌐 URL: {line.strip()}")
+                    break
+        else:
+            print(f"   ⚠️ Advertencia en deploy: {result.stderr[:200] if result.stderr else 'Sin detalles'}")
+            
+    except FileNotFoundError:
+        print("   ⚠️ gcloud CLI no encontrado. Instálalo para deploy automático.")
+        print("   💡 Tip: Puedes hacer deploy manual con 'gcloud run deploy'")
+    except Exception as e:
+        print(f"   ❌ Error en deploy: {e}")
+
 if __name__ == "__main__":
     main()
+
