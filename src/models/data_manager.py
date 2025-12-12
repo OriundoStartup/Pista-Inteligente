@@ -116,7 +116,6 @@ def cargar_programa(nombre_db='data/db/hipica_data.db'):
     except:
         return pd.DataFrame()
 
-@functools.lru_cache(maxsize=1)
 def obtener_analisis_jornada():
     """Genera análisis usando ML."""
     df_programa = cargar_programa()
