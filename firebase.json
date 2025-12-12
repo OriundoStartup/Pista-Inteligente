@@ -1,5 +1,6 @@
 {
     "hosting": {
+        "site": "pista-inteligente",
         "public": "static",
         "ignore": [
             "firebase.json",
