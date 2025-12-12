@@ -3,6 +3,28 @@
 {% block title %}Programa y Predicciones - Pista Inteligente{% endblock %}
 
 {% block content %}
+<!-- Tarjetas de Resumen -->
+<div class="glass-card" style="margin-bottom: 1.5rem;">
+    <div
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; text-align: center;">
+        <div style="padding: 1.5rem;">
+            <span style="font-size: 2.5rem; color: var(--secondary); display: block; font-weight: 800;">{{
+                stats.total_carreras }}</span>
+            <p style="color: var(--text-muted); margin: 0;">🏁 Carreras Programadas</p>
+        </div>
+        <div style="padding: 1.5rem;">
+            <span style="font-size: 2.5rem; color: var(--primary); display: block; font-weight: 800;">{{
+                stats.total_caballos }}</span>
+            <p style="color: var(--text-muted); margin: 0;">🏇 Caballos en Competencia</p>
+        </div>
+        <div style="padding: 1.5rem;">
+            <span style="font-size: 2.5rem; color: var(--accent); display: block; font-weight: 800;">📅</span>
+            <p style="color: var(--text-main); margin: 0; font-weight: 600;">{{ stats.fecha_principal }}</p>
+            <p style="color: var(--text-muted); margin: 0; font-size: 0.85rem;">Próxima Jornada</p>
+        </div>
+    </div>
+</div>
+
 <div class="glass-card">
     <div class="section-title">🔮 Predicciones de Inteligencia Artificial</div>
 

@@ -52,7 +52,20 @@ def programa():
         if isinstance(carrera['caballos'], pd.DataFrame):
              carrera['caballos'] = carrera['caballos'].to_dict('records')
 
-    return render_template('program.html', analisis=analisis, hipodromo_filter=hipodromo_filter)
+    # Calcular estadísticas de resumen
+    total_carreras = len(analisis)
+    total_caballos = sum(len(c.get('predicciones', [])) for c in analisis)
+    fechas_unicas = list(set(c.get('fecha', '') for c in analisis if c.get('fecha')))
+    fechas_unicas.sort(reverse=True)
+    
+    stats_resumen = {
+        'total_carreras': total_carreras,
+        'total_caballos': total_caballos,
+        'fechas': fechas_unicas,
+        'fecha_principal': fechas_unicas[0] if fechas_unicas else 'Sin fecha'
+    }
+
+    return render_template('program.html', analisis=analisis, hipodromo_filter=hipodromo_filter, stats=stats_resumen)
 
 @app.route('/analisis')
 def analisis():
