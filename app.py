@@ -1,15 +1,26 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, g
 import pandas as pd
 from src.models.data_manager import cargar_datos, obtener_analisis_jornada, obtener_patrones_la_tercera, obtener_estadisticas_generales, obtener_lista_hipodromos
-from src.models.ai_model import configurar_gemini, get_gemini_response_stream
 import os
 from dotenv import load_dotenv
 
 app = Flask(__name__)
 
-# Configuración
-load_dotenv() # Carga variables del archivo .env
-configurar_gemini()
+# Configuración básica (rápida)
+load_dotenv()
+
+# ==================== LAZY INITIALIZATION ====================
+# Heavy operations are deferred to first request to minimize cold start time
+
+_gemini_configured = False
+
+def _ensure_gemini_configured():
+    """Lazy configuration of Gemini - only when first needed."""
+    global _gemini_configured
+    if not _gemini_configured:
+        from src.models.ai_model import configurar_gemini
+        configurar_gemini()
+        _gemini_configured = True
 
 @app.context_processor
 def inject_global_vars():
@@ -75,6 +86,10 @@ def analisis():
 
 @app.route('/api/chat', methods=['POST'])
 def chat_api():
+    # Lazy load Gemini only when chat is used
+    _ensure_gemini_configured()
+    from src.models.ai_model import get_gemini_response_stream
+    
     data = request.json
     user_message = data.get('message', '')
     

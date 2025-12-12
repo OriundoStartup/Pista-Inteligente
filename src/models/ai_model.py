@@ -5,12 +5,21 @@ import time
 from .data_manager import cargar_programa, obtener_analisis_jornada, obtener_estadisticas_generales
 
 def configurar_gemini():
-    """Configura la API key de Gemini desde vaariables de entorno."""
+    """Configura la API key de Gemini desde variables de entorno.
+    
+    IMPORTANTE: Deshabilitamos Application Default Credentials para evitar
+    conflictos con credenciales de gcloud que causan errores 403.
+    """
+    # Deshabilitar ADC (Application Default Credentials) que causa el error 403
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = ""
+    
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         print("⚠️ ADVERTENCIA: GEMINI_API_KEY no encontrada en variables de entorno.")
     else:
+        # Configurar explícitamente con API key
         genai.configure(api_key=api_key)
+        print("✅ Gemini configurado con API Key")
 
 
 def generar_contexto_hipico():
@@ -21,8 +30,9 @@ def generar_contexto_hipico():
     try:
         analisis = obtener_analisis_jornada()
         if analisis:
-            contexto.append("📊 PREDICCIONES PARA EL PROGRAMA ACTUAL:")
-            for carrera in analisis[:15]: # Limitar a primeras 15 para no saturar
+            total_carreras = len(analisis)
+            contexto.append(f"📊 PREDICCIONES PARA EL PROGRAMA ACTUAL ({total_carreras} carreras en total):")
+            for carrera in analisis:  # SIN LÍMITE - mostrar TODAS las carreras para datos precisos
                 pred_str = ""
                 # Tomar Top 3 predicciones
                 top_preds = carrera.get('predicciones', [])[:3]

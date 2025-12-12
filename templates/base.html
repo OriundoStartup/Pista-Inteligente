@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Pista Inteligente 2025{% endblock %}</title>
 
-    <!-- Google Fonts: Outfit (Modern Sans) -->
+    <!-- Resource Hints for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+
+    <!-- Google Fonts: Outfit (Modern Sans) -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
 
-    <!-- Main CSS -->
+    <!-- Main CSS (minified for production) -->
+    {% if config.get('ENV') == 'production' %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.min.css') }}">
+    {% else %}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    {% endif %}
 
     <!-- Meta SEO -->
     <meta name="description"
@@ -61,11 +69,22 @@
 
 <body>
 
+    <!-- Page Loading Overlay -->
+    <div id="page-loader" class="page-loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p class="loader-text">Cargando...</p>
+        </div>
+    </div>
+
     <!-- Header Glassmorphism -->
     <header class="glass-header">
         <a href="/" class="brand">
-            <img src="{{ url_for('static', filename='img/logo.jpg') }}" alt="Logo"
-                style="height: 40px; border-radius: 50%;">
+            <picture>
+                <source srcset="{{ url_for('static', filename='img/logo_80.webp') }}" type="image/webp">
+                <img src="{{ url_for('static', filename='img/logo.jpg') }}" alt="Logo" width="40" height="40"
+                    style="height: 40px; border-radius: 50%;" fetchpriority="high">
+            </picture>
             <span>Pista Inteligente</span>
         </a>
         <nav class="nav-links">
@@ -77,10 +96,13 @@
         </nav>
     </header>
 
-    <!-- Brand Header Image (Cabecera) -->
+    <!-- Brand Header Image (Cabecera) - Optimized -->
     <div class="hero-banner">
-        <img src="{{ url_for('static', filename='img/header_brand.png') }}" alt="Cabecera Pista Inteligente"
-            class="hero-banner-img">
+        <picture>
+            <source srcset="{{ url_for('static', filename='img/header_brand.webp') }}" type="image/webp">
+            <img src="{{ url_for('static', filename='img/header_brand.png') }}" alt="Cabecera Pista Inteligente"
+                class="hero-banner-img" loading="eager" decoding="async" fetchpriority="high">
+        </picture>
     </div>
 
     <!-- Top Banner: Google AdSense -->
@@ -119,15 +141,21 @@
 
     <!-- Chatbot Widget -->
     <div class="chatbot-fab" id="chatbotBtn">
-        <img src="{{ url_for('static', filename='img/bot_avatar.png') }}" alt="Chat"
-            style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
+        <picture>
+            <source srcset="{{ url_for('static', filename='img/bot_avatar_60.webp') }}" type="image/webp">
+            <img src="{{ url_for('static', filename='img/bot_avatar.png') }}" alt="Chat" width="60" height="60"
+                style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;" loading="lazy">
+        </picture>
     </div>
 
     <div class="chatbot-window" id="chatbotWindow">
         <div class="chat-header">
             <div style="display:flex; align-items:center; gap:0.5rem;">
-                <img src="{{ url_for('static', filename='img/bot_avatar.png') }}"
-                    style="height:30px; width:30px; border-radius:50%; border:1px solid white;">
+                <picture>
+                    <source srcset="{{ url_for('static', filename='img/bot_avatar_60.webp') }}" type="image/webp">
+                    <img src="{{ url_for('static', filename='img/bot_avatar.png') }}" alt="Bot" width="30" height="30"
+                        style="height:30px; width:30px; border-radius:50%; border:1px solid white;">
+                </picture>
                 <span>🤖 Asistente Hípico</span>
             </div>
             <span style="cursor:pointer" id="closeChat">✖</span>
@@ -195,6 +223,13 @@
             if (e.key === 'Enter') sendMessage();
         });
     </script>
+
+    <!-- Performance & UX Enhancement (minified for production) -->
+    {% if config.get('ENV') == 'production' %}
+    <script src="{{ url_for('static', filename='js/app.min.js') }}" defer></script>
+    {% else %}
+    <script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
+    {% endif %}
 
     <!-- Footer -->
     <footer class="site-footer">

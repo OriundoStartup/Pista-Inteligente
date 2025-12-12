@@ -1,0 +1,67 @@
+# Cloud Run Service Configuration
+# Optimized for low latency and minimal cold starts
+
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: pista-inteligente
+  annotations:
+    # Always allocate CPU (reduces latency between requests)
+    run.googleapis.com/cpu-throttling: "false"
+spec:
+  template:
+    metadata:
+      annotations:
+        # Minimum instances to keep warm (eliminates cold starts)
+        # Set to 1 for always-on behavior (costs apply)
+        autoscaling.knative.dev/minScale: "1"
+        
+        # Maximum instances for scaling
+        autoscaling.knative.dev/maxScale: "10"
+        
+        # CPU always allocated (not just during request processing)
+        run.googleapis.com/cpu-throttling: "false"
+        
+        # Startup CPU boost for faster cold starts
+        run.googleapis.com/startup-cpu-boost: "true"
+        
+        # Session affinity (optional, for consistent user routing)
+        # run.googleapis.com/sessionAffinity: "true"
+        
+    spec:
+      # Container concurrency (requests per container)
+      containerConcurrency: 80
+      
+      # Request timeout
+      timeoutSeconds: 300
+      
+      containers:
+        - image: gcr.io/pista-inteligente/pista-inteligente-metrics
+          
+          # Resource allocation
+          resources:
+            limits:
+              memory: "1Gi"
+              cpu: "1"
+            requests:
+              memory: "512Mi"
+              cpu: "0.5"
+          
+          # Health checks for faster startup detection
+          startupProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 0
+            periodSeconds: 2
+            failureThreshold: 30
+            timeoutSeconds: 3
+          
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            failureThreshold: 3
+            timeoutSeconds: 3

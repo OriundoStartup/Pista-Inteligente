@@ -23,3 +23,7 @@ __pycache__/
 # Datos locales que no deberían subir (opcional, depende de tu app)
 # data/
 # exports/
+
+# Archivos de debug
+debug_*.py
+check_db.py
