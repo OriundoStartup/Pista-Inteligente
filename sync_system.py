@@ -9,6 +9,7 @@ from src.models.train_v2 import HipicaLearner
 from src.models.data_manager import obtener_analisis_jornada
 import json
 from pathlib import Path
+import numpy as np
 
 def is_port_in_use(port):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -36,6 +37,19 @@ def kill_server_on_port(port):
     except Exception as e:
         print(f"⚠️ No se pudo liberar puerto: {e}")
 
+class CustomJSONEncoder(json.JSONEncoder):
+    """Encoder personalizado para manejar tipos de Numpy"""
+    def default(self, obj):
+        if isinstance(obj, (np.int_, np.intc, np.intp, np.int8,
+                            np.int16, np.int32, np.int64, np.uint8,
+                            np.uint16, np.uint32, np.uint64)):
+            return int(obj)
+        elif isinstance(obj, (np.float_, np.float16, np.float32, np.float64)):
+            return float(obj)
+        elif isinstance(obj, (np.ndarray,)):
+            return obj.tolist()
+        return super(CustomJSONEncoder, self).default(obj)
+
 def precalculate_predictions():
     """Pre-calcula predicciones y las guarda en cache"""
     print("📊 Pre-calculando predicciones...")
@@ -45,13 +59,7 @@ def precalculate_predictions():
         
         analisis = obtener_analisis_jornada()
         
-        # Convertir DataFrames a dicts si es necesario (el json dump fafalla con dfs)
-        # La función obtener_analisis_jornada ya retorna lista de dicts, 
-        # pero dentro 'caballos' y 'predicciones' pueden ser DataFrames si no se procesan.
-        # Revisemos obtener_analisis_jornada... retorna lista de dicts.
-        # Pero dentro del dict, 'caballos' es un DataFrame y 'predicciones' también.
-        # Debemos serializarlos.
-        
+        # Convertir DataFrames a dicts si es necesario
         analisis_serializable = []
         for carrera in analisis:
             carrera_dict = carrera.copy()
@@ -65,7 +73,7 @@ def precalculate_predictions():
         cache_path.parent.mkdir(exist_ok=True, parents=True)
         
         with open(cache_path, 'w', encoding='utf-8') as f:
-            json.dump(analisis_serializable, f, ensure_ascii=False, indent=2)
+            json.dump(analisis_serializable, f, ensure_ascii=False, indent=2, cls=CustomJSONEncoder)
         
         print(f"✅ Cache guardado en {cache_path}")
         return True
