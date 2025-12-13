@@ -2,7 +2,6 @@ import sqlite3
 import pandas as pd
 import itertools
 import functools
-import time
 
 import os
 import json
@@ -10,58 +9,6 @@ import joblib
 import numpy as np
 from datetime import datetime
 from .features import FeatureEngineering
-
-# ==================== CACHE UTILITIES ====================
-
-def timed_lru_cache(seconds: int, maxsize: int = 128):
-    """LRU cache with time-based expiration."""
-    def decorator(func):
-        func = functools.lru_cache(maxsize=maxsize)(func)
-        func.expiration = time.time() + seconds
-        
-        @functools.wraps(func)
-        def wrapper(*args, **kwargs):
-            if time.time() > func.expiration:
-                func.cache_clear()
-                func.expiration = time.time() + seconds
-            return func(*args, **kwargs)
-        
-        wrapper.cache_clear = func.cache_clear
-        return wrapper
-    return decorator
-
-# ==================== ML MODEL SINGLETON ====================
-
-class MLModelLoader:
-    """Singleton loader for ML models - loads once, reuses everywhere."""
-    _instance = None
-    _model = None
-    _feature_eng = None
-    _loaded = False
-    
-    def __new__(cls):
-        if cls._instance is None:
-            cls._instance = super().__new__(cls)
-        return cls._instance
-    
-    def load(self):
-        """Load models only once."""
-        if not self._loaded:
-            try:
-                self._model = joblib.load('src/models/gb_model_v3.pkl')
-                self._feature_eng = FeatureEngineering.load('src/models/feature_eng_v2.pkl')
-                self._loaded = True
-            except Exception as e:
-                print(f"ML models not available: {e}")
-                self._loaded = True  # Mark as attempted
-        return self._model, self._feature_eng
-    
-    @property
-    def is_available(self):
-        return self._model is not None and self._feature_eng is not None
-
-# Global singleton instance
-_ml_loader = MLModelLoader()
 
 @functools.lru_cache(maxsize=1)
 def cargar_datos(nombre_db='data/db/hipica_data.db'):
@@ -139,7 +86,6 @@ def cargar_datos_3nf(nombre_db='data/db/hipica_data.db'):
         print(f"Error cargando datos 3NF: {e}")
         return pd.DataFrame()
 
-@timed_lru_cache(seconds=300, maxsize=4)  # Cache for 5 minutes
 def cargar_programa(nombre_db='data/db/hipica_data.db'):
     """Carga el programa de carreras desde la base de datos."""
     if not os.path.exists(nombre_db) and os.path.exists(f'data/db/{nombre_db}'):
@@ -170,8 +116,31 @@ def cargar_programa(nombre_db='data/db/hipica_data.db'):
     except:
         return pd.DataFrame()
 
+@functools.lru_cache(maxsize=1)
 def obtener_analisis_jornada():
-    """Genera análisis usando ML."""
+    """Genera análisis usando ML o carga desde cache."""
+    # --- CACHE LOGIC START ---
+    from pathlib import Path
+    import json
+    
+    # Intentar cargar desde cache
+    try:
+        # Ajustamos path para que funcione tanto local como en container
+        cache_path = Path("data/cache_analisis.json")
+        if not cache_path.exists():
+             cache_path = Path("app/data/cache_analisis.json")
+
+        if cache_path.exists():
+            with open(cache_path, 'r', encoding='utf-8') as f:
+                print(f"⚡ Cargando predicciones desde cache: {cache_path}")
+                # Convertir listas de dicts que podrían ser dataframes en el uso original
+                # pero aqui ya retornamos la lista de dicts directa.
+                return json.load(f)
+    except Exception as e:
+        print(f"⚠️ Error al leer cache, calculando dinámicamente: {e}")
+    # --- CACHE LOGIC END ---
+
+    print("🔄 Calculando predicciones dinámicamente...")
     df_programa = cargar_programa()
     
     if df_programa.empty:
@@ -179,9 +148,15 @@ def obtener_analisis_jornada():
         
     analisis_completo = []
     
-    # Usar singleton para ML - se carga UNA SOLA VEZ
-    model, fe = _ml_loader.load()
-    ml_available = _ml_loader.is_available
+    # Cargar modelo ML v3 + Features
+    model = None
+    fe = None
+    try:
+        model = joblib.load('src/models/gb_model_v3.pkl')
+        fe = FeatureEngineering.load('src/models/feature_eng_v2.pkl')
+        ml_available = True
+    except:
+        ml_available = False
     
     # Cargar datos históricos para features
     df_historial = cargar_datos_3nf()

@@ -6,6 +6,9 @@ import socket
 import subprocess
 from src.etl.etl_pipeline import HipicaETL
 from src.models.train_v2 import HipicaLearner
+from src.models.data_manager import obtener_analisis_jornada
+import json
+from pathlib import Path
 
 def is_port_in_use(port):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -32,6 +35,45 @@ def kill_server_on_port(port):
             pass
     except Exception as e:
         print(f"⚠️ No se pudo liberar puerto: {e}")
+
+def precalculate_predictions():
+    """Pre-calcula predicciones y las guarda en cache"""
+    print("📊 Pre-calculando predicciones...")
+    try:
+        # Limpiar cache de memoria para asegurar datos frescos
+        obtener_analisis_jornada.cache_clear()
+        
+        analisis = obtener_analisis_jornada()
+        
+        # Convertir DataFrames a dicts si es necesario (el json dump fafalla con dfs)
+        # La función obtener_analisis_jornada ya retorna lista de dicts, 
+        # pero dentro 'caballos' y 'predicciones' pueden ser DataFrames si no se procesan.
+        # Revisemos obtener_analisis_jornada... retorna lista de dicts.
+        # Pero dentro del dict, 'caballos' es un DataFrame y 'predicciones' también.
+        # Debemos serializarlos.
+        
+        analisis_serializable = []
+        for carrera in analisis:
+            carrera_dict = carrera.copy()
+            if hasattr(carrera_dict['caballos'], 'to_dict'):
+                carrera_dict['caballos'] = carrera_dict['caballos'].to_dict('records')
+            if hasattr(carrera_dict['predicciones'], 'to_dict'):
+                carrera_dict['predicciones'] = carrera_dict['predicciones'].to_dict('records')
+            analisis_serializable.append(carrera_dict)
+
+        cache_path = Path("data/cache_analisis.json")
+        cache_path.parent.mkdir(exist_ok=True, parents=True)
+        
+        with open(cache_path, 'w', encoding='utf-8') as f:
+            json.dump(analisis_serializable, f, ensure_ascii=False, indent=2)
+        
+        print(f"✅ Cache guardado en {cache_path}")
+        return True
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        print(f"❌ Error al pre-calcular predicciones: {e}")
+        return False
 
 def main():
     print("""
@@ -64,6 +106,10 @@ def main():
         print(" -> La Base de Datos ha sido actualizada.")
         print(" -> Modelos de Predicción (V3 - HistGradientBoosting): ACTUALIZADOS.")
         
+        # 2.5 Pre-calcular Predicciones (Cache)
+        print("\n[PASO 2.5/3] Pre-calculando Predicciones para Web...")
+        precalculate_predictions()
+
         # 3. Deploy a Cloud Run (Firebase)
         print("\n[PASO 3/3] Desplegando a Cloud Run (Firebase)...")
         deploy_to_cloud_run()
