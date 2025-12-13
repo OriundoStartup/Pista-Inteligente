@@ -40,7 +40,7 @@
             {
                 "source": "**",
                 "run": {
-                    "serviceId": "pista-inteligente-metrics",
+                    "serviceId": "pista-inteligente",
                     "region": "us-central1"
                 }
             }

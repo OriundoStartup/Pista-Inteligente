@@ -143,7 +143,7 @@ body {
 
 /* ================= HERO SECTION ================= */
 .hero {
-    min-height: 80vh;
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -397,12 +397,19 @@ body {
         font-size: 0.9rem;
     }
 
+    .hero {
+        min-height: 50vh;
+        padding: 1.5rem 1rem;
+    }
+
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        margin-bottom: 1rem;
     }
 
     .hero p {
-        font-size: 1rem;
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
     }
 
     .container {
@@ -544,12 +551,21 @@ body {
 }
 
 @keyframes spin {
-    to { transform: rotate(360deg); }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes pulse {
-    0%, 100% { opacity: 0.5; }
-    50% { opacity: 1; }
+
+    0%,
+    100% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
 }
 
 /* ================= PAGE TRANSITIONS ================= */
@@ -571,6 +587,7 @@ body {
         opacity: 0;
         transform: translateY(15px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -582,6 +599,7 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
+
     to {
         opacity: 0;
         transform: translateY(-10px);
@@ -606,20 +624,32 @@ body.loading {
 }
 
 /* Staggered reveal for cards */
-.glass-card.reveal-on-scroll:nth-child(1) { transition-delay: 0.05s; }
-.glass-card.reveal-on-scroll:nth-child(2) { transition-delay: 0.1s; }
-.glass-card.reveal-on-scroll:nth-child(3) { transition-delay: 0.15s; }
-.glass-card.reveal-on-scroll:nth-child(4) { transition-delay: 0.2s; }
-.glass-card.reveal-on-scroll:nth-child(5) { transition-delay: 0.25s; }
+.glass-card.reveal-on-scroll:nth-child(1) {
+    transition-delay: 0.05s;
+}
+
+.glass-card.reveal-on-scroll:nth-child(2) {
+    transition-delay: 0.1s;
+}
+
+.glass-card.reveal-on-scroll:nth-child(3) {
+    transition-delay: 0.15s;
+}
+
+.glass-card.reveal-on-scroll:nth-child(4) {
+    transition-delay: 0.2s;
+}
+
+.glass-card.reveal-on-scroll:nth-child(5) {
+    transition-delay: 0.25s;
+}
 
 /* ================= SKELETON LOADING ================= */
 .skeleton {
-    background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0.05) 25%,
-        rgba(255, 255, 255, 0.1) 50%,
-        rgba(255, 255, 255, 0.05) 75%
-    );
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0.05) 25%,
+            rgba(255, 255, 255, 0.1) 50%,
+            rgba(255, 255, 255, 0.05) 75%);
     background-size: 200% 100%;
     animation: shimmer 1.5s infinite;
     border-radius: 4px;
@@ -649,12 +679,18 @@ body.loading {
 }
 
 @keyframes shimmer {
-    0% { background-position: -200% 0; }
-    100% { background-position: 200% 0; }
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
 }
 
 /* ================= REDUCED MOTION ================= */
 @media (prefers-reduced-motion: reduce) {
+
     *,
     *::before,
     *::after {
@@ -662,7 +698,7 @@ body.loading {
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
     }
-    
+
     .reveal-on-scroll {
         opacity: 1;
         transform: none;
@@ -692,6 +728,7 @@ body.loading {
 
 /* Optimize backdrop-filter for mobile */
 @media (max-width: 768px) {
+
     .glass-header,
     .page-loader {
         backdrop-filter: blur(6px);

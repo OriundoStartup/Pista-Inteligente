@@ -506,3 +506,177 @@ def obtener_estadisticas_generales():
         print(f"Error calculando estadisticas: {e}")
         return {'jinetes': [], 'caballos': [], 'pistas': [], 'total_carreras': 0}
 
+def obtener_predicciones_historicas(fecha_inicio=None, fecha_fin=None, hipodromo=None, limite=100, nombre_db='data/db/hipica_data.db'):
+    """
+    Obtiene predicciones históricas de la base de datos.
+    
+    Args:
+        fecha_inicio: Fecha inicial del filtro (formato 'YYYY-MM-DD')
+        fecha_fin: Fecha final del filtro (formato 'YYYY-MM-DD')
+        hipodromo: Filtrar por hipódromo específico
+        limite: Número máximo de registros a retornar
+        nombre_db: Ruta a la base de datos
+        
+    Returns:
+        DataFrame con las predicciones históricas
+    """
+    if not os.path.exists(nombre_db) and os.path.exists(f'data/db/{nombre_db}'):
+        nombre_db = f'data/db/{nombre_db}'
+        
+    try:
+        conn = sqlite3.connect(nombre_db)
+        
+        query = """
+        SELECT 
+            p.id,
+            p.fecha_generacion,
+            p.fecha_carrera,
+            p.hipodromo,
+            p.nro_carrera,
+            p.numero_caballo,
+            c.nombre as caballo,
+            j.nombre as jinete,
+            p.puntaje_ia,
+            p.prob_ml,
+            p.ranking_prediccion,
+            p.metadata
+        FROM predicciones p
+        LEFT JOIN caballos c ON p.caballo_id = c.id
+        LEFT JOIN jinetes j ON p.jinete_id = j.id
+        WHERE 1=1
+        """
+        
+        params = []
+        
+        if fecha_inicio:
+            query += " AND p.fecha_carrera >= ?"
+            params.append(fecha_inicio)
+            
+        if fecha_fin:
+            query += " AND p.fecha_carrera <= ?"
+            params.append(fecha_fin)
+            
+        if hipodromo:
+            query += " AND p.hipodromo = ?"
+            params.append(hipodromo)
+        
+        query += " ORDER BY p.fecha_generacion DESC, p.ranking_prediccion ASC LIMIT ?"
+        params.append(limite)
+        
+        df = pd.read_sql_query(query, conn, params=params)
+        conn.close()
+        
+        return df
+        
+    except Exception as e:
+        print(f"Error obteniendo predicciones históricas: {e}")
+        return pd.DataFrame()
+
+def calcular_precision_modelo(fecha_inicio=None, fecha_fin=None, nombre_db='data/db/hipica_data.db'):
+    """
+    Calcula métricas de precisión del modelo comparando predicciones con resultados reales.
+    
+    Args:
+        fecha_inicio: Fecha inicial del análisis
+        fecha_fin: Fecha final del análisis
+        nombre_db: Ruta a la base de datos
+        
+    Returns:
+        Dict con métricas de precisión (Top 1, Top 3, Top 4 accuracy)
+    """
+    if not os.path.exists(nombre_db) and os.path.exists(f'data/db/{nombre_db}'):
+        nombre_db = f'data/db/{nombre_db}'
+        
+    try:
+        conn = sqlite3.connect(nombre_db)
+        
+        # Query que une predicciones con resultados reales
+        query = """
+        SELECT 
+            p.fecha_carrera,
+            p.hipodromo,
+            p.nro_carrera,
+            p.numero_caballo,
+            p.caballo_id,
+            p.ranking_prediccion,
+            part.posicion as posicion_real
+        FROM predicciones p
+        INNER JOIN programa_carreras pc 
+            ON p.fecha_carrera = pc.fecha 
+            AND p.hipodromo = pc.hipodromo 
+            AND p.nro_carrera = pc.nro_carrera
+            AND p.numero_caballo = pc.numero
+        INNER JOIN caballos c ON pc.caballo_id = c.id
+        INNER JOIN participaciones part ON part.caballo_id = c.id
+        INNER JOIN carreras car ON part.carrera_id = car.id
+        INNER JOIN jornadas jor ON car.jornada_id = jor.id
+        WHERE jor.fecha = p.fecha_carrera
+            AND car.numero = p.nro_carrera
+            AND part.posicion IS NOT NULL
+        """
+        
+        params = []
+        
+        if fecha_inicio:
+            query += " AND p.fecha_carrera >= ?"
+            params.append(fecha_inicio)
+            
+        if fecha_fin:
+            query += " AND p.fecha_carrera <= ?"
+            params.append(fecha_fin)
+        
+        df = pd.read_sql_query(query, conn, params=params if params else None)
+        conn.close()
+        
+        if df.empty:
+            return {
+                'total_predicciones': 0,
+                'total_carreras': 0,
+                'top1_accuracy': 0.0,
+                'top3_accuracy': 0.0,
+                'top4_accuracy': 0.0,
+                'mensaje': 'No hay datos suficientes para calcular precisión'
+            }
+        
+        # Calcular métricas
+        total_carreras = df.groupby(['fecha_carrera', 'hipodromo', 'nro_carrera']).ngroups
+        
+        # Top 1: El caballo con ranking 1 en predicciones terminó en posición 1
+        top1_correct = len(df[(df['ranking_prediccion'] == 1) & (df['posicion_real'] == 1)])
+        total_top1_predictions = len(df[df['ranking_prediccion'] == 1])
+        top1_accuracy = (top1_correct / total_top1_predictions * 100) if total_top1_predictions > 0 else 0
+        
+        # Top 3: Caballos predichos en top 3 que terminaron en top 3
+        top3_correct = len(df[(df['ranking_prediccion'] <= 3) & (df['posicion_real'] <= 3)])
+        total_top3_predictions = len(df[df['ranking_prediccion'] <= 3])
+        top3_accuracy = (top3_correct / total_top3_predictions * 100) if total_top3_predictions > 0 else 0
+        
+        # Top 4: Caballos predichos en top 4 que terminaron en top 4
+        top4_correct = len(df[(df['ranking_prediccion'] <= 4) & (df['posicion_real'] <= 4)])
+        total_top4_predictions = len(df[df['ranking_prediccion'] <= 4])
+        top4_accuracy = (top4_correct / total_top4_predictions * 100) if total_top4_predictions > 0 else 0
+        
+        return {
+            'total_predicciones': len(df),
+            'total_carreras': total_carreras,
+            'top1_accuracy': round(top1_accuracy, 2),
+            'top1_correct': top1_correct,
+            'top1_total': total_top1_predictions,
+            'top3_accuracy': round(top3_accuracy, 2),
+            'top3_correct': top3_correct,
+            'top3_total': total_top3_predictions,
+            'top4_accuracy': round(top4_accuracy, 2),
+            'top4_correct': top4_correct,
+            'top4_total': total_top4_predictions,
+            'rango_fechas': f"{df['fecha_carrera'].min()} a {df['fecha_carrera'].max()}"
+        }
+        
+    except Exception as e:
+        print(f"Error calculando precisión del modelo: {e}")
+        import traceback
+        traceback.print_exc()
+        return {
+            'error': str(e),
+            'mensaje': 'Error al calcular precisión del modelo'
+        }
+

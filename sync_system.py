@@ -4,6 +4,8 @@ import webbrowser
 import time
 import socket
 import subprocess
+import sqlite3
+from datetime import datetime
 from src.etl.etl_pipeline import HipicaETL
 from src.models.train_v2 import HipicaLearner
 from src.models.data_manager import obtener_analisis_jornada
@@ -50,8 +52,89 @@ class CustomJSONEncoder(json.JSONEncoder):
             return obj.tolist()
         return super(CustomJSONEncoder, self).default(obj)
 
+def save_predictions_to_db(analisis):
+    """Guarda las predicciones en la base de datos para historial permanente."""
+    try:
+        db_path = 'data/db/hipica_data.db'
+        conn = sqlite3.connect(db_path)
+        cursor = conn.cursor()
+        
+        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        predicciones_batch = []
+        
+        for carrera in analisis:
+            fecha_carrera = carrera.get('fecha')
+            hipodromo = carrera.get('hipodromo')
+            nro_carrera = carrera.get('carrera')
+            predicciones = carrera.get('predicciones', [])
+            
+            for idx, pred in enumerate(predicciones, 1):
+                # Extraer datos de la predicción
+                if isinstance(pred, dict):
+                    numero = pred.get('numero', 0)
+                    puntaje_ia = pred.get('puntaje_ia', 0.0)
+                    prob_ml = float(str(pred.get('prob_ml', '0.0')).replace('%', ''))
+                    
+                    # Buscar IDs de caballo y jinete
+                    caballo_nombre = pred.get('caballo', '')
+                    jinete_nombre = pred.get('jinete', '')
+                    
+                    caballo_id = None
+                    jinete_id = None
+                    
+                    if caballo_nombre:
+                        cursor.execute("SELECT id FROM caballos WHERE nombre = ?", (caballo_nombre,))
+                        result = cursor.fetchone()
+                        if result:
+                            caballo_id = result[0]
+                    
+                    if jinete_nombre:
+                        cursor.execute("SELECT id FROM jinetes WHERE nombre = ?", (jinete_nombre,))
+                        result = cursor.fetchone()
+                        if result:
+                            jinete_id = result[0]
+                    
+                    # Crear metadata JSON con información adicional
+                    metadata = json.dumps({
+                        'caballo': caballo_nombre,
+                        'jinete': jinete_nombre
+                    }, ensure_ascii=False)
+                    
+                    predicciones_batch.append((
+                        timestamp,
+                        fecha_carrera,
+                        hipodromo,
+                        nro_carrera,
+                        numero,
+                        caballo_id,
+                        jinete_id,
+                        puntaje_ia,
+                        prob_ml,
+                        idx,  # ranking
+                        metadata
+                    ))
+        
+        if predicciones_batch:
+            cursor.executemany('''
+                INSERT INTO predicciones 
+                (fecha_generacion, fecha_carrera, hipodromo, nro_carrera, numero_caballo, 
+                 caballo_id, jinete_id, puntaje_ia, prob_ml, ranking_prediccion, metadata)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ''', predicciones_batch)
+            conn.commit()
+            print(f"   💾 {len(predicciones_batch)} predicciones guardadas en base de datos")
+        
+        conn.close()
+        return True
+        
+    except Exception as e:
+        print(f"   ⚠️ Error guardando predicciones en BD: {e}")
+        import traceback
+        traceback.print_exc()
+        return False
+
 def precalculate_predictions():
-    """Pre-calcula predicciones y las guarda en cache"""
+    """Pre-calcula predicciones y las guarda en cache y base de datos"""
     print("📊 Pre-calculando predicciones...")
     try:
         cache_path = Path("data/cache_analisis.json")
@@ -76,6 +159,10 @@ def precalculate_predictions():
         print(f"   📅 Fechas procesadas: {sorted(fechas)}")
         print(f"   🏁 Total de carreras: {len(analisis)}")
         
+        # Guardar en base de datos (NUEVO)
+        print("   💾 Guardando predicciones en base de datos...")
+        save_predictions_to_db(analisis)
+        
         # Convertir DataFrames a dicts si es necesario
         analisis_serializable = []
         for carrera in analisis:
@@ -91,7 +178,7 @@ def precalculate_predictions():
         with open(cache_path, 'w', encoding='utf-8') as f:
             json.dump(analisis_serializable, f, ensure_ascii=False, indent=2, cls=CustomJSONEncoder)
         
-        print(f"✅ Cache guardado en {cache_path}")
+        print(f"   ✅ Cache JSON guardado en {cache_path}")
         return True
     except Exception as e:
         import traceback

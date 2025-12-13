@@ -301,6 +301,30 @@ class HipicaETL:
             UNIQUE(fecha, hipodromo, nro_carrera, numero)
         )''')
         
+        # Tabla de Predicciones (Historial)
+        self.cursor.execute('''
+        CREATE TABLE IF NOT EXISTS predicciones (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            fecha_generacion TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+            fecha_carrera TEXT NOT NULL,
+            hipodromo TEXT NOT NULL,
+            nro_carrera INTEGER NOT NULL,
+            numero_caballo INTEGER NOT NULL,
+            caballo_id INTEGER,
+            jinete_id INTEGER,
+            puntaje_ia REAL NOT NULL,
+            prob_ml REAL NOT NULL,
+            ranking_prediccion INTEGER NOT NULL,
+            metadata TEXT,
+            FOREIGN KEY(caballo_id) REFERENCES caballos(id),
+            FOREIGN KEY(jinete_id) REFERENCES jinetes(id)
+        )''')
+        
+        # Indexes para predicciones
+        self.cursor.execute('CREATE INDEX IF NOT EXISTS idx_pred_fecha_carrera ON predicciones(fecha_carrera, hipodromo, nro_carrera)')
+        self.cursor.execute('CREATE INDEX IF NOT EXISTS idx_pred_generacion ON predicciones(fecha_generacion)')
+        self.cursor.execute('CREATE INDEX IF NOT EXISTS idx_pred_caballo ON predicciones(caballo_id)')
+        
         self.conn.commit()
 
     def process_csv(self, file_path):
