@@ -107,25 +107,25 @@
         "prob_ml": "99.0"
       },
       {
+        "numero": 2,
+        "caballo": "UNO CERO",
+        "jinete": "N. RAMIREZ",
+        "puntaje_ia": 80.5,
+        "prob_ml": "93.6"
+      },
+      {
         "numero": 10,
         "caballo": "FLOR DE JAMAICA",
         "jinete": "B. SANCHO",
-        "puntaje_ia": 77.8,
-        "prob_ml": "89.7"
+        "puntaje_ia": 73.1,
+        "prob_ml": "83.1"
       },
       {
         "numero": 11,
         "caballo": "MANANO",
         "jinete": "M. A. DONOSO",
-        "puntaje_ia": 74.9,
-        "prob_ml": "85.5"
-      },
-      {
-        "numero": 13,
-        "caballo": "VALDEMIRA BAY",
-        "jinete": "W. LEON",
-        "puntaje_ia": 74.9,
-        "prob_ml": "85.5"
+        "puntaje_ia": 70.3,
+        "prob_ml": "79.1"
       }
     ]
   },
@@ -212,15 +212,15 @@
         "numero": 8,
         "caballo": "SAHARA PRINCESS",
         "jinete": "A. ALVAREZ",
-        "puntaje_ia": 75.9,
-        "prob_ml": "87.0"
+        "puntaje_ia": 71.3,
+        "prob_ml": "80.5"
       },
       {
         "numero": 2,
         "caballo": "SALTO DEL GUAPO",
         "jinete": "B. TRONCOSO",
-        "puntaje_ia": 59.8,
-        "prob_ml": "64.0"
+        "puntaje_ia": 58.4,
+        "prob_ml": "62.1"
       }
     ]
   },
@@ -311,9 +311,9 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 8,
-        "caballo": "TAP LUCKY",
-        "jinete": "G. ULLOA",
+        "numero": 7,
+        "caballo": "NYQUISTER",
+        "jinete": "J. MEDINA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       }
@@ -550,16 +550,16 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 9,
-        "caballo": "MY SWEET LORD",
-        "jinete": "A. APABLAZA",
+        "numero": 6,
+        "caballo": "DEJALO AHI",
+        "jinete": "N. ROJAS",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
-        "numero": 10,
-        "caballo": "CRUZA EL RIO",
-        "jinete": "G. GIVOVICH",
+        "numero": 9,
+        "caballo": "MY SWEET LORD",
+        "jinete": "A. APABLAZA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       }
@@ -641,8 +641,8 @@
         "numero": 3,
         "caballo": "TIO JUAN",
         "jinete": "V. MIRANDA",
-        "puntaje_ia": 84.2,
-        "prob_ml": "98.8"
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
       }
     ]
   },
@@ -841,7 +841,7 @@
       },
       {
         "Nº": 10,
-        "Caballo": "Arturo Roberto",
+        "Caballo": "ARTURO ROBERTO",
         "Jinete": "SEB. GONZALEZ",
         "Stud": null,
         "Peso": "57"
@@ -870,16 +870,16 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 8,
-        "caballo": "TREN DEL RECUERDO",
-        "jinete": "J. HERRERA",
+        "numero": 3,
+        "caballo": "EL REY JULIAN",
+        "jinete": "F. MEDINA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
-        "numero": 9,
-        "caballo": "LOU ARMSTRONG",
-        "jinete": "L. TORRES",
+        "numero": 8,
+        "caballo": "TREN DEL RECUERDO",
+        "jinete": "J. HERRERA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       }
@@ -961,15 +961,15 @@
         "numero": 4,
         "caballo": "C'EST VRAI",
         "jinete": "R. S. DORES",
-        "puntaje_ia": 81.4,
-        "prob_ml": "94.8"
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
       },
       {
         "numero": 1,
         "caballo": "INDIAN POET",
         "jinete": "J. MEDINA",
-        "puntaje_ia": 78.2,
-        "prob_ml": "89.5"
+        "puntaje_ia": 83.6,
+        "prob_ml": "97.2"
       }
     ]
   },
@@ -1091,15 +1091,15 @@
         "numero": 1,
         "caballo": "COLOR DE SUEÑO",
         "jinete": "R. S. DORES",
-        "puntaje_ia": 77.6,
-        "prob_ml": "89.5"
+        "puntaje_ia": 83.0,
+        "prob_ml": "97.2"
       },
       {
-        "numero": 11,
-        "caballo": "BESO AL CIELO",
-        "jinete": "R. PAINEN",
-        "puntaje_ia": 74.9,
-        "prob_ml": "85.5"
+        "numero": 3,
+        "caballo": "CRISTALINO",
+        "jinete": "JON. A. CASTILLO",
+        "puntaje_ia": 75.7,
+        "prob_ml": "86.7"
       }
     ]
   },
@@ -1464,13 +1464,6 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 10,
-        "caballo": "VOLANTE MIXTO",
-        "jinete": "M. MORALES",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 15,
         "caballo": "PALMAS SORDITAS (ARG)",
         "jinete": "R. FUENZALIDA",
@@ -1478,11 +1471,18 @@
         "prob_ml": "99.0"
       },
       {
+        "numero": 10,
+        "caballo": "VOLANTE MIXTO",
+        "jinete": "M. MORALES",
+        "puntaje_ia": 82.2,
+        "prob_ml": "96.0"
+      },
+      {
         "numero": 4,
         "caballo": "LUCHIN ENOJON",
         "jinete": "O. MENESES",
-        "puntaje_ia": 76.3,
-        "prob_ml": "87.6"
+        "puntaje_ia": 82.0,
+        "prob_ml": "95.7"
       }
     ]
   },
@@ -1608,9 +1608,9 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 8,
-        "caballo": "BEL FIOR",
-        "jinete": "R. PAINEN",
+        "numero": 9,
+        "caballo": "CABLE A TIERRA",
+        "jinete": "M. CHAMORRO",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       }
@@ -1717,6 +1717,13 @@
     ],
     "predicciones": [
       {
+        "numero": 5,
+        "caballo": "CASUAL VISION",
+        "jinete": "B. SANCHO",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 6,
         "caballo": "LA ESCUDERA",
         "jinete": "N. RAMIREZ",
@@ -1734,13 +1741,6 @@
         "numero": 2,
         "caballo": "SEÑOR TRONCOSO",
         "jinete": "R. FUENZALIDA",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 9,
-        "caballo": "BERGERAC (ARG)",
-        "jinete": "R. SOLORZA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       }
@@ -1875,16 +1875,16 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 4,
-        "caballo": "TWO FLAGS",
-        "jinete": "R. SOLORZA",
+        "numero": 3,
+        "caballo": "NEGRA PERLA",
+        "jinete": "M. GUTIERREZ",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
-        "numero": 15,
-        "caballo": "BAMBO LUKAS",
-        "jinete": "R. CISTERNAS",
+        "numero": 4,
+        "caballo": "TWO FLAGS",
+        "jinete": "R. SOLORZA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       }
@@ -2019,18 +2019,18 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 10,
-        "caballo": "CROCKED",
-        "jinete": "P. REYES",
-        "puntaje_ia": 77.8,
-        "prob_ml": "89.7"
-      },
-      {
         "numero": 1,
         "caballo": "INTRIGANT",
         "jinete": "R. FUENZALIDA",
-        "puntaje_ia": 77.6,
-        "prob_ml": "89.5"
+        "puntaje_ia": 83.0,
+        "prob_ml": "97.2"
+      },
+      {
+        "numero": 11,
+        "caballo": "EL PELUSA",
+        "jinete": "M. A. DONOSO",
+        "puntaje_ia": 81.0,
+        "prob_ml": "94.3"
       }
     ]
   },
@@ -2215,7 +2215,7 @@
       },
       {
         "Nº": 6,
-        "Caballo": "La Tostadora",
+        "Caballo": "LA TOSTADORA",
         "Jinete": "DIEGO CARVACHO",
         "Stud": "GRANDE TIO KIKO",
         "Peso": "56"
@@ -2243,7 +2243,7 @@
       },
       {
         "Nº": 10,
-        "Caballo": "Red Knight",
+        "Caballo": "RED KNIGHT",
         "Jinete": "VICTOR MIRANDA",
         "Stud": "MARIO Y ELODIA",
         "Peso": "56"
@@ -2279,6 +2279,13 @@
     ],
     "predicciones": [
       {
+        "numero": 1,
+        "caballo": "ENTRATE NUNCA",
+        "jinete": "AXEL ALVAREZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 4,
         "caballo": "JOHN WAYNE",
         "jinete": "LESLY C. GONZÁLEZ",
@@ -2286,25 +2293,18 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 1,
-        "caballo": "ENTRATE NUNCA",
-        "jinete": "AXEL ALVAREZ",
-        "puntaje_ia": 83.7,
-        "prob_ml": "98.1"
-      },
-      {
         "numero": 5,
         "caballo": "AVÍSPATE COMADRE",
         "jinete": "GEORGEE GIVOVICH",
-        "puntaje_ia": 81.5,
-        "prob_ml": "95.0"
+        "puntaje_ia": 81.4,
+        "prob_ml": "94.9"
       },
       {
         "numero": 13,
         "caballo": "DEMOOV",
         "jinete": "PATRICIO ZÚÑIGA",
-        "puntaje_ia": 71.9,
-        "prob_ml": "81.3"
+        "puntaje_ia": 72.5,
+        "prob_ml": "82.2"
       }
     ]
   },
@@ -2395,6 +2395,13 @@
     ],
     "predicciones": [
       {
+        "numero": 1,
+        "caballo": "SIBILA RED",
+        "jinete": "JOSÉ RODRÍGUEZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 4,
         "caballo": "AMOR DE MAMA",
         "jinete": "GERARD RODRÍGUEZ",
@@ -2409,18 +2416,11 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 1,
-        "caballo": "SIBILA RED",
-        "jinete": "JOSÉ RODRÍGUEZ",
-        "puntaje_ia": 83.7,
-        "prob_ml": "98.1"
-      },
-      {
         "numero": 8,
         "caballo": "MARIADYNIS",
         "jinete": "NICOLÁS RAMIREZ",
-        "puntaje_ia": 82.0,
-        "prob_ml": "95.6"
+        "puntaje_ia": 80.7,
+        "prob_ml": "93.8"
       }
     ]
   },
@@ -2497,6 +2497,20 @@
     ],
     "predicciones": [
       {
+        "numero": 1,
+        "caballo": "NUEVA VIDA",
+        "jinete": "VICTOR MIRANDA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "POENNI",
+        "jinete": "GERARD RODRÍGUEZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 4,
         "caballo": "DIOSA CHOCOLATE",
         "jinete": "BENJAMIN TRONCOSO",
@@ -2509,20 +2523,6 @@
         "jinete": "FABIAN MEDINA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
-      },
-      {
-        "numero": 8,
-        "caballo": "KATIE MELUA",
-        "jinete": "NICOLÁS RAMIREZ",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 1,
-        "caballo": "NUEVA VIDA",
-        "jinete": "VICTOR MIRANDA",
-        "puntaje_ia": 83.7,
-        "prob_ml": "98.1"
       }
     ]
   },
@@ -2542,7 +2542,7 @@
       },
       {
         "Nº": 2,
-        "Caballo": "Francoli",
+        "Caballo": "FRANCOLI",
         "Jinete": "BENJAMIN SANCHO",
         "Stud": "LUCARASTE",
         "Peso": "55"
@@ -2556,7 +2556,7 @@
       },
       {
         "Nº": 4,
-        "Caballo": "Bay Good Chiqui",
+        "Caballo": "BAY GOOD CHIQUI",
         "Jinete": "RODOLFO FUENZALIDA",
         "Stud": "MALCIB",
         "Peso": "56"
@@ -2630,29 +2630,29 @@
         "numero": 3,
         "caballo": "JOSIE GIRL",
         "jinete": "NICOLÁS SANTIBAÑEZ",
-        "puntaje_ia": 79.5,
-        "prob_ml": "92.2"
-      },
-      {
-        "numero": 4,
-        "caballo": "Bay Good Chiqui",
-        "jinete": "RODOLFO FUENZALIDA",
-        "puntaje_ia": 71.9,
-        "prob_ml": "81.3"
+        "puntaje_ia": 83.9,
+        "prob_ml": "98.5"
       },
       {
         "numero": 6,
         "caballo": "HACER POR HACER",
         "jinete": "ROBERTO ARAYA",
-        "puntaje_ia": 71.1,
-        "prob_ml": "80.1"
+        "puntaje_ia": 78.1,
+        "prob_ml": "90.2"
       },
       {
         "numero": 5,
         "caballo": "SILVERCHAIR",
         "jinete": "ALBERTO VÁSQUEZ",
-        "puntaje_ia": 68.8,
-        "prob_ml": "76.9"
+        "puntaje_ia": 73.9,
+        "prob_ml": "84.2"
+      },
+      {
+        "numero": 4,
+        "caballo": "BAY GOOD CHIQUI",
+        "jinete": "RODOLFO FUENZALIDA",
+        "puntaje_ia": 72.4,
+        "prob_ml": "82.0"
       }
     ]
   },
@@ -2728,7 +2728,7 @@
       },
       {
         "Nº": 10,
-        "Caballo": "La Cia",
+        "Caballo": "LA CIA",
         "Jinete": "NICOLÁS RAMIREZ",
         "Stud": "MARIO ANDRÉS",
         "Peso": "55"
@@ -2750,6 +2750,13 @@
     ],
     "predicciones": [
       {
+        "numero": 2,
+        "caballo": "SINAG",
+        "jinete": "NICOLÁS MOLINA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 3,
         "caballo": "VENDETTA REAL",
         "jinete": "BENJAMIN TRONCOSO",
@@ -2769,13 +2776,6 @@
         "jinete": "NICOLÁS SOTO",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
-      },
-      {
-        "numero": 2,
-        "caballo": "SINAG",
-        "jinete": "NICOLÁS MOLINA",
-        "puntaje_ia": 81.8,
-        "prob_ml": "95.5"
       }
     ]
   },
@@ -2809,14 +2809,14 @@
       },
       {
         "Nº": 4,
-        "Caballo": "Rio Serrano",
+        "Caballo": "RIO SERRANO",
         "Jinete": "JAIME MEDINA",
         "Stud": "MAR Y SOL",
         "Peso": "59"
       },
       {
         "Nº": 5,
-        "Caballo": "Fragmentado",
+        "Caballo": "FRAGMENTADO",
         "Jinete": "NICOLÁS MOLINA",
         "Stud": "AMAPOLAS",
         "Peso": "56"
@@ -2837,7 +2837,7 @@
       },
       {
         "Nº": 8,
-        "Caballo": "Aquimbao",
+        "Caballo": "AQUIMBAO",
         "Jinete": "WILBERT LEÓN",
         "Stud": "LINLINAO",
         "Peso": "56"
@@ -2848,29 +2848,29 @@
         "numero": 1,
         "caballo": "TONY MONTANA",
         "jinete": "SEBASTIÁN GONZÁLEZ",
-        "puntaje_ia": 83.7,
-        "prob_ml": "98.1"
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
       },
       {
         "numero": 5,
-        "caballo": "Fragmentado",
+        "caballo": "FRAGMENTADO",
         "jinete": "NICOLÁS MOLINA",
-        "puntaje_ia": 81.5,
-        "prob_ml": "95.0"
-      },
-      {
-        "numero": 2,
-        "caballo": "PANCHO MALO",
-        "jinete": "NICOLÁS RAMIREZ",
-        "puntaje_ia": 77.1,
-        "prob_ml": "88.8"
+        "puntaje_ia": 81.4,
+        "prob_ml": "94.9"
       },
       {
         "numero": 6,
         "caballo": "PESO COMPLETO",
         "jinete": "JOAQUÍN HERRERA",
-        "puntaje_ia": 71.1,
-        "prob_ml": "80.1"
+        "puntaje_ia": 78.1,
+        "prob_ml": "90.2"
+      },
+      {
+        "numero": 2,
+        "caballo": "PANCHO MALO",
+        "jinete": "NICOLÁS RAMIREZ",
+        "puntaje_ia": 77.6,
+        "prob_ml": "89.4"
       }
     ]
   },
@@ -2999,15 +2999,15 @@
         "numero": 3,
         "caballo": "SOY ENRIQUETA",
         "jinete": "GUSTAVO AROS",
-        "puntaje_ia": 79.5,
-        "prob_ml": "92.2"
+        "puntaje_ia": 83.9,
+        "prob_ml": "98.5"
       },
       {
         "numero": 6,
         "caballo": "DU PLESIS",
         "jinete": "JORGE VERA",
-        "puntaje_ia": 71.1,
-        "prob_ml": "80.1"
+        "puntaje_ia": 78.1,
+        "prob_ml": "90.2"
       }
     ]
   },
@@ -3048,7 +3048,7 @@
       },
       {
         "Nº": 5,
-        "Caballo": "Hi Fly",
+        "Caballo": "HI FLY",
         "Jinete": "PATRICIO GALÁZ",
         "Stud": "GRANDE TIO KIKO",
         "Peso": "55"
@@ -3069,7 +3069,7 @@
       },
       {
         "Nº": 8,
-        "Caballo": "Follow Your Dreams",
+        "Caballo": "FOLLOW YOUR DREAMS",
         "Jinete": "HUGO OCHOA",
         "Stud": "LOPITO",
         "Peso": "55"
@@ -3112,6 +3112,13 @@
     ],
     "predicciones": [
       {
+        "numero": 2,
+        "caballo": "MODELO SBELT",
+        "jinete": "ROBERTO AVILA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 4,
         "caballo": "BAD ROMANCE",
         "jinete": "CARLOS BUSTOS",
@@ -3119,25 +3126,18 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 2,
-        "caballo": "MODELO SBELT",
-        "jinete": "ROBERTO AVILA",
-        "puntaje_ia": 81.8,
-        "prob_ml": "95.5"
+        "numero": 5,
+        "caballo": "HI FLY",
+        "jinete": "PATRICIO GALÁZ",
+        "puntaje_ia": 73.9,
+        "prob_ml": "84.2"
       },
       {
         "numero": 9,
         "caballo": "LA JESHU",
         "jinete": "GERARD RODRÍGUEZ",
-        "puntaje_ia": 68.9,
-        "prob_ml": "77.0"
-      },
-      {
-        "numero": 5,
-        "caballo": "Hi Fly",
-        "jinete": "PATRICIO GALÁZ",
-        "puntaje_ia": 68.8,
-        "prob_ml": "76.9"
+        "puntaje_ia": 66.1,
+        "prob_ml": "73.1"
       }
     ]
   },
@@ -3221,6 +3221,20 @@
     ],
     "predicciones": [
       {
+        "numero": 1,
+        "caballo": "MISTER HARI",
+        "jinete": "NICOLÁS SOTO",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "RENATITOCRACK",
+        "jinete": "VICTOR MIRANDA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 4,
         "caballo": "ACE POINT",
         "jinete": "NICOLÁS MOLINA",
@@ -3233,20 +3247,6 @@
         "jinete": "DIEGO CARVACHO",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
-      },
-      {
-        "numero": 1,
-        "caballo": "MISTER HARI",
-        "jinete": "NICOLÁS SOTO",
-        "puntaje_ia": 83.7,
-        "prob_ml": "98.1"
-      },
-      {
-        "numero": 2,
-        "caballo": "RENATITOCRACK",
-        "jinete": "VICTOR MIRANDA",
-        "puntaje_ia": 81.8,
-        "prob_ml": "95.5"
       }
     ]
   },
@@ -3351,6 +3351,13 @@
     ],
     "predicciones": [
       {
+        "numero": 1,
+        "caballo": "ONE KISS",
+        "jinete": "JORGE ZÚÑIGA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 4,
         "caballo": "COTILLARD",
         "jinete": "FABIAN MEDINA",
@@ -3365,18 +3372,11 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 1,
-        "caballo": "ONE KISS",
-        "jinete": "JORGE ZÚÑIGA",
-        "puntaje_ia": 83.7,
-        "prob_ml": "98.1"
-      },
-      {
         "numero": 3,
         "caballo": "WARNASITAY",
         "jinete": "BENJAMIN SANCHO",
-        "puntaje_ia": 79.5,
-        "prob_ml": "92.2"
+        "puntaje_ia": 83.9,
+        "prob_ml": "98.5"
       }
     ]
   },
@@ -3512,7 +3512,7 @@
       },
       {
         "Nº": 5,
-        "Caballo": "Rucco",
+        "Caballo": "RUCCO",
         "Jinete": "IGNACIO VALDIVIA",
         "Stud": "LOS JEQUES",
         "Peso": "56"
@@ -3582,13 +3582,20 @@
       },
       {
         "Nº": 15,
-        "Caballo": "Pistola Velázquez",
+        "Caballo": "PISTOLA VELÁZQUEZ",
         "Jinete": "BENJAMIN SANCHO",
         "Stud": "HARAS RÍO GRANDE",
         "Peso": "55"
       }
     ],
     "predicciones": [
+      {
+        "numero": 2,
+        "caballo": "STELLA AUSTRALIS",
+        "jinete": "JAIME MEDINA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
       {
         "numero": 4,
         "caballo": "ACORRALADO",
@@ -3598,24 +3605,17 @@
       },
       {
         "numero": 5,
-        "caballo": "Rucco",
+        "caballo": "RUCCO",
         "jinete": "IGNACIO VALDIVIA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
-        "numero": 2,
-        "caballo": "STELLA AUSTRALIS",
-        "jinete": "JAIME MEDINA",
-        "puntaje_ia": 81.8,
-        "prob_ml": "95.5"
-      },
-      {
         "numero": 1,
         "caballo": "HAMMER TIME",
         "jinete": "WILBERT LEÓN",
-        "puntaje_ia": 71.6,
-        "prob_ml": "80.8"
+        "puntaje_ia": 74.0,
+        "prob_ml": "84.3"
       }
     ]
   },
@@ -3699,6 +3699,20 @@
     ],
     "predicciones": [
       {
+        "numero": 1,
+        "caballo": "KAUTO Y PILLO",
+        "jinete": "JAIME MEDINA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "PRESENTE CHA",
+        "jinete": "JOHAN GONZÁLEZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 4,
         "caballo": "PRACTICAL SISI",
         "jinete": "IGNACIO VALDIVIA",
@@ -3711,20 +3725,6 @@
         "jinete": "JORGE ZÚÑIGA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
-      },
-      {
-        "numero": 1,
-        "caballo": "KAUTO Y PILLO",
-        "jinete": "JAIME MEDINA",
-        "puntaje_ia": 83.7,
-        "prob_ml": "98.1"
-      },
-      {
-        "numero": 2,
-        "caballo": "PRESENTE CHA",
-        "jinete": "JOHAN GONZÁLEZ",
-        "puntaje_ia": 81.8,
-        "prob_ml": "95.5"
       }
     ]
   },
@@ -3829,6 +3829,13 @@
     ],
     "predicciones": [
       {
+        "numero": 1,
+        "caballo": "PREZIOSI",
+        "jinete": "AXEL ALVAREZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 5,
         "caballo": "RUBIA MORENA",
         "jinete": "MARCO MORALES",
@@ -3843,18 +3850,11 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 1,
-        "caballo": "PREZIOSI",
-        "jinete": "AXEL ALVAREZ",
-        "puntaje_ia": 83.7,
-        "prob_ml": "98.1"
-      },
-      {
         "numero": 6,
         "caballo": "EL CANCHERO",
         "jinete": "ARIEL ZÚÑIGA",
-        "puntaje_ia": 71.1,
-        "prob_ml": "80.1"
+        "puntaje_ia": 78.1,
+        "prob_ml": "90.2"
       }
     ]
   },
@@ -3874,7 +3874,7 @@
       },
       {
         "Nº": 2,
-        "Caballo": "Mercenaria",
+        "Caballo": "MERCENARIA",
         "Jinete": "FELIPE HENRÍQUEZ",
         "Stud": "CHARITO",
         "Peso": "55"
@@ -3888,7 +3888,7 @@
       },
       {
         "Nº": 4,
-        "Caballo": "Dunhill Smoke",
+        "Caballo": "DUNHILL SMOKE",
         "Jinete": "SEBASTIÁN GONZÁLEZ",
         "Stud": "BRUNO ALONSO",
         "Peso": "56"
@@ -3987,18 +3987,18 @@
         "prob_ml": "99.0"
       },
       {
+        "numero": 2,
+        "caballo": "MERCENARIA",
+        "jinete": "FELIPE HENRÍQUEZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 5,
         "caballo": "SIGUE IGUAL",
         "jinete": "NICOLÁS MOLINA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
-      },
-      {
-        "numero": 2,
-        "caballo": "Mercenaria",
-        "jinete": "FELIPE HENRÍQUEZ",
-        "puntaje_ia": 81.8,
-        "prob_ml": "95.5"
       }
     ]
   },
@@ -4011,7 +4011,7 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "La Rumbera",
+        "Caballo": "LA RUMBERA",
         "Jinete": "PATRICIO ZÚÑIGA",
         "Stud": "GRAN XIME",
         "Peso": "55"
@@ -4060,14 +4060,14 @@
       },
       {
         "Nº": 8,
-        "Caballo": "Mi Nieto Bruno",
+        "Caballo": "MI NIETO BRUNO",
         "Jinete": "ANDRÉS COVARRUBIAS",
         "Stud": "GRANDE TIO KIKO",
         "Peso": "56"
       },
       {
         "Nº": 9,
-        "Caballo": "Gran Pepe",
+        "Caballo": "GRAN PEPE",
         "Jinete": "SEBASTIÁN GONZÁLEZ",
         "Stud": "DOSSETTO",
         "Peso": "55"
@@ -4081,7 +4081,7 @@
       },
       {
         "Nº": 11,
-        "Caballo": "Gamorra",
+        "Caballo": "GAMORRA",
         "Jinete": "BENJAMIN SANCHO",
         "Stud": "LOS BELLO",
         "Peso": "55"
@@ -4134,8 +4134,8 @@
         "numero": 2,
         "caballo": "PERFECTA ACTITUD",
         "jinete": "JOSÉ VILLABLANCA",
-        "puntaje_ia": 77.7,
-        "prob_ml": "88.8"
+        "puntaje_ia": 78.2,
+        "prob_ml": "89.4"
       }
     ]
   },
@@ -4155,7 +4155,7 @@
       },
       {
         "Nº": 2,
-        "Caballo": "Besa Kiss",
+        "Caballo": "BESA KISS",
         "Jinete": "WILBERT LEÓN",
         "Stud": "HANSRIELI",
         "Peso": "53"
@@ -4218,7 +4218,7 @@
       },
       {
         "Nº": 11,
-        "Caballo": "Stevens For Record",
+        "Caballo": "STEVENS FOR RECORD",
         "Jinete": "PATRICIO GALÁZ",
         "Stud": "INEFABLE",
         "Peso": "55"
@@ -4247,6 +4247,13 @@
         "prob_ml": "99.0"
       },
       {
+        "numero": 2,
+        "caballo": "BESA KISS",
+        "jinete": "WILBERT LEÓN",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 5,
         "caballo": "SELENZA",
         "jinete": "PEDRO ROBLES",
@@ -4255,17 +4262,10 @@
       },
       {
         "numero": 11,
-        "caballo": "Stevens For Record",
+        "caballo": "STEVENS FOR RECORD",
         "jinete": "PATRICIO GALÁZ",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
-      },
-      {
-        "numero": 2,
-        "caballo": "Besa Kiss",
-        "jinete": "WILBERT LEÓN",
-        "puntaje_ia": 81.8,
-        "prob_ml": "95.5"
       }
     ]
   },
@@ -4334,7 +4334,7 @@
       },
       {
         "Nº": 9,
-        "Caballo": "Nagao",
+        "Caballo": "NAGAO",
         "Jinete": "DIEGO CARVACHO",
         "Stud": "RODRIGO LÓPEZ B.",
         "Peso": "55"
@@ -4391,6 +4391,13 @@
         "prob_ml": "99.0"
       },
       {
+        "numero": 1,
+        "caballo": "YERI STAR",
+        "jinete": "BENJAMIN TRONCOSO",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 4,
         "caballo": "RICA ELEGANTE",
         "jinete": "BENJAMIN SANCHO",
@@ -4403,13 +4410,6 @@
         "jinete": "VICTOR MIRANDA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
-      },
-      {
-        "numero": 1,
-        "caballo": "YERI STAR",
-        "jinete": "BENJAMIN TRONCOSO",
-        "puntaje_ia": 83.7,
-        "prob_ml": "98.1"
       }
     ]
   },
@@ -4528,6 +4528,20 @@
     ],
     "predicciones": [
       {
+        "numero": 1,
+        "caballo": "SOUK",
+        "jinete": "GERARD RODRÍGUEZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "BABY SHAK",
+        "jinete": "FABIAN MEDINA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 4,
         "caballo": "SIETE DEL NUEVE",
         "jinete": "LUIS TORRES",
@@ -4540,20 +4554,6 @@
         "jinete": "ALBERTO VÁSQUEZ",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
-      },
-      {
-        "numero": 1,
-        "caballo": "SOUK",
-        "jinete": "GERARD RODRÍGUEZ",
-        "puntaje_ia": 83.7,
-        "prob_ml": "98.1"
-      },
-      {
-        "numero": 8,
-        "caballo": "GOOD PARTNER",
-        "jinete": "GUSTAVO AROS",
-        "puntaje_ia": 82.0,
-        "prob_ml": "95.6"
       }
     ]
   },
@@ -4643,14 +4643,14 @@
       },
       {
         "Nº": 12,
-        "Caballo": "Ke Personaje",
+        "Caballo": "KE PERSONAJE",
         "Jinete": "JOAQUÍN HERRERA",
         "Stud": "BRUNO ALONSO",
         "Peso": "54"
       },
       {
         "Nº": 13,
-        "Caballo": "Lesnar",
+        "Caballo": "LESNAR",
         "Jinete": "NICOLÁS MOLINA",
         "Stud": "DOÑA NANI",
         "Peso": "55"
@@ -4679,6 +4679,13 @@
         "prob_ml": "99.0"
       },
       {
+        "numero": 2,
+        "caballo": "CARAMEL FRAPPE",
+        "jinete": "IGNACIO VALDIVIA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 4,
         "caballo": "ELEGANT CHAMPION",
         "jinete": "LUIS TORRES",
@@ -4691,11 +4698,2148 @@
         "jinete": "JORGE ZÚÑIGA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "fecha": "2025-12-15",
+    "hora": "12:30",
+    "distancia": "1000m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "VALLTTERI",
+        "Jinete": "ROBERTO AVILA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "MARULINA",
+        "Jinete": "NICOLAS SANTIBAÑEZ",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "GOOD MORNING RED",
+        "Jinete": "RONALD FOURNET",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "LA TOTE",
+        "Jinete": "JAIME A. MIÑO",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "AGUILA DE FUEGO",
+        "Jinete": "BENJAMIN SANCHO",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "DOÑA ISA",
+        "Jinete": "JOSE CUETO",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "RECHIFLAO",
+        "Jinete": "CARLOS ORTEGA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "MOSASAURUS",
+        "Jinete": "MOISES A. DONOSO",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "NOCHE DE PAINE",
+        "Jinete": "LUIS D. MENGHINI",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 10,
+        "Caballo": "NO HAY ADIOS",
+        "Jinete": "BASTIAN SOTO",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 11,
+        "Caballo": "SUEÑO REALIDAD",
+        "Jinete": "LESLY C. GONZALEZ",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 12,
+        "Caballo": "BICAMPEON CHILENO",
+        "Jinete": "MARCO A. BUSTAMANTE",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 13,
+        "Caballo": "GEROMILO",
+        "Jinete": "NICOLAS MOLINA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 14,
+        "Caballo": "LA OVALLE NEGRETE",
+        "Jinete": "RODOLFO FUENZALIDA",
+        "Stud": null,
+        "Peso": "57"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 7,
+        "caballo": "RECHIFLAO",
+        "jinete": "CARLOS ORTEGA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "GOOD MORNING RED",
+        "jinete": "RONALD FOURNET",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "LA TOTE",
+        "jinete": "JAIME A. MIÑO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 13,
+        "caballo": "GEROMILO",
+        "jinete": "NICOLAS MOLINA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 2,
+    "fecha": "2025-12-15",
+    "hora": "12:58",
+    "distancia": "1000m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "SEE YOU AGAIN",
+        "Jinete": "LESLY C. GONZALEZ",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "SCANDINAVA",
+        "Jinete": "RODOLFO S. DORES",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "BLACK KINGLY",
+        "Jinete": "WILBERT LEON",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "CABLE A TIERRA",
+        "Jinete": "MAURICIO CHAMORRO",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "LITTLE GASPI",
+        "Jinete": "DIEGO CARRASCO",
+        "Stud": null,
+        "Peso": "58"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "SHEEZA",
+        "Jinete": "KEVIN ESPINA",
+        "Stud": null,
+        "Peso": "58"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "NONA BLANCA",
+        "Jinete": "JESUS TORO",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "EL BOHEMIO",
+        "Jinete": "BENJAMIN TRONCOSO",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "MINONI",
+        "Jinete": "ROBERTO AVILA",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 10,
+        "Caballo": "LLUVIA DE ENERO",
+        "Jinete": "NICOLAS RAMIREZ",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 11,
+        "Caballo": "PACIFICADOR",
+        "Jinete": "JOHAN GONZALEZ",
+        "Stud": null,
+        "Peso": "55"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 5,
+        "caballo": "LITTLE GASPI",
+        "jinete": "DIEGO CARRASCO",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "SCANDINAVA",
+        "jinete": "RODOLFO S. DORES",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "CABLE A TIERRA",
+        "jinete": "MAURICIO CHAMORRO",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 8,
+        "caballo": "EL BOHEMIO",
+        "jinete": "BENJAMIN TRONCOSO",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 3,
+    "fecha": "2025-12-15",
+    "hora": "13:26",
+    "distancia": "1200m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "YOKITA",
+        "Jinete": "FABIAN MEDINA",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "KISS THE QUEEN",
+        "Jinete": "IGNACIO VALDIVIA",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "GUAGUA BRAVA",
+        "Jinete": "JOAQUIN HERRERA",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "JEFA DE JEFAS",
+        "Jinete": "MARCO MORALES",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "ME DAS OTRO BESO",
+        "Jinete": "BENJAMIN TRONCOSO",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "RUBIA CLARA",
+        "Jinete": "RONALD FOURNET",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "WIELKA",
+        "Jinete": "BERNARDO LEON",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "PASCUERA",
+        "Jinete": "JONATHAN A. CASTILLO",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "TRANQUILA NIÑA",
+        "Jinete": "ALVARO APABLAZA",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 10,
+        "Caballo": "RAMHE",
+        "Jinete": "VICTOR MIRANDA",
+        "Stud": null,
+        "Peso": "55"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "YOKITA",
+        "jinete": "FABIAN MEDINA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "JEFA DE JEFAS",
+        "jinete": "MARCO MORALES",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 6,
+        "caballo": "RUBIA CLARA",
+        "jinete": "RONALD FOURNET",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
       },
       {
         "numero": 9,
-        "caballo": "BENIBLU",
+        "caballo": "TRANQUILA NIÑA",
+        "jinete": "ALVARO APABLAZA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 4,
+    "fecha": "2025-12-15",
+    "hora": "13:56",
+    "distancia": "1000m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "UNO CERO",
+        "Jinete": "NICOLAS RAMIREZ",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "DESCREIDA",
+        "Jinete": "ALVARO APABLAZA",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "POWER MARINE",
+        "Jinete": "RODOLFO FUENZALIDA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "TANGO",
+        "Jinete": "MOISES A. DONOSO",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "DI LA VERDAD ROSA",
+        "Jinete": "ANDRES CASTILLO",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "PITTIRANGA",
+        "Jinete": "BENJAMIN TRONCOSO",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "NO TIENE PALABRA",
+        "Jinete": "JORGE VERA",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "DIMITRA",
+        "Jinete": "WLADIMIR QUINTEROS",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "GRAN TOURIST",
+        "Jinete": "LUIS D. MENGHINI",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 10,
+        "Caballo": "FLOR DE JAMAICA",
+        "Jinete": "NICOLAS MOLINA",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 11,
+        "Caballo": "SPECIAL MACHINE",
+        "Jinete": "MARCO MORALES",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 12,
+        "Caballo": "LUPO",
+        "Jinete": "BENJAMIN SANCHO",
+        "Stud": null,
+        "Peso": "57"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 7,
+        "caballo": "NO TIENE PALABRA",
+        "jinete": "JORGE VERA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 8,
+        "caballo": "DIMITRA",
+        "jinete": "WLADIMIR QUINTEROS",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "DESCREIDA",
+        "jinete": "ALVARO APABLAZA",
+        "puntaje_ia": 82.6,
+        "prob_ml": "96.6"
+      },
+      {
+        "numero": 12,
+        "caballo": "LUPO",
+        "jinete": "BENJAMIN SANCHO",
+        "puntaje_ia": 78.3,
+        "prob_ml": "90.4"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 5,
+    "fecha": "2025-12-15",
+    "hora": "14:24",
+    "distancia": "1400m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "MAGO DEL GELATO",
+        "Jinete": "IGNACIO VALDIVIA",
+        "Stud": null,
+        "Peso": "52"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "LARRYKANE",
+        "Jinete": "JAIME MEDINA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "RUSIO NO ES",
+        "Jinete": "RODOLFO FUENZALIDA",
+        "Stud": null,
+        "Peso": "60"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "ANALOGO",
+        "Jinete": "DAVID SANCHEZ",
+        "Stud": null,
+        "Peso": "59"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "GRAN RAI",
+        "Jinete": "JONATHAN A. CASTILLO",
+        "Stud": null,
+        "Peso": "61"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "EL MERLUZO",
+        "Jinete": "GUSTAVO AROS",
+        "Stud": null,
+        "Peso": "60"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "NA NI NA",
+        "Jinete": "RODOLFO S. DORES",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "LUCKY EMPIRE",
+        "Jinete": "JOAQUIN HERRERA",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "MILTEO",
+        "Jinete": "RAFAEL CISTERNAS",
+        "Stud": null,
+        "Peso": "54"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 6,
+        "caballo": "EL MERLUZO",
+        "jinete": "GUSTAVO AROS",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "LARRYKANE",
+        "jinete": "JAIME MEDINA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "RUSIO NO ES",
+        "jinete": "RODOLFO FUENZALIDA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "ANALOGO",
+        "jinete": "DAVID SANCHEZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 6,
+    "fecha": "2025-12-15",
+    "hora": "14:49",
+    "distancia": "1400m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "PRIETO AZABACHE",
+        "Jinete": "JOAQUIN HERRERA",
+        "Stud": null,
+        "Peso": "53"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "STATE OF GRACE",
+        "Jinete": "MIGUEL GUTIERREZ",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "GONE STAR",
+        "Jinete": "RODOLFO FUENZALIDA",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "ONIX BLUE",
+        "Jinete": "RODRIGO PAINEN",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "FREUD WISH",
+        "Jinete": "BERNARDO LEON",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "SOY DEL CICLON (ARG)",
+        "Jinete": "JESUS TORO",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "BENTINCK",
+        "Jinete": "JAIME MEDINA",
+        "Stud": null,
+        "Peso": "53"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "PRIETO AZABACHE",
+        "jinete": "JOAQUIN HERRERA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 5,
+        "caballo": "FREUD WISH",
+        "jinete": "BERNARDO LEON",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 7,
+        "caballo": "BENTINCK",
+        "jinete": "JAIME MEDINA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "GONE STAR",
+        "jinete": "RODOLFO FUENZALIDA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 7,
+    "fecha": "2025-12-15",
+    "hora": "15:19",
+    "distancia": "1000m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "VOY A PALERMO",
+        "Jinete": "BENJAMIN SANCHO",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "MACHINE HEAD",
+        "Jinete": "PEDRO ROBLES",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "GUNDOGAN",
+        "Jinete": "NICOLAS RAMIREZ",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "LUQUITAS",
+        "Jinete": "JOSE VILLABLANCA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "CONQUISTADO",
+        "Jinete": "SEBASTIAN GONZALEZ",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "FLY STELLAS",
+        "Jinete": "JOAQUIN HERRERA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "SENSEI DE FRANKLIN",
+        "Jinete": "GUSTAVO AROS",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "MI GIGANTE",
+        "Jinete": "RODOLFO FUENZALIDA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "REY SALOMON",
+        "Jinete": "BENJAMIN TRONCOSO",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 10,
+        "Caballo": "PARA TI DOCTOR",
+        "Jinete": "GIVOVICH GEORGEE",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 11,
+        "Caballo": "TIO SALCHICHA",
+        "Jinete": "VICTOR MIRANDA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 12,
+        "Caballo": "ELSEBAAHORRATODO",
+        "Jinete": "NICOLAS MOLINA",
+        "Stud": null,
+        "Peso": "57"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 2,
+        "caballo": "MACHINE HEAD",
+        "jinete": "PEDRO ROBLES",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "GUNDOGAN",
+        "jinete": "NICOLAS RAMIREZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 8,
+        "caballo": "MI GIGANTE",
+        "jinete": "RODOLFO FUENZALIDA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 9,
+        "caballo": "REY SALOMON",
         "jinete": "BENJAMIN TRONCOSO",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 8,
+    "fecha": "2025-12-15",
+    "hora": "15:47",
+    "distancia": "1000m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "GALWAY GIRL",
+        "Jinete": "VICTOR MIRANDA",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "PAYBACK",
+        "Jinete": "NICOLAS RAMIREZ",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "BADERO",
+        "Jinete": "GUSTAVO AROS",
+        "Stud": null,
+        "Peso": "59"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "GRIEZMANN",
+        "Jinete": "NICOLAS MOLINA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "PIANTAO",
+        "Jinete": "RODOLFO S. DORES",
+        "Stud": null,
+        "Peso": "60"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "VAMOS AL NOA NOA",
+        "Jinete": "BERNARDO LEON",
+        "Stud": null,
+        "Peso": "60"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "DESENFRENADO",
+        "Jinete": "LESLY C. GONZALEZ",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "SEE ME",
+        "Jinete": "JOAQUIN HERRERA",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "STRAY KIDS",
+        "Jinete": "JONATHAN A. CASTILLO",
+        "Stud": null,
+        "Peso": "55"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 4,
+        "caballo": "GRIEZMANN",
+        "jinete": "NICOLAS MOLINA",
+        "puntaje_ia": 85.5,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "BADERO",
+        "jinete": "GUSTAVO AROS",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 8,
+        "caballo": "SEE ME",
+        "jinete": "JOAQUIN HERRERA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 9,
+        "caballo": "STRAY KIDS",
+        "jinete": "JONATHAN A. CASTILLO",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 9,
+    "fecha": "2025-12-15",
+    "hora": "16:15",
+    "distancia": "1300m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "YA VA",
+        "Jinete": "JAIME MEDINA",
+        "Stud": null,
+        "Peso": "52"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "ROSY L'AMORE",
+        "Jinete": "GERARD RODRIGUEZ",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "ON LOOK",
+        "Jinete": "JOAQUIN HERRERA",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "QUIET MOON",
+        "Jinete": "SEBASTIAN GONZALEZ",
+        "Stud": null,
+        "Peso": "52"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "ADICTIVA",
+        "Jinete": "RODOLFO S. DORES",
+        "Stud": null,
+        "Peso": "58"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "CAMBIA EL SWITCH",
+        "Jinete": "RAFAEL CISTERNAS",
+        "Stud": null,
+        "Peso": "52"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "SORRISI",
+        "Jinete": "BERNARDO LEON",
+        "Stud": null,
+        "Peso": "53"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 6,
+        "caballo": "CAMBIA EL SWITCH",
+        "jinete": "RAFAEL CISTERNAS",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 1,
+        "caballo": "YA VA",
+        "jinete": "JAIME MEDINA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "ROSY L'AMORE",
+        "jinete": "GERARD RODRIGUEZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "QUIET MOON",
+        "jinete": "SEBASTIAN GONZALEZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "fecha": "2025-12-15",
+    "hora": "16:45",
+    "distancia": "1000m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "JE T'AIME",
+        "Jinete": "JOHAN GONZALEZ",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "MI TIO POLO",
+        "Jinete": "CARLOS ORTEGA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "MATE AMARGO",
+        "Jinete": "BASTIAN SOTO",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "MI NIETO FRANK",
+        "Jinete": "RODOLFO S. DORES",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "TODAS MIENTEN",
+        "Jinete": "JOSE PAREDES",
+        "Stud": null,
+        "Peso": "58"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "FERLUISI",
+        "Jinete": "JOAQUIN HERRERA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "FRAMING (ARG)",
+        "Jinete": "JAIME MEDINA",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "RAIRET",
+        "Jinete": "RICARDO SOLORZA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "EL LEGENDARIO",
+        "Jinete": "BENJAMIN SANCHO",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 10,
+        "Caballo": "DOBLE NEGRO",
+        "Jinete": "MAURICIO GALAZ",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 11,
+        "Caballo": "CHICA DEL LUCERO",
+        "Jinete": "NICOLAS MOLINA",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 12,
+        "Caballo": "BARBIE DREAMS",
+        "Jinete": "GUSTAVO AROS",
+        "Stud": null,
+        "Peso": "57"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 2,
+        "caballo": "MI TIO POLO",
+        "jinete": "CARLOS ORTEGA",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 11,
+        "caballo": "CHICA DEL LUCERO",
+        "jinete": "NICOLAS MOLINA",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "MI NIETO FRANK",
+        "jinete": "RODOLFO S. DORES",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 8,
+        "caballo": "RAIRET",
+        "jinete": "RICARDO SOLORZA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 11,
+    "fecha": "2025-12-15",
+    "hora": "17:15",
+    "distancia": "1000m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "VALKYRIE LEGEND",
+        "Jinete": "BASTIAN SOTO",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "AMPAWAN",
+        "Jinete": "JOSE PAREDES",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "EL KING",
+        "Jinete": "JOSE CUETO",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "REINA EGIPCIA",
+        "Jinete": "JOHAN GONZALEZ",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "BESOS DE MIEL",
+        "Jinete": "BENJAMIN SANCHO",
+        "Stud": null,
+        "Peso": "58"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "CHOW CHOW",
+        "Jinete": "PIERO REYES P.",
+        "Stud": null,
+        "Peso": "58"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "CAPITANA MARVEL",
+        "Jinete": "LESLY C. GONZALEZ",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "ARTHUR SHELBY",
+        "Jinete": "RODRIGO PAINEN",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "UNDER THE LIGHT",
+        "Jinete": "MARCO MORALES",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 10,
+        "Caballo": "BRUJO DORADO",
+        "Jinete": "GIVOVICH GEORGEE",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 11,
+        "Caballo": "TEA AND MILK",
+        "Jinete": "ROBERTO AVILA",
+        "Stud": null,
+        "Peso": "55"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 2,
+        "caballo": "AMPAWAN",
+        "jinete": "JOSE PAREDES",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 7,
+        "caballo": "CAPITANA MARVEL",
+        "jinete": "LESLY C. GONZALEZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 10,
+        "caballo": "BRUJO DORADO",
+        "jinete": "GIVOVICH GEORGEE",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 1,
+        "caballo": "VALKYRIE LEGEND",
+        "jinete": "BASTIAN SOTO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 12,
+    "fecha": "2025-12-15",
+    "hora": "17:45",
+    "distancia": "1000m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "WONDERFUL STAR",
+        "Jinete": "BENJAMIN TRONCOSO",
+        "Stud": null,
+        "Peso": "53"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "BREGO",
+        "Jinete": "BASTIAN SOTO",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "LIMATOWN",
+        "Jinete": "BERNARDO LEON",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "PLUMA DE MAR",
+        "Jinete": "RICARDO SOLORZA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "SONRISA DULCE",
+        "Jinete": "PEDRO ROBLES",
+        "Stud": null,
+        "Peso": "58"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "DISMAI",
+        "Jinete": "BENJAMIN SANCHO",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "ROYAL DUBLIN",
+        "Jinete": "JUAN TAPIA",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "PALACETE",
+        "Jinete": "JONATHAN A. CASTILLO",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "EL QUE LA LLEVA",
+        "Jinete": "ALVARO APABLAZA",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 10,
+        "Caballo": "BALDER EL NORUEGO",
+        "Jinete": "RODOLFO FUENZALIDA",
+        "Stud": null,
+        "Peso": "55"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 2,
+        "caballo": "BREGO",
+        "jinete": "BASTIAN SOTO",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 8,
+        "caballo": "PALACETE",
+        "jinete": "JONATHAN A. CASTILLO",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 10,
+        "caballo": "BALDER EL NORUEGO",
+        "jinete": "RODOLFO FUENZALIDA",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "LIMATOWN",
+        "jinete": "BERNARDO LEON",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "fecha": "2025-12-15",
+    "hora": "18:15",
+    "distancia": "1000m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "PONTE TU",
+        "Jinete": "NICOLAS SANTIBAÑEZ",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "LA INTIFADA",
+        "Jinete": "BERNARDO LEON",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "FIOR DI LATTE",
+        "Jinete": "JOAQUIN HERRERA",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "HILDITA MIA",
+        "Jinete": "JOHAN GONZALEZ",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "EUSKERA",
+        "Jinete": "BENJAMIN TRONCOSO",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "DAMA DE LA LUZ",
+        "Jinete": "JOSE VILLABLANCA",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "PARA SIEMPRE",
+        "Jinete": "NICOLAS MOLINA",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "LA QUE MAS CHAE",
+        "Jinete": "PEDRO ROBLES",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "NAHUEN",
+        "Jinete": "AGUSTIN VILLAGRA",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 10,
+        "Caballo": "LIVIA DRUSA",
+        "Jinete": "LESLY C. GONZALEZ",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 11,
+        "Caballo": "PASION ALBA",
+        "Jinete": "BENJAMIN SANCHO",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 12,
+        "Caballo": "CHE AWAY",
+        "Jinete": "NELSON ROJAS",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 13,
+        "Caballo": "DARLING",
+        "Jinete": "NICOLAS RAMIREZ",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 14,
+        "Caballo": "GRAN COMPAÑERA",
+        "Jinete": "CARLOS ORTEGA",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 15,
+        "Caballo": "LUGA",
+        "Jinete": "JONATHAN A. CASTILLO",
+        "Stud": null,
+        "Peso": "55"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 14,
+        "caballo": "GRAN COMPAÑERA",
+        "jinete": "CARLOS ORTEGA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 1,
+        "caballo": "PONTE TU",
+        "jinete": "NICOLAS SANTIBAÑEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "LA INTIFADA",
+        "jinete": "BERNARDO LEON",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "FIOR DI LATTE",
+        "jinete": "JOAQUIN HERRERA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 14,
+    "fecha": "2025-12-15",
+    "hora": "18:45",
+    "distancia": "1000m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "TIA GUACOLDA",
+        "Jinete": "JOHAN GONZALEZ",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "LA ITALIA MIA",
+        "Jinete": "JOAQUIN HERRERA",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "GOLFISTA",
+        "Jinete": "MIGUEL GUTIERREZ",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "GONE RITAN",
+        "Jinete": "NELSON ROJAS",
+        "Stud": null,
+        "Peso": "58"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "BULLA BLUE",
+        "Jinete": "WILBERT LEON",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "CUKUCHI",
+        "Jinete": "VICTOR MIRANDA",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "RICONDITA",
+        "Jinete": "JAIME MEDINA",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "NIÑITA POR DIOS",
+        "Jinete": "AGUSTIN VILLAGRA",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "RAPILLANA",
+        "Jinete": "MAURICIO CHAMORRO",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 10,
+        "Caballo": "RANI",
+        "Jinete": "PEDRO ROBLES",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 11,
+        "Caballo": "TAUHERE",
+        "Jinete": "SEBASTIAN GONZALEZ",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 12,
+        "Caballo": "CITLALLI",
+        "Jinete": "RODOLFO FUENZALIDA",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 13,
+        "Caballo": "DADDYS BABY",
+        "Jinete": "NICOLAS RAMIREZ",
+        "Stud": null,
+        "Peso": "54"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 9,
+        "caballo": "RAPILLANA",
+        "jinete": "MAURICIO CHAMORRO",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "LA ITALIA MIA",
+        "jinete": "JOAQUIN HERRERA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "GONE RITAN",
+        "jinete": "NELSON ROJAS",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 5,
+        "caballo": "BULLA BLUE",
+        "jinete": "WILBERT LEON",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 15,
+    "fecha": "2025-12-15",
+    "hora": "19:15",
+    "distancia": "1000m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "SINGLE BARREL",
+        "Jinete": "IGNACIO VALDIVIA",
+        "Stud": null,
+        "Peso": "51"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "CARLITOS YUSTI",
+        "Jinete": "JORGE ZUÑIGA",
+        "Stud": null,
+        "Peso": "53"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "CHIANA",
+        "Jinete": "BERNARDO LEON",
+        "Stud": null,
+        "Peso": "58"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "KNESEET",
+        "Jinete": "GUSTAVO AROS",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "HEROICO",
+        "Jinete": "JAIME MEDINA",
+        "Stud": null,
+        "Peso": "60"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "TATANKA",
+        "Jinete": "LUIS TORRES",
+        "Stud": null,
+        "Peso": "60"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "CASTOR TROY",
+        "Jinete": "NICOLAS MOLINA",
+        "Stud": null,
+        "Peso": "52"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "JAZZ ROCK",
+        "Jinete": "RODOLFO S. DORES",
+        "Stud": null,
+        "Peso": "53"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "STRONG DAIKIRI",
+        "Jinete": "JOSE PAREDES",
+        "Stud": null,
+        "Peso": "53"
+      },
+      {
+        "Nº": 10,
+        "Caballo": "PALTOCITO",
+        "Jinete": "RODOLFO FUENZALIDA",
+        "Stud": null,
+        "Peso": "53"
+      },
+      {
+        "Nº": 11,
+        "Caballo": "KAPICHU (ARG)",
+        "Jinete": "BENJAMIN TRONCOSO",
+        "Stud": null,
+        "Peso": "52"
+      },
+      {
+        "Nº": 12,
+        "Caballo": "JOHNNY DOGS",
+        "Jinete": "NICOLAS RAMIREZ",
+        "Stud": null,
+        "Peso": "60"
+      },
+      {
+        "Nº": 13,
+        "Caballo": "CAPITAN ROBLES",
+        "Jinete": "WLADIMIR QUINTEROS",
+        "Stud": null,
+        "Peso": "58"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 3,
+        "caballo": "CHIANA",
+        "jinete": "BERNARDO LEON",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 12,
+        "caballo": "JOHNNY DOGS",
+        "jinete": "NICOLAS RAMIREZ",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "CARLITOS YUSTI",
+        "jinete": "JORGE ZUÑIGA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "KNESEET",
+        "jinete": "GUSTAVO AROS",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "fecha": "2025-12-15",
+    "hora": "19:50",
+    "distancia": "1400m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "TOP KING",
+        "Jinete": "JOAQUIN HERRERA",
+        "Stud": null,
+        "Peso": "53"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "ENTRE NEGROS",
+        "Jinete": "JAIME MEDINA",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "REY ESCOCES",
+        "Jinete": "BERNARDO LEON",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "SABIONDO",
+        "Jinete": "JONATHAN A. CASTILLO",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "GENIUS",
+        "Jinete": "RAFAEL CISTERNAS",
+        "Stud": null,
+        "Peso": "58"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "SE PREPARO",
+        "Jinete": "JESUS TORO",
+        "Stud": null,
+        "Peso": "58"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "MISTER HEAD",
+        "Jinete": "BENJAMIN TRONCOSO",
+        "Stud": null,
+        "Peso": "53"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "SIN PREJUICIOS",
+        "Jinete": "NICOLAS MOLINA",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "DON'T CRY DADDY",
+        "Jinete": "GIVOVICH GEORGEE",
+        "Stud": null,
+        "Peso": "53"
+      },
+      {
+        "Nº": 10,
+        "Caballo": "FLIGHT OF ICARUS",
+        "Jinete": "FELIPE HENRIQUEZ",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 11,
+        "Caballo": "PATMAHO",
+        "Jinete": "BASTIAN SOTO",
+        "Stud": null,
+        "Peso": "53"
+      },
+      {
+        "Nº": 12,
+        "Caballo": "IMANOL",
+        "Jinete": "NICOLAS RAMIREZ",
+        "Stud": null,
+        "Peso": "58"
+      },
+      {
+        "Nº": 13,
+        "Caballo": "CUARTO C",
+        "Jinete": "KEVIN ESPINA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 14,
+        "Caballo": "MR CASPER",
+        "Jinete": "ALVARO APABLAZA",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 15,
+        "Caballo": "DOCTORA MILAGRO",
+        "Jinete": "NELSON ROJAS",
+        "Stud": null,
+        "Peso": "53"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 2,
+        "caballo": "ENTRE NEGROS",
+        "jinete": "JAIME MEDINA",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 12,
+        "caballo": "IMANOL",
+        "jinete": "NICOLAS RAMIREZ",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 9,
+        "caballo": "DON'T CRY DADDY",
+        "jinete": "GIVOVICH GEORGEE",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 5,
+        "caballo": "GENIUS",
+        "jinete": "RAFAEL CISTERNAS",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 17,
+    "fecha": "2025-12-15",
+    "hora": "20:25",
+    "distancia": "1400m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "JAVIVALETU",
+        "Jinete": "VICTOR MIRANDA",
+        "Stud": null,
+        "Peso": "53"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "CONOCIENDOTE",
+        "Jinete": "BASTIAN SOTO",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "QUIEN ME PILLO",
+        "Jinete": "FELIPE HENRIQUEZ",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "BEL FIOR",
+        "Jinete": "RODRIGO PAINEN",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "EL FELICIDAD",
+        "Jinete": "DAVID SANCHEZ",
+        "Stud": null,
+        "Peso": "58"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "BEHIND THE SUN",
+        "Jinete": "RODOLFO FUENZALIDA",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "MUY SOLO AQUI",
+        "Jinete": "NICOLAS MOLINA",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "EL BIGOTE",
+        "Jinete": "NICOLAS RAMIREZ",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "HAMM GOOD",
+        "Jinete": "JOHAN GONZALEZ",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 10,
+        "Caballo": "ANTIOCO",
+        "Jinete": "MARCO MORALES",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 11,
+        "Caballo": "PESO DORADO",
+        "Jinete": "WILBERT LEON",
+        "Stud": null,
+        "Peso": "54"
+      },
+      {
+        "Nº": 12,
+        "Caballo": "GRAND CASABLANCA",
+        "Jinete": "JESUS PIMENTEL",
+        "Stud": null,
+        "Peso": "58"
+      },
+      {
+        "Nº": 13,
+        "Caballo": "EN CAPILLA",
+        "Jinete": "BENJAMIN SANCHO",
+        "Stud": null,
+        "Peso": "57"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 5,
+        "caballo": "EL FELICIDAD",
+        "jinete": "DAVID SANCHEZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 7,
+        "caballo": "MUY SOLO AQUI",
+        "jinete": "NICOLAS MOLINA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 8,
+        "caballo": "EL BIGOTE",
+        "jinete": "NICOLAS RAMIREZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 11,
+        "caballo": "PESO DORADO",
+        "jinete": "WILBERT LEON",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 18,
+    "fecha": "2025-12-15",
+    "hora": "21:00",
+    "distancia": "1400m",
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "SASSI",
+        "Jinete": "BENJAMIN TRONCOSO",
+        "Stud": null,
+        "Peso": "53"
+      },
+      {
+        "Nº": 2,
+        "Caballo": "RUSTY",
+        "Jinete": "GONZALO ULLOA",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 3,
+        "Caballo": "GENESIS",
+        "Jinete": "BASTIAN SOTO",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 4,
+        "Caballo": "MR YO",
+        "Jinete": "MIGUEL GUTIERREZ",
+        "Stud": null,
+        "Peso": "56"
+      },
+      {
+        "Nº": 5,
+        "Caballo": "EL NANY",
+        "Jinete": "PEDRO ROBLES",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 6,
+        "Caballo": "GRAN PIOLA",
+        "Jinete": "SEBASTIAN GONZALEZ",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 7,
+        "Caballo": "FUEGO Y HIERRO",
+        "Jinete": "VICTOR MIRANDA",
+        "Stud": null,
+        "Peso": "53"
+      },
+      {
+        "Nº": 8,
+        "Caballo": "KILIMANJARO (ARG)",
+        "Jinete": "NICOLAS RAMIREZ",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 9,
+        "Caballo": "SWEET CHILD",
+        "Jinete": "BENJAMIN SANCHO",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 10,
+        "Caballo": "KORPER",
+        "Jinete": "NICOLAS MOLINA",
+        "Stud": null,
+        "Peso": "55"
+      },
+      {
+        "Nº": 11,
+        "Caballo": "NAMRUD TIGER",
+        "Jinete": "RAFAEL CISTERNAS",
+        "Stud": null,
+        "Peso": "53"
+      },
+      {
+        "Nº": 12,
+        "Caballo": "GRAN KURU",
+        "Jinete": "LESLY C. GONZALEZ",
+        "Stud": null,
+        "Peso": "57"
+      },
+      {
+        "Nº": 13,
+        "Caballo": "CONDESSA LAK",
+        "Jinete": "RODRIGO PAINEN",
+        "Stud": null,
+        "Peso": "56"
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 3,
+        "caballo": "GENESIS",
+        "jinete": "BASTIAN SOTO",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 6,
+        "caballo": "GRAN PIOLA",
+        "jinete": "SEBASTIAN GONZALEZ",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 9,
+        "caballo": "SWEET CHILD",
+        "jinete": "BENJAMIN SANCHO",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "RUSTY",
+        "jinete": "GONZALO ULLOA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       }

@@ -54,11 +54,21 @@ def precalculate_predictions():
     """Pre-calcula predicciones y las guarda en cache"""
     print("📊 Pre-calculando predicciones...")
     try:
-        # Limpiar cache de memoria para asegurar datos frescos
+        cache_path = Path("data/cache_analisis.json")
+        
+        # CRITICAL: Eliminar el archivo de cache JSON para forzar recálculo completo
+        if cache_path.exists():
+            print(f"   🗑️  Eliminando cache antiguo: {cache_path}")
+            cache_path.unlink()
+            print("   ✅ Cache antiguo eliminado")
+        
+        # Limpiar cache de memoria LRU para asegurar datos frescos
         print("   🧹 Limpiando cache LRU de obtener_analisis_jornada...")
         obtener_analisis_jornada.cache_clear()
         print("   ✅ Cache LRU limpiado")
         
+        # Ahora obtener_analisis_jornada se verá forzado a recalcular desde la BD
+        print("   🔄 Recalculando predicciones desde base de datos...")
         analisis = obtener_analisis_jornada()
         
         # Debug: mostrar fechas procesadas
@@ -76,7 +86,6 @@ def precalculate_predictions():
                 carrera_dict['predicciones'] = carrera_dict['predicciones'].to_dict('records')
             analisis_serializable.append(carrera_dict)
 
-        cache_path = Path("data/cache_analisis.json")
         cache_path.parent.mkdir(exist_ok=True, parents=True)
         
         with open(cache_path, 'w', encoding='utf-8') as f:
