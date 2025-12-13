@@ -129,6 +129,43 @@ def main():
 def deploy_to_cloud_run():
     """Despliega la aplicación a Google Cloud Run"""
     try:
+        # Determinar el comando correcto de gcloud para Windows
+        gcloud_cmd = "gcloud.cmd" if sys.platform == "win32" else "gcloud"
+        
+        # Verificar si gcloud está instalado
+        print("   🔍 Verificando instalación de gcloud...")
+        gcloud_check = subprocess.run(
+            [gcloud_cmd, "--version"],
+            capture_output=True,
+            text=True,
+            timeout=5,
+            shell=True if sys.platform == "win32" else False
+        )
+        
+        if gcloud_check.returncode != 0:
+            print("   ⚠️ gcloud CLI no está correctamente configurado.")
+            print(f"   📄 Error: {gcloud_check.stderr}")
+            return
+        
+        print("   ✅ gcloud CLI encontrado")
+        
+        # Verificar autenticación
+        print("   🔐 Verificando autenticación de gcloud...")
+        auth_check = subprocess.run(
+            [gcloud_cmd, "auth", "list", "--filter=status:ACTIVE", "--format=value(account)"],
+            capture_output=True,
+            text=True,
+            timeout=10,
+            shell=True if sys.platform == "win32" else False
+        )
+        
+        if not auth_check.stdout.strip():
+            print("   ⚠️ No hay cuenta de Google Cloud autenticada.")
+            print("   💡 Ejecuta: gcloud auth login")
+            return
+        
+        print(f"   ✅ Autenticado como: {auth_check.stdout.strip()}")
+        
         # Commit cambios a Git primero
         print("   📦 Commiteando cambios a Git...")
         subprocess.run(["git", "add", "."], cwd=os.path.dirname(__file__) or ".", check=False)
@@ -145,7 +182,7 @@ def deploy_to_cloud_run():
         print("   🚀 Desplegando a Cloud Run...")
         result = subprocess.run(
             [
-                "gcloud", "run", "deploy", "pista-inteligente",
+                gcloud_cmd, "run", "deploy", "pista-inteligente",
                 "--source", ".",
                 "--region", "us-central1",
                 "--allow-unauthenticated",
@@ -153,7 +190,9 @@ def deploy_to_cloud_run():
             ],
             cwd=os.path.dirname(__file__) or ".",
             capture_output=True,
-            text=True
+            text=True,
+            timeout=300,  # 5 minutos max
+            shell=True if sys.platform == "win32" else False
         )
         
         if result.returncode == 0:
@@ -164,13 +203,17 @@ def deploy_to_cloud_run():
                     print(f"   🌐 URL: {line.strip()}")
                     break
         else:
-            print(f"   ⚠️ Advertencia en deploy: {result.stderr[:200] if result.stderr else 'Sin detalles'}")
+            print("   ❌ Error en deploy a Cloud Run:")
+            print(f"   📄 STDOUT: {result.stdout}")
+            print(f"   📄 STDERR: {result.stderr}")
             
     except FileNotFoundError:
-        print("   ⚠️ gcloud CLI no encontrado. Instálalo para deploy automático.")
-        print("   💡 Tip: Puedes hacer deploy manual con 'gcloud run deploy'")
+        print("   ⚠️ gcloud CLI no encontrado en el PATH del sistema.")
+        print("   💡 Tip: Instala Google Cloud SDK o verifica tu PATH")
+    except subprocess.TimeoutExpired:
+        print("   ⚠️ Timeout en el deploy. El proceso tomó demasiado tiempo.")
     except Exception as e:
-        print(f"   ❌ Error en deploy: {e}")
+        print(f"   ❌ Error inesperado en deploy: {type(e).__name__}: {e}")
 
 if __name__ == "__main__":
     main()
