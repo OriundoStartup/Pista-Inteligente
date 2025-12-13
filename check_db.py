@@ -1,23 +1,47 @@
 import sqlite3
-import pandas as pd
+from datetime import datetime
 
-conn = sqlite3.connect('data/db/hipica_data.db')
+# Conectar a la base de datos
+conn = sqlite3.connect('hipica_data.db')
 cursor = conn.cursor()
 
-print("🔍 Checking 'tiempo' column in 'participaciones'...")
-cursor.execute("SELECT count(*) FROM participaciones WHERE tiempo IS NOT NULL")
-count_not_null = cursor.fetchone()[0]
+# Verificar datos del 15 de diciembre
+print("=" * 60)
+print("VERIFICACIÓN DE DATOS 2025-12-15")
+print("=" * 60)
 
-cursor.execute("SELECT count(*) FROM participaciones")
-count_total = cursor.fetchone()[0]
+cursor.execute('SELECT COUNT(*) FROM programas WHERE fecha = "2025-12-15"')
+total = cursor.fetchone()[0]
+print(f"\nTotal registros 2025-12-15: {total}")
 
-print(f"✅ Records with Time: {count_not_null} / {count_total}")
+if total > 0:
+    cursor.execute('''
+        SELECT hipodromo, carrera, COUNT(*) as caballos
+        FROM programas 
+        WHERE fecha = "2025-12-15"
+        GROUP BY hipodromo, carrera
+        ORDER BY hipodromo, carrera
+    ''')
+    print("\nDesglose por carrera:")
+    for row in cursor.fetchall():
+        print(f"  {row[0]} - Carrera {row[1]}: {row[2]} caballos")
 
-if count_not_null > 0:
-    print("\nSample Data:")
-    df = pd.read_sql("SELECT * FROM participaciones WHERE tiempo IS NOT NULL LIMIT 5", conn)
-    print(df[['id', 'tiempo', 'distancia_cpos']])
-else:
-    print("❌ No time data found!")
+# Verificar fechas disponibles en programas
+print("\n" + "=" * 60)
+print("FECHAS DISPONIBLES EN PROGRAMAS")
+print("=" * 60)
+
+cursor.execute('''
+    SELECT DISTINCT fecha, hipodromo, COUNT(*) as total
+    FROM programas
+    GROUP BY fecha, hipodromo
+    ORDER BY fecha DESC
+    LIMIT 10
+''')
+
+print("\nÚltimas 10 fechas:")
+for row in cursor.fetchall():
+    print(f"  {row[0]} - {row[1]}: {row[2]} caballos")
 
 conn.close()
+print("\n" + "=" * 60)

@@ -55,9 +55,16 @@ def precalculate_predictions():
     print("📊 Pre-calculando predicciones...")
     try:
         # Limpiar cache de memoria para asegurar datos frescos
+        print("   🧹 Limpiando cache LRU de obtener_analisis_jornada...")
         obtener_analisis_jornada.cache_clear()
+        print("   ✅ Cache LRU limpiado")
         
         analisis = obtener_analisis_jornada()
+        
+        # Debug: mostrar fechas procesadas
+        fechas = set(c.get('fecha') for c in analisis)
+        print(f"   📅 Fechas procesadas: {sorted(fechas)}")
+        print(f"   🏁 Total de carreras: {len(analisis)}")
         
         # Convertir DataFrames a dicts si es necesario
         analisis_serializable = []
