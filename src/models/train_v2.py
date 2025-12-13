@@ -48,7 +48,7 @@ class HipicaLearner:
             return pd.DataFrame()
 
     def train(self):
-        print("🚀 Iniciando Entrenamiento Avanzado (V2.1 - HistGradientBoosting)...")
+        print("🚀 Iniciando Entrenamiento Avanzado (V3 - HistGradientBoosting)...")
         df = self.get_raw_data()
         
         if len(df) < 100:
