@@ -5,3 +5,10 @@ __pycache__/
 *.pyc
 .DS_Store
 
+# Ignorar BD duplicada en raíz (debe estar solo en data/db/)
+/hipica_data.db
+
+# Scripts temporales de debugging
+check_*.py
+list_*.py
+debug_*.py
