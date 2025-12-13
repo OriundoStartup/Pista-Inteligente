@@ -1,8 +1,11 @@
 import google.generativeai as genai
 import os
-
+from dotenv import load_dotenv
 import time
 from .data_manager import cargar_programa, obtener_analisis_jornada, obtener_estadisticas_generales
+
+# Cargar variables de entorno desde .env
+load_dotenv()
 
 def configurar_gemini():
     """Configura la API key de Gemini desde variables de entorno.
@@ -14,8 +17,27 @@ def configurar_gemini():
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = ""
     
     api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        print("⚠️ ADVERTENCIA: GEMINI_API_KEY no encontrada en variables de entorno.")
+    if not api_key or api_key == "YOUR_GEMINI_API_KEY_HERE":
+        error_msg = """
+╔══════════════════════════════════════════════════════════════════════╗
+║              ⚠️  GEMINI_API_KEY NO CONFIGURADA  ⚠️                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Para usar las funcionalidades de IA, necesitas configurar tu API Key de Gemini:
+
+📝 PASOS:
+  1. Obtén tu API Key gratis en: https://makersuite.google.com/app/apikey
+  2. Crea un archivo .env en la raíz del proyecto
+  3. Agrega la línea: GEMINI_API_KEY=tu_clave_aquí
+  4. Reinicia la aplicación
+
+💡 TIP: Puedes usar .env.example como plantilla:
+     copy .env.example .env  (en Windows)
+     
+🔒 IMPORTANTE: El archivo .env no se subirá a Git (está en .gitignore)
+"""
+        print(error_msg)
+        raise ValueError("GEMINI_API_KEY no configurada. Ver instrucciones arriba.")
     else:
         # Configurar explícitamente con API key
         genai.configure(api_key=api_key)
@@ -69,10 +91,12 @@ def generar_contexto_hipico():
 def get_gemini_response_stream(prompt, history=[]):
     """Obtiene respuesta del modelo Gemini con streaming y contexto hípico enriquecido."""
     try:
+        # Configurar Gemini al inicio (verifica API key)
+        configurar_gemini()
+        
         # Generar Contexto Dinámico
         contexto_hipico = generar_contexto_hipico()
         
-        # Configurar modelo
         # Configurar modelo (Usando versión verificada por script)
         model = genai.GenerativeModel('gemini-flash-latest')
         

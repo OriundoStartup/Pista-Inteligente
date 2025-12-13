@@ -283,12 +283,23 @@ def deploy_to_cloud_run():
         
         # Desplegar a Cloud Run
         print("   🚀 Desplegando a Cloud Run...")
+        
+        # Cargar API key desde .env para Cloud Run
+        from dotenv import load_dotenv
+        load_dotenv()
+        gemini_key = os.getenv('GEMINI_API_KEY', '')
+        
+        # Ofuscar para log
+        key_preview = f"{gemini_key[:10]}...{gemini_key[-4:]}" if len(gemini_key) > 14 else "***"
+        print(f"   🔐 Configurando GEMINI_API_KEY: {key_preview}")
+        
         result = subprocess.run(
             [
                 gcloud_cmd, "run", "deploy", "pista-inteligente",
                 "--source", ".",
                 "--region", "us-central1",
                 "--allow-unauthenticated",
+                "--set-env-vars", f"GEMINI_API_KEY={gemini_key}",
                 "--quiet"
             ],
             cwd=os.path.dirname(__file__) or ".",
