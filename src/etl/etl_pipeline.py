@@ -218,13 +218,8 @@ class HipicaETL:
         """Crea tablas optimizadas"""
         print("🛠️ Verificando esquema de base de datos...")
         
-        # Opcional: Limpiar esquema antiguo para asegurar compatibilidad
-        self.cursor.execute('DROP TABLE IF EXISTS programa_carreras')
-        # Si queremos forzar el stud_id en participaciones, necesitamos recrearla
-        # self.cursor.execute('DROP TABLE IF EXISTS participaciones') 
-        # Pero esto borraría el historial si no se regenera todo.
-        # Asumamos que el usuario quiere regenerar todo desde los CSVs
-        self.cursor.execute('DROP TABLE IF EXISTS participaciones')
+        # IMPORTANTE: NO borrar tablas existentes para preservar datos
+        # Las tablas usan INSERT OR IGNORE / INSERT OR REPLACE para evitar duplicados
         
         # Tablas base
         self.cursor.execute('CREATE TABLE IF NOT EXISTS hipodromos (id INTEGER PRIMARY KEY AUTOINCREMENT, nombre TEXT UNIQUE, codigo TEXT)')
