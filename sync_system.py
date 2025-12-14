@@ -66,119 +66,164 @@ class CustomJSONEncoder(json.JSONEncoder):
             return obj.tolist()
         return super(CustomJSONEncoder, self).default(obj)
 
-def save_predictions_to_db(analisis):
-    """Guarda las predicciones en la base de datos para historial permanente."""
+def save_predictions_to_db(analisis, update_mode=True):
+    """
+    Guarda o actualiza las predicciones de manera inteligente (UPSERT manual).
+    Verifica existencia para decidir entre UPDATE o INSERT, evitando duplicados.
+    """
     try:
         db_path = 'data/db/hipica_data.db'
         conn = sqlite3.connect(db_path)
         cursor = conn.cursor()
         
         timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        predicciones_batch = []
+        rows_to_insert = []
+        rows_to_update = []
         
+        print("   🔍 Verificando existencia de predicciones para UPSERT...")
+        
+        # Cache de existencia para reducir SELECTs individuales
+        # Clave: (fecha, hipodromo, nro_carrera, numero_caballo)
+        # Valor: True
+        # Cargar todas las predicciones futuras existentes en memoria (son pocas)
+        cursor.execute("SELECT fecha_carrera, hipodromo, nro_carrera, numero_caballo FROM predicciones WHERE fecha_carrera >= date('now', 'localtime')")
+        existing_preds = set()
+        for row in cursor.fetchall():
+            # (fecha, hipodromo, carrera, caballo)
+            existing_preds.add((row[0], row[1], int(row[2]), int(row[3])))
+
         for carrera in analisis:
             fecha_carrera = carrera.get('fecha')
-            hipodromo = carrera.get('hipodromo')
             hipodromo = carrera.get('hipodromo')
             nro_carrera = _safe_int(carrera.get('carrera'))
             predicciones = carrera.get('predicciones', [])
             
             for idx, pred in enumerate(predicciones, 1):
-                # Extraer datos de la predicción
                 if isinstance(pred, dict):
                     numero = _safe_int(pred.get('numero', 0))
                     puntaje_ia = pred.get('puntaje_ia', 0.0)
-                    prob_ml = float(str(pred.get('prob_ml', '0.0')).replace('%', ''))
+                    prob_ml_val = pred.get('prob_ml', '0.0')
+                    if isinstance(prob_ml_val, str):
+                         prob_ml = float(prob_ml_val.replace('%', ''))
+                    else:
+                         prob_ml = float(prob_ml_val)
                     
-                    # Buscar IDs de caballo y jinete
+                    # IDs
                     caballo_nombre = pred.get('caballo', '')
                     jinete_nombre = pred.get('jinete', '')
                     
+                    # Resolver IDs
                     caballo_id = None
+                    cursor.execute("SELECT id FROM caballos WHERE nombre = ?", (caballo_nombre,))
+                    res = cursor.fetchone()
+                    if res: caballo_id = res[0]
+                    
                     jinete_id = None
+                    cursor.execute("SELECT id FROM jinetes WHERE nombre = ?", (jinete_nombre,))
+                    res = cursor.fetchone()
+                    if res: jinete_id = res[0]
                     
-                    if caballo_nombre:
-                        cursor.execute("SELECT id FROM caballos WHERE nombre = ?", (caballo_nombre,))
-                        result = cursor.fetchone()
-                        if result:
-                            caballo_id = result[0]
-                    
-                    if jinete_nombre:
-                        cursor.execute("SELECT id FROM jinetes WHERE nombre = ?", (jinete_nombre,))
-                        result = cursor.fetchone()
-                        if result:
-                            jinete_id = result[0]
-                    
-                    # Crear metadata JSON con información adicional
                     metadata = json.dumps({
                         'caballo': caballo_nombre,
-                        'jinete': jinete_nombre
+                        'jinete': jinete_nombre,
+                        'updated_at': timestamp
                     }, ensure_ascii=False)
                     
-                    predicciones_batch.append((
-                        timestamp,
-                        fecha_carrera,
-                        hipodromo,
-                        nro_carrera,
-                        numero,
-                        caballo_id,
-                        jinete_id,
-                        puntaje_ia,
-                        prob_ml,
-                        idx,  # ranking
-                        metadata
-                    ))
+                    # Decisión UPSERT
+                    key = (fecha_carrera, hipodromo, nro_carrera, numero)
+                    
+                    if key in existing_preds:
+                        # UPDATE
+                        rows_to_update.append((
+                            puntaje_ia,
+                            prob_ml,
+                            idx, # ranking
+                            metadata,
+                            timestamp,
+                            fecha_carrera,
+                            hipodromo,
+                            nro_carrera,
+                            numero
+                        ))
+                    else:
+                        # INSERT
+                        rows_to_insert.append((
+                            timestamp,
+                            fecha_carrera,
+                            hipodromo,
+                            nro_carrera,
+                            numero,
+                            caballo_id,
+                            jinete_id,
+                            puntaje_ia,
+                            prob_ml,
+                            idx,  # ranking
+                            metadata
+                        ))
         
-        if predicciones_batch:
+        # Ejecutar batch
+        if rows_to_insert:
             cursor.executemany('''
                 INSERT INTO predicciones 
                 (fecha_generacion, fecha_carrera, hipodromo, nro_carrera, numero_caballo, 
                  caballo_id, jinete_id, puntaje_ia, prob_ml, ranking_prediccion, metadata)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', predicciones_batch)
-            conn.commit()
-            print(f"   💾 {len(predicciones_batch)} predicciones guardadas en base de datos")
-        
+            ''', rows_to_insert)
+            print(f"   💾 Insertadas {len(rows_to_insert)} nuevas predicciones.")
+
+        if rows_to_update:
+            cursor.executemany('''
+                UPDATE predicciones
+                SET puntaje_ia=?, prob_ml=?, ranking_prediccion=?, metadata=?, fecha_generacion=?
+                WHERE fecha_carrera=? AND hipodromo=? AND nro_carrera=? AND numero_caballo=?
+            ''', rows_to_update)
+            print(f"   🔄 Actualizadas {len(rows_to_update)} predicciones existentes.")
+            
+        conn.commit()
         conn.close()
         return True
         
     except Exception as e:
-        print(f"   ⚠️ Error guardando predicciones en BD: {e}")
+        print(f"   ⚠️ Error en UPSERT predicciones: {e}")
         import traceback
         traceback.print_exc()
         return False
 
-def precalculate_predictions():
-    """Pre-calcula predicciones y las guarda en cache y base de datos"""
-    print("📊 Pre-calculando predicciones...")
+def precalculate_predictions(update_mode=False):
+    """
+    Pre-calcula predicciones y las guarda en cache y base de datos.
+    Args:
+        update_mode: Si es True, indica que estamos actualizando por nuevos resultados (UPDATE en BD).
+                     Si es False, es una carga normal o nueva (INSERT).
+    """
+    print(f"📊 Pre-calculando predicciones... (Modo Actualización: {update_mode})")
     try:
         cache_path = Path("data/cache_analisis.json")
         
-        # CRITICAL: Eliminar el archivo de cache JSON para forzar recálculo completo
+        # Siempre queremos refrescar el cache JSON para la vista
         if cache_path.exists():
-            print(f"   🗑️  Eliminando cache antiguo: {cache_path}")
             cache_path.unlink()
-            print("   ✅ Cache antiguo eliminado")
         
-        # Limpiar cache de memoria LRU para asegurar datos frescos
         print("   🧹 Limpiando cache LRU de obtener_analisis_jornada...")
         obtener_analisis_jornada.cache_clear()
-        print("   ✅ Cache LRU limpiado")
         
-        # Ahora obtener_analisis_jornada se verá forzado a recalcular desde la BD
-        print("   🔄 Recalculando predicciones desde base de datos...")
+        print("   🔄 Obteniendo predicciones frescas (SQL Optimizado)...")
+        # Esto ahora usa cargar_programa(solo_futuras=True) internamente
         analisis = obtener_analisis_jornada()
         
-        # Debug: mostrar fechas procesadas
+        if not analisis:
+            print("   ⚠️ No hay carreras futuras para analizar.")
+            return True # No es error, solo no hay datos
+        
+        # Debug
         fechas = set(c.get('fecha') for c in analisis)
-        print(f"   📅 Fechas procesadas: {sorted(fechas)}")
-        print(f"   🏁 Total de carreras: {len(analisis)}")
+        print(f"   📅 Fechas analizadas: {sorted(fechas)}")
         
-        # Guardar en base de datos (NUEVO)
-        print("   💾 Guardando predicciones en base de datos...")
-        save_predictions_to_db(analisis)
+        # Guardar o Actualizar en DB
+        print(f"   💾 {'Actualizando' if update_mode else 'Guardando'} en Base de Datos...")
+        save_predictions_to_db(analisis, update_mode=update_mode)
         
-        # Convertir DataFrames a dicts si es necesario
+        # Serializar para Cache JSON (Frontend)
         analisis_serializable = []
         for carrera in analisis:
             carrera_dict = carrera.copy()
@@ -189,11 +234,10 @@ def precalculate_predictions():
             analisis_serializable.append(carrera_dict)
 
         cache_path.parent.mkdir(exist_ok=True, parents=True)
-        
         with open(cache_path, 'w', encoding='utf-8') as f:
             json.dump(analisis_serializable, f, ensure_ascii=False, indent=2, cls=CustomJSONEncoder)
         
-        print(f"   ✅ Cache JSON guardado en {cache_path}")
+        print(f"   ✅ Cache JSON regenerado en {cache_path}")
         return True
     except Exception as e:
         import traceback
@@ -264,9 +308,11 @@ def main(force_sync=False):
         print(" -> La Base de Datos ha sido actualizada.")
         print(" -> Modelos de Predicción (V3 - HistGradientBoosting): ACTUALIZADOS.")
         
-        # 2.5 Pre-calcular Predicciones (Cache)
-        print("\n[PASO 2.5/3] Pre-calculando Predicciones para Web...")
-        precalculate_predictions()
+        # 2.5 Pre-calcular Predicciones (Cache + BD)
+        # Activar update_mode=True para aprovechar la lógica de Re-Predicción (Update)
+        # La función internamente debe manejar inserts para nuevos programas (Pendiente de ajuste en save)
+        print("\n[PASO 2.5/3] Recalculando Predicciones Futuras (Update + Insert)...")
+        precalculate_predictions(update_mode=True)
 
         # 3. Deploy a Cloud Run (Firebase)
         print("\n[PASO 3/3] Desplegando a Cloud Run (Firebase)...")

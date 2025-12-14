@@ -86,17 +86,30 @@ def cargar_datos_3nf(nombre_db='data/db/hipica_data.db'):
         print(f"Error cargando datos 3NF: {e}")
         return pd.DataFrame()
 
-def cargar_programa(nombre_db='data/db/hipica_data.db'):
-    """Carga el programa de carreras desde la base de datos."""
+def cargar_programa(nombre_db='data/db/hipica_data.db', solo_futuras=True):
+    """
+    Carga el programa de carreras desde la base de datos.
+    
+    Args:
+        nombre_db: Ruta a la base de datos.
+        solo_futuras: Si es True, filtra por fecha >= hoy (optimización de memoria).
+    """
     if not os.path.exists(nombre_db) and os.path.exists(f'data/db/{nombre_db}'):
         nombre_db = f'data/db/{nombre_db}'
         
     try:
         conn = sqlite3.connect(nombre_db)
+        
+        # Filtro de fecha inyectable
+        fecha_filter = ""
+        if solo_futuras:
+            # Usar 'now', 'localtime' para obtener fecha actual en zona horaria local del servidor
+            fecha_filter = "WHERE pc.fecha >= date('now', 'localtime')"
+
         # Try to join with normalized tables if they exist, otherwise raw
         try:
              # Normalized programmatic join
-             query = """
+             query = f"""
                 SELECT 
                     pc.fecha, h.nombre as hipodromo, pc.nro_carrera, pc.hora, pc.distancia, pc.condicion,
                     pc.numero, c.nombre, j.nombre as jinete, s.nombre as stud, pc.peso
@@ -105,15 +118,20 @@ def cargar_programa(nombre_db='data/db/hipica_data.db'):
                 LEFT JOIN caballos c ON pc.caballo_id = c.id
                 LEFT JOIN jinetes j ON pc.jinete_id = j.id
                 LEFT JOIN studs s ON pc.stud_id = s.id
+                {fecha_filter}
+                ORDER BY pc.fecha ASC, pc.nro_carrera ASC, pc.numero ASC
              """
              df = pd.read_sql(query, conn)
         except:
              # Fallback to simple select if flat table
-             df = pd.read_sql("SELECT * FROM programa_carreras", conn)
+             # También aplicamos filtro si es posible
+             where_simple = "WHERE fecha >= date('now', 'localtime')" if solo_futuras else ""
+             df = pd.read_sql(f"SELECT * FROM programa_carreras {where_simple}", conn)
              
         conn.close()
         return df
-    except:
+    except Exception as e:
+        print(f"Error cargando programa: {e}")
         return pd.DataFrame()
 
 @functools.lru_cache(maxsize=1)
@@ -141,7 +159,8 @@ def obtener_analisis_jornada():
     # --- CACHE LOGIC END ---
 
     print("🔄 Calculando predicciones dinámicamente...")
-    df_programa = cargar_programa()
+    # Cargar programa (ya filtrado >= hoy por defecto)
+    df_programa = cargar_programa(solo_futuras=True)
     
     if df_programa.empty:
         return []
