@@ -405,12 +405,14 @@ def deploy_to_cloud_run():
         )
         
         if result.returncode == 0:
-            print("   ✅ DEPLOY EXITOSO a Cloud Run!")
-            # Extraer URL del output
-            for line in result.stdout.split('\n'):
-                if 'https://' in line:
-                    print(f"   🌐 URL: {line.strip()}")
-                    break
+            print("   ✅ DEPLOY EXITOSO!")
+            print("   🚀 El backend ha sido actualizado para dar soporte a:")
+            print("      👉 https://pista-inteligente.web.app")
+            print("      👉 https://pista-inteligente.firebaseapp.com")
+            
+            # Ocultamos la URL técnica de Cloud Run para evitar confusiones,
+            # ya que el usuario prefiere las URLs de Firebase.
+            # for line in result.stdout.split('\n'): ...
         else:
             print("   ❌ Error en deploy a Cloud Run:")
             print(f"   📄 STDOUT: {result.stdout}")
