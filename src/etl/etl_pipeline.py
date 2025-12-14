@@ -424,6 +424,7 @@ class HipicaETL:
             
             # Resultados
             'Lugar': 'posicion',
+            'Puesto': 'posicion',   # <-- FIX: Agregar Puesto para archivos HC
             'posicion': 'posicion',
             'Dividendo': 'dividendo',
             'dividendo': 'dividendo',
