@@ -166,8 +166,10 @@ def obtener_analisis_jornada():
             df_programa['fecha_dt'] = pd.to_datetime(df_programa['fecha'])
             # Filtrar para mostrar programas desde hoy en adelante
             if not df_programa.empty:
-                today = datetime.now().strftime('%Y-%m-%d')
-                future_programs = df_programa[df_programa['fecha'] >= today]
+                # today = datetime.now().strftime('%Y-%m-%d')
+                # future_programs = df_programa[df_programa['fecha'] >= today]
+                # Para permitir calcular precisión histórica, procesamos todo
+                future_programs = df_programa
                 
                 if not future_programs.empty:
                     df_programa = future_programs
