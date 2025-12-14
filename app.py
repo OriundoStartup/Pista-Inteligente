@@ -1,6 +1,6 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, url_for
 import pandas as pd
-from src.models.data_manager import cargar_datos, obtener_analisis_jornada, obtener_patrones_la_tercera, obtener_estadisticas_generales, obtener_lista_hipodromos
+from src.models.data_manager import cargar_datos, obtener_analisis_jornada, obtener_patrones_la_tercera, obtener_estadisticas_generales, obtener_lista_hipodromos, calcular_precision_modelo, obtener_predicciones_historicas
 from src.models.ai_model import configurar_gemini, get_gemini_response_stream
 import os
 from dotenv import load_dotenv
@@ -73,6 +73,34 @@ def analisis():
     patrones = obtener_patrones_la_tercera(hipodromo_filter)
     return render_template('analysis.html', patrones=patrones, hipodromo_filter=hipodromo_filter)
 
+@app.route('/precision')
+def precision():
+    """Página de precisión y transparencia del modelo"""
+    from datetime import datetime, timedelta
+    
+    # Calcular precisión de los últimos 30 días por defecto
+    fecha_fin = datetime.now().strftime('%Y-%m-%d')
+    fecha_inicio_30d = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')
+    fecha_inicio_90d = (datetime.now() - timedelta(days=90)).strftime('%Y-%m-%d')
+    
+    # Métricas generales (últimos 30 días)
+    metricas_30d = calcular_precision_modelo(fecha_inicio=fecha_inicio_30d, fecha_fin=fecha_fin)
+    
+    # Métricas de 90 días
+    metricas_90d = calcular_precision_modelo(fecha_inicio=fecha_inicio_90d, fecha_fin=fecha_fin)
+    
+    # Métricas históricas completas
+    metricas_all = calcular_precision_modelo()
+    
+    # Obtener algunas predicciones recientes para transparencia
+    predicciones_recientes = obtener_predicciones_historicas(limite=20)
+    
+    return render_template('precision.html',
+                         metricas_30d=metricas_30d,
+                         metricas_90d=metricas_90d,
+                         metricas_all=metricas_all,
+                         predicciones_recientes=predicciones_recientes)
+
 @app.route('/api/chat', methods=['POST'])
 def chat_api():
     data = request.json
@@ -90,6 +118,80 @@ def chat_api():
         full_response = "Lo siento, tuve un problema procesando tu solicitud."
         
     return jsonify({'response': full_response})
+
+@app.route('/robots.txt')
+def robots_txt():
+    """Servir robots.txt para SEO"""
+    from flask import send_from_directory
+    return send_from_directory('static', 'robots.txt')
+
+@app.route('/sitemap.xml')
+def sitemap_xml():
+    """Generar sitemap.xml dinámico para SEO"""
+    from flask import Response
+    from datetime import datetime
+    
+    # URLs estáticas
+    pages = []
+    
+    # Página principal
+    pages.append({
+        'loc': url_for('home', _external=True),
+        'lastmod': datetime.now().strftime('%Y-%m-%d'),
+        'changefreq': 'daily',
+        'priority': '1.0'
+    })
+    
+    # Páginas de programa
+    hipodromos = obtener_lista_hipodromos()
+    for hipodromo in hipodromos:
+        pages.append({
+            'loc': url_for('programa', hipodromo=hipodromo, _external=True),
+            'lastmod': datetime.now().strftime('%Y-%m-%d'),
+            'changefreq': 'daily',
+            'priority': '0.9'
+        })
+    
+    # Programa general
+    pages.append({
+        'loc': url_for('programa', _external=True),
+        'lastmod': datetime.now().strftime('%Y-%m-%d'),
+        'changefreq': 'daily',
+        'priority': '0.9'
+    })
+    
+    # Estadísticas
+    pages.append({
+        'loc': url_for('estadisticas', _external=True),
+        'lastmod': datetime.now().strftime('%Y-%m-%d'),
+        'changefreq': 'weekly',
+        'priority': '0.7'
+    })
+    
+    # Análisis
+    pages.append({
+        'loc': url_for('analisis', _external=True),
+        'lastmod': datetime.now().strftime('%Y-%m-%d'),
+        'changefreq': 'daily',
+        'priority': '0.8'
+    })
+    
+    # Generar XML
+    sitemap_xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    sitemap_xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    
+    for page in pages:
+        sitemap_xml += '  <url>\n'
+        sitemap_xml += f'    <loc>{page["loc"]}</loc>\n'
+        sitemap_xml += f'    <lastmod>{page["lastmod"]}</lastmod>\n'
+        sitemap_xml += f'    <changefreq>{page["changefreq"]}</changefreq>\n'
+        sitemap_xml += f'    <priority>{page["priority"]}</priority>\n'
+        sitemap_xml += '  </url>\n'
+    
+    sitemap_xml += '</urlset>'
+    
+    return Response(sitemap_xml, mimetype='application/xml')
+
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))

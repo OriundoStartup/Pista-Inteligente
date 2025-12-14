@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /programa
+Allow: /programa?hipodromo=*
+Allow: /estadisticas
+Allow: /analisis
+Allow: /static/
+
+# Archivos que no queremos indexar
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://pista-inteligente-4my57mz64a-uc.a.run.app/sitemap.xml
+
+# Crawl-delay para ser amigables con los bots
+Crawl-delay: 1

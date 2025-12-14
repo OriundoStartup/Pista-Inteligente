@@ -1,0 +1,232 @@
+{% extends "base.html" %}
+
+{% block title %}Precisión del Modelo IA - Transparencia Total | Pista Inteligente{% endblock %}
+
+{% block meta_description %}
+<meta name="description"
+    content="Transparencia total: Descubre la precisión real de nuestras predicciones IA para Hipódromo Chile y Club Hípico. Métricas verificables comparando pronósticos vs resultados reales.">
+{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<div style="text-align: center; margin-bottom: 3rem;">
+    <h1 style="font-size: 2.5rem; color: var(--text-main); margin-bottom: 0.5rem; font-weight: 800;">
+        📊 Transparencia Total: Nuestra Precisión Real
+    </h1>
+    <p style="color: var(--text-muted); font-size: 1.2rem; max-width: 900px; margin: 0 auto;">
+        A diferencia de los sitios tradicionales que ocultan sus resultados, <strong>mostramos con orgullo</strong> la
+        precisión de nuestro modelo de IA
+        comparando nuestras predicciones con los resultados reales de cada carrera.
+    </p>
+</div>
+
+<!-- Métricas Principales -->
+<div class="glass-card" style="margin-bottom: 2rem;">
+    <div class="section-title">🎯 Precisión del Modelo - Últimos 30 Días</div>
+
+    {% if metricas_30d.get('total_carreras', 0) > 0 %}
+    <div
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+        <!-- Top 1 Accuracy -->
+        <div class="glass-card" style="text-align: center; padding: 2rem; border-left: 4px solid #FFD700;">
+            <div style="font-size: 1rem; color: var(--text-muted); margin-bottom: 0.5rem;">🥇 GANADOR EXACTO</div>
+            <div style="font-size: 3.5rem; font-weight: 800; color: #FFD700; margin-bottom: 0.5rem;">
+                {{ metricas_30d.top1_accuracy }}%
+            </div>
+            <div style="color: var(--text-muted); font-size: 0.9rem;">
+                {{ metricas_30d.top1_correct }} de {{ metricas_30d.top1_total }} predicciones
+            </div>
+            <div style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted);">
+                Nuestro caballo #1 ganó la carrera
+            </div>
+        </div>
+
+        <!-- Top 3 Accuracy -->
+        <div class="glass-card" style="text-align: center; padding: 2rem; border-left: 4px solid #C0C0C0;">
+            <div style="font-size: 1rem; color: var(--text-muted); margin-bottom: 0.5rem;">🥈 TOP 3 EXACTO</div>
+            <div style="font-size: 3.5rem; font-weight: 800; color: #C0C0C0; margin-bottom: 0.5rem;">
+                {{ metricas_30d.top3_accuracy }}%
+            </div>
+            <div style="color: var(--text-muted); font-size: 0.9rem;">
+                {{ metricas_30d.top3_correct }} de {{ metricas_30d.top3_total }} predicciones
+            </div>
+            <div style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted);">
+                Caballos predichos en top 3 terminaron en top 3
+            </div>
+        </div>
+
+        <!-- Top 4 Accuracy -->
+        <div class="glass-card" style="text-align: center; padding: 2rem; border-left: 4px solid #CD7F32;">
+            <div style="font-size: 1rem; color: var(--text-muted); margin-bottom: 0.5rem;">🥉 TOP 4 EXACTO</div>
+            <div style="font-size: 3.5rem; font-weight: 800; color: #CD7F32; margin-bottom: 0.5rem;">
+                {{ metricas_30d.top4_accuracy }}%
+            </div>
+            <div style="color: var(--text-muted); font-size: 0.9rem;">
+                {{ metricas_30d.top4_correct }} de {{ metricas_30d.top4_total }} predicciones
+            </div>
+            <div style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted);">
+                Caballos predichos en top 4 terminaron en top 4
+            </div>
+        </div>
+    </div>
+
+    <!-- Información del período -->
+    <div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 8px;">
+        <p style="margin: 0; color: var(--text-muted);">
+            📊 <strong>{{ metricas_30d.total_carreras }} carreras</strong> analizadas |
+            📅 Período: <strong>{{ metricas_30d.rango_fechas }}</strong>
+        </p>
+    </div>
+    {% else %}
+    <div style="text-align: center; padding: 3rem;">
+        <p style="color: var(--text-muted); font-size: 1.1rem;">
+            📊 Aún no hay suficientes datos para mostrar precisión de los últimos 30 días.
+            <br>Las métricas se actualizarán a medida que procesemos más resultados.
+        </p>
+    </div>
+    {% endif %}
+</div>
+
+<!-- Comparación de Períodos -->
+<div class="glass-card" style="margin-bottom: 2rem;">
+    <div class="section-title">📈 Evolución de la Precisión</div>
+
+    <table class="modern-table">
+        <thead>
+            <tr>
+                <th>Período</th>
+                <th>Ganador Exacto</th>
+                <th>Top 3</th>
+                <th>Top 4</th>
+                <th>Carreras Analizadas</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if metricas_30d.get('total_carreras', 0) > 0 %}
+            <tr>
+                <td><strong>Últimos 30 días</strong></td>
+                <td style="color: #FFD700; font-weight: 700;">{{ metricas_30d.top1_accuracy }}%</td>
+                <td style="color: #C0C0C0; font-weight: 700;">{{ metricas_30d.top3_accuracy }}%</td>
+                <td style="color: #CD7F32; font-weight: 700;">{{ metricas_30d.top4_accuracy }}%</td>
+                <td>{{ metricas_30d.total_carreras }}</td>
+            </tr>
+            {% endif %}
+
+            {% if metricas_90d.get('total_carreras', 0) > 0 %}
+            <tr>
+                <td><strong>Últimos 90 días</strong></td>
+                <td style="color: #FFD700; font-weight: 700;">{{ metricas_90d.top1_accuracy }}%</td>
+                <td style="color: #C0C0C0; font-weight: 700;">{{ metricas_90d.top3_accuracy }}%</td>
+                <td style="color: #CD7F32; font-weight: 700;">{{ metricas_90d.top4_accuracy }}%</td>
+                <td>{{ metricas_90d.total_carreras }}</td>
+            </tr>
+            {% endif %}
+
+            {% if metricas_all.get('total_carreras', 0) > 0 %}
+            <tr style="background: rgba(255,255,255,0.05);">
+                <td><strong>📊 Histórico Completo</strong></td>
+                <td style="color: #FFD700; font-weight: 800;">{{ metricas_all.top1_accuracy }}%</td>
+                <td style="color: #C0C0C0; font-weight: 800;">{{ metricas_all.top3_accuracy }}%</td>
+                <td style="color: #CD7F32; font-weight: 800;">{{ metricas_all.top4_accuracy }}%</td>
+                <td><strong>{{ metricas_all.total_carreras }}</strong></td>
+            </tr>
+            {% endif %}
+        </tbody>
+    </table>
+</div>
+
+<!-- Sección de Transparencia -->
+<div class="glass-card" style="margin-bottom: 2rem;">
+    <div class="section-title">🔍 Nuestro Compromiso con la Transparencia</div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+        <div
+            style="padding: 1.5rem; background: rgba(52, 211, 153, 0.1); border-radius: 12px; border-left: 4px solid var(--secondary);">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">✅</div>
+            <h3 style="color: var(--secondary); margin-bottom: 0.5rem;">100% Verificable</h3>
+            <p style="color: var(--text-muted); margin: 0;">
+                Cada predicción queda registrada en nuestra base de datos antes de la carrera,
+                y la comparamos automáticamente con el resultado real.
+            </p>
+        </div>
+
+        <div
+            style="padding: 1.5rem; background: rgba(99, 102, 241, 0.1); border-radius: 12px; border-left: 4px solid var(--primary);">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">📊</div>
+            <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Datos Reales</h3>
+            <p style="color: var(--text-muted); margin: 0;">
+                No manipulamos cifras. Mostramos la precisión calculada directamente
+                desde resultados oficiales de Hipódromo Chile y Club Hípico.
+            </p>
+        </div>
+
+        <div
+            style="padding: 1.5rem; background: rgba(251, 191, 36, 0.1); border-radius: 12px; border-left: 4px solid var(--accent);">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎯</div>
+            <h3 style="color: var(--accent); margin-bottom: 0.5rem;">Mejora Continua</h3>
+            <p style="color: var(--text-muted); margin: 0;">
+                Nuestro modelo de IA aprende de cada carrera. Actualizamos y mejoramos
+                constantemente nuestros algoritmos basándonos en estos resultados.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Metodología -->
+<div class="glass-card">
+    <div class="section-title">🧪 Metodología de Cálculo</div>
+
+    <div style="background: rgba(255,255,255,0.05); padding: 2rem; border-radius: 12px;">
+        <h3 style="color: var(--secondary); margin-top: 0;">¿Cómo calculamos la precisión?</h3>
+
+        <div style="margin: 1.5rem 0;">
+            <h4 style="color: #FFD700; margin-bottom: 0.5rem;">🥇 Ganador Exacto (Top 1)</h4>
+            <p style="color: var(--text-muted); margin: 0;">
+                Porcentaje de veces que nuestro caballo predicho como #1 ganó la carrera.
+                Esta es la métrica más exigente y demuestra nuestra capacidad de identificar al ganador exacto.
+            </p>
+        </div>
+
+        <div style="margin: 1.5rem 0;">
+            <h4 style="color: #C0C0C0; margin-bottom: 0.5rem;">🥈 Top 3 Exacto</h4>
+            <p style="color: var(--text-muted); margin: 0;">
+                Porcentaje de caballos que predijimos en top 3 y efectivamente terminaron en top 3.
+                Útil para estrategias de apuesta como Trifecta y Superfecta.
+            </p>
+        </div>
+
+        <div style="margin: 1.5rem 0;">
+            <h4 style="color: #CD7F32; margin-bottom: 0.5rem;">🥉 Top 4 Exacto</h4>
+            <p style="color: var(--text-muted); margin: 0;">
+                Porcentaje de caballos que predijimos en top 4 y terminaron en top 4.
+                Representa el rendimiento general de nuestro sistema de scoring.
+            </p>
+        </div>
+
+        <div
+            style="margin-top: 2rem; padding: 1rem; background: rgba(59, 130, 246, 0.1); border-left: 4px solid var(--primary); border-radius: 8px;">
+            <p style="margin: 0; color: var(--text-main);">
+                <strong>💡 Nota Importante:</strong> Estas métricas se calculan solo con carreras completadas donde
+                tenemos tanto la predicción previa como el resultado oficial. Los valores se actualizan automáticamente
+                cada vez que se procesan nuevos resultados.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Call to Action -->
+<div
+    style="text-align: center; margin-top: 3rem; padding: 3rem 1rem; background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(52, 211, 153, 0.1)); border-radius: 16px;">
+    <h2 style="color: var(--text-main); margin-bottom: 1rem; font-size: 2rem;">
+        ¿Listo para aprovechar nuestras predicciones?
+    </h2>
+    <p
+        style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+        Descubre los pronósticos de IA para las próximas carreras de Hipódromo Chile y Club Hípico
+    </p>
+    <a href="/programa" class="cta-button" style="display: inline-block;">
+        Ver Predicciones de Hoy
+    </a>
+</div>
+
+{% endblock %}

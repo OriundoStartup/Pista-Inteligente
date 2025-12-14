@@ -4,7 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Pista Inteligente 2025{% endblock %}</title>
+    <meta name="language" content="es">
+    <meta name="robots" content="index, follow">
+
+    <!-- Dynamic Title -->
+    <title>{% block title %}Pista Inteligente - Predicciones Hípicas con IA{% endblock %}</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{% block canonical_url %}{{ request.url }}{% endblock %}">
+
+    <!-- Meta Description (Dynamic) -->
+    {% block meta_description %}
+    <meta name="description"
+        content="Predicciones hípicas con Inteligencia Artificial para Hipódromo Chile y Club Hípico de Chile. Análisis profesional de carreras, pronósticos y estadísticas en tiempo real.">
+    {% endblock %}
+
+    <!-- Meta Keywords (Dynamic) -->
+    {% block meta_keywords %}
+    <meta name="keywords"
+        content="programa hipódromo chile, club hípico de chile, predicciones hípicas, carreras de caballos chile, pronósticos hipódromo, análisis hípico, inteligencia artificial carreras">
+    {% endblock %}
+
+    <!-- Open Graph / Facebook -->
+    {% block og_tags %}
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ request.url }}">
+    <meta property="og:title"
+        content="{% block og_title %}Pista Inteligente - Predicciones Hípicas con IA{% endblock %}">
+    <meta property="og:description"
+        content="{% block og_description %}Predicciones con IA para Hipódromo Chile y Club Hípico de Chile{% endblock %}">
+    <meta property="og:image" content="{{ url_for('static', filename='img/header_brand.png', _external=True) }}">
+    <meta property="og:locale" content="es_CL">
+    <meta property="og:site_name" content="Pista Inteligente">
+    {% endblock %}
+
+    <!-- Twitter Card -->
+    {% block twitter_tags %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ request.url }}">
+    <meta name="twitter:title"
+        content="{% block twitter_title %}Pista Inteligente - Predicciones Hípicas{% endblock %}">
+    <meta name="twitter:description"
+        content="{% block twitter_description %}Predicciones con IA para carreras de caballos en Chile{% endblock %}">
+    <meta name="twitter:image" content="{{ url_for('static', filename='img/header_brand.png', _external=True) }}">
+    {% endblock %}
+
+    <!-- Schema.org Structured Data (Dynamic) -->
+    {% block schema_data %}{% endblock %}
 
     <!-- Google Fonts: Outfit (Modern Sans) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,9 +60,6 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 
-    <!-- Meta SEO -->
-    <meta name="description"
-        content="Predicciones hípicas con Inteligencia Artificial. Análisis avanzado para Hipódromo Chile y Club Hípico.">
     <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5579178295407019"
         crossorigin="anonymous"></script>
@@ -71,6 +114,7 @@
         <nav class="nav-links">
             <a href="/" class="nav-link {% if request.path == '/' %}active{% endif %}">Inicio</a>
             <a href="/programa" class="nav-link {% if request.path == '/programa' %}active{% endif %}">Predicciones</a>
+            <a href="/precision" class="nav-link {% if request.path == '/precision' %}active{% endif %}">Precisión</a>
             <a href="/analisis" class="nav-link {% if request.path == '/analisis' %}active{% endif %}">Patrones</a>
             <a href="/estadisticas"
                 class="nav-link {% if request.path == '/estadisticas' %}active{% endif %}">Estadísticas</a>
@@ -79,7 +123,8 @@
 
     <!-- Brand Header Image (Cabecera) -->
     <div class="hero-banner">
-        <img src="{{ url_for('static', filename='img/header_brand.png') }}" alt="Cabecera Pista Inteligente"
+        <img src="{{ url_for('static', filename='img/header_brand.png') }}"
+            alt="Pista Inteligente - Programa Hipódromo Chile y Club Hípico de Chile con Predicciones IA"
             class="hero-banner-img">
     </div>
 

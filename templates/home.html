@@ -1,15 +1,60 @@
 {% extends "base.html" %}
 
-{% block title %}Inicio - Pista Inteligente AI{% endblock %}
+{% block title %}Pista Inteligente - Predicciones Hípicas con IA para Hipódromo Chile y Club Hípico{% endblock %}
+
+{% block meta_description %}
+<meta name="description"
+    content="Predicciones hípicas profesionales con Inteligencia Artificial para Hipódromo Chile y Club Hípico de Chile. Pronósticos en tiempo real, análisis de carreras de caballos y estadísticas actualizadas. Mejora tus apuestas con IA avanzada.">
+{% endblock %}
+
+{% block meta_keywords %}
+<meta name="keywords"
+    content="programa hipódromo chile, club hípico de chile, predicciones hípicas chile, carreras de caballos chile, pronósticos hipódromo, inteligencia artificial carreras, apuestas hípicas, análisis carreras caballos, pista inteligente">
+{% endblock %}
+
+{% block schema_data %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Pista Inteligente",
+  "url": "{{ request.url }}",
+  "logo": "{{ url_for('static', filename='img/logo.jpg', _external=True) }}",
+  "description": "Predicciones hípicas con Inteligencia Artificial para Hipódromo Chile y Club Hípico de Chile",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "CL"
+  },
+  "areaServed": "Chile",
+  "knowsAbout": ["Horse Racing", "Artificial Intelligence", "Sports Analytics", "Predictive Modeling"]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Pista Inteligente",
+  "url": "{{ url_for('home', _external=True) }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ url_for('programa', _external=True) }}?hipodromo={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{% endblock %}
 
 {% block content %}
 <section class="hero">
-    <h1>El Futuro de la Hípica <br> es Inteligente</h1>
+    <h1>Predicciones para Hipódromo Chile y Club Hípico <br>con IA Avanzada</h1>
     <p>
-        Utilizamos Inteligencia Artificial avanzada para analizar miles de carreras,
-        detectar patrones ocultos y entregarte las mejores probabilidades de ganar.
+        Utilizamos algoritmos de última generación para analizar el <strong>Programa Hipódromo
+            Chile</strong> y las carreras del <strong>Club Hípico</strong>.
+        Detectamos patrones ocultos en miles de resultados históricos para entregarte pronósticos profesionales con las
+        mejores probabilidades de acierto.
     </p>
-    <a href="/programa" class="cta-button">Ver Predicciones de Hoy</a>
+    <a href="/programa" class="cta-button">Ver Programa de Hoy con Predicciones IA</a>
 </section>
 
 <div class="glass-card">
