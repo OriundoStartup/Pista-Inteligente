@@ -237,10 +237,10 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 8,
-        "caballo": "JEFA DE JEFAS",
-        "jinete": "JOSE CUETO",
-        "puntaje_ia": 84.3,
+        "numero": 1,
+        "caballo": "MADRE PATRIA",
+        "jinete": "DARIEN CHEUQUE",
+        "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
     ]
@@ -314,8 +314,8 @@
         "numero": 3,
         "caballo": "KAREV",
         "jinete": "NICOLAS MOLINA",
-        "puntaje_ia": 83.3,
-        "prob_ml": "97.6"
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
       },
       {
         "numero": 4,
@@ -1102,6 +1102,13 @@
     ],
     "predicciones": [
       {
+        "numero": 1,
+        "caballo": "NEED TO FLY",
+        "jinete": "BENJAMIN TRONCOSO",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 2,
         "caballo": "SOY CARABINERO",
         "jinete": "FRANCISCO MORALES",
@@ -1119,13 +1126,6 @@
         "numero": 4,
         "caballo": "LEVANTO",
         "jinete": "RODRIGO PAINEN",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 5,
-        "caballo": "DE FUEGO",
-        "jinete": "RODOLFO FUENZALIDA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -1313,6 +1313,13 @@
         "prob_ml": "99.0"
       },
       {
+        "numero": 2,
+        "caballo": "EL MERLUZO",
+        "jinete": "HUGO OCHOA",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 3,
         "caballo": "MILTEO",
         "jinete": "DIEGO D. CASTILLO",
@@ -1325,13 +1332,6 @@
         "jinete": "BENJAMIN TRONCOSO",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
-      },
-      {
-        "numero": 2,
-        "caballo": "EL MERLUZO",
-        "jinete": "HUGO OCHOA",
-        "puntaje_ia": 83.9,
-        "prob_ml": "97.6"
       }
     ]
   },
@@ -4110,6 +4110,13 @@
     ],
     "predicciones": [
       {
+        "numero": 15,
+        "caballo": "SALE DE MIS OJOS",
+        "jinete": "BASTIAN SOTO",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 7,
         "caballo": "VALLTTERI",
         "jinete": "FRANCISCO MORALES",
@@ -4117,25 +4124,18 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 15,
-        "caballo": "SALE DE MIS OJOS",
-        "jinete": "BASTIAN SOTO",
-        "puntaje_ia": 79.4,
-        "prob_ml": "91.1"
-      },
-      {
         "numero": 4,
         "caballo": "MICCA",
         "jinete": "GUSTAVO AROS",
-        "puntaje_ia": 67.5,
-        "prob_ml": "75.0"
+        "puntaje_ia": 61.2,
+        "prob_ml": "66.0"
       },
       {
         "numero": 9,
         "caballo": "ANTUMBRA",
         "jinete": "MAURICIO CHAMORRO",
-        "puntaje_ia": 55.9,
-        "prob_ml": "58.4"
+        "puntaje_ia": 57.8,
+        "prob_ml": "61.1"
       }
     ]
   },
@@ -4250,8 +4250,8 @@
         "numero": 4,
         "caballo": "GOLFISTA",
         "jinete": "RONALD FOURNET",
-        "puntaje_ia": 68.8,
-        "prob_ml": "76.0"
+        "puntaje_ia": 65.1,
+        "prob_ml": "70.7"
       }
     ]
   },
@@ -4433,8 +4433,8 @@
         "numero": 7,
         "caballo": "VICHITO",
         "jinete": "JOAQUIN HERRERA",
-        "puntaje_ia": 34.5,
-        "prob_ml": "27.9"
+        "puntaje_ia": 34.4,
+        "prob_ml": "27.8"
       }
     ]
   },
@@ -4883,8 +4883,8 @@
         "numero": 13,
         "caballo": "YO PAGO TODO",
         "jinete": "LUIS TORRES",
-        "puntaje_ia": 84.5,
-        "prob_ml": "97.6"
+        "puntaje_ia": 85.5,
+        "prob_ml": "99.0"
       },
       {
         "numero": 1,
@@ -5034,8 +5034,8 @@
         "numero": 3,
         "caballo": "NOVAK",
         "jinete": "RAFAEL CISTERNAS",
-        "puntaje_ia": 76.4,
-        "prob_ml": "86.9"
+        "puntaje_ia": 74.7,
+        "prob_ml": "84.4"
       }
     ]
   },
@@ -5143,8 +5143,8 @@
         "numero": 4,
         "caballo": "AL AMIR",
         "jinete": "BENJAMIN TRONCOSO",
-        "puntaje_ia": 76.1,
-        "prob_ml": "87.3"
+        "puntaje_ia": 71.6,
+        "prob_ml": "80.9"
       }
     ]
   },
@@ -5410,8 +5410,8 @@
         "numero": 12,
         "caballo": "A MI MODO",
         "jinete": "LUIS TORRES",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
+        "puntaje_ia": 82.2,
+        "prob_ml": "98.1"
       }
     ]
   },
@@ -5800,8 +5800,8 @@
         "numero": 6,
         "caballo": "CROCKED",
         "jinete": "HUGO OCHOA",
-        "puntaje_ia": 53.3,
-        "prob_ml": "54.7"
+        "puntaje_ia": 54.9,
+        "prob_ml": "57.0"
       }
     ]
   },
@@ -6074,8 +6074,8 @@
         "numero": 4,
         "caballo": "INTRIGANT",
         "jinete": "RODOLFO FUENZALIDA",
-        "puntaje_ia": 61.4,
-        "prob_ml": "66.3"
+        "puntaje_ia": 70.8,
+        "prob_ml": "79.7"
       }
     ]
   },
@@ -6605,9 +6605,9 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 9,
-        "caballo": "LA TROTONA",
-        "jinete": "SEBASTIÁN GONZÁLEZ",
+        "numero": 8,
+        "caballo": "ME DAS OTRO BESO",
+        "jinete": "GERARD RODRÍGUEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -6970,8 +6970,8 @@
         "numero": 13,
         "caballo": "REGIA PIBA",
         "jinete": "MARCO BUSTAMANTE",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
+        "puntaje_ia": 80.3,
+        "prob_ml": "95.4"
       }
     ]
   },
@@ -7097,6 +7097,13 @@
         "prob_ml": "99.0"
       },
       {
+        "numero": 8,
+        "caballo": "MI RICONCITO",
+        "jinete": "SEBASTIÁN GONZÁLEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 9,
         "caballo": "SULTANA DIVA",
         "jinete": "NICOLÁS SANTIBAÑEZ",
@@ -7107,13 +7114,6 @@
         "numero": 11,
         "caballo": "DON PATO",
         "jinete": "LUIS D. MENGHINI",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 12,
-        "caballo": "BAILONGO",
-        "jinete": "MARCO BUSTAMANTE",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -9246,8 +9246,8 @@
         "numero": 9,
         "caballo": "EN CAPILLA",
         "jinete": "HUGO OCHOA",
-        "puntaje_ia": 53.3,
-        "prob_ml": "54.7"
+        "puntaje_ia": 54.9,
+        "prob_ml": "57.0"
       }
     ]
   },
@@ -9341,22 +9341,22 @@
         "numero": 5,
         "caballo": "YOKITA",
         "jinete": "HECTOR BERRIOS",
-        "puntaje_ia": 60.2,
-        "prob_ml": "64.6"
+        "puntaje_ia": 58.5,
+        "prob_ml": "62.2"
       },
       {
         "numero": 7,
         "caballo": "LUGA",
         "jinete": "JONATHAN A. CASTILLO",
-        "puntaje_ia": 55.9,
-        "prob_ml": "58.4"
+        "puntaje_ia": 56.8,
+        "prob_ml": "59.7"
       },
       {
         "numero": 1,
         "caballo": "KERRYS",
         "jinete": "DARIEN CHEUQUE",
-        "puntaje_ia": 49.5,
-        "prob_ml": "49.3"
+        "puntaje_ia": 45.9,
+        "prob_ml": "44.2"
       }
     ]
   },
@@ -9531,8 +9531,8 @@
         "numero": 4,
         "caballo": "THE TROOPER",
         "jinete": "AXEL ALVAREZ",
-        "puntaje_ia": 76.4,
-        "prob_ml": "86.9"
+        "puntaje_ia": 74.7,
+        "prob_ml": "84.4"
       }
     ]
   },
@@ -9640,15 +9640,15 @@
         "numero": 5,
         "caballo": "TAN DECORATIVA",
         "jinete": "WLADIMIR QUINTEROS",
-        "puntaje_ia": 82.5,
-        "prob_ml": "96.4"
+        "puntaje_ia": 76.6,
+        "prob_ml": "88.0"
       },
       {
         "numero": 4,
         "caballo": "PESO DORADO",
         "jinete": "RODOLFO FUENZALIDA",
-        "puntaje_ia": 42.3,
-        "prob_ml": "39.0"
+        "puntaje_ia": 39.7,
+        "prob_ml": "35.3"
       }
     ]
   },
@@ -9841,11 +9841,11 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 5,
-        "caballo": "YA VA",
-        "jinete": "JAIME MEDINA",
-        "puntaje_ia": 72.9,
-        "prob_ml": "82.7"
+        "numero": 2,
+        "caballo": "SUPERAME",
+        "jinete": "OSCAR ULLOA",
+        "puntaje_ia": 67.4,
+        "prob_ml": "73.9"
       }
     ]
   },
@@ -9981,8 +9981,8 @@
         "numero": 7,
         "caballo": "ONIX BLUE",
         "jinete": "FRANCO SANCHEZ",
-        "puntaje_ia": 55.9,
-        "prob_ml": "58.4"
+        "puntaje_ia": 56.8,
+        "prob_ml": "59.7"
       }
     ]
   },
@@ -10097,8 +10097,8 @@
         "numero": 1,
         "caballo": "MOSASAURUS",
         "jinete": "MOISES A. DONOSO",
-        "puntaje_ia": 43.9,
-        "prob_ml": "41.3"
+        "puntaje_ia": 45.8,
+        "prob_ml": "44.0"
       }
     ]
   },
@@ -10199,15 +10199,15 @@
         "numero": 4,
         "caballo": "PUISSANT ROI",
         "jinete": "RODOLFO S. DORES",
-        "puntaje_ia": 67.5,
-        "prob_ml": "75.0"
+        "puntaje_ia": 61.2,
+        "prob_ml": "66.0"
       },
       {
-        "numero": 8,
-        "caballo": "GRAND SMILE",
-        "jinete": "GERARD RODRIGUEZ",
-        "puntaje_ia": 45.6,
-        "prob_ml": "43.7"
+        "numero": 1,
+        "caballo": "MONACO (ARG)",
+        "jinete": "JOAQUIN HERRERA",
+        "puntaje_ia": 43.8,
+        "prob_ml": "41.1"
       }
     ]
   },
@@ -10470,18 +10470,18 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 3,
-        "caballo": "EL BOHEMIO",
-        "jinete": "VICTOR MIRANDA",
-        "puntaje_ia": 83.5,
-        "prob_ml": "97.8"
-      },
-      {
         "numero": 1,
         "caballo": "PURA ROSA",
         "jinete": "FABIAN MEDINA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "EL BOHEMIO",
+        "jinete": "VICTOR MIRANDA",
+        "puntaje_ia": 76.6,
+        "prob_ml": "87.9"
       }
     ]
   },
@@ -10747,8 +10747,8 @@
         "numero": 1,
         "caballo": "PALACETE",
         "jinete": "JAIME MEDINA",
-        "puntaje_ia": 72.1,
-        "prob_ml": "80.7"
+        "puntaje_ia": 74.7,
+        "prob_ml": "84.5"
       }
     ]
   },
@@ -11453,8 +11453,8 @@
         "numero": 7,
         "caballo": "TODOS MIENTEN",
         "jinete": "FABIAN MEDINA",
-        "puntaje_ia": 83.5,
-        "prob_ml": "97.9"
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
       },
       {
         "numero": 2,
@@ -13126,18 +13126,18 @@
         "prob_ml": "99.0"
       },
       {
+        "numero": 7,
+        "caballo": "TOP MODEL",
+        "jinete": "FELIPE MORENO",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 11,
         "caballo": "EL GRAN MENOTTI",
         "jinete": "HÉCTOR BARRERA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
-      },
-      {
-        "numero": 7,
-        "caballo": "TOP MODEL",
-        "jinete": "FELIPE MORENO",
-        "puntaje_ia": 83.5,
-        "prob_ml": "97.9"
       },
       {
         "numero": 1,
@@ -13958,29 +13958,29 @@
         "numero": 8,
         "caballo": "TURBOCHELA",
         "jinete": "R. LOYOLA",
-        "puntaje_ia": 75.3,
-        "prob_ml": "86.1"
+        "puntaje_ia": 79.1,
+        "prob_ml": "91.6"
       },
       {
         "numero": 1,
         "caballo": "NEGRO APAPUCHI",
         "jinete": "J. A. MIÑO",
-        "puntaje_ia": 50.3,
-        "prob_ml": "50.4"
+        "puntaje_ia": 41.1,
+        "prob_ml": "37.3"
       },
       {
         "numero": 2,
         "caballo": "UNO CERO",
         "jinete": "N. RAMIREZ",
         "puntaje_ia": 27.5,
-        "prob_ml": "17.8"
+        "prob_ml": "17.9"
       },
       {
-        "numero": 5,
-        "caballo": "SPECIAL MACHINE",
-        "jinete": "M. MORALES",
-        "puntaje_ia": 25.9,
-        "prob_ml": "15.6"
+        "numero": 10,
+        "caballo": "FLOR DE JAMAICA",
+        "jinete": "B. SANCHO",
+        "puntaje_ia": 25.6,
+        "prob_ml": "15.1"
       }
     ]
   },
@@ -14067,15 +14067,15 @@
         "numero": 1,
         "caballo": "DALIKA",
         "jinete": "N. RAMIREZ",
-        "puntaje_ia": 50.3,
-        "prob_ml": "50.4"
+        "puntaje_ia": 41.1,
+        "prob_ml": "37.3"
       },
       {
         "numero": 2,
         "caballo": "SALTO DEL GUAPO",
         "jinete": "B. TRONCOSO",
-        "puntaje_ia": 26.7,
-        "prob_ml": "16.8"
+        "puntaje_ia": 26.6,
+        "prob_ml": "16.6"
       }
     ]
   },
@@ -14285,22 +14285,22 @@
         "numero": 1,
         "caballo": "TANGO",
         "jinete": "M. A. DONOSO",
-        "puntaje_ia": 50.3,
-        "prob_ml": "50.4"
+        "puntaje_ia": 41.1,
+        "prob_ml": "37.3"
       },
       {
         "numero": 4,
         "caballo": "DANITA FIRST",
         "jinete": "F. HENRIQUEZ",
-        "puntaje_ia": 40.5,
-        "prob_ml": "36.4"
+        "puntaje_ia": 38.2,
+        "prob_ml": "33.1"
       },
       {
         "numero": 2,
         "caballo": "VALLTTERI",
         "jinete": "R. AVILA",
-        "puntaje_ia": 26.7,
-        "prob_ml": "16.8"
+        "puntaje_ia": 26.6,
+        "prob_ml": "16.6"
       }
     ]
   },
@@ -14408,15 +14408,15 @@
         "numero": 9,
         "caballo": "MY SWEET LORD",
         "jinete": "A. APABLAZA",
-        "puntaje_ia": 75.3,
-        "prob_ml": "86.2"
+        "puntaje_ia": 79.2,
+        "prob_ml": "91.8"
       },
       {
         "numero": 1,
         "caballo": "FRENCH CANDY",
         "jinete": "F. MEDINA",
-        "puntaje_ia": 71.5,
-        "prob_ml": "80.7"
+        "puntaje_ia": 74.1,
+        "prob_ml": "84.5"
       }
     ]
   },
@@ -14472,13 +14472,6 @@
     ],
     "predicciones": [
       {
-        "numero": 1,
-        "caballo": "SIETE DE ABRIL",
-        "jinete": "JON. A. CASTILLO",
-        "puntaje_ia": 84.9,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 2,
         "caballo": "RED DIAMOND",
         "jinete": "W. LEON",
@@ -14498,6 +14491,13 @@
         "jinete": "C. ORTEGA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
+      },
+      {
+        "numero": 1,
+        "caballo": "SIETE DE ABRIL",
+        "jinete": "JON. A. CASTILLO",
+        "puntaje_ia": 82.5,
+        "prob_ml": "95.5"
       }
     ]
   },
@@ -14612,15 +14612,15 @@
         "numero": 9,
         "caballo": "PARTNER QUERIDO",
         "jinete": "B. SANCHO",
-        "puntaje_ia": 75.3,
-        "prob_ml": "86.2"
+        "puntaje_ia": 79.2,
+        "prob_ml": "91.8"
       },
       {
         "numero": 12,
         "caballo": "MUSICO Y SOLDADO",
         "jinete": "B. TRONCOSO",
-        "puntaje_ia": 67.3,
-        "prob_ml": "74.8"
+        "puntaje_ia": 68.2,
+        "prob_ml": "76.0"
       }
     ]
   },
@@ -14799,18 +14799,18 @@
     ],
     "predicciones": [
       {
+        "numero": 6,
+        "caballo": "YO PAGO TODO",
+        "jinete": "L. TORRES",
+        "puntaje_ia": 85.5,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 7,
         "caballo": "ALE GUAPA",
         "jinete": "B. SANCHO",
         "puntaje_ia": 84.9,
         "prob_ml": "99.0"
-      },
-      {
-        "numero": 6,
-        "caballo": "YO PAGO TODO",
-        "jinete": "L. TORRES",
-        "puntaje_ia": 84.5,
-        "prob_ml": "97.6"
       },
       {
         "numero": 5,
@@ -14823,8 +14823,8 @@
         "numero": 1,
         "caballo": "INDIAN POET",
         "jinete": "J. MEDINA",
-        "puntaje_ia": 51.9,
-        "prob_ml": "51.8"
+        "puntaje_ia": 48.7,
+        "prob_ml": "47.2"
       }
     ]
   },
@@ -14932,29 +14932,29 @@
         "numero": 8,
         "caballo": "VIVIR SIN TI",
         "jinete": "N. RAMIREZ",
-        "puntaje_ia": 75.3,
-        "prob_ml": "86.1"
+        "puntaje_ia": 79.1,
+        "prob_ml": "91.6"
       },
       {
         "numero": 1,
         "caballo": "COLOR DE SUEÑO",
         "jinete": "R. S. DORES",
-        "puntaje_ia": 50.3,
-        "prob_ml": "50.4"
+        "puntaje_ia": 48.1,
+        "prob_ml": "47.2"
       },
       {
         "numero": 5,
         "caballo": "NOVAK",
         "jinete": "R. CISTERNAS",
-        "puntaje_ia": 33.8,
-        "prob_ml": "26.0"
+        "puntaje_ia": 36.2,
+        "prob_ml": "29.4"
       },
       {
         "numero": 2,
         "caballo": "DONDE RAUL",
         "jinete": "V. MIRANDA",
-        "puntaje_ia": 27.1,
-        "prob_ml": "17.3"
+        "puntaje_ia": 27.5,
+        "prob_ml": "17.9"
       }
     ]
   },
@@ -15069,15 +15069,15 @@
         "numero": 3,
         "caballo": "KANDOZI",
         "jinete": "SEB. GONZALEZ",
-        "puntaje_ia": 84.1,
-        "prob_ml": "98.7"
+        "puntaje_ia": 81.6,
+        "prob_ml": "95.1"
       },
       {
         "numero": 9,
         "caballo": "ELEGIDO CON PINZAS",
         "jinete": "B. TRONCOSO",
-        "puntaje_ia": 68.1,
-        "prob_ml": "75.9"
+        "puntaje_ia": 77.4,
+        "prob_ml": "89.2"
       }
     ]
   },
@@ -15192,8 +15192,8 @@
         "numero": 10,
         "caballo": "PELE O REY",
         "jinete": "R. CISTERNAS",
-        "puntaje_ia": 69.5,
-        "prob_ml": "77.9"
+        "puntaje_ia": 79.0,
+        "prob_ml": "91.4"
       }
     ]
   },
@@ -15329,15 +15329,15 @@
         "numero": 15,
         "caballo": "PALMAS SORDITAS (ARG)",
         "jinete": "R. FUENZALIDA",
-        "puntaje_ia": 67.3,
-        "prob_ml": "74.8"
+        "puntaje_ia": 68.2,
+        "prob_ml": "76.0"
       },
       {
         "numero": 1,
         "caballo": "NONA BLANCA",
         "jinete": "J. TORO",
-        "puntaje_ia": 51.3,
-        "prob_ml": "51.8"
+        "puntaje_ia": 48.1,
+        "prob_ml": "47.2"
       }
     ]
   },
@@ -15737,11 +15737,11 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 4,
-        "caballo": "TWO FLAGS",
-        "jinete": "R. SOLORZA",
-        "puntaje_ia": 40.5,
-        "prob_ml": "36.4"
+        "numero": 3,
+        "caballo": "NEGRA PERLA",
+        "jinete": "M. GUTIERREZ",
+        "puntaje_ia": 39.2,
+        "prob_ml": "34.6"
       }
     ]
   },
@@ -15863,29 +15863,29 @@
         "numero": 11,
         "caballo": "EL PELUSA",
         "jinete": "M. A. DONOSO",
-        "puntaje_ia": 67.3,
-        "prob_ml": "74.8"
+        "puntaje_ia": 68.2,
+        "prob_ml": "76.0"
       },
       {
         "numero": 15,
         "caballo": "BLUE KENTUCKY GIRL",
         "jinete": "W. LEON",
-        "puntaje_ia": 67.3,
-        "prob_ml": "74.8"
+        "puntaje_ia": 68.2,
+        "prob_ml": "76.0"
       },
       {
         "numero": 1,
         "caballo": "INTRIGANT",
         "jinete": "R. FUENZALIDA",
-        "puntaje_ia": 50.3,
-        "prob_ml": "50.4"
+        "puntaje_ia": 48.1,
+        "prob_ml": "47.2"
       },
       {
-        "numero": 2,
-        "caballo": "MUY TEMPERADA",
-        "jinete": "JOH. GONZALEZ",
-        "puntaje_ia": 27.1,
-        "prob_ml": "17.3"
+        "numero": 6,
+        "caballo": "DEAR SISTER",
+        "jinete": "R. SOLORZA",
+        "puntaje_ia": 27.6,
+        "prob_ml": "18.0"
       }
     ]
   },
@@ -16158,8 +16158,8 @@
         "numero": 12,
         "caballo": "KIASTRELO",
         "jinete": "BERNARDO LEÓN",
-        "puntaje_ia": 55.9,
-        "prob_ml": "58.4"
+        "puntaje_ia": 57.8,
+        "prob_ml": "61.1"
       }
     ]
   },
@@ -16271,11 +16271,11 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 3,
-        "caballo": "TU MI CUNCA",
-        "jinete": "DANIEL MEDINA",
+        "numero": 2,
+        "caballo": "SMILE QUEEN",
+        "jinete": "IGNACIO VALDIVIA",
         "puntaje_ia": 26.4,
-        "prob_ml": "16.3"
+        "prob_ml": "16.2"
       }
     ]
   },
@@ -16352,13 +16352,6 @@
     ],
     "predicciones": [
       {
-        "numero": 1,
-        "caballo": "NUEVA VIDA",
-        "jinete": "VICTOR MIRANDA",
-        "puntaje_ia": 84.9,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 3,
         "caballo": "POWER GIRL",
         "jinete": "RONALD FOURNET",
@@ -16366,18 +16359,25 @@
         "prob_ml": "99.0"
       },
       {
+        "numero": 1,
+        "caballo": "NUEVA VIDA",
+        "jinete": "VICTOR MIRANDA",
+        "puntaje_ia": 77.6,
+        "prob_ml": "88.5"
+      },
+      {
         "numero": 8,
         "caballo": "KATIE MELUA",
         "jinete": "NICOLÁS RAMIREZ",
-        "puntaje_ia": 55.9,
-        "prob_ml": "58.4"
+        "puntaje_ia": 56.8,
+        "prob_ml": "59.7"
       },
       {
         "numero": 5,
         "caballo": "LA SALCHI",
         "jinete": "MARCO MORALES",
-        "puntaje_ia": 34.1,
-        "prob_ml": "27.3"
+        "puntaje_ia": 31.7,
+        "prob_ml": "23.9"
       }
     ]
   },
@@ -16499,15 +16499,15 @@
         "numero": 1,
         "caballo": "EL DUKE",
         "jinete": "GERARD RODRÍGUEZ",
-        "puntaje_ia": 43.9,
-        "prob_ml": "41.3"
+        "puntaje_ia": 45.8,
+        "prob_ml": "44.0"
       },
       {
         "numero": 5,
         "caballo": "SILVERCHAIR",
         "jinete": "ALBERTO VÁSQUEZ",
-        "puntaje_ia": 34.1,
-        "prob_ml": "27.3"
+        "puntaje_ia": 31.7,
+        "prob_ml": "23.9"
       }
     ]
   },
@@ -16724,8 +16724,8 @@
         "numero": 8,
         "caballo": "AQUIMBAO",
         "jinete": "WILBERT LEÓN",
-        "puntaje_ia": 55.9,
-        "prob_ml": "58.4"
+        "puntaje_ia": 56.8,
+        "prob_ml": "59.7"
       }
     ]
   },
@@ -16847,22 +16847,22 @@
         "numero": 1,
         "caballo": "NATALINO",
         "jinete": "ARIEL ZÚÑIGA",
-        "puntaje_ia": 43.9,
-        "prob_ml": "41.3"
+        "puntaje_ia": 45.8,
+        "prob_ml": "44.0"
       },
       {
         "numero": 12,
         "caballo": "SALMA ALEGRE",
         "jinete": "ROBERTO ARAYA",
-        "puntaje_ia": 26.6,
-        "prob_ml": "15.7"
+        "puntaje_ia": 27.9,
+        "prob_ml": "17.6"
       },
       {
-        "numero": 5,
-        "caballo": "JOVEN SANCHIS",
-        "jinete": "SEBASTIÁN MUÑOZ",
-        "puntaje_ia": 26.4,
-        "prob_ml": "16.3"
+        "numero": 10,
+        "caballo": "GIULIETTA AMORE",
+        "jinete": "WLADIMIR QUINTEROS",
+        "puntaje_ia": 27.3,
+        "prob_ml": "17.6"
       }
     ]
   },
@@ -16984,15 +16984,15 @@
         "numero": 5,
         "caballo": "HI FLY",
         "jinete": "PATRICIO GALÁZ",
-        "puntaje_ia": 61.6,
-        "prob_ml": "66.6"
+        "puntaje_ia": 53.3,
+        "prob_ml": "54.7"
       },
       {
         "numero": 1,
         "caballo": "LADY JETS",
         "jinete": "RONALD FOURNET",
-        "puntaje_ia": 43.9,
-        "prob_ml": "41.3"
+        "puntaje_ia": 39.2,
+        "prob_ml": "34.6"
       }
     ]
   },
@@ -17093,15 +17093,15 @@
         "numero": 9,
         "caballo": "LORD GOÑI",
         "jinete": "ARIEL ZÚÑIGA",
-        "puntaje_ia": 55.9,
-        "prob_ml": "58.4"
+        "puntaje_ia": 57.8,
+        "prob_ml": "61.1"
       },
       {
         "numero": 10,
         "caballo": "BRUNO FERRARI",
         "jinete": "SEBASTIÁN GONZÁLEZ",
-        "puntaje_ia": 55.9,
-        "prob_ml": "58.4"
+        "puntaje_ia": 57.8,
+        "prob_ml": "61.1"
       }
     ]
   },
@@ -17462,15 +17462,15 @@
         "numero": 7,
         "caballo": "SAND THICK",
         "jinete": "RODOLFO FUENZALIDA",
-        "puntaje_ia": 59.7,
-        "prob_ml": "63.8"
+        "puntaje_ia": 57.9,
+        "prob_ml": "61.2"
       },
       {
         "numero": 13,
         "caballo": "DALEMITA",
         "jinete": "HÉCTOR BARRERA",
-        "puntaje_ia": 55.9,
-        "prob_ml": "58.4"
+        "puntaje_ia": 57.8,
+        "prob_ml": "61.1"
       }
     ]
   },
@@ -17554,13 +17554,6 @@
     ],
     "predicciones": [
       {
-        "numero": 1,
-        "caballo": "KAUTO Y PILLO",
-        "jinete": "JAIME MEDINA",
-        "puntaje_ia": 84.9,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 7,
         "caballo": "LONWHITE",
         "jinete": "RAFAEL CISTERNAS",
@@ -17575,11 +17568,18 @@
         "prob_ml": "99.0"
       },
       {
+        "numero": 1,
+        "caballo": "KAUTO Y PILLO",
+        "jinete": "JAIME MEDINA",
+        "puntaje_ia": 77.6,
+        "prob_ml": "88.5"
+      },
+      {
         "numero": 6,
         "caballo": "OLY GOOD",
         "jinete": "GUSTAVO AROS",
-        "puntaje_ia": 59.7,
-        "prob_ml": "63.8"
+        "puntaje_ia": 58.6,
+        "prob_ml": "62.3"
       }
     ]
   },
@@ -17701,15 +17701,15 @@
         "numero": 1,
         "caballo": "PREZIOSI",
         "jinete": "AXEL ALVAREZ",
-        "puntaje_ia": 42.5,
-        "prob_ml": "39.3"
+        "puntaje_ia": 45.0,
+        "prob_ml": "42.9"
       },
       {
-        "numero": 3,
-        "caballo": "ARRANCATE PAIRINO",
-        "jinete": "PATRICIO GALÁZ",
-        "puntaje_ia": 26.4,
-        "prob_ml": "16.3"
+        "numero": 11,
+        "caballo": "DRINK'S VALLEY",
+        "jinete": "RODOLFO S. DORES",
+        "puntaje_ia": 27.3,
+        "prob_ml": "17.6"
       }
     ]
   },
@@ -17852,8 +17852,8 @@
         "numero": 5,
         "caballo": "SIGUE IGUAL",
         "jinete": "NICOLÁS MOLINA",
-        "puntaje_ia": 61.6,
-        "prob_ml": "66.6"
+        "puntaje_ia": 53.3,
+        "prob_ml": "54.7"
       }
     ]
   },
@@ -17989,8 +17989,8 @@
         "numero": 3,
         "caballo": "TEMAUKEL",
         "jinete": "VICTOR MIRANDA",
-        "puntaje_ia": 38.7,
-        "prob_ml": "32.9"
+        "puntaje_ia": 39.4,
+        "prob_ml": "34.0"
       }
     ]
   },
@@ -18400,15 +18400,15 @@
         "numero": 9,
         "caballo": "ANGUS Y RUPERT",
         "jinete": "BENJAMIN TRONCOSO",
-        "puntaje_ia": 55.9,
-        "prob_ml": "58.4"
+        "puntaje_ia": 57.8,
+        "prob_ml": "61.1"
       },
       {
         "numero": 1,
         "caballo": "SOUK",
         "jinete": "GERARD RODRÍGUEZ",
-        "puntaje_ia": 43.9,
-        "prob_ml": "41.3"
+        "puntaje_ia": 45.8,
+        "prob_ml": "44.0"
       }
     ]
   },
@@ -18544,15 +18544,15 @@
         "numero": 6,
         "caballo": "GRAN ALASKA",
         "jinete": "ALBERTO VÁSQUEZ",
-        "puntaje_ia": 54.6,
-        "prob_ml": "55.7"
+        "puntaje_ia": 56.1,
+        "prob_ml": "57.9"
       },
       {
         "numero": 1,
         "caballo": "PAPITO ALFREDO",
         "jinete": "GERARD RODRÍGUEZ",
-        "puntaje_ia": 42.5,
-        "prob_ml": "39.2"
+        "puntaje_ia": 43.8,
+        "prob_ml": "41.1"
       }
     ]
   },
@@ -18787,18 +18787,18 @@
         "prob_ml": "99.0"
       },
       {
+        "numero": 8,
+        "caballo": "EL BOHEMIO",
+        "jinete": "BENJAMIN TRONCOSO",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 11,
         "caballo": "PACIFICADOR",
         "jinete": "JOHAN GONZALEZ",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
-      },
-      {
-        "numero": 8,
-        "caballo": "EL BOHEMIO",
-        "jinete": "BENJAMIN TRONCOSO",
-        "puntaje_ia": 83.7,
-        "prob_ml": "98.2"
       },
       {
         "numero": 3,
@@ -19019,25 +19019,25 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 8,
-        "caballo": "DIMITRA",
-        "jinete": "WLADIMIR QUINTEROS",
-        "puntaje_ia": 81.6,
-        "prob_ml": "97.3"
-      },
-      {
         "numero": 12,
         "caballo": "LUPO",
         "jinete": "BENJAMIN SANCHO",
-        "puntaje_ia": 80.1,
-        "prob_ml": "93.0"
+        "puntaje_ia": 83.7,
+        "prob_ml": "98.1"
+      },
+      {
+        "numero": 8,
+        "caballo": "DIMITRA",
+        "jinete": "WLADIMIR QUINTEROS",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
       },
       {
         "numero": 7,
         "caballo": "NO TIENE PALABRA",
         "jinete": "JORGE VERA",
-        "puntaje_ia": 55.3,
-        "prob_ml": "57.6"
+        "puntaje_ia": 67.2,
+        "prob_ml": "74.5"
       }
     ]
   },
@@ -19444,8 +19444,8 @@
         "numero": 6,
         "caballo": "VAMOS AL NOA NOA",
         "jinete": "BERNARDO LEON",
-        "puntaje_ia": 83.1,
-        "prob_ml": "97.3"
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
       },
       {
         "numero": 2,
@@ -19655,15 +19655,15 @@
         "numero": 4,
         "caballo": "MI NIETO FRANK",
         "jinete": "RODOLFO S. DORES",
-        "puntaje_ia": 61.0,
-        "prob_ml": "65.7"
+        "puntaje_ia": 59.3,
+        "prob_ml": "63.2"
       },
       {
         "numero": 1,
         "caballo": "JE T'AIME",
         "jinete": "JOHAN GONZALEZ",
-        "puntaje_ia": 43.1,
-        "prob_ml": "39.2"
+        "puntaje_ia": 44.4,
+        "prob_ml": "41.1"
       }
     ]
   },
@@ -19778,8 +19778,8 @@
         "numero": 11,
         "caballo": "TEA AND MILK",
         "jinete": "ROBERTO AVILA",
-        "puntaje_ia": 61.5,
-        "prob_ml": "66.4"
+        "puntaje_ia": 59.2,
+        "prob_ml": "63.2"
       }
     ]
   },
@@ -19887,8 +19887,8 @@
         "numero": 6,
         "caballo": "DISMAI",
         "jinete": "BENJAMIN SANCHO",
-        "puntaje_ia": 83.1,
-        "prob_ml": "97.3"
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
       }
     ]
   },

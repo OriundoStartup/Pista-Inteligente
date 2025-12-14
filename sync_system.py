@@ -11,7 +11,21 @@ from src.models.train_v2 import HipicaLearner
 from src.models.data_manager import obtener_analisis_jornada
 import json
 from pathlib import Path
+import json
+from pathlib import Path
 import numpy as np
+import argparse
+
+def _safe_int(val):
+    """Convierte de forma segura a int, manejando bytes/blobs de numpy/sqlite."""
+    try:
+        if val is None: return 0
+        if isinstance(val, (bytes, bytearray)):
+            # Asumir little-endian para enteros de 64 bits si viene de numpy
+            return int.from_bytes(val[:8], byteorder='little')
+        return int(float(str(val)))
+    except:
+        return 0
 
 def is_port_in_use(port):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -66,16 +80,13 @@ def save_predictions_to_db(analisis):
             fecha_carrera = carrera.get('fecha')
             hipodromo = carrera.get('hipodromo')
             hipodromo = carrera.get('hipodromo')
-            try:
-                nro_carrera = int(carrera.get('carrera'))
-            except:
-                nro_carrera = carrera.get('carrera')
+            nro_carrera = _safe_int(carrera.get('carrera'))
             predicciones = carrera.get('predicciones', [])
             
             for idx, pred in enumerate(predicciones, 1):
                 # Extraer datos de la predicción
                 if isinstance(pred, dict):
-                    numero = pred.get('numero', 0)
+                    numero = _safe_int(pred.get('numero', 0))
                     puntaje_ia = pred.get('puntaje_ia', 0.0)
                     prob_ml = float(str(pred.get('prob_ml', '0.0')).replace('%', ''))
                     
@@ -190,6 +201,18 @@ def precalculate_predictions():
         print(f"❌ Error al pre-calcular predicciones: {e}")
         return False
 
+def check_git_changes():
+    """Retorna True si hay cambios pendientes en git (código modificado)."""
+    try:
+        # Check staged + unstaged + untracked
+        # git status --porcelain es la forma más robusta
+        r = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
+        if r.stdout.strip(): 
+            return True
+        return False
+    except:
+        return False
+
 def main(force_sync=False):
     """
     Sistema de sincronización principal optimizado.
@@ -211,11 +234,15 @@ def main(force_sync=False):
         etl = HipicaETL()
         archivos_nuevos = etl.run(force_reprocess=force_sync)
         
-        # Verificar si hay cambios que requieran actualización
-        hay_cambios = archivos_nuevos > 0
+        # Verificar si hay cambios que requieran actualización (Datos o Código)
+        cambios_codigo = check_git_changes()
+        hay_cambios = (archivos_nuevos > 0) or cambios_codigo
+        
+        if cambios_codigo:
+             print("\n📝 Detectados cambios en el código fuente. Se procederá al despliegue.")
         
         if not hay_cambios and not force_sync:
-            print("\n✅ SISTEMA ACTUALIZADO - No hay cambios nuevos.")
+            print("\n✅ SISTEMA ACTUALIZADO - No hay cambios nuevos (ni datos ni código).")
             print("📊 Los datos, modelos y predicciones están vigentes.")
             print(f"\n⏱️ Tiempo total: {time.time() - start_time:.2f} segundos")
             return
@@ -352,5 +379,11 @@ def deploy_to_cloud_run():
         print(f"   ❌ Error inesperado en deploy: {type(e).__name__}: {e}")
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description='Sistema de Sincronización Hípica Inteligente')
+    parser.add_argument('--force', action='store_true', help='Forzar re-procesamiento completo')
+    parser.add_argument('--no-deploy', action='store_true', help='Saltar paso de despliegue')
+    
+    args = parser.parse_args()
+    
+    main(force_sync=args.force)
 
