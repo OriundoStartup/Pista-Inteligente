@@ -65,7 +65,11 @@ def save_predictions_to_db(analisis):
         for carrera in analisis:
             fecha_carrera = carrera.get('fecha')
             hipodromo = carrera.get('hipodromo')
-            nro_carrera = carrera.get('carrera')
+            hipodromo = carrera.get('hipodromo')
+            try:
+                nro_carrera = int(carrera.get('carrera'))
+            except:
+                nro_carrera = carrera.get('carrera')
             predicciones = carrera.get('predicciones', [])
             
             for idx, pred in enumerate(predicciones, 1):
