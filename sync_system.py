@@ -186,7 +186,12 @@ def precalculate_predictions():
         print(f"❌ Error al pre-calcular predicciones: {e}")
         return False
 
-def main():
+def main(force_sync=False):
+    """
+    Sistema de sincronización principal optimizado.
+    Args:
+        force_sync: Si es True, fuerza re-procesamiento completo ignorando tracking
+    """
     print("""
     ==================================================
        🏇 SISTEMA DE HÍPICA INTELIGENTE - SYNC V2.1 🏇
@@ -200,7 +205,18 @@ def main():
         # 1. Inicializar y Correr ETL
         print("\n[PASO 1/3] Ejecutando ETL (Carga de Datos)...")
         etl = HipicaETL()
-        etl.run()
+        archivos_nuevos = etl.run(force_reprocess=force_sync)
+        
+        # Verificar si hay cambios que requieran actualización
+        hay_cambios = archivos_nuevos > 0
+        
+        if not hay_cambios and not force_sync:
+            print("\n✅ SISTEMA ACTUALIZADO - No hay cambios nuevos.")
+            print("📊 Los datos, modelos y predicciones están vigentes.")
+            print(f"\n⏱️ Tiempo total: {time.time() - start_time:.2f} segundos")
+            return
+        
+        print(f"\n🔄 Detectados {archivos_nuevos} archivo(s) nuevo(s). Actualizando sistema...")
         
         # 2. Entrenar/Actualizar Modelos de IA
         print("\n[PASO 2/3] Entrenando Modelos de IA (HipicaLearner)...")
@@ -227,6 +243,8 @@ def main():
 
     except Exception as e:
         print(f"\n❌ ERROR CRÍTICO: {e}")
+        import traceback
+        traceback.print_exc()
         input("Presiona Enter para salir...")
 
 def deploy_to_cloud_run():

@@ -325,11 +325,41 @@ class HipicaETL:
         self.cursor.execute('CREATE INDEX IF NOT EXISTS idx_pred_generacion ON predicciones(fecha_generacion)')
         self.cursor.execute('CREATE INDEX IF NOT EXISTS idx_pred_caballo ON predicciones(caballo_id)')
         
+        # Tabla de tracking de archivos procesados (OPTIMIZACIÓN)
+        self.cursor.execute('''
+        CREATE TABLE IF NOT EXISTS archivos_procesados (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            nombre_archivo TEXT UNIQUE NOT NULL,
+            fecha_procesamiento TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+            hash_archivo TEXT,
+            num_registros INTEGER
+        )''')
+        
+        self.cursor.execute('CREATE INDEX IF NOT EXISTS idx_archivos_nombre ON archivos_procesados(nombre_archivo)')
+        
         self.conn.commit()
 
+    def _archivo_ya_procesado(self, nombre_archivo):
+        """Verifica si un archivo ya fue procesado anteriormente"""
+        self.cursor.execute("SELECT id FROM archivos_procesados WHERE nombre_archivo = ?", (nombre_archivo,))
+        return self.cursor.fetchone() is not None
+    
+    def _registrar_archivo_procesado(self, nombre_archivo, num_registros):
+        """Registra un archivo como procesado"""
+        try:
+            fecha_actual = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            self.cursor.execute(
+                "INSERT OR REPLACE INTO archivos_procesados (nombre_archivo, fecha_procesamiento, num_registros) VALUES (?, ?, ?)",
+                (nombre_archivo, fecha_actual, num_registros)
+            )
+            self.conn.commit()
+        except Exception as e:
+            print(f"   ⚠️ Error registrando archivo: {e}")
+    
     def process_csv(self, file_path):
         """Procesa un CSV eficientemente"""
         filename = os.path.basename(file_path)
+        num_registros = 0
         print(f"\n📄 Procesando: {filename}")
         
         # Detectar Header Row dinámicamente y leer con StringIO
@@ -441,9 +471,11 @@ class HipicaETL:
                 df['hipodromo'] = full_name
 
         if is_program:
-            self._process_program_bulk(df)
+            num_registros = self._process_program_bulk(df)
         else:
-            self._process_results_bulk(df)
+            num_registros = self._process_results_bulk(df)
+        
+        return num_registros
 
     def _process_program_bulk(self, df):
         """Inserción masiva de programas (Normalizados)"""
@@ -505,6 +537,8 @@ class HipicaETL:
             ''', data)
             self.conn.commit()
             print(f"   ✅ {len(data)} registros de programa insertados.")
+        
+        return len(data)
 
     def _process_results_bulk(self, df):
         """
@@ -631,17 +665,50 @@ class HipicaETL:
             ''', participaciones_batch)
             self.conn.commit()
             print(f"   ✅ {len(participaciones_batch)} participaciones procesadas.")
+        
+        return len(participaciones_batch)
 
-    def run(self):
+    def run(self, force_reprocess=False):
+        """Ejecuta ETL procesando solo archivos nuevos (a menos que force_reprocess=True)"""
         print("🚀 Iniciando ETL Optimizado...")
         files = glob.glob('exports/*.csv')
         print(f"📂 Encontrados {len(files)} archivos CSV.")
         
-        for f in files:
-            self.process_csv(f)
-            
+        # Filtrar archivos ya procesados
+        if force_reprocess:
+            print("⚠️ MODO FORZADO: Re-procesando todos los archivos")
+            archivos_a_procesar = files
+        else:
+            archivos_a_procesar = []
+            for f in files:
+                filename = os.path.basename(f)
+                if not self._archivo_ya_procesado(filename):
+                    archivos_a_procesar.append(f)
+                else:
+                    print(f"⏭️ Omitiendo {filename} (ya procesado)")
+        
+        if not archivos_a_procesar:
+            print("✅ No hay archivos nuevos para procesar.")
+            self.conn.close()
+            return 0
+        
+        print(f"\n📝 Procesando {len(archivos_a_procesar)} archivo(s) nuevo(s)...")
+        archivos_procesados_exitosamente = 0
+        
+        for f in archivos_a_procesar:
+            try:
+                filename = os.path.basename(f)
+                num_registros = self.process_csv(f)
+                self._registrar_archivo_procesado(filename, num_registros)
+                archivos_procesados_exitosamente += 1
+            except Exception as e:
+                print(f"❌ Error procesando {f}: {e}")
+                import traceback
+                traceback.print_exc()
+        
         self.conn.close()
-        print("🏁 ETL Completado.")
+        print(f"\n🏁 ETL Completado: {archivos_procesados_exitosamente}/{len(archivos_a_procesar)} archivos procesados exitosamente.")
+        return archivos_procesados_exitosamente
 
 if __name__ == "__main__":
     etl = HipicaETL()
