@@ -13,15 +13,19 @@ from .features import FeatureEngineering
 @functools.lru_cache(maxsize=1)
 def cargar_datos(nombre_db='data/db/hipica_data.db'):
     """Carga los datos desde la base de datos SQLite (tabla antigua para compatibilidad)."""
-    # Fix paths if running from root or src
-    if not os.path.exists(nombre_db) and os.path.exists(f'data/db/{nombre_db}'):
-        nombre_db = f'data/db/{nombre_db}'
+    # Resolver ruta absoluta
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    db_path = os.path.join(BASE_DIR, 'data', 'db', 'hipica_data.db')
+    
+    # Fallback legacy arg check
+    if nombre_db != 'data/db/hipica_data.db' and os.path.exists(nombre_db):
+         db_path = nombre_db
         
-    if not os.path.exists(nombre_db):
+    if not os.path.exists(db_path):
         return pd.DataFrame()
         
     try:
-        conn = sqlite3.connect(nombre_db)
+        conn = sqlite3.connect(db_path)
         df = pd.read_sql("SELECT * FROM resultados", conn)
         conn.close()
         return df
@@ -31,14 +35,14 @@ def cargar_datos(nombre_db='data/db/hipica_data.db'):
 @functools.lru_cache(maxsize=4)
 def cargar_datos_3nf(nombre_db='data/db/hipica_data.db'):
     """Carga datos desde la estructura 3NF normalizada."""
-    if not os.path.exists(nombre_db) and os.path.exists(f'data/db/{nombre_db}'):
-        nombre_db = f'data/db/{nombre_db}'
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    db_path = os.path.join(BASE_DIR, 'data', 'db', 'hipica_data.db')
         
-    if not os.path.exists(nombre_db):
+    if not os.path.exists(db_path):
         return pd.DataFrame()
     
     try:
-        conn = sqlite3.connect(nombre_db)
+        conn = sqlite3.connect(db_path)
         query = '''
         SELECT 
             p.id as part_id,
@@ -88,11 +92,14 @@ def cargar_datos_3nf(nombre_db='data/db/hipica_data.db'):
 
 def cargar_programa(nombre_db='data/db/hipica_data.db'):
     """Carga el programa de carreras desde la base de datos."""
-    if not os.path.exists(nombre_db) and os.path.exists(f'data/db/{nombre_db}'):
-        nombre_db = f'data/db/{nombre_db}'
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    db_path = os.path.join(BASE_DIR, 'data', 'db', 'hipica_data.db')
+    
+    if nombre_db != 'data/db/hipica_data.db' and os.path.exists(nombre_db):
+         db_path = nombre_db
         
     try:
-        conn = sqlite3.connect(nombre_db)
+        conn = sqlite3.connect(db_path)
         # Try to join with normalized tables if they exist, otherwise raw
         try:
              # Normalized programmatic join
@@ -120,22 +127,23 @@ def cargar_programa(nombre_db='data/db/hipica_data.db'):
 def obtener_analisis_jornada():
     """Genera análisis usando ML o carga desde cache."""
     # --- CACHE LOGIC START ---
-    from pathlib import Path
     import json
+    from pathlib import Path
+    
+    # Resolver rutas absolutas
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    cache_path = os.path.join(BASE_DIR, 'data', 'cache_analisis.json')
     
     # Intentar cargar desde cache
     try:
-        # Ajustamos path para que funcione tanto local como en container
-        cache_path = Path("data/cache_analisis.json")
-        if not cache_path.exists():
-             cache_path = Path("app/data/cache_analisis.json")
-
-        if cache_path.exists():
+        if os.path.exists(cache_path):
             with open(cache_path, 'r', encoding='utf-8') as f:
                 print(f"⚡ Cargando predicciones desde cache: {cache_path}")
-                # Convertir listas de dicts que podrían ser dataframes en el uso original
-                # pero aqui ya retornamos la lista de dicts directa.
-                return json.load(f)
+                data = json.load(f)
+                # Inyectar metadata de origen para debugging
+                if isinstance(data, list) and data:
+                    data[0]['_source'] = 'cache'
+                return data
     except Exception as e:
         print(f"⚠️ Error al leer cache, calculando dinámicamente: {e}")
     # --- CACHE LOGIC END ---
@@ -522,11 +530,14 @@ def obtener_predicciones_historicas(fecha_inicio=None, fecha_fin=None, hipodromo
     Returns:
         DataFrame con las predicciones históricas
     """
-    if not os.path.exists(nombre_db) and os.path.exists(f'data/db/{nombre_db}'):
-        nombre_db = f'data/db/{nombre_db}'
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    db_path = os.path.join(BASE_DIR, 'data', 'db', 'hipica_data.db')
+    
+    if nombre_db != 'data/db/hipica_data.db' and os.path.exists(nombre_db):
+         db_path = nombre_db
         
     try:
-        conn = sqlite3.connect(nombre_db)
+        conn = sqlite3.connect(db_path)
         
         query = """
         SELECT 
@@ -586,11 +597,13 @@ def calcular_precision_modelo(fecha_inicio=None, fecha_fin=None, nombre_db='data
     Returns:
         Dict con métricas de precisión (Top 1, Top 3, Top 4 accuracy)
     """
-    if not os.path.exists(nombre_db) and os.path.exists(f'data/db/{nombre_db}'):
-        nombre_db = f'data/db/{nombre_db}'
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    db_path = os.path.join(BASE_DIR, 'data', 'db', 'hipica_data.db')
+    if nombre_db != 'data/db/hipica_data.db' and os.path.exists(nombre_db):
+         db_path = nombre_db
         
     try:
-        conn = sqlite3.connect(nombre_db)
+        conn = sqlite3.connect(db_path)
         
         # Query que une predicciones con resultados reales
         query = """
