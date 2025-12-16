@@ -313,7 +313,7 @@ def analizar_probabilidad_caballos(caballos_df, historial_resultados, model=None
     pista = context.get('pista', 'ARENA') if context else 'ARENA'
     
     # Pre-filter history
-    relevant_horses = set(caballos_df['nombre'].values)
+    relevant_horses = set(caballos_df['caballo'].values)
     # We match by Name because ID might be missing in program or distinct.
     # Ideally should use ID. Assuming 'nombre' is key.
     
@@ -322,7 +322,7 @@ def analizar_probabilidad_caballos(caballos_df, historial_resultados, model=None
     horse_indices = []
 
     for idx, row in caballos_df.iterrows():
-        nombre = row.get('nombre')
+        nombre = row.get('caballo')
         val_num = row.get('numero', 0)
         jinete_nombre = row.get('jinete', 'Jinete')
         peso_val = row.get('peso', 470)
