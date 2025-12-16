@@ -118,7 +118,11 @@ def cargar_programa(nombre_db='data/db/hipica_data.db', solo_futuras=True):
              query = f"""
                 SELECT 
                     pc.fecha, h.nombre as hipodromo, pc.nro_carrera, pc.hora, pc.distancia, pc.condicion,
-                    pc.numero, c.nombre, j.nombre as jinete, s.nombre as stud, pc.peso
+                    pc.numero as numero, 
+                    COALESCE(c.nombre, 'Desconocido') as caballo, 
+                    j.nombre as jinete, 
+                    s.nombre as stud, 
+                    pc.peso
                 FROM programa_carreras pc
                 LEFT JOIN hipodromos h ON pc.hipodromo = h.nombre OR h.codigo = pc.hipodromo
                 LEFT JOIN caballos c ON pc.caballo_id = c.id
@@ -234,7 +238,7 @@ def obtener_analisis_jornada():
         grupos = df_programa.groupby(['fecha', 'hipodromo', carrera_col])
         
         for (fecha, hipodromo, nro_carrera), grupo in grupos:
-            caballos_df = grupo[['numero', 'nombre', 'jinete', 'stud', 'peso']].copy()
+            caballos_df = grupo[['numero', 'caballo', 'jinete', 'stud', 'peso']].copy()
             caballos_df['numero'] = pd.to_numeric(caballos_df['numero'], errors='coerce').fillna(0).astype(int)
             caballos_df = caballos_df.sort_values('numero').reset_index(drop=True)
             
