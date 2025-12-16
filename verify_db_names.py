@@ -12,7 +12,7 @@ def verify_db():
         pc.fecha, pc.nro_carrera, pc.numero, pc.caballo_id, c.nombre as caballo_nombre
     FROM programa_carreras pc
     LEFT JOIN caballos c ON pc.caballo_id = c.id
-    WHERE pc.fecha = '2025-12-15'
+    WHERE pc.fecha = '2025-12-18'
     ORDER BY pc.fecha DESC
     LIMIT 10
     """

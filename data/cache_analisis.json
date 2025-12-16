@@ -121,13 +121,6 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 1,
-        "caballo": "VALKYRIE LEGEND",
-        "jinete": "BASTIAN SOTO",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 2,
         "caballo": "VAN DER SAR",
         "jinete": "JESUS PIMENTEL",
@@ -138,6 +131,13 @@
         "numero": 3,
         "caballo": "VALLTTERI",
         "jinete": "FELIPE HENRIQUEZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "NO TIENE PALABRA",
+        "jinete": "BENJAMIN SANCHO",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       }
@@ -1320,17 +1320,17 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 6,
-        "caballo": "FORBES",
-        "jinete": "BENJAMIN TRONCOSO",
+        "numero": 4,
+        "caballo": "MAGO DEL GELATO",
+        "jinete": "PEDRO ROBLES",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
-        "numero": 7,
-        "caballo": "SOY DE ALLÁ",
-        "jinete": "NICOLAS SANTIBAÑEZ",
-        "puntaje_ia": 82.8,
+        "numero": 6,
+        "caballo": "FORBES",
+        "jinete": "BENJAMIN TRONCOSO",
+        "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       }
     ]
@@ -4110,18 +4110,18 @@
     ],
     "predicciones": [
       {
-        "numero": 15,
-        "caballo": "SALE DE MIS OJOS",
-        "jinete": "BASTIAN SOTO",
-        "puntaje_ia": 84.9,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 7,
         "caballo": "VALLTTERI",
         "jinete": "FRANCISCO MORALES",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
+      },
+      {
+        "numero": 15,
+        "caballo": "SALE DE MIS OJOS",
+        "jinete": "BASTIAN SOTO",
+        "puntaje_ia": 79.4,
+        "prob_ml": "91.1"
       },
       {
         "numero": 4,
@@ -4247,9 +4247,9 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 6,
-        "caballo": "SERKET",
-        "jinete": "FABIAN MEDINA",
+        "numero": 7,
+        "caballo": "CHE AWAY",
+        "jinete": "JAIME MEDINA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       }
@@ -4430,11 +4430,11 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 3,
-        "caballo": "MALANDRO",
-        "jinete": "GUSTAVO AROS",
-        "puntaje_ia": 70.4,
-        "prob_ml": "79.1"
+        "numero": 7,
+        "caballo": "VICHITO",
+        "jinete": "JOAQUIN HERRERA",
+        "puntaje_ia": 34.5,
+        "prob_ml": "27.9"
       }
     ]
   },
@@ -5797,11 +5797,11 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 10,
-        "caballo": "MI JOYA",
-        "jinete": "BENJAMIN SANCHO",
-        "puntaje_ia": 72.7,
-        "prob_ml": "82.4"
+        "numero": 6,
+        "caballo": "CROCKED",
+        "jinete": "HUGO OCHOA",
+        "puntaje_ia": 53.3,
+        "prob_ml": "54.7"
       }
     ]
   },
@@ -6064,18 +6064,18 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 3,
-        "caballo": "TE DIGO ALGO",
-        "jinete": "NICOLAS MOLINA",
-        "puntaje_ia": 72.7,
-        "prob_ml": "82.4"
+        "numero": 4,
+        "caballo": "INTRIGANT",
+        "jinete": "RODOLFO FUENZALIDA",
+        "puntaje_ia": 61.4,
+        "prob_ml": "66.3"
       },
       {
-        "numero": 2,
-        "caballo": "SISI STAR",
-        "jinete": "ROBERTO AVILA",
-        "puntaje_ia": 69.5,
-        "prob_ml": "77.9"
+        "numero": 15,
+        "caballo": "NONA BLANCA",
+        "jinete": "JESUS TORO",
+        "puntaje_ia": 55.9,
+        "prob_ml": "58.4"
       }
     ]
   },
@@ -6584,13 +6584,6 @@
     ],
     "predicciones": [
       {
-        "numero": 1,
-        "caballo": "LA SALCHI",
-        "jinete": "PATRICIO GALÁZ",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 2,
         "caballo": "SOGNA CON ME",
         "jinete": "FABIAN MEDINA",
@@ -6608,6 +6601,13 @@
         "numero": 7,
         "caballo": "BACANCITA",
         "jinete": "JORGE A. GONZÁLEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 9,
+        "caballo": "LA TROTONA",
+        "jinete": "SEBASTIÁN GONZÁLEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -6665,13 +6665,6 @@
     ],
     "predicciones": [
       {
-        "numero": 2,
-        "caballo": "EL FLORITO",
-        "jinete": "HÉCTOR BARRERA",
-        "puntaje_ia": 84.9,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 3,
         "caballo": "ROCE SECRETO",
         "jinete": "JESUS TORO",
@@ -6689,6 +6682,13 @@
         "numero": 1,
         "caballo": "ALCIDES",
         "jinete": "ANYELO RIVERA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 6,
+        "caballo": "A QUIEN SALISTE",
+        "jinete": "IGNACIO VALDIVIA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -6960,16 +6960,16 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 8,
-        "caballo": "MI PORTEÑA",
-        "jinete": "HUGO OCHOA",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 11,
         "caballo": "CLASUA",
         "jinete": "DARIEN CHEUQUE",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 13,
+        "caballo": "REGIA PIBA",
+        "jinete": "MARCO BUSTAMANTE",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -7097,13 +7097,6 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 7,
-        "caballo": "DEMOOV",
-        "jinete": "MIGUEL GUTIÉRREZ",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 9,
         "caballo": "SULTANA DIVA",
         "jinete": "NICOLÁS SANTIBAÑEZ",
@@ -7114,6 +7107,13 @@
         "numero": 11,
         "caballo": "DON PATO",
         "jinete": "LUIS D. MENGHINI",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 12,
+        "caballo": "BAILONGO",
+        "jinete": "MARCO BUSTAMANTE",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -7529,13 +7529,6 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 11,
-        "caballo": "JOHN COOPER",
-        "jinete": "FRANCISCO MORALES",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 15,
         "caballo": "NEL BLU",
         "jinete": "JORGE VERA",
@@ -7546,6 +7539,13 @@
         "numero": 1,
         "caballo": "MERKEL",
         "jinete": "DIEGO CARVACHO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "JAPONESA GUAPA",
+        "jinete": "JAIME A. MIÑO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -8091,13 +8091,6 @@
     ],
     "predicciones": [
       {
-        "numero": 12,
-        "caballo": "PACHEKIN",
-        "jinete": "JOAQUÍN HERRERA",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 1,
         "caballo": "LO FRANCO",
         "jinete": "MIGUEL GUTIÉRREZ",
@@ -8115,6 +8108,13 @@
         "numero": 3,
         "caballo": "TÍRATE UN PASO",
         "jinete": "DIEGO CARVACHO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "EL CHILENO",
+        "jinete": "JOSÉ VILLABLANCA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -8393,16 +8393,16 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 11,
-        "caballo": "EASY PEASY",
-        "jinete": "NICOLÁS RAMIREZ",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 3,
         "caballo": "EL INVICTO",
         "jinete": "PIERO REYES",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "EL VIEJITO",
+        "jinete": "NICOLÁS SANTIBAÑEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -8681,16 +8681,16 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 11,
-        "caballo": "EASY PEASY",
-        "jinete": "NICOLÁS RAMIREZ",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 3,
         "caballo": "EL INVICTO",
         "jinete": "PIERO REYES",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "EL VIEJITO",
+        "jinete": "NICOLÁS SANTIBAÑEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -8825,16 +8825,16 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 11,
-        "caballo": "EASY PEASY",
-        "jinete": "NICOLÁS RAMIREZ",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 3,
         "caballo": "EL INVICTO",
         "jinete": "PIERO REYES",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "EL VIEJITO",
+        "jinete": "NICOLÁS SANTIBAÑEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -9113,16 +9113,16 @@
         "prob_ml": "99.0"
       },
       {
-        "numero": 11,
-        "caballo": "EASY PEASY",
-        "jinete": "NICOLÁS RAMIREZ",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 3,
         "caballo": "EL INVICTO",
         "jinete": "PIERO REYES",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "EL VIEJITO",
+        "jinete": "NICOLÁS SANTIBAÑEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -10572,6 +10572,13 @@
     ],
     "predicciones": [
       {
+        "numero": 6,
+        "caballo": "SINGLE BARREL",
+        "jinete": "IGNACIO VALDIVIA",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 1,
         "caballo": "SALTO DEL CEREZO",
         "jinete": "BENJAMIN SANCHO",
@@ -10589,13 +10596,6 @@
         "numero": 4,
         "caballo": "SEE ME",
         "jinete": "AXEL ALVAREZ",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 5,
-        "caballo": "STRAY KIDS",
-        "jinete": "JESUS TORO",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       }
@@ -11991,13 +11991,6 @@
     ],
     "predicciones": [
       {
-        "numero": 12,
-        "caballo": "BETONE",
-        "jinete": "CATHRINE WEILBY",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 14,
         "caballo": "ME VERAS CAER",
         "jinete": "RONALD FOURNET",
@@ -12015,6 +12008,13 @@
         "numero": 2,
         "caballo": "SHOT FOR ME",
         "jinete": "JAIME A. MIÑO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "MAL MIRADA",
+        "jinete": "RAFAEL CISTERNAS",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -12708,13 +12708,6 @@
     ],
     "predicciones": [
       {
-        "numero": 7,
-        "caballo": "DRINK'S VALLEY",
-        "jinete": "RODOLFO S. DORES",
-        "puntaje_ia": 84.3,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 1,
         "caballo": "TOXIPIRINA",
         "jinete": "RODOLFO FUENZALIDA",
@@ -12732,6 +12725,13 @@
         "numero": 3,
         "caballo": "COMPADRE CRISTIAN",
         "jinete": "J. VILLAGRAN",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "VAQUITA LOIRA",
+        "jinete": "ROBERTO AVILA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -14067,8 +14067,8 @@
         "numero": 1,
         "caballo": "DALIKA",
         "jinete": "N. RAMIREZ",
-        "puntaje_ia": 38.0,
-        "prob_ml": "32.8"
+        "puntaje_ia": 50.3,
+        "prob_ml": "50.4"
       },
       {
         "numero": 2,
@@ -14412,11 +14412,11 @@
         "prob_ml": "86.2"
       },
       {
-        "numero": 6,
-        "caballo": "DEJALO AHI",
-        "jinete": "N. ROJAS",
-        "puntaje_ia": 54.1,
-        "prob_ml": "55.9"
+        "numero": 1,
+        "caballo": "FRENCH CANDY",
+        "jinete": "F. MEDINA",
+        "puntaje_ia": 71.5,
+        "prob_ml": "80.7"
       }
     ]
   },
@@ -14472,6 +14472,13 @@
     ],
     "predicciones": [
       {
+        "numero": 1,
+        "caballo": "SIETE DE ABRIL",
+        "jinete": "JON. A. CASTILLO",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 2,
         "caballo": "RED DIAMOND",
         "jinete": "W. LEON",
@@ -14491,13 +14498,6 @@
         "jinete": "C. ORTEGA",
         "puntaje_ia": 84.3,
         "prob_ml": "99.0"
-      },
-      {
-        "numero": 1,
-        "caballo": "SIETE DE ABRIL",
-        "jinete": "JON. A. CASTILLO",
-        "puntaje_ia": 83.2,
-        "prob_ml": "96.6"
       }
     ]
   },
@@ -14823,8 +14823,8 @@
         "numero": 1,
         "caballo": "INDIAN POET",
         "jinete": "J. MEDINA",
-        "puntaje_ia": 39.3,
-        "prob_ml": "33.8"
+        "puntaje_ia": 51.9,
+        "prob_ml": "51.8"
       }
     ]
   },
@@ -14939,8 +14939,8 @@
         "numero": 1,
         "caballo": "COLOR DE SUEÑO",
         "jinete": "R. S. DORES",
-        "puntaje_ia": 38.0,
-        "prob_ml": "32.8"
+        "puntaje_ia": 50.3,
+        "prob_ml": "50.4"
       },
       {
         "numero": 5,
@@ -15066,18 +15066,18 @@
         "prob_ml": "99.0"
       },
       {
+        "numero": 3,
+        "caballo": "KANDOZI",
+        "jinete": "SEB. GONZALEZ",
+        "puntaje_ia": 84.1,
+        "prob_ml": "98.7"
+      },
+      {
         "numero": 5,
         "caballo": "EL KING",
         "jinete": "N. MOLINA",
         "puntaje_ia": 83.2,
         "prob_ml": "97.5"
-      },
-      {
-        "numero": 3,
-        "caballo": "KANDOZI",
-        "jinete": "SEB. GONZALEZ",
-        "puntaje_ia": 83.1,
-        "prob_ml": "97.3"
       }
     ]
   },
@@ -15192,8 +15192,8 @@
         "numero": 10,
         "caballo": "PELE O REY",
         "jinete": "R. CISTERNAS",
-        "puntaje_ia": 74.3,
-        "prob_ml": "84.7"
+        "puntaje_ia": 69.5,
+        "prob_ml": "77.9"
       }
     ]
   },
@@ -15884,8 +15884,8 @@
         "numero": 1,
         "caballo": "INTRIGANT",
         "jinete": "R. FUENZALIDA",
-        "puntaje_ia": 38.0,
-        "prob_ml": "32.8"
+        "puntaje_ia": 50.3,
+        "prob_ml": "50.4"
       }
     ]
   },
@@ -16499,8 +16499,8 @@
         "numero": 1,
         "caballo": "EL DUKE",
         "jinete": "GERARD RODRÍGUEZ",
-        "puntaje_ia": 42.8,
-        "prob_ml": "39.7"
+        "puntaje_ia": 43.9,
+        "prob_ml": "41.3"
       },
       {
         "numero": 5,
@@ -16847,8 +16847,8 @@
         "numero": 1,
         "caballo": "NATALINO",
         "jinete": "ARIEL ZÚÑIGA",
-        "puntaje_ia": 42.8,
-        "prob_ml": "39.7"
+        "puntaje_ia": 43.9,
+        "prob_ml": "41.3"
       },
       {
         "numero": 12,
@@ -16991,8 +16991,8 @@
         "numero": 1,
         "caballo": "LADY JETS",
         "jinete": "RONALD FOURNET",
-        "puntaje_ia": 42.8,
-        "prob_ml": "39.7"
+        "puntaje_ia": 43.9,
+        "prob_ml": "41.3"
       }
     ]
   },
@@ -17701,8 +17701,8 @@
         "numero": 1,
         "caballo": "PREZIOSI",
         "jinete": "AXEL ALVAREZ",
-        "puntaje_ia": 41.4,
-        "prob_ml": "37.7"
+        "puntaje_ia": 42.5,
+        "prob_ml": "39.3"
       },
       {
         "numero": 3,
@@ -18407,8 +18407,8 @@
         "numero": 1,
         "caballo": "SOUK",
         "jinete": "GERARD RODRÍGUEZ",
-        "puntaje_ia": 42.8,
-        "prob_ml": "39.7"
+        "puntaje_ia": 43.9,
+        "prob_ml": "41.3"
       }
     ]
   },
@@ -18548,11 +18548,11 @@
         "prob_ml": "55.7"
       },
       {
-        "numero": 4,
-        "caballo": "ELEGANT CHAMPION",
-        "jinete": "LUIS TORRES",
-        "puntaje_ia": 41.7,
-        "prob_ml": "38.2"
+        "numero": 1,
+        "caballo": "PAPITO ALFREDO",
+        "jinete": "GERARD RODRÍGUEZ",
+        "puntaje_ia": 42.5,
+        "prob_ml": "39.2"
       }
     ]
   },
@@ -19022,8 +19022,8 @@
         "numero": 1,
         "caballo": "UNO CERO",
         "jinete": "NICOLAS RAMIREZ",
-        "puntaje_ia": 42.8,
-        "prob_ml": "39.7"
+        "puntaje_ia": 43.9,
+        "prob_ml": "41.3"
       },
       {
         "numero": 4,
@@ -19219,8 +19219,8 @@
         "numero": 1,
         "caballo": "PRIETO AZABACHE",
         "jinete": "JOAQUIN HERRERA",
-        "puntaje_ia": 59.8,
-        "prob_ml": "64.0"
+        "puntaje_ia": 61.4,
+        "prob_ml": "66.3"
       },
       {
         "numero": 7,
@@ -19655,8 +19655,8 @@
         "numero": 1,
         "caballo": "JE T'AIME",
         "jinete": "JOHAN GONZALEZ",
-        "puntaje_ia": 43.4,
-        "prob_ml": "39.7"
+        "puntaje_ia": 44.5,
+        "prob_ml": "41.3"
       },
       {
         "numero": 4,
@@ -20709,91 +20709,91 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "MAL MIRADA",
         "Jinete": "RAFAEL CISTERNAS",
         "Stud": "STUD JAIME ESPIÑEIRA C.",
         "Peso": "55"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "EL FORASTERO",
         "Jinete": "AGUSTIN VILLAGRA",
         "Stud": "STUD CHAMO CANDELA",
         "Peso": "56"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "VALIO LA PENA",
         "Jinete": "MARCO MORALES",
         "Stud": "STUD BRUNO ALONSO",
         "Peso": "56"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "TESORITO MIO",
         "Jinete": "NICOLÁS RAMIREZ",
         "Stud": "STUD MELANY",
         "Peso": "56"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "SIN MIEDO",
         "Jinete": "LESLY C. GONZÁLEZ",
         "Stud": "STUD SEGUIR SOÑANDO",
         "Peso": "55"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "PONLE TOBY",
         "Jinete": "NELSON ROJAS",
         "Stud": "STUD LOS TORDILLOS",
         "Peso": "56"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "MARSALI",
         "Jinete": "BENJAMIN TRONCOSO",
         "Stud": "STUD INEFABLE",
         "Peso": "56"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "GAMORRA",
         "Jinete": "BENJAMIN SANCHO",
         "Stud": "STUD LOS BELLO",
         "Peso": "56"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "INDIA TERCA",
         "Jinete": "JOSÉ CUETO",
         "Stud": "STUD FLORENCE",
         "Peso": "54"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "LADY BAY",
         "Jinete": "ANDRÉS COVARRUBIAS",
         "Stud": "STUD VIEJO QUERIDO",
         "Peso": "55"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "SILVESTRIN",
         "Jinete": "LUIS SILVA",
         "Stud": "STUD ALBINO",
         "Peso": "56"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "LA FLOWER",
         "Jinete": "GUSTAVO AROS",
         "Stud": "STUD SOLIN",
         "Peso": "56"
       },
       {
         "Nº": 13,
-        "Caballo": null,
+        "Caballo": "AZRA",
         "Jinete": "GERARD RODRÍGUEZ",
         "Stud": "STUD TATA PEPE",
         "Peso": "56"
@@ -20801,30 +20801,30 @@
     ],
     "predicciones": [
       {
+        "numero": 2,
+        "caballo": "EL FORASTERO",
+        "jinete": "AGUSTIN VILLAGRA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 1,
-        "caballo": null,
+        "caballo": "MAL MIRADA",
         "jinete": "RAFAEL CISTERNAS",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
-        "numero": 2,
-        "caballo": null,
-        "jinete": "AGUSTIN VILLAGRA",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 3,
-        "caballo": null,
+        "caballo": "VALIO LA PENA",
         "jinete": "MARCO MORALES",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "NICOLÁS RAMIREZ",
+        "numero": 6,
+        "caballo": "PONLE TOBY",
+        "jinete": "NELSON ROJAS",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -20839,105 +20839,105 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "SEVEN POINTS",
         "Jinete": "JORGE VERA",
         "Stud": "STUD MALCIB",
         "Peso": "57"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "CUAL ES TU LEY",
         "Jinete": "BENJAMIN AYALA",
         "Stud": "STUD EL MERO MERO",
         "Peso": "57"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "LIKE A PRAYER",
         "Jinete": "JUAN TAPIA",
         "Stud": "STUD FORZA AL CANUT",
         "Peso": "57"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "JE SUIS PRET",
         "Jinete": "BERNARDO LEÓN",
         "Stud": "STUD DOÑA ESTER",
         "Peso": "57"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "TEATRO GRIEGO",
         "Jinete": "DAVID SÁNCHEZ",
         "Stud": "STUD GANADERO",
         "Peso": "57"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "HEY DJ",
         "Jinete": "OSCAR ULLOA",
         "Stud": "STUD MORAT",
         "Peso": "57"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "GRAND LUCHO",
         "Jinete": "MARCO MORALES",
         "Stud": "STUD OXIPER",
         "Peso": "57"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "DOS LOCOS",
         "Jinete": "AGUSTIN VILLAGRA",
         "Stud": "STUD AGRIC.SANTA LAURA",
         "Peso": "57"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "TEEN WOLF",
         "Jinete": "ARIEL ZÚÑIGA",
         "Stud": "STUD GONZALEZ TORO",
         "Peso": "57"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "ROSSO AND RED",
         "Jinete": "RODRIGO PAINEN",
         "Stud": "STUD REDBROS",
         "Peso": "57"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "HUGO EL TERRIBLE",
         "Jinete": "RONALD FOURNET",
         "Stud": "STUD BRUNO ALONSO",
         "Peso": "58"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "FLORO CHICO",
         "Jinete": "BORIS GONZÁLEZ",
         "Stud": "STUD MACKAY",
         "Peso": "57"
       },
       {
         "Nº": 13,
-        "Caballo": null,
+        "Caballo": "ASTON",
         "Jinete": "JUAN SOTO",
         "Stud": "STUD CABRITIS",
         "Peso": "57"
       },
       {
         "Nº": 14,
-        "Caballo": null,
+        "Caballo": "MEFILS",
         "Jinete": "FABIAN MEDINA",
         "Stud": "STUD DOS E",
         "Peso": "57"
       },
       {
         "Nº": 15,
-        "Caballo": null,
+        "Caballo": "LAROMPE",
         "Jinete": "GERARD RODRÍGUEZ",
         "Stud": "STUD CLAUDIO SAIDE A.",
         "Peso": "57"
@@ -20945,30 +20945,30 @@
     ],
     "predicciones": [
       {
-        "numero": 1,
-        "caballo": null,
-        "jinete": "JORGE VERA",
-        "puntaje_ia": 82.8,
+        "numero": 3,
+        "caballo": "LIKE A PRAYER",
+        "jinete": "JUAN TAPIA",
+        "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": null,
+        "caballo": "CUAL ES TU LEY",
         "jinete": "BENJAMIN AYALA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
-        "numero": 3,
-        "caballo": null,
-        "jinete": "JUAN TAPIA",
+        "numero": 5,
+        "caballo": "TEATRO GRIEGO",
+        "jinete": "DAVID SÁNCHEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "BERNARDO LEÓN",
+        "numero": 7,
+        "caballo": "GRAND LUCHO",
+        "jinete": "MARCO MORALES",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -20983,105 +20983,105 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "REY OLIMPUS",
         "Jinete": "JUAN TAPIA",
         "Stud": "STUD DON ALFONSO",
         "Peso": "57"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "BRAVO TORERO",
         "Jinete": "JOAQUÍN HERRERA",
         "Stud": "STUD PEPE ELIAS",
         "Peso": "57"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "PEDERNALES",
         "Jinete": "FELIPE HENRÍQUEZ",
         "Stud": "STUD DEJENME SONAR",
         "Peso": "57"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "NESHELY QUASHELY",
         "Jinete": "GUSTAVO AROS",
         "Stud": "STUD BRUCE",
         "Peso": "57"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "STAVOS",
         "Jinete": "ROBERTO AVILA",
         "Stud": "STUD DOÑA ESTER",
         "Peso": "57"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "KING EOLO",
         "Jinete": "MARCO MORALES",
         "Stud": "STUD OXIPER",
         "Peso": "57"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "INDIAN BLITZ",
         "Jinete": "FABIAN MEDINA",
         "Stud": "STUD TATA BETO",
         "Peso": "57"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "BRUNO SPIDERMAN",
         "Jinete": "JAIME MEDINA",
         "Stud": "STUD BRUNO ALONSO",
         "Peso": "57"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "TREN BALA",
         "Jinete": "ARIEL ZÚÑIGA",
         "Stud": "STUD CUREPTO",
         "Peso": "57"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "REAL ENVIDO",
         "Jinete": "JORGE A. GONZÁLEZ",
         "Stud": "STUD G.G.",
         "Peso": "57"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "NEGRO ROMERO",
         "Jinete": "GERARD RODRÍGUEZ",
         "Stud": "STUD MACURO",
         "Peso": "57"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "EL GAGUI",
         "Jinete": "AGUSTIN VILLAGRA",
         "Stud": "STUD HARAS SANTA MARTA",
         "Peso": "57"
       },
       {
         "Nº": 13,
-        "Caballo": null,
+        "Caballo": "BELLO BIJOU",
         "Jinete": "NELSON ROJAS",
         "Stud": "STUD XENEIXE",
         "Peso": "57"
       },
       {
         "Nº": 14,
-        "Caballo": null,
+        "Caballo": "RABIOSO PELAO",
         "Jinete": "SEBASTIÁN GONZÁLEZ",
         "Stud": "STUD BRUNO ALONSO",
         "Peso": "57"
       },
       {
         "Nº": 15,
-        "Caballo": null,
+        "Caballo": "ORIONISTA",
         "Jinete": "RONALD FOURNET",
         "Stud": "STUD TIRO AL BLANCO",
         "Peso": "57"
@@ -21090,30 +21090,30 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": null,
+        "caballo": "REY OLIMPUS",
         "jinete": "JUAN TAPIA",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 2,
-        "caballo": null,
-        "jinete": "JOAQUÍN HERRERA",
-        "puntaje_ia": 82.8,
+        "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": null,
+        "caballo": "PEDERNALES",
         "jinete": "FELIPE HENRÍQUEZ",
-        "puntaje_ia": 82.8,
+        "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "GUSTAVO AROS",
-        "puntaje_ia": 82.8,
+        "numero": 8,
+        "caballo": "BRUNO SPIDERMAN",
+        "jinete": "JAIME MEDINA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 13,
+        "caballo": "BELLO BIJOU",
+        "jinete": "NELSON ROJAS",
+        "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       }
     ]
@@ -21127,84 +21127,84 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "PALABRA CIERTA",
         "Jinete": "RODOLFO S. DORES",
         "Stud": "STUD PETER ECSO",
         "Peso": "55"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "KOLETTE",
         "Jinete": "JORGE VERA",
         "Stud": "STUD PREEMINENCIA",
         "Peso": "60"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "NANVERQUI",
         "Jinete": "FABIAN MEDINA",
         "Stud": "STUD MAMA LILA",
         "Peso": "55"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "MANO DE BRONCE",
         "Jinete": "PATRICIO GALÁZ",
         "Stud": "STUD MARIO APABLAZA G.",
         "Peso": "55"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "RESILIENTE GETS",
         "Jinete": "PATRICIO ZÚÑIGA",
         "Stud": "STUD PER SEMPRE",
         "Peso": "55"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "CHICA DE CAMPEONES",
         "Jinete": "NICOLÁS RAMIREZ",
         "Stud": "STUD VERY LUCK",
         "Peso": "55"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "KING CORLEONE",
         "Jinete": "ALVARO APABLAZA",
         "Stud": "STUD CRISTIAN QUIROZ E.",
         "Peso": "56"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "CHIQUI VELOZ",
         "Jinete": "JONATHAN CASTILLO",
         "Stud": "STUD JUANA CASTRO DE T.",
         "Peso": "58"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "ROSA LA VASCA",
         "Jinete": "JOAQUÍN HERRERA",
         "Stud": "STUD DON GERMAN",
         "Peso": "55"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "NEGRITA PECOSA",
         "Jinete": "BENJAMIN SANCHO",
         "Stud": "STUD CORRAL QUELLON",
         "Peso": "55"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "LIMITLESS",
         "Jinete": "BENJAMIN TRONCOSO",
         "Stud": "STUD EL VETERO",
         "Peso": "55"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "ALINFINITOYMASALLA",
         "Jinete": "RODOLFO FUENZALIDA",
         "Stud": "STUD ALTAMIRA",
         "Peso": "56"
@@ -21212,30 +21212,30 @@
     ],
     "predicciones": [
       {
-        "numero": 1,
-        "caballo": null,
-        "jinete": "RODOLFO S. DORES",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 2,
-        "caballo": null,
-        "jinete": "JORGE VERA",
-        "puntaje_ia": 82.8,
+        "numero": 8,
+        "caballo": "CHIQUI VELOZ",
+        "jinete": "JONATHAN CASTILLO",
+        "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": null,
+        "caballo": "NANVERQUI",
         "jinete": "FABIAN MEDINA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "PATRICIO GALÁZ",
+        "numero": 5,
+        "caballo": "RESILIENTE GETS",
+        "jinete": "PATRICIO ZÚÑIGA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 6,
+        "caballo": "CHICA DE CAMPEONES",
+        "jinete": "NICOLÁS RAMIREZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -21250,84 +21250,84 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "PRIMER OTROSI",
         "Jinete": "NELSON ROJAS",
         "Stud": "STUD MOSQUETEROS DE LIS",
         "Peso": "56"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "SOY ENRIQUETA",
         "Jinete": "GUSTAVO AROS",
         "Stud": "STUD MAMEZA",
         "Peso": "58"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "JUNTITOS SIEMPRE",
         "Jinete": "PATRICIO ZÚÑIGA",
         "Stud": "STUD PATITO",
         "Peso": "56"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "JULIA DOMNA",
         "Jinete": "JORGE ZÚÑIGA",
         "Stud": "STUD LOR KEDIMAR",
         "Peso": "56"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "QUE HICE MAL",
         "Jinete": "LESLY C. GONZÁLEZ",
         "Stud": "STUD LOS AVIADORES",
         "Peso": "56"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "INCLUYE TODO",
         "Jinete": "DANIEL MEDINA",
         "Stud": "STUD MATIAS ARAVENA",
         "Peso": "56"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "CANOVANAS",
         "Jinete": "CARLOS BUSTOS",
         "Stud": "STUD JOSE VENEGAS P.",
         "Peso": "56"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "BEAUTIFUL MOON",
         "Jinete": "NICOLÁS RAMIREZ",
         "Stud": "STUD LOS AVIADORES",
         "Peso": "56"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "TEMPORAL DE AMOR",
         "Jinete": "NICOLÁS SANTIBAÑEZ",
         "Stud": "STUD STUD MAURO",
         "Peso": "56"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "MESTIZA FLOR",
         "Jinete": "JORGE VERA",
         "Stud": "STUD BRUNO ALONSO",
         "Peso": "56"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "INFINITO VIAJE",
         "Jinete": "RODOLFO FUENZALIDA",
         "Stud": "STUD MAXICRACK",
         "Peso": "56"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "BHADRAK",
         "Jinete": "CATHRINE WEILBY",
         "Stud": "STUD CECILIA FALCONI",
         "Peso": "56"
@@ -21335,30 +21335,30 @@
     ],
     "predicciones": [
       {
+        "numero": 2,
+        "caballo": "SOY ENRIQUETA",
+        "jinete": "GUSTAVO AROS",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 5,
+        "caballo": "QUE HICE MAL",
+        "jinete": "LESLY C. GONZÁLEZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 1,
-        "caballo": null,
+        "caballo": "PRIMER OTROSI",
         "jinete": "NELSON ROJAS",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
-        "numero": 2,
-        "caballo": null,
-        "jinete": "GUSTAVO AROS",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 3,
-        "caballo": null,
+        "caballo": "JUNTITOS SIEMPRE",
         "jinete": "PATRICIO ZÚÑIGA",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "JORGE ZÚÑIGA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -21373,112 +21373,112 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "TE CACHE",
         "Jinete": "JORGE A. GONZÁLEZ",
         "Stud": "STUD STUD LA NONNA LTDA.",
         "Peso": "57"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "AL CONTADO",
         "Jinete": "NICOLÁS RAMIREZ",
         "Stud": "STUD LOS JEQUES",
         "Peso": "57"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "PELAO PELAO",
         "Jinete": "BERNARDO LEÓN",
         "Stud": "STUD XIMENA MONICA",
         "Peso": "57"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "MUY ADMIRADO",
         "Jinete": "RODOLFO FUENZALIDA",
         "Stud": "STUD MAULINO",
         "Peso": "57"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "YESERAYE",
         "Jinete": "SEBASTIÁN MUÑOZ",
         "Stud": "STUD CLAUSEB",
         "Peso": "57"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "LONE RANGER",
         "Jinete": "NELSON ROJAS",
         "Stud": "STUD MONSENOR",
         "Peso": "57"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "JETS DADDY",
         "Jinete": "JUAN TAPIA",
         "Stud": "STUD MARTINA EMILIA",
         "Peso": "57"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "ENTRE LOS DOS",
         "Jinete": "JONATHAN CASTILLO",
         "Stud": "STUD KUNZ",
         "Peso": "57"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "ZULTHAN",
         "Jinete": "WILBERT LEÓN",
         "Stud": "STUD JAIME ESPIÑEIRA C.",
         "Peso": "57"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "SUEÑOS DE LEON",
         "Jinete": "FABIAN MEDINA",
         "Stud": "STUD CLAUSEB",
         "Peso": "57"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "MURCOTT",
         "Jinete": "RAFAEL CISTERNAS",
         "Stud": "STUD BARBASTRO",
         "Peso": "57"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "GRAN TAITA",
         "Jinete": "NICOLÁS SANTIBAÑEZ",
         "Stud": "STUD SAN ANDRES",
         "Peso": "57"
       },
       {
         "Nº": 13,
-        "Caballo": null,
+        "Caballo": "AL AMIR",
         "Jinete": "BENJAMIN TRONCOSO",
         "Stud": "STUD C.H.C.",
         "Peso": "57"
       },
       {
         "Nº": 14,
-        "Caballo": null,
+        "Caballo": "RUNNING IN NEVADA",
         "Jinete": "RONALD FOURNET",
         "Stud": "STUD HARAS LAS CAMELIAS",
         "Peso": "57"
       },
       {
         "Nº": 15,
-        "Caballo": null,
+        "Caballo": "NO ME DICE NADA",
         "Jinete": "GERARD RODRÍGUEZ",
         "Stud": "STUD MASAIVA",
         "Peso": "57"
       },
       {
         "Nº": 16,
-        "Caballo": null,
+        "Caballo": "MATSUYAMA",
         "Jinete": "JOAQUÍN HERRERA",
         "Stud": "STUD PAOLA",
         "Peso": "57"
@@ -21486,30 +21486,30 @@
     ],
     "predicciones": [
       {
+        "numero": 13,
+        "caballo": "AL AMIR",
+        "jinete": "BENJAMIN TRONCOSO",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 1,
-        "caballo": null,
+        "caballo": "TE CACHE",
         "jinete": "JORGE A. GONZÁLEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": null,
+        "caballo": "AL CONTADO",
         "jinete": "NICOLÁS RAMIREZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": null,
+        "caballo": "PELAO PELAO",
         "jinete": "BERNARDO LEÓN",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "RODOLFO FUENZALIDA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -21524,84 +21524,84 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "SATISFY MY SOUL",
         "Jinete": "JONATHAN CASTILLO",
         "Stud": "STUD PEQUEÑO MATIAS",
         "Peso": "56"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "SALMA ALEGRE",
         "Jinete": "ROBERTO ARAYA",
         "Stud": "STUD GALLO",
         "Peso": "59"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "MI SUEÑO SECRETO",
         "Jinete": "ARIEL ZÚÑIGA",
         "Stud": "STUD HARAS CORDILLERA",
         "Peso": "56"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "MANCHITA DEL ÑUBLE",
         "Jinete": "RODOLFO FUENZALIDA",
         "Stud": "STUD HEMISPHERES",
         "Peso": "56"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "SEÑORITA JERICO",
         "Jinete": "BENJAMIN AYALA",
         "Stud": "STUD LOS AVIADORES",
         "Peso": "56"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "EXAGERADA Y BUENA",
         "Jinete": "RODRIGO PAINEN",
         "Stud": "STUD ARMANDO LAB J.",
         "Peso": "56"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "BEBETIAN",
         "Jinete": "LESLY C. GONZÁLEZ",
         "Stud": "STUD LOS AVIADORES",
         "Peso": "56"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "CITY BLUE",
         "Jinete": "ROBERTO AVILA",
         "Stud": "STUD JOSE VENEGAS P.",
         "Peso": "57"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "VINNALIA",
         "Jinete": "MAURICIO GALÁZ",
         "Stud": "STUD ÁNGEL JAQUE S.",
         "Peso": "56"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "REDQUIVER",
         "Jinete": "RODOLFO S. DORES",
         "Stud": "STUD LOST VERA",
         "Peso": "56"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "KEEP DREAMING",
         "Jinete": "NELSON ROJAS",
         "Stud": "STUD PEQUEÑO MATIAS",
         "Peso": "56"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "ALAJJA",
         "Jinete": "JOSÉ CUETO",
         "Stud": "STUD MATIAS ARAVENA",
         "Peso": "56"
@@ -21609,30 +21609,30 @@
     ],
     "predicciones": [
       {
-        "numero": 1,
-        "caballo": null,
-        "jinete": "JONATHAN CASTILLO",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 2,
-        "caballo": null,
-        "jinete": "ROBERTO ARAYA",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 3,
-        "caballo": null,
-        "jinete": "ARIEL ZÚÑIGA",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 4,
-        "caballo": null,
+        "caballo": "MANCHITA DEL ÑUBLE",
         "jinete": "RODOLFO FUENZALIDA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 8,
+        "caballo": "CITY BLUE",
+        "jinete": "ROBERTO AVILA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 10,
+        "caballo": "REDQUIVER",
+        "jinete": "RODOLFO S. DORES",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 1,
+        "caballo": "SATISFY MY SOUL",
+        "jinete": "JONATHAN CASTILLO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -21647,105 +21647,105 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "BAR CODE",
         "Jinete": "ARIEL ZÚÑIGA",
         "Stud": "STUD LOS PARRA",
         "Peso": "54"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "MR RANGER",
         "Jinete": "JORGE VERA",
         "Stud": "STUD LOPITO",
         "Peso": "56"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "LEGENDE",
         "Jinete": "RODOLFO FUENZALIDA",
         "Stud": "STUD ALTAMIRA",
         "Peso": "55"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "LA NORTIÑA",
         "Jinete": "PATRICIO ZÚÑIGA",
         "Stud": "STUD LUCARASTE",
         "Peso": "55"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "JOHN WAYNE",
         "Jinete": "JOHAN GONZÁLEZ",
         "Stud": "STUD PAPI REY",
         "Peso": "54"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "FABRANA",
         "Jinete": "JOAQUÍN HERRERA",
         "Stud": "STUD ALTAMIRA",
         "Peso": "55"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "EL MARIPEPA",
         "Jinete": "DIEGO CARRASCO",
         "Stud": "STUD CACIQUE",
         "Peso": "55"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "SILVER SPARTAN",
         "Jinete": "DANIEL MEDINA",
         "Stud": "STUD MATIAS ARAVENA",
         "Peso": "56"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "TARRÉS",
         "Jinete": "RODRIGO PAINEN",
         "Stud": "STUD FLEXOGRAFICA",
         "Peso": "54"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "VITA KC",
         "Jinete": "BENJAMIN SANCHO",
         "Stud": "STUD PICHON",
         "Peso": "55"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "GUANAQUERO",
         "Jinete": "JOSÉ VILLABLANCA",
         "Stud": "STUD YUNGAY",
         "Peso": "55"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "TANGERINE TANGO",
         "Jinete": "PATRICIO GALÁZ",
         "Stud": "STUD EL GUATI",
         "Peso": "56"
       },
       {
         "Nº": 13,
-        "Caballo": null,
+        "Caballo": "LADY CHROME",
         "Jinete": "GUSTAVO AROS",
         "Stud": "STUD PAPI REY",
         "Peso": "56"
       },
       {
         "Nº": 14,
-        "Caballo": null,
+        "Caballo": "TIA MARTA",
         "Jinete": "NICOLÁS SANTIBAÑEZ",
         "Stud": "STUD VALENTÍN UBILLA C.",
         "Peso": "55"
       },
       {
         "Nº": 15,
-        "Caballo": null,
+        "Caballo": "LA TOSTADORA",
         "Jinete": "ANDRÉS COVARRUBIAS",
         "Stud": "STUD GRANDE TIO KIKO",
         "Peso": "55"
@@ -21753,30 +21753,30 @@
     ],
     "predicciones": [
       {
+        "numero": 12,
+        "caballo": "TANGERINE TANGO",
+        "jinete": "PATRICIO GALÁZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 1,
-        "caballo": null,
+        "caballo": "BAR CODE",
         "jinete": "ARIEL ZÚÑIGA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": null,
+        "caballo": "MR RANGER",
         "jinete": "JORGE VERA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": null,
+        "caballo": "LEGENDE",
         "jinete": "RODOLFO FUENZALIDA",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "PATRICIO ZÚÑIGA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -21791,91 +21791,91 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "SAHARA CHROME",
         "Jinete": "BENJAMIN TRONCOSO",
         "Stud": "STUD MISACRISEI",
         "Peso": "56"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "BONITA FLOR",
         "Jinete": "NICOLÁS SANTIBAÑEZ",
         "Stud": "STUD VALENTÍN UBILLA C.",
         "Peso": "56"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "ROMAN WAR",
         "Jinete": "RODRIGO COVARRUBIAS",
         "Stud": "STUD LA CORINA",
         "Peso": "56"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "POWER OF HORSES",
         "Jinete": "PATRICIO GALÁZ",
         "Stud": "STUD JAIME HIRMAS R.",
         "Peso": "56"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "SU MERCI",
         "Jinete": "ROBERTO ARAYA",
         "Stud": "STUD DON ISMAEL",
         "Peso": "56"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "LA SOÑE",
         "Jinete": "JOHAN GONZÁLEZ",
         "Stud": "STUD LA CORINA",
         "Peso": "56"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "INDY JETS",
         "Jinete": "LESLY C. GONZÁLEZ",
         "Stud": "STUD SAVKA HERMANOS",
         "Peso": "56"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "DIVINA TORMENTA",
         "Jinete": "MARCO BUSTAMANTE",
         "Stud": "STUD HANSRIELI",
         "Peso": "56"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "TIPICA CHILENA",
         "Jinete": "BORIS GONZÁLEZ",
         "Stud": "STUD EUGENIO SWITT V.",
         "Peso": "56"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "RUBIO CRUZADO",
         "Jinete": "LUIS SILVA",
         "Stud": "STUD TATA TITO",
         "Peso": "56"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "POP VISION",
         "Jinete": "BENJAMIN SANCHO",
         "Stud": "STUD MILTON RODRIGUEZ M.",
         "Peso": "56"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "GRAN LALITO",
         "Jinete": "GUSTAVO AROS",
         "Stud": "STUD DON RUFINO",
         "Peso": "56"
       },
       {
         "Nº": 13,
-        "Caballo": null,
+        "Caballo": "FRANCOLI",
         "Jinete": "JORGE VERA",
         "Stud": "STUD LUCARASTE",
         "Peso": "59"
@@ -21883,30 +21883,30 @@
     ],
     "predicciones": [
       {
+        "numero": 13,
+        "caballo": "FRANCOLI",
+        "jinete": "JORGE VERA",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 1,
-        "caballo": null,
+        "caballo": "SAHARA CHROME",
         "jinete": "BENJAMIN TRONCOSO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": null,
+        "caballo": "BONITA FLOR",
         "jinete": "NICOLÁS SANTIBAÑEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": null,
+        "caballo": "ROMAN WAR",
         "jinete": "RODRIGO COVARRUBIAS",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "PATRICIO GALÁZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -21921,77 +21921,77 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "SIR CALEB",
         "Jinete": "ARIEL ZÚÑIGA",
         "Stud": "STUD ALTAMIRA",
         "Peso": "55"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "JOHN COOPER",
         "Jinete": "NICOLÁS RAMIREZ",
         "Stud": "STUD FOLLI",
         "Peso": "57"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "FETLOCK JOINT",
         "Jinete": "FABIAN MEDINA",
         "Stud": "STUD MARIO APABLAZA G.",
         "Peso": "55"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "AYUSA",
         "Jinete": "BENJAMIN AYALA",
         "Stud": "STUD LUJABOR",
         "Peso": "55"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "VICARIA AMELIA",
         "Jinete": "JAIME A. MIÑO",
         "Stud": "STUD LCG",
         "Peso": "55"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "YA LO CREO",
         "Jinete": "PATRICIO ZÚÑIGA",
         "Stud": "STUD SAPITO",
         "Peso": "56"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "EL MALVERDE",
         "Jinete": "FELIPE HENRÍQUEZ",
         "Stud": "STUD FLORENCIA Y YANARA",
         "Peso": "56"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "DI ALBA",
         "Jinete": "GERARD RODRÍGUEZ",
         "Stud": "STUD DON ANDRES",
         "Peso": "56"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "PERFECTA ACTITUD",
         "Jinete": "JOSÉ VILLABLANCA",
         "Stud": "STUD TU PAIRE",
         "Peso": "54"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "SASUKE",
         "Jinete": "DIEGO CARRASCO",
         "Stud": "STUD CACIQUE",
         "Peso": "55"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "APUKY",
         "Jinete": "BORIS GONZÁLEZ",
         "Stud": "STUD LA CORINA",
         "Peso": "55"
@@ -21999,30 +21999,30 @@
     ],
     "predicciones": [
       {
+        "numero": 2,
+        "caballo": "JOHN COOPER",
+        "jinete": "NICOLÁS RAMIREZ",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 6,
+        "caballo": "YA LO CREO",
+        "jinete": "PATRICIO ZÚÑIGA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 1,
-        "caballo": null,
+        "caballo": "SIR CALEB",
         "jinete": "ARIEL ZÚÑIGA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
-        "numero": 2,
-        "caballo": null,
-        "jinete": "NICOLÁS RAMIREZ",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 3,
-        "caballo": null,
+        "caballo": "FETLOCK JOINT",
         "jinete": "FABIAN MEDINA",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "BENJAMIN AYALA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -22037,91 +22037,91 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "PIMLICO",
         "Jinete": "AXEL ALVAREZ",
         "Stud": "STUD HARAS LAS CAMELIAS",
         "Peso": "57"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "BAJOS YORK",
         "Jinete": "PEDRO ROBLES",
         "Stud": "STUD JEAN FRANCO",
         "Peso": "57"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "MILENIO",
         "Jinete": "RODOLFO FUENZALIDA",
         "Stud": "STUD FRITZI",
         "Peso": "57"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "JOSE GABRIEL",
         "Jinete": "GERARD RODRÍGUEZ",
         "Stud": "STUD LOS PAREDES",
         "Peso": "57"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "SINNERMAN",
         "Jinete": "BENJAMIN TRONCOSO",
         "Stud": "STUD KEEP WALKING",
         "Peso": "57"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "GOOD FATHER",
         "Jinete": "IGNACIO VALDIVIA",
         "Stud": "STUD FAROLITO",
         "Peso": "57"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "GIANTHOMAS",
         "Jinete": "ALBERTO VÁSQUEZ",
         "Stud": "STUD LINARES",
         "Peso": "57"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "BLACK HOLE",
         "Jinete": "RAFAEL CISTERNAS",
         "Stud": "STUD GUILLERMO CORDOVA T.",
         "Peso": "57"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "SUB STAR",
         "Jinete": "OSCAR ULLOA",
         "Stud": "STUD IDENTIC",
         "Peso": "57"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "NO ME QUEMES",
         "Jinete": "GUSTAVO AROS",
         "Stud": "STUD ANY",
         "Peso": "57"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "GUSCHER",
         "Jinete": "BERNARDO LEÓN",
         "Stud": "STUD VIEJO MOÑO",
         "Peso": "57"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "EL MASACRE",
         "Jinete": "NICOLÁS RAMIREZ",
         "Stud": "STUD C.V.D.",
         "Peso": "57"
       },
       {
         "Nº": 13,
-        "Caballo": null,
+        "Caballo": "ARTURO ROBERTO",
         "Jinete": "SEBASTIÁN GONZÁLEZ",
         "Stud": "STUD ARTURO Y CECILIA",
         "Peso": "57"
@@ -22129,31 +22129,31 @@
     ],
     "predicciones": [
       {
+        "numero": 6,
+        "caballo": "GOOD FATHER",
+        "jinete": "IGNACIO VALDIVIA",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 1,
-        "caballo": null,
+        "caballo": "PIMLICO",
         "jinete": "AXEL ALVAREZ",
-        "puntaje_ia": 82.8,
+        "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": null,
+        "caballo": "BAJOS YORK",
         "jinete": "PEDRO ROBLES",
-        "puntaje_ia": 82.8,
+        "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
-        "numero": 3,
-        "caballo": null,
-        "jinete": "RODOLFO FUENZALIDA",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "GERARD RODRÍGUEZ",
-        "puntaje_ia": 82.8,
+        "numero": 10,
+        "caballo": "NO ME QUEMES",
+        "jinete": "GUSTAVO AROS",
+        "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       }
     ]
@@ -22167,98 +22167,98 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "MIL COPAS",
         "Jinete": "JORGE ZÚÑIGA",
         "Stud": "STUD MARGAL",
         "Peso": "55"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "CHINITA TRAVIESA",
         "Jinete": "DIEGO CARRASCO",
         "Stud": "STUD LOS BRUJOS",
         "Peso": "56"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "ELEGANT KATZE",
         "Jinete": "NICOLÁS SANTIBAÑEZ",
         "Stud": "STUD MORAT",
         "Peso": "55"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "ARAKUN",
         "Jinete": "RODOLFO FUENZALIDA",
         "Stud": "STUD ARTIGAS",
         "Peso": "55"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "NIETO ESPAÑOL",
         "Jinete": "FABIAN MEDINA",
         "Stud": "STUD CRISTIAN MANUEL",
         "Peso": "55"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "THE ALFA DOS",
         "Jinete": "SEBASTIÁN GONZÁLEZ",
         "Stud": "STUD TATA TITO",
         "Peso": "56"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "SOCIO MANUEL",
         "Jinete": "BENJAMIN AYALA",
         "Stud": "STUD CAYO",
         "Peso": "56"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "MIEL RUBIA",
         "Jinete": "MARCO BUSTAMANTE",
         "Stud": "STUD CECILIA FALCONI",
         "Peso": "56"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "TETRA GOLEADOR Z",
         "Jinete": "MARCO MORALES",
         "Stud": "STUD PATRICIO MILLAR M.",
         "Peso": "55"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "MAXIWARIO",
         "Jinete": "RODRIGO COVARRUBIAS",
         "Stud": "STUD LA CORINA",
         "Peso": "55"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "VANDU",
         "Jinete": "BENJAMIN SANCHO",
         "Stud": "STUD DON QUIJOTE",
         "Peso": "56"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "SECRET DRAGON",
         "Jinete": "PATRICIO GALÁZ",
         "Stud": "STUD MARIO APABLAZA G.",
         "Peso": "56"
       },
       {
         "Nº": 13,
-        "Caballo": null,
+        "Caballo": "EXCITED",
         "Jinete": "WILBERT LEÓN",
         "Stud": "STUD JAIME ESPIÑEIRA C.",
         "Peso": "59"
       },
       {
         "Nº": 14,
-        "Caballo": null,
+        "Caballo": "GRAN LUCRETIO",
         "Jinete": "NICOLÁS MOLINA",
         "Stud": "STUD DON CHATO",
         "Peso": "55"
@@ -22266,30 +22266,30 @@
     ],
     "predicciones": [
       {
+        "numero": 13,
+        "caballo": "EXCITED",
+        "jinete": "WILBERT LEÓN",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 5,
+        "caballo": "NIETO ESPAÑOL",
+        "jinete": "FABIAN MEDINA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 7,
+        "caballo": "SOCIO MANUEL",
+        "jinete": "BENJAMIN AYALA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 1,
-        "caballo": null,
+        "caballo": "MIL COPAS",
         "jinete": "JORGE ZÚÑIGA",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 2,
-        "caballo": null,
-        "jinete": "DIEGO CARRASCO",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 3,
-        "caballo": null,
-        "jinete": "NICOLÁS SANTIBAÑEZ",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "RODOLFO FUENZALIDA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -22304,84 +22304,84 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "RUBIDIA",
         "Jinete": "JAIME MEDINA",
         "Stud": "STUD VENDAVAL",
         "Peso": "54"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "A VER SI PUEDO",
         "Jinete": "NICOLÁS RAMIREZ",
         "Stud": "STUD SANTA OLGA",
         "Peso": "60"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "LA REFALOSA",
         "Jinete": "IGNACIO VALDIVIA",
         "Stud": "STUD CINCO ESTRELLAS",
         "Peso": "56"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "FASTLOVE",
         "Jinete": "MARCO MORALES",
         "Stud": "STUD LINLINAO",
         "Peso": "56"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "ESCRIBI PARA TI",
         "Jinete": "WILBERT LEÓN",
         "Stud": "STUD COLORADO VEINTITRES",
         "Peso": "52"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "MOREAU",
         "Jinete": "BENJAMIN SANCHO",
         "Stud": "STUD LINARES",
         "Peso": "60"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "LONDON ALERTA",
         "Jinete": "SEBASTIÁN GONZÁLEZ",
         "Stud": "STUD MANTAGUA",
         "Peso": "60"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "JAVIERA CONSTANZA",
         "Jinete": "GUSTAVO AROS",
         "Stud": "STUD MATIAS ARAVENA",
         "Peso": "60"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "RIDE LIKE A GIRL",
         "Jinete": "AXEL ALVAREZ",
         "Stud": "STUD AUGURI",
         "Peso": "52"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "STAY WITH ME",
         "Jinete": "RODOLFO FUENZALIDA",
         "Stud": "STUD TEAM BRAVE",
         "Peso": "56"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "AMANDA PEPITA",
         "Jinete": "JOAQUÍN HERRERA",
         "Stud": "STUD LA TOSCANA",
         "Peso": "56"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "LA MARTINOKA",
         "Jinete": "BERNARDO LEÓN",
         "Stud": "STUD LUCHITA QUERIDA",
         "Peso": "60"
@@ -22390,28 +22390,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": null,
+        "caballo": "RUBIDIA",
         "jinete": "JAIME MEDINA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": null,
+        "caballo": "A VER SI PUEDO",
         "jinete": "NICOLÁS RAMIREZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": null,
+        "caballo": "LA REFALOSA",
         "jinete": "IGNACIO VALDIVIA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": null,
+        "caballo": "FASTLOVE",
         "jinete": "MARCO MORALES",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -22427,77 +22427,77 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "DE GAULLE",
         "Jinete": "NICOLÁS MOLINA",
         "Stud": "STUD FILIPINO",
         "Peso": "53"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "BERJARMIN",
         "Jinete": "BENJAMIN TRONCOSO",
         "Stud": "STUD JUAN NEIRA VALLE",
         "Peso": "58"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "STEVENS FOR RECORD",
         "Jinete": "PATRICIO GALÁZ",
         "Stud": "STUD INEFABLE",
         "Peso": "55"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "SEEKING THE DOLCE",
         "Jinete": "RODOLFO FUENZALIDA",
         "Stud": "STUD NORMA Y CARLOS",
         "Peso": "56"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "RUN FAST",
         "Jinete": "FABIAN MEDINA",
         "Stud": "STUD C Y G",
         "Peso": "53"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "LACHITO",
         "Jinete": "RODRIGO PAINEN",
         "Stud": "STUD FOS",
         "Peso": "58"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "ENSEÑAME",
         "Jinete": "ROBERTO ARAYA",
         "Stud": "STUD LOS GARRIDO",
         "Peso": "58"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "GRANDE PANCHITO",
         "Jinete": "NELSON ROJAS",
         "Stud": "STUD PEQUEÑO MATIAS",
         "Peso": "58"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "LUCERO ROJO",
         "Jinete": "DANIEL MEDINA",
         "Stud": "STUD DOÑA CORITA",
         "Peso": "50"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "ANGUS Y RUPERT",
         "Jinete": "LUIS SILVA",
         "Stud": "STUD MOSQUETEROS DE LIS",
         "Peso": "53"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "PLURAL",
         "Jinete": "GEOVANNI ACEVEDO",
         "Stud": "STUD SALAZAR CARDENAS",
         "Peso": "56"
@@ -22505,30 +22505,30 @@
     ],
     "predicciones": [
       {
-        "numero": 1,
-        "caballo": null,
-        "jinete": "NICOLÁS MOLINA",
-        "puntaje_ia": 82.8,
+        "numero": 6,
+        "caballo": "LACHITO",
+        "jinete": "RODRIGO PAINEN",
+        "puntaje_ia": 84.9,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": null,
+        "caballo": "BERJARMIN",
         "jinete": "BENJAMIN TRONCOSO",
-        "puntaje_ia": 82.8,
+        "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": null,
+        "caballo": "STEVENS FOR RECORD",
         "jinete": "PATRICIO GALÁZ",
-        "puntaje_ia": 82.8,
+        "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "RODOLFO FUENZALIDA",
+        "numero": 7,
+        "caballo": "ENSEÑAME",
+        "jinete": "ROBERTO ARAYA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -22543,105 +22543,105 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "FREE REIN",
         "Jinete": "RODOLFO S. DORES",
         "Stud": "STUD CHAMO CANDELA",
         "Peso": "55"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "GOOD TERRY",
         "Jinete": "SEBASTIÁN GONZÁLEZ",
         "Stud": "STUD CHRISTIAN Y COTY",
         "Peso": "56"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "COMO EL SOL",
         "Jinete": "BENJAMIN SANCHO",
         "Stud": "STUD AMOR PROPIO",
         "Peso": "55"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "VOLASTE A LA META",
         "Jinete": "MARCO MORALES",
         "Stud": "STUD PEDRO DIAZ S.",
         "Peso": "56"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "GAELIA",
         "Jinete": "NICOLÁS SANTIBAÑEZ",
         "Stud": "STUD AGRIC.SANTA LAURA",
         "Peso": "55"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "REINA MARGARET",
         "Jinete": "JOAQUÍN HERRERA",
         "Stud": "STUD YUNGAY",
         "Peso": "56"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "MOMENT OF GET",
         "Jinete": "JAIME A. MIÑO",
         "Stud": "STUD DOÑA ESTER",
         "Peso": "56"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "LA CHUCKY TRINI",
         "Jinete": "LESLY C. GONZÁLEZ",
         "Stud": "STUD EL MAGICO CHARLY",
         "Peso": "56"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "INDIA MAULINA",
         "Jinete": "ARIEL ZÚÑIGA",
         "Stud": "STUD CAMILO OSSES",
         "Peso": "55"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "DULCE DIABLA",
         "Jinete": "JAIME MEDINA",
         "Stud": "STUD RODRIGO SANCHEZ Q.",
         "Peso": "55"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "TOMMY WONDER",
         "Jinete": "JUAN TAPIA",
         "Stud": "STUD MARTINA EMILIA",
         "Peso": "56"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "LA GRAN CLIO",
         "Jinete": "VICTOR MIRANDA",
         "Stud": "STUD MATEO",
         "Peso": "56"
       },
       {
         "Nº": 13,
-        "Caballo": null,
+        "Caballo": "DOÑA SHISHI",
         "Jinete": "NICOLÁS MOLINA",
         "Stud": "STUD DON QUIJOTE",
         "Peso": "56"
       },
       {
         "Nº": 14,
-        "Caballo": null,
+        "Caballo": "DALEMITA",
         "Jinete": "RONALD FOURNET",
         "Stud": "STUD LOS CARROZA",
         "Peso": "55"
       },
       {
         "Nº": 15,
-        "Caballo": null,
+        "Caballo": "CALLAHAN",
         "Jinete": "CATHRINE WEILBY",
         "Stud": "STUD EL MERO MERO",
         "Peso": "55"
@@ -22649,30 +22649,30 @@
     ],
     "predicciones": [
       {
+        "numero": 6,
+        "caballo": "REINA MARGARET",
+        "jinete": "JOAQUÍN HERRERA",
+        "puntaje_ia": 84.9,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 10,
+        "caballo": "DULCE DIABLA",
+        "jinete": "JAIME MEDINA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 11,
+        "caballo": "TOMMY WONDER",
+        "jinete": "JUAN TAPIA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 1,
-        "caballo": null,
+        "caballo": "FREE REIN",
         "jinete": "RODOLFO S. DORES",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 2,
-        "caballo": null,
-        "jinete": "SEBASTIÁN GONZÁLEZ",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 3,
-        "caballo": null,
-        "jinete": "BENJAMIN SANCHO",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "MARCO MORALES",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -22687,105 +22687,105 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "VAQUITA LOIRA",
         "Jinete": "JORGE ZÚÑIGA",
         "Stud": "STUD BORIL BENITO CH.",
         "Peso": "55"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "BLUE KENTUCKY GIRL",
         "Jinete": "WILBERT LEÓN",
         "Stud": "STUD EL AGUILA",
         "Peso": "56"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "LINDA ALMA",
         "Jinete": "BENJAMIN TRONCOSO",
         "Stud": "STUD MEDIO ORIENTE",
         "Peso": "55"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "ULTIMO IMPACTO",
         "Jinete": "VICTOR MIRANDA",
         "Stud": "STUD SIETE ESTRELLAS",
         "Peso": "56"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "ENVIADO ESPECIAL",
         "Jinete": "BERNARDO LEÓN",
         "Stud": "STUD MATIAS HECTOR",
         "Peso": "54"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "LEXUS",
         "Jinete": "NICOLÁS RAMIREZ",
         "Stud": "STUD FOS",
         "Peso": "56"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "LECCLERC",
         "Jinete": "DIEGO CARRASCO",
         "Stud": "STUD VASQUEZ RETAMALES",
         "Peso": "56"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "GIORGIO ELORIGINAL",
         "Jinete": "MARCO MORALES",
         "Stud": "STUD CALLASIS FOR EVER",
         "Peso": "56"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "SOLKA",
         "Jinete": "CARLOS BUSTOS",
         "Stud": "STUD ALTO LAS PIEDRAS",
         "Peso": "54"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "SOVICH",
         "Jinete": "BENJAMIN AYALA",
         "Stud": "STUD VERÓNICA MORALES O.",
         "Peso": "55"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "MARIA PASCUALA",
         "Jinete": "JORGE VERA",
         "Stud": "STUD DON ALAMIRO",
         "Peso": "56"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "HENGROEN",
         "Jinete": "RODOLFO S. DORES",
         "Stud": "STUD TRES M",
         "Peso": "56"
       },
       {
         "Nº": 13,
-        "Caballo": null,
+        "Caballo": "AMANECIO BRAVA",
         "Jinete": "GERARD RODRÍGUEZ",
         "Stud": "STUD VICENTES",
         "Peso": "56"
       },
       {
         "Nº": 14,
-        "Caballo": null,
+        "Caballo": "PATYTA BLACK",
         "Jinete": "FELIPE HENRÍQUEZ",
         "Stud": "STUD PRIMO HERMANO",
         "Peso": "55"
       },
       {
         "Nº": 15,
-        "Caballo": null,
+        "Caballo": "JUNIPER",
         "Jinete": "JONATHAN CASTILLO",
         "Stud": "STUD CHAMO CANDELA",
         "Peso": "55"
@@ -22793,30 +22793,30 @@
     ],
     "predicciones": [
       {
+        "numero": 2,
+        "caballo": "BLUE KENTUCKY GIRL",
+        "jinete": "WILBERT LEÓN",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 10,
+        "caballo": "SOVICH",
+        "jinete": "BENJAMIN AYALA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 1,
-        "caballo": null,
+        "caballo": "VAQUITA LOIRA",
         "jinete": "JORGE ZÚÑIGA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
-        "numero": 2,
-        "caballo": null,
-        "jinete": "WILBERT LEÓN",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 3,
-        "caballo": null,
+        "caballo": "LINDA ALMA",
         "jinete": "BENJAMIN TRONCOSO",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "VICTOR MIRANDA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -22831,84 +22831,84 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "KATARA JOY",
         "Jinete": "RODRIGO PAINEN",
         "Stud": "STUD PRIMO HERMANO",
         "Peso": "54"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "BLACKCRACK",
         "Jinete": "MARCO MORALES",
         "Stud": "STUD VASQUEZ RETAMALES",
         "Peso": "56"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "ANGELA CLASICA",
         "Jinete": "SEBASTIÁN GONZÁLEZ",
         "Stud": "STUD ESCOBAR HNOS.",
         "Peso": "54"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "TATUADOR",
         "Jinete": "JAIME MEDINA",
         "Stud": "STUD BRUNO ALONSO",
         "Peso": "55"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "STAR MAGIC",
         "Jinete": "RODOLFO S. DORES",
         "Stud": "STUD LAS TRES MARIAS",
         "Peso": "54"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "IL TONINO",
         "Jinete": "JORGE ZÚÑIGA",
         "Stud": "STUD DSANCHEZ",
         "Peso": "55"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "TWISTED GEM",
         "Jinete": "JOSÉ RODRÍGUEZ",
         "Stud": "STUD LINEA ERRAZURIZ",
         "Peso": "56"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "LUCIANITA",
         "Jinete": "VICTOR MIRANDA",
         "Stud": "STUD ELEPHANT",
         "Peso": "56"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "PERO PEDRO",
         "Jinete": "DIEGO CARRASCO",
         "Stud": "STUD ROXANITA",
         "Peso": "53"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "DAYI",
         "Jinete": "JOAQUÍN HERRERA",
         "Stud": "STUD JOSE T. ALLENDE F.",
         "Peso": "54"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "SUPER FLY",
         "Jinete": "NELSON ROJAS",
         "Stud": "STUD TARANTINO",
         "Peso": "55"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "MILO",
         "Jinete": "NICOLÁS SANTIBAÑEZ",
         "Stud": "STUD LUIGI",
         "Peso": "56"
@@ -22917,29 +22917,29 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": null,
+        "caballo": "KATARA JOY",
         "jinete": "RODRIGO PAINEN",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": null,
+        "caballo": "BLACKCRACK",
         "jinete": "MARCO MORALES",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": null,
+        "caballo": "ANGELA CLASICA",
         "jinete": "SEBASTIÁN GONZÁLEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "JAIME MEDINA",
+        "numero": 6,
+        "caballo": "IL TONINO",
+        "jinete": "JORGE ZÚÑIGA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -22954,105 +22954,105 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "BUNGABUNGA",
         "Jinete": "DANIEL MEDINA",
         "Stud": "STUD MATIAS ORLANDO",
         "Peso": "54"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "NO ME PILLA",
         "Jinete": "SEBASTIÁN GONZÁLEZ",
         "Stud": "STUD LOS QUIRSAN",
         "Peso": "56"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "LIMEÑO FELIZ",
         "Jinete": "NELSON ROJAS",
         "Stud": "STUD CHISPITA",
         "Peso": "55"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "IRON SWIM",
         "Jinete": "FELIPE HENRÍQUEZ",
         "Stud": "STUD VERÓNICA MORALES O.",
         "Peso": "55"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "DOMINGUITA ONCE",
         "Jinete": "NICOLÁS MOLINA",
         "Stud": "STUD RICARDO ROJAS S.",
         "Peso": "54"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "COMPADRE CRISTIAN",
         "Jinete": "JOSÉ VILLABLANCA",
         "Stud": "STUD JANIRA ELGUETA",
         "Peso": "55"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "CAMBIAR DE VIDA",
         "Jinete": "RODOLFO S. DORES",
         "Stud": "STUD LOS CUARENTA Y DOS",
         "Peso": "55"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "QUERIDO GOLDEN",
         "Jinete": "BENJAMIN SANCHO",
         "Stud": "STUD DON CHATO",
         "Peso": "56"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "ARTE DE MAGIA",
         "Jinete": "VICTOR MIRANDA",
         "Stud": "STUD LOS LOKOLOPULUS",
         "Peso": "53"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "WONDER WOMAN",
         "Jinete": "ARIEL ZÚÑIGA",
         "Stud": "STUD MARGAL",
         "Peso": "55"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "EL MESTIZO",
         "Jinete": "JORGE ZÚÑIGA",
         "Stud": "STUD MEDIO ORIENTE",
         "Peso": "55"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "SOLO AMIGOS",
         "Jinete": "GUSTAVO AROS",
         "Stud": "STUD ALEVUK",
         "Peso": "56"
       },
       {
         "Nº": 13,
-        "Caballo": null,
+        "Caballo": "FLOWER POWER",
         "Jinete": "GERARD RODRÍGUEZ",
         "Stud": "STUD LOS JEQUES",
         "Peso": "56"
       },
       {
         "Nº": 14,
-        "Caballo": null,
+        "Caballo": "SHOW PAINT",
         "Jinete": "JOSÉ CUETO",
         "Stud": "STUD LOS GARRIDO",
         "Peso": "55"
       },
       {
         "Nº": 15,
-        "Caballo": null,
+        "Caballo": "KAUNAS",
         "Jinete": "PATRICIO ZÚÑIGA",
         "Stud": "STUD BRUNO ALONSO",
         "Peso": "55"
@@ -23060,30 +23060,30 @@
     ],
     "predicciones": [
       {
-        "numero": 1,
-        "caballo": null,
-        "jinete": "DANIEL MEDINA",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
         "numero": 2,
-        "caballo": null,
+        "caballo": "NO ME PILLA",
         "jinete": "SEBASTIÁN GONZÁLEZ",
-        "puntaje_ia": 82.8,
+        "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": null,
+        "caballo": "LIMEÑO FELIZ",
         "jinete": "NELSON ROJAS",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "FELIPE HENRÍQUEZ",
+        "numero": 5,
+        "caballo": "DOMINGUITA ONCE",
+        "jinete": "NICOLÁS MOLINA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 6,
+        "caballo": "COMPADRE CRISTIAN",
+        "jinete": "JOSÉ VILLABLANCA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -23098,105 +23098,105 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "FRIDAY",
         "Jinete": "SEBASTIÁN GONZÁLEZ",
         "Stud": "STUD MANTAGUA",
         "Peso": "54"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "LEVIÑO",
         "Jinete": "FELIPE HENRÍQUEZ",
         "Stud": "STUD CHARITO",
         "Peso": "56"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "TOP MODEL",
         "Jinete": "JUAN TAPIA",
         "Stud": "STUD JOSE VENEGAS P.",
         "Peso": "55"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "LUCIA DE SIRACUSA",
         "Jinete": "BENJAMIN TRONCOSO",
         "Stud": "STUD MAMEZA",
         "Peso": "55"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "MENTE BRILLANTE",
         "Jinete": "NICOLÁS MOLINA",
         "Stud": "STUD CALLASIS FOR EVER",
         "Peso": "54"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "CICARELLI",
         "Jinete": "JOHAN GONZÁLEZ",
         "Stud": "STUD LA CORINA",
         "Peso": "55"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "ATRAQUELE COMPADRE",
         "Jinete": "RODOLFO FUENZALIDA",
         "Stud": "STUD CRISVAL",
         "Peso": "55"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "ZOBOOMAFOO",
         "Jinete": "RODOLFO S. DORES",
         "Stud": "STUD IVJA",
         "Peso": "56"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "MERENGADA",
         "Jinete": "PATRICIO GALÁZ",
         "Stud": "STUD INEFABLE",
         "Peso": "54"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "FIRST POINT'S",
         "Jinete": "RONALD FOURNET",
         "Stud": "STUD DON QUIJOTE",
         "Peso": "54"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "COSTAMIA",
         "Jinete": "RODRIGO PAINEN",
         "Stud": "STUD DON AMADEO",
         "Peso": "55"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "AMOR DE CHOCOLATE",
         "Jinete": "GERARD RODRÍGUEZ",
         "Stud": "STUD STUD MAURO",
         "Peso": "55"
       },
       {
         "Nº": 13,
-        "Caballo": null,
+        "Caballo": "FAST PATTERN",
         "Jinete": "CATHRINE WEILBY",
         "Stud": "STUD CHISPITA",
         "Peso": "56"
       },
       {
         "Nº": 14,
-        "Caballo": null,
+        "Caballo": "FAMOSA LUZ",
         "Jinete": "WILBERT LEÓN",
         "Stud": "STUD DON ANDRES",
         "Peso": "54"
       },
       {
         "Nº": 15,
-        "Caballo": null,
+        "Caballo": "ROMANINI",
         "Jinete": "NELSON ROJAS",
         "Stud": "STUD MOSQUETEROS DE LIS",
         "Peso": "55"
@@ -23204,30 +23204,30 @@
     ],
     "predicciones": [
       {
+        "numero": 3,
+        "caballo": "TOP MODEL",
+        "jinete": "JUAN TAPIA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 1,
-        "caballo": null,
+        "caballo": "FRIDAY",
         "jinete": "SEBASTIÁN GONZÁLEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": null,
+        "caballo": "LEVIÑO",
         "jinete": "FELIPE HENRÍQUEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
-        "numero": 3,
-        "caballo": null,
-        "jinete": "JUAN TAPIA",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "BENJAMIN TRONCOSO",
+        "numero": 5,
+        "caballo": "MENTE BRILLANTE",
+        "jinete": "NICOLÁS MOLINA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -23242,105 +23242,105 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": null,
+        "Caballo": "TE VOY A OLVIDAR",
         "Jinete": "JOAQUÍN HERRERA",
         "Stud": "STUD SANTA ANA",
         "Peso": "55"
       },
       {
         "Nº": 2,
-        "Caballo": null,
+        "Caballo": "NOSECOMPARE",
         "Jinete": "VICTOR MIRANDA",
         "Stud": "STUD TARANTINO",
         "Peso": "57"
       },
       {
         "Nº": 3,
-        "Caballo": null,
+        "Caballo": "NAVIDAD VELOZ",
         "Jinete": "ROBERTO AVILA",
         "Stud": "STUD QUARTER DOLLAR",
         "Peso": "55"
       },
       {
         "Nº": 4,
-        "Caballo": null,
+        "Caballo": "PUROS CENTS",
         "Jinete": "FELIPE HENRÍQUEZ",
         "Stud": "STUD MAR Y SOL",
         "Peso": "56"
       },
       {
         "Nº": 5,
-        "Caballo": null,
+        "Caballo": "EL WHISKY CUANDO",
         "Jinete": "FABIAN MEDINA",
         "Stud": "STUD EL GALLITO",
         "Peso": "54"
       },
       {
         "Nº": 6,
-        "Caballo": null,
+        "Caballo": "KOCCIA",
         "Jinete": "MARCO MORALES",
         "Stud": "STUD ANTONIO AIDA",
         "Peso": "56"
       },
       {
         "Nº": 7,
-        "Caballo": null,
+        "Caballo": "INDHIRA",
         "Jinete": "NICOLÁS MOLINA",
         "Stud": "STUD CON TANTO ESFUERZO",
         "Peso": "56"
       },
       {
         "Nº": 8,
-        "Caballo": null,
+        "Caballo": "AMBROSE",
         "Jinete": "NICOLÁS RAMIREZ",
         "Stud": "STUD MATÍAS ALFONSO",
         "Peso": "56"
       },
       {
         "Nº": 9,
-        "Caballo": null,
+        "Caballo": "THE ARION",
         "Jinete": "LUIS SILVA",
         "Stud": "STUD TATA TITO",
         "Peso": "54"
       },
       {
         "Nº": 10,
-        "Caballo": null,
+        "Caballo": "RICA ELEGANTE",
         "Jinete": "GERARD RODRÍGUEZ",
         "Stud": "STUD JOAQUIN ANDRES",
         "Peso": "55"
       },
       {
         "Nº": 11,
-        "Caballo": null,
+        "Caballo": "MISTER STRESS",
         "Jinete": "RAFAEL CISTERNAS",
         "Stud": "STUD ABUELA OCA",
         "Peso": "56"
       },
       {
         "Nº": 12,
-        "Caballo": null,
+        "Caballo": "GOLD DADDY",
         "Jinete": "SEBASTIÁN GONZÁLEZ",
         "Stud": "STUD CORI",
         "Peso": "56"
       },
       {
         "Nº": 13,
-        "Caballo": null,
+        "Caballo": "BLESSED",
         "Jinete": "BENJAMIN SANCHO",
         "Stud": "STUD C.V.D.",
         "Peso": "57"
       },
       {
         "Nº": 14,
-        "Caballo": null,
+        "Caballo": "PROFESSIONALS",
         "Jinete": "NELSON ROJAS",
         "Stud": "STUD SANTA VERONICA",
         "Peso": "55"
       },
       {
         "Nº": 15,
-        "Caballo": null,
+        "Caballo": "MOUNTAIN MONARCH",
         "Jinete": "RODRIGO PAINEN",
         "Stud": "STUD FRANCISCO ALEXANDRA",
         "Peso": "55"
@@ -23349,30 +23349,30 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": null,
+        "caballo": "TE VOY A OLVIDAR",
         "jinete": "JOAQUÍN HERRERA",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 2,
-        "caballo": null,
-        "jinete": "VICTOR MIRANDA",
-        "puntaje_ia": 82.8,
+        "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": null,
+        "caballo": "NAVIDAD VELOZ",
         "jinete": "ROBERTO AVILA",
-        "puntaje_ia": 82.8,
+        "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       },
       {
-        "numero": 4,
-        "caballo": null,
-        "jinete": "FELIPE HENRÍQUEZ",
-        "puntaje_ia": 82.8,
+        "numero": 7,
+        "caballo": "INDHIRA",
+        "jinete": "NICOLÁS MOLINA",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 10,
+        "caballo": "RICA ELEGANTE",
+        "jinete": "GERARD RODRÍGUEZ",
+        "puntaje_ia": 84.3,
         "prob_ml": "99.0"
       }
     ]

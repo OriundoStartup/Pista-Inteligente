@@ -420,6 +420,7 @@ class HipicaETL:
             'numero': 'numero',
             'Nombre Ejemplar': 'nombre',
             'Caballo': 'nombre',
+            'caballo': 'nombre',  # Fix: Lowercase in some files
             'Ejemplar': 'nombre',
             'ejemplar': 'nombre',
             'ganador': 'nombre',
@@ -445,6 +446,7 @@ class HipicaETL:
             
             # Resultados
             'Lugar': 'posicion',
+            'lugar': 'posicion', # Fix: Lowercase in some files
             'Puesto': 'posicion',   # <-- FIX: Agregar Puesto para archivos HC
             'posicion': 'posicion',
             'Dividendo': 'dividendo',
