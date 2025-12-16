@@ -262,16 +262,25 @@ def precalculate_patterns(update_mode=False):
         
         if not patrones:
             print("   ⚠️ No se encontraron patrones.")
-            # Crear archivo vacío valid
+            # Crear archivo vacío válido con metadata
+            data = {
+                'last_updated': datetime.now().strftime('%d-%m-%Y %H:%M'),
+                'patterns': []
+            }
             with open(cache_path, 'w', encoding='utf-8') as f:
-                json.dump([], f)
+                json.dump(data, f, ensure_ascii=False, indent=2, cls=CustomJSONEncoder)
             return True
             
         print(f"   ✅ Encontrados {len(patrones)} patrones.")
         
+        data = {
+            'last_updated': datetime.now().strftime('%d-%m-%Y %H:%M'),
+            'patterns': patrones
+        }
+        
         cache_path.parent.mkdir(exist_ok=True, parents=True)
         with open(cache_path, 'w', encoding='utf-8') as f:
-            json.dump(patrones, f, ensure_ascii=False, indent=2, cls=CustomJSONEncoder)
+            json.dump(data, f, ensure_ascii=False, indent=2, cls=CustomJSONEncoder)
         
         print(f"   ✅ Cache Patrones JSON regenerado en {cache_path}")
         return True
@@ -301,7 +310,7 @@ def main(force_sync=False):
     """
     print("""
     ==================================================
-       🏇 SISTEMA DE HÍPICA INTELIGENTE - SYNC V2.1 🏇
+       SISTEMA DE HIPICA INTELIGENTE - SYNC V2.1
     ==================================================
     DETECTANDO ARCHIVOS EN /exports...
     """)

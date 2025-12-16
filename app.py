@@ -104,8 +104,8 @@ def programa():
 @app.route('/analisis')
 def analisis():
     hipodromo_filter = request.args.get('hipodromo', 'Todos')
-    patrones = obtener_patrones_la_tercera(hipodromo_filter)
-    return render_template('analysis.html', patrones=patrones, hipodromo_filter=hipodromo_filter)
+    patrones, last_updated = obtener_patrones_la_tercera(hipodromo_filter)
+    return render_template('analysis.html', patrones=patrones, hipodromo_filter=hipodromo_filter, last_updated=last_updated)
 
 @app.route('/precision')
 def precision():

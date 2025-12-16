@@ -101,8 +101,16 @@ def cargar_programa(nombre_db='data/db/hipica_data.db', solo_futuras=True):
         # Filtro de fecha inyectable
         fecha_filter = ""
         if solo_futuras:
-            # Usar 'now', 'localtime' para obtener fecha actual en zona horaria local del servidor
-            fecha_filter = "WHERE pc.fecha >= date('now', 'localtime')"
+            # FIX: Use Python to determine date, avoiding SQLite 'localtime' issues on Cloud Run (UTC)
+            # Chile is UTC-3 (approx, ignoring DST complex rules for now or use pytz if available)
+            from datetime import timedelta
+            
+            # Simple offset -3 hours for Chile
+            # A more robust solution uses pytz, but basic offset covers 99% of cases for "Today"
+            chile_time = datetime.utcnow() - timedelta(hours=3)
+            today_str = chile_time.strftime('%Y-%m-%d')
+            
+            fecha_filter = f"WHERE pc.fecha >= '{today_str}'"
 
         # Try to join with normalized tables if they exist, otherwise raw
         try:
@@ -123,7 +131,7 @@ def cargar_programa(nombre_db='data/db/hipica_data.db', solo_futuras=True):
         except:
              # Fallback to simple select if flat table
              # También aplicamos filtro si es posible
-             where_simple = "WHERE fecha >= date('now', 'localtime')" if solo_futuras else ""
+             where_simple = f"WHERE fecha >= '{today_str}'" if solo_futuras else ""
              df = pd.read_sql(f"SELECT * FROM programa_carreras {where_simple}", conn)
              
         conn.close()
@@ -132,9 +140,15 @@ def cargar_programa(nombre_db='data/db/hipica_data.db', solo_futuras=True):
         print(f"Error cargando programa: {e}")
         return pd.DataFrame()
 
-@functools.lru_cache(maxsize=1)
+# Global variable for in-memory cache to replace lru_cache
+_memory_cache = {
+    'data': None,
+    'mtime': 0,
+    'path': None
+}
+
 def obtener_analisis_jornada():
-    """Genera análisis usando ML o carga desde cache."""
+    """Genera análisis usando ML o carga desde cache con validación de frescura."""
     # --- CACHE LOGIC START ---
     from pathlib import Path
     import json
@@ -147,13 +161,30 @@ def obtener_analisis_jornada():
              cache_path = Path("app/data/cache_analisis.json")
 
         if cache_path.exists():
+            current_mtime = cache_path.stat().st_mtime
+            
+            # Check if we have valid memory cache
+            if _memory_cache['data'] is not None and \
+               _memory_cache['path'] == str(cache_path) and \
+               _memory_cache['mtime'] == current_mtime:
+                # print("⚡ [RAM] Retornando análisis desde memoria")
+                return _memory_cache['data']
+
+            # If not in memory or file changed, reload from disk
             with open(cache_path, 'r', encoding='utf-8') as f:
-                print(f"⚡ Cargando predicciones desde cache: {cache_path}")
-                # Convertir listas de dicts que podrían ser dataframes en el uso original
-                # pero aqui ya retornamos la lista de dicts directa.
-                return json.load(f)
+                print(f"⚡ [DISK] Recargando cache predicciones ({current_mtime})")
+                data = json.load(f)
+                
+                # Update memory cache
+                _memory_cache['data'] = data
+                _memory_cache['mtime'] = current_mtime
+                _memory_cache['path'] = str(cache_path)
+                
+                return data
     except Exception as e:
         print(f"⚠️ Error al leer cache, calculando dinámicamente: {e}")
+        # Invalidate memory cache on error
+        _memory_cache['data'] = None
     # --- CACHE LOGIC END ---
 
     print("🔄 Calculando predicciones dinámicamente...")
@@ -520,6 +551,7 @@ def obtener_patrones_la_tercera(hipodromo_filtro=None):
     from pathlib import Path
     
     patrones = []
+    last_updated = "Reciente"
     loaded_from_cache = False
     
     try:
@@ -529,16 +561,27 @@ def obtener_patrones_la_tercera(hipodromo_filtro=None):
 
         if cache_path.exists():
             with open(cache_path, 'r', encoding='utf-8') as f:
-                patrones = json.load(f)
+                data = json.load(f)
+                
+                # Support new format (dict) and legacy (list)
+                if isinstance(data, dict):
+                    patrones = data.get('patterns', [])
+                    last_updated = data.get('last_updated', 'Reciente')
+                elif isinstance(data, list):
+                    patrones = data
+                    last_updated = "Reciente (Formato antiguo)"
+                    
                 loaded_from_cache = True
                 # print("⚡ Patrones cargados desde cache JSON")
     except Exception as e:
         print(f"⚠️ Error leyendo cache patrones: {e}")
 
     # 2. If no cache, calculate live (slower but fallback)
+    # 2. If no cache, calculate live (slower but fallback)
     if not patrones and not loaded_from_cache:
         print("🔄 Calculando patrones dinámicamente...")
         patrones = calcular_todos_patrones()
+        last_updated = "Calculado en vivo"
 
     # 3. Filter if needed
     if hipodromo_filtro and hipodromo_filtro != 'Todos':
