@@ -173,34 +173,55 @@ class SmartLoader:
         return self.studs[key]
 
     def flush_new_entities(self):
-        """Inserta masivamente las nuevas entidades y actualiza cache"""
+        """Inserta masivamente las nuevas entidades y actualiza cache de forma robusta"""
+        
+        updates_made = False
+        
         if self.new_caballos:
             data = [(name,) for name in self.new_caballos]
             self.cursor.executemany("INSERT OR IGNORE INTO caballos (nombre) VALUES (?)", data)
-            # Recargar cache parcial o total (simple strategy: query new ones)
-            # Para simplicidad y robustez, recargamos todo selectivo podría ser complejo por IDs
-            for id_, nombre in self.cursor.execute("SELECT id, nombre FROM caballos WHERE id > ?", (max(self.caballos.values(), default=0),)):
-                 self.caballos[nombre.upper()] = id_
-            self.new_caballos.clear()
-            print(f"   ↳ {len(data)} caballos nuevos guardados.")
+            updates_made = True
+            print(f"   ↳ {len(data)} caballos procesados (Insert/Ignore).")
 
         if self.new_jinetes:
             data = [(name,) for name in self.new_jinetes]
             self.cursor.executemany("INSERT OR IGNORE INTO jinetes (nombre) VALUES (?)", data)
-            for id_, nombre in self.cursor.execute("SELECT id, nombre FROM jinetes WHERE id > ?", (max(self.jinetes.values(), default=0),)):
-                 self.jinetes[nombre.upper()] = id_
-            self.new_jinetes.clear()
-            print(f"   ↳ {len(data)} jinetes nuevos guardados.")
+            updates_made = True
+            print(f"   ↳ {len(data)} jinetes procesados (Insert/Ignore).")
             
         if self.new_studs:
             data = [(name,) for name in self.new_studs]
             self.cursor.executemany("INSERT OR IGNORE INTO studs (nombre) VALUES (?)", data)
-            for id_, nombre in self.cursor.execute("SELECT id, nombre FROM studs WHERE id > ?", (max(self.studs.values(), default=0),)):
-                 self.studs[nombre.upper()] = id_
-            self.new_studs.clear()
-            print(f"   ↳ {len(data)} studs nuevos guardados.")
+            updates_made = True
+            print(f"   ↳ {len(data)} studs procesados (Insert/Ignore).")
             
         self.conn.commit()
+        
+        if updates_made:
+            # Recargar cache completo para garantizar consistencia y evitar "Consistency Gap"
+            # donde un INSERT OR IGNORE no genera ID nuevo pero el item no estaba en cache.
+            # Al ser < 50k registros, esto es rápido (< 100ms) y seguro.
+            print("   ↻ Actualizando cache de entidades...")
+            self.hipodromos = {}
+            self.caballos = {}
+            self.jinetes = {}
+            self.studs = {}
+            self._load_caches()
+        
+        # Limpiar sets de nuevos
+        self.new_caballos.clear()
+        self.new_jinetes.clear()
+        self.new_studs.clear()
+
+    def get_id_fallback(self, table, name):
+        """Busca ID directamente en DB si falla el cache (Safety fallback)"""
+        if not name: return None
+        try:
+            self.cursor.execute(f"SELECT id FROM {table} WHERE nombre = ?", (name.upper(),))
+            res = self.cursor.fetchone()
+            return res[0] if res else None
+        except:
+            return None
 
 # ============================================================================
 # CLASE PRINCIPAL ETL
@@ -507,10 +528,24 @@ class HipicaETL:
         data = []
         for item in processed_rows:
             row = item['raw_row']
-            caballo_id = self.loader.register_caballo(item['caballo_txt'])
-            jinete_id = self.loader.register_jinete(item['jinete_txt'])
-            stud_id = self.loader.register_stud(item['stud_txt'])
             
+            # Obtener IDs con fallback si el cache falló (Double Check)
+            caballo_id = self.loader.register_caballo(item['caballo_txt'])
+            if caballo_id is None:
+                caballo_id = self.loader.get_id_fallback('caballos', item['caballo_txt'])
+                
+            jinete_id = self.loader.register_jinete(item['jinete_txt'])
+            if jinete_id is None:
+                 jinete_id = self.loader.get_id_fallback('jinetes', item['jinete_txt'])
+                 
+            stud_id = self.loader.register_stud(item['stud_txt'])
+            if stud_id is None:
+                 stud_id = self.loader.get_id_fallback('studs', item['stud_txt'])
+            
+            # Si aun es None, advertir (Critical Data Issue)
+            if caballo_id is None:
+                print(f"   ⚠️ ALERTA: Caballo '{item['caballo_txt']}' no resuelto (ID Null).")
+
             data.append((
                 item['fecha'],
                 item['hipodromo_txt'],
