@@ -10,7 +10,6 @@ import numpy as np
 from datetime import datetime
 from .features import FeatureEngineering
 
-@functools.lru_cache(maxsize=1)
 def cargar_datos(nombre_db='data/db/hipica_data.db'):
     """Carga los datos desde la base de datos SQLite (tabla antigua para compatibilidad)."""
     # Fix paths if running from root or src
@@ -28,7 +27,6 @@ def cargar_datos(nombre_db='data/db/hipica_data.db'):
     except Exception as e:
         return pd.DataFrame()
 
-@functools.lru_cache(maxsize=4)
 def cargar_datos_3nf(nombre_db='data/db/hipica_data.db'):
     """Carga datos desde la estructura 3NF normalizada."""
     if not os.path.exists(nombre_db) and os.path.exists(f'data/db/{nombre_db}'):
@@ -397,24 +395,37 @@ def obtener_lista_hipodromos():
     except:
         return []
 
-def obtener_patrones_la_tercera(hipodromo_filtro=None):
-    """Busca patrones de resultados repetidos (Quinela, Trifecta, Superfecta)."""
-    df = cargar_datos_3nf()
+def calcular_todos_patrones(df=None):
+    """
+    Calcula TODOS los patrones para todo el historial disponible.
+    Retorna una lista de patrones completa (sin filtrar por hipódromo aún).
+    """
+    if df is None:
+        df = cargar_datos_3nf()
+    
     if df.empty: return []
 
-    if hipodromo_filtro and hipodromo_filtro != 'Todos':
-        df = df[df['hipodromo'] == hipodromo_filtro]
-
     # Agrupar por carrera
-    carreras_groups = df.groupby(['hipodromo', 'fecha', 'nro_carrera'])
+    try:
+        carreras_groups = df.groupby(['hipodromo', 'fecha', 'nro_carrera'])
+    except KeyError:
+        # Fallback si faltan columnas
+        return []
+
+    # Contadores Globales
+    # Key: (Signature, Hipodromo) -> Count
+    # We include Hipodromo in key to ensure we don't mix generic patterns if user wants specificity,
+    # BUT "Pattern" usually means "Same horse names win anywhere". 
+    # The requirement seems to be "Resultados Repetidos" (Same horses).
+    # If Horse A and Horse B make a Quinela in Hipodromo Chile, and later in Club Hipico, 
+    # is that a repetition? YES. It shows they run well together.
+    # So we count GLOBALLY.
     
-    # Contadores
     quinelas = {}
     trifectas = {}
     superfectas = {}
     
-    # Detalles para reconstruir vista
-    # Key: Signature -> Sample List of details
+    # Init details map: Signature -> List of occurences (details)
     details_map = {} 
 
     for (hip, fecha, nro), grupo in carreras_groups:
@@ -427,43 +438,63 @@ def obtener_patrones_la_tercera(hipodromo_filtro=None):
         # Extract data
         caballos = top4['caballo'].tolist()
         
-        # Quinela (Top 2 - Any Order for Box, but let's check Exacta for now or sorted tuple)
-        # User said "Quinela", usually 1-2 any order.
+        # Details for this race
+        race_details = top4.to_dict('records')
+        # Add metadata for filtering later in view
+        for r in race_details:
+            r['hipodromo'] = hip
+            r['fecha'] = fecha
+            r['nro_carrera'] = nro
+
+        # Quinela (Top 2 - Box allowed in logic, checking sorted tuple)
         sig_quinela = tuple(sorted(caballos[:2])) 
         if len(sig_quinela) == 2:
             quinelas[sig_quinela] = quinelas.get(sig_quinela, 0) + 1
-            if sig_quinela not in details_map:
-                details_map[sig_quinela] = top4.iloc[:2].to_dict('records')
+            if sig_quinela not in details_map: details_map[sig_quinela] = []
+            details_map[sig_quinela].append(race_details[:2])
 
-        # Trifecta (Top 3 - Exact Order usually)
+        # Trifecta (Top 3)
         if len(top4) >= 3:
             sig_trifecta = tuple(caballos[:3])
             trifectas[sig_trifecta] = trifectas.get(sig_trifecta, 0) + 1
-            if sig_trifecta not in details_map:
-                details_map[sig_trifecta] = top4.iloc[:3].to_dict('records')
+            if sig_trifecta not in details_map: details_map[sig_trifecta] = []
+            details_map[sig_trifecta].append(race_details[:3])
 
-        # Superfecta (Top 4 - Exact Order)
+        # Superfecta (Top 4)
         if len(top4) >= 4:
             sig_superfecta = tuple(caballos[:4])
             superfectas[sig_superfecta] = superfectas.get(sig_superfecta, 0) + 1
-            if sig_superfecta not in details_map:
-                details_map[sig_superfecta] = top4.iloc[:4].to_dict('records')
+            if sig_superfecta not in details_map: details_map[sig_superfecta] = []
+            details_map[sig_superfecta].append(race_details[:4])
 
     patrones = []
 
-    # Filtrar >= 2
     def pack_patron(signature, count, tipo):
         if count >= 2:
-            items = []
-            raw_items = details_map.get(signature, [])
-            for r in raw_items:
-                items.append({
-                    'puesto': int(r['posicion']) if pd.notna(r['posicion']) else 0,
-                    'numero': int(r['mandil']) if pd.notna(r['mandil']) else 0,
-                    'caballo': r['caballo'],
-                    'jinete': r['jinete']
-                })
-            return {'tipo': tipo, 'veces': count, 'detalle': items}
+            # Flatten details: The details_map now has a LIST of LISTS of records.
+            # We want to show all occurences.
+            # Signature matches, so we show the "Last" or "All"?
+            # Showing ALL instances of the pattern is best.
+            
+            all_occurences = details_map.get(signature, [])
+            # Flatten nicely
+            flat_items = []
+            for occurence in all_occurences:
+                for r in occurence:
+                     flat_items.append({
+                        'puesto': int(r['posicion']) if pd.notna(r['posicion']) else 0,
+                        'numero': int(r['mandil']) if pd.notna(r['mandil']) else 0,
+                        'caballo': r['caballo'],
+                        'jinete': r['jinete'],
+                        'hipodromo': r.get('hipodromo', ''), # Important for view
+                        'fecha': r.get('fecha', '')
+                    })
+            
+            # Remove duplicated entries if multiple people run? No, they are distinct rows.
+            # Sorting by date might be nice?
+            flat_items.sort(key=lambda x: x['fecha'], reverse=True)
+
+            return {'tipo': tipo, 'veces': count, 'detalle': flat_items, 'signature': signature}
         return None
 
     for sig, count in quinelas.items():
@@ -480,6 +511,104 @@ def obtener_patrones_la_tercera(hipodromo_filtro=None):
 
     # Sort by count desc
     patrones.sort(key=lambda x: x['veces'], reverse=True)
+    return patrones
+
+def obtener_patrones_la_tercera(hipodromo_filtro=None):
+    """Busca patrones de resultados repetidos. Usa CACHE JSON si existe."""
+    # 1. Try Load from Cache
+    import json
+    from pathlib import Path
+    
+    patrones = []
+    loaded_from_cache = False
+    
+    try:
+        cache_path = Path("data/cache_patrones.json")
+        if not cache_path.exists():
+             cache_path = Path("app/data/cache_patrones.json")
+
+        if cache_path.exists():
+            with open(cache_path, 'r', encoding='utf-8') as f:
+                patrones = json.load(f)
+                loaded_from_cache = True
+                # print("⚡ Patrones cargados desde cache JSON")
+    except Exception as e:
+        print(f"⚠️ Error leyendo cache patrones: {e}")
+
+    # 2. If no cache, calculate live (slower but fallback)
+    if not patrones and not loaded_from_cache:
+        print("🔄 Calculando patrones dinámicamente...")
+        patrones = calcular_todos_patrones()
+
+    # 3. Filter if needed
+    if hipodromo_filtro and hipodromo_filtro != 'Todos':
+        # Filtering patterns is tricky:
+        # A pattern is valid if it happened twice.
+        # If I filter by "Hipodromo Chile", do I only show patterns that happened exclusively there?
+        # Or do I show patterns where AT LEAST ONE occurence was there?
+        # Usually "Filter View" means "Show me things relevant to this track".
+        # Let's simple filter: Only show patterns where the LATEST occurence was in this track?
+        # Or filtered based on the 'detalle' items?
+        
+        # Simplest Logic matching previous:
+        # The previous logic filtered the DF *before* counting.
+        # This implies: "Find patterns that exist within the subset of races at Hipodromo X".
+        # (e.g. A and B won together twice AT Club Hipico).
+        
+        # If we load GLOBAL patterns from cache, we cannot easily retroactive filter to "Local only" counts 
+        # without looking at all details.
+        
+        # Strategy:
+        # If cached data is GLOBAL, we scan 'detalle'.
+        # We RE-COUNT occurrences that match the hipodromo.
+        # If re-count >= 2, we keep it.
+        
+        filtered_patrones = []
+        for p in patrones:
+            # Count details matching hipodromo
+            relevant_details = [d for d in p['detalle'] if d.get('hipodromo') == hipodromo_filtro]
+            
+            # Since 'detalle' has multple rows per race (2 for quinela), we need to count unique races.
+            # Unique (fecha, nro_carrera) tuples.
+            unique_races = set((d['fecha'], d.get('fecha_hora', '')) for d in relevant_details) 
+            # Note: detail structure in pack_patron uses 'fecha'.
+            unique_races = set(d['fecha'] for d in relevant_details) # Approx check
+            
+            # Actually, let's just count how many sets of "1st, 2nd" etc we have.
+            # Easier: Check metadata.
+            # But the cache implementation above stores EVERYTHING.
+            
+            # Optimization: If the user filters, the pattern MUST consist of events in that hipodromo
+            # to be a "Pattern of THAT hipodromo".
+            # If standard behavior is "Local Patterns", then Global Cache is only useful if we store sufficient metadata.
+            
+            # Wait, if `obtener_patrones` was previously filtering DF first, it meant:
+            # "Find pairs that repeated WITHIN this hipodromo".
+            # Cross-hipodromo patterns were ignored if filter was active.
+            
+            # If we want to support this with cache:
+            # We filter the 'detalle' list to only include entries from 'hipodromo_filtro'.
+            # Then we verify if there are still >= 2 distinct races involved.
+            
+            # Group details by race (fecha)
+            races_involved = set()
+            local_details = []
+            
+            for d in p['detalle']:
+                if d.get('hipodromo') == hipodromo_filtro:
+                    races_involved.add(d.get('fecha'))
+                    local_details.append(d)
+            
+            if len(races_involved) >= 2:
+                # Create a copy with only local details
+                p_copy = p.copy()
+                p_copy['detalle'] = local_details
+                p_copy['veces'] = len(races_involved)
+                filtered_patrones.append(p_copy)
+                
+        patrones = filtered_patrones
+        patrones.sort(key=lambda x: x['veces'], reverse=True)
+
     return patrones
 
 def obtener_estadisticas_generales():

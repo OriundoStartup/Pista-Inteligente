@@ -8,7 +8,7 @@ import sqlite3
 from datetime import datetime
 from src.etl.etl_pipeline import HipicaETL
 from src.models.train_v2 import HipicaLearner
-from src.models.data_manager import obtener_analisis_jornada
+from src.models.data_manager import obtener_analisis_jornada, calcular_todos_patrones
 import json
 from pathlib import Path
 import json
@@ -245,6 +245,42 @@ def precalculate_predictions(update_mode=False):
         print(f"❌ Error al pre-calcular predicciones: {e}")
         return False
 
+def precalculate_patterns(update_mode=False):
+    """
+    Pre-calcula patrones de resultados y los guarda en cache JSON.
+    """
+    print(f"📊 Pre-calculando patrones de resultados... (Modo Actualización: {update_mode})")
+    try:
+        cache_path = Path("data/cache_patrones.json")
+        
+        # Siempre refrescamos cache
+        if cache_path.exists():
+            cache_path.unlink()
+            
+        print("   🔄 Calculando todos los patrones...")
+        patrones = calcular_todos_patrones()
+        
+        if not patrones:
+            print("   ⚠️ No se encontraron patrones.")
+            # Crear archivo vacío valid
+            with open(cache_path, 'w', encoding='utf-8') as f:
+                json.dump([], f)
+            return True
+            
+        print(f"   ✅ Encontrados {len(patrones)} patrones.")
+        
+        cache_path.parent.mkdir(exist_ok=True, parents=True)
+        with open(cache_path, 'w', encoding='utf-8') as f:
+            json.dump(patrones, f, ensure_ascii=False, indent=2, cls=CustomJSONEncoder)
+        
+        print(f"   ✅ Cache Patrones JSON regenerado en {cache_path}")
+        return True
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        print(f"❌ Error al pre-calcular patrones: {e}")
+        return False
+
 def check_git_changes():
     """Retorna True si hay cambios pendientes en git (código modificado)."""
     try:
@@ -313,6 +349,10 @@ def main(force_sync=False):
         # La función internamente debe manejar inserts para nuevos programas (Pendiente de ajuste en save)
         print("\n[PASO 2.5/3] Recalculando Predicciones Futuras (Update + Insert)...")
         precalculate_predictions(update_mode=True)
+        
+        # 2.6 Pre-calcular Patrones
+        print("\n[PASO 2.6/3] Recalculando Patrones de Resultados...")
+        precalculate_patterns(update_mode=True)
 
         # 3. Deploy a Cloud Run (Firebase)
         print("\n[PASO 3/3] Desplegando a Cloud Run (Firebase)...")
