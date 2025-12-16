@@ -558,105 +558,114 @@ def obtener_patrones_la_tercera(hipodromo_filtro=None):
     last_updated = "Reciente"
     loaded_from_cache = False
     
-    try:
-        cache_path = Path("data/cache_patrones.json")
-        if not cache_path.exists():
-             cache_path = Path("app/data/cache_patrones.json")
+    try: # New outer try block
+        try: # Existing cache try block
+            cache_path = Path("data/cache_patrones.json")
+            if not cache_path.exists():
+                 cache_path = Path("app/data/cache_patrones.json")
 
-        if cache_path.exists():
-            with open(cache_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                
-                # Support new format (dict) and legacy (list)
-                if isinstance(data, dict):
-                    patrones = data.get('patterns', [])
-                    last_updated = data.get('last_updated', 'Reciente')
-                elif isinstance(data, list):
-                    patrones = data
-                    last_updated = "Reciente (Formato antiguo)"
+            if cache_path.exists():
+                with open(cache_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
                     
-                loaded_from_cache = True
-                # print("⚡ Patrones cargados desde cache JSON")
-    except Exception as e:
-        print(f"⚠️ Error leyendo cache patrones: {e}")
+                    # Support new format (dict) and legacy (list)
+                    if isinstance(data, dict):
+                        patrones = data.get('patterns', [])
+                        last_updated = data.get('last_updated', 'Reciente')
+                    elif isinstance(data, list):
+                        patrones = data
+                        last_updated = "Reciente (Formato antiguo)"
+                        
+                    loaded_from_cache = True
+                    # print("⚡ Patrones cargados desde cache JSON")
+        except Exception as e:
+            print(f"⚠️ Error leyendo cache patrones: {e}")
 
-    # 2. If no cache, calculate live (slower but fallback)
-    # 2. If no cache, calculate live (slower but fallback)
-    if not patrones and not loaded_from_cache:
-        print("🔄 Calculando patrones dinámicamente...")
-        patrones = calcular_todos_patrones()
-        last_updated = "Calculado en vivo"
+        # 2. If no cache, calculate live (slower but fallback)
+        # 2. If no cache, calculate live (slower but fallback)
+        if not patrones and not loaded_from_cache:
+            try: # Existing dynamic calculation try block
+                print("🔄 Calculando patrones dinámicamente...")
+                patrones = calcular_todos_patrones()
+                last_updated = "Calculado en vivo"
+            except Exception as e:
+                print(f"❌ Error calculando patrones: {e}")
+                patrones = [] # Safety fallback
 
-    # 3. Filter if needed
-    if hipodromo_filtro and hipodromo_filtro != 'Todos':
-        # Filtering patterns is tricky:
-        # A pattern is valid if it happened twice.
-        # If I filter by "Hipodromo Chile", do I only show patterns that happened exclusively there?
-        # Or do I show patterns where AT LEAST ONE occurence was there?
-        # Usually "Filter View" means "Show me things relevant to this track".
-        # Let's simple filter: Only show patterns where the LATEST occurence was in this track?
-        # Or filtered based on the 'detalle' items?
-        
-        # Simplest Logic matching previous:
-        # The previous logic filtered the DF *before* counting.
-        # This implies: "Find patterns that exist within the subset of races at Hipodromo X".
-        # (e.g. A and B won together twice AT Club Hipico).
-        
-        # If we load GLOBAL patterns from cache, we cannot easily retroactive filter to "Local only" counts 
-        # without looking at all details.
-        
-        # Strategy:
-        # If cached data is GLOBAL, we scan 'detalle'.
-        # We RE-COUNT occurrences that match the hipodromo.
-        # If re-count >= 2, we keep it.
-        
-        filtered_patrones = []
-        for p in patrones:
-            # Count details matching hipodromo
-            relevant_details = [d for d in p['detalle'] if d.get('hipodromo') == hipodromo_filtro]
+        # 3. Filter if needed
+        if hipodromo_filtro and hipodromo_filtro != 'Todos':
+            # Filtering patterns is tricky:
+            # A pattern is valid if it happened twice.
+            # If I filter by "Hipodromo Chile", do I only show patterns that happened exclusively there?
+            # Or do I show patterns where AT LEAST ONE occurence was there?
+            # Usually "Filter View" means "Show me things relevant to this track".
+            # Let's simple filter: Only show patterns where the LATEST occurence was in this track?
+            # Or filtered based on the 'detalle' items?
             
-            # Since 'detalle' has multple rows per race (2 for quinela), we need to count unique races.
-            # Unique (fecha, nro_carrera) tuples.
-            unique_races = set((d['fecha'], d.get('fecha_hora', '')) for d in relevant_details) 
-            # Note: detail structure in pack_patron uses 'fecha'.
-            unique_races = set(d['fecha'] for d in relevant_details) # Approx check
+            # Simplest Logic matching previous:
+            # The previous logic filtered the DF *before* counting.
+            # This implies: "Find patterns that exist within the subset of races at Hipodromo X".
+            # (e.g. A and B won together twice AT Club Hipico).
             
-            # Actually, let's just count how many sets of "1st, 2nd" etc we have.
-            # Easier: Check metadata.
-            # But the cache implementation above stores EVERYTHING.
+            # If we load GLOBAL patterns from cache, we cannot easily retroactive filter to "Local only" counts 
+            # without looking at all details.
             
-            # Optimization: If the user filters, the pattern MUST consist of events in that hipodromo
-            # to be a "Pattern of THAT hipodromo".
-            # If standard behavior is "Local Patterns", then Global Cache is only useful if we store sufficient metadata.
+            # Strategy:
+            # If cached data is GLOBAL, we scan 'detalle'.
+            # We RE-COUNT occurrences that match the hipodromo.
+            # If re-count >= 2, we keep it.
             
-            # Wait, if `obtener_patrones` was previously filtering DF first, it meant:
-            # "Find pairs that repeated WITHIN this hipodromo".
-            # Cross-hipodromo patterns were ignored if filter was active.
-            
-            # If we want to support this with cache:
-            # We filter the 'detalle' list to only include entries from 'hipodromo_filtro'.
-            # Then we verify if there are still >= 2 distinct races involved.
-            
-            # Group details by race (fecha)
-            races_involved = set()
-            local_details = []
-            
-            for d in p['detalle']:
-                if d.get('hipodromo') == hipodromo_filtro:
-                    races_involved.add(d.get('fecha'))
-                    local_details.append(d)
-            
-            if len(races_involved) >= 2:
-                # Create a copy with only local details
-                p_copy = p.copy()
-                p_copy['detalle'] = local_details
-                p_copy['veces'] = len(races_involved)
-                filtered_patrones.append(p_copy)
+            filtered_patrones = []
+            for p in patrones:
+                # Count details matching hipodromo
+                relevant_details = [d for d in p['detalle'] if d.get('hipodromo') == hipodromo_filtro]
                 
-        patrones = filtered_patrones
-        patrones.sort(key=lambda x: x['veces'], reverse=True)
+                # Since 'detalle' has multple rows per race (2 for quinela), we need to count unique races.
+                # Unique (fecha, nro_carrera) tuples.
+                unique_races = set((d['fecha'], d.get('fecha_hora', '')) for d in relevant_details) 
+                # Note: detail structure in pack_patron uses 'fecha'.
+                unique_races = set(d['fecha'] for d in relevant_details) # Approx check
+                
+                # Actually, let's just count how many sets of "1st, 2nd" etc we have.
+                # Easier: Check metadata.
+                # But the cache implementation above stores EVERYTHING.
+                
+                # Optimization: If the user filters, the pattern MUST consist of events in that hipodromo
+                # to be a "Pattern of THAT hipodromo".
+                # If standard behavior is "Local Patterns", then Global Cache is only useful if we store sufficient metadata.
+                
+                # Wait, if `obtener_patrones` was previously filtering DF first, it meant:
+                # "Find pairs that repeated WITHIN this hipodromo".
+                # Cross-hipodromo patterns were ignored if filter was active.
+                
+                # If we want to support this with cache:
+                # We filter the 'detalle' list to only include entries from 'hipodromo_filtro'.
+                # Then we verify if there are still >= 2 distinct races involved.
+                
+                # Group details by race (fecha)
+                races_involved = set()
+                local_details = []
+                
+                for d in p['detalle']:
+                    if d.get('hipodromo') == hipodromo_filtro:
+                        races_involved.add(d.get('fecha'))
+                        local_details.append(d)
+                
+                if len(races_involved) >= 2:
+                    # Create a copy with only local details
+                    p_copy = p.copy()
+                    p_copy['detalle'] = local_details
+                    p_copy['veces'] = len(races_involved)
+                    filtered_patrones.append(p_copy)
+                    
+            patrones = filtered_patrones
+            patrones.sort(key=lambda x: x['veces'], reverse=True)
 
-    return patrones
+        return patrones, last_updated # Modified return statement
+    except Exception as e:
+        traceback.print_exc()
+        print(f"❌ CRITICAL ERROR in obtener_patrones: {e}")
+        return [], "Error de Sistema"
 
 def obtener_estadisticas_generales():
     """Calcula estadísticas generales de rendimiento."""
