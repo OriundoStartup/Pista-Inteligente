@@ -64,6 +64,10 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5579178295407019"
         crossorigin="anonymous"></script>
 
+    <!-- AMP Auto Ads -->
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+
     <!-- Firebase SDK (Analytics + Performance) -->
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
@@ -103,6 +107,8 @@
 </head>
 
 <body>
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-5579178295407019">
+    </amp-auto-ads>
 
     <!-- Header Glassmorphism -->
     <header class="glass-header">
@@ -245,6 +251,17 @@
     <footer class="site-footer">
         <div class="footer-content">
             <p class="copyright">© 2025 Pista Inteligente. Todos los derechos reservados.</p>
+            <div class="footer-links" style="margin-bottom: 0.5rem;">
+                <a href="/quienes-somos"
+                    style="color: var(--text-muted); font-size: 0.9rem; margin-right: 1rem; text-decoration: none;">Quiénes
+                    Somos</a>
+                <a href="/politica-de-privacidad"
+                    style="color: var(--text-muted); font-size: 0.9rem; margin-right: 1rem; text-decoration: none;">Política
+                    de Privacidad</a>
+                <a href="/terminos-y-condiciones"
+                    style="color: var(--text-muted); font-size: 0.9rem; margin-right: 1rem; text-decoration: none;">Términos
+                    y Condiciones</a>
+            </div>
             <p class="credits">
                 Sitio creado por
                 <a href="https://oriundostartupchile.com" target="_blank" rel="noopener noreferrer">

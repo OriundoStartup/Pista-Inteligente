@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Blog Técnico - Pista Inteligente{% endblock %}
+
+{% block content %}
+<div class="container" style="padding: 2rem 0;">
+    <h1 class="text-center" style="margin-bottom: 3rem;">Blog Técnico y Mejores Prácticas</h1>
+
+    <div class="row">
+        <!-- Article Card 1 -->
+        <div class="col-md-6 mb-4">
+            <div class="card"
+                style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; overflow: hidden; height: 100%;">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: var(--primary);">Metodología de Precisión</h5>
+                    <p class="card-text">Descubre cómo nuestros modelos de Inteligencia Artificial procesan miles de
+                        variables para generar predicciones hípicas con transparencia y rigor técnico.</p>
+                    <a href="/blog/metodologia-precision" class="btn btn-primary btn-sm">Leer Artículo Completo</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Placeholder for future articles -->
+        <div class="col-md-6 mb-4">
+            <div class="card"
+                style="background: rgba(255,255,255,0.02); border: 1px dashed rgba(255,255,255,0.1); border-radius: 12px; height: 100%; display: flex; align-items: center; justify-content: center;">
+                <p class="text-muted">Próximamente más contenido técnico...</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

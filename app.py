@@ -101,6 +101,26 @@ def precision():
                          metricas_all=metricas_all,
                          predicciones_recientes=predicciones_recientes)
 
+@app.route('/politica-de-privacidad')
+def politica_privacidad():
+    return render_template('privacy_policy.html')
+
+@app.route('/terminos-y-condiciones')
+def terminos():
+    return render_template('terms.html')
+
+@app.route('/quienes-somos')
+def quienes_somos():
+    return render_template('about.html')
+
+@app.route('/blog')
+def blog_index():
+    return render_template('blog_index.html')
+
+@app.route('/blog/metodologia-precision')
+def blog_article_precision():
+    return render_template('blog/article_precision.html')
+
 @app.route('/api/chat', methods=['POST'])
 def chat_api():
     data = request.json
@@ -175,6 +195,16 @@ def sitemap_xml():
         'changefreq': 'daily',
         'priority': '0.8'
     })
+
+    # Páginas Estáticas (Legales y Blog)
+    static_pages = ['politica_privacidad', 'terminos', 'quienes_somos', 'blog_index']
+    for p in static_pages:
+        pages.append({
+            'loc': url_for(p, _external=True),
+            'lastmod': datetime.now().strftime('%Y-%m-%d'),
+            'changefreq': 'monthly',
+            'priority': '0.5'
+        })
     
     # Generar XML
     sitemap_xml = '<?xml version="1.0" encoding="UTF-8"?>\n'

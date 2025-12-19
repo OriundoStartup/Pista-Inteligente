@@ -503,12 +503,35 @@ def obtener_estadisticas_generales():
         pistas_stats['promedio_div'] = pistas_stats['promedio_div'].fillna(0)
         track_stats = pistas_stats.to_dict('records')
         
+        # 4. Estadísticas del Modelo (Último Mes)
+        from datetime import timedelta
+        fecha_fim = datetime.now().strftime('%Y-%m-%d')
+        fecha_ini = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')
+        
+        # Llamada a calcular_precision_modelo
+        # Nota: calcular_precision_modelo abre su propia conexion a BD, lo cual es seguro.
+        stats_modelo = calcular_precision_modelo(fecha_inicio=fecha_ini, fecha_fin=fecha_fim)
+        
+        aciertos_mes = stats_modelo.get('top1_accuracy', 0)
+        divs_generados = stats_modelo.get('total_dividendos', 0)
+
         return {
             'jinetes': top_jinetes,
             'caballos': top_caballos,
             'pistas': track_stats,
-            'total_carreras': len(df)
+            'total_carreras': len(df),
+            'aciertos_ultimo_mes': aciertos_mes,
+            'dividendos_generados': divs_generados
         }
+        
+    except Exception as e:
+        print(f"Error calculando estadisticas: {e}")
+        return {'jinetes': [], 'caballos': [], 'pistas': [], 'total_carreras': 0}
+
+    # Re-inyectar calculos de precision al final de todo (fuera del try/except principal si se desea, 
+    # o dentro. Mejor hacerlo antes del return para consistencia)
+    # Lo haré re-escribiendo el bloque de return para incluir la llamada.
+
         
     except Exception as e:
         print(f"Error calculando estadisticas: {e}")
@@ -612,7 +635,8 @@ def calcular_precision_modelo(fecha_inicio=None, fecha_fin=None, nombre_db='data
             p.numero_caballo,
             p.caballo_id,
             p.ranking_prediccion,
-            part.posicion as posicion_real
+            part.posicion as posicion_real,
+            part.dividendo
         FROM predicciones p
         INNER JOIN programa_carreras pc 
             ON p.fecha_carrera = pc.fecha 
@@ -648,6 +672,7 @@ def calcular_precision_modelo(fecha_inicio=None, fecha_fin=None, nombre_db='data
                 'top1_accuracy': 0.0,
                 'top3_accuracy': 0.0,
                 'top4_accuracy': 0.0,
+                'total_dividendos': 0.0,
                 'mensaje': 'No hay datos suficientes para calcular precisión'
             }
         
@@ -655,10 +680,26 @@ def calcular_precision_modelo(fecha_inicio=None, fecha_fin=None, nombre_db='data
         total_carreras = df.groupby(['fecha_carrera', 'hipodromo', 'nro_carrera']).ngroups
         
         # Top 1: El caballo con ranking 1 en predicciones terminó en posición 1
-        top1_correct = len(df[(df['ranking_prediccion'] == 1) & (df['posicion_real'] == 1)])
+        top1_correct_df = df[(df['ranking_prediccion'] == 1) & (df['posicion_real'] == 1)]
+        top1_correct = len(top1_correct_df)
         total_top1_predictions = len(df[df['ranking_prediccion'] == 1])
         top1_accuracy = (top1_correct / total_top1_predictions * 100) if total_top1_predictions > 0 else 0
         
+        # Calcular Dividendos Generados (Suma de dividendos de aciertos Top 1)
+        # Asegurar que dividendo sea numérico
+        if 'dividendo' in df.columns:
+             # Limpiar strings si es necesario (ej: "2.5" o "2,5") aunque SQLite suele devolver float/str
+             # Pandas read_sql_query intenta inferir, pero forzamos por seguridad si viene como objeto
+             if df['dividendo'].dtype == object:
+                 df['dividendo'] = df['dividendo'].astype(str).str.replace(',', '.', regex=False)
+                 df['dividendo'] = pd.to_numeric(df['dividendo'], errors='coerce').fillna(0.0)
+             
+             # Recalcular top1_correct_df con la columna limpia
+             top1_correct_df = df[(df['ranking_prediccion'] == 1) & (df['posicion_real'] == 1)]
+             total_dividendos = top1_correct_df['dividendo'].sum()
+        else:
+             total_dividendos = 0.0
+
         # Top 3: Caballos predichos en top 3 que terminaron en top 3
         top3_correct = len(df[(df['ranking_prediccion'] <= 3) & (df['posicion_real'] <= 3)])
         total_top3_predictions = len(df[df['ranking_prediccion'] <= 3])
@@ -675,6 +716,7 @@ def calcular_precision_modelo(fecha_inicio=None, fecha_fin=None, nombre_db='data
             'top1_accuracy': round(top1_accuracy, 2),
             'top1_correct': top1_correct,
             'top1_total': total_top1_predictions,
+            'total_dividendos': round(total_dividendos, 1),
             'top3_accuracy': round(top3_accuracy, 2),
             'top3_correct': top3_correct,
             'top3_total': total_top3_predictions,

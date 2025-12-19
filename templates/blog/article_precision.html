@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+
+{% block title %}Metodología de Precisión en Predicciones Hípicas - Pista Inteligente{% endblock %}
+
+{% block meta_description %}
+<meta name="description"
+    content="Análisis técnico de cómo funcionan nuestros modelos de IA para predicciones hípicas. Metodología, Big Data y validación estadística.">
+{% endblock %}
+
+{% block content %}
+<div class="container" style="padding: 4rem 0;">
+    <article class="blog-post"
+        style="max-width: 800px; margin: 0 auto; background: rgba(255,255,255,0.03); padding: 3rem; border-radius: 16px;">
+        <header style="margin-bottom: 3rem; text-align: center;">
+            <span class="badge bg-primary mb-3">Tecnología</span>
+            <h1 style="font-size: 2.5rem; font-weight: 700;">Metodología de Precisión: La Ciencia de Datos detrás de la
+                Pista</h1>
+            <p class="text-muted">Por Equipo de Data Science | 18 de Diciembre, 2025</p>
+        </header>
+
+        <section>
+            <h2>Introducción</h2>
+            <p>En el mundo de la hípica, la tradición suele dictar que el "ojo clínico" es insustituible. Sin embargo,
+                en <strong>Pista Inteligente</strong>, creemos que la intuición no se opone a la ciencia; se
+                complementa. Nuestra plataforma nació con un objetivo claro: aplicar metodologías de <strong>Big
+                    Data</strong> y <strong>Machine Learning</strong> para cuantificar la incertidumbre inherente a las
+                carreras de caballos en Chile.</p>
+            <p>Este artículo detalla nuestra metodología técnica, explicando cómo transformamos datos históricos en
+                probabilidades accionables, manteniendo un estándar de transparencia poco común en la industria.</p>
+        </section>
+
+        <section class="mt-5">
+            <h2>Metodología y Arquitectura de Datos</h2>
+            <p>Nuestro pipeline de datos opera en tres etapas críticas, diseñadas para minimizar el ruido y maximizar la
+                señal predictiva:</p>
+
+            <h3>1. Ingesta y Limpieza (ETL)</h3>
+            <p>Procesamos diariamente programas oficiales y resultados del <strong>Hipódromo Chile</strong> y el
+                <strong>Club Hípico de Santiago</strong>. Nuestro sistema normaliza variables heterogéneas como
+                distancias, estados de pista (firme, regular, pesada) y categorías de jinetes, creando un dataset
+                estructurado apto para el entrenamiento.</p>
+
+            <h3>2. Ingeniería de Características (Feature Engineering)</h3>
+            <p>No solo miramos quién ganó ayer. Creamos nuevas variables derivadas que capturan el rendimiento
+                contextual:</p>
+            <ul>
+                <li><strong>Índice de Velocidad Relativa:</strong> Ajustado por la condición de la pista en el día
+                    específico.</li>
+                <li><strong>Cohorte de Competencia:</strong> Evaluamos la calidad de los rivales que un ejemplar ha
+                    enfrentado previamente.</li>
+                <li><strong>Fatiga y Descanso:</strong> Modelamos el impacto de los días sin correr en el rendimiento
+                    esperado.</li>
+            </ul>
+
+            <h3>3. Modelado Predictivo (Ensemble Learning)</h3>
+            <p>Utilizamos una arquitectura de "Ensemble" que combina múltiples algoritmos (Random Forest, Gradient
+                Boosting) para reducir la varianza. El modelo no predice solo el ganador, sino la probabilidad de que
+                cada caballo termine en el Top 3, permitiendo estrategias de apuestas más matizadas (Exarcas,
+                Trifectas).</p>
+        </section>
+
+        <section class="mt-5">
+            <h2>Beneficios de los Datos Estructurados</h2>
+            <p>Para el aficionado hípico, el acceso a datos procesados ofrece ventajas tangibles frente al análisis
+                tradicional:</p>
+            <ul>
+                <li><strong>Objetividad:</strong> Los algoritmos no tienen favoritos emocionales ni sesgos cognitivos
+                    recientes.</li>
+                <li><strong>Consistencia:</strong> El modelo evalúa cada carrera con los mismos criterios rigurosos, sin
+                    "cansarse" al analizar la última carrera de la jornada.</li>
+                <li><strong>Detección de Valor:</strong> Identificamos caballos con alta probabilidad de figurar que el
+                    mercado de apuestas puede estar subestimando (golpes).</li>
+            </ul>
+        </section>
+
+        <section class="mt-5">
+            <h2>Casos de Uso: Interpretando la Probabilidad</h2>
+            <p>Nuestra plataforma presenta un "Score de Confianza". ¿Cómo debe interpretarse?</p>
+            <p>Un score alto (>85%) indica que múltiples variables convergen hacia un resultado claro. Sin embargo, en
+                carreras de handicap bajo, donde el lote es muy parejo, nuestros modelos suelen mostrar probabilidades
+                más distribuidas. Aquí es donde el usuario experto utiliza nuestra información para confirmar su propio
+                análisis, no para reemplazarlo ciega y mecánicamente.</p>
+        </section>
+
+        <section class="mt-5" style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 3rem;">
+            <h2>Conclusión</h2>
+            <p>La hípica es, por definición, impredecible. Caballos tropiezan, jinetes cometen errores y el clima
+                cambia. Ningún algoritmo puede eliminar la suerte de la ecuación. Sin embargo, nuestra metodología busca
+                inclinar las probabilidades a favor del usuario informado. Al transparentar nuestro proceso y nuestras
+                métricas de precisión, esperamos elevar el estándar de análisis en la hípica chilena, moviéndonos desde
+                la "apuesta por corazonada" a la "inversión basada en datos".</p>
+        </section>
+    </article>
+</div>
+{% endblock %}
