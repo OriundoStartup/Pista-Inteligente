@@ -7,6 +7,40 @@ from dotenv import load_dotenv
 
 app = Flask(__name__)
 
+# --- SECURITY: BASIC RATE LIMITER ---
+import time
+from collections import defaultdict
+
+class SimpleRateLimiter:
+    def __init__(self, limit=60, window=60):
+        self.limit = limit
+        self.window = window
+        self.requests = defaultdict(list)
+
+    def is_allowed(self, ip):
+        now = time.time()
+        # Limpiar requests viejos
+        self.requests[ip] = [t for t in self.requests[ip] if now - t < self.window]
+        
+        if len(self.requests[ip]) < self.limit:
+            self.requests[ip].append(now)
+            return True
+        return False
+
+# Limite: 100 peticiones por minuto por IP (Anti-Scraping básico)
+limiter = SimpleRateLimiter(limit=100, window=60)
+
+@app.before_request
+def rate_limit_check():
+    # Excluir estáticos para no afectar navegación normal
+    if request.path.startswith('/static'):
+        return
+        
+    ip = request.remote_addr
+    if not limiter.is_allowed(ip):
+        return jsonify({'error': 'Rate limit exceeded. Try again later.'}), 429
+# ------------------------------------
+
 # Configuración
 load_dotenv() # Carga variables del archivo .env
 configurar_gemini()
@@ -70,8 +104,8 @@ def programa():
 @app.route('/analisis')
 def analisis():
     hipodromo_filter = request.args.get('hipodromo', 'Todos')
-    patrones = obtener_patrones_la_tercera(hipodromo_filter)
-    return render_template('analysis.html', patrones=patrones, hipodromo_filter=hipodromo_filter)
+    patrones, last_updated = obtener_patrones_la_tercera(hipodromo_filter)
+    return render_template('analysis.html', patrones=patrones, hipodromo_filter=hipodromo_filter, last_updated=last_updated)
 
 @app.route('/precision')
 def precision():
