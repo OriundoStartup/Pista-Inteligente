@@ -471,6 +471,7 @@ class HipicaETL:
             'Nombre Ejemplar': 'nombre',
             'Caballo': 'nombre',
             'caballo': 'nombre',  # Fix: Lowercase in some files
+            'Caballo_Padre': 'nombre', # Fix: CHC combined column
             'Ejemplar': 'nombre',
             'ejemplar': 'nombre',
             'ganador': 'nombre',

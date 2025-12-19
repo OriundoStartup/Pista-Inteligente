@@ -8,98 +8,98 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "PACIENCIA ETERNA (ANNUAL REP)",
         "Jinete": "J. PIMENTEL",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "VAI BENE COSI (INTERNATIONAL ST)",
         "Jinete": "H. MANRIQUEZ F.",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "NEGRO APAPUCHI (EL PIÑON)",
         "Jinete": "G. PERALTA P.",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "MY CLAUDIA (SEEKING THE DIA)",
         "Jinete": "G. RODRIGUEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "FELIPHON (SHANGHAI BOBBY)",
         "Jinete": "A. FERNANDEZ L.",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "GRAN SAMIR (SCAT ROYAL)",
         "Jinete": "G. ULLOA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "REPUBLIC ANA (EXAGGERATOR)",
         "Jinete": "JS. SOLANO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "JAVIVALETU (EXAGGERATOR)",
         "Jinete": "V. MIRANDA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "HAMM GOOD (GOOD SAMARITAN)",
         "Jinete": "JOH. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 10,
-        "Caballo": "Desconocido",
+        "Caballo": "KING NICOLAS (NEKO BAY)",
         "Jinete": "M. VELARDE B.",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 11,
-        "Caballo": "Desconocido",
+        "Caballo": "PATTY NENA (NEWFOUNDLAND)",
         "Jinete": "B. LEON",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 12,
-        "Caballo": "Desconocido",
+        "Caballo": "WALKA (SHANGHAI BOBBY)",
         "Jinete": "N. SANTIBAÑEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 13,
-        "Caballo": "Desconocido",
+        "Caballo": "ATEX (VISCOUNT NELSON)",
         "Jinete": "F. GONZALEZ S.",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 14,
-        "Caballo": "Desconocido",
+        "Caballo": "GRAN TOURIST (TOURIST)",
         "Jinete": "D. E. SILVA G.",
         "Stud": null,
         "Peso": null
@@ -108,28 +108,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "PACIENCIA ETERNA (ANNUAL REP)",
         "jinete": "J. PIMENTEL",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "VAI BENE COSI (INTERNATIONAL ST)",
         "jinete": "H. MANRIQUEZ F.",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "NEGRO APAPUCHI (EL PIÑON)",
         "jinete": "G. PERALTA P.",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "MY CLAUDIA (SEEKING THE DIA)",
         "jinete": "G. RODRIGUEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -145,77 +145,77 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "CRUZA EL RIO (KINGLY)",
         "Jinete": "R. FOURNET",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "MUSICO Y SOLDADO (MENDELSSOHN)",
         "Jinete": "F. MEDINA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "JOHN DUTTON (ROBERT BRUCE)",
         "Jinete": "J. HERRERA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "EN CHATEAUROUX (DUBAI SKY)",
         "Jinete": "N. ROJAS",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "EL ATREVIDO (SPUN TO RUN)",
         "Jinete": "B. TRONCOSO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "A TODO VAPOR (CLASSIC EMPIRE)",
         "Jinete": "J. TORO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "DON CACHAFAZ (GOOD SAMARITAN)",
         "Jinete": "V. MIRANDA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "CATAPOS (IVAN DENISOVICH)",
         "Jinete": "A. VILLAGRA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "EL ORADOR (SPUN TO RUN)",
         "Jinete": "B. SANCHO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 10,
-        "Caballo": "Desconocido",
+        "Caballo": "NYQUISTER (NYQUIST)",
         "Jinete": "J. MEDINA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 11,
-        "Caballo": "Desconocido",
+        "Caballo": "PORTODOS (PORTO FINO)",
         "Jinete": "P. GALAZ",
         "Stud": null,
         "Peso": null
@@ -224,28 +224,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "CRUZA EL RIO (KINGLY)",
         "jinete": "R. FOURNET",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "MUSICO Y SOLDADO (MENDELSSOHN)",
         "jinete": "F. MEDINA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "JOHN DUTTON (ROBERT BRUCE)",
         "jinete": "J. HERRERA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "EN CHATEAUROUX (DUBAI SKY)",
         "jinete": "N. ROJAS",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -261,49 +261,49 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "TATAN FOREVER (FOREVER THING)",
         "Jinete": "P. ROBLES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "SIN PREJUICIOS (GOOD SAMARITAN)",
         "Jinete": "F. HENRIQUEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "VINDALOO (DANGEROUS MIDGE)",
         "Jinete": "J. MEDINA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "LUCA PAGURO (ROBERT BRUCE)",
         "Jinete": "R. CISTERNAS",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "IMANOL (GOOD SAMARITAN)",
         "Jinete": "B. TRONCOSO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "CI MANCHI FRATELO (INTERNATIONAL)",
         "Jinete": "N. RAMIREZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "RED DIAMOND (DIAMOND TYCOON)",
         "Jinete": "B. SANCHO",
         "Stud": null,
         "Peso": null
@@ -312,28 +312,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "TATAN FOREVER (FOREVER THING)",
         "jinete": "P. ROBLES",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "SIN PREJUICIOS (GOOD SAMARITAN)",
         "jinete": "F. HENRIQUEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "VINDALOO (DANGEROUS MIDGE)",
         "jinete": "J. MEDINA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "LUCA PAGURO (ROBERT BRUCE)",
         "jinete": "R. CISTERNAS",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -349,42 +349,42 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "BABY SHAK (KINGLY)",
         "Jinete": "R. FUENZALIDA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "QUE GUSTO DE VERTE (GOOD SAMARITAN)",
         "Jinete": "B. TRONCOSO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "GOOD DEAL (GOOD SAMARITAN)",
         "Jinete": "J. HERRERA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "EL GRIEGO (KATMAI)",
         "Jinete": "O. ULLOA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "DIAMOND BLUE (MENDELSSOHN)",
         "Jinete": "GVO. AROS",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "ALMAGESTO (CLASSIC EMPIRE)",
         "Jinete": "JR. A. GONZALEZ",
         "Stud": null,
         "Peso": null
@@ -393,28 +393,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "BABY SHAK (KINGLY)",
         "jinete": "R. FUENZALIDA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "QUE GUSTO DE VERTE (GOOD SAMARITAN)",
         "jinete": "B. TRONCOSO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "GOOD DEAL (GOOD SAMARITAN)",
         "jinete": "J. HERRERA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "EL GRIEGO (KATMAI)",
         "jinete": "O. ULLOA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -430,91 +430,91 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "JEFA DE JEFAS (GET JETS)",
         "Jinete": "JS. SOLANO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "NAHUEN (GRAN CARBONCILLO)",
         "Jinete": "G. RODRIGUEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "MI NIETA AGUSTINA (FLAMEAWAY)",
         "Jinete": "B. SANCHO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "ME DAS OTRO BESO (PATTERNRECOG)",
         "Jinete": "B. TRONCOSO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "KOBRICH (DUBAI SKY)",
         "Jinete": "J. HERRERA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "RUBIA CLARA (IVAN DENISOVICH)",
         "Jinete": "R. FOURNET",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "KERRYS (KINGLY)",
         "Jinete": "F. MEDINA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "YA AGUS (YA PRIMO)",
         "Jinete": "N. ROJAS",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "LIORA (DANGEROUS MIDGE)",
         "Jinete": "D. CARRASCO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 10,
-        "Caballo": "Desconocido",
+        "Caballo": "SERKET (BILZERIAN)",
         "Jinete": "F. HENRIQUEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 11,
-        "Caballo": "Desconocido",
+        "Caballo": "TRANQUILA NIÑA (MENDELSSOHN)",
         "Jinete": "A. APABLAZA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 12,
-        "Caballo": "Desconocido",
+        "Caballo": "PASCUERA (IVAN DENISOVICH)",
         "Jinete": "M. A. DONOSO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 13,
-        "Caballo": "Desconocido",
+        "Caballo": "POLLY GRAY (TICKET TO RUN)",
         "Jinete": "JS. CUETO",
         "Stud": null,
         "Peso": null
@@ -523,28 +523,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "JEFA DE JEFAS (GET JETS)",
         "jinete": "JS. SOLANO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "NAHUEN (GRAN CARBONCILLO)",
         "jinete": "G. RODRIGUEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "MI NIETA AGUSTINA (FLAMEAWAY)",
         "jinete": "B. SANCHO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "ME DAS OTRO BESO (PATTERNRECOG)",
         "jinete": "B. TRONCOSO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -560,63 +560,63 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "GALWAY GIRL (SEEKING THE DIA)",
         "Jinete": "P. REYES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "LOU ARMSTRONG (ROBERT BRUCE)",
         "Jinete": "W. LEON",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "BREGO (BAD DADDY)",
         "Jinete": "B. SOTO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "SONRISA DULCE (SEEKING THE DIA)",
         "Jinete": "P. ROBLES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "LIMATOWN (MO TOWN)",
         "Jinete": "B. LEON",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "SEE ME (CLOUD COMPUTING)",
         "Jinete": "J. HERRERA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "SINESIO (GEMOLOGIST)",
         "Jinete": "R. S. DORES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "STRAY KIDS (TOURIST)",
         "Jinete": "JON. A. CASTILLO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "SIETE DE ABRIL (CONSTITUTION)",
         "Jinete": "I. VALDIVIA",
         "Stud": null,
         "Peso": null
@@ -625,28 +625,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "GALWAY GIRL (SEEKING THE DIA)",
         "jinete": "P. REYES",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "LOU ARMSTRONG (ROBERT BRUCE)",
         "jinete": "W. LEON",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "BREGO (BAD DADDY)",
         "jinete": "B. SOTO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "SONRISA DULCE (SEEKING THE DIA)",
         "jinete": "P. ROBLES",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -662,70 +662,70 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "MONTES FRAILE (PALM SPRINGS)",
         "Jinete": "A. VILLAGRA-4",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "VITRUVIUS (ROBERT BRUCE)",
         "Jinete": "SEB. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "VAMOS A BAILAR (PATTERNRECOGR)",
         "Jinete": "G. RODRIGUEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "TEJEDOR DE SUEÑOS (STAR DABB)",
         "Jinete": "P. ROBLES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "NO SE NA (THE LUMBER GUY)",
         "Jinete": "J. HERRERA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "CANELO DORADO (FLAMEAWAY)",
         "Jinete": "M. GUTIERREZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "NEED TO FLY (FLYER)",
         "Jinete": "J. MEDINA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "EL REY JULIAN (KHEZAN)",
         "Jinete": "F. MEDINA-4",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "QUE BONITO QUE SOY (MENDELSS)",
         "Jinete": "R. FUENZALIDA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 10,
-        "Caballo": "Desconocido",
+        "Caballo": "WUALALA (ZAWRAQ)",
         "Jinete": "R. FOURNET-4",
         "Stud": null,
         "Peso": null
@@ -734,28 +734,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "MONTES FRAILE (PALM SPRINGS)",
         "jinete": "A. VILLAGRA-4",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "VITRUVIUS (ROBERT BRUCE)",
         "jinete": "SEB. GONZALEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "VAMOS A BAILAR (PATTERNRECOGR)",
         "jinete": "G. RODRIGUEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "TEJEDOR DE SUEÑOS (STAR DABB)",
         "jinete": "P. ROBLES",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -771,70 +771,70 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "EL COMEDIANTE (CUNCE)",
         "Jinete": "R. FOUMET-4",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "PARTNER QUERIDO (GET JETS)",
         "Jinete": "G. RODRIGUEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "MI GIGANTE (GET JETS)",
         "Jinete": "R. FUENZALIDA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "MANO DE PIEDRA (INTERNATIONAL)",
         "Jinete": "R. PAINEN",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "LIAM (FLAMEAWAY)",
         "Jinete": "B. LEON",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "ALPAQUITAY (KINGLY)",
         "Jinete": "N. ROJAS-4",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "EL SALVADOR (INTERNATIONAL STAR)",
         "Jinete": "P. REYES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "COCHEPE (GOOD SAMARITAN)",
         "Jinete": "N. RAMIREZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "LUIS FERNANDO (YA PRIMO)",
         "Jinete": "R. COVARRUBIAS",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 10,
-        "Caballo": "Desconocido",
+        "Caballo": "QUE ILUSO (IVAN DENISOVICH)",
         "Jinete": "JS. CUNTO-1",
         "Stud": null,
         "Peso": null
@@ -843,28 +843,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "EL COMEDIANTE (CUNCE)",
         "jinete": "R. FOUMET-4",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "PARTNER QUERIDO (GET JETS)",
         "jinete": "G. RODRIGUEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "MI GIGANTE (GET JETS)",
         "jinete": "R. FUENZALIDA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "MANO DE PIEDRA (INTERNATIONAL)",
         "jinete": "R. PAINEN",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -880,70 +880,70 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "SALTO DEL GUAPO (GRAND DADDY)",
         "Jinete": "JR. A. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "STORM TIGER (EXAGGERATOR)",
         "Jinete": "R. S. DORES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "MALANDRO (MENDELSSOHN)",
         "Jinete": "B. TRANCOSO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "INDIAN POET (CONSTITUTION)",
         "Jinete": "J. MEDINA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "DESENFRENADO (PRACTICAL JOKE)",
         "Jinete": "L. C. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "PECADO INCONFESABLE (ARG)",
         "Jinete": "J. A. MIÑO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "SCALPING (GOOD SAMARITAN)",
         "Jinete": "B. SANCHO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "PELAMBRE (PRACTICAL JOKE)",
         "Jinete": "A. ALVAREZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "DIVINA FE (SEEKING THE DIA)",
         "Jinete": "P. ROBLES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 10,
-        "Caballo": "Desconocido",
+        "Caballo": "FREUD WISH (MR SPEAKER)",
         "Jinete": "J. HERRERA",
         "Stud": null,
         "Peso": null
@@ -951,30 +951,30 @@
     ],
     "predicciones": [
       {
+        "numero": 6,
+        "caballo": "PECADO INCONFESABLE (ARG)",
+        "jinete": "J. A. MIÑO",
+        "puntaje_ia": 84.3,
+        "prob_ml": "99.0"
+      },
+      {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "SALTO DEL GUAPO (GRAND DADDY)",
         "jinete": "JR. A. GONZALEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "STORM TIGER (EXAGGERATOR)",
         "jinete": "R. S. DORES",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "MALANDRO (MENDELSSOHN)",
         "jinete": "B. TRANCOSO",
-        "puntaje_ia": 82.8,
-        "prob_ml": "99.0"
-      },
-      {
-        "numero": 4,
-        "caballo": "Desconocido",
-        "jinete": "J. MEDINA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       }
@@ -989,63 +989,63 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "FAGIOLO (HEOTENANNY)",
         "Jinete": "V. MIRANDA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "PAPUDO CHROME (CALIFORNIA CHR)",
         "Jinete": "JR. ZUÑIGA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "LUDANA (MUCHO MACHO MAR)",
         "Jinete": "1. VALDIVIA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "MONACO (ARG) (CATCHER IN THE)",
         "Jinete": "N. MOLINA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "EL MERLUZO (HOOTENANNY)",
         "Jinete": "B. TRANCOSO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "EL UNGIDO (ROBERT BRUCE)",
         "Jinete": "L TORRES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "PRIMER VALS (MIDSHIPMAN)",
         "Jinete": "J. HERRERA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "LONWHITE (MENDELSSOHN)",
         "Jinete": "R. CISTERNAS",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "DON MATIAS (HINZ)",
         "Jinete": "A. ALVAREZ",
         "Stud": null,
         "Peso": null
@@ -1054,28 +1054,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "FAGIOLO (HEOTENANNY)",
         "jinete": "V. MIRANDA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "PAPUDO CHROME (CALIFORNIA CHR)",
         "jinete": "JR. ZUÑIGA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "LUDANA (MUCHO MACHO MAR)",
         "jinete": "1. VALDIVIA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "MONACO (ARG) (CATCHER IN THE)",
         "jinete": "N. MOLINA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -1091,84 +1091,84 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "CHAMPELICE (KATMAI)",
         "Jinete": "SEB. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "LA PALA (FLAMEAWAY)",
         "Jinete": "M. MORALES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "TEA AND MILK (LOOKIN AT LUCKY)",
         "Jinete": "G. RODRIGUEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "PURA ROSA (WAR COMMAND)",
         "Jinete": "JOH. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "MANKIND (GOLDENCENTS)",
         "Jinete": "R. PAINEN",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "EL BOHEMIO (MIDSHIPMAN)",
         "Jinete": "B. TRANCOSO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "EL KING (MEGLIARE DI TUTTI)",
         "Jinete": "JS. CUETO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "CASPER INN (DYLAN THOMAS)",
         "Jinete": "S. MUÑOZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "NEL BLU (CONSTITUTION)",
         "Jinete": "M. GUTIERREZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 10,
-        "Caballo": "Desconocido",
+        "Caballo": "EL NENE (PAPELUN)",
         "Jinete": "A. ALVAREZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 11,
-        "Caballo": "Desconocido",
+        "Caballo": "EXTROVERTIDA (MASTERCRAFTSMA)",
         "Jinete": "F. MEDINA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 12,
-        "Caballo": "Desconocido",
+        "Caballo": "PACIFICADOR (DANGEROUS MIDGE)",
         "Jinete": "L. C. GONZALEZ",
         "Stud": null,
         "Peso": null
@@ -1177,28 +1177,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "CHAMPELICE (KATMAI)",
         "jinete": "SEB. GONZALEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "LA PALA (FLAMEAWAY)",
         "jinete": "M. MORALES",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "TEA AND MILK (LOOKIN AT LUCKY)",
         "jinete": "G. RODRIGUEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "PURA ROSA (WAR COMMAND)",
         "jinete": "JOH. GONZALEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -1214,77 +1214,77 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "NONA BLANCA (KATMAI)",
         "Jinete": "J. TORO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "GRAN TOMAHAWK (DADDY LONG)",
         "Jinete": "M. A. DONOSO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "BICAMPEON CHILENO (DYLAN THE)",
         "Jinete": "M. A. BUSTAMAR",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "AGUILA DE FUEGO (GOOD SAMARIT)",
         "Jinete": "R. FUENZALIDA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "SEE YOU AGAIN (GOOD SAMARITAN)",
         "Jinete": "L. C. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "ANTIOCO (CLASSIC EMPIRE)",
         "Jinete": "M. MORALES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "NOVELA GRIEGA (OCEAN TER)",
         "Jinete": "P. REYES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "OJO DE HALCON (SEVILLE LI)",
         "Jinete": "D. CARRASCO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "VALLTTERI (WAR COMMAND)",
         "Jinete": "R. AVILA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 10,
-        "Caballo": "Desconocido",
+        "Caballo": "MUY RESPETADA (FOREVER THING)",
         "Jinete": "JS. SOLANE",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 11,
-        "Caballo": "Desconocido",
+        "Caballo": "TAN DECORATIVA (DADDY LONG L)",
         "Jinete": "W. QUINTEROS",
         "Stud": null,
         "Peso": null
@@ -1293,28 +1293,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "NONA BLANCA (KATMAI)",
         "jinete": "J. TORO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "GRAN TOMAHAWK (DADDY LONG)",
         "jinete": "M. A. DONOSO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "BICAMPEON CHILENO (DYLAN THE)",
         "jinete": "M. A. BUSTAMAR",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "AGUILA DE FUEGO (GOOD SAMARIT)",
         "jinete": "R. FUENZALIDA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -1330,77 +1330,77 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "TRES PRINCIPES (FLAMEAWAY)",
         "Jinete": "G. ULLEA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "JALONADO (DYLAN THOMAS)",
         "Jinete": "JS. SOLANO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "HUMAN SOUL (IVAN DENISOVICH)",
         "Jinete": "B. SANCHO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "FRENCH CANDY (SEÑOR CANDY)",
         "Jinete": "F. MEDINA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "KANDOZI (IVAN DENISOVICH)",
         "Jinete": "SEB. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "CRANS MONTANA (BAD DADDY)",
         "Jinete": "J. HERRERA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "ALTO FOREVER (IVAN DENISOVICH)",
         "Jinete": "G. RODRIGUEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "HERR MAXIMUM (DUBAI SKY)",
         "Jinete": "JON. A. CASTILLO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "TIGRO (ARG) (MASTERCRAFTSMAN)",
         "Jinete": "A. APABLAZA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 10,
-        "Caballo": "Desconocido",
+        "Caballo": "RAIRET (DYLAN THOMAS)",
         "Jinete": "R. SOLORZA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 11,
-        "Caballo": "Desconocido",
+        "Caballo": "PETIROSSA (IVAN DENISOVICH)",
         "Jinete": "R. AVILA",
         "Stud": null,
         "Peso": null
@@ -1409,28 +1409,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "TRES PRINCIPES (FLAMEAWAY)",
         "jinete": "G. ULLEA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "JALONADO (DYLAN THOMAS)",
         "jinete": "JS. SOLANO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "HUMAN SOUL (IVAN DENISOVICH)",
         "jinete": "B. SANCHO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "FRENCH CANDY (SEÑOR CANDY)",
         "jinete": "F. MEDINA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -1446,105 +1446,105 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "ERKAN (FLAMEAWAY)",
         "Jinete": "M. A. BUSTAMAR",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "RAYMI (INTERNATIONAL STAR)",
         "Jinete": "R. SOLORZA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "POETA GRIEGO (ARG) (LUCULLAN)",
         "Jinete": "B. LEON",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "MACHINE HEAD (PALM SPRINGS)",
         "Jinete": "N. ROJAS-4",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "JULIO PARDO (DYLAN THOMAS)",
         "Jinete": "M. GUTIERREZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "ALFONSO EL GRANDE (ALFONSO)",
         "Jinete": "A. ALVAREZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "GO SUNSHINE GO (SPUN TO RUN)",
         "Jinete": "J. HERRERA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "ARRUMACO (ZAWRAQ)",
         "Jinete": "B. SANCHO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "LUPO VELOCE (VISCOUNT NELSON)",
         "Jinete": "L. C. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 10,
-        "Caballo": "Desconocido",
+        "Caballo": "TRASCATRASCA (BAD DADDY)",
         "Jinete": "SEH. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 11,
-        "Caballo": "Desconocido",
+        "Caballo": "VIAJE A CARMEL (FORWARD MARCI)",
         "Jinete": "A. VILLAGRA-4",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 12,
-        "Caballo": "Desconocido",
+        "Caballo": "SIEMPRE ESTOY (INTERNATIONAL ST)",
         "Jinete": "G. RODRIGUEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 13,
-        "Caballo": "Desconocido",
+        "Caballo": "TEMPLE DEL TOQUE (DUBAI SKY)",
         "Jinete": "8. MUÑOZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 14,
-        "Caballo": "Desconocido",
+        "Caballo": "TORO DEL MONTE (MONTHIR)",
         "Jinete": "R. FUENZALIDA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 15,
-        "Caballo": "Desconocido",
+        "Caballo": "SALTO DE AMISTAD (GRAND DAD)",
         "Jinete": "R. S. DERES",
         "Stud": null,
         "Peso": null
@@ -1553,28 +1553,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "ERKAN (FLAMEAWAY)",
         "jinete": "M. A. BUSTAMAR",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "RAYMI (INTERNATIONAL STAR)",
         "jinete": "R. SOLORZA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "POETA GRIEGO (ARG) (LUCULLAN)",
         "jinete": "B. LEON",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "MACHINE HEAD (PALM SPRINGS)",
         "jinete": "N. ROJAS-4",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -1590,105 +1590,105 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "LA ESCUDERA (LOOKIN AT LUCKY)",
         "Jinete": "M. A. BUSTAMAR",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "MORINGA (SEEKING THE DIA)",
         "Jinete": "J. MEDINA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "LONCO BRAVO (EL HUEÑE)",
         "Jinete": "JR. A. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "JUNO (CLASSIC EMPIRE)",
         "Jinete": "SEH. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "ACLIS (EXAGGERATOR)",
         "Jinete": "JS. PAREDES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "CIAO JUANITA (GOOD SAMARITAN)",
         "Jinete": "L. D. MENGHINI",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "A MI EDAD DIFICIL (PATTERNRECOG)",
         "Jinete": "R. COVARRUBIAS",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "COSE DELLA VITA (INTERNATIONAL)",
         "Jinete": "M. MORALES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "CASUAL VISION (VISION AND VERS)",
         "Jinete": "R. S. DORES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 10,
-        "Caballo": "Desconocido",
+        "Caballo": "SULTAN GUERRERO (VAN NISTELRO)",
         "Jinete": "R. AVILA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 11,
-        "Caballo": "Desconocido",
+        "Caballo": "AMPAWAN (KATMAI)",
         "Jinete": "B. SOTO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 12,
-        "Caballo": "Desconocido",
+        "Caballo": "BRUJO DORADO (OCEAN TERRACE)",
         "Jinete": "D. CARRASCO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 13,
-        "Caballo": "Desconocido",
+        "Caballo": "EL PELUSA (DADDY LONG LEGS)",
         "Jinete": "M. A. DONOSO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 14,
-        "Caballo": "Desconocido",
+        "Caballo": "RUCIA DEL DOC (EXAGGERATOR)",
         "Jinete": "J. TORO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 15,
-        "Caballo": "Desconocido",
+        "Caballo": "SEÑOR TRONCOSO (FORWARD MAI)",
         "Jinete": "R. FUENZALIDA",
         "Stud": null,
         "Peso": null
@@ -1697,28 +1697,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "LA ESCUDERA (LOOKIN AT LUCKY)",
         "jinete": "M. A. BUSTAMAR",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "MORINGA (SEEKING THE DIA)",
         "jinete": "J. MEDINA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "LONCO BRAVO (EL HUEÑE)",
         "jinete": "JR. A. GONZALEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "JUNO (CLASSIC EMPIRE)",
         "jinete": "SEH. GONZALEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -1734,77 +1734,77 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "DE ORO Y COBRE (CONSTITUTION)",
         "Jinete": "G. RODRIGUEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "DONDE RAUL (MALAGACY)",
         "Jinete": "V. MIRANDA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "CRISTALINO (MENDELSSOHN)",
         "Jinete": "JON. A. CASTILLO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "RIO AZOPARDO (CONSTITUTION)",
         "Jinete": "B. SANCHO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "TENGO UN SUEND (GOOD SAMARIT)",
         "Jinete": "R. AVILA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "MISTERIO LUMINOSO (GRAND DAR)",
         "Jinete": "R. S. DORES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "DON MIGUE (GOUD SAMARITAN)",
         "Jinete": "B. TRANCOSO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "BESO AL CIELO (GRAND DADDY)",
         "Jinete": "R. PAINEN",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "EL ARRUGAO (DISTORTED ECONOMY)",
         "Jinete": "V. BRACETTI",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 10,
-        "Caballo": "Desconocido",
+        "Caballo": "HARRY GO (CUNCO)",
         "Jinete": "JOH. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 11,
-        "Caballo": "Desconocido",
+        "Caballo": "QUEEN TIGER (HANDSOME TIGER)",
         "Jinete": "R. CISTERNAS",
         "Stud": null,
         "Peso": null
@@ -1813,28 +1813,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "DE ORO Y COBRE (CONSTITUTION)",
         "jinete": "G. RODRIGUEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "DONDE RAUL (MALAGACY)",
         "jinete": "V. MIRANDA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "CRISTALINO (MENDELSSOHN)",
         "jinete": "JON. A. CASTILLO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "RIO AZOPARDO (CONSTITUTION)",
         "jinete": "B. SANCHO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -1850,105 +1850,105 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "VERSE BIEN (ADMIRAL)",
         "Jinete": "SEH. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "ARAGONERD (THE LUMBER GUY)",
         "Jinete": "P. REYES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "ALCABONTA (PATTERNRECOGNITION)",
         "Jinete": "JR. A_ GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "TINTA ETERNA (DYLAN THOMAS)",
         "Jinete": "R. COVARRUBIAS",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "SABIONDO (PATTEMRECOGNITION)",
         "Jinete": "JON. A_ CASTILLO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "SAIKOU (LOOKIN AT LUCKY)",
         "Jinete": "C. FUENZALIDA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "ACEPTO SEÑOR (GSTAAD LI)",
         "Jinete": "A. ZUÑIGA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "SUBI (PASSION FOR GELD)",
         "Jinete": "R. SOLORZA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "SEÑOR AMANTE (GRAND DAD)",
         "Jinete": "B. SOTO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 10,
-        "Caballo": "Desconocido",
+        "Caballo": "TWEETY (VISCOUNT NELSON)",
         "Jinete": "J. MEDINA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 11,
-        "Caballo": "Desconocido",
+        "Caballo": "YO SOY YI (GRAND DADDY)",
         "Jinete": "G. RODRIGUEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 12,
-        "Caballo": "Desconocido",
+        "Caballo": "MISTER HEAD (DYLAN THOMAS)",
         "Jinete": "A. ALVAREZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 13,
-        "Caballo": "Desconocido",
+        "Caballo": "MAGUIRE (MO TOWN)",
         "Jinete": "R. PAINEN.",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 14,
-        "Caballo": "Desconocido",
+        "Caballo": "MATE AMARGO (AHORA LI)",
         "Jinete": "J. TORO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 15,
-        "Caballo": "Desconocido",
+        "Caballo": "DOCTORA MILAGRO (GOOD SAMA)",
         "Jinete": "N. ROJAS",
         "Stud": null,
         "Peso": null
@@ -1957,28 +1957,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "VERSE BIEN (ADMIRAL)",
         "jinete": "SEH. GONZALEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "ARAGONERD (THE LUMBER GUY)",
         "jinete": "P. REYES",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "ALCABONTA (PATTERNRECOGNITION)",
         "jinete": "JR. A_ GONZALEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "TINTA ETERNA (DYLAN THOMAS)",
         "jinete": "R. COVARRUBIAS",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -1994,105 +1994,105 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "MUY TEMPERADA (DISTORTED ECO)",
         "Jinete": "JOH. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "MECEDOR (HOLD ME BACK)",
         "Jinete": "W. QUINTEROS",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "LITTLE GASPI (WAR COMMAND)",
         "Jinete": "D. CARRASCO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "JARDIN OLVIDADO (EXAGGERATOR)",
         "Jinete": "M. A. DONUSO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "VUELA EL AMOR (GEMMOLOGIST)",
         "Jinete": "C. FUENZALIDA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "ACHAPLINA (SEEKING THE DIA)",
         "Jinete": "L. C. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "QUEEN ANY (CLOUD COMPUTING)",
         "Jinete": "A. VILLAGRA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "ASTRO SOL (GOOD SAMARITAN)",
         "Jinete": "N. SANTIBAÑEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "EL FELICIDAD (IVAN DENISOVICH)",
         "Jinete": "B. TRONCOSO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 10,
-        "Caballo": "Desconocido",
+        "Caballo": "FINAU (DADDY LONG LEGS)",
         "Jinete": "L. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 11,
-        "Caballo": "Desconocido",
+        "Caballo": "VUELVE LA FARRA (EL FARRERO)",
         "Jinete": "CL. JORQUERA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 12,
-        "Caballo": "Desconocido",
+        "Caballo": "PEDRINHO (GSTAAD LI)",
         "Jinete": "JR. A. MORA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 13,
-        "Caballo": "Desconocido",
+        "Caballo": "QUIEN ME PILLO (MIDSHIPMAN)",
         "Jinete": "C. ORTEGA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 14,
-        "Caballo": "Desconocido",
+        "Caballo": "CABLE A TIERRA (FANTASMAGORIC)",
         "Jinete": "A. APABLAZA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 15,
-        "Caballo": "Desconocido",
+        "Caballo": "BEHIND THE SUN (PATTERNRECOGN)",
         "Jinete": "R. FUENZALIDA",
         "Stud": null,
         "Peso": null
@@ -2101,28 +2101,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "MUY TEMPERADA (DISTORTED ECO)",
         "jinete": "JOH. GONZALEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "MECEDOR (HOLD ME BACK)",
         "jinete": "W. QUINTEROS",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "LITTLE GASPI (WAR COMMAND)",
         "jinete": "D. CARRASCO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "JARDIN OLVIDADO (EXAGGERATOR)",
         "jinete": "M. A. DONUSO",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
@@ -2138,105 +2138,105 @@
     "caballos": [
       {
         "Nº": 1,
-        "Caballo": "Desconocido",
+        "Caballo": "EMA COOCK (NEWFOUNDLAND)",
         "Jinete": "P. REYES",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 2,
-        "Caballo": "Desconocido",
+        "Caballo": "SOY EL CANTANTE (PATTERNRECOÇ)",
         "Jinete": "L. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 3,
-        "Caballo": "Desconocido",
+        "Caballo": "REY HOTU (MA TOWN)",
         "Jinete": "C. ORTEGA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 4,
-        "Caballo": "Desconocido",
+        "Caballo": "RAPIDO Y VELOZ (GOOD SAMARITA)",
         "Jinete": "G. RODRIGUEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 5,
-        "Caballo": "Desconocido",
+        "Caballo": "PATMAHO (GRAND DADDY)",
         "Jinete": "B. SOTU",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 6,
-        "Caballo": "Desconocido",
+        "Caballo": "BOY SCOUT (HINZ)",
         "Jinete": "JON. A. CASTILLO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 7,
-        "Caballo": "Desconocido",
+        "Caballo": "NEOLIBERAL (PRACTICAL JOKE)",
         "Jinete": "D. CARRASCO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 8,
-        "Caballo": "Desconocido",
+        "Caballo": "EL SOM CENTAURO (IRON CLAD)",
         "Jinete": "W. QUINTEROS",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 9,
-        "Caballo": "Desconocido",
+        "Caballo": "PUNTO QUIEBRE (ANNUAL REPORT)",
         "Jinete": "B. TRONCOSO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 10,
-        "Caballo": "Desconocido",
+        "Caballo": "JE T'AIME (CUPID)",
         "Jinete": "JOH. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 11,
-        "Caballo": "Desconocido",
+        "Caballo": "REY DEL ESTERO (PATTERNRECOGNI)",
         "Jinete": "J. HERRERA",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 12,
-        "Caballo": "Desconocido",
+        "Caballo": "ANFIELD ROAD (DISTORTED ECONOR)",
         "Jinete": "J. TORO",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 13,
-        "Caballo": "Desconocido",
+        "Caballo": "EN HONOR A TITO (PATTERNRECOG)",
         "Jinete": "R. COVARRUBIAS",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 14,
-        "Caballo": "Desconocido",
+        "Caballo": "GRAN KURU (EXAGGERATOR)",
         "Jinete": "L. C. GONZALEZ",
         "Stud": null,
         "Peso": null
       },
       {
         "Nº": 15,
-        "Caballo": "Desconocido",
+        "Caballo": "TERCIADOR (CLASSIC EMPIRE)",
         "Jinete": "A. ALVAREZ",
         "Stud": null,
         "Peso": null
@@ -2245,28 +2245,28 @@
     "predicciones": [
       {
         "numero": 1,
-        "caballo": "Desconocido",
+        "caballo": "EMA COOCK (NEWFOUNDLAND)",
         "jinete": "P. REYES",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 2,
-        "caballo": "Desconocido",
+        "caballo": "SOY EL CANTANTE (PATTERNRECOÇ)",
         "jinete": "L. GONZALEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 3,
-        "caballo": "Desconocido",
+        "caballo": "REY HOTU (MA TOWN)",
         "jinete": "C. ORTEGA",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
       },
       {
         "numero": 4,
-        "caballo": "Desconocido",
+        "caballo": "RAPIDO Y VELOZ (GOOD SAMARITA)",
         "jinete": "G. RODRIGUEZ",
         "puntaje_ia": 82.8,
         "prob_ml": "99.0"
