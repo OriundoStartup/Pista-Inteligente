@@ -11,8 +11,7 @@ from src.models.train_v2 import HipicaLearner
 from src.models.data_manager import obtener_analisis_jornada, calcular_todos_patrones
 import json
 from pathlib import Path
-import json
-from pathlib import Path
+
 import numpy as np
 import argparse
 
@@ -409,7 +408,8 @@ def deploy_to_cloud_run():
         if not auth_check.stdout.strip():
             print("   ⚠️ No hay cuenta de Google Cloud autenticada.")
             print("   💡 Ejecuta: gcloud auth login")
-```
+
+            return
         
         print(f"   ✅ Autenticado como: {auth_check.stdout.strip()}")
         
