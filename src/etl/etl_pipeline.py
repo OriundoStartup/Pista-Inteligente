@@ -396,7 +396,56 @@ class HipicaETL:
                 delimiter = ';'
             
             # Construir CSV limpio desde el header detectado
-            csv_content = "".join(lines[header_idx:])
+            # FIX: Reparar líneas con más columnas de las esperadas (por comas en Observaciones)
+            header_line = lines[header_idx]
+            expected_seps = header_line.count(delimiter)
+            
+            clean_lines = [header_line]
+            for line in lines[header_idx+1:]:
+                # Ignorar líneas vacías
+                if not line.strip():
+                    continue
+                    
+                cur_seps = line.count(delimiter)
+                if cur_seps > expected_seps:
+                    # Hay comas extra, asumimos que están en la última columna (Observaciones)
+                    # Estrategia: Reemplazar comas excedentes por espacio o nada, 
+                    # pero respetando las primeras N-1 comas.
+                    # Mejor: Split maxsplit=expected_seps
+                    parts = line.split(delimiter, expected_seps)
+                    # parts tendrá length = expected_seps + 1. 
+                    # El último elemento (parts[-1]) contiene el resto de la línea con las comas extra.
+                    # Debemos asegurar que ese último elemento esté entre comillas si no lo está.
+                    
+                    # Reconstruir línea
+                    # Pero cuidado, split elimina los delimitadores.
+                    # Una forma segura es reconstruir: particionar en N-1 separadores, y lo que sobra es la última columna.
+                    
+                    # Enfoque simple: Entrecomillar manualmente la última parte si tiene comas
+                    # O más simple: Reemplazar las comas extra por otra cosa solo en memoria? No, cambiamos los datos.
+                    # Mejor enfoque: Usar csv module para parsear manualmente? Muy lento.
+                    
+                    # Solución robusta: Unir los tokens extra
+                    parts = line.split(delimiter)
+                    # Los primeros 'expected_seps' campos son seguros.
+                    # Desde 'expected_seps' hasta el final es la última columna rota.
+                    last_col_idx = expected_seps
+                    
+                    fixed_parts = parts[:last_col_idx]
+                    broken_tail = parts[last_col_idx:]
+                    # Unir la cola rota recuperando las comas
+                    fixed_last_col = delimiter.join(broken_tail).strip()
+                    
+                    # Entrecomillar si no lo está y quitar saltos de línea incorrectos
+                    fixed_last_col = fixed_last_col.replace('"', "'") # Evitar conflictos con comillas dobles
+                    fixed_last_col = f'"{fixed_last_col}"'
+                    
+                    fixed_parts.append(fixed_last_col + '\n')
+                    clean_lines.append(delimiter.join(fixed_parts))
+                else:
+                    clean_lines.append(line)
+
+            csv_content = "".join(clean_lines)
             df = pd.read_csv(StringIO(csv_content), sep=delimiter)
             
         except Exception as e:
