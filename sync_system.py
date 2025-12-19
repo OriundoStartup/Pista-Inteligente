@@ -435,23 +435,7 @@ def deploy_to_cloud_run():
              else:
                  print(f"   ⚠️ Warning en commit: {commit_res.stdout}")
 
-        # 3. Pull (Rebase) para evitar conflictos
-        print("   ⬇️  Obteniendo cambios remotos (git pull)...")
-        pull_res = subprocess.run(
-            ["git", "pull", "--rebase"],
-            cwd=os.path.dirname(__file__) or ".",
-            check=False,
-            capture_output=True,
-            text=True
-        )
-        
-        if pull_res.returncode != 0:
-            print(f"   ⚠️ Error en git pull: {pull_res.stderr}")
-            print("   ⚠️ Intentando continuar, pero el push podría fallar...")
-        else:
-            print("   ✅ Git pull exitoso.")
-
-        # 4. Push
+        # 3. Push (Try only)
         print("   ⬆️  Subiendo cambios (git push)...")
         push_res = subprocess.run(
             ["git", "push"], 
@@ -460,13 +444,13 @@ def deploy_to_cloud_run():
             capture_output=True,
             text=True
         )
-        
+
         if push_res.returncode == 0:
             print("   ✅ Cambios pusheados a GitHub correctamente.")
         else:
-            print("   ❌ Error al pushear a GitHub:")
-            print(f"   📄 {push_res.stderr}")
-            print("   ⚠️ Se continuará con el deploy a Cloud Run...")
+            print("   ❌ Error al pushear a GitHub (Tu rama local está adelante/divergente).")
+            print("   ⚠️  No te preocupes, el DEPLOY a Cloud Run continuará igual.")
+            print(f"   📄 Detalle: {push_res.stderr}")
         
         # Desplegar a Cloud Run
         print("   🚀 Desplegando a Cloud Run...")
