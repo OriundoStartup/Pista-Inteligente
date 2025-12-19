@@ -203,8 +203,7 @@ def precalculate_predictions(update_mode=False):
         if cache_path.exists():
             cache_path.unlink()
         
-        print("   🧹 Limpiando cache LRU de obtener_analisis_jornada...")
-        obtener_analisis_jornada.cache_clear()
+
         
         print("   🔄 Obteniendo predicciones frescas (SQL Optimizado)...")
         # Esto ahora usa cargar_programa(solo_futuras=True) internamente
