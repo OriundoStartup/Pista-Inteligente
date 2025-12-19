@@ -1,0 +1,2276 @@
+[
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "J. PIMENTEL",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "H. MANRIQUEZ F.",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "G. PERALTA P.",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "G. RODRIGUEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "A. FERNANDEZ L.",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "G. ULLOA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "JS. SOLANO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "V. MIRANDA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "JOH. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 10,
+        "Caballo": "Desconocido",
+        "Jinete": "M. VELARDE B.",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 11,
+        "Caballo": "Desconocido",
+        "Jinete": "B. LEON",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 12,
+        "Caballo": "Desconocido",
+        "Jinete": "N. SANTIBAÑEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 13,
+        "Caballo": "Desconocido",
+        "Jinete": "F. GONZALEZ S.",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 14,
+        "Caballo": "Desconocido",
+        "Jinete": "D. E. SILVA G.",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "J. PIMENTEL",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "H. MANRIQUEZ F.",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "G. PERALTA P.",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "G. RODRIGUEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 2,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "R. FOURNET",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "F. MEDINA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "J. HERRERA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "N. ROJAS",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "B. TRONCOSO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "J. TORO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "V. MIRANDA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "A. VILLAGRA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "B. SANCHO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 10,
+        "Caballo": "Desconocido",
+        "Jinete": "J. MEDINA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 11,
+        "Caballo": "Desconocido",
+        "Jinete": "P. GALAZ",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "R. FOURNET",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "F. MEDINA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "J. HERRERA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "N. ROJAS",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 3,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "P. ROBLES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "F. HENRIQUEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "J. MEDINA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "R. CISTERNAS",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "B. TRONCOSO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "N. RAMIREZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "B. SANCHO",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "P. ROBLES",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "F. HENRIQUEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "J. MEDINA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "R. CISTERNAS",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 4,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "R. FUENZALIDA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "B. TRONCOSO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "J. HERRERA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "O. ULLOA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "GVO. AROS",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "JR. A. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "R. FUENZALIDA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "B. TRONCOSO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "J. HERRERA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "O. ULLOA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 5,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "JS. SOLANO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "G. RODRIGUEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "B. SANCHO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "B. TRONCOSO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "J. HERRERA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "R. FOURNET",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "F. MEDINA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "N. ROJAS",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "D. CARRASCO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 10,
+        "Caballo": "Desconocido",
+        "Jinete": "F. HENRIQUEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 11,
+        "Caballo": "Desconocido",
+        "Jinete": "A. APABLAZA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 12,
+        "Caballo": "Desconocido",
+        "Jinete": "M. A. DONOSO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 13,
+        "Caballo": "Desconocido",
+        "Jinete": "JS. CUETO",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "JS. SOLANO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "G. RODRIGUEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "B. SANCHO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "B. TRONCOSO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 6,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "P. REYES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "W. LEON",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "B. SOTO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "P. ROBLES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "B. LEON",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "J. HERRERA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "R. S. DORES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "JON. A. CASTILLO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "I. VALDIVIA",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "P. REYES",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "W. LEON",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "B. SOTO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "P. ROBLES",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 7,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "A. VILLAGRA-4",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "SEB. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "G. RODRIGUEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "P. ROBLES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "J. HERRERA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "M. GUTIERREZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "J. MEDINA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "F. MEDINA-4",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "R. FUENZALIDA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 10,
+        "Caballo": "Desconocido",
+        "Jinete": "R. FOURNET-4",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "A. VILLAGRA-4",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "SEB. GONZALEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "G. RODRIGUEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "P. ROBLES",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 8,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "R. FOUMET-4",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "G. RODRIGUEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "R. FUENZALIDA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "R. PAINEN",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "B. LEON",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "N. ROJAS-4",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "P. REYES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "N. RAMIREZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "R. COVARRUBIAS",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 10,
+        "Caballo": "Desconocido",
+        "Jinete": "JS. CUNTO-1",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "R. FOUMET-4",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "G. RODRIGUEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "R. FUENZALIDA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "R. PAINEN",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 9,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "JR. A. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "R. S. DORES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "B. TRANCOSO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "J. MEDINA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "L. C. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "J. A. MIÑO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "B. SANCHO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "A. ALVAREZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "P. ROBLES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 10,
+        "Caballo": "Desconocido",
+        "Jinete": "J. HERRERA",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "JR. A. GONZALEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "R. S. DORES",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "B. TRANCOSO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "J. MEDINA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "V. MIRANDA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "JR. ZUÑIGA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "1. VALDIVIA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "N. MOLINA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "B. TRANCOSO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "L TORRES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "J. HERRERA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "R. CISTERNAS",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "A. ALVAREZ",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "V. MIRANDA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "JR. ZUÑIGA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "1. VALDIVIA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "N. MOLINA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 11,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "SEB. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "M. MORALES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "G. RODRIGUEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "JOH. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "R. PAINEN",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "B. TRANCOSO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "JS. CUETO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "S. MUÑOZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "M. GUTIERREZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 10,
+        "Caballo": "Desconocido",
+        "Jinete": "A. ALVAREZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 11,
+        "Caballo": "Desconocido",
+        "Jinete": "F. MEDINA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 12,
+        "Caballo": "Desconocido",
+        "Jinete": "L. C. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "SEB. GONZALEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "M. MORALES",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "G. RODRIGUEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "JOH. GONZALEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 12,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "J. TORO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "M. A. DONOSO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "M. A. BUSTAMAR",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "R. FUENZALIDA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "L. C. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "M. MORALES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "P. REYES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "D. CARRASCO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "R. AVILA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 10,
+        "Caballo": "Desconocido",
+        "Jinete": "JS. SOLANE",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 11,
+        "Caballo": "Desconocido",
+        "Jinete": "W. QUINTEROS",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "J. TORO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "M. A. DONOSO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "M. A. BUSTAMAR",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "R. FUENZALIDA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "G. ULLEA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "JS. SOLANO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "B. SANCHO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "F. MEDINA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "SEB. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "J. HERRERA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "G. RODRIGUEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "JON. A. CASTILLO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "A. APABLAZA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 10,
+        "Caballo": "Desconocido",
+        "Jinete": "R. SOLORZA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 11,
+        "Caballo": "Desconocido",
+        "Jinete": "R. AVILA",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "G. ULLEA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "JS. SOLANO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "B. SANCHO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "F. MEDINA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 14,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "M. A. BUSTAMAR",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "R. SOLORZA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "B. LEON",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "N. ROJAS-4",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "M. GUTIERREZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "A. ALVAREZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "J. HERRERA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "B. SANCHO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "L. C. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 10,
+        "Caballo": "Desconocido",
+        "Jinete": "SEH. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 11,
+        "Caballo": "Desconocido",
+        "Jinete": "A. VILLAGRA-4",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 12,
+        "Caballo": "Desconocido",
+        "Jinete": "G. RODRIGUEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 13,
+        "Caballo": "Desconocido",
+        "Jinete": "8. MUÑOZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 14,
+        "Caballo": "Desconocido",
+        "Jinete": "R. FUENZALIDA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 15,
+        "Caballo": "Desconocido",
+        "Jinete": "R. S. DERES",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "M. A. BUSTAMAR",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "R. SOLORZA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "B. LEON",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "N. ROJAS-4",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 15,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "M. A. BUSTAMAR",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "J. MEDINA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "JR. A. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "SEH. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "JS. PAREDES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "L. D. MENGHINI",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "R. COVARRUBIAS",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "M. MORALES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "R. S. DORES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 10,
+        "Caballo": "Desconocido",
+        "Jinete": "R. AVILA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 11,
+        "Caballo": "Desconocido",
+        "Jinete": "B. SOTO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 12,
+        "Caballo": "Desconocido",
+        "Jinete": "D. CARRASCO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 13,
+        "Caballo": "Desconocido",
+        "Jinete": "M. A. DONOSO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 14,
+        "Caballo": "Desconocido",
+        "Jinete": "J. TORO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 15,
+        "Caballo": "Desconocido",
+        "Jinete": "R. FUENZALIDA",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "M. A. BUSTAMAR",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "J. MEDINA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "JR. A. GONZALEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "SEH. GONZALEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "G. RODRIGUEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "V. MIRANDA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "JON. A. CASTILLO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "B. SANCHO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "R. AVILA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "R. S. DORES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "B. TRANCOSO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "R. PAINEN",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "V. BRACETTI",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 10,
+        "Caballo": "Desconocido",
+        "Jinete": "JOH. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 11,
+        "Caballo": "Desconocido",
+        "Jinete": "R. CISTERNAS",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "G. RODRIGUEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "V. MIRANDA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "JON. A. CASTILLO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "B. SANCHO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 17,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "SEH. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "P. REYES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "JR. A_ GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "R. COVARRUBIAS",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "JON. A_ CASTILLO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "C. FUENZALIDA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "A. ZUÑIGA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "R. SOLORZA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "B. SOTO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 10,
+        "Caballo": "Desconocido",
+        "Jinete": "J. MEDINA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 11,
+        "Caballo": "Desconocido",
+        "Jinete": "G. RODRIGUEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 12,
+        "Caballo": "Desconocido",
+        "Jinete": "A. ALVAREZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 13,
+        "Caballo": "Desconocido",
+        "Jinete": "R. PAINEN.",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 14,
+        "Caballo": "Desconocido",
+        "Jinete": "J. TORO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 15,
+        "Caballo": "Desconocido",
+        "Jinete": "N. ROJAS",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "SEH. GONZALEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "P. REYES",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "JR. A_ GONZALEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "R. COVARRUBIAS",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 18,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "JOH. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "W. QUINTEROS",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "D. CARRASCO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "M. A. DONUSO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "C. FUENZALIDA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "L. C. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "A. VILLAGRA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "N. SANTIBAÑEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "B. TRONCOSO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 10,
+        "Caballo": "Desconocido",
+        "Jinete": "L. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 11,
+        "Caballo": "Desconocido",
+        "Jinete": "CL. JORQUERA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 12,
+        "Caballo": "Desconocido",
+        "Jinete": "JR. A. MORA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 13,
+        "Caballo": "Desconocido",
+        "Jinete": "C. ORTEGA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 14,
+        "Caballo": "Desconocido",
+        "Jinete": "A. APABLAZA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 15,
+        "Caballo": "Desconocido",
+        "Jinete": "R. FUENZALIDA",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "JOH. GONZALEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "W. QUINTEROS",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "D. CARRASCO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "M. A. DONUSO",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  },
+  {
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 19,
+    "fecha": "2025-12-19",
+    "hora": null,
+    "distancia": null,
+    "caballos": [
+      {
+        "Nº": 1,
+        "Caballo": "Desconocido",
+        "Jinete": "P. REYES",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 2,
+        "Caballo": "Desconocido",
+        "Jinete": "L. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 3,
+        "Caballo": "Desconocido",
+        "Jinete": "C. ORTEGA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 4,
+        "Caballo": "Desconocido",
+        "Jinete": "G. RODRIGUEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 5,
+        "Caballo": "Desconocido",
+        "Jinete": "B. SOTU",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 6,
+        "Caballo": "Desconocido",
+        "Jinete": "JON. A. CASTILLO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 7,
+        "Caballo": "Desconocido",
+        "Jinete": "D. CARRASCO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 8,
+        "Caballo": "Desconocido",
+        "Jinete": "W. QUINTEROS",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 9,
+        "Caballo": "Desconocido",
+        "Jinete": "B. TRONCOSO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 10,
+        "Caballo": "Desconocido",
+        "Jinete": "JOH. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 11,
+        "Caballo": "Desconocido",
+        "Jinete": "J. HERRERA",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 12,
+        "Caballo": "Desconocido",
+        "Jinete": "J. TORO",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 13,
+        "Caballo": "Desconocido",
+        "Jinete": "R. COVARRUBIAS",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 14,
+        "Caballo": "Desconocido",
+        "Jinete": "L. C. GONZALEZ",
+        "Stud": null,
+        "Peso": null
+      },
+      {
+        "Nº": 15,
+        "Caballo": "Desconocido",
+        "Jinete": "A. ALVAREZ",
+        "Stud": null,
+        "Peso": null
+      }
+    ],
+    "predicciones": [
+      {
+        "numero": 1,
+        "caballo": "Desconocido",
+        "jinete": "P. REYES",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 2,
+        "caballo": "Desconocido",
+        "jinete": "L. GONZALEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 3,
+        "caballo": "Desconocido",
+        "jinete": "C. ORTEGA",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      },
+      {
+        "numero": 4,
+        "caballo": "Desconocido",
+        "jinete": "G. RODRIGUEZ",
+        "puntaje_ia": 82.8,
+        "prob_ml": "99.0"
+      }
+    ]
+  }
+]

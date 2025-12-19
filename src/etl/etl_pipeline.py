@@ -462,6 +462,7 @@ class HipicaETL:
             # Programas
             'Carrera': 'carrera',
             'Carrera_Nro': 'carrera',
+            'Nro_Carrera': 'carrera', # Fix: CHC header variant
             'carrera': 'carrera',
             'Cab. N°': 'numero',
             'Numero': 'numero',

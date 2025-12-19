@@ -23,12 +23,12 @@ else:
 print("\n--- TEST OBTENER_ANALISIS_JORNADA ---")
 # Force cache bypass manually just in case logic is weird
 import os
-try:
-    if os.path.exists("data/cache_analisis.json"):
-        print("Removing cache...")
-        os.remove("data/cache_analisis.json")
-except:
-    pass
+# try:
+#     if os.path.exists("data/cache_analisis.json"):
+#         print("Removing cache...")
+#         os.remove("data/cache_analisis.json")
+# except:
+#     pass
 
 analisis = obtener_analisis_jornada()
 print(f"Analisis returned {len(analisis)} races.")
