@@ -1,4 +1,2837 @@
 {
-  "last_updated": "19-12-2025 23:27",
-  "patterns": []
+  "last_updated": "19-12-2025 23:38",
+  "patterns": [
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 14,
+          "caballo": "CARIBEAN PASSION",
+          "jinete": "MIGUEL GUTIERREZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "GUERRERO ARABE",
+          "jinete": "CARLOS ORTEGA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 14,
+          "caballo": "CARIBEAN PASSION",
+          "jinete": "MIGUEL GUTIERREZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "GUERRERO ARABE",
+          "jinete": "CARLOS ORTEGA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "CARIBEAN PASSION",
+        "GUERRERO ARABE"
+      ]
+    },
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 8,
+          "caballo": "OH QUE FRESCO",
+          "jinete": "FRANCO OLIVARES",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 4,
+          "caballo": "BRUCE BANNER",
+          "jinete": "RODOLFO FUENZALIDA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 8,
+          "caballo": "OH QUE FRESCO",
+          "jinete": "FRANCO OLIVARES",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 4,
+          "caballo": "BRUCE BANNER",
+          "jinete": "RODOLFO FUENZALIDA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "BRUCE BANNER",
+        "OH QUE FRESCO"
+      ]
+    },
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 1,
+          "caballo": "RULE OF LAW",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "DALE TOTO",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 1,
+          "caballo": "RULE OF LAW",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "DALE TOTO",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "DALE TOTO",
+        "RULE OF LAW"
+      ]
+    },
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 6,
+          "caballo": "MISTER E",
+          "jinete": "NELSON ROJAS",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "ANTIYAL",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 6,
+          "caballo": "MISTER E",
+          "jinete": "NELSON ROJAS",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "ANTIYAL",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "ANTIYAL",
+        "MISTER E"
+      ]
+    },
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "ROY PARA UN POCO",
+          "jinete": "JONATHAN CASTILLO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "HUEVO DE CHOCOLATE",
+          "jinete": "JORGE ZUÑIGA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "ROY PARA UN POCO",
+          "jinete": "JONATHAN CASTILLO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "HUEVO DE CHOCOLATE",
+          "jinete": "JORGE ZUÑIGA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "HUEVO DE CHOCOLATE",
+        "ROY PARA UN POCO"
+      ]
+    },
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 6,
+          "caballo": "TUTTO APIACCERE",
+          "jinete": "BENJAMIN SANCHO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 3,
+          "caballo": "PABLOSKY",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 6,
+          "caballo": "TUTTO APIACCERE",
+          "jinete": "BENJAMIN SANCHO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 3,
+          "caballo": "PABLOSKY",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "PABLOSKY",
+        "TUTTO APIACCERE"
+      ]
+    },
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 8,
+          "caballo": "TRANSLUCIDO",
+          "jinete": "JAIME MEDINA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 6,
+          "caballo": "RAIMUNDO A",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 8,
+          "caballo": "TRANSLUCIDO",
+          "jinete": "JAIME MEDINA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 6,
+          "caballo": "RAIMUNDO A",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "RAIMUNDO A",
+        "TRANSLUCIDO"
+      ]
+    },
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 12,
+          "caballo": "GREEN DRESS",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "STEVIETOO",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 12,
+          "caballo": "GREEN DRESS",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "STEVIETOO",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "GREEN DRESS",
+        "STEVIETOO"
+      ]
+    },
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 9,
+          "caballo": "PERLA DEL AUSTRO",
+          "jinete": "RODOLFO FUENZALIDA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 5,
+          "caballo": "JARRA DE VINO",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 9,
+          "caballo": "PERLA DEL AUSTRO",
+          "jinete": "RODOLFO FUENZALIDA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 5,
+          "caballo": "JARRA DE VINO",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "JARRA DE VINO",
+        "PERLA DEL AUSTRO"
+      ]
+    },
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 11,
+          "caballo": "TANYTUS",
+          "jinete": "JOHAN GONZALEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "CALA DE ORO",
+          "jinete": "MIGUEL GUTIERREZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 11,
+          "caballo": "TANYTUS",
+          "jinete": "JOHAN GONZALEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "CALA DE ORO",
+          "jinete": "MIGUEL GUTIERREZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "CALA DE ORO",
+        "TANYTUS"
+      ]
+    },
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 11,
+          "caballo": "NADIE ME CREE",
+          "jinete": "PIERO REYES",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 3,
+          "caballo": "HIJO DEL REY",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 11,
+          "caballo": "NADIE ME CREE",
+          "jinete": "PIERO REYES",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 3,
+          "caballo": "HIJO DEL REY",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "HIJO DEL REY",
+        "NADIE ME CREE"
+      ]
+    },
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 9,
+          "caballo": "TITIMATEX",
+          "jinete": "RAFAEL CISTERNAS",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "EL PALOMO",
+          "jinete": "JORGE ARANEDA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 9,
+          "caballo": "TITIMATEX",
+          "jinete": "RAFAEL CISTERNAS",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "EL PALOMO",
+          "jinete": "JORGE ARANEDA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "EL PALOMO",
+        "TITIMATEX"
+      ]
+    },
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 7,
+          "caballo": "EL OPORTUNO",
+          "jinete": "BENJAMIN SANCHO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 12,
+          "caballo": "GRACIA CLASICA",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 7,
+          "caballo": "EL OPORTUNO",
+          "jinete": "BENJAMIN SANCHO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 12,
+          "caballo": "GRACIA CLASICA",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "EL OPORTUNO",
+        "GRACIA CLASICA"
+      ]
+    },
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "ROGLIC",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "DRAKE (ARG)",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "ROGLIC",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "DRAKE (ARG)",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "DRAKE (ARG)",
+        "ROGLIC"
+      ]
+    },
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 7,
+          "caballo": "LOBELIUS",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "OSCURO Y SALVAJE",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 7,
+          "caballo": "LOBELIUS",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "OSCURO Y SALVAJE",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "LOBELIUS",
+        "OSCURO Y SALVAJE"
+      ]
+    },
+    {
+      "tipo": "Quinela Repetida (2 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "JANSTAR",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 4,
+          "caballo": "BETTOLINA",
+          "jinete": "PIERO REYES",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "JANSTAR",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 4,
+          "caballo": "BETTOLINA",
+          "jinete": "PIERO REYES",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "BETTOLINA",
+        "JANSTAR"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 14,
+          "caballo": "CARIBEAN PASSION",
+          "jinete": "MIGUEL GUTIERREZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "GUERRERO ARABE",
+          "jinete": "CARLOS ORTEGA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 9,
+          "caballo": "EJEMPLO DE VALOR",
+          "jinete": "GUILLERMO A. PEREZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 14,
+          "caballo": "CARIBEAN PASSION",
+          "jinete": "MIGUEL GUTIERREZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "GUERRERO ARABE",
+          "jinete": "CARLOS ORTEGA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 9,
+          "caballo": "EJEMPLO DE VALOR",
+          "jinete": "GUILLERMO A. PEREZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "CARIBEAN PASSION",
+        "GUERRERO ARABE",
+        "EJEMPLO DE VALOR"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 8,
+          "caballo": "OH QUE FRESCO",
+          "jinete": "FRANCO OLIVARES",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 4,
+          "caballo": "BRUCE BANNER",
+          "jinete": "RODOLFO FUENZALIDA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 9,
+          "caballo": "ARAUKAN",
+          "jinete": "JORGE ZUÑIGA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 8,
+          "caballo": "OH QUE FRESCO",
+          "jinete": "FRANCO OLIVARES",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 4,
+          "caballo": "BRUCE BANNER",
+          "jinete": "RODOLFO FUENZALIDA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 9,
+          "caballo": "ARAUKAN",
+          "jinete": "JORGE ZUÑIGA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "OH QUE FRESCO",
+        "BRUCE BANNER",
+        "ARAUKAN"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 1,
+          "caballo": "RULE OF LAW",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "DALE TOTO",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 4,
+          "caballo": "SUEÑO CHILOTE",
+          "jinete": "PIERO REYES",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 1,
+          "caballo": "RULE OF LAW",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "DALE TOTO",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 4,
+          "caballo": "SUEÑO CHILOTE",
+          "jinete": "PIERO REYES",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "RULE OF LAW",
+        "DALE TOTO",
+        "SUEÑO CHILOTE"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 6,
+          "caballo": "MISTER E",
+          "jinete": "NELSON ROJAS",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "ANTIYAL",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 5,
+          "caballo": "VIVE LE ROI",
+          "jinete": "ALBERTO VASQUEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 6,
+          "caballo": "MISTER E",
+          "jinete": "NELSON ROJAS",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "ANTIYAL",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 5,
+          "caballo": "VIVE LE ROI",
+          "jinete": "ALBERTO VASQUEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "MISTER E",
+        "ANTIYAL",
+        "VIVE LE ROI"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "ROY PARA UN POCO",
+          "jinete": "JONATHAN CASTILLO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "HUEVO DE CHOCOLATE",
+          "jinete": "JORGE ZUÑIGA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 6,
+          "caballo": "SORAILA",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "ROY PARA UN POCO",
+          "jinete": "JONATHAN CASTILLO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "HUEVO DE CHOCOLATE",
+          "jinete": "JORGE ZUÑIGA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 6,
+          "caballo": "SORAILA",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "ROY PARA UN POCO",
+        "HUEVO DE CHOCOLATE",
+        "SORAILA"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 6,
+          "caballo": "TUTTO APIACCERE",
+          "jinete": "BENJAMIN SANCHO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 3,
+          "caballo": "PABLOSKY",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 8,
+          "caballo": "SEÑORA BERNI",
+          "jinete": "RONALD FOURNET",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 6,
+          "caballo": "TUTTO APIACCERE",
+          "jinete": "BENJAMIN SANCHO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 3,
+          "caballo": "PABLOSKY",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 8,
+          "caballo": "SEÑORA BERNI",
+          "jinete": "RONALD FOURNET",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "TUTTO APIACCERE",
+        "PABLOSKY",
+        "SEÑORA BERNI"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 8,
+          "caballo": "TRANSLUCIDO",
+          "jinete": "JAIME MEDINA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 6,
+          "caballo": "RAIMUNDO A",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 5,
+          "caballo": "WHITE SPIRIT",
+          "jinete": "MOISES A. DONOSO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 8,
+          "caballo": "TRANSLUCIDO",
+          "jinete": "JAIME MEDINA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 6,
+          "caballo": "RAIMUNDO A",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 5,
+          "caballo": "WHITE SPIRIT",
+          "jinete": "MOISES A. DONOSO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "TRANSLUCIDO",
+        "RAIMUNDO A",
+        "WHITE SPIRIT"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 12,
+          "caballo": "GREEN DRESS",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "STEVIETOO",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 13,
+          "caballo": "LA BANDA VERDE",
+          "jinete": "JORGE ZUÑIGA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 12,
+          "caballo": "GREEN DRESS",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "STEVIETOO",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 13,
+          "caballo": "LA BANDA VERDE",
+          "jinete": "JORGE ZUÑIGA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "GREEN DRESS",
+        "STEVIETOO",
+        "LA BANDA VERDE"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 9,
+          "caballo": "PERLA DEL AUSTRO",
+          "jinete": "RODOLFO FUENZALIDA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 5,
+          "caballo": "JARRA DE VINO",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 11,
+          "caballo": "KYO",
+          "jinete": "NICOLAS MOLINA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 9,
+          "caballo": "PERLA DEL AUSTRO",
+          "jinete": "RODOLFO FUENZALIDA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 5,
+          "caballo": "JARRA DE VINO",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 11,
+          "caballo": "KYO",
+          "jinete": "NICOLAS MOLINA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "PERLA DEL AUSTRO",
+        "JARRA DE VINO",
+        "KYO"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 11,
+          "caballo": "TANYTUS",
+          "jinete": "JOHAN GONZALEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "CALA DE ORO",
+          "jinete": "MIGUEL GUTIERREZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 2,
+          "caballo": "UNION ARMY (ARG)",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 11,
+          "caballo": "TANYTUS",
+          "jinete": "JOHAN GONZALEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "CALA DE ORO",
+          "jinete": "MIGUEL GUTIERREZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 2,
+          "caballo": "UNION ARMY (ARG)",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "TANYTUS",
+        "CALA DE ORO",
+        "UNION ARMY (ARG)"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 11,
+          "caballo": "NADIE ME CREE",
+          "jinete": "PIERO REYES",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 3,
+          "caballo": "HIJO DEL REY",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 6,
+          "caballo": "SWEET SUNDOWN",
+          "jinete": "RONALD FOURNET",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 11,
+          "caballo": "NADIE ME CREE",
+          "jinete": "PIERO REYES",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 3,
+          "caballo": "HIJO DEL REY",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 6,
+          "caballo": "SWEET SUNDOWN",
+          "jinete": "RONALD FOURNET",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "NADIE ME CREE",
+        "HIJO DEL REY",
+        "SWEET SUNDOWN"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 9,
+          "caballo": "TITIMATEX",
+          "jinete": "RAFAEL CISTERNAS",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "EL PALOMO",
+          "jinete": "JORGE ARANEDA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 10,
+          "caballo": "INDIAN MELODY",
+          "jinete": "JONATHAN CASTILLO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 9,
+          "caballo": "TITIMATEX",
+          "jinete": "RAFAEL CISTERNAS",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "EL PALOMO",
+          "jinete": "JORGE ARANEDA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 10,
+          "caballo": "INDIAN MELODY",
+          "jinete": "JONATHAN CASTILLO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "TITIMATEX",
+        "EL PALOMO",
+        "INDIAN MELODY"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 7,
+          "caballo": "EL OPORTUNO",
+          "jinete": "BENJAMIN SANCHO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 12,
+          "caballo": "GRACIA CLASICA",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 4,
+          "caballo": "CHELENKO",
+          "jinete": "CARLOS E. URBINA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 7,
+          "caballo": "EL OPORTUNO",
+          "jinete": "BENJAMIN SANCHO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 12,
+          "caballo": "GRACIA CLASICA",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 4,
+          "caballo": "CHELENKO",
+          "jinete": "CARLOS E. URBINA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "EL OPORTUNO",
+        "GRACIA CLASICA",
+        "CHELENKO"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "ROGLIC",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "DRAKE (ARG)",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 1,
+          "caballo": "TONADA VIEJA",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "ROGLIC",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "DRAKE (ARG)",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 1,
+          "caballo": "TONADA VIEJA",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "ROGLIC",
+        "DRAKE (ARG)",
+        "TONADA VIEJA"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 7,
+          "caballo": "LOBELIUS",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "OSCURO Y SALVAJE",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 12,
+          "caballo": "TIENES MI SONRISA",
+          "jinete": "RONALD FOURNET",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 7,
+          "caballo": "LOBELIUS",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "OSCURO Y SALVAJE",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 12,
+          "caballo": "TIENES MI SONRISA",
+          "jinete": "RONALD FOURNET",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "LOBELIUS",
+        "OSCURO Y SALVAJE",
+        "TIENES MI SONRISA"
+      ]
+    },
+    {
+      "tipo": "Trifecta Repetida (3 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "JANSTAR",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 4,
+          "caballo": "BETTOLINA",
+          "jinete": "PIERO REYES",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 12,
+          "caballo": "DESPROLIJO",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "JANSTAR",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 4,
+          "caballo": "BETTOLINA",
+          "jinete": "PIERO REYES",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 12,
+          "caballo": "DESPROLIJO",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "JANSTAR",
+        "BETTOLINA",
+        "DESPROLIJO"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 14,
+          "caballo": "CARIBEAN PASSION",
+          "jinete": "MIGUEL GUTIERREZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "GUERRERO ARABE",
+          "jinete": "CARLOS ORTEGA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 9,
+          "caballo": "EJEMPLO DE VALOR",
+          "jinete": "GUILLERMO A. PEREZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 2,
+          "caballo": "ROSA COQUETA",
+          "jinete": "DIEGO CARVACHO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 14,
+          "caballo": "CARIBEAN PASSION",
+          "jinete": "MIGUEL GUTIERREZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "GUERRERO ARABE",
+          "jinete": "CARLOS ORTEGA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 9,
+          "caballo": "EJEMPLO DE VALOR",
+          "jinete": "GUILLERMO A. PEREZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 2,
+          "caballo": "ROSA COQUETA",
+          "jinete": "DIEGO CARVACHO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "CARIBEAN PASSION",
+        "GUERRERO ARABE",
+        "EJEMPLO DE VALOR",
+        "ROSA COQUETA"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 8,
+          "caballo": "OH QUE FRESCO",
+          "jinete": "FRANCO OLIVARES",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 4,
+          "caballo": "BRUCE BANNER",
+          "jinete": "RODOLFO FUENZALIDA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 9,
+          "caballo": "ARAUKAN",
+          "jinete": "JORGE ZUÑIGA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 2,
+          "caballo": "PRIMO JULERO",
+          "jinete": "NELSON ROJAS",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 8,
+          "caballo": "OH QUE FRESCO",
+          "jinete": "FRANCO OLIVARES",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 4,
+          "caballo": "BRUCE BANNER",
+          "jinete": "RODOLFO FUENZALIDA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 9,
+          "caballo": "ARAUKAN",
+          "jinete": "JORGE ZUÑIGA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 2,
+          "caballo": "PRIMO JULERO",
+          "jinete": "NELSON ROJAS",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "OH QUE FRESCO",
+        "BRUCE BANNER",
+        "ARAUKAN",
+        "PRIMO JULERO"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 1,
+          "caballo": "RULE OF LAW",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "DALE TOTO",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 4,
+          "caballo": "SUEÑO CHILOTE",
+          "jinete": "PIERO REYES",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 9,
+          "caballo": "MAX FOUR",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 1,
+          "caballo": "RULE OF LAW",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "DALE TOTO",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 4,
+          "caballo": "SUEÑO CHILOTE",
+          "jinete": "PIERO REYES",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 9,
+          "caballo": "MAX FOUR",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "RULE OF LAW",
+        "DALE TOTO",
+        "SUEÑO CHILOTE",
+        "MAX FOUR"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 6,
+          "caballo": "MISTER E",
+          "jinete": "NELSON ROJAS",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "ANTIYAL",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 5,
+          "caballo": "VIVE LE ROI",
+          "jinete": "ALBERTO VASQUEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 1,
+          "caballo": "TE QUIERO TODAVIA",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 6,
+          "caballo": "MISTER E",
+          "jinete": "NELSON ROJAS",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "ANTIYAL",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 5,
+          "caballo": "VIVE LE ROI",
+          "jinete": "ALBERTO VASQUEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 1,
+          "caballo": "TE QUIERO TODAVIA",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "MISTER E",
+        "ANTIYAL",
+        "VIVE LE ROI",
+        "TE QUIERO TODAVIA"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "ROY PARA UN POCO",
+          "jinete": "JONATHAN CASTILLO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "HUEVO DE CHOCOLATE",
+          "jinete": "JORGE ZUÑIGA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 6,
+          "caballo": "SORAILA",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 12,
+          "caballo": "NARCISISTA",
+          "jinete": "JOHAN GONZALEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "ROY PARA UN POCO",
+          "jinete": "JONATHAN CASTILLO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "HUEVO DE CHOCOLATE",
+          "jinete": "JORGE ZUÑIGA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 6,
+          "caballo": "SORAILA",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 12,
+          "caballo": "NARCISISTA",
+          "jinete": "JOHAN GONZALEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "ROY PARA UN POCO",
+        "HUEVO DE CHOCOLATE",
+        "SORAILA",
+        "NARCISISTA"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 6,
+          "caballo": "TUTTO APIACCERE",
+          "jinete": "BENJAMIN SANCHO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 3,
+          "caballo": "PABLOSKY",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 8,
+          "caballo": "SEÑORA BERNI",
+          "jinete": "RONALD FOURNET",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 11,
+          "caballo": "PRIMO HAPPY",
+          "jinete": "RAFAEL CISTERNAS",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 6,
+          "caballo": "TUTTO APIACCERE",
+          "jinete": "BENJAMIN SANCHO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 3,
+          "caballo": "PABLOSKY",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 8,
+          "caballo": "SEÑORA BERNI",
+          "jinete": "RONALD FOURNET",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 11,
+          "caballo": "PRIMO HAPPY",
+          "jinete": "RAFAEL CISTERNAS",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "TUTTO APIACCERE",
+        "PABLOSKY",
+        "SEÑORA BERNI",
+        "PRIMO HAPPY"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 8,
+          "caballo": "TRANSLUCIDO",
+          "jinete": "JAIME MEDINA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 6,
+          "caballo": "RAIMUNDO A",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 5,
+          "caballo": "WHITE SPIRIT",
+          "jinete": "MOISES A. DONOSO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 4,
+          "caballo": "MUY AMIGO",
+          "jinete": "CARLOS ORTEGA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 8,
+          "caballo": "TRANSLUCIDO",
+          "jinete": "JAIME MEDINA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 6,
+          "caballo": "RAIMUNDO A",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 5,
+          "caballo": "WHITE SPIRIT",
+          "jinete": "MOISES A. DONOSO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 4,
+          "caballo": "MUY AMIGO",
+          "jinete": "CARLOS ORTEGA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "TRANSLUCIDO",
+        "RAIMUNDO A",
+        "WHITE SPIRIT",
+        "MUY AMIGO"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 12,
+          "caballo": "GREEN DRESS",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "STEVIETOO",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 13,
+          "caballo": "LA BANDA VERDE",
+          "jinete": "JORGE ZUÑIGA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 4,
+          "caballo": "EL ODIOSO (ARG)",
+          "jinete": "LESLY GONZALEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 12,
+          "caballo": "GREEN DRESS",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "STEVIETOO",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 13,
+          "caballo": "LA BANDA VERDE",
+          "jinete": "JORGE ZUÑIGA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 4,
+          "caballo": "EL ODIOSO (ARG)",
+          "jinete": "LESLY GONZALEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "GREEN DRESS",
+        "STEVIETOO",
+        "LA BANDA VERDE",
+        "EL ODIOSO (ARG)"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 9,
+          "caballo": "PERLA DEL AUSTRO",
+          "jinete": "RODOLFO FUENZALIDA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 5,
+          "caballo": "JARRA DE VINO",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 11,
+          "caballo": "KYO",
+          "jinete": "NICOLAS MOLINA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 2,
+          "caballo": "GRAN ESPARTACO",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 9,
+          "caballo": "PERLA DEL AUSTRO",
+          "jinete": "RODOLFO FUENZALIDA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 5,
+          "caballo": "JARRA DE VINO",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 11,
+          "caballo": "KYO",
+          "jinete": "NICOLAS MOLINA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 2,
+          "caballo": "GRAN ESPARTACO",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "PERLA DEL AUSTRO",
+        "JARRA DE VINO",
+        "KYO",
+        "GRAN ESPARTACO"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 11,
+          "caballo": "TANYTUS",
+          "jinete": "JOHAN GONZALEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "CALA DE ORO",
+          "jinete": "MIGUEL GUTIERREZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 2,
+          "caballo": "UNION ARMY (ARG)",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 4,
+          "caballo": "CONDUCTA INFAME",
+          "jinete": "BENJAMIN SANCHO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 11,
+          "caballo": "TANYTUS",
+          "jinete": "JOHAN GONZALEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 9,
+          "caballo": "CALA DE ORO",
+          "jinete": "MIGUEL GUTIERREZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 2,
+          "caballo": "UNION ARMY (ARG)",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 4,
+          "caballo": "CONDUCTA INFAME",
+          "jinete": "BENJAMIN SANCHO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "TANYTUS",
+        "CALA DE ORO",
+        "UNION ARMY (ARG)",
+        "CONDUCTA INFAME"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 11,
+          "caballo": "NADIE ME CREE",
+          "jinete": "PIERO REYES",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 3,
+          "caballo": "HIJO DEL REY",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 6,
+          "caballo": "SWEET SUNDOWN",
+          "jinete": "RONALD FOURNET",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 1,
+          "caballo": "IRISH BAND",
+          "jinete": "CARLOS E. URBINA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 11,
+          "caballo": "NADIE ME CREE",
+          "jinete": "PIERO REYES",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 3,
+          "caballo": "HIJO DEL REY",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 6,
+          "caballo": "SWEET SUNDOWN",
+          "jinete": "RONALD FOURNET",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 1,
+          "caballo": "IRISH BAND",
+          "jinete": "CARLOS E. URBINA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "NADIE ME CREE",
+        "HIJO DEL REY",
+        "SWEET SUNDOWN",
+        "IRISH BAND"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 9,
+          "caballo": "TITIMATEX",
+          "jinete": "RAFAEL CISTERNAS",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "EL PALOMO",
+          "jinete": "JORGE ARANEDA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 10,
+          "caballo": "INDIAN MELODY",
+          "jinete": "JONATHAN CASTILLO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 6,
+          "caballo": "VIDA SALVAJE",
+          "jinete": "JOSE D. VILLAGRAN",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 9,
+          "caballo": "TITIMATEX",
+          "jinete": "RAFAEL CISTERNAS",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 7,
+          "caballo": "EL PALOMO",
+          "jinete": "JORGE ARANEDA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 10,
+          "caballo": "INDIAN MELODY",
+          "jinete": "JONATHAN CASTILLO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 6,
+          "caballo": "VIDA SALVAJE",
+          "jinete": "JOSE D. VILLAGRAN",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "TITIMATEX",
+        "EL PALOMO",
+        "INDIAN MELODY",
+        "VIDA SALVAJE"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 7,
+          "caballo": "EL OPORTUNO",
+          "jinete": "BENJAMIN SANCHO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 12,
+          "caballo": "GRACIA CLASICA",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 4,
+          "caballo": "CHELENKO",
+          "jinete": "CARLOS E. URBINA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 8,
+          "caballo": "YA SILIO",
+          "jinete": "NICOLAS MOLINA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 7,
+          "caballo": "EL OPORTUNO",
+          "jinete": "BENJAMIN SANCHO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 12,
+          "caballo": "GRACIA CLASICA",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 4,
+          "caballo": "CHELENKO",
+          "jinete": "CARLOS E. URBINA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 8,
+          "caballo": "YA SILIO",
+          "jinete": "NICOLAS MOLINA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "EL OPORTUNO",
+        "GRACIA CLASICA",
+        "CHELENKO",
+        "YA SILIO"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "ROGLIC",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "DRAKE (ARG)",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 1,
+          "caballo": "TONADA VIEJA",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 7,
+          "caballo": "BREEZY STAR",
+          "jinete": "JONATHAN CASTILLO",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "ROGLIC",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "DRAKE (ARG)",
+          "jinete": "JOSE EYZAGUIRRE",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 1,
+          "caballo": "TONADA VIEJA",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 7,
+          "caballo": "BREEZY STAR",
+          "jinete": "JONATHAN CASTILLO",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "ROGLIC",
+        "DRAKE (ARG)",
+        "TONADA VIEJA",
+        "BREEZY STAR"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 7,
+          "caballo": "LOBELIUS",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "OSCURO Y SALVAJE",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 12,
+          "caballo": "TIENES MI SONRISA",
+          "jinete": "RONALD FOURNET",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 3,
+          "caballo": "EL BOTICARIO",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 7,
+          "caballo": "LOBELIUS",
+          "jinete": "IGNACIO VALDIVIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 8,
+          "caballo": "OSCURO Y SALVAJE",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 12,
+          "caballo": "TIENES MI SONRISA",
+          "jinete": "RONALD FOURNET",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 3,
+          "caballo": "EL BOTICARIO",
+          "jinete": "GERARD RODRIGUEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "LOBELIUS",
+        "OSCURO Y SALVAJE",
+        "TIENES MI SONRISA",
+        "EL BOTICARIO"
+      ]
+    },
+    {
+      "tipo": "Superfecta Repetida (4 Aciertos)",
+      "veces": 2,
+      "detalle": [
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "JANSTAR",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 4,
+          "caballo": "BETTOLINA",
+          "jinete": "PIERO REYES",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 12,
+          "caballo": "DESPROLIJO",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 9,
+          "caballo": "LA TIA ELENA",
+          "jinete": "JOHAN GONZALEZ",
+          "hipodromo": "VAL",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 1,
+          "numero": 3,
+          "caballo": "JANSTAR",
+          "jinete": "JOAQUIN HERRERA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 2,
+          "numero": 4,
+          "caballo": "BETTOLINA",
+          "jinete": "PIERO REYES",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 3,
+          "numero": 12,
+          "caballo": "DESPROLIJO",
+          "jinete": "FELIPE TAPIA",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        },
+        {
+          "puesto": 4,
+          "numero": 9,
+          "caballo": "LA TIA ELENA",
+          "jinete": "JOHAN GONZALEZ",
+          "hipodromo": "Valparaíso Sporting",
+          "fecha": "2025-12-17"
+        }
+      ],
+      "signature": [
+        "JANSTAR",
+        "BETTOLINA",
+        "DESPROLIJO",
+        "LA TIA ELENA"
+      ]
+    }
+  ]
 }

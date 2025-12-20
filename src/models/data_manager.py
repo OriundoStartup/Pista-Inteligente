@@ -179,9 +179,10 @@ def obtener_analisis_jornada():
                 data = json.load(f)
                 
                 # FIX: Normalizar nombres de hipódromos 'legacy' o 'raw' al vuelo
-                # Esto corrige VALP -> Valparaíso Sporting inmediatamente en la vista
+                # Esto corrige VALP/VAL -> Valparaíso Sporting inmediatamente en la vista
                 for carrera in data:
-                    if carrera.get('hipodromo') == 'VALP':
+                    hip = carrera.get('hipodromo', '')
+                    if hip == 'VALP' or hip == 'VAL':
                         carrera['hipodromo'] = 'Valparaíso Sporting'
                 
                 # Update memory cache
