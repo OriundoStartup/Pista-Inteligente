@@ -476,7 +476,7 @@ def deploy_to_cloud_run():
             cwd=os.path.dirname(__file__) or ".",
             capture_output=True,
             text=True,
-            timeout=300,  # 5 minutos max
+            timeout=600,  # 10 minutos max
             shell=True if sys.platform == "win32" else False
         )
         

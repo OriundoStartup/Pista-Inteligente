@@ -420,11 +420,23 @@ def obtener_lista_hipodromos():
     """Obtiene la lista única de hipódromos."""
     try:
         df = cargar_datos_3nf()
-        if not df.empty:
-            return sorted(df['hipodromo'].unique().tolist())
-        df = cargar_datos()
+        if df.empty:
+             df = cargar_datos()
+             
         if not df.empty and 'hipodromo' in df.columns:
-             return sorted(df['hipodromo'].unique().tolist())
+            # Normalize VALP/VAL -> Valparaíso Sporting before list generation
+            # This ensures they don't appear as separate entries in filter buttons
+            raw_list = df['hipodromo'].unique().tolist()
+            normalized = set()
+            for h in raw_list:
+                if h in ['VALP', 'VAL']:
+                    normalized.add('Valparaíso Sporting')
+                elif h == 'VSC':
+                     normalized.add('Valparaíso Sporting') # Map VSC too just in case
+                else:
+                    normalized.add(h)
+            
+            return sorted(list(normalized))
         return []
     except:
         return []
