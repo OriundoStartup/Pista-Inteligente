@@ -885,23 +885,26 @@ def obtener_predicciones_historicas(fecha_inicio=None, fecha_fin=None, hipodromo
         print(f"Error obteniendo predicciones históricas: {e}")
         return pd.DataFrame()
 
-def obtener_ultimos_aciertos(limite=20, nombre_db='data/db/hipica_data.db'):
+def obtener_ultimos_aciertos(dias=30, nombre_db='data/db/hipica_data.db'):
     """
-    Obtiene los aciertos recientes (Ranking 1 que ganó la carrera) para mostrar confianza.
+    Obtiene los aciertos recientes (Ranking 1 que ganó la carrera) de los últimos X días.
     """
     if not os.path.exists(nombre_db) and os.path.exists(f'data/db/{nombre_db}'):
         nombre_db = f'data/db/{nombre_db}'
         
     try:
         conn = sqlite3.connect(nombre_db)
-        # Query similar a precision, pero solo aciertos exactos de Top 1
+        
+        # Calculate date threshold in Python for safety
+        fecha_limite = (datetime.now() - timedelta(days=dias)).strftime('%Y-%m-%d')
+        
         query = """
         SELECT 
             p.fecha_carrera,
             p.hipodromo,
             p.nro_carrera,
             p.numero_caballo,
-            p.caballo,
+            c.nombre as caballo,
             p.puntaje_ia,
             part.dividendo
         FROM predicciones p
@@ -918,15 +921,14 @@ def obtener_ultimos_aciertos(limite=20, nombre_db='data/db/hipica_data.db'):
             AND car.numero = p.nro_carrera
             AND part.posicion = 1 
             AND p.ranking_prediccion = 1
+            AND p.fecha_carrera >= ?
         ORDER BY p.fecha_carrera DESC
-        LIMIT ?
         """
         
-        df = pd.read_sql_query(query, conn, params=(limite,))
+        df = pd.read_sql_query(query, conn, params=(fecha_limite,))
         conn.close()
         
         if not df.empty and 'dividendo' in df.columns:
-            # Clean dividends
             df['dividendo'] = df['dividendo'].astype(str).str.replace(',', '.', regex=False)
             df['dividendo'] = pd.to_numeric(df['dividendo'], errors='coerce').fillna(0)
             

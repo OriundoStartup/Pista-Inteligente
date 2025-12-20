@@ -128,7 +128,7 @@ def precision():
     metricas_all = calcular_precision_modelo()
     
     # Obtener ACIERTOS recientes para mostrar confianza (Match Result vs Prediccion)
-    predicciones_recientes = obtener_ultimos_aciertos(limite=20)
+    predicciones_recientes = obtener_ultimos_aciertos(dias=30)
     
     return render_template('precision.html',
                          metricas_30d=metricas_30d,
