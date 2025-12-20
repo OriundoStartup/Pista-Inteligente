@@ -899,7 +899,7 @@ def obtener_ultimos_aciertos(dias=30, nombre_db='data/db/hipica_data.db'):
         fecha_limite = (datetime.now() - timedelta(days=dias)).strftime('%Y-%m-%d')
         
         query = """
-        SELECT 
+        SELECT DISTINCT
             p.fecha_carrera,
             p.hipodromo,
             p.nro_carrera,
