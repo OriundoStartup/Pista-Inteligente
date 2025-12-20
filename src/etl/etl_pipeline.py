@@ -524,6 +524,7 @@ class HipicaETL:
             'CONCE': 'Club Hípico de Concepción',
             'HC': 'Hipódromo Chile',
             'VSC': 'Valparaíso Sporting',
+            'VALP': 'Valparaíso Sporting',
             'CHS': 'Club Hípico de Santiago'
         }
         

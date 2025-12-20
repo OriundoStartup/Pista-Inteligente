@@ -9,6 +9,25 @@
         Análisis histórico de Jinetes, Caballos y Pistas para evaluar tendencias.
     </p>
 
+    <!-- METRICAS GENERALES -->
+    <div
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+        <div class="glass-card" style="text-align: center; padding: 1.5rem; border-top: 4px solid var(--primary);">
+            <div style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.5rem;">CARRERAS ANALIZADAS</div>
+            <div style="font-size: 2rem; font-weight: 800; color: white;">{{ stats.total_carreras }}</div>
+        </div>
+        <div class="glass-card" style="text-align: center; padding: 1.5rem; border-top: 4px solid var(--secondary);">
+            <div style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.5rem;">PRECISIÓN (30 DÍAS)</div>
+            <div style="font-size: 2rem; font-weight: 800; color: var(--secondary);">{{ stats.aciertos_ultimo_mes }}%
+            </div>
+        </div>
+        <div class="glass-card" style="text-align: center; padding: 1.5rem; border-top: 4px solid var(--accent);">
+            <div style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.5rem;">DIVIDENDOS GENERADOS</div>
+            <div style="font-size: 2rem; font-weight: 800; color: var(--accent);">${{ stats.dividendos_generados }}
+            </div>
+        </div>
+    </div>
+
     <!-- TOP JINETES -->
     <div class="glass-card" style="margin-bottom: 2rem; border-left: 4px solid var(--accent);">
         <h2 style="color:white; margin-bottom:1rem; font-size: 1.25rem;">🏇 Mejores Jinetes (Por Eficiencia)</h2>

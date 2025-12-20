@@ -6,7 +6,8 @@
 <div class="glass-card">
     <div class="section-title">
         📊 La Tercera es la Vencida
-        <span style="font-size: 0.8rem; background: var(--glass-bg); padding: 0.2rem 0.5rem; border-radius: 4px; color: var(--text-muted); margin-left: 10px; font-weight: normal;">
+        <span
+            style="font-size: 0.8rem; background: var(--glass-bg); padding: 0.2rem 0.5rem; border-radius: 4px; color: var(--text-muted); margin-left: 10px; font-weight: normal;">
             Actualizado: {{ last_updated }}
         </span>
     </div>
@@ -26,6 +27,47 @@
             {% endfor %}
         </div>
     </div>
+
+    <!-- ALERTAS FUTURAS -->
+    {% if alertas %}
+    <div class="glass-card"
+        style="margin-bottom: 3rem; background: rgba(59, 130, 246, 0.1); border-left: 4px solid #F59E0B;">
+        <h2 style="color: #F59E0B; margin-bottom: 1rem; font-size: 1.5rem;">
+            ⚠️ ¡Alerta! Patrones Detectados en Próximas Carreras
+        </h2>
+        <p style="color:white; margin-bottom: 1.5rem;">
+            Hemos detectado que los siguientes patrones históricos (Caballos que suelen llegar juntos)
+            están inscritos para correr nuevamente en las próximas jornadas.
+        </p>
+
+        {% for alerta in alertas %}
+        <div style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
+            <div
+                style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.5rem; margin-bottom: 0.5rem;">
+                <div style="font-weight: bold; color: var(--secondary);">
+                    {{ alerta.hipodromo }} - {{ alerta.fecha_carrera }} (Carrera {{ alerta.nro_carrera }})
+                </div>
+                <div style="color: #F59E0B; font-size: 0.9rem; font-weight: bold;">
+                    Se repitió {{ alerta.veces_previas }} veces antes
+                </div>
+            </div>
+
+            <div style="margin-bottom: 0.5rem;">
+                <span style="color: var(--text-muted);">Patrón:</span>
+                <strong style="color: white; font-size: 1.1rem;">{{ alerta.caballos_involucrados | join(' + ')
+                    }}</strong>
+            </div>
+
+            <div style="font-size: 0.85rem; color: var(--text-muted);">
+                <i>Historial:</i>
+                {% for d in alerta.detalle_previo[:3] %}
+                {{ d[0].fecha }} ({{ d[0].hipodromo }}){% if not loop.last %}, {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
 
     {% for patron in patrones %}
     <div class="glass-card" style="margin-bottom:1.5rem; background: rgba(0,0,0,0.3);">

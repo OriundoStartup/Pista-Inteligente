@@ -7,7 +7,7 @@ import os
 import json
 import joblib
 import numpy as np
-from datetime import datetime
+from datetime import datetime, timedelta
 from .features import FeatureEngineering
 
 def cargar_datos(nombre_db='data/db/hipica_data.db'):
@@ -171,13 +171,18 @@ def obtener_analisis_jornada():
             if _memory_cache['data'] is not None and \
                _memory_cache['path'] == str(cache_path) and \
                _memory_cache['mtime'] == current_mtime:
-                # print("⚡ [RAM] Retornando análisis desde memoria")
                 return _memory_cache['data']
 
             # If not in memory or file changed, reload from disk
             with open(cache_path, 'r', encoding='utf-8') as f:
                 print(f"⚡ [DISK] Recargando cache predicciones ({current_mtime})")
                 data = json.load(f)
+                
+                # FIX: Normalizar nombres de hipódromos 'legacy' o 'raw' al vuelo
+                # Esto corrige VALP -> Valparaíso Sporting inmediatamente en la vista
+                for carrera in data:
+                    if carrera.get('hipodromo') == 'VALP':
+                        carrera['hipodromo'] = 'Valparaíso Sporting'
                 
                 # Update memory cache
                 _memory_cache['data'] = data
@@ -660,11 +665,86 @@ def obtener_patrones_la_tercera(hipodromo_filtro=None):
         print(f"❌ CRITICAL ERROR in obtener_patrones: {e}")
         return [], "Error de Sistema"
 
+def detectar_patrones_futuros():
+    """
+    Analiza el programa futuro y busca si algún subconjunto de caballos 
+    coincide con patrones históricos (ej. Quinelas repetidas).
+    Retorna una lista de 'Alertas de Patrón'.
+    """
+    try:
+        # 1. Obtener programa futuro
+        programa = obtener_analisis_jornada()
+        if not programa: return []
+        
+        # 2. Obtener patrones históricos
+        patrones, _ = obtener_patrones_la_tercera() # Global patterns
+        if not patrones: return []
+        
+        # Indexar patrones por signature (set for easier subset check)
+        # Signature is tuple of names sorted.
+        # We focus on Quinelas (len 2) mainly as they are most common repeating unit.
+        # Trifectas (len 3) also valid.
+        
+        relevant_patterns = []
+        
+        for p in patrones:
+            # Solo nos interesan patrones que se han repetido
+            if p['veces'] >= 2:
+                # Convert signature to set for subset check
+                p['sig_set'] = set(p['signature'])
+                relevant_patterns.append(p)
+        
+        alerts = []
+        
+        for carrera in programa:
+            # Caballos en esta carrera futura
+            # carrera['caballos'] is a list of dicts or DF. data_manager returns dicts in serializable.
+            # But inside data_manager, obtaining directly might be list of dicts if cached, or dict if not.
+            # obtener_analisis_jornada checks cache and returns list of dicts.
+            
+            caballos_carrera = carrera.get('caballos', [])
+            # Normalize names
+            nombres_carrera = set()
+            for c in caballos_carrera:
+                name = c.get('Caballo', '') or c.get('caballo', '') # Case sensitive keys check
+                if name: nombres_carrera.add(name.strip())
+            
+            if len(nombres_carrera) < 2: continue
+
+            # Check against patterns
+            for p in relevant_patterns:
+                sig_set = p['sig_set']
+                
+                # Check if Pattern is a SUBSET of Race Horses
+                # i.e. Are both horses form the Quinela present in this race?
+                if sig_set.issubset(nombres_carrera):
+                    # MATCH FOUND!
+                    alerts.append({
+                        'hipodromo': carrera['hipodromo'],
+                        'fecha_carrera': carrera['fecha'],
+                        'nro_carrera': carrera['carrera'],
+                        'tipo_patron': p['tipo'],
+                        'veces_previas': p['veces'],
+                        'caballos_involucrados': list(p['signature']), # Tuple to list
+                        'detalle_previo': p['detalle'] # Full history
+                    })
+        
+        # Sort by relevance (max reps)
+        alerts.sort(key=lambda x: x['veces_previas'], reverse=True)
+        return alerts
+
+    except Exception as e:
+        print(f"Error detectando patrones futuros: {e}")
+        import traceback
+        traceback.print_exc()
+        return []
+
+
 def obtener_estadisticas_generales():
     """Calcula estadísticas generales de rendimiento."""
     df = cargar_datos_3nf()
     if df.empty:
-        return {'jinetes': [], 'caballos': [], 'pistas': [], 'total_carreras': 0}
+        return {'jinetes': [], 'caballos': [], 'pistas': [], 'total_carreras': 0, 'aciertos_ultimo_mes': 0, 'dividendos_generados': 0}
 
     try:
         # 1. Top Jinetes (Por Eficiencia de Ganador)
@@ -693,12 +773,33 @@ def obtener_estadisticas_generales():
         ).reset_index()
         pistas_stats['promedio_div'] = pistas_stats['promedio_div'].fillna(0)
         track_stats = pistas_stats.to_dict('records')
+
+        # 4. Precision mes y Dividendos (Usando funcion existente)
+        # Calcular ultimos 30 dias
+        try:
+             fecha_fin = datetime.now()
+             fecha_inicio = fecha_fin - timedelta(days=30)
+             
+             # Formato string YYYY-MM-DD
+             f_inicio_str = fecha_inicio.strftime('%Y-%m-%d')
+             f_fin_str = fecha_fin.strftime('%Y-%m-%d')
+             
+             precision_data = calcular_precision_modelo(fecha_inicio=f_inicio_str, fecha_fin=f_fin_str)
+             
+             aciertos_mes = precision_data.get('top1_accuracy', 0)
+             dividendos_generados = precision_data.get('total_dividendos', 0)
+        except Exception as e:
+             print(f"Error calc precision stats: {e}")
+             aciertos_mes = 0
+             dividendos_generados = 0
         
         return {
             'jinetes': top_jinetes,
             'caballos': top_caballos,
             'pistas': track_stats,
-            'total_carreras': len(df)
+            'total_carreras': len(df),
+            'aciertos_ultimo_mes': float(aciertos_mes),
+            'dividendos_generados': round(float(dividendos_generados), 1)
         }
         
     except Exception as e:
@@ -798,7 +899,8 @@ def calcular_precision_modelo(fecha_inicio=None, fecha_fin=None, nombre_db='data
             p.numero_caballo,
             p.caballo_id,
             p.ranking_prediccion,
-            part.posicion as posicion_real
+            part.posicion as posicion_real,
+            part.dividendo as div_real
         FROM predicciones p
         INNER JOIN programa_carreras pc 
             ON p.fecha_carrera = pc.fecha 
@@ -834,6 +936,7 @@ def calcular_precision_modelo(fecha_inicio=None, fecha_fin=None, nombre_db='data
                 'top1_accuracy': 0.0,
                 'top3_accuracy': 0.0,
                 'top4_accuracy': 0.0,
+                'total_dividendos': 0.0,
                 'mensaje': 'No hay datos suficientes para calcular precisión'
             }
         
@@ -845,6 +948,20 @@ def calcular_precision_modelo(fecha_inicio=None, fecha_fin=None, nombre_db='data
         total_top1_predictions = len(df[df['ranking_prediccion'] == 1])
         top1_accuracy = (top1_correct / total_top1_predictions * 100) if total_top1_predictions > 0 else 0
         
+        # Dividendos (Solo ganadores que fueron Top 1)
+        try:
+             hits_df = df[(df['ranking_prediccion'] == 1) & (df['posicion_real'] == 1)].copy()
+             # Limpiar dividendo
+             if not hits_df.empty:
+                 hits_df['div_real'] = hits_df['div_real'].astype(str).str.replace(',', '.', regex=False)
+                 hits_df['div_real'] = pd.to_numeric(hits_df['div_real'], errors='coerce').fillna(0)
+                 total_dividendos = hits_df['div_real'].sum()
+             else:
+                 total_dividendos = 0.0
+        except Exception as e:
+             print(f"Error calc dividendos: {e}")
+             total_dividendos = 0.0
+
         # Top 3: Caballos predichos en top 3 que terminaron en top 3
         top3_correct = len(df[(df['ranking_prediccion'] <= 3) & (df['posicion_real'] <= 3)])
         total_top3_predictions = len(df[df['ranking_prediccion'] <= 3])
@@ -861,6 +978,7 @@ def calcular_precision_modelo(fecha_inicio=None, fecha_fin=None, nombre_db='data
             'top1_accuracy': round(top1_accuracy, 2),
             'top1_correct': top1_correct,
             'top1_total': total_top1_predictions,
+            'total_dividendos': round(total_dividendos, 1),
             'top3_accuracy': round(top3_accuracy, 2),
             'top3_correct': top3_correct,
             'top3_total': total_top3_predictions,

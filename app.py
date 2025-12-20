@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify, url_for
 import pandas as pd
-from src.models.data_manager import cargar_datos, obtener_analisis_jornada, obtener_patrones_la_tercera, obtener_estadisticas_generales, obtener_lista_hipodromos, calcular_precision_modelo, obtener_predicciones_historicas
+from src.models.data_manager import cargar_datos, obtener_analisis_jornada, obtener_patrones_la_tercera, obtener_estadisticas_generales, obtener_lista_hipodromos, calcular_precision_modelo, obtener_predicciones_historicas, detectar_patrones_futuros
 from src.models.ai_model import configurar_gemini, get_gemini_response_stream
 import os
 from dotenv import load_dotenv
@@ -105,7 +105,8 @@ def programa():
 def analisis():
     hipodromo_filter = request.args.get('hipodromo', 'Todos')
     patrones, last_updated = obtener_patrones_la_tercera(hipodromo_filter)
-    return render_template('analysis.html', patrones=patrones, hipodromo_filter=hipodromo_filter, last_updated=last_updated)
+    alertas = detectar_patrones_futuros()
+    return render_template('analysis.html', patrones=patrones, hipodromo_filter=hipodromo_filter, last_updated=last_updated, alertas=alertas)
 
 @app.route('/precision')
 def precision():
