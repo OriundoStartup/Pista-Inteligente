@@ -337,14 +337,15 @@ def main(force_sync=False):
         print(f"\n🔄 Detectados {archivos_nuevos} archivo(s) nuevo(s). Actualizando sistema...")
         
         # 2. Entrenar/Actualizar Modelos de IA
-        print("\n[PASO 2/3] Entrenando Modelos de IA (HipicaLearner)...")
-        try:
-            learner = HipicaLearner()
-            learner.train()
-            print("✅ Modelos de Inteligencia Artificial actualizados correctamente.")
-        except Exception as e_ml:
-            print(f"⚠️ Advertencia: No se pudo entrenar el modelo de IA: {e_ml}")
-            print("   -> El sistema continuará con los modelos anteriores si existen.")
+        # print("\n[PASO 2/3] Entrenando Modelos de IA (HipicaLearner)...")
+        # try:
+        #     # learner = HipicaLearner()
+        #     # learner.train()
+        #     print("⚠️ Entrenamiento automático DESACTIVADO por seguridad (Plan de Corrección).")
+        #     # print("✅ Modelos de Inteligencia Artificial actualizados correctamente.")
+        # except Exception as e_ml:
+        #     print(f"⚠️ Advertencia: No se pudo entrenar el modelo de IA: {e_ml}")
+        #     print("   -> El sistema continuará con los modelos anteriores si existen.")
 
         elapsed = time.time() - start_time
         print(f"\n✅ SINCRONIZACIÓN COMPLETADA en {elapsed:.2f} segundos.")

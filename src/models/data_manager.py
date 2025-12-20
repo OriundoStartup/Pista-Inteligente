@@ -287,135 +287,128 @@ def analizar_probabilidad_caballos(caballos_df, historial_resultados, model=None
 
     predicciones = []
     
-    # 1. Prepare Input for FeatureEngineering
-    # We need to construct a DF that looks like 'get_raw_data' result but for the current race candidates.
-    # We essentially need to find their history to calc lag features.
-    
-    # Optimization: Filter history to only relevant horses/jockeys to speed up lookups
-    # But for now, we pass full history to 'fe' or let 'fe' handle it? 
-    # Current 'fe.transform' expects a DF with history COLUMNS pre-calculated if logic is complex
-    # OR it calculates them from the rows provided. 
-    
-    # Problem: 'fe.transform' calculates rolling stats on the PROVIDED df.
-    # If we provide a DF with just 1 row per horse (current race), rolling stats will be NaN or 0.
-    # WE NEED TO APPEND CURRENT RACE TO HISTORY TO CALC ROLLING, THEN PREDICT ON LAST ROW.
-    
-    # Strategy:
-    # For each horse in current race:
-    # 1. Get its history from historial_resultados
-    # 2. Append a "current" row with race context (dist, pista, etc)
-    # 3. Call fe.transform on this combined small DF
-    # 4. Extract the last row (the current prediction input)
-    
     # Context
     distancia = context.get('distancia', 1000) if context else 1000
     fecha_carrera = pd.to_datetime(context.get('fecha', datetime.now())) if context else datetime.now()
     pista = context.get('pista', 'ARENA') if context else 'ARENA'
     
-    # Pre-filter history
-    relevant_horses = set(caballos_df['caballo'].values)
-    # We match by Name because ID might be missing in program or distinct.
-    # Ideally should use ID. Assuming 'nombre' is key.
+    scores = []
     
-    # Create rows for batch prediction
-    batch_rows = []
-    horse_indices = []
-
     for idx, row in caballos_df.iterrows():
-        nombre = row.get('caballo')
+        nombre = row.get('caballo', '').strip()
         val_num = row.get('numero', 0)
         jinete_nombre = row.get('jinete', 'Jinete')
         peso_val = row.get('peso', 470)
         
         # Heuristic Score (legacy fallback/hybrid factor)
         heuristic_score = 50.0
-        # Find horse checks
+        
+        # Robust Name Matching
         caballo_hist = historial_resultados[historial_resultados['caballo'] == nombre].sort_values('fecha')
         
+        # Fallback: Try match without extra spaces if exact fails
+        if caballo_hist.empty:
+             caballo_hist = historial_resultados[historial_resultados['caballo'].str.strip() == nombre].sort_values('fecha')
+
         if not caballo_hist.empty:
             # Simple stats for legacy score
             wins = len(caballo_hist[caballo_hist['posicion'] == 1])
-            heuristic_score += (wins * 2.0)
+            runs = len(caballo_hist)
+            win_rate = wins / runs if runs > 0 else 0
+            heuristic_score += (win_rate * 50.0) 
+            
+            # Recency bonus
+            try:
+                last_run = pd.to_datetime(caballo_hist.iloc[-1]['fecha'])
+                days_since = (fecha_carrera - last_run).days
+                if days_since < 30: heuristic_score += 5
+            except: pass
         else:
             heuristic_score = 45.0 # Debutante
+            print(f"   ⚠️ Debutante o Sin Historia: {nombre}")
 
         # ML Prep
+        ml_score = 50.0
         if model and fe:
-            # Construct a row representing this race attempt
-            # We need to map columns expected by 'fe.transform' logic IF it runs full calculation
-            # But 'fe.transform' expects raw SQL columns: 
-            # [posicion, mandil, tiempo, peso_fs, dividendo, caballo_id, jinete_id, fecha, hipodromo_id, distancia, pista, condicion]
-            
-            # We fake dummy IDs if needed or use name-based lookups if we refactored FE to use names?
-            # FE uses 'caballo_id', 'jinete_id'.
-            # We must map names to IDs from history.
-            
-            c_id = 0
-            j_id = 0
-            if not caballo_hist.empty:
-                c_id = caballo_hist.iloc[0]['caballo_id']
-                
-            # Find Jinete ID
-            j_hist = historial_resultados[historial_resultados['jinete'] == jinete_nombre]
-            if not j_hist.empty:
-                j_id = j_hist.iloc[0]['jinete_id']
-
-            # Create the "Current" row
-            # Note: 'posicion', 'tiempo', 'dividendo' are unknown (Target), set to NaN or 0
-            current_row = {
-                'fecha': fecha_carrera,
-                'caballo_id': c_id,
-                'jinete_id': j_id,
-                'distancia': distancia,
-                'pista': pista,
-                'peso_fs': peso_val,
-                'mandil': val_num,
-                'tiempo': 0, # Unknown
-                'posicion': 0, # Unknown
-                'is_win': 0 # Unknown
-            }
-            
-            # Combine history + current
-            # We need strictly the columns that 'fe' uses for grouping
-            cols_needed = ['fecha', 'caballo_id', 'jinete_id', 'distancia', 'pista', 'peso_fs', 'mandil', 'tiempo', 'posicion']
-            
-            # Reduce history to needed cols
-            h_subset = caballo_hist[cols_needed].copy()
-            # Append current
-            h_subset = pd.concat([h_subset, pd.DataFrame([current_row])], ignore_index=True)
-            
-            # Run FE
-            # Note: calculating for just one horse is fast enough
             try:
-                # Transform constructs features including rolling windows
-                # The last row is our target
+                # Find Jinete ID
+                j_id = 0
+                j_hist = historial_resultados[historial_resultados['jinete'] == jinete_nombre]
+                if not j_hist.empty:
+                    j_id = j_hist.iloc[0]['jinete_id']
+                
+                c_id = 0
+                if not caballo_hist.empty:
+                    c_id = caballo_hist.iloc[0]['caballo_id']
+
+                # Create the "Current" row
+                current_row = {
+                    'fecha': fecha_carrera,
+                    'caballo_id': c_id,
+                    'jinete_id': j_id,
+                    'distancia': distancia,
+                    'pista': pista,
+                    'peso_fs': peso_val,
+                    'mandil': val_num,
+                    'tiempo': 0, 
+                    'posicion': 0, 
+                    'is_win': 0 
+                }
+                
+                cols_needed = ['fecha', 'caballo_id', 'jinete_id', 'distancia', 'pista', 'peso_fs', 'mandil', 'tiempo', 'posicion']
+                
+                # Combine history + current
+                if caballo_hist.empty:
+                     h_subset = pd.DataFrame([current_row]) 
+                else:
+                     h_subset = pd.concat([caballo_hist[cols_needed].copy(), pd.DataFrame([current_row])], ignore_index=True)
+                
                 feats = fe.transform(h_subset, is_training=False)
                 last_feat = feats.iloc[-1:].copy()
                 
                 # Predict
                 prob = model.predict_proba(last_feat)[0][1]
-                ml_score = prob * 100 * 2.5 # Scale roughly
-                ml_score = min(99, ml_score)
+                ml_score = prob * 100
                 
             except Exception as e:
-                # print(f"ML Error for {nombre}: {e}")
-                ml_score = 50.0 # Neural fallback
-        else:
-             ml_score = 50.0
+                ml_score = 50.0 
 
-        # Hybrid
-        final_score = (heuristic_score * 0.3) + (ml_score * 0.7)
+        # Hybrid Score
+        final_score = (heuristic_score * 0.4) + (ml_score * 0.6)
         
-        predicciones.append({
+        scores.append({
             'numero': int(val_num),
             'caballo': nombre,
             'jinete': jinete_nombre,
-            'puntaje_ia': round(final_score, 1),
-            'prob_ml': f"{ml_score:.1f}"
+            'raw_score': final_score,
+            'ml_prob': ml_score
         })
         
-    predicciones.sort(key=lambda x: x['puntaje_ia'], reverse=True)
-    return predicciones[:4]
+    # Relative Normalization
+    if not scores: return []
+    
+    max_score = max(s['raw_score'] for s in scores)
+    min_score = min(s['raw_score'] for s in scores)
+    
+    if max_score == min_score:
+        for s in scores:
+             s['puntaje_ia'] = 85.0
+             s['prob_ml'] = "50.0"
+    else:
+        for s in scores:
+            normalized = 60 + ((s['raw_score'] - min_score) / (max_score - min_score)) * (99 - 60)
+            s['puntaje_ia'] = round(normalized, 1)
+            s['prob_ml'] = f"{s['ml_prob']:.1f}"
+
+    scores.sort(key=lambda x: x['puntaje_ia'], reverse=True)
+    
+    return [{
+        'numero': s['numero'],
+        'caballo': s['caballo'],
+        'jinete': s['jinete'],
+        'puntaje_ia': s['puntaje_ia'],
+        'prob_ml': s['prob_ml']
+    } for s in scores[:4]]
 
 def obtener_lista_hipodromos():
     """Obtiene la lista única de hipódromos."""
@@ -885,4 +878,3 @@ def calcular_precision_modelo(fecha_inicio=None, fecha_fin=None, nombre_db='data
             'error': str(e),
             'mensaje': 'Error al calcular precisión del modelo'
         }
-
