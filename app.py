@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify, url_for
 import pandas as pd
-from src.models.data_manager import cargar_datos, obtener_analisis_jornada, obtener_patrones_la_tercera, obtener_estadisticas_generales, obtener_lista_hipodromos, calcular_precision_modelo, obtener_predicciones_historicas, detectar_patrones_futuros
+from src.models.data_manager import cargar_datos, obtener_analisis_jornada, obtener_patrones_la_tercera, obtener_estadisticas_generales, obtener_lista_hipodromos, calcular_precision_modelo, obtener_predicciones_historicas, detectar_patrones_futuros, obtener_ultimos_aciertos
 from src.models.ai_model import configurar_gemini, get_gemini_response_stream
 import os
 from dotenv import load_dotenv
@@ -127,8 +127,8 @@ def precision():
     # Métricas históricas completas
     metricas_all = calcular_precision_modelo()
     
-    # Obtener algunas predicciones recientes para transparencia
-    predicciones_recientes = obtener_predicciones_historicas(limite=20)
+    # Obtener ACIERTOS recientes para mostrar confianza (Match Result vs Prediccion)
+    predicciones_recientes = obtener_ultimos_aciertos(limite=20)
     
     return render_template('precision.html',
                          metricas_30d=metricas_30d,

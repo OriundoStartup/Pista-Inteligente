@@ -885,6 +885,57 @@ def obtener_predicciones_historicas(fecha_inicio=None, fecha_fin=None, hipodromo
         print(f"Error obteniendo predicciones históricas: {e}")
         return pd.DataFrame()
 
+def obtener_ultimos_aciertos(limite=20, nombre_db='data/db/hipica_data.db'):
+    """
+    Obtiene los aciertos recientes (Ranking 1 que ganó la carrera) para mostrar confianza.
+    """
+    if not os.path.exists(nombre_db) and os.path.exists(f'data/db/{nombre_db}'):
+        nombre_db = f'data/db/{nombre_db}'
+        
+    try:
+        conn = sqlite3.connect(nombre_db)
+        # Query similar a precision, pero solo aciertos exactos de Top 1
+        query = """
+        SELECT 
+            p.fecha_carrera,
+            p.hipodromo,
+            p.nro_carrera,
+            p.numero_caballo,
+            p.caballo,
+            p.puntaje_ia,
+            part.dividendo
+        FROM predicciones p
+        INNER JOIN programa_carreras pc 
+            ON p.fecha_carrera = pc.fecha 
+            AND p.hipodromo = pc.hipodromo 
+            AND p.nro_carrera = pc.nro_carrera
+            AND p.numero_caballo = pc.numero
+        INNER JOIN caballos c ON pc.caballo_id = c.id
+        INNER JOIN participaciones part ON part.caballo_id = c.id
+        INNER JOIN carreras car ON part.carrera_id = car.id
+        INNER JOIN jornadas jor ON car.jornada_id = jor.id
+        WHERE jor.fecha = p.fecha_carrera
+            AND car.numero = p.nro_carrera
+            AND part.posicion = 1 
+            AND p.ranking_prediccion = 1
+        ORDER BY p.fecha_carrera DESC
+        LIMIT ?
+        """
+        
+        df = pd.read_sql_query(query, conn, params=(limite,))
+        conn.close()
+        
+        if not df.empty and 'dividendo' in df.columns:
+            # Clean dividends
+            df['dividendo'] = df['dividendo'].astype(str).str.replace(',', '.', regex=False)
+            df['dividendo'] = pd.to_numeric(df['dividendo'], errors='coerce').fillna(0)
+            
+        return df.to_dict('records')
+        
+    except Exception as e:
+        print(f"Error obteniendo aciertos: {e}")
+        return []
+
 def calcular_precision_modelo(fecha_inicio=None, fecha_fin=None, nombre_db='data/db/hipica_data.db'):
     """
     Calcula métricas de precisión del modelo comparando predicciones con resultados reales.
