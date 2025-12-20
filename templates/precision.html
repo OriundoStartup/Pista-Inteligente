@@ -173,53 +173,7 @@
 </div>
 
 <!-- Últimas Predicciones (Transparencia en vivo) -->
-<div class="glass-card" style="margin-bottom: 2rem;">
-    <div class="section-title">🔮 Últimas Predicciones Generadas</div>
-    <p style="text-align: center; color: var(--text-muted); margin-bottom: 1.5rem;">
-        Estas son las predicciones más recientes generadas por nuestro sistema. Quedan registradas 
-        públicamente antes de cada carrera.
-    </p>
-    
-    <div style="overflow-x: auto;">
-        <table class="modern-table">
-            <thead>
-                <tr>
-                    <th>Fecha Carrera</th>
-                    <th>Hipódromo</th>
-                    <th>Carrera</th>
-                    <th>Nº</th>
-                    <th>Caballo</th>
-                    <th>Ranking IA</th>
-                    <th>Score IA</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for p in predicciones_recientes %}
-                <tr>
-                    <td>{{ p.fecha_carrera }}</td>
-                    <td>{{ p.hipodromo }}</td>
-                    <td style="text-align: center; font-weight: bold;">{{ p.nro_carrera }}</td>
-                    <td style="text-align: center;">{{ p.numero_caballo }}</td>
-                    <td>{{ p.caballo }}</td>
-                    <td style="text-align: center;">
-                        {% if p.ranking_prediccion == 1 %}🥇{% endif %}
-                        {% if p.ranking_prediccion == 2 %}🥈{% endif %}
-                        {% if p.ranking_prediccion == 3 %}🥉{% endif %}
-                        {{ p.ranking_prediccion }}
-                    </td>
-                    <td style="text-align: center; font-weight: bold; color: var(--primary);">{{ p.puntaje_ia }}</td>
-                </tr>
-                {% else %}
-                <tr>
-                    <td colspan="7" style="text-align: center; padding: 2rem; color: var(--text-muted);">
-                        No hay predicciones recientes registradas aún.
-                    </td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    </div>
-</div>
+
 
 <!-- Metodología -->
 <div class="glass-card">
