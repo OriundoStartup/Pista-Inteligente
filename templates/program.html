@@ -135,7 +135,7 @@ análisis en tiempo real.{% endblock %}
 <div class="glass-card">
     <div class="section-title">🔮 Predicciones de Inteligencia Artificial</div>
 
-    <div style="margin-bottom: 2rem;">
+    <div style="margin-bottom: 0;">
         <label style="color:var(--secondary); margin-right: 1rem;">Filtrar por Hipódromo:</label>
         <div style="display:inline-flex; gap:0.5rem;">
             <a href="/programa?hipodromo=Todos" class="nav-link {% if hipodromo_filter == 'Todos' %}active{% endif %}"
@@ -146,7 +146,9 @@ análisis en tiempo real.{% endblock %}
             {% endfor %}
         </div>
     </div>
+</div>
 
+<div class="predictions-container">
     {% for carrera in analisis %}
     <div class="glass-card" style="margin-bottom: 1rem; border-left: 4px solid var(--primary);">
         <h2 style="color:white; margin-bottom:0.5rem; font-size: 1.25rem;">
@@ -216,7 +218,7 @@ análisis en tiempo real.{% endblock %}
         </div>
     </div>
     {% else %}
-    <div style="text-align:center; padding:3rem; color:var(--text-muted);">
+    <div class="glass-card" style="text-align:center; padding:3rem; color:var(--text-muted);">
         No hay carreras disponibles para el filtro seleccionado hoy.
     </div>
     {% endfor %}
