@@ -4,9 +4,14 @@ import joblib
 import os
 import sqlite3
 import json
+import sys
 from datetime import datetime
 from src.models.data_manager import cargar_programa, cargar_datos_3nf
 from src.models.features import FeatureEngineering
+
+# Fix for Windows Unicode printing
+if sys.platform == "win32" and hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
 
 class InferencePipeline:
     def __init__(self, model_path='src/models/lgbm_ranker_v1.pkl', fe_path='src/models/feature_eng_v2.pkl'):
