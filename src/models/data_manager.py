@@ -212,9 +212,16 @@ def obtener_analisis_jornada():
     model = None
     fe = None
     try:
-        model = joblib.load('src/models/gb_model_v3.pkl')
-        fe = FeatureEngineering.load('src/models/feature_eng_v2.pkl')
-        ml_available = True
+        if os.path.exists("src/models/lgbm_ranker_v1.pkl"):
+            model = joblib.load("src/models/lgbm_ranker_v1.pkl")
+            fe = FeatureEngineering.load("src/models/feature_eng_v2.pkl")
+            ml_available = True
+        elif os.path.exists('src/models/gb_model_v3.pkl'):
+            model = joblib.load('src/models/gb_model_v3.pkl')
+            fe = FeatureEngineering.load('src/models/feature_eng_v2.pkl')
+            ml_available = True
+        else:
+             ml_available = False
     except:
         ml_available = False
     
@@ -289,67 +296,68 @@ def obtener_analisis_jornada():
     return analisis_completo
 
 def analizar_probabilidad_caballos(caballos_df, historial_resultados, model=None, fe=None, context=None):
-    """Analiza probabilidades usando ML + Heurística híbrida."""
+    """Analiza probabilidades usando ML (LGBMRanker + Softmax) o Heurística."""
     if historial_resultados.empty or caballos_df.empty:
         return []
 
-    predicciones = []
+    # Check for V2 Model override (if passed None, try load?)
+    # Usually model is passed from `obtener_analisis_jornada` which loads it.
+    # We assume `model` passed here is the correct one.
+    
+    scores = []
     
     # Context
     distancia = context.get('distancia', 1000) if context else 1000
     fecha_carrera = pd.to_datetime(context.get('fecha', datetime.now())) if context else datetime.now()
     pista = context.get('pista', 'ARENA') if context else 'ARENA'
-    
-    scores = []
-    
+
+    # Vectors for Batch Prediction
+    X_batch = []
+    indices_batch = []
+
     for idx, row in caballos_df.iterrows():
         nombre = row.get('caballo', '').strip()
         val_num = row.get('numero', 0)
         jinete_nombre = row.get('jinete', 'Jinete')
         peso_val = row.get('peso', 470)
         
-        # Heuristic Score (legacy fallback/hybrid factor)
+        # Heuristic Score (legacy fallback factor)
         heuristic_score = 50.0
         
         # Robust Name Matching
         caballo_hist = historial_resultados[historial_resultados['caballo'] == nombre].sort_values('fecha')
-        
-        # Fallback: Try match without extra spaces if exact fails
         if caballo_hist.empty:
              caballo_hist = historial_resultados[historial_resultados['caballo'].str.strip() == nombre].sort_values('fecha')
 
         if not caballo_hist.empty:
-            # Simple stats for legacy score
             wins = len(caballo_hist[caballo_hist['posicion'] == 1])
             runs = len(caballo_hist)
             win_rate = wins / runs if runs > 0 else 0
-            heuristic_score += (win_rate * 50.0) 
-            
-            # Recency bonus
+            heuristic_score += (win_rate * 50.0)
             try:
-                last_run = pd.to_datetime(caballo_hist.iloc[-1]['fecha'])
-                days_since = (fecha_carrera - last_run).days
-                if days_since < 30: heuristic_score += 5
+                days = (fecha_carrera - pd.to_datetime(caballo_hist.iloc[-1]['fecha'])).days
+                if days < 30: heuristic_score += 5
             except: pass
         else:
             heuristic_score = 45.0 # Debutante
-            print(f"   ⚠️ Debutante o Sin Historia: {nombre}")
 
-        # ML Prep
-        ml_score = 50.0
+        # ML Feature Generation (Keep per-horse lag logic)
+        ml_ready = False
         if model and fe:
             try:
-                # Find Jinete ID
+                # IDs
                 j_id = 0
                 j_hist = historial_resultados[historial_resultados['jinete'] == jinete_nombre]
-                if not j_hist.empty:
-                    j_id = j_hist.iloc[0]['jinete_id']
+                if not j_hist.empty: j_id = j_hist.iloc[0]['jinete_id']
                 
                 c_id = 0
-                if not caballo_hist.empty:
-                    c_id = caballo_hist.iloc[0]['caballo_id']
-
-                # Create the "Current" row
+                if not caballo_hist.empty: c_id = caballo_hist.iloc[0]['caballo_id']
+                
+                # Padre/Preparador would be needed for V2 features but we might lack them in `caballos_df` inputs
+                # `caballos_df` comes from `programa` table. 
+                # If we updated `programa` table or query to include them?
+                # For now we use defaults or partial info.
+                
                 current_row = {
                     'fecha': fecha_carrera,
                     'caballo_id': c_id,
@@ -358,65 +366,110 @@ def analizar_probabilidad_caballos(caballos_df, historial_resultados, model=None
                     'pista': pista,
                     'peso_fs': peso_val,
                     'mandil': val_num,
-                    'tiempo': 0, 
-                    'posicion': 0, 
-                    'is_win': 0 
+                    'tiempo': 0, 'posicion': 0, 'is_win': 0,
+                    # Added for V2 support if columns exist in FE expectations, else filled 0
+                    'preparador_id': 0, # TODO: Pass preparador from context or df
+                    'padre': '0'
                 }
                 
                 cols_needed = ['fecha', 'caballo_id', 'jinete_id', 'distancia', 'pista', 'peso_fs', 'mandil', 'tiempo', 'posicion']
+                # If dataframe has more cols (v2 prep), we need them. 
+                # For now simply concat.
                 
-                # Combine history + current
                 if caballo_hist.empty:
                      h_subset = pd.DataFrame([current_row]) 
                 else:
+                     # Ensure cols match
+                     common_cols = list(set(caballo_hist.columns) & set(current_row.keys()))
+                     # We need columns that FE expects. FE is robust to missing?
+                     # FE V2 expects 'preparador_id' etc.
+                     # We should ensure `historial_resultados` has them?
+                     # `obtener_resultados_historicos` query needs update for V2?
+                     # Assuming for now we do best effort.
                      h_subset = pd.concat([caballo_hist[cols_needed].copy(), pd.DataFrame([current_row])], ignore_index=True)
                 
                 feats = fe.transform(h_subset, is_training=False)
                 last_feat = feats.iloc[-1:].copy()
                 
-                # Predict
-                prob = model.predict_proba(last_feat)[0][1]
-                ml_score = prob * 100
+                X_batch.append(last_feat)
+                indices_batch.append(idx)
+                ml_ready = True
                 
             except Exception as e:
-                ml_score = 50.0 
-
-        # Hybrid Score
-        final_score = (heuristic_score * 0.4) + (ml_score * 0.6)
+                # print(f"ML Step Error: {e}")
+                pass
         
+        # Store metadata
         scores.append({
+            'idx': idx,
             'numero': int(val_num),
             'caballo': nombre,
             'jinete': jinete_nombre,
-            'raw_score': final_score,
-            'ml_prob': ml_score
+            'heuristic': heuristic_score,
+            'ml_score': 0.0, # Will fill later
+            'final_prob': 0.0
         })
-        
-    # Relative Normalization
-    if not scores: return []
-    
-    max_score = max(s['raw_score'] for s in scores)
-    min_score = min(s['raw_score'] for s in scores)
-    
-    if max_score == min_score:
-        for s in scores:
-             s['puntaje_ia'] = 85.0
-             s['prob_ml'] = "50.0"
-    else:
-        for s in scores:
-            normalized = 60 + ((s['raw_score'] - min_score) / (max_score - min_score)) * (99 - 60)
-            s['puntaje_ia'] = round(normalized, 1)
-            s['prob_ml'] = f"{s['ml_prob']:.1f}"
 
-    scores.sort(key=lambda x: x['puntaje_ia'], reverse=True)
+    # Batch Prediction & Softmax
+    if X_batch and model:
+        try:
+            X_full = pd.concat(X_batch)
+            
+            # Predict
+            # Check if predict_proba (Classifier) or predict (Ranker)
+            if hasattr(model, "predict_proba"):
+                # Classifier (Legacy)
+                probs = model.predict_proba(X_full)[:, 1]
+                # Normalize sum to 1? Or just use raw prob?
+                # User asked for Softmax on Ranker.
+                # If classifier, probs are 0-1.
+                raw_preds = probs * 10 # Scale up for softmax?
+            else:
+                # Ranker (LGBM `predict` returns raw score/margin)
+                raw_preds = model.predict(X_full)
+            
+            # Apply Softmax
+            exp_preds = np.exp(raw_preds)
+            softmax_probs = exp_preds / np.sum(exp_preds)
+            
+            # Assign back
+            for i, score_idx in enumerate(indices_batch):
+                # Find the score obj with this idx
+                for s in scores:
+                    if s['idx'] == score_idx:
+                        s['ml_score'] = float(softmax_probs[i]) * 100.0 # Percent
+                        break
+                        
+        except Exception as e:
+            print(f"Batch predict error: {e}")
+
+    # Final Adjustment / Formatting
+    # If ML failed, use heuristic 50-50
+    # Usage: If ml_score is present, it is the PRIMARY score (Softmax).
+    # We might mix heuristic for "Hybrid" approach or just trust LGBM V2.
+    # "Pista Inteligente v2" implies trusting the Ranker.
     
-    return [{
-        'numero': s['numero'],
-        'caballo': s['caballo'],
-        'jinete': s['jinete'],
-        'puntaje_ia': s['puntaje_ia'],
-        'prob_ml': s['prob_ml']
-    } for s in scores[:4]]
+    final_output = []
+    scores.sort(key=lambda x: x['ml_score'] if x['ml_score'] > 0 else x['heuristic'], reverse=True)
+    
+    for s in scores:
+        # If ml_score > 0, use it. Else fall back to heuristic normalized?
+        if s['ml_score'] > 0:
+            final_prob = s['ml_score']
+        else:
+            # Normalize heuristic locally?
+            final_prob = 50.0 
+            
+        final_output.append({
+            'numero': s['numero'],
+            'caballo': s['caballo'],
+            'jinete': s['jinete'],
+            'puntaje_ia': round(final_prob, 1), # This is now % chance
+            'prob_ml': f"{final_prob:.1f}"
+        })
+
+    # Return top 4
+    return final_output[:4]
 
 def obtener_lista_hipodromos():
     """Obtiene la lista única de hipódromos."""

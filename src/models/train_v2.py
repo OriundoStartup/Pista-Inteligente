@@ -1,9 +1,8 @@
 import sqlite3
 import pandas as pd
 import numpy as np
-from sklearn.ensemble import HistGradientBoostingClassifier
-from sklearn.model_selection import TimeSeriesSplit
-from sklearn.metrics import accuracy_score, classification_report, roc_auc_score
+import lightgbm as lgb
+from sklearn.model_selection import GroupKFold
 import joblib
 import os
 from .features import FeatureEngineering
@@ -16,8 +15,8 @@ class HipicaLearner:
         
     def get_raw_data(self):
         conn = sqlite3.connect(self.db_path)
-        # Included 'peso' in query if not already there, 
-        # but wait, the original query had peso_fs. FeatureEngineering expects 'peso_fs' to convert to 'peso'.
+        # We need to sort STRICTLY by race to create groups
+        # Added 'car.id as carrera_id' to identifying groups
         query = '''
         SELECT 
             p.posicion,
@@ -26,9 +25,13 @@ class HipicaLearner:
             p.peso_fs,
             p.dividendo,
             c.id as caballo_id,
+            c.padre,
             j.id as jinete_id,
+            p.stud_id as preparador_id,
             jor.fecha,
             h.id as hipodromo_id,
+            h.nombre as hipodromo_nombre,
+            car.id as carrera_id,
             car.distancia,
             car.pista,
             car.condicion
@@ -38,7 +41,7 @@ class HipicaLearner:
         JOIN hipodromos h ON jor.hipodromo_id = h.id
         JOIN caballos c ON p.caballo_id = c.id
         JOIN jinetes j ON p.jinete_id = j.id
-        ORDER BY jor.fecha ASC
+        ORDER BY jor.fecha ASC, car.id ASC
         '''
         try:
             df = pd.read_sql(query, conn)
@@ -48,7 +51,7 @@ class HipicaLearner:
             return pd.DataFrame()
 
     def train(self):
-        print("🚀 Iniciando Entrenamiento Avanzado (V3 - HistGradientBoosting)...")
+        print("🚀 Iniciando Entrenamiento V2.0 (LGBM Ranker)...")
         df = self.get_raw_data()
         
         if len(df) < 100:
@@ -59,73 +62,96 @@ class HipicaLearner:
         
         # 1. Feature Engineering
         print("🛠️  Generando características...")
-        self.fe.fit(df) # Fit encoders/imputers
+        self.fe.fit(df) 
         df_proc = self.fe.transform(df, is_training=True)
         
-        # Add target back for splitting (transform return X df only)
-        # We need y. 'is_win' is calculated inside transform but only X returned.
-        # Ideally transform should handle this or we reconstruct y.
-        # Re-calculating y is cheap.
-        y = (df['posicion'] == 1).astype(int)
-        # Align index
-        y = y.loc[df_proc.index]
+        # 2. Prep for Ranking
+        # Target: Relevance. 
+        # Win (1) = 3 relevance, Top 3 = 1, Others = 0? 
+        # Or just Win=1, others=0. Lambdarank with binary target works fine (optimizes AUC/NDCG).
+        # Let's try graded relevance: 1st=3, 2nd=2, 3rd=1, Rest=0
         
-        # Filter valid rows (some might be dropped if lag creation failed weirdly, but usually fillna handles it)
-        # Actually transform returns same index.
+        # Re-attach target and group info
+        df_proc['posicion'] = df['posicion']
+        df_proc['carrera_id'] = df['carrera_id']
         
-        X = df_proc
+        # Relevance function
+        def get_relevance(pos):
+            if pos == 1: return 3
+            if pos == 2: return 2
+            if pos == 3: return 1
+            return 0
+            
+        y = df_proc['posicion'].apply(get_relevance)
+        groups = df_proc['carrera_id']
         
-        # Time Series Split
-        total = len(X)
-        split_idx = int(total * 0.8)
+        # Drop non-feature cols
+        X = df_proc.drop(columns=['posicion', 'carrera_id', 'is_win'], errors='ignore')
         
-        X_train = X.iloc[:split_idx]
-        y_train = y.iloc[:split_idx]
-        X_test = X.iloc[split_idx:]
-        y_test = y.iloc[split_idx:]
+        # Split (Time Series Group Split manually)
+        unique_groups = groups.unique()
+        n_groups = len(unique_groups)
+        split_idx = int(n_groups * 0.8)
+        train_groups = unique_groups[:split_idx]
+        test_groups = unique_groups[split_idx:]
         
-        print("🧠 Entrenando HistGradientBoosting...")
-        self.model = HistGradientBoostingClassifier(
-            max_iter=200,
-            max_depth=10,
+        # Masks
+        train_mask = groups.isin(train_groups)
+        test_mask = groups.isin(test_groups)
+        
+        X_train, y_train = X[train_mask], y[train_mask]
+        X_test, y_test = X[test_mask], y[test_mask]
+        
+        # Query groups for LGBM (number of items per group)
+        # Note: Data MUST be sorted by group for LGBM
+        # We already sorted by date/carrera_id in SQL, so it should be contiguous.
+        # But let's verification sort just in case.
+        # X_train is subset, preserving order.
+        
+        group_train = groups[train_mask].value_counts(sort=False).sort_index()
+        # Wait, value_counts sorts by count or index? sort=False sorts by appearance? No.
+        # Safe way: iterate unique groups in order of appearance.
+        # But groups series might not be perfectly sorted if 'isin' shuffles? No, boolean mask keeps order.
+        
+        # Correctly building group array:
+        # We need the count of rows for each distinct group ID, IN THE ORDER they appear in X.
+        # Since X is sorted by query_id (carrera_id), we can just groupby(sort=False).
+        
+        q_train = groups[train_mask].groupby(groups[train_mask], sort=False).count()
+        q_test = groups[test_mask].groupby(groups[test_mask], sort=False).count()
+        
+        print(f"🧠 Entrenando LGBMRanker ({len(q_train)} carreras train, {len(q_test)} carreras test)...")
+        
+        self.model = lgb.LGBMRanker(
+            objective="lambdarank",
+            metric="ndcg",
+            n_estimators=500,
             learning_rate=0.05,
-            early_stopping=True,
+            num_leaves=31,
             random_state=42,
-            class_weight='balanced'
+            importance_type='gain'
         )
         
-        self.model.fit(X_train, y_train)
+        self.model.fit(
+            X_train, y_train,
+            group=q_train,
+            eval_set=[(X_test, y_test)],
+            eval_group=[q_test],
+            eval_at=[1],
+            callbacks=[lgb.early_stopping(stopping_rounds=50), lgb.log_evaluation(50)]
+        )
         
-        # Metrics
-        preds = self.model.predict(X_test)
-        probs = self.model.predict_proba(X_test)[:, 1]
-        
-        print("\n📈 Resultados del Modelo:")
-        print(classification_report(y_test, preds))
-        try:
-            auc = roc_auc_score(y_test, probs)
-            print(f"AUC-ROC Score: {auc:.4f}")
-        except:
-            pass
-            
-        # Feature Importance (Permutation default or built-in for HGB depends on version, HGB doesn't have feature_importances_ attr directly in older sklearn)
-        # We'll skip printing feature importance for HGB to avoid version errors or use permutation_importance if needed.
-        # For now, just save.
+        # Metrics manually? Early stopping does it.
+        # NDCG@1 is what we care about.
         
         # Save
         print("\n💾 Guardando artefactos...")
         os.makedirs('src/models', exist_ok=True)
-        joblib.dump(self.model, 'src/models/rf_model_v2.pkl') # Keep name for compatibility or update? 
-        # Plan said update data_manager, so I should probably update filename to match new model type?
-        # But data_manager looks for rf_model_v2.pkl. Let's keep the name distinct if we can, or overwrite.
-        # To avoid confusion, I'll name it 'model_v3.pkl' or overwrite 'rf_model_v2.pkl' but it's not RF anymore.
-        # Let's overwrite 'rf_model_v2.pkl' so I don't break data_manager before I fix it?
-        # No, I am tasked to fix data_manager too. I will use 'gb_model_v3.pkl'.
-        
-        joblib.dump(self.model, 'src/models/gb_model_v3.pkl')
+        # New filename v1
+        joblib.dump(self.model, 'src/models/lgbm_ranker_v1.pkl')
         self.fe.save('src/models/feature_eng_v2.pkl')
         
-        print("✅ Modelo V3 + Features Guardados.")
+        print("✅ Modelo Ranker V1 Guardado.")
 
 if __name__ == "__main__":
     learner = HipicaLearner()

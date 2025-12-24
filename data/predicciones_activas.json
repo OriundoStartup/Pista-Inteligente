@@ -1,0 +1,4834 @@
+[
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 1,
+    "numero": 1,
+    "caballo": "AMAYNA",
+    "probabilidad": 0.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 1,
+    "numero": 2,
+    "caballo": "NO TIENE PALABRA",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 1,
+    "numero": 3,
+    "caballo": "KING NICOLAS",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 1,
+    "numero": 4,
+    "caballo": "MICCA",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 1,
+    "numero": 5,
+    "caballo": "LADY OF MERCIA",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 1,
+    "numero": 6,
+    "caballo": "VALLTTERI",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 1,
+    "numero": 7,
+    "caballo": "MY CLAUDIA",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 1,
+    "numero": 8,
+    "caballo": "GRAN SAMIR",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 1,
+    "numero": 9,
+    "caballo": "NEVER HANGING",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 1,
+    "numero": 10,
+    "caballo": "CARI\u00d1OSITO",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 1,
+    "numero": 11,
+    "caballo": "ANTUMBRA",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 1,
+    "numero": 12,
+    "caballo": "LEYSKA",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 1,
+    "numero": 13,
+    "caballo": "REPUBLIC ANA",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 1,
+    "numero": 14,
+    "caballo": "VUELVE LA FARRA",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 1,
+    "numero": 15,
+    "caballo": "SU MERCI",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 10,
+    "numero": 1,
+    "caballo": "TENTADERO",
+    "probabilidad": 12.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 10,
+    "numero": 2,
+    "caballo": "AMOR CLANDESTINO",
+    "probabilidad": 12.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 10,
+    "numero": 3,
+    "caballo": "TOQUE Y DESPEGUE",
+    "probabilidad": 12.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 10,
+    "numero": 4,
+    "caballo": "SPARTAN",
+    "probabilidad": 12.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 10,
+    "numero": 5,
+    "caballo": "ON THE MUSIC",
+    "probabilidad": 12.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 10,
+    "numero": 6,
+    "caballo": "MITOU",
+    "probabilidad": 14.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 10,
+    "numero": 7,
+    "caballo": "HEART FRIENDS",
+    "probabilidad": 12.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 10,
+    "numero": 8,
+    "caballo": "NORMAN PRICE",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 11,
+    "numero": 1,
+    "caballo": "SORELLA DEL KING",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 11,
+    "numero": 2,
+    "caballo": "ACHAPLINA",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 11,
+    "numero": 3,
+    "caballo": "TANGO",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 11,
+    "numero": 4,
+    "caballo": "SOLER DE CRUZ",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 11,
+    "numero": 5,
+    "caballo": "RUCIA DEL DOC",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 11,
+    "numero": 6,
+    "caballo": "SALE DE MIS OJOS",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 11,
+    "numero": 7,
+    "caballo": "QUEEN ANY",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 11,
+    "numero": 8,
+    "caballo": "NEL BLU",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 11,
+    "numero": 9,
+    "caballo": "ROMPECORAZONES",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 11,
+    "numero": 10,
+    "caballo": "SE\u00d1OR TRONCOSO",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 11,
+    "numero": 11,
+    "caballo": "HUACARNECO",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 11,
+    "numero": 12,
+    "caballo": "UNDER THE LIGHT",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 11,
+    "numero": 13,
+    "caballo": "FLEETWOOD",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 11,
+    "numero": 14,
+    "caballo": "MUY TEMPERADA",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 11,
+    "numero": 15,
+    "caballo": "CUKI MERLINA",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 1,
+    "caballo": "MIA YAN",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 2,
+    "caballo": "NUEVA ACTRICE",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 3,
+    "caballo": "DAMA DE LA LUZ",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 4,
+    "caballo": "LA TROTONA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 5,
+    "caballo": "KOBRICH",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 6,
+    "caballo": "SAHDURIYE",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 7,
+    "caballo": "PASION ALBA",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 8,
+    "caballo": "KISS THE QUEEN",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 9,
+    "caballo": "REINA SIGRUN",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 10,
+    "caballo": "YA AGUS",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 11,
+    "caballo": "SCRUM HALF",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 12,
+    "caballo": "EXCLUDE",
+    "probabilidad": 5.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 13,
+    "caballo": "PAMPITA ALEGRE",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 14,
+    "caballo": "GUAGUA BRAVA",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 15,
+    "caballo": "GRAN COMPA\u00d1ERA",
+    "probabilidad": 5.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 12,
+    "numero": 16,
+    "caballo": "MI JARDIN",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 13,
+    "numero": 1,
+    "caballo": "LADRON DE AMORES",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 13,
+    "numero": 2,
+    "caballo": "LIGHT AND DARK",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 13,
+    "numero": 3,
+    "caballo": "CHITORO",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 13,
+    "numero": 4,
+    "caballo": "KERI TOO",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 13,
+    "numero": 5,
+    "caballo": "KARAKAL",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 13,
+    "numero": 6,
+    "caballo": "TIZ THE RULE",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 13,
+    "numero": 7,
+    "caballo": "PRACTICAL KNIGHT",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 13,
+    "numero": 8,
+    "caballo": "GAUCHO PAMPERO",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 13,
+    "numero": 9,
+    "caballo": "SE\u00d1OR PEPE",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 13,
+    "numero": 10,
+    "caballo": "ALBERTO EL GRANDE",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 13,
+    "numero": 11,
+    "caballo": "AKU AKU",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 13,
+    "numero": 12,
+    "caballo": "COMBINADO NACIONAL",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 13,
+    "numero": 13,
+    "caballo": "MR TOCO",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 14,
+    "numero": 1,
+    "caballo": "EL VISIR",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 14,
+    "numero": 2,
+    "caballo": "ENVIADO ESPECIAL",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 14,
+    "numero": 3,
+    "caballo": "LA ESCUDERA",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 14,
+    "numero": 4,
+    "caballo": "CASUAL VISION",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 14,
+    "numero": 5,
+    "caballo": "WALK EASY",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 14,
+    "numero": 6,
+    "caballo": "SULTAN GUERRERO",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 14,
+    "numero": 7,
+    "caballo": "PRIMA TOWN",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 14,
+    "numero": 8,
+    "caballo": "VUELA EL AMOR",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 14,
+    "numero": 9,
+    "caballo": "SCROOGE",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 14,
+    "numero": 10,
+    "caballo": "CIAO JUANITA",
+    "probabilidad": 5.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 14,
+    "numero": 11,
+    "caballo": "CAMELOT",
+    "probabilidad": 5.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 14,
+    "numero": 12,
+    "caballo": "MI JOYA",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 14,
+    "numero": 13,
+    "caballo": "FLEDGE",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 14,
+    "numero": 14,
+    "caballo": "QUICOTE",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 14,
+    "numero": 15,
+    "caballo": "MY RICHARD",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 15,
+    "numero": 1,
+    "caballo": "MADRE PATRIA",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 15,
+    "numero": 2,
+    "caballo": "PRINCESS THAI",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 15,
+    "numero": 3,
+    "caballo": "EMPERIFOLLADA",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 15,
+    "numero": 4,
+    "caballo": "LUGA",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 15,
+    "numero": 5,
+    "caballo": "LA BUENA MOZA",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 15,
+    "numero": 6,
+    "caballo": "TSUKIMI",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 15,
+    "numero": 7,
+    "caballo": "SE\u00d1ORA RITA",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 15,
+    "numero": 8,
+    "caballo": "HILDITA MIA",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 15,
+    "numero": 9,
+    "caballo": "TRANQUILA NI\u00d1A",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 15,
+    "numero": 10,
+    "caballo": "BELLA SORPRESA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 15,
+    "numero": 11,
+    "caballo": "BRONT LUCKY",
+    "probabilidad": 8.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 15,
+    "numero": 12,
+    "caballo": "GUAGUA FELIZ",
+    "probabilidad": 8.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 15,
+    "numero": 13,
+    "caballo": "RUBIA CLARA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 15,
+    "numero": 14,
+    "caballo": "HERMANA QUERIDA",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 16,
+    "numero": 1,
+    "caballo": "VIVIEN VAN",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 16,
+    "numero": 2,
+    "caballo": "VELA AL VIENTO",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 16,
+    "numero": 3,
+    "caballo": "ERES JUGUETONA",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 16,
+    "numero": 4,
+    "caballo": "RAINUE",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 16,
+    "numero": 5,
+    "caballo": "TRIACASTELA",
+    "probabilidad": 8.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 16,
+    "numero": 6,
+    "caballo": "NARTELLA",
+    "probabilidad": 8.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 16,
+    "numero": 7,
+    "caballo": "KIASORA",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 16,
+    "numero": 8,
+    "caballo": "RENTA EFECTIVA",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 16,
+    "numero": 9,
+    "caballo": "ECCENTRIC",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 16,
+    "numero": 10,
+    "caballo": "AMADA MILA",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 16,
+    "numero": 11,
+    "caballo": "NOCHE SUBLIME",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 16,
+    "numero": 12,
+    "caballo": "PASTORELLA BELLA",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 17,
+    "numero": 1,
+    "caballo": "SAIKOU",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 17,
+    "numero": 2,
+    "caballo": "SUBI",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 17,
+    "numero": 3,
+    "caballo": "LAGUNA CRISTAL",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 17,
+    "numero": 4,
+    "caballo": "PEGASUS FANTASIS",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 17,
+    "numero": 5,
+    "caballo": "MISTER MINNION",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 17,
+    "numero": 6,
+    "caballo": "SABIONDO",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 17,
+    "numero": 7,
+    "caballo": "ACEPTO SE\u00d1OR",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 17,
+    "numero": 8,
+    "caballo": "KASHGAR",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 17,
+    "numero": 9,
+    "caballo": "JOHN COOPER",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 17,
+    "numero": 10,
+    "caballo": "HERE I GO AGAIN",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 17,
+    "numero": 11,
+    "caballo": "EL QUE LA LLEVA",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 17,
+    "numero": 12,
+    "caballo": "SE PREPARO",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 17,
+    "numero": 13,
+    "caballo": "TODAS MIENTEN",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 17,
+    "numero": 14,
+    "caballo": "FAST PATTERN",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 17,
+    "numero": 15,
+    "caballo": "ZULEMA ZAHIR",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 18,
+    "numero": 1,
+    "caballo": "DEAR SISTER",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 18,
+    "numero": 2,
+    "caballo": "EL SOM CENTAURO",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 18,
+    "numero": 3,
+    "caballo": "MONTOLINA",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 18,
+    "numero": 4,
+    "caballo": "CHICA DEL LUCERO",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 18,
+    "numero": 5,
+    "caballo": "BULLA BLUE",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 18,
+    "numero": 6,
+    "caballo": "NEOLIBERAL",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 18,
+    "numero": 7,
+    "caballo": "KOLETTE",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 18,
+    "numero": 8,
+    "caballo": "TWEETY",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 18,
+    "numero": 9,
+    "caballo": "LIME\u00d1O FELIZ",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 18,
+    "numero": 10,
+    "caballo": "MATE AMARGO",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 18,
+    "numero": 11,
+    "caballo": "LA KIKI BELLA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 18,
+    "numero": 12,
+    "caballo": "NOTORIOUS LOVER",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 18,
+    "numero": 13,
+    "caballo": "ELMITA",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 18,
+    "numero": 14,
+    "caballo": "SPELLBOUND",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 18,
+    "numero": 15,
+    "caballo": "ONE LIFE SWEET",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 19,
+    "numero": 1,
+    "caballo": "DALIKA",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 19,
+    "numero": 2,
+    "caballo": "MR MORRIS",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 19,
+    "numero": 3,
+    "caballo": "VIENTO AUSTRAL",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 19,
+    "numero": 4,
+    "caballo": "CORRER NORTINO",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 19,
+    "numero": 5,
+    "caballo": "STRONG DAIKIRI",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 19,
+    "numero": 6,
+    "caballo": "LA JIBARITA",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 19,
+    "numero": 7,
+    "caballo": "SALTO DEL GUAPO",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 19,
+    "numero": 8,
+    "caballo": "EL CARRIL",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 19,
+    "numero": 9,
+    "caballo": "STOP PLAYING",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 19,
+    "numero": 10,
+    "caballo": "JAZZ ROCK",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 19,
+    "numero": 11,
+    "caballo": "DEMBO",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 19,
+    "numero": 12,
+    "caballo": "COMO DORMISTE",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 19,
+    "numero": 13,
+    "caballo": "DOORSTEP",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 19,
+    "numero": 14,
+    "caballo": "CLASSIC CAT",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 2,
+    "numero": 1,
+    "caballo": "PIANTAO",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 2,
+    "numero": 2,
+    "caballo": "JEREZANO",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 2,
+    "numero": 3,
+    "caballo": "FLACO TITO",
+    "probabilidad": 10.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 2,
+    "numero": 4,
+    "caballo": "LOCO Y DEMENTE",
+    "probabilidad": 10.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 2,
+    "numero": 5,
+    "caballo": "DON ALTOBELLO",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 2,
+    "numero": 6,
+    "caballo": "VICHITO",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 2,
+    "numero": 7,
+    "caballo": "CANTICIO",
+    "probabilidad": 11.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 2,
+    "numero": 8,
+    "caballo": "NUNCA PERDONA",
+    "probabilidad": 11.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 2,
+    "numero": 9,
+    "caballo": "NI TRATO",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 20,
+    "numero": 1,
+    "caballo": "ESTARQUI",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 20,
+    "numero": 2,
+    "caballo": "GRANDE TUZA",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 20,
+    "numero": 3,
+    "caballo": "CONGOBELGA",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 20,
+    "numero": 4,
+    "caballo": "EN VECES",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 20,
+    "numero": 5,
+    "caballo": "AMARTE A TI",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 20,
+    "numero": 6,
+    "caballo": "LONDON PALACE",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 20,
+    "numero": 7,
+    "caballo": "DAYI",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 20,
+    "numero": 8,
+    "caballo": "OBRA DE ARTE",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 20,
+    "numero": 9,
+    "caballo": "HIJA DEL PAN",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 20,
+    "numero": 10,
+    "caballo": "GENUINE COMAND",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 20,
+    "numero": 11,
+    "caballo": "CAROLITO",
+    "probabilidad": 8.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 20,
+    "numero": 12,
+    "caballo": "PUNTA ITATA",
+    "probabilidad": 5.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 20,
+    "numero": 13,
+    "caballo": "MAHER",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 20,
+    "numero": 14,
+    "caballo": "MR NUTS",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 20,
+    "numero": 15,
+    "caballo": "SE\u00d1OR GOMEZ",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 21,
+    "numero": 1,
+    "caballo": "CINDARA",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 21,
+    "numero": 2,
+    "caballo": "EL CURICANO",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 21,
+    "numero": 3,
+    "caballo": "ARTHUR SHELBY",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 21,
+    "numero": 4,
+    "caballo": "CANELO DORADO",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 21,
+    "numero": 5,
+    "caballo": "BAMBO LUKAS",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 21,
+    "numero": 6,
+    "caballo": "PUNTO QUIEBRE",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 21,
+    "numero": 7,
+    "caballo": "EMA COOCK",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 21,
+    "numero": 8,
+    "caballo": "TWO FLAGS",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 21,
+    "numero": 9,
+    "caballo": "JACINTA GOOD",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 21,
+    "numero": 10,
+    "caballo": "ANFIELD ROAD",
+    "probabilidad": 8.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 21,
+    "numero": 11,
+    "caballo": "AMOR FURTIVO",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 21,
+    "numero": 12,
+    "caballo": "BOY SCOUT",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 21,
+    "numero": 13,
+    "caballo": "EL LEGENDARIO",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 21,
+    "numero": 14,
+    "caballo": "PERFUME DE GOL",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 21,
+    "numero": 15,
+    "caballo": "MI RINCON",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 22,
+    "numero": 1,
+    "caballo": "INDIAN POET",
+    "probabilidad": 5.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 22,
+    "numero": 2,
+    "caballo": "REINA JAKE",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 22,
+    "numero": 3,
+    "caballo": "QUMRAM",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 22,
+    "numero": 4,
+    "caballo": "DESENFRENADO",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 22,
+    "numero": 5,
+    "caballo": "COLOR DE SUE\u00d1O",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 22,
+    "numero": 6,
+    "caballo": "KUAI MA",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 22,
+    "numero": 7,
+    "caballo": "BORN TO BE WILD",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 22,
+    "numero": 8,
+    "caballo": "C'EST VRAI",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 22,
+    "numero": 9,
+    "caballo": "GRAND CODY'S",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 22,
+    "numero": 10,
+    "caballo": "PELAMBRE",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 22,
+    "numero": 11,
+    "caballo": "PECADO INCONFESABLE",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 22,
+    "numero": 12,
+    "caballo": "SCALPING",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 22,
+    "numero": 13,
+    "caballo": "ALE GUAPA",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 22,
+    "numero": 14,
+    "caballo": "DENALI",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 22,
+    "numero": 15,
+    "caballo": "SPES",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 3,
+    "numero": 1,
+    "caballo": "YOKITA",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 3,
+    "numero": 2,
+    "caballo": "EL NANY",
+    "probabilidad": 9.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 3,
+    "numero": 3,
+    "caballo": "ELKAN DADDY",
+    "probabilidad": 9.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 3,
+    "numero": 4,
+    "caballo": "TIGRO",
+    "probabilidad": 9.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 3,
+    "numero": 5,
+    "caballo": "DON GIORGIO",
+    "probabilidad": 9.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 3,
+    "numero": 6,
+    "caballo": "CATITA REVOLTOSA",
+    "probabilidad": 9.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 3,
+    "numero": 7,
+    "caballo": "BICHOTA",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 3,
+    "numero": 8,
+    "caballo": "NO PASO AGOSTO",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 3,
+    "numero": 9,
+    "caballo": "EL BOHEMIO",
+    "probabilidad": 9.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 3,
+    "numero": 10,
+    "caballo": "CLASSIC ARCH",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 3,
+    "numero": 11,
+    "caballo": "CHOW CHOW",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 4,
+    "numero": 1,
+    "caballo": "MY WAY",
+    "probabilidad": 20.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 4,
+    "numero": 2,
+    "caballo": "LA DIGNATARIA",
+    "probabilidad": 19.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 4,
+    "numero": 3,
+    "caballo": "FRATELI LA VITA",
+    "probabilidad": 19.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 4,
+    "numero": 4,
+    "caballo": "KANE",
+    "probabilidad": 19.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 4,
+    "numero": 5,
+    "caballo": "MEDJOOL",
+    "probabilidad": 19.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 5,
+    "numero": 1,
+    "caballo": "LUCHIN ENOJON",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 5,
+    "numero": 2,
+    "caballo": "MERCI MON DIEU",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 5,
+    "numero": 3,
+    "caballo": "TAKE A NAP",
+    "probabilidad": 5.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 5,
+    "numero": 4,
+    "caballo": "BRINDO POR ELLA",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 5,
+    "numero": 5,
+    "caballo": "BENVENUTO CELLINI",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 5,
+    "numero": 6,
+    "caballo": "VOLANTE MIXTO",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 5,
+    "numero": 7,
+    "caballo": "SIN MIEDO",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 5,
+    "numero": 8,
+    "caballo": "VALIO LA PENA",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 5,
+    "numero": 9,
+    "caballo": "TANGERINE TANGO",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 5,
+    "numero": 10,
+    "caballo": "SOBRAO DE CARI\u00d1O",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 5,
+    "numero": 11,
+    "caballo": "LA SIGUIENTE",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 5,
+    "numero": 12,
+    "caballo": "EL NENE",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 5,
+    "numero": 13,
+    "caballo": "PEDRINHO",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 5,
+    "numero": 14,
+    "caballo": "SISI STAR",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 5,
+    "numero": 15,
+    "caballo": "LATEN GOOD",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 6,
+    "numero": 1,
+    "caballo": "JALISCO",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 6,
+    "numero": 2,
+    "caballo": "TIO JUAN",
+    "probabilidad": 9.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 6,
+    "numero": 3,
+    "caballo": "DIVINA FE",
+    "probabilidad": 9.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 6,
+    "numero": 4,
+    "caballo": "ONIX BLUE",
+    "probabilidad": 9.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 6,
+    "numero": 5,
+    "caballo": "COKE SPIRIT",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 6,
+    "numero": 6,
+    "caballo": "CRANS MONTANA",
+    "probabilidad": 9.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 6,
+    "numero": 7,
+    "caballo": "BY THE CLIFF",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 6,
+    "numero": 8,
+    "caballo": "EXIJO RESPETO",
+    "probabilidad": 10.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 6,
+    "numero": 9,
+    "caballo": "WEST PALM BEACH",
+    "probabilidad": 10.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 6,
+    "numero": 10,
+    "caballo": "IMPLICADO",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 7,
+    "numero": 1,
+    "caballo": "JOY VANITY",
+    "probabilidad": 12.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 7,
+    "numero": 2,
+    "caballo": "MISS NINNA",
+    "probabilidad": 12.5
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 7,
+    "numero": 3,
+    "caballo": "CANDY FLAME",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 7,
+    "numero": 4,
+    "caballo": "GUN SHOOT",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 7,
+    "numero": 5,
+    "caballo": "DOLLAR TREE",
+    "probabilidad": 10.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 7,
+    "numero": 6,
+    "caballo": "VOLANTINERA",
+    "probabilidad": 12.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 7,
+    "numero": 7,
+    "caballo": "MUAK",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 7,
+    "numero": 8,
+    "caballo": "CUFFINA",
+    "probabilidad": 10.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 7,
+    "numero": 9,
+    "caballo": "PIENSA EN SILENCIO",
+    "probabilidad": 9.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 8,
+    "numero": 1,
+    "caballo": "QUE VIVA EL REY",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 8,
+    "numero": 2,
+    "caballo": "REY DEL ESTERO",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 8,
+    "numero": 3,
+    "caballo": "SAMARITAN CAT",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 8,
+    "numero": 4,
+    "caballo": "MARIA SURE\u00d1A",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 8,
+    "numero": 5,
+    "caballo": "FREE REIN",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 8,
+    "numero": 6,
+    "caballo": "JAVIVALETU",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 8,
+    "numero": 7,
+    "caballo": "BLUE KENTUCKY GIRL",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 8,
+    "numero": 8,
+    "caballo": "EN HONOR A TITO",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 8,
+    "numero": 9,
+    "caballo": "INTRIGANT",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 8,
+    "numero": 10,
+    "caballo": "SALDO CONTABLE",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 8,
+    "numero": 11,
+    "caballo": "PATMAHO",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 8,
+    "numero": 12,
+    "caballo": "SECUENCIA PERFECTA",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 8,
+    "numero": 13,
+    "caballo": "ASTRO SOL",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 8,
+    "numero": 14,
+    "caballo": "BERGERAC",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 8,
+    "numero": 15,
+    "caballo": "SOY EL CANTANTE",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 9,
+    "numero": 1,
+    "caballo": "STORM TIGER",
+    "probabilidad": 11.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 9,
+    "numero": 2,
+    "caballo": "SETANTA",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 9,
+    "numero": 3,
+    "caballo": "AL CATEO",
+    "probabilidad": 13.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 9,
+    "numero": 4,
+    "caballo": "SIETE DEL NUEVE",
+    "probabilidad": 12.2
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 9,
+    "numero": 5,
+    "caballo": "GOGOL",
+    "probabilidad": 13.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 9,
+    "numero": 6,
+    "caballo": "PAROLACCIA",
+    "probabilidad": 11.9
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 9,
+    "numero": 7,
+    "caballo": "PRIETO AZABACHE",
+    "probabilidad": 13.1
+  },
+  {
+    "fecha": "2025-12-26",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 9,
+    "numero": 8,
+    "caballo": "STATE OF GRACE",
+    "probabilidad": 13.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 1,
+    "numero": 1,
+    "caballo": "QUE HICE MAL",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 1,
+    "numero": 2,
+    "caballo": "LORD COMMANDER",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 1,
+    "numero": 3,
+    "caballo": "PALABRA CIERTA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 1,
+    "numero": 4,
+    "caballo": "VITA KC",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 1,
+    "numero": 5,
+    "caballo": "SATISFY MY SOUL",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 1,
+    "numero": 6,
+    "caballo": "LA TOSTADORA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 1,
+    "numero": 7,
+    "caballo": "ENTRATE NUNCA",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 1,
+    "numero": 8,
+    "caballo": "ME LO LLEVO",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 1,
+    "numero": 9,
+    "caballo": "AMAR AZUL",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 1,
+    "numero": 10,
+    "caballo": "TE DIGO ALGO",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 1,
+    "numero": 11,
+    "caballo": "ALINFINITOYMASALLA",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 1,
+    "numero": 12,
+    "caballo": "KIRSCH ROYAL",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 1,
+    "numero": 13,
+    "caballo": "TE DIRIA",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 1,
+    "numero": 14,
+    "caballo": "SILVERCHAIR",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 1,
+    "numero": 15,
+    "caballo": "SAHARA CHROME",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 10,
+    "numero": 1,
+    "caballo": "TEMAUKEL",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 10,
+    "numero": 2,
+    "caballo": "PATYTA BLACK",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 10,
+    "numero": 3,
+    "caballo": "RUCIA DE ORO",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 10,
+    "numero": 4,
+    "caballo": "GRAN NONO",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 10,
+    "numero": 5,
+    "caballo": "TESORITO MIO",
+    "probabilidad": 5.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 10,
+    "numero": 6,
+    "caballo": "QIN SHIHUAN",
+    "probabilidad": 5.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 10,
+    "numero": 7,
+    "caballo": "MI NIETO BRUNO",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 10,
+    "numero": 8,
+    "caballo": "VAQUITA LOIRA",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 10,
+    "numero": 9,
+    "caballo": "CARILO",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 10,
+    "numero": 10,
+    "caballo": "DRINK'S VALLEY",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 10,
+    "numero": 11,
+    "caballo": "MEZZOSOPRANO",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 10,
+    "numero": 12,
+    "caballo": "NEGRITA PECOSA",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 10,
+    "numero": 13,
+    "caballo": "EL ULTIMO QUENO",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 10,
+    "numero": 14,
+    "caballo": "TREN A CAJON",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 10,
+    "numero": 15,
+    "caballo": "YA LO CREO",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 11,
+    "numero": 1,
+    "caballo": "STANAFUERA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 11,
+    "numero": 2,
+    "caballo": "PAYBACK",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 11,
+    "numero": 3,
+    "caballo": "PITER ALFONSO",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 11,
+    "numero": 4,
+    "caballo": "CIAO XENA",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 11,
+    "numero": 5,
+    "caballo": "AHSOKA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 11,
+    "numero": 6,
+    "caballo": "PAPITO ALFREDO",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 11,
+    "numero": 7,
+    "caballo": "BRUNO EL TERRIBLE",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 11,
+    "numero": 8,
+    "caballo": "OKUI",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 11,
+    "numero": 9,
+    "caballo": "CARAMEL FRAPPE",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 11,
+    "numero": 10,
+    "caballo": "GRAN ALASKA",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 11,
+    "numero": 11,
+    "caballo": "BADBOY",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 11,
+    "numero": 12,
+    "caballo": "CONSUL DORADO",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 11,
+    "numero": 13,
+    "caballo": "ESTERIOS",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 12,
+    "numero": 1,
+    "caballo": "BELLO ENCANTO",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 12,
+    "numero": 2,
+    "caballo": "MOMENT OF GET",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 12,
+    "numero": 3,
+    "caballo": "UKIYO",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 12,
+    "numero": 4,
+    "caballo": "VOLASTE A LA META",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 12,
+    "numero": 5,
+    "caballo": "DALEMITA",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 12,
+    "numero": 6,
+    "caballo": "SIR CALEB",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 12,
+    "numero": 7,
+    "caballo": "CALLAHAN",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 12,
+    "numero": 8,
+    "caballo": "PRINCESA RUBY",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 12,
+    "numero": 9,
+    "caballo": "MAL MIRADA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 12,
+    "numero": 10,
+    "caballo": "SAND THICK",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 12,
+    "numero": 11,
+    "caballo": "ARTE DE MAGIA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 12,
+    "numero": 12,
+    "caballo": "MARIA PASCUALA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 12,
+    "numero": 13,
+    "caballo": "TOMMY WONDER",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 12,
+    "numero": 14,
+    "caballo": "JUNIPER",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 12,
+    "numero": 15,
+    "caballo": "SALMA ALEGRE",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 13,
+    "numero": 1,
+    "caballo": "EL BATEY",
+    "probabilidad": 10.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 13,
+    "numero": 2,
+    "caballo": "PRACTICAL SISI",
+    "probabilidad": 11.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 13,
+    "numero": 3,
+    "caballo": "TRIPLECORONADO",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 13,
+    "numero": 4,
+    "caballo": "KAUTO Y PILLO",
+    "probabilidad": 10.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 13,
+    "numero": 5,
+    "caballo": "LERICI",
+    "probabilidad": 10.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 13,
+    "numero": 6,
+    "caballo": "RECHAZADO",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 13,
+    "numero": 7,
+    "caballo": "KAPICHU",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 13,
+    "numero": 8,
+    "caballo": "VOY PAL PUEBLO",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 13,
+    "numero": 9,
+    "caballo": "GOOD TRAFFIC",
+    "probabilidad": 12.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 14,
+    "numero": 1,
+    "caballo": "SONATA CELTA",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 14,
+    "numero": 2,
+    "caballo": "CHIQUITO CAMPEADOR",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 14,
+    "numero": 3,
+    "caballo": "SOGNA CON ME",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 14,
+    "numero": 4,
+    "caballo": "ELEGIDO CON PINZAS",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 14,
+    "numero": 5,
+    "caballo": "UNDECIDED",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 14,
+    "numero": 6,
+    "caballo": "SIBILA RED",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 14,
+    "numero": 7,
+    "caballo": "NAMRUD TIGER",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 14,
+    "numero": 8,
+    "caballo": "WESTERN FILM",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 14,
+    "numero": 9,
+    "caballo": "SHOW PAINT",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 14,
+    "numero": 10,
+    "caballo": "AMANECIO BRAVA",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 14,
+    "numero": 11,
+    "caballo": "GAELIA",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 14,
+    "numero": 12,
+    "caballo": "MY RESILIENCE",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 14,
+    "numero": 13,
+    "caballo": "COMO EL SOL",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 14,
+    "numero": 14,
+    "caballo": "BUEN NORTE",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 15,
+    "numero": 1,
+    "caballo": "FASHION BOY",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 15,
+    "numero": 2,
+    "caballo": "NAGAO",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 15,
+    "numero": 3,
+    "caballo": "DUNHILL SMOKE",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 15,
+    "numero": 4,
+    "caballo": "PAJOMA",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 15,
+    "numero": 5,
+    "caballo": "OFESTIVO",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 15,
+    "numero": 6,
+    "caballo": "BABY SHAK",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 15,
+    "numero": 7,
+    "caballo": "SIGUE IGUAL",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 15,
+    "numero": 8,
+    "caballo": "RISBY",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 15,
+    "numero": 9,
+    "caballo": "DE GAULLE",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 15,
+    "numero": 10,
+    "caballo": "JINZO",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 15,
+    "numero": 11,
+    "caballo": "PETIMETRE",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 15,
+    "numero": 12,
+    "caballo": "WILD DABBLER",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 15,
+    "numero": 13,
+    "caballo": "LADY ASTOR",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 15,
+    "numero": 14,
+    "caballo": "SINNERMAN",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 15,
+    "numero": 15,
+    "caballo": "EL COBALTO",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 16,
+    "numero": 1,
+    "caballo": "GRAN FISCAL",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 16,
+    "numero": 2,
+    "caballo": "BLACKCRACK",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 16,
+    "numero": 3,
+    "caballo": "PERO PEDRO",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 16,
+    "numero": 4,
+    "caballo": "SUPER FLY",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 16,
+    "numero": 5,
+    "caballo": "JAVIERA CONSTANZA",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 16,
+    "numero": 6,
+    "caballo": "KOCCIA",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 16,
+    "numero": 7,
+    "caballo": "STAR MAGIC",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 16,
+    "numero": 8,
+    "caballo": "EASY PEASY",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 16,
+    "numero": 9,
+    "caballo": "THE ARION",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 16,
+    "numero": 10,
+    "caballo": "GOLD DADDY",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 16,
+    "numero": 11,
+    "caballo": "SALTO DE LUZ",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 16,
+    "numero": 12,
+    "caballo": "AMBROSE",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 16,
+    "numero": 13,
+    "caballo": "VIDA SABROSA",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 16,
+    "numero": 14,
+    "caballo": "TERRIBLE PANCHO",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 17,
+    "numero": 1,
+    "caballo": "NUBES NEGRAS",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 17,
+    "numero": 2,
+    "caballo": "SOY BUSHIDO",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 17,
+    "numero": 3,
+    "caballo": "ZAMBIAN RIVER",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 17,
+    "numero": 4,
+    "caballo": "VOLAR SIN ALAS",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 17,
+    "numero": 5,
+    "caballo": "TWISTED GEM",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 17,
+    "numero": 6,
+    "caballo": "UN GUARITO",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 17,
+    "numero": 7,
+    "caballo": "QUIERO RE TRUCO",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 17,
+    "numero": 8,
+    "caballo": "JOYA DEL LITORAL",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 17,
+    "numero": 9,
+    "caballo": "ELEGANT CHAMPION",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 17,
+    "numero": 10,
+    "caballo": "DEEBA SPIRIT",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 17,
+    "numero": 11,
+    "caballo": "FASTLOVE",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 17,
+    "numero": 12,
+    "caballo": "SINESIO",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 17,
+    "numero": 13,
+    "caballo": "LUCIANITA",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 18,
+    "numero": 1,
+    "caballo": "COMPADRE CRISTIAN",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 18,
+    "numero": 2,
+    "caballo": "FIRST POINT'S",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 18,
+    "numero": 3,
+    "caballo": "CAMBIAR DE VIDA",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 18,
+    "numero": 4,
+    "caballo": "LA CHUCKY TRINI",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 18,
+    "numero": 5,
+    "caballo": "NOVATO CONTENTO",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 18,
+    "numero": 6,
+    "caballo": "ULTIMO IMPACTO",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 18,
+    "numero": 7,
+    "caballo": "RESISTO BIEN",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 18,
+    "numero": 8,
+    "caballo": "LIKE A PRAYER",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 18,
+    "numero": 9,
+    "caballo": "BRAVO TORERO",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 18,
+    "numero": 10,
+    "caballo": "AGUSTINA SOFIA",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 18,
+    "numero": 11,
+    "caballo": "MIL COPAS",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 18,
+    "numero": 12,
+    "caballo": "TETRA GOLEADOR Z",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 18,
+    "numero": 13,
+    "caballo": "KAUNAS",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 18,
+    "numero": 14,
+    "caballo": "WONDER WOMAN",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 18,
+    "numero": 15,
+    "caballo": "SECRET DRAGON",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 19,
+    "numero": 1,
+    "caballo": "GRAN VERA",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 19,
+    "numero": 2,
+    "caballo": "EL GRAN MAESTRO",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 19,
+    "numero": 3,
+    "caballo": "DUBAI WIND",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 19,
+    "numero": 4,
+    "caballo": "LADY MANU",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 19,
+    "numero": 5,
+    "caballo": "LO FRANCO",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 19,
+    "numero": 6,
+    "caballo": "NOIPRXCS",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 19,
+    "numero": 7,
+    "caballo": "NEGRA PERLA",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 19,
+    "numero": 8,
+    "caballo": "FLOWER POWER",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 19,
+    "numero": 9,
+    "caballo": "BRUNO SPIDERMAN",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 19,
+    "numero": 10,
+    "caballo": "KALANIT",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 19,
+    "numero": 11,
+    "caballo": "MERCENARIA",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 19,
+    "numero": 12,
+    "caballo": "NO ME PILLA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 19,
+    "numero": 13,
+    "caballo": "LA QUE MANDA",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 19,
+    "numero": 14,
+    "caballo": "VAMOS DE LA MANO",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 19,
+    "numero": 15,
+    "caballo": "GROZZA",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 2,
+    "numero": 1,
+    "caballo": "SONG SONG BLUE",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 2,
+    "numero": 2,
+    "caballo": "EUSKERA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 2,
+    "numero": 3,
+    "caballo": "SINAG",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 2,
+    "numero": 4,
+    "caballo": "LA JESHU",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 2,
+    "numero": 5,
+    "caballo": "TIA LUZMIRA",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 2,
+    "numero": 6,
+    "caballo": "SHYUANNA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 2,
+    "numero": 7,
+    "caballo": "PERLA DEL BIO BIO",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 2,
+    "numero": 8,
+    "caballo": "FIN DE LA NOCHE",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 2,
+    "numero": 9,
+    "caballo": "DIOSA CHOCOLATE",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 2,
+    "numero": 10,
+    "caballo": "GET GIRLS",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 2,
+    "numero": 11,
+    "caballo": "LADY JETS",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 2,
+    "numero": 12,
+    "caballo": "SANSSITA",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 2,
+    "numero": 13,
+    "caballo": "ISLA NAVARINO",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 2,
+    "numero": 14,
+    "caballo": "TIGUARDA",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 2,
+    "numero": 15,
+    "caballo": "FIOR DI LATTE",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 20,
+    "numero": 1,
+    "caballo": "MERENGADA",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 20,
+    "numero": 2,
+    "caballo": "CALIFORNIA DADDY",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 20,
+    "numero": 3,
+    "caballo": "CHINITA TRAVIESA",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 20,
+    "numero": 4,
+    "caballo": "COSTAMIA",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 20,
+    "numero": 5,
+    "caballo": "MIEL RUBIA",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 20,
+    "numero": 6,
+    "caballo": "TOP MODEL",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 20,
+    "numero": 7,
+    "caballo": "MAXIWARIO",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 20,
+    "numero": 8,
+    "caballo": "FAMOSA LUZ",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 20,
+    "numero": 9,
+    "caballo": "BUNGABUNGA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 20,
+    "numero": 10,
+    "caballo": "AMOR DE CHOCOLATE",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 20,
+    "numero": 11,
+    "caballo": "ELEGANT KATZE",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 20,
+    "numero": 12,
+    "caballo": "NOUGATINI FLOWER",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 20,
+    "numero": 13,
+    "caballo": "BLACK OF PANTHER",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 20,
+    "numero": 14,
+    "caballo": "SOCIO MANUEL",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 20,
+    "numero": 15,
+    "caballo": "ZOBOOMAFOO",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 21,
+    "numero": 1,
+    "caballo": "MOUNTAIN MONARCH",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 21,
+    "numero": 2,
+    "caballo": "STEVENS FOR RECORD",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 21,
+    "numero": 3,
+    "caballo": "LUCIA DE SIRACUSA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 21,
+    "numero": 4,
+    "caballo": "VIEJA CHELA",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 21,
+    "numero": 5,
+    "caballo": "PERSEVERA SIEMPRE",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 21,
+    "numero": 6,
+    "caballo": "BESA KISS",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 21,
+    "numero": 7,
+    "caballo": "ROYAL DUBLIN",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 21,
+    "numero": 8,
+    "caballo": "BLESSED",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 21,
+    "numero": 9,
+    "caballo": "SILENE",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 21,
+    "numero": 10,
+    "caballo": "SUNAM",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 21,
+    "numero": 11,
+    "caballo": "APOLLONOS",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 21,
+    "numero": 12,
+    "caballo": "RULETAZO",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 21,
+    "numero": 13,
+    "caballo": "TIRREL",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 21,
+    "numero": 14,
+    "caballo": "ZODIAKUS",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 21,
+    "numero": 15,
+    "caballo": "LOCO GANDHI",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 22,
+    "numero": 1,
+    "caballo": "LUZ OCULTA",
+    "probabilidad": 5.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 22,
+    "numero": 2,
+    "caballo": "PLATON",
+    "probabilidad": 5.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 22,
+    "numero": 3,
+    "caballo": "INDIAN PIRATE",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 22,
+    "numero": 4,
+    "caballo": "GUENA PETETE",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 22,
+    "numero": 5,
+    "caballo": "MONCHITOCRACK",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 22,
+    "numero": 6,
+    "caballo": "VENTIDUE",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 22,
+    "numero": 7,
+    "caballo": "SEA OF GOLD",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 22,
+    "numero": 8,
+    "caballo": "PRESENTE CHA",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 22,
+    "numero": 9,
+    "caballo": "KINO",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 22,
+    "numero": 10,
+    "caballo": "JARUM",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 22,
+    "numero": 11,
+    "caballo": "KE PACQUIAO",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 22,
+    "numero": 12,
+    "caballo": "LABURADOR",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 22,
+    "numero": 13,
+    "caballo": "BADERO",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 22,
+    "numero": 14,
+    "caballo": "NEGRO VLADY",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 22,
+    "numero": 15,
+    "caballo": "SAWYER",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 23,
+    "numero": 1,
+    "caballo": "NOB",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 23,
+    "numero": 2,
+    "caballo": "GRANDE PANCHITO",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 23,
+    "numero": 3,
+    "caballo": "INDIAN TIGER",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 23,
+    "numero": 4,
+    "caballo": "EL JOKER",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 23,
+    "numero": 5,
+    "caballo": "PACHEKIN",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 23,
+    "numero": 6,
+    "caballo": "GIORGIO DI CAPRI",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 23,
+    "numero": 7,
+    "caballo": "TITO MORO",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 23,
+    "numero": 8,
+    "caballo": "JIMBO",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 23,
+    "numero": 9,
+    "caballo": "ANGEOLINA",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 23,
+    "numero": 10,
+    "caballo": "ANGELA CLASICA",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 23,
+    "numero": 11,
+    "caballo": "SEATTLE SNOW",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 23,
+    "numero": 12,
+    "caballo": "DAKHAR",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 23,
+    "numero": 13,
+    "caballo": "CHINO MATADOR",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 23,
+    "numero": 14,
+    "caballo": "SEEKING THE DOLCE",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 23,
+    "numero": 15,
+    "caballo": "TORDILLA DIVINA",
+    "probabilidad": 5.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 3,
+    "numero": 1,
+    "caballo": "ROMAN WAR",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 3,
+    "numero": 2,
+    "caballo": "BHADRAK",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 3,
+    "numero": 3,
+    "caballo": "PELUKA",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 3,
+    "numero": 4,
+    "caballo": "LA SO\u00d1E",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 3,
+    "numero": 5,
+    "caballo": "UN DIA CONTIGO",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 3,
+    "numero": 6,
+    "caballo": "NANVERQUI",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 3,
+    "numero": 7,
+    "caballo": "MEME",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 3,
+    "numero": 8,
+    "caballo": "EL GRAN TORNADO",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 3,
+    "numero": 9,
+    "caballo": "BAY GOOD CHIQUI",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 3,
+    "numero": 10,
+    "caballo": "INDY JETS",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 3,
+    "numero": 11,
+    "caballo": "LIMITLESS",
+    "probabilidad": 5.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 3,
+    "numero": 12,
+    "caballo": "MENDEL QUINTA",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 3,
+    "numero": 13,
+    "caballo": "JUNTITOS SIEMPRE",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 3,
+    "numero": 14,
+    "caballo": "VINE VIDE VINCI",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 3,
+    "numero": 15,
+    "caballo": "HACER POR HACER",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 4,
+    "numero": 1,
+    "caballo": "MAGO DE NAIPES",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 4,
+    "numero": 2,
+    "caballo": "CANOVANAS",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 4,
+    "numero": 3,
+    "caballo": "LA OVALLE NEGRETE",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 4,
+    "numero": 4,
+    "caballo": "INDIA ADORADA",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 4,
+    "numero": 5,
+    "caballo": "NATALINO",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 4,
+    "numero": 6,
+    "caballo": "LA CHIPRIOTA",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 4,
+    "numero": 7,
+    "caballo": "INTERCEPTION",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 4,
+    "numero": 8,
+    "caballo": "DU PLESIS",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 4,
+    "numero": 9,
+    "caballo": "ALAJJA",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 4,
+    "numero": 10,
+    "caballo": "GOOD MORNING RED",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 4,
+    "numero": 11,
+    "caballo": "INFINITO VIAJE",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 4,
+    "numero": 12,
+    "caballo": "KEEP DREAMING",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 4,
+    "numero": 13,
+    "caballo": "GRAN BENY",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 4,
+    "numero": 14,
+    "caballo": "ZIGEUNER",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 4,
+    "numero": 15,
+    "caballo": "EXAGERADA Y BUENA",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 5,
+    "numero": 1,
+    "caballo": "POLLY GRAY",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 5,
+    "numero": 2,
+    "caballo": "BAD ROMANCE",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 5,
+    "numero": 3,
+    "caballo": "POENNI",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 5,
+    "numero": 4,
+    "caballo": "HI FLY",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 5,
+    "numero": 5,
+    "caballo": "TU MI CUNCA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 5,
+    "numero": 6,
+    "caballo": "PARA TI MI AMOR",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 5,
+    "numero": 7,
+    "caballo": "LA UNIVERSITARIA",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 5,
+    "numero": 8,
+    "caballo": "BELLA CHICHI",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 5,
+    "numero": 9,
+    "caballo": "ANTONIA FRANCISCA",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 5,
+    "numero": 10,
+    "caballo": "CHE AWAY",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 5,
+    "numero": 11,
+    "caballo": "LA CIA",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 5,
+    "numero": 12,
+    "caballo": "MIXED EMOTIONS",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 5,
+    "numero": 13,
+    "caballo": "COMO LA LUNA",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 5,
+    "numero": 14,
+    "caballo": "WITTENBURG",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 6,
+    "numero": 1,
+    "caballo": "PISTOLA VEL\u00c1ZQUEZ",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 6,
+    "numero": 2,
+    "caballo": "LA INSTRUMENTISTA",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 6,
+    "numero": 3,
+    "caballo": "ONDA RADIAL",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 6,
+    "numero": 4,
+    "caballo": "DABKE",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 6,
+    "numero": 5,
+    "caballo": "RUCCO",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 6,
+    "numero": 6,
+    "caballo": "HENGROEN",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 6,
+    "numero": 7,
+    "caballo": "EL GUASON",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 6,
+    "numero": 8,
+    "caballo": "NIETO ESPA\u00d1OL",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 6,
+    "numero": 9,
+    "caballo": "LA FINESSE",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 6,
+    "numero": 10,
+    "caballo": "TERRIBLE BRUNO",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 6,
+    "numero": 11,
+    "caballo": "EL GRAN MENOTTI",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 6,
+    "numero": 12,
+    "caballo": "GOLD ESCUDERO",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 6,
+    "numero": 13,
+    "caballo": "VANDU",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 7,
+    "numero": 1,
+    "caballo": "EL FORASTERO",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 7,
+    "numero": 2,
+    "caballo": "EL PUNTUO",
+    "probabilidad": 10.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 7,
+    "numero": 3,
+    "caballo": "GRAN PEPE",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 7,
+    "numero": 4,
+    "caballo": "SUE\u00d1OS DE LEON",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 7,
+    "numero": 5,
+    "caballo": "RASHEEM",
+    "probabilidad": 10.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 7,
+    "numero": 6,
+    "caballo": "GOOD CHIEF",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 7,
+    "numero": 7,
+    "caballo": "ZULTHAN",
+    "probabilidad": 10.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 7,
+    "numero": 8,
+    "caballo": "SCAR",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 7,
+    "numero": 9,
+    "caballo": "EL FLORITO",
+    "probabilidad": 10.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 7,
+    "numero": 10,
+    "caballo": "LOS BISNIETOS",
+    "probabilidad": 10.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 8,
+    "numero": 1,
+    "caballo": "GUANAQUERO",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 8,
+    "numero": 2,
+    "caballo": "LADY BAY",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 8,
+    "numero": 3,
+    "caballo": "EL MARIPEPA",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 8,
+    "numero": 4,
+    "caballo": "SURPRISE BOX",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 8,
+    "numero": 5,
+    "caballo": "JOSIE GIRL",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 8,
+    "numero": 6,
+    "caballo": "DON'T STOP ME NOW",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 8,
+    "numero": 7,
+    "caballo": "CABLE A TIERRA",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 8,
+    "numero": 8,
+    "caballo": "LADY CHROME",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 8,
+    "numero": 9,
+    "caballo": "CHIQUI VELOZ",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 8,
+    "numero": 10,
+    "caballo": "PAQUETE PLATICO",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 8,
+    "numero": 11,
+    "caballo": "BEAUTIFUL MOON",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 8,
+    "numero": 12,
+    "caballo": "CHICA DE CAMPEONES",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 8,
+    "numero": 13,
+    "caballo": "RED KNIGHT",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 8,
+    "numero": 14,
+    "caballo": "MARRAKECH",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 8,
+    "numero": 15,
+    "caballo": "ME VERAS CAER",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 9,
+    "numero": 1,
+    "caballo": "POWER OF HORSES",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 9,
+    "numero": 2,
+    "caballo": "JULIA DOMNA",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 9,
+    "numero": 3,
+    "caballo": "MALVA STAR",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 9,
+    "numero": 4,
+    "caballo": "SASUKE",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 9,
+    "numero": 5,
+    "caballo": "SALUD COMPADRE",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 9,
+    "numero": 6,
+    "caballo": "FRANCOLI",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 9,
+    "numero": 7,
+    "caballo": "EL COIGUE",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 9,
+    "numero": 8,
+    "caballo": "LA FLOWER",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 9,
+    "numero": 9,
+    "caballo": "ARRANCATE PAIRINO",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 9,
+    "numero": 10,
+    "caballo": "MONTES PREMIUM",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 9,
+    "numero": 11,
+    "caballo": "DESERT CAT",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 9,
+    "numero": 12,
+    "caballo": "FABRANA",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 9,
+    "numero": 13,
+    "caballo": "NURMAGOMEDOV",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 9,
+    "numero": 14,
+    "caballo": "VASCA BRAVA",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2025-12-27",
+    "hipodromo": "Hip\u00f3dromo Chile",
+    "carrera": 9,
+    "numero": 15,
+    "caballo": "MAS AMOR",
+    "probabilidad": 7.1
+  }
+]
