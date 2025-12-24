@@ -184,6 +184,8 @@ def obtener_analisis_jornada():
                     hip = carrera.get('hipodromo', '')
                     if hip == 'VALP' or hip == 'VAL':
                         carrera['hipodromo'] = 'Valparaíso Sporting'
+                    elif hip == 'CHH':
+                        carrera['hipodromo'] = 'Club Hípico'
                 
                 # Update memory cache
                 _memory_cache['data'] = data
@@ -429,10 +431,10 @@ def obtener_lista_hipodromos():
             raw_list = df['hipodromo'].unique().tolist()
             normalized = set()
             for h in raw_list:
-                if h in ['VALP', 'VAL']:
+                if h in ['VALP', 'VAL', 'VSC']:
                     normalized.add('Valparaíso Sporting')
-                elif h == 'VSC':
-                     normalized.add('Valparaíso Sporting') # Map VSC too just in case
+                elif h == 'CHH':
+                    normalized.add('Club Hípico')
                 else:
                     normalized.add(h)
             
