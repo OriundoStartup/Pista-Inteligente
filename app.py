@@ -107,7 +107,10 @@ def debug_firestore():
         status['db_initialized'] = (db is not None)
     except Exception as e:
         status['db_error'] = str(e)
+        return jsonify(status)
         
+    # Check Data
+    try:
         # Get all future predictions to check hipodromes
         all_docs = db.collection('predicciones').where('fecha', '>=', '2025-12-28').stream()
         hips = set()
