@@ -108,16 +108,16 @@ def debug_firestore():
     except Exception as e:
         status['db_error'] = str(e)
         
-    # Check Data
-    try:
-        data = obtener_predicciones_firestore("2025-01-01") # Future query
-        # Try finding ANY data for investigation
-        raw_docs = list(db.collection('predicciones').limit(5).stream())
-        sample = []
-        for d in raw_docs:
+        # Get all future predictions to check hipodromes
+        all_docs = db.collection('predicciones').where('fecha', '>=', '2025-12-28').stream()
+        hips = set()
+        count = 0
+        for d in all_docs:
              dd = d.to_dict()
-             sample.append(f"{d.id}: {len(dd.get('detalles', []))} details. Hip: {dd.get('hipodromo')}")
-        status['sample_docs'] = sample
+             hips.add(dd.get('hipodromo', 'Unknown'))
+             count += 1
+        status['unique_hipodromos'] = list(hips)
+        status['total_future_docs'] = count
     except Exception as e:
         status['query_error'] = str(e)
         
