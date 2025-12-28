@@ -12,3 +12,6 @@ lxml
 numpy
 plotly
 gunicorn
+firebase-admin
+google-cloud-firestore
+tqdm

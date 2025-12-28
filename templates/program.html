@@ -149,78 +149,92 @@ análisis en tiempo real.{% endblock %}
 </div>
 
 <div class="predictions-container">
-    {% for carrera in analisis %}
-    <div class="glass-card" style="margin-bottom: 1rem; border-left: 4px solid var(--primary);">
-        <h2 style="color:white; margin-bottom:0.5rem; font-size: 1.25rem;">
-            {{ carrera.hipodromo }} - Carrera {{ carrera.carrera }}
-            <span style="font-size:0.8rem; color:var(--text-muted); float:right">
-                📅 {{ carrera.fecha }} | 🕒 {{ carrera.hora }} | 🏁 {{ carrera.distancia }}m
-            </span>
-        </h2>
+    {% if analisis %}
+        {% for fecha, carreras in analisis|groupby('fecha') %}
+            <!-- Date Header -->
+            <div class="date-header" style="margin: 2rem 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid var(--primary);">
+                <h2 style="color: var(--text-main); font-size: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                    📅 <span style="text-transform: capitalize;">Programación {{ fecha }}</span>
+                    <span style="font-size: 0.9rem; background: var(--surface-hover); padding: 2px 8px; border-radius: 12px; color: var(--text-muted);">
+                        {{ carreras|length }} Carreras
+                    </span>
+                </h2>
+            </div>
 
-        <table class="modern-table">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Caballo</th>
-                    <th>Jinete</th>
-                    <th>IA Score</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for pred in carrera.predicciones %}
-                <tr>
-                    <td>{{ pred.numero }}</td>
-                    <td style="font-weight:600; color:var(--text-main);">{{ pred.caballo }}</td>
-                    <td>{{ pred.jinete }}</td>
-                    <td>
-                        <div style="display: flex; align-items: center; gap: 10px;">
-                            <!-- Top Pick Badge -->
-                            {% if loop.index == 1 %}
-                            <span title="Favorito de la IA" style="font-size: 1.2rem;">🥇</span>
-                            {% elif loop.index == 2 %}
-                            <span title="Segunda Opción" style="font-size: 1rem; opacity:0.8;">🥈</span>
-                            {% elif loop.index == 3 %}
-                            <span title="Tercera Opción" style="font-size: 1rem; opacity:0.8;">🥉</span>
-                            {% endif %}
+            {% for carrera in carreras %}
+            <div class="glass-card" style="margin-bottom: 1rem; border-left: 4px solid var(--primary);">
+                <h2 style="color:white; margin-bottom:0.5rem; font-size: 1.25rem;">
+                    {{ carrera.hipodromo }} - Carrera {{ carrera.carrera }}
+                    <span style="font-size:0.8rem; color:var(--text-muted); float:right">
+                        🕒 {{ carrera.hora }} | 🏁 {{ carrera.distancia }}m
+                    </span>
+                </h2>
 
-                            <!-- Score Visual -->
-                            <div style="flex-grow: 1; min-width: 80px;">
-                                <div
-                                    style="display: flex; justify-content: space-between; font-size: 0.8rem; margin-bottom: 2px;">
-                                    <span style="font-weight: bold; color: white;">IA Confianza</span>
-                                    <span style="font-weight: bold;"
-                                        class="{% if pred.puntaje_ia > 80 %}text-score-high{% elif pred.puntaje_ia > 50 %}text-score-mid{% else %}text-score-low{% endif %}">
-                                        {{ "%.1f"|format(pred.puntaje_ia|float) }}%
-                                    </span>
-                                </div>
-                                <div
-                                    style="background: rgba(255,255,255,0.1); height: 6px; border-radius: 10px; overflow: hidden;">
-                                    <div class="progress-fill {% if pred.puntaje_ia > 80 %}bar-score-high{% elif pred.puntaje_ia > 50 %}bar-score-mid{% else %}bar-score-low{% endif %}"
-                                        {{ ('style="width: ' ~ pred.puntaje_ia ~ '%;"') | safe }}>
+                <table class="modern-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Caballo</th>
+                            <th>Jinete</th>
+                            <th>IA Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for pred in carrera.predicciones %}
+                        <tr>
+                            <td>{{ pred.numero }}</td>
+                            <td style="font-weight:600; color:var(--text-main);">{{ pred.caballo }}</td>
+                            <td>{{ pred.jinete }}</td>
+                            <td>
+                                <div style="display: flex; align-items: center; gap: 10px;">
+                                    <!-- Top Pick Badge -->
+                                    {% if loop.index == 1 %}
+                                    <span title="Favorito de la IA" style="font-size: 1.2rem;">🥇</span>
+                                    {% elif loop.index == 2 %}
+                                    <span title="Segunda Opción" style="font-size: 1rem; opacity:0.8;">🥈</span>
+                                    {% elif loop.index == 3 %}
+                                    <span title="Tercera Opción" style="font-size: 1rem; opacity:0.8;">🥉</span>
+                                    {% endif %}
+
+                                    <!-- Score Visual -->
+                                    <div style="flex-grow: 1; min-width: 80px;">
+                                        <div
+                                            style="display: flex; justify-content: space-between; font-size: 0.8rem; margin-bottom: 2px;">
+                                            <span style="font-weight: bold; color: white;">IA Confianza</span>
+                                            <span style="font-weight: bold;"
+                                                class="{% if pred.puntaje_ia > 80 %}text-score-high{% elif pred.puntaje_ia > 50 %}text-score-mid{% else %}text-score-low{% endif %}">
+                                                {{ "%.1f"|format(pred.puntaje_ia|float) }}%
+                                            </span>
+                                        </div>
+                                        <div
+                                            style="background: rgba(255,255,255,0.1); height: 6px; border-radius: 10px; overflow: hidden;">
+                                            <div class="progress-fill {% if pred.puntaje_ia > 80 %}bar-score-high{% elif pred.puntaje_ia > 50 %}bar-score-mid{% else %}bar-score-low{% endif %}"
+                                                {{ ('style="width: ' ~ pred.puntaje_ia ~ '%;"') | safe }}>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-        
-        <!-- Ad Unit: Sponsored Prediction (Direct Ads) -->
-        <div style="margin-top: 1rem; padding: 0.5rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center;">
-            <p style="margin:0; font-size: 0.8rem; color: var(--text-muted);">
-                Pronóstico auspiciado por: 
-                <span style="color: var(--secondary); font-weight: bold;">[TU MARCA AQUÍ]</span>
-            </p>
-            <a href="mailto:juancamposgomez80@gmail.com" style="font-size: 0.75rem; color: var(--text-muted); text-decoration: none;">Cotizar este espacio 📧</a>
-        </div>
-    </div>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                
+                <!-- Ad Unit: Sponsored Prediction (Direct Ads) -->
+                <div style="margin-top: 1rem; padding: 0.5rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center;">
+                    <p style="margin:0; font-size: 0.8rem; color: var(--text-muted);">
+                        Pronóstico auspiciado por: 
+                        <span style="color: var(--secondary); font-weight: bold;">[TU MARCA AQUÍ]</span>
+                    </p>
+                    <a href="mailto:juancamposgomez80@gmail.com" style="font-size: 0.75rem; color: var(--text-muted); text-decoration: none;">Cotizar este espacio 📧</a>
+                </div>
+            </div>
+            {% endfor %}
+        {% endfor %}
     {% else %}
     <div class="glass-card" style="text-align:center; padding:3rem; color:var(--text-muted);">
         No hay carreras disponibles para el filtro seleccionado hoy.
     </div>
-    {% endfor %}
+    {% endif %}
 </div>
 {% endblock %}

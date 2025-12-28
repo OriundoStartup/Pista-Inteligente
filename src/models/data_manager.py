@@ -168,15 +168,39 @@ def obtener_analisis_jornada():
             current_mtime = cache_path.stat().st_mtime
             
             # Check if we have valid memory cache
+            # NOTE: We still need to re-filter memory cache if the day changed, 
+            # but for simplicity we rely on the fact the file usually updates daily.
+            # Ideally we should filter the return value regardless of source.
+            # But let's apply filter on load.
+            
             if _memory_cache['data'] is not None and \
                _memory_cache['path'] == str(cache_path) and \
                _memory_cache['mtime'] == current_mtime:
-                return _memory_cache['data']
+               
+                # Re-apply filter to memory cache to be safe (in case day changed while app running)
+                # Chile time offset
+                chile_time = datetime.utcnow() - timedelta(hours=3)
+                today_str = chile_time.strftime('%Y-%m-%d')
+                
+                filtered_mem_data = [
+                    d for d in _memory_cache['data'] 
+                    if d.get('fecha') >= today_str
+                ]
+                return filtered_mem_data
 
             # If not in memory or file changed, reload from disk
             with open(cache_path, 'r', encoding='utf-8') as f:
                 print(f"⚡ [DISK] Recargando cache predicciones ({current_mtime})")
                 data = json.load(f)
+                
+                # --- FILTER LOGIC START ---
+                # Chile time offset
+                chile_time = datetime.utcnow() - timedelta(hours=3)
+                today_str = chile_time.strftime('%Y-%m-%d')
+                
+                # Filter strictly future/today
+                data = [d for d in data if d.get('fecha') >= today_str]
+                # --- FILTER LOGIC END ---
                 
                 # FIX: Normalizar nombres de hipódromos 'legacy' o 'raw' al vuelo
                 # Esto corrige VALP/VAL -> Valparaíso Sporting inmediatamente en la vista
@@ -471,7 +495,105 @@ def analizar_probabilidad_caballos(caballos_df, historial_resultados, model=None
     # Return top 4
     return final_output[:4]
 
-def obtener_lista_hipodromos():
+# --- FIRESTORE INTEGRATION (HYBRID VIEW) ---
+import firebase_admin
+from firebase_admin import credentials, firestore
+
+def _init_firebase_db():
+    try:
+        if not firebase_admin._apps:
+            # Try serviceAccountKey.json locally
+            cred_path = 'serviceAccountKey.json'
+            if os.path.exists(cred_path):
+                cred = credentials.Certificate(cred_path)
+                firebase_admin.initialize_app(cred)
+            else:
+                # Cloud Run / ADC
+                cred = credentials.ApplicationDefault()
+                firebase_admin.initialize_app(cred, {'projectId': 'pista-inteligente'})
+        return firestore.client()
+    except Exception as e:
+        print(f"⚠️ Firebase Init Warning: {e}")
+        return None
+
+def obtener_predicciones_firestore(fecha_min_str):
+    """Obtiene predicciones futuras desde Firestore."""
+    db = _init_firebase_db()
+    if not db: return []
+    
+    try:
+        # Query: fecha >= hoy
+        # Collection: 'predicciones'
+        docs = db.collection('predicciones')\
+                 .where('fecha', '>=', fecha_min_str)\
+                 .stream()
+        
+        results = []
+        for d in docs:
+            data = d.to_dict()
+            data['id'] = d.id
+            results.append(data)
+        return results
+    except Exception as e:
+        print(f"⚠️ Error Firestore Read: {e}")
+        return []
+
+def obtener_analisis_jornada(use_firestore=True):
+    """
+    Genera análisis usando EXCLUSIVAMENTE Firestore (Full Cloud).
+    Si no hay datos en la nube, retorna vacío.
+    """
+    # 0. Common Date Logic (Chile)
+    chile_time = datetime.utcnow() - timedelta(hours=3)
+    today_str = chile_time.strftime('%Y-%m-%d')
+
+    if not use_firestore:
+        print("⚠️ Advertencia: Modo local desactivado. Habilitando Firestore forzosamente.")
+    
+    try:
+         # Query Firestore directly
+         firestore_data = obtener_predicciones_firestore(today_str)
+    except Exception as e:
+         print(f"❌ Error Critical Firestore: {e}")
+         return []
+
+    if not firestore_data:
+        return []
+
+    analisis_completo = []
+    
+    # 1. Map Firestore Documents -> View Objects
+    for doc in firestore_data:
+        # Doc keys: fecha, hipodromo, carrera, hora, distancia, detalles[]
+        
+        race_obj = {
+            'hipodromo': doc.get('hipodromo', 'Unknown'),
+            'carrera': doc.get('carrera', 0),
+            'fecha': doc.get('fecha', today_str),
+            'hora': doc.get('hora', '00:00'),
+            'distancia': doc.get('distancia', 0),
+            'predicciones': []
+        }
+        
+        # Details contains enriched data (caballo, numero, jinete, probabilidad)
+        detalles = doc.get('detalles', [])
+        
+        view_preds = []
+        for det in detalles:
+            view_preds.append({
+                'numero': det.get('numero'),
+                'caballo': det.get('caballo'),
+                'jinete': det.get('jinete', 'N/A'), # Now serving directly from Cloud
+                'puntaje_ia': round(det.get('probabilidad', 0), 1),
+                'prob_ml': f"{det.get('probabilidad', 0):.1f}"
+            })
+            
+        race_obj['predicciones'] = view_preds
+        analisis_completo.append(race_obj)
+
+    # Sort: Date -> Hipodromo -> Race Number
+    analisis_completo.sort(key=lambda x: (x['fecha'], x['hipodromo'], x['carrera']))
+    return analisis_completo
     """Obtiene la lista única de hipódromos."""
     try:
         df = cargar_datos_3nf()

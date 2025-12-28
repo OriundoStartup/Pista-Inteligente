@@ -28,4 +28,4 @@ EXPOSE 8080
 # --timeout 0: Desactivar timeout (Cloud Run maneja esto)
 # --preload: Precargar la app para compartir memoria entre workers
 # --keep-alive 5: Mantener conexiones activas
-CMD ["gunicorn", "--bind", "0.0.0.0:8080", "--workers", "2", "--threads", "4", "--timeout", "0", "--preload", "--keep-alive", "5", "app:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "--workers", "2", "--threads", "4", "--timeout", "0", "--keep-alive", "5", "app:app"]

@@ -3,7 +3,17 @@ import pandas as pd
 from src.models.data_manager import cargar_datos, obtener_analisis_jornada, obtener_patrones_la_tercera, obtener_estadisticas_generales, obtener_lista_hipodromos, calcular_precision_modelo, obtener_predicciones_historicas, detectar_patrones_futuros, obtener_ultimos_aciertos
 from src.models.ai_model import configurar_gemini, get_gemini_response_stream
 import os
+import gc
+import sys
 from dotenv import load_dotenv
+
+# --- AUTOMATION IMPORTS ---
+try:
+    from src.models.inference import InferencePipeline
+    from src.models.train_v2 import HipicaLearner # Optional if we want to retrain
+    from src.utils.migrate_to_firebase import migrate
+except ImportError:
+    pass # Handle gracefully if running outside context
 
 app = Flask(__name__)
 
@@ -44,6 +54,46 @@ def rate_limit_check():
 # Configuración
 load_dotenv() # Carga variables del archivo .env
 configurar_gemini()
+
+# -------------------------------------------------------------------
+# CRON JOB ENDPOINT (Called by Cloud Scheduler)
+# -------------------------------------------------------------------
+@app.route('/api/cron/update-predictions', methods=['POST'])
+def cron_update():
+    """
+    Endpoint para actualizar predicciones diariamente.
+    Ejecuta: ETL (implícito en inferencia si se requiere? No, inferencia carga DB) -> Inferencia -> Migración.
+    Para producción, idealmente se debería correr ETL antes.
+    
+    En este diseño V2 simplificado:
+    1. Ejecutamos Inferencia (Genera predicciones para carreras futuras ya en DB).
+    2. Ejecutamos Migración (Sube todo a Firestore).
+    """
+    print("⏰ [CRON] Starting daily update...")
+    start_t = time.time()
+    
+    try:
+        # 1. Inference Pipeline
+        print("   -> Running Inference...")
+        pipeline = InferencePipeline()
+        pipeline.run()
+        
+        # 2. Migration
+        print("   -> Running Firestore Migration...")
+        migrate()
+        
+        # 3. Cleanup
+        del pipeline
+        gc.collect()
+        
+        elapsed = time.time() - start_t
+        msg = f"✅ Cron Job Completed in {elapsed:.2f}s"
+        print(msg)
+        return jsonify({'status': 'success', 'message': msg}), 200
+        
+    except Exception as e:
+        print(f"❌ [CRON ERROR] {e}")
+        return jsonify({'status': 'error', 'message': str(e)}), 500
 
 @app.context_processor
 def inject_global_vars():
@@ -179,6 +229,12 @@ def robots_txt():
     """Servir robots.txt para SEO"""
     from flask import send_from_directory
     return send_from_directory('static', 'robots.txt')
+
+@app.route('/ads.txt')
+def ads_txt():
+    """Servir ads.txt para AdSense"""
+    from flask import send_from_directory
+    return send_from_directory('static', 'ads.txt')
 
 @app.route('/sitemap.xml')
 def sitemap_xml():

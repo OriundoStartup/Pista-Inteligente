@@ -1,0 +1,19 @@
+2025-12-28 15:39:11,990 - INFO - ==================================================
+2025-12-28 15:39:11,990 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V2.0
+2025-12-28 15:39:11,991 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2025-12-28 15:39:11,991 - INFO - ==================================================
+2025-12-28 15:39:11,991 - INFO - [PASO 1/3] Ejecutando ETL (Extracción de Datos)...
+2025-12-28 15:39:12,094 - INFO - ✅ Se han procesado 2 archivos nuevos.
+2025-12-28 15:39:12,094 - INFO - [PASO 2/3] Entrenando Modelo 'Learning to Rank' (LGBM)...
+2025-12-28 15:39:13,665 - INFO - ✅ Modelo re-entrenado exitosamente.
+2025-12-28 15:39:13,666 - INFO - [PASO 3/3] Ejecutando Pipeline de Inferencia...
+2025-12-28 15:39:16,396 - INFO - ✅ Inferencia completada exitosamente.
+2025-12-28 15:39:16,397 - INFO -    Último log de inferencia:
+2025-12-28 15:39:16,397 - INFO -    -> ⚖️ Applying Softmax Normalization...
+2025-12-28 15:39:16,397 - INFO -    -> ✅ Saved 237 predictions to data/predicciones_activas.json
+2025-12-28 15:39:16,397 - INFO -    -> ✅ Saved to DB table 'predicciones_activas'
+2025-12-28 15:39:16,397 - INFO - [PASO 4/4] Migrando datos a Firestore...
+2025-12-28 15:39:29,975 - INFO - ✅ Migración a Firestore completada.
+2025-12-28 15:39:29,975 - INFO - 🎉 SINCRONIZACIÓN FINALIZADA en 17.98 segundos.
+2025-12-28 15:39:29,975 - INFO -  -> Base de datos Local: ACTUALIZADA
+2025-12-28 15:39:29,975 - INFO -  -> Predicciones: DISPONIBLES

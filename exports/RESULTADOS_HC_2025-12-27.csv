@@ -1,0 +1,318 @@
+Fecha,Hipodromo,Carrera,Hora,Distancia,Condicion,Lugar,Numero,Ejemplar,Padrillo,Edad,Peso_Fisico,Distancia_Al_Primero,Peso_Jinete,Jinete,Preparador,Stud,Dividendo
+27/12/2025,Hipódromo Chile,1,11:45,1200m,Handicap (Hd) 3 al 2,1,14,Silverchair,Papelon,4,402k,,55k,A. Vásquez.,Oscar Donate S.,Redbros,4.20
+27/12/2025,Hipódromo Chile,1,11:45,1200m,Handicap (Hd) 3 al 2,2,10,Te Digo Algo,Exaggerator,4,451k,1¾,56k,B. Sancho.,Claudio Bernal G.,Mar Y Sol,3.90
+27/12/2025,Hipódromo Chile,1,11:45,1200m,Handicap (Hd) 3 al 2,3,6,La Tostadora,Cupid,5,485k,3,55k,M. Gutiérrez.,Hernán Pacheco P.,Grande Tio Kiko,11.50
+27/12/2025,Hipódromo Chile,1,11:45,1200m,Handicap (Hd) 3 al 2,4,3,Palabra Cierta,Gemologist,7,490k,6¾,55k,R.S. Dores.,Rodrigo Quiroz S.,Peter Ecso,9.80
+27/12/2025,Hipódromo Chile,1,11:45,1200m,Handicap (Hd) 3 al 2,5,4,Vita Kc,Newfoundland,4,428k,8½,56k,J. Toro.,Andrés Bernal G.,Pichon,7.40
+27/12/2025,Hipódromo Chile,1,11:45,1200m,Handicap (Hd) 3 al 2,6,12,Kirsch Royal,Leading The Parade,11,460k,9¾,55k,R. Avila.,Mario Covarrubias,Quarter Dollar,17.10
+27/12/2025,Hipódromo Chile,1,11:45,1200m,Handicap (Hd) 3 al 2,7,1,Que Hice Mal,International Star,3,392k,9¾,55k,L. González.,Jaime Hirmas R.,Los Aviadores,27.60
+27/12/2025,Hipódromo Chile,1,11:45,1200m,Handicap (Hd) 3 al 2,8,8,Me Lo Llevo,Grand Daddy,7,516k,10,56k,A. Covarrubias.,Julio Castillo D.,Corral Hipico,13.80
+27/12/2025,Hipódromo Chile,1,11:45,1200m,Handicap (Hd) 3 al 2,9,7,Entrate Nunca,Forever Thing,8,469k,10,55k,L.D. Menghini.,Héctor Castillo S.,Los Psiquicos,29.40
+27/12/2025,Hipódromo Chile,1,11:45,1200m,Handicap (Hd) 3 al 2,10,13,Te Diria,Exaggerator,4,429k,11¼,56k,S. Muñoz.,Julio Castillo D.,Clauseb,33.30
+27/12/2025,Hipódromo Chile,1,11:45,1200m,Handicap (Hd) 3 al 2,11,5,Satisfy My Soul,Sumerio,4,426k,11¼,55k,J. Castillo.,Luis Toledo C.,Pequeño Matias,53.50
+27/12/2025,Hipódromo Chile,1,11:45,1200m,Handicap (Hd) 3 al 2,12,2,Lord Commander,Mastercraftsman,9,443k,14,56k,G. Aros.,Eduardo Lab R.,Mami Chela,4.20
+27/12/2025,Hipódromo Chile,1,11:45,1200m,Handicap (Hd) 3 al 2,13,15,Sahara Chrome,California Chrome,6,436k,16¾,56k,M. Bustamante.,Eugenio Switt V.,Misacrisei,19.40
+27/12/2025,Hipódromo Chile,1,11:45,1200m,Handicap (Hd) 3 al 2,14,9,Amar Azul,Flameaway,4,448k,18½,56k,A. Apablaza.,Eugenio Switt V.,Carlos Cavieres,12.40
+27/12/2025,Hipódromo Chile,2,12:10,1000m,Condicional Hembras 3 años no ganadoras,1,11,Lady Jets,Get Jets,3,448k,,55k,A. Zúñiga.,Oscar Donate S.,Don Alfonso,59.90
+27/12/2025,Hipódromo Chile,2,12:10,1000m,Condicional Hembras 3 años no ganadoras,2,7,Perla Del Bio Bio,Spun to Run,3,432k,pz,55k,J. Zúñiga.,Pedro Molina I.,Ximena Monica,6.40
+27/12/2025,Hipódromo Chile,2,12:10,1000m,Condicional Hembras 3 años no ganadoras,3,12,Sanssita,Mendelssohn,3,452k,3½,55k,A. Covarrubias.,Lauro Pérez A.,Santa Malva,30.90
+27/12/2025,Hipódromo Chile,2,12:10,1000m,Condicional Hembras 3 años no ganadoras,4,6,Shyuanna,Boboman,3,438k,3½,55k,N. Ramirez.,Juan C. Pichara J.,Agric.Santa Laura,3.40
+27/12/2025,Hipódromo Chile,2,12:10,1000m,Condicional Hembras 3 años no ganadoras,5,9,Diosa Chocolate,Palm Springs,3,440k,5,55k,W. León.,Jaime Espineira C.,Jaime Espiñeira C.,14.90
+27/12/2025,Hipódromo Chile,2,12:10,1000m,Condicional Hembras 3 años no ganadoras,6,15,Fior Di Latte,The Lumber Guy,3,390k,6¼,55k,J. Herrera.,José Alvarez D.,Premium,4.60
+27/12/2025,Hipódromo Chile,2,12:10,1000m,Condicional Hembras 3 años no ganadoras,7,10,Get girls,Get Jets,3,432k,6¼,55k,S. González.,Rodrigo Quiroz S.,Macul,4.90
+27/12/2025,Hipódromo Chile,2,12:10,1000m,Condicional Hembras 3 años no ganadoras,8,3,Sinag,Good Samaritan,3,423k,6¾,55k,R.S. Dores.,Rodrigo Quiroz S.,Malcib,10.50
+27/12/2025,Hipódromo Chile,2,12:10,1000m,Condicional Hembras 3 años no ganadoras,9,14,Tiguarda,Dylan Thomas,3,415k,8¾,55k,D. D. Medina.,Hernán Pacheco P.,Grande Tio Kiko,193.50
+27/12/2025,Hipódromo Chile,2,12:10,1000m,Condicional Hembras 3 años no ganadoras,10,2,Euskera,Flameaway,3,422k,8¾,55k,B. Troncoso.,Aldo Parra D.,Viejo Zorro,4.30
+27/12/2025,Hipódromo Chile,2,12:10,1000m,Condicional Hembras 3 años no ganadoras,11,5,Tia Luzmira,Star Dabbler,3,434k,10¼,56k,B. Sancho.,Claudio Bernal G.,Masaiva,22.80
+27/12/2025,Hipódromo Chile,2,12:10,1000m,Condicional Hembras 3 años no ganadoras,12,1,Song Song Blue,Dubai Sky,3,427k,10¾,55k,A. Apablaza.,Cristian Quiroz E.,Fos,83.80
+27/12/2025,Hipódromo Chile,2,12:10,1000m,Condicional Hembras 3 años no ganadoras,13,13,Isla Navarino,Rydilluc,3,421k,12¾,55k,L. González.,Cristián Urbina R.,Mario Andrés,175.70
+27/12/2025,Hipódromo Chile,2,12:10,1000m,Condicional Hembras 3 años no ganadoras,14,4,La Jeshu,Distorted Economy,3,435k,13,52k,N. Rojas.,Daniel Contreras A.,Ja,26.50
+27/12/2025,Hipódromo Chile,2,12:10,1000m,Condicional Hembras 3 años no ganadoras,U,8,Fin De La Noche,Dylan Thomas,3,487k,17,55k,F. Henríquez.,Manuel Norambuena Ch.,Dejenme Sonar,56.00
+27/12/2025,Hipódromo Chile,3,12:35,1200m,Handicap (Hd) 1,1,3,Peluka,Frank Conversation,4,451k,,56k,V. Miranda.,Juan C. Pichara J.,Seguir Soñando,5.90
+27/12/2025,Hipódromo Chile,3,12:35,1200m,Handicap (Hd) 1,2,10,Indy Jets,Get Jets,4,441k,1,56k,L. González.,Rodrigo Muñoz M.,Savka Hermanos,9.40
+27/12/2025,Hipódromo Chile,3,12:35,1200m,Handicap (Hd) 1,3,15,Hacer Por Hacer,Fantasmagorico,6,418k,1½,56k,S. González.,Eduardo Lab R.,Mami Chela,10.50
+27/12/2025,Hipódromo Chile,3,12:35,1200m,Handicap (Hd) 1,4,14,Vine Vide Vinci,Tumblebrutus,11,463k,3½,56k,B. Troncoso.,Rodrigo Quiroz S.,Lusugo,4.10
+27/12/2025,Hipódromo Chile,3,12:35,1200m,Handicap (Hd) 1,5,7,Meme,Good Samaritan,4,405k,4,56k,M. Gutiérrez.,Rafael Bernal G.,Sema,8.50
+27/12/2025,Hipódromo Chile,3,12:35,1200m,Handicap (Hd) 1,6,5,Un Dia Contigo,Seeking The Dia,4,431k,4½,56k,R. Varas.,Lauro Pérez A.,Lauro Perez A.,12.30
+27/12/2025,Hipódromo Chile,3,12:35,1200m,Handicap (Hd) 1,7,13,Juntitos Siempre,Grand Daddy,4,457k,4½,56k,P. Zúñiga.,Rodrigo López B.,Patito,21.70
+27/12/2025,Hipódromo Chile,3,12:35,1200m,Handicap (Hd) 1,8,8,El Gran Tornado,Newfoundland,8,440k,5¼,56k,N. Rojas.,Mario A. Apablaza G.,Albino,37.70
+27/12/2025,Hipódromo Chile,3,12:35,1200m,Handicap (Hd) 1,9,9,Bay Good Chiqui,Good Samaritan,4,399k,7½,56k,R. Fuenzalida.,Claudio Bernal G.,Malcib,21.10
+27/12/2025,Hipódromo Chile,3,12:35,1200m,Handicap (Hd) 1,10,11,Limitless,Hold Me Back,7,475k,8¼,56k,D. Sánchez.,Leopoldo Parra G.,El Vetero,6.40
+27/12/2025,Hipódromo Chile,3,12:35,1200m,Handicap (Hd) 1,11,4,La Soñe,Midshipman,6,437k,8¾,56k,J. González.,Genaro J. Covarrubias E.,La Corina,16.70
+27/12/2025,Hipódromo Chile,3,12:35,1200m,Handicap (Hd) 1,12,2,Bhadrak,Newfoundland,4,448k,9¾,56k,D. D. Medina.,José Bravo M.,Cecilia Falconi,30.20
+27/12/2025,Hipódromo Chile,3,12:35,1200m,Handicap (Hd) 1,13,6,Nanverqui,Neko Bay,7,419k,11,56k,R. Painen.,Maritza Pérez A.,Mama Lila,20.10
+27/12/2025,Hipódromo Chile,3,12:35,1200m,Handicap (Hd) 1,14,1,Roman War,War Command,9,476k,11¾,56k,R. Covarrubias.,Genaro J. Covarrubias E.,La Corina,9.50
+27/12/2025,Hipódromo Chile,3,12:35,1200m,Handicap (Hd) 1,U,12,Mendel Quinta,Mendelssohn,4,442k,16,56k,M. Morales.,Rafael Bernal G.,Paula Ines,9.80
+27/12/2025,Hipódromo Chile,4,13:01,1200m,Handicap (Hd) 1,1,14,Zigeuner,Ivan Denisovich,6,482k,,56k,A. Covarrubias.,Mario Covarrubias,Felipe Jesus,7.20
+27/12/2025,Hipódromo Chile,4,13:01,1200m,Handicap (Hd) 1,2,4,India Adorada,Exaggerator,5,459k,1,56k,L.D. Menghini.,Eugenio Switt V.,Florence,14.10
+27/12/2025,Hipódromo Chile,4,13:01,1200m,Handicap (Hd) 1,3,1,Mago De Naipes,Felíz de Vivir,7,433k,6,56k,H. Barrera.,Rodrigo Quiroz S.,Artigas,6.40
+27/12/2025,Hipódromo Chile,4,13:01,1200m,Handicap (Hd) 1,4,3,La Ovalle Negrete,El Farrero,6,419k,6½,56k,R. Avila.,Jaime Hirmas R.,Jaime Hirmas R.,4.90
+27/12/2025,Hipódromo Chile,4,13:01,1200m,Handicap (Hd) 1,5,5,Natalino,Seeking The Dia,10,498k,8¼,56k,A. Zúñiga.,Ricardo Rojas S.,Chamo Candela,5.50
+27/12/2025,Hipódromo Chile,4,13:01,1200m,Handicap (Hd) 1,6,12,Keep Dreaming,Hiraboku Deep,4,393k,8¼,56k,G. Givovich.,Ricardo Rojas S.,Pequeño Matias,50.40
+27/12/2025,Hipódromo Chile,4,13:01,1200m,Handicap (Hd) 1,7,7,Interception,Ivan Denisovich,7,457k,8½,56k,R. Varas.,Lauro Pérez A.,Dianita Isabel,21.50
+27/12/2025,Hipódromo Chile,4,13:01,1200m,Handicap (Hd) 1,8,11,Infinito Viaje,Viscount Nelson,4,413k,9,56k,R. Fuenzalida.,Eugenio Switt V.,Maxicrack,10.60
+27/12/2025,Hipódromo Chile,4,13:01,1200m,Handicap (Hd) 1,9,8,Du Plesis,Sky Mesa,4,481k,9½,56k,J. Vera.,Claudio Bernal G.,Di Giorgio Dicone,26.80
+27/12/2025,Hipódromo Chile,4,13:01,1200m,Handicap (Hd) 1,10,15,Exagerada Y Buena,Exaggerator,4,458k,9½,56k,C. Weilby.,Armando Lab J.,Armando Lab J.,40.60
+27/12/2025,Hipódromo Chile,4,13:01,1200m,Handicap (Hd) 1,11,10,Good Morning Red,Morning Red,5,426k,10¼,56k,L. Silva.,Hernán Pacheco P.,Solin,102.10
+27/12/2025,Hipódromo Chile,4,13:01,1200m,Handicap (Hd) 1,12,2,Canovanas,Total Impact,10,456k,10¾,56k,F. Moreno.,José Venegas P.,Jose Venegas P.,6.90
+27/12/2025,Hipódromo Chile,4,13:01,1200m,Handicap (Hd) 1,13,9,Alajja,Indian Trail,5,423k,11,56k,J. Cueto.,Juan Aravena M.,Matias Aravena,6.10
+27/12/2025,Hipódromo Chile,4,13:01,1200m,Handicap (Hd) 1,14,6,La Chipriota,Commemorative,6,446k,19,56k,D. Sánchez.,Armando Lab J.,Las Estelas,7.80
+27/12/2025,Hipódromo Chile,4,13:01,1200m,Handicap (Hd) 1,U,13,Gran Beny,Jadada,15,450k,19¾,56k,R. Painen.,Armando Lab J.,Armando Lab J.,53.20
+27/12/2025,Hipódromo Chile,5,13:26,1000m,Condicional Hembras 3 años no ganadoras,1,5,Tu Mi Cunca,Cunco,3,435k,,55k,F. Henríquez.,Pedro Diaz S.,Pedro Diaz S.,11.60
+27/12/2025,Hipódromo Chile,5,13:26,1000m,Condicional Hembras 3 años no ganadoras,2,3,Poenni,Ivan Denisovich,3,431k,½ cp,52k,N. Rojas.,Rodrigo Muñoz M.,Cabritis,29.80
+27/12/2025,Hipódromo Chile,5,13:26,1000m,Condicional Hembras 3 años no ganadoras,3,8,Bella Chichi,Distorted Economy,3,463k,1¾,55k,A. Covarrubias.,Hernán Pacheco P.,Margal,20.80
+27/12/2025,Hipódromo Chile,5,13:26,1000m,Condicional Hembras 3 años no ganadoras,4,10,Che Away,Flameaway,3,430k,1¾,55k,J. Medina.,Juan Pablo Baeza J.,Identic,5.50
+27/12/2025,Hipódromo Chile,5,13:26,1000m,Condicional Hembras 3 años no ganadoras,5,14,Wittenburg,Dubai Sky,3,439k,2,55k,R.S. Dores.,Aldo Castagneto U.,Las Araucarias,7.60
+27/12/2025,Hipódromo Chile,5,13:26,1000m,Condicional Hembras 3 años no ganadoras,6,12,Mixed Emotions,Grand Daddy,3,490k,2½,55k,A. Apablaza.,Cristian Quiroz E.,De Quiva's,13.80
+27/12/2025,Hipódromo Chile,5,13:26,1000m,Condicional Hembras 3 años no ganadoras,7,6,Para Ti Mi Amor,Spun to Run,3,400k,5¼,55k,S. González.,Rodrigo Quiroz S.,Santa Olga,2.30
+27/12/2025,Hipódromo Chile,5,13:26,1000m,Condicional Hembras 3 años no ganadoras,8,11,La Cia,International Star,3,397k,6¼,55k,M. Gutiérrez.,Oscar Donate S.,Mario Andrés,7.40
+27/12/2025,Hipódromo Chile,5,13:26,1000m,Condicional Hembras 3 años no ganadoras,9,2,Bad Romance,Newfoundland,3,382k,7¼,51k,C. C. Bustos.,Rafael Bernal G.,Don German,86.10
+27/12/2025,Hipódromo Chile,5,13:26,1000m,Condicional Hembras 3 años no ganadoras,10,9,Antonia Francisca,Dubai Sky,3,390k,8¼,56k,J. Vera.,Rodrigo Quiroz S.,Arturo Y Cecilia,96.70
+27/12/2025,Hipódromo Chile,5,13:26,1000m,Condicional Hembras 3 años no ganadoras,11,4,Hi Fly,Flyer,3,420k,8½,55k,N. Ramirez.,Hernán Pacheco P.,Grande Tio Kiko,4.10
+27/12/2025,Hipódromo Chile,5,13:26,1000m,Condicional Hembras 3 años no ganadoras,12,7,La Universitaria,Bad Daddy,3,396k,10½,55k,L.D. Menghini.,Rodrigo Quiroz S.,Lucaraste,34.30
+27/12/2025,Hipódromo Chile,5,13:26,1000m,Condicional Hembras 3 años no ganadoras,13,13,Como La Luna,Patternrecognition,3,492k,11,55k,W. León.,Daniel Contreras A.,Abuela Oca,36.70
+27/12/2025,Hipódromo Chile,5,13:26,1000m,Condicional Hembras 3 años no ganadoras,U,1,Polly Gray,Ticket To Run,3,443k,39½,54k,J. Cueto.,Luis Machulas G.,El Mero Mero,147.40
+27/12/2025,Hipódromo Chile,6,13:51,1200m,Handicap (Hd) 12 al 11,1,4,Dabke,Spun to Run,3,455k,,55k,A. Vásquez.,Rodrigo López B.,Jaimito,2.70
+27/12/2025,Hipódromo Chile,6,13:51,1200m,Handicap (Hd) 12 al 11,2,2,La Instrumentista,Exaggerator,5,412k,2¼,56k,R. Avila.,Isaac Michea F.,Angelica Y Francisco,23.70
+27/12/2025,Hipódromo Chile,6,13:51,1200m,Handicap (Hd) 12 al 11,3,5,Rucco,Tourist,6,504k,3¼,55k,M. Morales.,Pedro Diaz S.,Los Jeques,12.50
+27/12/2025,Hipódromo Chile,6,13:51,1200m,Handicap (Hd) 12 al 11,4,11,El Gran Menotti,Hold Me Back,6,439k,4¼,55k,M. Gutiérrez.,Rodrigo Quiroz S.,Don Alamiro,6.50
+27/12/2025,Hipódromo Chile,6,13:51,1200m,Handicap (Hd) 12 al 11,5,7,El Guason,Imperia II,4,437k,6½,55k,B. Sancho.,Maritza Pérez A.,Chaparro De La B.,2.30
+27/12/2025,Hipódromo Chile,6,13:51,1200m,Handicap (Hd) 12 al 11,6,1,Pistola Velázquez,Hold Me Back,6,437k,6½,55k,H. Barrera.,Rodrigo Quiroz S.,Rodrigo Quiroz S.,13.80
+27/12/2025,Hipódromo Chile,6,13:51,1200m,Handicap (Hd) 12 al 11,7,10,Terrible Bruno,Ya Primo,3,445k,7¼,56k,V. Miranda.,Juan C. Pichara J.,Bruno Alonso,9.60
+27/12/2025,Hipódromo Chile,6,13:51,1200m,Handicap (Hd) 12 al 11,8,8,Nieto Español,Spun to Run,3,450k,12¼,56k,R. Fuenzalida.,Eduardo Lab R.,Cristian Manuel,29.50
+27/12/2025,Hipódromo Chile,6,13:51,1200m,Handicap (Hd) 12 al 11,9,12,Gold Escudero,Goldencents,6,459k,14½,55k,A. Covarrubias.,Julio Castillo D.,Corral Hipico,115.00
+27/12/2025,Hipódromo Chile,6,13:51,1200m,Handicap (Hd) 12 al 11,10,13,Vandu,Dubai Sky,4,413k,18,56k,P. Zúñiga.,Rodrigo Quiroz S.,Don Quijote,58.30
+27/12/2025,Hipódromo Chile,6,13:51,1200m,Handicap (Hd) 12 al 11,11,6,Hengroen,Dylan Thomas,4,465k,21¾,55k,R.S. Dores.,Luis Machulas G.,Tres M,16.10
+27/12/2025,Hipódromo Chile,6,13:51,1200m,Handicap (Hd) 12 al 11,12,9,La Finesse,Exaggerator,4,432k,23¼,56k,B. León.,Cristián Urbina R.,Morat,20.70
+27/12/2025,Hipódromo Chile,6,13:51,1200m,Handicap (Hd) 12 al 11,U,3,Onda Radial,Omayad,3,434k,28¼,55k,W. León.,Jaime Espineira C.,La Reconquista,61.90
+27/12/2025,Hipódromo Chile,7,14:16,1900m,Handicap (Hd) 11 al 3,1,1,El Forastero,Roman Ruler,8,470k,,51k,I. Valdivia.,Ricardo Rojas S.,Chamo Candela,4.50
+27/12/2025,Hipódromo Chile,7,14:16,1900m,Handicap (Hd) 11 al 3,2,8,Scar,International Star,4,473k,1,57k,J. Herrera.,José Alvarez D.,Karolo,2.50
+27/12/2025,Hipódromo Chile,7,14:16,1900m,Handicap (Hd) 11 al 3,3,4,Sueños De Leon,Tapitdoro,3,471k,2¼,55k,F. Henríquez.,Julio Castillo D.,Clauseb,7.40
+27/12/2025,Hipódromo Chile,7,14:16,1900m,Handicap (Hd) 11 al 3,4,7,Zulthan,Classic Empire,3,464k,6½,54k,W. León.,Jaime Espineira C.,Jaime Espiñeira C.,18.70
+27/12/2025,Hipódromo Chile,7,14:16,1900m,Handicap (Hd) 11 al 3,5,9,El Florito,Ascot Prince,7,441k,7¼,57k,B. León.,Rafael Bernal G.,Alto Las Piedras,10.30
+27/12/2025,Hipódromo Chile,7,14:16,1900m,Handicap (Hd) 11 al 3,6,10,Los Bisnietos,Constitution,3,522k,7¾,55k,R. Cisternas.,Julio Orellana R.,El Tata,4.00
+27/12/2025,Hipódromo Chile,7,14:16,1900m,Handicap (Hd) 11 al 3,7,2,El Puntuo,Good Samaritan,5,480k,9¾,57k,J. Zúñiga.,J. Araya B.,Arriba Del Sillon,4.20
+27/12/2025,Hipódromo Chile,7,14:16,1900m,Handicap (Hd) 11 al 3,8,6,Good Chief,Good Samaritan,4,437k,13½,53k,J. Cueto.,Isaac Michea F.,Lgs Generadores,63.80
+27/12/2025,Hipódromo Chile,7,14:16,1900m,Handicap (Hd) 11 al 3,9,5,Rasheem,Seeking The Dia,7,440k,20¾,50k,J. Soto.,Isaac Michea F.,Lgs Generadores,102.00
+27/12/2025,Hipódromo Chile,7,14:16,1900m,Handicap (Hd) 11 al 3,U,3,Gran Pepe,Grand Daddy,7,544k,43,53k,L.D. Menghini.,Eugenio Switt V.,Dossetto,50.40
+27/12/2025,Hipódromo Chile,8,14:42,1200m,Handicap (Hd) 4 al 3,1,10,Paquete Platico,Awesome Patriot,5,420k,,56k,M. Bustamante.,Eugenio Switt V.,Misacrisei,15.50
+27/12/2025,Hipódromo Chile,8,14:42,1200m,Handicap (Hd) 4 al 3,2,9,Chiqui Veloz,Gstaad II,6,403k,3¼,56k,J. Castillo.,Luis Toledo C.,Juana Castro De T.,11.30
+27/12/2025,Hipódromo Chile,8,14:42,1200m,Handicap (Hd) 4 al 3,3,13,Red Knight,Ivan Denisovich,6,483k,3¾,56k,J. Vera.,Claudio Bernal G.,Mario Y Elodia,2.40
+27/12/2025,Hipódromo Chile,8,14:42,1200m,Handicap (Hd) 4 al 3,4,8,Lady Chrome,California Chrome,6,429k,5¼,56k,L. Silva.,Hernán Pacheco P.,Papi Rey,6.60
+27/12/2025,Hipódromo Chile,8,14:42,1200m,Handicap (Hd) 4 al 3,5,14,Marrakech,El Milagrito,4,449k,5¼,55k,R. Covarrubias.,Genaro J. Covarrubias E.,La Corina,8.00
+27/12/2025,Hipódromo Chile,8,14:42,1200m,Handicap (Hd) 4 al 3,6,2,Lady Bay,Neko Bay,4,380k,8,56k,A. Covarrubias.,José Lastra B.,Viejo Querido,28.30
+27/12/2025,Hipódromo Chile,8,14:42,1200m,Handicap (Hd) 4 al 3,7,15,Me Veras Caer,Iron Clad,4,415k,10¾,56k,J. Zúñiga.,Julio Castillo D.,Carlos Cavieres,6.60
+27/12/2025,Hipódromo Chile,8,14:42,1200m,Handicap (Hd) 4 al 3,8,5,Josie Girl,El Facha,6,418k,11,55k,V. Miranda.,Alejandro Padovani E.,Maria Dolores,6.60
+27/12/2025,Hipódromo Chile,8,14:42,1200m,Handicap (Hd) 4 al 3,9,7,Cable A Tierra,Fantasmagorico,5,435k,12,55k,J. Solano.,R. Toledo M.,Lor Kedimar,12.30
+27/12/2025,Hipódromo Chile,8,14:42,1200m,Handicap (Hd) 4 al 3,10,1,Guanaquero,Seeking The Dia,10,479k,12,55k,J. Villablanca.,Eduardo Lab R.,Yungay,131.00
+27/12/2025,Hipódromo Chile,8,14:42,1200m,Handicap (Hd) 4 al 3,11,11,Beautiful Moon,Exaggerator,4,409k,13,55k,C. C. Bustos.,Jaime Hirmas R.,Los Aviadores,114.40
+27/12/2025,Hipódromo Chile,8,14:42,1200m,Handicap (Hd) 4 al 3,12,12,Chica De Campeones,Annual Report,5,457k,15,55k,B. Sancho.,Rodrigo Quiroz S.,Very Luck,8.70
+27/12/2025,Hipódromo Chile,8,14:42,1200m,Handicap (Hd) 4 al 3,13,6,Don't Stop Me Now,Ivan Denisovich,4,459k,17,55k,N. Venegas.,Eugenio Switt V.,Florence,56.40
+27/12/2025,Hipódromo Chile,8,14:42,1200m,Handicap (Hd) 4 al 3,14,3,El Maripepa,Hold Me Back,6,440k,20,55k,D. Carrasco.,Juan C. Pichara J.,Cacique,42.70
+27/12/2025,Hipódromo Chile,8,14:42,1200m,Handicap (Hd) 4 al 3,U,4,Surprise Box,Bated Breath,5,476k,25¼,56k,N. Rojas.,Hernán Pacheco P.,Mosqueteros De Lis,74.40
+27/12/2025,Hipódromo Chile,9,15:07,1200m,Handicap (Hd) 6 al 5,1,3,Malva Star,International Star,4,418k,,55k,A. Zúñiga.,Alejandro Martínez C.,Melendez,5.70
+27/12/2025,Hipódromo Chile,9,15:07,1200m,Handicap (Hd) 6 al 5,2,15,Mas Amor,Ya Primo,3,423k,½ cp,56k,J. González.,Juan Ubilla P.,Forza Al Canut,15.00
+27/12/2025,Hipódromo Chile,9,15:07,1200m,Handicap (Hd) 6 al 5,3,14,Vasca Brava,International Star,4,439k,3,55k,W. León.,Jaime Espineira C.,Jaime Espiñeira C.,19.50
+27/12/2025,Hipódromo Chile,9,15:07,1200m,Handicap (Hd) 6 al 5,4,13,Nurmagomedov,Flameaway,4,479k,3,56k,A. Apablaza.,Oscar Donate S.,Vasquez Retamales,13.10
+27/12/2025,Hipódromo Chile,9,15:07,1200m,Handicap (Hd) 6 al 5,5,6,Francoli,Seeking The Dia,5,438k,4,55k,J. Cueto.,Rafael Quiroz F.,Lucaraste,50.00
+27/12/2025,Hipódromo Chile,9,15:07,1200m,Handicap (Hd) 6 al 5,6,4,Sasuke,Hold Me Back,5,434k,5¼,56k,D. Carrasco.,Juan C. Pichara J.,Cacique,29.70
+27/12/2025,Hipódromo Chile,9,15:07,1200m,Handicap (Hd) 6 al 5,7,11,Desert Cat,Newfoundland,8,451k,5¼,55k,R. Cisternas.,Jaime Espineira C.,La Tropa,7.20
+27/12/2025,Hipódromo Chile,9,15:07,1200m,Handicap (Hd) 6 al 5,8,10,Montes Premium,Exaggerator,4,457k,6½,56k,J. Herrera.,José Allende F.,La Monito,1.90
+27/12/2025,Hipódromo Chile,9,15:07,1200m,Handicap (Hd) 6 al 5,9,5,Salud Compadre,Van Nistelrooy,6,503k,7¼,55k,J. Solano.,José Venegas P.,Lor Kedimar,31.10
+27/12/2025,Hipódromo Chile,9,15:07,1200m,Handicap (Hd) 6 al 5,10,12,Fabrana,Seeking The Dia,8,468k,7¼,55k,R. Fuenzalida.,Ricardo Rojas S.,Altamira,21.70
+27/12/2025,Hipódromo Chile,9,15:07,1200m,Handicap (Hd) 6 al 5,11,8,La Flower,Iron Clad,7,474k,7¾,56k,L. Silva.,Hernán Pacheco P.,Solin,11.40
+27/12/2025,Hipódromo Chile,9,15:07,1200m,Handicap (Hd) 6 al 5,12,2,Julia Domna,Rydilluc,8,486k,8¾,56k,J. Zúñiga.,José Venegas P.,Lor Kedimar,36.20
+27/12/2025,Hipódromo Chile,9,15:07,1200m,Handicap (Hd) 6 al 5,13,1,Power Of Horses,Exaggerator,6,495k,10¼,55k,C. C. Bustos.,Jaime Hirmas R.,Jaime Hirmas R.,88.30
+27/12/2025,Hipódromo Chile,9,15:07,1200m,Handicap (Hd) 6 al 5,14,9,Arrancate Pairino,California Chrome,6,465k,13¼,56k,G. Aros.,Mario A. Apablaza G.,Renita,6.20
+27/12/2025,Hipódromo Chile,10,15:32,1200m,Handicap (Hd) 8 al 7,1,14,Tren a Cajon,Dylan Thomas,5,496k,,55k,P. Zúñiga.,Rodrigo López B.,Patito,16.80
+27/12/2025,Hipódromo Chile,10,15:32,1200m,Handicap (Hd) 8 al 7,2,13,El Ultimo Queno,The Lumber Guy,4,475k,,55k,J. Medina.,Rodrigo Sánchez Q.,Haras Lizzie,3.70
+27/12/2025,Hipódromo Chile,10,15:32,1200m,Handicap (Hd) 8 al 7,3,11,Mezzosoprano,Cosmic,7,507k,¾ cp,55k,A. Zúñiga.,Jaime Hirmas R.,Chamo Candela,22.10
+27/12/2025,Hipódromo Chile,10,15:32,1200m,Handicap (Hd) 8 al 7,4,9,Carilo,Treasure Beach,4,463k,1½,56k,M. Gutiérrez.,Rafael Bernal G.,El Imperio,7.10
+27/12/2025,Hipódromo Chile,10,15:32,1200m,Handicap (Hd) 8 al 7,5,2,Patyta Black,International Star,3,405k,2½,56k,F. Henríquez.,Manuel Norambuena Ch.,Primo Hermano,37.40
+27/12/2025,Hipódromo Chile,10,15:32,1200m,Handicap (Hd) 8 al 7,6,6,Qin Shihuan,Robert Bruce,4,456k,3,55k,B. Sancho.,Carlos Urbina H.,Haras Convento Viejo,2.50
+27/12/2025,Hipódromo Chile,10,15:32,1200m,Handicap (Hd) 8 al 7,7,15,Ya Lo Creo,Hootenanny,5,380k,3½,56k,J. Vera.,Julio Castillo D.,Sapito,35.60
+27/12/2025,Hipódromo Chile,10,15:32,1200m,Handicap (Hd) 8 al 7,8,1,Temaukel,Bad Daddy,7,474k,4¼,55k,R. Fuenzalida.,Claudio Bernal G.,Viejo Moño,22.50
+27/12/2025,Hipódromo Chile,10,15:32,1200m,Handicap (Hd) 8 al 7,9,4,Gran Nono,Strong Mandate,8,528k,4¾,55k,J. González.,Genaro J. Covarrubias E.,La Corina,8.40
+27/12/2025,Hipódromo Chile,10,15:32,1200m,Handicap (Hd) 8 al 7,10,7,Mi Nieto Bruno,Grand Daddy,4,475k,6¼,55k,A. Covarrubias.,Hernán Pacheco P.,Grande Tio Kiko,14.90
+27/12/2025,Hipódromo Chile,10,15:32,1200m,Handicap (Hd) 8 al 7,11,10,Drink's Valley,Stay Thirsty,9,450k,10,55k,R.S. Dores.,Rodrigo Quiroz S.,Queen´s Valley,8.30
+27/12/2025,Hipódromo Chile,10,15:32,1200m,Handicap (Hd) 8 al 7,12,12,Negrita Pecosa,The Lumber Guy,5,395k,10,55k,A. Apablaza.,Héctor Castillo S.,Corral Quellon,89.00
+27/12/2025,Hipódromo Chile,10,15:32,1200m,Handicap (Hd) 8 al 7,13,8,Vaquita Loira,Viscount Nelson,5,421k,10½,56k,B. León.,Mario Covarrubias,Boril Benito Ch.,23.10
+27/12/2025,Hipódromo Chile,10,15:32,1200m,Handicap (Hd) 8 al 7,14,5,Tesorito Mio,Annual Report,4,405k,12,55k,N. Ramirez.,J. Araya B.,Melany,22.20
+27/12/2025,Hipódromo Chile,10,15:32,1200m,Handicap (Hd) 8 al 7,U,3,Rucia De Oro,Get Jets,4,434k,25½,55k,L. González.,Juan C. Pichara J.,Crisval,36.40
+27/12/2025,Hipódromo Chile,11,15:57,1200m,Handicap (Hd) 30 al 22,1,12,Consul Dorado,Malagacy,4,498k,,54k,J. Castillo.,Oscar Donate S.,French Potato,2.30
+27/12/2025,Hipódromo Chile,11,15:57,1200m,Handicap (Hd) 30 al 22,2,9,Caramel Frappe,The Lumber Guy,3,478k,6,59k,J. González.,Carlos Urbina H.,Gran Xime,2.80
+27/12/2025,Hipódromo Chile,11,15:57,1200m,Handicap (Hd) 30 al 22,3,6,Papito Alfredo,Hold Me Back,5,481k,6,54k,I. Valdivia.,Pedro Diaz S.,Vida Nueva,6.50
+27/12/2025,Hipódromo Chile,11,15:57,1200m,Handicap (Hd) 30 al 22,4,5,Ahsoka,Newfoundland,4,465k,6,53k,L. Silva.,Julio Castillo D.,Baemar,57.00
+27/12/2025,Hipódromo Chile,11,15:57,1200m,Handicap (Hd) 30 al 22,5,10,Gran Alaska,Patternrecognition,5,453k,7,57k,A. Vásquez.,Maritza Pérez A.,Blanca Adelaida,24.90
+27/12/2025,Hipódromo Chile,11,15:57,1200m,Handicap (Hd) 30 al 22,6,1,Stanafuera,Monthir,5,520k,11,54k,R. Painen.,Maritza Pérez A.,Morautos,47.40
+27/12/2025,Hipódromo Chile,11,15:57,1200m,Handicap (Hd) 30 al 22,7,7,Bruno El Terrible,Gemologist,6,500k,11,54k,N. Ramirez.,Juan C. Pichara J.,Bruno Alonso,17.40
+27/12/2025,Hipódromo Chile,11,15:57,1200m,Handicap (Hd) 30 al 22,8,3,Piter Alfonso,Scat Royal,5,431k,11½,54k,M. Gutiérrez.,Claudio Bernal G.,Maitenal,27.80
+27/12/2025,Hipódromo Chile,11,15:57,1200m,Handicap (Hd) 30 al 22,9,13,Esterios,Boboman,8,550k,12¾,56k,M. Morales.,Alejandro Padovani E.,Gaona Hermanos,25.60
+27/12/2025,Hipódromo Chile,11,15:57,1200m,Handicap (Hd) 30 al 22,10,8,Okui,Imperia II,6,484k,13,58k,J. Vera.,Claudio Bernal G.,Malcib,29.10
+27/12/2025,Hipódromo Chile,11,15:57,1200m,Handicap (Hd) 30 al 22,11,2,Payback,Van Nistelrooy,5,461k,17,59k,O. Meneses.,Leopoldo Parra G.,El Vetero,48.30
+27/12/2025,Hipódromo Chile,11,15:57,1200m,Handicap (Hd) 30 al 22,12,11,Badboy,Bad Daddy,7,456k,20¼,54k,D. Sánchez.,Ricardo Rojas S.,Altamira,26.40
+27/12/2025,Hipódromo Chile,11,15:57,1200m,Handicap (Hd) 30 al 22,U,4,Ciao Xena,International Star,4,485k,20¾,55k,B. Sancho.,Carlos Urbina H.,Xeneixe,5.30
+27/12/2025,Hipódromo Chile,12,16:24,1200m,Handicap (Hd) 10 al 8,1,1,Bello Encanto,Gstaad II,4,466k,,54k,D. D. Medina.,José Bravo M.,José Bravo M.,9.20
+27/12/2025,Hipódromo Chile,12,16:24,1200m,Handicap (Hd) 10 al 8,2,5,Dalemita,Dubai Sky,4,424k,10¼,54k,P. Zúñiga.,Rodrigo Quiroz S.,Los Carroza,6.90
+27/12/2025,Hipódromo Chile,12,16:24,1200m,Handicap (Hd) 10 al 8,3,2,Moment Of Get,Get Jets,3,447k,11¼,56k,B. León.,Mario Covarrubias,Doña Ester,10.70
+27/12/2025,Hipódromo Chile,12,16:24,1200m,Handicap (Hd) 10 al 8,4,6,Sir Caleb,Business Bay,5,452k,12¼,55k,A. Zúñiga.,Ricardo Rojas S.,Altamira,29.40
+27/12/2025,Hipódromo Chile,12,16:24,1200m,Handicap (Hd) 10 al 8,5,4,Volaste A La Meta,Dylan Thomas,5,468k,13,56k,M. Morales.,Pedro Diaz S.,Pedro Diaz S.,15.90
+27/12/2025,Hipódromo Chile,12,16:24,1200m,Handicap (Hd) 10 al 8,6,10,Sand Thick,Dylan Thomas,4,429k,13½,56k,D. Sánchez.,Oscar Donate S.,El Filete,19.60
+27/12/2025,Hipódromo Chile,12,16:24,1200m,Handicap (Hd) 10 al 8,7,12,Maria Pascuala,Gemologist,6,478k,14¼,55k,J. Vera.,Rodrigo Quiroz S.,Don Alamiro,8.20
+27/12/2025,Hipódromo Chile,12,16:24,1200m,Handicap (Hd) 10 al 8,8,3,Ukiyo,California Chrome,6,459k,17,55k,L. González.,Maritza Pérez A.,Fusta y Poncha,6.50
+27/12/2025,Hipódromo Chile,12,16:24,1200m,Handicap (Hd) 10 al 8,9,8,Princesa Ruby,Admiral,4,486k,17½,56k,G. Aros.,Rodrigo López B.,Per Sempre,2.90
+27/12/2025,Hipódromo Chile,12,16:24,1200m,Handicap (Hd) 10 al 8,10,7,Callahan,Viscount Nelson,6,438k,21¾,55k,R. Covarrubias.,Genaro J. Covarrubias E.,El Mero Mero,50.20
+27/12/2025,Hipódromo Chile,12,16:24,1200m,Handicap (Hd) 10 al 8,11,9,Mal Mirada,Il Rey Ivan,4,445k,21¾,56k,R. Cisternas.,Jaime Espineira C.,Jaime Espineira C.,39.40
+27/12/2025,Hipódromo Chile,12,16:24,1200m,Handicap (Hd) 10 al 8,12,13,Tommy Wonder,Aragorn II,11,498k,24½,56k,R.S. Dores.,Aldo Castagneto U.,Martina Emilia,8.20
+27/12/2025,Hipódromo Chile,12,16:24,1200m,Handicap (Hd) 10 al 8,13,15,Salma Alegre,Gstaad II,6,408k,25¼,56k,P. Reyes.,Eugenio Switt V.,Gallo,21.20
+27/12/2025,Hipódromo Chile,12,16:24,1200m,Handicap (Hd) 10 al 8,14,14,Juniper,Distorted Economy,5,420k,25½,54k,A. Apablaza.,Jaime Hirmas R.,Chamo Candela,50.50
+27/12/2025,Hipódromo Chile,12,16:24,1200m,Handicap (Hd) 10 al 8,U,11,Arte De Magia,Van Nistelrooy,4,448k,33¼,55k,V. Miranda.,Alejandro Padovani E.,Los Lokolopulus,10.80
+27/12/2025,Hipódromo Chile,13,16:49,1200m,Clásico (Cl) (CH) 55 e Inf.,1,9,Good Traffic,Good Samaritan,5,467k,,60k,J. Herrera.,Oscar Donate S.,El Filete,6.90
+27/12/2025,Hipódromo Chile,13,16:49,1200m,Clásico (Cl) (CH) 55 e Inf.,2,2,Practical Sisi,Practical Joke,5,522k,½ cp,59k,I. Valdivia.,Pedro Diaz S.,Los Jeques,4.20
+27/12/2025,Hipódromo Chile,13,16:49,1200m,Clásico (Cl) (CH) 55 e Inf.,3,4,Kauto Y Pillo,Katmai,4,499k,1,58k,J. Medina.,Juan Pablo Baeza J.,Haras Santa Loreto,1.80
+27/12/2025,Hipódromo Chile,13,16:49,1200m,Clásico (Cl) (CH) 55 e Inf.,4,1,El Batey,Gran Villano,6,487k,1½,51k,A. Vásquez.,Rodrigo López B.,Linares,8.90
+27/12/2025,Hipódromo Chile,13,16:49,1200m,Clásico (Cl) (CH) 55 e Inf.,5,5,Lerici,Constitution,7,486k,3¼,50k,J. Zúñiga.,Oscar Donate S.,Guillermo Cordova T.,13.70
+27/12/2025,Hipódromo Chile,13,16:49,1200m,Clásico (Cl) (CH) 55 e Inf.,6,6,Rechazado,Cunco,6,489k,6,56k,J. González.,Genaro J. Covarrubias E.,La Corina,13.50
+27/12/2025,Hipódromo Chile,13,16:49,1200m,Clásico (Cl) (CH) 55 e Inf.,7,7,Kapichu,Endorsement,6,484k,8,56k,B. Troncoso.,Oscar Silva S.,Monito,26.00
+27/12/2025,Hipódromo Chile,13,16:49,1200m,Clásico (Cl) (CH) 55 e Inf.,8,8,Voy Pal Pueblo,Good Samaritan,5,490k,12½,59k,J. González.,Carlos Urbina H.,Zayed,4.60
+27/12/2025,Hipódromo Chile,14,17:15,1400m,Handicap (Hd) 11 al 5,1,9,Show Paint,Show Card,4,435k,,57k,J. Herrera.,Eugenio Switt V.,Los Garrido,10.20
+27/12/2025,Hipódromo Chile,14,17:15,1400m,Handicap (Hd) 11 al 5,2,4,Elegido Con Pinzas,Flameaway,4,482k,2¾,55k,B. Troncoso.,Alejandro Padovani E.,Work Work Work,6.00
+27/12/2025,Hipódromo Chile,14,17:15,1400m,Handicap (Hd) 11 al 5,3,5,Undecided,Good Samaritan,5,506k,3¾,53k,W. León.,Daniel Contreras A.,Abuela Oca,21.00
+27/12/2025,Hipódromo Chile,14,17:15,1400m,Handicap (Hd) 11 al 5,3,12,My Resilience,International Star,4,427k,3¾,54k,J. Zúñiga.,Aldo Castagneto U.,Desafio,5.30
+27/12/2025,Hipódromo Chile,14,17:15,1400m,Handicap (Hd) 11 al 5,5,2,Chiquito Campeador,Midshipman,4,420k,6¾,56k,B. León.,Rafael Bernal G.,Santa Ana,31.20
+27/12/2025,Hipódromo Chile,14,17:15,1400m,Handicap (Hd) 11 al 5,6,10,Amanecio Brava,Hiraboku Deep,4,452k,7,55k,A. Vásquez.,Maritza Pérez A.,Vicentes,11.80
+27/12/2025,Hipódromo Chile,14,17:15,1400m,Handicap (Hd) 11 al 5,7,14,Buen Norte,Lookin At Lucky,6,480k,7¾,51k,H. Barrera.,Alejandro Martínez C.,Viña Del Mar,12.40
+27/12/2025,Hipódromo Chile,14,17:15,1400m,Handicap (Hd) 11 al 5,8,1,Sonata Celta,Mo Town,5,376k,8¾,53k,M. Gutiérrez.,Rodrigo Quiroz S.,Lucaraste,25.30
+27/12/2025,Hipódromo Chile,14,17:15,1400m,Handicap (Hd) 11 al 5,9,3,Sogna Con Me,Ya Primo,3,435k,11¼,53k,R. Avila.,José Venegas P.,Jose Venegas P.,13.20
+27/12/2025,Hipódromo Chile,14,17:15,1400m,Handicap (Hd) 11 al 5,10,8,Western Film,Annual Report,6,460k,12½,56k,G. Aros.,Eduardo Lab R.,Francisca Ignacia,6.30
+27/12/2025,Hipódromo Chile,14,17:15,1400m,Handicap (Hd) 11 al 5,11,6,Sibila Red,Get Jets,3,440k,14¾,54k,J. Cueto.,Oscar Donate S.,Redbros,18.80
+27/12/2025,Hipódromo Chile,14,17:15,1400m,Handicap (Hd) 11 al 5,12,7,Namrud Tiger,Handsome Tiger,3,473k,17¾,55k,R. Cisternas.,Juan Cavieres A.,El Cedro,2.70
+27/12/2025,Hipódromo Chile,14,17:15,1400m,Handicap (Hd) 11 al 5,13,11,Gaelia,State Of Play,4,473k,22½,55k,R. Fuenzalida.,Eduardo Lab R.,Agric.Santa Laura,63.20
+27/12/2025,Hipódromo Chile,14,17:15,1400m,Handicap (Hd) 11 al 5,U,13,Como El Sol,Spun to Run,3,472k,27,55k,N. Ramirez.,Juan C. Pichara J.,Amor Propio,29.40
+27/12/2025,Hipódromo Chile,15,17:43,1200m,Handicap (Hd) 16 al 14,1,1,Fashion Boy,Ya Primo,3,500k,,54k,D. Carrasco.,Juan C. Pichara J.,Vasquez Retamales,54.10
+27/12/2025,Hipódromo Chile,15,17:43,1200m,Handicap (Hd) 16 al 14,2,2,Nagao,Hiraboku Deep,5,487k,1¾,56k,G. Aros.,Rodrigo López B.,Rodrigo López B.,15.60
+27/12/2025,Hipódromo Chile,15,17:43,1200m,Handicap (Hd) 16 al 14,3,3,Dunhill Smoke,Cupid,5,478k,2¼,54k,R.S. Dores.,Raúl Montesino S.,Bruno Alonso,9.60
+27/12/2025,Hipódromo Chile,15,17:43,1200m,Handicap (Hd) 16 al 14,4,5,Ofestivo,Omayad,4,463k,3,54k,W. León.,Jaime Espineira C.,Jaime Espiñeira C.,18.70
+27/12/2025,Hipódromo Chile,15,17:43,1200m,Handicap (Hd) 16 al 14,5,6,Baby Shak,Kingly,3,483k,4¾,54k,R. Fuenzalida.,Juan C. Pichara J.,Vasquez Retamales,8.50
+27/12/2025,Hipódromo Chile,15,17:43,1200m,Handicap (Hd) 16 al 14,6,11,Petimetre,Competitive Edge,6,487k,5¼,55k,N. Ramirez.,Rodrigo Pulgar A.,Galiano,7.20
+27/12/2025,Hipódromo Chile,15,17:43,1200m,Handicap (Hd) 16 al 14,7,4,Pajoma,Bad Daddy,5,443k,6¾,55k,J. Cueto.,Isaac Michea F.,Bruno Alonso,34.70
+27/12/2025,Hipódromo Chile,15,17:43,1200m,Handicap (Hd) 16 al 14,8,14,Sinnerman,Grand Daddy,3,522k,9½,54k,B. Troncoso.,Alejandro Padovani E.,Keep Walking,4.50
+27/12/2025,Hipódromo Chile,15,17:43,1200m,Handicap (Hd) 16 al 14,9,9,De Gaulle,Exaggerator,4,455k,10,56k,S. González.,Rodrigo Quiroz S.,Filipino,6.30
+27/12/2025,Hipódromo Chile,15,17:43,1200m,Handicap (Hd) 16 al 14,10,8,Risby,Seeking The Dia,7,453k,11,56k,P. Reyes.,Rodrigo Sánchez Q.,Super Super,30.50
+27/12/2025,Hipódromo Chile,15,17:43,1200m,Handicap (Hd) 16 al 14,11,7,Sigue Igual,Alfonso,3,466k,12¼,55k,B. Sancho.,Julio Castillo D.,Baemar,19.70
+27/12/2025,Hipódromo Chile,15,17:43,1200m,Handicap (Hd) 16 al 14,12,15,El Cobalto,Boboman,7,512k,12¾,55k,L. Silva.,Julio Castillo D.,Corral Hipico,7.60
+27/12/2025,Hipódromo Chile,15,17:43,1200m,Handicap (Hd) 16 al 14,13,13,Lady Astor,Tamarkuz,7,458k,15½,55k,P. Zúñiga.,Julio Castillo D.,Mosqueteros De Lis,84.60
+27/12/2025,Hipódromo Chile,15,17:43,1200m,Handicap (Hd) 16 al 14,14,10,Jinzo,Fallen From Heaven,3,465k,17½,55k,J. Herrera.,Aldo Castagneto U.,Ivja,3.90
+27/12/2025,Hipódromo Chile,15,17:43,1200m,Handicap (Hd) 16 al 14,U,12,Wild Dabbler,Star Dabbler,7,510k,17½,55k,R. Painen.,Maritza Pérez A.,Alegria De Mi Corazon,22.70
+27/12/2025,Hipódromo Chile,16,18:10,1000m,Handicap (Hd) 21 al 16,1,14,Terrible Pancho,Exaggerator,4,453k,,53k,R. Avila.,Isaac Michea F.,Bruno Alonso,8.70
+27/12/2025,Hipódromo Chile,16,18:10,1000m,Handicap (Hd) 21 al 16,2,9,The Arion,Indian Trail,3,432k,2¼,58k,L. Silva.,Mario A. Apablaza G.,Tata Tito,2.50
+27/12/2025,Hipódromo Chile,16,18:10,1000m,Handicap (Hd) 21 al 16,3,10,Gold Daddy,Grand Daddy,3,443k,3¼,57k,S. González.,Juan C. Pichara J.,Cori,4.40
+27/12/2025,Hipódromo Chile,16,18:10,1000m,Handicap (Hd) 21 al 16,4,12,Ambrose,Dylan Thomas,4,480k,3¼,54k,B. Troncoso.,Alejandro Padovani E.,Matías Alfonso,23.80
+27/12/2025,Hipódromo Chile,16,18:10,1000m,Handicap (Hd) 21 al 16,5,4,Super Fly,Flyer,4,440k,3½,56k,N. Ramirez.,Juan C. Pichara J.,Tarantino,13.20
+27/12/2025,Hipódromo Chile,16,18:10,1000m,Handicap (Hd) 21 al 16,6,8,Easy Peasy,Mo Town,5,428k,5,57k,G. Aros.,Rodrigo Pulgar A.,Los Sarmientos,15.40
+27/12/2025,Hipódromo Chile,16,18:10,1000m,Handicap (Hd) 21 al 16,7,1,Gran Fiscal,Grand Daddy,4,467k,5¼,54k,A. Zúñiga.,Oscar Donate S.,El Duende,8.70
+27/12/2025,Hipódromo Chile,16,18:10,1000m,Handicap (Hd) 21 al 16,8,11,Salto De Luz,Exaggerator,6,480k,5¼,55k,A. Apablaza.,Rodrigo Muñoz M.,Las Tres Damas,27.60
+27/12/2025,Hipódromo Chile,16,18:10,1000m,Handicap (Hd) 21 al 16,9,5,Javiera Constanza,Monthir,6,410k,6¼,53k,J. Cueto.,Juan Aravena M.,Matias Aravena,30.00
+27/12/2025,Hipódromo Chile,16,18:10,1000m,Handicap (Hd) 21 al 16,10,2,Blackcrack,Grand Daddy,5,479k,8¼,57k,V. Miranda.,Juan C. Pichara J.,Vasquez Retamales,7.00
+27/12/2025,Hipódromo Chile,16,18:10,1000m,Handicap (Hd) 21 al 16,11,7,Star Magic,International Star,4,426k,9¼,55k,I. Valdivia.,Pedro Diaz S.,Las Tres Marias,11.80
+27/12/2025,Hipódromo Chile,16,18:10,1000m,Handicap (Hd) 21 al 16,12,13,Vida Sabrosa,Gemologist,6,465k,9¼,57k,M. Gutiérrez.,Rafael Bernal G.,Gran Xime,36.20
+27/12/2025,Hipódromo Chile,16,18:10,1000m,Handicap (Hd) 21 al 16,13,3,Pero Pedro,Dylan Thomas,5,533k,9½,54k,G. Givovich.,Juan C. Pichara J.,Roxanita,32.40
+27/12/2025,Hipódromo Chile,16,18:10,1000m,Handicap (Hd) 21 al 16,U,6,Koccia,Mendelssohn,4,460k,10¼,54k,R. Painen.,Oscar Donate S.,Antonio Aida,19.10
+27/12/2025,Hipódromo Chile,17,18:37,1000m,Handicap (Hd) 29 al 22,1,5,Twisted Gem,Gemologist,6,540k,,52k,A. Vásquez.,Oscar Donate S.,Linea Errazuriz,16.50
+27/12/2025,Hipódromo Chile,17,18:37,1000m,Handicap (Hd) 29 al 22,2,1,Nubes Negras,Endorsement,7,483k,2¾,53k,L. Silva.,Alejandro Padovani E.,Ortepal,14.70
+27/12/2025,Hipódromo Chile,17,18:37,1000m,Handicap (Hd) 29 al 22,3,2,Soy Bushido,Midshipman,6,485k,3½,58k,G. Aros.,Alejandro Padovani E.,Mameza,23.30
+27/12/2025,Hipódromo Chile,17,18:37,1000m,Handicap (Hd) 29 al 22,4,10,Deeba Spirit,Sahara Spirit,3,490k,3¾,57k,R. Cisternas.,Marco Pavez O.,Haras Sumaya,2.30
+27/12/2025,Hipódromo Chile,17,18:37,1000m,Handicap (Hd) 29 al 22,5,7,Quiero Re Truco,Mr Speaker,6,491k,3¾,54k,J. Zúñiga.,Luis Urbina H.,G.G.,21.20
+27/12/2025,Hipódromo Chile,17,18:37,1000m,Handicap (Hd) 29 al 22,6,3,Zambian River,Timojin,3,473k,4,54k,J. Medina.,Marco Pavez O.,Haras Sumaya,3.50
+27/12/2025,Hipódromo Chile,17,18:37,1000m,Handicap (Hd) 29 al 22,7,11,Fastlove,Flameaway,4,458k,4½,55k,I. Valdivia.,Rodrigo López B.,Linlinao,42.00
+27/12/2025,Hipódromo Chile,17,18:37,1000m,Handicap (Hd) 29 al 22,8,6,Un Guarito,Tourist,7,459k,5½,54k,J. González.,Genaro J. Covarrubias E.,El Mero Mero,42.60
+27/12/2025,Hipódromo Chile,17,18:37,1000m,Handicap (Hd) 29 al 22,9,12,Sinesio,Gemologist,6,502k,6,54k,L. González.,Felipe Gonzalez S.,Milna,70.40
+27/12/2025,Hipódromo Chile,17,18:37,1000m,Handicap (Hd) 29 al 22,10,9,Elegant Champion,Mendelssohn,3,453k,6¼,58k,V. Miranda.,Juan C. Pichara J.,Juan Jaque,5.40
+27/12/2025,Hipódromo Chile,17,18:37,1000m,Handicap (Hd) 29 al 22,11,4,Volar Sin Alas,Good Samaritan,3,434k,6¼,56k,F. Henríquez.,Pedro Diaz S.,Los Jeques,15.10
+27/12/2025,Hipódromo Chile,17,18:37,1000m,Handicap (Hd) 29 al 22,12,8,Joya Del Litoral,Spun to Run,3,473k,6¾,58k,B. León.,José Allende F.,Citral,6.90
+27/12/2025,Hipódromo Chile,17,18:37,1000m,Handicap (Hd) 29 al 22,U,13,Lucianita,Classic Empire,4,448k,7,56k,B. Troncoso.,Alejandro Padovani E.,Elephant,25.40
+27/12/2025,Hipódromo Chile,18,19:06,1000m,Handicap (Hd) 13 al 11,1,2,First Point's,Hootenanny,5,434k,,56k,H. Barrera.,Rodrigo Quiroz S.,Don Quijote,2.80
+27/12/2025,Hipódromo Chile,18,19:06,1000m,Handicap (Hd) 13 al 11,2,4,La Chucky Trini,Stevie Wonderboy,6,420k,1¾,55k,L. González.,Genaro J. Covarrubias E.,El Magico Charly,13.70
+27/12/2025,Hipódromo Chile,18,19:06,1000m,Handicap (Hd) 13 al 11,3,12,Tetra Goleador Z,Dubai Sky,3,489k,2,55k,L. Silva.,Oscar Donate S.,Patricio Millar M.,16.60
+27/12/2025,Hipódromo Chile,18,19:06,1000m,Handicap (Hd) 13 al 11,4,13,Kaunas,Annual Report,4,472k,2¾,55k,P. Zúñiga.,Rodrigo López B.,Bruno Alonso,5.70
+27/12/2025,Hipódromo Chile,18,19:06,1000m,Handicap (Hd) 13 al 11,5,3,Cambiar De Vida,Flyer,3,424k,3¼,54k,R. Avila.,Luis Machulas G.,Los Cuarenta Y Dos,24.80
+27/12/2025,Hipódromo Chile,18,19:06,1000m,Handicap (Hd) 13 al 11,6,1,Compadre Cristian,Gstaad II,8,487k,4¼,54k,J. Villablanca.,Genaro J. Covarrubias E.,Janira Elgueta,22.70
+27/12/2025,Hipódromo Chile,18,19:06,1000m,Handicap (Hd) 13 al 11,7,6,Ultimo Impacto,Grand Daddy,4,523k,4¾,55k,V. Miranda.,Alejandro Padovani E.,Siete Estrellas,3.00
+27/12/2025,Hipódromo Chile,18,19:06,1000m,Handicap (Hd) 13 al 11,8,15,Secret Dragon,Tapitdoro,3,463k,6¼,56k,S. González.,Mario A. Apablaza G.,Mario Apablaza G.,6.70
+27/12/2025,Hipódromo Chile,18,19:06,1000m,Handicap (Hd) 13 al 11,9,10,Agustina Sofia,Cunco,3,394k,7,55k,R.S. Dores.,Aldo Castagneto U.,Jamb,24.50
+27/12/2025,Hipódromo Chile,18,19:06,1000m,Handicap (Hd) 13 al 11,10,14,Wonder Woman,California Chrome,6,428k,8,54k,A. Zúñiga.,Oscar Donate S.,Margal,14.10
+27/12/2025,Hipódromo Chile,18,19:06,1000m,Handicap (Hd) 13 al 11,11,9,Bravo Torero,Flameaway,3,471k,8¾,56k,J. González.,Genaro J. Covarrubias E.,Pepe Elias,19.80
+27/12/2025,Hipódromo Chile,18,19:06,1000m,Handicap (Hd) 13 al 11,12,11,Mil Copas,Mo Town,5,452k,11¾,55k,F. Moreno.,Harrison Adonis B.,Margal,24.30
+27/12/2025,Hipódromo Chile,19,19:33,1200m,Handicap (Hd) 13 al 12,1,9,Bruno Spiderman,Robert Bruce,3,448k,,56k,J. Herrera.,Rodrigo Sánchez Q.,Bruno Alonso,3.50
+27/12/2025,Hipódromo Chile,19,19:33,1200m,Handicap (Hd) 13 al 12,2,2,El Gran Maestro,Lookin At Lucky,3,444k,7¼,56k,B. Troncoso.,Alejandro Padovani E.,Carnes Oly,4.90
+27/12/2025,Hipódromo Chile,19,19:33,1200m,Handicap (Hd) 13 al 12,3,8,Flower Power,Robert Bruce,3,425k,8¾,56k,V. Miranda.,Guillermo Peralta P.,Los Jeques,27.20
+27/12/2025,Hipódromo Chile,19,19:33,1200m,Handicap (Hd) 13 al 12,4,11,Mercenaria,Classic Empire,4,456k,9½,56k,F. Henríquez.,Manuel Norambuena Ch.,Charito,9.60
+27/12/2025,Hipódromo Chile,19,19:33,1200m,Handicap (Hd) 13 al 12,5,14,Vamos De La Mano,Patternrecognition,3,430k,10,55k,A. Vásquez.,Rodrigo López B.,Angelica Y Francisco,6.80
+27/12/2025,Hipódromo Chile,19,19:33,1200m,Handicap (Hd) 13 al 12,6,13,La Que Manda,Exaggerator,4,437k,11,56k,S. Muñoz.,Julio Castillo D.,El Gallito,26.60
+27/12/2025,Hipódromo Chile,19,19:33,1200m,Handicap (Hd) 13 al 12,7,1,Gran Vera,Good Samaritan,5,411k,11¼,55k,B. Sancho.,Rodrigo Quiroz S.,C.V.D.,7.00
+27/12/2025,Hipódromo Chile,19,19:33,1200m,Handicap (Hd) 13 al 12,8,3,Dubai Wind,Dubai Sky,5,427k,13¾,55k,J. Villablanca.,Genaro J. Covarrubias E.,Don Andres,75.90
+27/12/2025,Hipódromo Chile,19,19:33,1200m,Handicap (Hd) 13 al 12,9,12,No Me Pilla,Seeking The Dia,7,421k,13¾,56k,H. Barrera.,Rafael Quiroz F.,Los Quirsan,34.50
+27/12/2025,Hipódromo Chile,19,19:33,1200m,Handicap (Hd) 13 al 12,10,15,Grozza,Dangerous Midge,8,500k,15,56k,R. Fuenzalida.,Aldo Castagneto U.,Claro,25.70
+27/12/2025,Hipódromo Chile,19,19:33,1200m,Handicap (Hd) 13 al 12,11,4,Lady Manu,State Of Play,5,498k,15½,56k,P. Zúñiga.,Alejandro Martínez C.,Carlos Nuñez G.,15.90
+27/12/2025,Hipódromo Chile,19,19:33,1200m,Handicap (Hd) 13 al 12,12,7,Negra Perla,Robert Bruce,3,460k,17¼,56k,M. Gutiérrez.,Cristobal. Gonzalez M.,Charito,6.10
+27/12/2025,Hipódromo Chile,19,19:33,1200m,Handicap (Hd) 13 al 12,13,6,Noiprxcs,Spun to Run,3,463k,22¼,56k,J. Zúñiga.,Mario Covarrubias,Kdm,15.20
+27/12/2025,Hipódromo Chile,19,19:33,1200m,Handicap (Hd) 13 al 12,14,5,Lo Franco,Seeking The Dia,5,432k,22¼,55k,G. Givovich.,Rodrigo Quiroz S.,El Kaiser,75.60
+27/12/2025,Hipódromo Chile,19,19:33,1200m,Handicap (Hd) 13 al 12,U,10,Kalanit,Robert Bruce,3,495k,27¼,56k,J. Medina.,Juan Pablo Baeza J.,Don Theo,10.80
+27/12/2025,Hipódromo Chile,20,20:00,1000m,Handicap (Hd) 15 al 13,1,12,Nougatini Flower,Indian Trail,3,507k,,55k,R. Cisternas.,Marco Pavez O.,Haras Sumaya,1.70
+27/12/2025,Hipódromo Chile,20,20:00,1000m,Handicap (Hd) 15 al 13,2,4,Costamia,Fortify,6,443k,1½,55k,R. Painen.,Maritza Pérez A.,Don Amadeo,11.70
+27/12/2025,Hipódromo Chile,20,20:00,1000m,Handicap (Hd) 15 al 13,3,15,Zoboomafoo,Forever Thing,5,474k,2¼,56k,R.S. Dores.,Aldo Castagneto U.,Ivja,9.90
+27/12/2025,Hipódromo Chile,20,20:00,1000m,Handicap (Hd) 15 al 13,4,3,Chinita Traviesa,Good Samaritan,5,454k,5½,54k,D. Carrasco.,Alejandro Padovani E.,Los Brujos,10.00
+27/12/2025,Hipódromo Chile,20,20:00,1000m,Handicap (Hd) 15 al 13,5,8,Famosa Luz,Midshipman,4,401k,5½,56k,W. León.,Genaro J. Covarrubias E.,Don Andres,15.90
+27/12/2025,Hipódromo Chile,20,20:00,1000m,Handicap (Hd) 15 al 13,6,7,Maxiwario,Viscount Nelson,7,472k,6,55k,R. Covarrubias.,Genaro J. Covarrubias E.,La Corina,11.40
+27/12/2025,Hipódromo Chile,20,20:00,1000m,Handicap (Hd) 15 al 13,7,14,Socio Manuel,Forward March,5,443k,6½,54k,N. Venegas.,Luis Machulas G.,Cayo,45.30
+27/12/2025,Hipódromo Chile,20,20:00,1000m,Handicap (Hd) 15 al 13,8,10,Amor De Chocolate,Awesome Patriot,4,411k,6¾,55k,R. Fuenzalida.,Eduardo Lab R.,Stud Mauro,23.50
+27/12/2025,Hipódromo Chile,20,20:00,1000m,Handicap (Hd) 15 al 13,9,1,Merengada,Competitive Edge,6,470k,7½,54k,S. González.,Mario A. Apablaza G.,Inefable,11.20
+27/12/2025,Hipódromo Chile,20,20:00,1000m,Handicap (Hd) 15 al 13,10,2,California Daddy,California Chrome,7,487k,8½,56k,J. Soto.,Rodrigo Pulgar A.,Galiano,33.90
+27/12/2025,Hipódromo Chile,20,20:00,1000m,Handicap (Hd) 15 al 13,11,9,Bungabunga,Gran Villano,5,497k,8¾,56k,D. D. Medina.,José Bravo M.,Matias Orlando,24.40
+27/12/2025,Hipódromo Chile,20,20:00,1000m,Handicap (Hd) 15 al 13,12,5,Miel Rubia,Newfoundland,3,452k,11,54k,J. González.,Juan C. Pichara J.,Cecilia Falconi,60.80
+27/12/2025,Hipódromo Chile,20,20:00,1000m,Handicap (Hd) 15 al 13,13,6,Top Model,Mo Town,5,435k,11¾,55k,F. Moreno.,José Venegas P.,Jose Venegas P.,18.70
+27/12/2025,Hipódromo Chile,20,20:00,1000m,Handicap (Hd) 15 al 13,14,11,Elegant Katze,Good Samaritan,5,436k,12½,55k,J. Medina.,Claudio Bernal G.,Morat,7.80
+27/12/2025,Hipódromo Chile,21,20:30,1200m,Handicap (Hd) 19 al 16,1,1,Mountain Monarch,Sahara Spirit,3,491k,,54k,R. Painen.,Oscar Donate S.,Francisco Alexandra,8.60
+27/12/2025,Hipódromo Chile,21,20:30,1200m,Handicap (Hd) 19 al 16,2,6,Besa Kiss,Hinz,6,486k,1,54k,F. Moreno.,Harrison Adonis B.,Hansrieli,13.60
+27/12/2025,Hipódromo Chile,21,20:30,1200m,Handicap (Hd) 19 al 16,3,15,Loco Gandhi,Dylan Thomas,3,485k,3½,56k,A. Vásquez.,Rodrigo López B.,Morat,6.30
+27/12/2025,Hipódromo Chile,21,20:30,1200m,Handicap (Hd) 19 al 16,4,13,Tirrel,Ivan Denisovich,5,449k,3½,56k,I. Valdivia.,Pedro Diaz S.,Los Jeques,16.10
+27/12/2025,Hipódromo Chile,21,20:30,1200m,Handicap (Hd) 19 al 16,5,7,Royal Dublin,Katmai,4,500k,4¼,55k,R. Fuenzalida.,Aldo Castagneto U.,Claro,34.70
+27/12/2025,Hipódromo Chile,21,20:30,1200m,Handicap (Hd) 19 al 16,6,3,Lucia De Siracusa,Good Samaritan,5,441k,5½,54k,B. Troncoso.,Alejandro Padovani E.,Mameza,10.50
+27/12/2025,Hipódromo Chile,21,20:30,1200m,Handicap (Hd) 19 al 16,7,12,Ruletazo,Constitution,5,434k,6,55k,L. González.,Genaro J. Covarrubias E.,Pepe Elias,17.10
+27/12/2025,Hipódromo Chile,21,20:30,1200m,Handicap (Hd) 19 al 16,8,8,Blessed,Good Samaritan,5,436k,6¾,56k,H. Barrera.,Rodrigo Quiroz S.,C.V.D.,29.00
+27/12/2025,Hipódromo Chile,21,20:30,1200m,Handicap (Hd) 19 al 16,9,2,Stevens For Record,Viscount Nelson,5,414k,6¾,57k,G. Aros.,Mario A. Apablaza G.,Inefable,6.20
+27/12/2025,Hipódromo Chile,21,20:30,1200m,Handicap (Hd) 19 al 16,10,5,Persevera Siempre,Bernardini,8,480k,9,54k,L.D. Menghini.,Eugenio Switt V.,Carlos Cavieres,39.80
+27/12/2025,Hipódromo Chile,21,20:30,1200m,Handicap (Hd) 19 al 16,11,4,Vieja Chela,Boboman,7,506k,9¾,56k,P. Zúñiga.,Julio Castillo D.,Corral Hipico,25.50
+27/12/2025,Hipódromo Chile,21,20:30,1200m,Handicap (Hd) 19 al 16,12,9,Silene,Classic Empire,4,466k,10,57k,S. González.,Juan C. Pichara J.,El Mero Mero,2.60
+27/12/2025,Hipódromo Chile,21,20:30,1200m,Handicap (Hd) 19 al 16,13,14,Zodiakus,Exaggerator,4,503k,11¾,54k,F. Henríquez.,Manuel Norambuena Ch.,Primo Hermano,48.20
+27/12/2025,Hipódromo Chile,21,20:30,1200m,Handicap (Hd) 19 al 16,14,11,Apollonos,Cloud Computing,5,486k,16¼,55k,J. Herrera.,José Alvarez D.,El Molino,6.40
+27/12/2025,Hipódromo Chile,21,20:30,1200m,Handicap (Hd) 19 al 16,U,10,Sunam,Mendelssohn,4,446k,23¼,56k,R. Avila.,Mario Covarrubias,Doña Ester,43.40
+27/12/2025,Hipódromo Chile,22,21:00,1000m,Handicap (Hd) 42 al 31,1,2,Platon,Grand Daddy,4,543k,,60k,V. Miranda.,Juan C. Pichara J.,Vasquez Retamales,5.60
+27/12/2025,Hipódromo Chile,22,21:00,1000m,Handicap (Hd) 42 al 31,2,12,Laburador,Goldencents,6,492k,1½,53k,J. Medina.,Isaac Michea F.,Bruno Alonso,5.20
+27/12/2025,Hipódromo Chile,22,21:00,1000m,Handicap (Hd) 42 al 31,3,15,Sawyer,Practical Joke,6,562k,1½,59k,R. Covarrubias.,Mario Covarrubias,Laly,17.50
+27/12/2025,Hipódromo Chile,22,21:00,1000m,Handicap (Hd) 42 al 31,4,13,Badero,Classic Empire,4,398k,2,54k,B. Troncoso.,Alejandro Padovani E.,Elephant,7.80
+27/12/2025,Hipódromo Chile,22,21:00,1000m,Handicap (Hd) 42 al 31,5,1,Luz Oculta,Mendelssohn,4,464k,2½,51k,W. León.,Mario Covarrubias,Quarter Dollar,11.90
+27/12/2025,Hipódromo Chile,22,21:00,1000m,Handicap (Hd) 42 al 31,6,7,Sea Of Gold,Goldencents,6,485k,3,54k,P. Zúñiga.,Rodrigo López B.,Bruce,45.40
+27/12/2025,Hipódromo Chile,22,21:00,1000m,Handicap (Hd) 42 al 31,7,3,Indian Pirate,Indian Trail,3,505k,3,51k,A. Vásquez.,Oscar Donate S.,Llego El Talento,3.30
+27/12/2025,Hipódromo Chile,22,21:00,1000m,Handicap (Hd) 42 al 31,8,6,Ventidue,Mendelssohn,4,433k,4¾,53k,J. Herrera.,Rodrigo Sánchez Q.,Bruno Alonso,5.60
+27/12/2025,Hipódromo Chile,22,21:00,1000m,Handicap (Hd) 42 al 31,9,11,Ke Pacquiao,International Star,4,462k,5,54k,J. Zúñiga.,Rodrigo Pulgar A.,Luis Benjamin,25.70
+27/12/2025,Hipódromo Chile,22,21:00,1000m,Handicap (Hd) 42 al 31,10,10,Jarum,Cupid,5,488k,5,58k,G. Aros.,Alejandro Padovani E.,Anita María,13.60
+27/12/2025,Hipódromo Chile,22,21:00,1000m,Handicap (Hd) 42 al 31,11,4,Guena Petete,Layman,4,466k,5,54k,C. C. Bustos.,Eduardo Lab R.,Los Reyes,45.10
+27/12/2025,Hipódromo Chile,22,21:00,1000m,Handicap (Hd) 42 al 31,12,9,Kino,Aragorn II,9,490k,6¼,60k,O. Meneses.,Ricardo Rojas S.,Camilo Osses,14.00
+27/12/2025,Hipódromo Chile,22,21:00,1000m,Handicap (Hd) 42 al 31,13,14,Negro Vlady,California One,5,489k,7,51k,H. Barrera.,Luis Urbina H.,Luis Urbina H.,40.20
+27/12/2025,Hipódromo Chile,22,21:00,1000m,Handicap (Hd) 42 al 31,14,5,Monchitocrack,Grand Daddy,7,500k,10¼,51k,D. Carrasco.,Juan C. Pichara J.,Vasquez Retamales,27.90
+27/12/2025,Hipódromo Chile,22,21:00,1000m,Handicap (Hd) 42 al 31,U,8,Presente Cha,Constitution,5,458k,11½,60k,J. González.,Genaro J. Covarrubias E.,Quarter Dollar,39.20
+27/12/2025,Hipódromo Chile,23,21:30,1200m,Handicap (Hd) 22 al 19,1,15,Tordilla Divina,The Lumber Guy,4,493k,,57k,J. Medina.,Rodrigo Sánchez Q.,Haras Lizzie,3.00
+27/12/2025,Hipódromo Chile,23,21:30,1200m,Handicap (Hd) 22 al 19,2,13,Chino Matador,Viscount Nelson,6,422k,2½,56k,M. Gutiérrez.,Héctor Castillo S.,Ogun,10.50
+27/12/2025,Hipódromo Chile,23,21:30,1200m,Handicap (Hd) 22 al 19,3,6,Giorgio Di Capri,Sonoma Band,6,433k,2½,54k,A. Vásquez.,Maritza Pérez A.,Garage Jcs,11.00
+27/12/2025,Hipódromo Chile,23,21:30,1200m,Handicap (Hd) 22 al 19,4,1,Nob,Exaggerator,4,517k,2¾,54k,L. González.,Juan C. Pichara J.,Juan Jaque,20.30
+27/12/2025,Hipódromo Chile,23,21:30,1200m,Handicap (Hd) 22 al 19,5,5,Pachekin,Grand Daddy,4,517k,3¾,54k,J. Zúñiga.,Hernán Pacheco P.,Oxiper,11.40
+27/12/2025,Hipódromo Chile,23,21:30,1200m,Handicap (Hd) 22 al 19,6,9,Angeolina,International Star,4,490k,3¾,57k,V. Miranda.,Alejandro Padovani E.,Haras Mocito Guapo,10.70
+27/12/2025,Hipódromo Chile,23,21:30,1200m,Handicap (Hd) 22 al 19,7,12,Dakhar,Classic Empire,4,450k,5,54k,J. González.,Mario Covarrubias,Felipe Jesus,10.10
+27/12/2025,Hipódromo Chile,23,21:30,1200m,Handicap (Hd) 22 al 19,8,2,Grande Panchito,Good Samaritan,5,498k,5¼,57k,J. Castillo.,Ricardo Rojas S.,Pequeño Matias,9.20
+27/12/2025,Hipódromo Chile,23,21:30,1200m,Handicap (Hd) 22 al 19,9,4,El Joker,Grand Daddy,4,500k,6½,56k,B. Sancho.,Rodrigo Quiroz S.,Viva Chile,16.80
+27/12/2025,Hipódromo Chile,23,21:30,1200m,Handicap (Hd) 22 al 19,10,11,Seattle Snow,Dubai Sky,4,451k,8,56k,N. Ramirez.,Raúl Montesino S.,Forza Al Canut,5.50
+27/12/2025,Hipódromo Chile,23,21:30,1200m,Handicap (Hd) 22 al 19,11,3,Indian Tiger,Indian Trail,8,500k,8¾,54k,P. Zúñiga.,Julio Castillo D.,Corral Hipico,34.80
+27/12/2025,Hipódromo Chile,23,21:30,1200m,Handicap (Hd) 22 al 19,12,8,Jimbo,Newfoundland,3,454k,10¼,57k,M. Bustamante.,Juan C. Pichara J.,Cecilia Falconi,8.20
+27/12/2025,Hipódromo Chile,23,21:30,1200m,Handicap (Hd) 22 al 19,13,7,Tito Moro,Forever Thing,6,486k,11¾,55k,G. Givovich.,Claudio Bernal G.,Harasic,31.30
+27/12/2025,Hipódromo Chile,23,21:30,1200m,Handicap (Hd) 22 al 19,14,10,Angela Clasica,Classic Empire,4,432k,13,56k,S. González.,Rodrigo Quiroz S.,Escobar Hnos.,18.70

@@ -5,7 +5,10 @@ import lightgbm as lgb
 from sklearn.model_selection import GroupKFold
 import joblib
 import os
-from .features import FeatureEngineering
+try:
+    from src.models.features import FeatureEngineering
+except ImportError:
+    from features import FeatureEngineering
 
 class HipicaLearner:
     def __init__(self, db_path='data/db/hipica_data.db'):
