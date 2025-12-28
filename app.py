@@ -152,7 +152,7 @@ def programa():
     analisis = obtener_analisis_jornada()
     
     if hipodromo_filter != 'Todos':
-        analisis = [a for a in analisis if a['hipodromo'] == hipodromo_filter]
+        analisis = [a for a in analisis if a['hipodromo'].lower() == hipodromo_filter.lower()]
         
     # Pre-procesar DataFrames de predicciones para que sean fáciles de renderizar
     for carrera in analisis:

@@ -603,7 +603,7 @@ def obtener_lista_hipodromos():
     """Obtiene la lista única de hipódromos."""
     try:
         # Full Cloud Optimization: Return static list to avoid local DB reads
-        return ['club hípico de santiago', 'hipódromo chile', 'valparaíso sporting']
+        return ['Club Hípico de Santiago', 'Hipódromo Chile', 'Valparaíso Sporting']
     except Exception:
         return ['club hípico de santiago', 'hipódromo chile']
         
