@@ -95,6 +95,31 @@ def cron_update():
         print(f"❌ [CRON ERROR] {e}")
         return jsonify({'status': 'error', 'message': str(e)}), 500
 
+@app.route('/debug/firestore')
+def debug_firestore():
+    from src.models.data_manager import obtener_predicciones_firestore, _init_firebase_db
+    import datetime
+    
+    status = {}
+    try:
+        # Check DB Init
+        db = _init_firebase_db()
+        status['db_initialized'] = (db is not None)
+    except Exception as e:
+        status['db_error'] = str(e)
+        
+    # Check Data
+    try:
+        data = obtener_predicciones_firestore("2025-01-01") # Future query
+        # Try finding ANY data
+        raw_docs = db.collection('predicciones').limit(5).stream()
+        sample = [d.id for d in raw_docs]
+        status['sample_ids'] = sample
+    except Exception as e:
+        status['query_error'] = str(e)
+        
+    return jsonify(status)
+
 @app.context_processor
 def inject_global_vars():
     return dict(
@@ -131,9 +156,11 @@ def programa():
         
     # Pre-procesar DataFrames de predicciones para que sean fáciles de renderizar
     for carrera in analisis:
-        if isinstance(carrera['predicciones'], pd.DataFrame):
+        # FIX: Check if keys exist before access (Full Cloud compatibility)
+        if 'predicciones' in carrera and isinstance(carrera['predicciones'], pd.DataFrame):
              carrera['predicciones'] = carrera['predicciones'].to_dict('records')
-        if isinstance(carrera['caballos'], pd.DataFrame):
+        
+        if 'caballos' in carrera and isinstance(carrera['caballos'], pd.DataFrame):
              carrera['caballos'] = carrera['caballos'].to_dict('records')
 
     # Calcular estadísticas de resumen
