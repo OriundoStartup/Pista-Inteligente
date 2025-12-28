@@ -594,29 +594,24 @@ def obtener_analisis_jornada(use_firestore=True):
     # Sort: Date -> Hipodromo -> Race Number
     analisis_completo.sort(key=lambda x: (x['fecha'], x['hipodromo'], x['carrera']))
     return analisis_completo
+
+def obtener_lista_hipodromos():
     """Obtiene la lista única de hipódromos."""
+    try:
+        # Full Cloud Optimization: Return static list to avoid local DB reads
+        return ['club hípico de santiago', 'hipódromo chile', 'valparaíso sporting']
+    except Exception:
+        return ['club hípico de santiago', 'hipódromo chile']
+        
+    # DEAD CODE REMOVED (Local DB Logic)
+    """
     try:
         df = cargar_datos_3nf()
         if df.empty:
              df = cargar_datos()
+    """
              
-        if not df.empty and 'hipodromo' in df.columns:
-            # Normalize VALP/VAL -> Valparaíso Sporting before list generation
-            # This ensures they don't appear as separate entries in filter buttons
-            raw_list = df['hipodromo'].unique().tolist()
-            normalized = set()
-            for h in raw_list:
-                if h in ['VALP', 'VAL', 'VSC']:
-                    normalized.add('Valparaíso Sporting')
-                elif h == 'CHH':
-                    normalized.add('Club Hípico')
-                else:
-                    normalized.add(h)
-            
-            return sorted(list(normalized))
-        return []
-    except:
-        return []
+
 
 def calcular_todos_patrones(df=None):
     """
