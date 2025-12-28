@@ -111,10 +111,13 @@ def debug_firestore():
     # Check Data
     try:
         data = obtener_predicciones_firestore("2025-01-01") # Future query
-        # Try finding ANY data
-        raw_docs = db.collection('predicciones').limit(5).stream()
-        sample = [d.id for d in raw_docs]
-        status['sample_ids'] = sample
+        # Try finding ANY data for investigation
+        raw_docs = list(db.collection('predicciones').limit(5).stream())
+        sample = []
+        for d in raw_docs:
+             dd = d.to_dict()
+             sample.append(f"{d.id}: {len(dd.get('detalles', []))} details. Hip: {dd.get('hipodromo')}")
+        status['sample_docs'] = sample
     except Exception as e:
         status['query_error'] = str(e)
         
