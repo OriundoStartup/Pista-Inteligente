@@ -4,6 +4,7 @@ __pycache__/
 *.db
 *.pyc
 .DS_Store
+serviceAccountKey.json
 
 # Ignorar BD duplicada en raíz (debe estar solo en data/db/)
 /hipica_data.db

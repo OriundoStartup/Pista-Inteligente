@@ -4,6 +4,7 @@ import sqlite3
 import pandas as pd
 import sys
 import os
+import time
 from tqdm import tqdm
 from datetime import datetime
 import warnings
@@ -43,6 +44,20 @@ def init_firebase():
     except Exception as e:
         print(f"❌ Error Init Firebase: {e}")
         sys.exit(1)
+
+
+def retry_with_backoff(func, max_retries=3, initial_delay=1.0):
+    """Retry function with exponential backoff"""
+    for attempt in range(max_retries):
+        try:
+            return func()
+        except Exception as e:
+            if attempt == max_retries - 1:
+                raise
+            delay = initial_delay * (2 ** attempt)
+            print(f"⚠️ Attempt {attempt + 1} failed: {e}")
+            print(f"   Retrying in {delay:.1f}s...")
+            time.sleep(delay)
 
 def get_sqlite_data(db_path='data/db/hipica_data.db'):
     """Lee datos de SQLite y los une en un DataFrame maestro."""
@@ -89,8 +104,15 @@ def get_sqlite_data(db_path='data/db/hipica_data.db'):
     conn.close()
     return df, df_preds
 
-def migrate():
+def migrate(incremental=True):
+    """
+    Migra datos a Firestore
+    
+    Args:
+        incremental: Si True, solo migra carreras nuevas/modificadas
+    """
     print("🚀 Iniciando Migración a Firestore (FULL CLOUD)...")
+    print(f"   Modo: {'INCREMENTAL' if incremental else 'COMPLETO'}")
     
     db = init_firebase()
     df_hist, df_preds = get_sqlite_data()
@@ -137,6 +159,14 @@ def migrate():
                 if 'caballo_meta' in df_enriched.columns:
                      df_enriched['caballo'] = df_enriched['caballo_meta'].fillna(df_enriched['caballo'])
                 
+                # Detectar cambios para migración incremental
+                if incremental:
+                    print("🔍 Verificando cambios desde última migración...")
+                    df_enriched['data_hash'] = df_enriched.apply(
+                        lambda r: hash((r['fecha'], r['hipodromo'], r['carrera_int'], 
+                                       r['numero_int'], r['probabilidad'])), axis=1
+                    )
+                
                 df_preds = df_enriched
                 print(f"✅ Predicciones enriquecidas: {len(df_preds)} registros.")
                 
@@ -179,6 +209,8 @@ def migrate():
         batch = db.batch()
         batch_count = 0
         total_uploaded = 0
+        total_skipped = 0
+        batch_size = 450  # Slightly below 500 limit for safety
         
         for key, group in tqdm(grouped_preds, desc="Predicciones"):
             first = group.iloc[0]
@@ -206,35 +238,84 @@ def migrate():
             
             detalles = []
             for _, row in group.iterrows():
+                # FIX: Filtro estricto de números inválidos
+                num = int(row['numero'])
+                if num <= 0: continue
+                
                 detalles.append({
                     'caballo': str(row['caballo']),
-                    'numero': int(row['numero']),
+                    'numero': num,
                     'jinete': str(row.get('jinete', 'N/A')),
                     'probabilidad': float(row['probabilidad'])
                 })
             
+            # Ordenar explícitamente por probabilidad (Mayor a Menor) para la vista correcta
             detalles.sort(key=lambda x: x['probabilidad'], reverse=True)
+            
+            # Validar que probabilidades sean razonables (suma ~100%)
+            total_prob = sum(d['probabilidad'] for d in detalles)
+            if total_prob < 80 or total_prob > 120:
+                print(f"⚠️ Warning: Race {key} probabilidad total = {total_prob:.1f}%")
+            
             pred_data['detalles'] = detalles
             
+            # Verificar si hay cambios (incremental)
+            if incremental:
+                ref = db.collection('predicciones').document(doc_id)
+                try:
+                    existing = ref.get()
+                    if existing.exists:
+                        # Comparar detalles
+                        existing_data = existing.to_dict()
+                        if existing_data.get('detalles') == detalles:
+                            total_skipped += 1
+                            continue  # Sin cambios, skip
+                except Exception:
+                    pass  # Si falla lectura, migrar de todos modos
+            
+            # Upload con retry
             ref = db.collection('predicciones').document(doc_id)
-            batch.set(ref, pred_data)
+            
+            def upload_batch():
+                batch.set(ref, pred_data)
+            
+            try:
+                retry_with_backoff(upload_batch)
+            except Exception as e:
+                print(f"❌ Error subiendo {doc_id}: {e}")
+                continue
             
             batch_count += 1
-            if batch_count >= 400:
-                batch.commit()
+            if batch_count >= batch_size:
+                try:
+                    retry_with_backoff(lambda: batch.commit())
+                    print(f"   ✅ Batch {total_uploaded // batch_size + 1} committed ({batch_count} docs)")
+                except Exception as e:
+                    print(f"❌ Error committing batch: {e}")
                 batch = db.batch()
                 batch_count = 0
             
             total_uploaded += 1
                 
         if batch_count > 0:
-            batch.commit()
+            try:
+                retry_with_backoff(lambda: batch.commit())
+                print(f"   ✅ Final batch committed ({batch_count} docs)")
+            except Exception as e:
+                print(f"❌ Error committing final batch: {e}")
             
         print(f"✅ Migradas {total_uploaded} carreras completas a Firestore.")
+        if incremental and total_skipped > 0:
+            print(f"   ⏭️ Skipped {total_skipped} carreras sin cambios (incremental)")
     else:
         print("⚠️ No hay predicciones para migrar.")
 
     print("\n🎉 MIGRACIÓN FULL CLOUD COMPLETADA.")
 
 if __name__ == "__main__":
-    migrate()
+    import argparse
+    parser = argparse.ArgumentParser(description='Migrate to Firestore')
+    parser.add_argument('--full', action='store_true', help='Full migration (no incremental)')
+    args = parser.parse_args()
+    
+    migrate(incremental=not args.full)

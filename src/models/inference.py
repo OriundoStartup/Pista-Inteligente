@@ -5,9 +5,18 @@ import os
 import sqlite3
 import json
 import sys
+import logging
+import time
 from datetime import datetime
 from src.models.data_manager import cargar_programa, cargar_datos_3nf
 from src.models.features import FeatureEngineering
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 # Fix for Windows Unicode printing
 if sys.platform == "win32" and hasattr(sys.stdout, 'reconfigure'):
@@ -21,30 +30,46 @@ class InferencePipeline:
         self.fe = None
         self.history = None
         
+        # 🎯 Professional Probability Calibration
+        # Temperature: Lower = more confident (larger differences)
+        # Amplification: Higher = amplify score differences
+        self.temperature = 0.7  # Recommended: 0.6-0.8
+        self.amplification_power = 1.5  # Recommended: 1.2-1.8
+        
     def load_artifacts(self):
         if not os.path.exists(self.model_path) or not os.path.exists(self.fe_path):
             raise FileNotFoundError("Model or FE artifact missing.")
             
+        start = time.time()
         self.model = joblib.load(self.model_path)
         self.fe = FeatureEngineering.load(self.fe_path)
-        print("✅ Models loaded.")
+        logger.info("Models loaded", extra={
+            'model_path': self.model_path,
+            'fe_path': self.fe_path,
+            'load_time_ms': int((time.time() - start) * 1000)
+        })
         
         # Load History for Feature Generation
-        print("⏳ Loading history for features...")
+        logger.info("Loading history for features...")
         self.history = cargar_datos_3nf() 
         # Note: cargar_datos_3nf logic might need checking if it returns dataframe with expected columns
         # Assuming it does based on data_manager usage.
         
     def run(self):
-        print("🚀 Starting Inference Pipeline...")
+        start_time = time.time()
+        logger.info("Starting Inference Pipeline", extra={
+            'model_path': self.model_path,
+            'fe_path': self.fe_path
+        })
+        
         self.load_artifacts()
         
         # 1. Load Future Races
-        print("📅 Loading Future Program...")
+        logger.info("Loading Future Program...")
         df_program = cargar_programa(solo_futuras=True)
         
         if df_program.empty:
-            print("⚠️ No future races found in DB.")
+            logger.warning("No future races found in DB")
             return
             
         # 2. Pre-process Program to match FE inputs
@@ -245,10 +270,31 @@ class InferencePipeline:
         results = []
         
         for race_id, group in df_program.groupby('race_unique_id'):
-            # Softmax
+            # Get raw scores from model
             scores = group['raw_score'].values
-            exp_scores = np.exp(scores)
-            probs = exp_scores / np.sum(exp_scores)
+            
+            # 🎯 PROFESSIONAL CALIBRATION: Temperature + Min-Max + Amplification
+            score_min = scores.min()
+            score_max = scores.max()
+            score_range = score_max - score_min
+            
+            if score_range > 1e-6:  # Avoid division by zero
+                # 1. Normalize to [0, 1]
+                normalized = (scores - score_min) / score_range
+                
+                # 2. Amplify differences (power > 1 increases separation)
+                amplified = normalized ** self.amplification_power
+                
+                # 3. Temperature scaling (T < 1 = more confident)
+                scaled = amplified / self.temperature
+                
+                # 4. Softmax with numerical stability
+                exp_scores = np.exp(scaled - np.max(scaled))
+                probs = exp_scores / np.sum(exp_scores)
+            else:
+                # All scores identical → uniform distribution
+                probs = np.ones(len(scores)) / len(scores)
+                logger.warning(f"Race {race_id}: All scores identical ({score_min:.3f}), using uniform")
             
             # Map back
             group['prob_win'] = probs

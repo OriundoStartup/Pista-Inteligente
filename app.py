@@ -133,6 +133,83 @@ def inject_global_vars():
         hipodromos=obtener_lista_hipodromos()
     )
 
+@app.route('/health')
+def health_check():
+    """Health check para monitoreo y alertas"""
+    from datetime import datetime
+    
+    health = {
+        'status': 'healthy',
+        'timestamp': datetime.now().isoformat(),
+        'checks': {}
+    }
+    
+    # Check: Modelo existe
+    model_path = 'src/models/lgbm_ranker_v1.pkl'
+    health['checks']['model_exists'] = os.path.exists(model_path)
+    
+    # Check: Feature Engineering existe
+    fe_path = 'src/models/feature_eng_v2.pkl'
+    health['checks']['feature_eng_exists'] = os.path.exists(fe_path)
+    
+    # Check: DB existe
+    db_path = 'data/db/hipica_data.db'
+    health['checks']['database_exists'] = os.path.exists(db_path)
+    
+    # Check: Firestore
+    try:
+        from src.models.data_manager import _init_firebase_db
+        db = _init_firebase_db()
+        health['checks']['firestore_connected'] = (db is not None)
+    except Exception as e:
+        health['checks']['firestore_connected'] = False
+        health['checks']['firestore_error'] = str(e)
+    
+    # Determinar status general
+    all_healthy = all(v for k, v in health['checks'].items() if k != 'firestore_error')
+    health['status'] = 'healthy' if all_healthy else 'degraded'
+    
+    status_code = 200 if all_healthy else 503
+    return jsonify(health), status_code
+
+@app.route('/metrics')
+def metrics():
+    """Métricas en formato Prometheus para monitoreo"""
+    from datetime import datetime, timedelta
+    
+    try:
+        # Calcular precisión últimos 7 días
+        fecha_fin = datetime.now().strftime('%Y-%m-%d')
+        fecha_inicio = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
+        
+        metrics_data = calcular_precision_modelo(fecha_inicio, fecha_fin)
+        
+        # Formato Prometheus
+        output = f"""# HELP model_top1_accuracy Top-1 prediction accuracy
+# TYPE model_top1_accuracy gauge
+model_top1_accuracy {metrics_data.get('top1_accuracy', 0)}
+
+# HELP model_top3_accuracy Top-3 prediction accuracy  
+# TYPE model_top3_accuracy gauge
+model_top3_accuracy {metrics_data.get('top3_accuracy', 0)}
+
+# HELP model_top4_accuracy Top-4 prediction accuracy
+# TYPE model_top4_accuracy gauge
+model_top4_accuracy {metrics_data.get('top4_accuracy', 0)}
+
+# HELP model_predictions_count Total predictions evaluated
+# TYPE model_predictions_count counter
+model_predictions_count {metrics_data.get('total_predictions', 0)}
+
+# HELP model_total_dividends Total dividends from correct predictions
+# TYPE model_total_dividends counter
+model_total_dividends {metrics_data.get('total_dividendos', 0)}
+"""
+        
+        return output, 200, {'Content-Type': 'text/plain; charset=utf-8'}
+    except Exception as e:
+        return f"# ERROR: {str(e)}", 500, {'Content-Type': 'text/plain; charset=utf-8'}
+
 @app.route('/')
 def home():
     # Obtener estadisticas (ahora retorna un diccionario)

@@ -1,0 +1,47 @@
+{
+  "timestamp": "20251228_190704",
+  "model_type": "LGBMRanker",
+  "model_path": "src/models/lgbm_ranker_v1_20251228_190704.pkl",
+  "fe_path": "src/models/feature_eng_v2_20251228_190704.pkl",
+  "training_samples": 3075,
+  "test_samples": 867,
+  "n_features": 12,
+  "feature_names": [
+    "days_rest",
+    "win_rate",
+    "races_count",
+    "avg_speed_3",
+    "track_win_rate",
+    "dist_win_rate",
+    "duo_eff",
+    "trend_3",
+    "sire_win_rate",
+    "peso",
+    "mandil",
+    "distancia"
+  ],
+  "hyperparameters": {
+    "objective": "lambdarank",
+    "metric": "ndcg",
+    "n_estimators": 500,
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "random_state": 42,
+    "importance_type": "gain"
+  },
+  "best_iteration": 1,
+  "feature_importance": {
+    "days_rest": 2.6994900703430176,
+    "win_rate": 26.367770195007324,
+    "races_count": 0.0,
+    "avg_speed_3": 24.43660044670105,
+    "track_win_rate": 9.38976001739502,
+    "dist_win_rate": 24.952670097351074,
+    "duo_eff": 10.633219718933105,
+    "trend_3": 13.780509948730469,
+    "sire_win_rate": 28.947880268096924,
+    "peso": 0.0,
+    "mandil": 5.672599792480469,
+    "distancia": 2.944080114364624
+  }
+}

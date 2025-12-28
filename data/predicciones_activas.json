@@ -5,7 +5,7 @@
     "carrera": 1,
     "numero": 1.0,
     "caballo": "ESTEPHANIA",
-    "probabilidad": 5.9
+    "probabilidad": 14.1
   },
   {
     "fecha": "2025-12-29",
@@ -13,7 +13,7 @@
     "carrera": 1,
     "numero": 2.0,
     "caballo": "KEPKA",
-    "probabilidad": 6.5
+    "probabilidad": 6.9
   },
   {
     "fecha": "2025-12-29",
@@ -21,7 +21,7 @@
     "carrera": 1,
     "numero": 3.0,
     "caballo": "GRAN LALITO",
-    "probabilidad": 6.5
+    "probabilidad": 6.9
   },
   {
     "fecha": "2025-12-29",
@@ -29,7 +29,7 @@
     "carrera": 1,
     "numero": 4.0,
     "caballo": "UNO CERO",
-    "probabilidad": 6.5
+    "probabilidad": 6.9
   },
   {
     "fecha": "2025-12-29",
@@ -37,7 +37,7 @@
     "carrera": 1,
     "numero": 5.0,
     "caballo": "VINNALIA",
-    "probabilidad": 6.5
+    "probabilidad": 6.9
   },
   {
     "fecha": "2025-12-29",
@@ -45,7 +45,7 @@
     "carrera": 1,
     "numero": 6.0,
     "caballo": "DANITA FIRST",
-    "probabilidad": 6.5
+    "probabilidad": 6.9
   },
   {
     "fecha": "2025-12-29",
@@ -53,7 +53,7 @@
     "carrera": 1,
     "numero": 7.0,
     "caballo": "NIETA DEL MONTY",
-    "probabilidad": 6.9
+    "probabilidad": 3.4
   },
   {
     "fecha": "2025-12-29",
@@ -61,7 +61,7 @@
     "carrera": 1,
     "numero": 8.0,
     "caballo": "MANANO",
-    "probabilidad": 6.9
+    "probabilidad": 3.4
   },
   {
     "fecha": "2025-12-29",
@@ -69,7 +69,7 @@
     "carrera": 1,
     "numero": 9.0,
     "caballo": "DIMITRA",
-    "probabilidad": 6.9
+    "probabilidad": 3.4
   },
   {
     "fecha": "2025-12-29",
@@ -117,7 +117,7 @@
     "carrera": 1,
     "numero": 15.0,
     "caballo": "WILLIAM FAULKNER",
-    "probabilidad": 6.5
+    "probabilidad": 6.9
   },
   {
     "fecha": "2025-12-29",
@@ -125,7 +125,7 @@
     "carrera": 10,
     "numero": 1.0,
     "caballo": "JANNIK",
-    "probabilidad": 7.9
+    "probabilidad": 4.6
   },
   {
     "fecha": "2025-12-29",
@@ -133,7 +133,7 @@
     "carrera": 10,
     "numero": 2.0,
     "caballo": "MURCOTT",
-    "probabilidad": 7.9
+    "probabilidad": 4.6
   },
   {
     "fecha": "2025-12-29",
@@ -141,7 +141,7 @@
     "carrera": 10,
     "numero": 3.0,
     "caballo": "MATCHPOINT",
-    "probabilidad": 7.9
+    "probabilidad": 3.4
   },
   {
     "fecha": "2025-12-29",
@@ -149,7 +149,7 @@
     "carrera": 10,
     "numero": 4.0,
     "caballo": "TOUCHING ME",
-    "probabilidad": 7.9
+    "probabilidad": 3.4
   },
   {
     "fecha": "2025-12-29",
@@ -157,7 +157,7 @@
     "carrera": 10,
     "numero": 5.0,
     "caballo": "WIELKA",
-    "probabilidad": 7.3
+    "probabilidad": 3.4
   },
   {
     "fecha": "2025-12-29",
@@ -165,7 +165,7 @@
     "carrera": 10,
     "numero": 6.0,
     "caballo": "ANNCIATORE",
-    "probabilidad": 7.9
+    "probabilidad": 14.1
   },
   {
     "fecha": "2025-12-29",
@@ -173,7 +173,7 @@
     "carrera": 10,
     "numero": 7.0,
     "caballo": "ME DAS OTRO BESO",
-    "probabilidad": 7.3
+    "probabilidad": 3.4
   },
   {
     "fecha": "2025-12-29",
@@ -181,7 +181,7 @@
     "carrera": 10,
     "numero": 8.0,
     "caballo": "PISANELLO",
-    "probabilidad": 7.3
+    "probabilidad": 14.1
   },
   {
     "fecha": "2025-12-29",
@@ -189,7 +189,7 @@
     "carrera": 10,
     "numero": 9.0,
     "caballo": "600GY",
-    "probabilidad": 7.3
+    "probabilidad": 3.4
   },
   {
     "fecha": "2025-12-29",
@@ -197,7 +197,7 @@
     "carrera": 10,
     "numero": 10.0,
     "caballo": "MALORY",
-    "probabilidad": 7.9
+    "probabilidad": 14.1
   },
   {
     "fecha": "2025-12-29",
@@ -205,7 +205,7 @@
     "carrera": 10,
     "numero": 11.0,
     "caballo": "RAMHE",
-    "probabilidad": 7.9
+    "probabilidad": 14.1
   },
   {
     "fecha": "2025-12-29",
@@ -213,7 +213,7 @@
     "carrera": 10,
     "numero": 12.0,
     "caballo": "MUY ADMIRADO",
-    "probabilidad": 7.9
+    "probabilidad": 3.4
   },
   {
     "fecha": "2025-12-29",
@@ -221,7 +221,7 @@
     "carrera": 10,
     "numero": 13.0,
     "caballo": "SEVEN WONDERS",
-    "probabilidad": 7.9
+    "probabilidad": 14.1
   },
   {
     "fecha": "2025-12-29",
@@ -229,7 +229,7 @@
     "carrera": 11,
     "numero": 1.0,
     "caballo": "DIAMOND BLUE",
-    "probabilidad": 8.1
+    "probabilidad": 19.4
   },
   {
     "fecha": "2025-12-29",
@@ -237,7 +237,7 @@
     "carrera": 11,
     "numero": 2.0,
     "caballo": "JAMES BRUCE",
-    "probabilidad": 8.1
+    "probabilidad": 4.6
   },
   {
     "fecha": "2025-12-29",
@@ -245,7 +245,7 @@
     "carrera": 11,
     "numero": 3.0,
     "caballo": "HARMONY OF THE SEA",
-    "probabilidad": 8.1
+    "probabilidad": 19.4
   },
   {
     "fecha": "2025-12-29",
@@ -253,7 +253,7 @@
     "carrera": 11,
     "numero": 4.0,
     "caballo": "BUTACHAUQUES",
-    "probabilidad": 8.1
+    "probabilidad": 4.6
   },
   {
     "fecha": "2025-12-29",
@@ -261,7 +261,7 @@
     "carrera": 11,
     "numero": 5.0,
     "caballo": "GANDA",
-    "probabilidad": 8.1
+    "probabilidad": 4.6
   },
   {
     "fecha": "2025-12-29",
@@ -269,7 +269,7 @@
     "carrera": 11,
     "numero": 6.0,
     "caballo": "CINQUE TERRE",
-    "probabilidad": 8.1
+    "probabilidad": 4.6
   },
   {
     "fecha": "2025-12-29",
@@ -277,7 +277,7 @@
     "carrera": 11,
     "numero": 7.0,
     "caballo": "TOTEM REAL",
-    "probabilidad": 7.8
+    "probabilidad": 4.6
   },
   {
     "fecha": "2025-12-29",
@@ -285,7 +285,7 @@
     "carrera": 11,
     "numero": 8.0,
     "caballo": "MISTER WATSON",
-    "probabilidad": 8.7
+    "probabilidad": 4.6
   },
   {
     "fecha": "2025-12-29",
@@ -293,7 +293,7 @@
     "carrera": 11,
     "numero": 9.0,
     "caballo": "DE GRASSE",
-    "probabilidad": 8.7
+    "probabilidad": 19.4
   },
   {
     "fecha": "2025-12-29",
@@ -301,7 +301,7 @@
     "carrera": 11,
     "numero": 10.0,
     "caballo": "NO ME QUEMES",
-    "probabilidad": 8.7
+    "probabilidad": 4.6
   },
   {
     "fecha": "2025-12-29",
@@ -309,7 +309,7 @@
     "carrera": 11,
     "numero": 11.0,
     "caballo": "TROTSKI",
-    "probabilidad": 8.7
+    "probabilidad": 4.6
   },
   {
     "fecha": "2025-12-29",
@@ -317,7 +317,7 @@
     "carrera": 11,
     "numero": 12.0,
     "caballo": "LION KING",
-    "probabilidad": 8.7
+    "probabilidad": 4.6
   },
   {
     "fecha": "2025-12-29",
@@ -325,7 +325,7 @@
     "carrera": 12,
     "numero": 1.0,
     "caballo": "SOY DEL CICLON",
-    "probabilidad": 9.6
+    "probabilidad": 10.5
   },
   {
     "fecha": "2025-12-29",
@@ -333,7 +333,7 @@
     "carrera": 12,
     "numero": 2.0,
     "caballo": "GONE STAR",
-    "probabilidad": 9.6
+    "probabilidad": 10.5
   },
   {
     "fecha": "2025-12-29",
@@ -341,7 +341,7 @@
     "carrera": 12,
     "numero": 3.0,
     "caballo": "DE ORO Y COBRE",
-    "probabilidad": 9.0
+    "probabilidad": 2.5
   },
   {
     "fecha": "2025-12-29",
@@ -349,7 +349,7 @@
     "carrera": 12,
     "numero": 4.0,
     "caballo": "SATOSHI",
-    "probabilidad": 9.0
+    "probabilidad": 10.5
   },
   {
     "fecha": "2025-12-29",
@@ -357,7 +357,7 @@
     "carrera": 12,
     "numero": 5.0,
     "caballo": "IMANOL",
-    "probabilidad": 9.0
+    "probabilidad": 10.5
   },
   {
     "fecha": "2025-12-29",
@@ -365,7 +365,7 @@
     "carrera": 12,
     "numero": 6.0,
     "caballo": "RADIANT ORQUIDEA",
-    "probabilidad": 9.0
+    "probabilidad": 10.5
   },
   {
     "fecha": "2025-12-29",
@@ -373,7 +373,7 @@
     "carrera": 12,
     "numero": 7.0,
     "caballo": "CON ZEUS",
-    "probabilidad": 9.0
+    "probabilidad": 10.5
   },
   {
     "fecha": "2025-12-29",
@@ -381,7 +381,7 @@
     "carrera": 12,
     "numero": 8.0,
     "caballo": "EL ARRUGAO",
-    "probabilidad": 9.0
+    "probabilidad": 10.5
   },
   {
     "fecha": "2025-12-29",
@@ -389,7 +389,7 @@
     "carrera": 12,
     "numero": 9.0,
     "caballo": "RIO AZOPARDO",
-    "probabilidad": 9.0
+    "probabilidad": 10.5
   },
   {
     "fecha": "2025-12-29",
@@ -397,7 +397,7 @@
     "carrera": 12,
     "numero": 10.0,
     "caballo": "CI MANCHI FRATELO",
-    "probabilidad": 9.0
+    "probabilidad": 10.5
   },
   {
     "fecha": "2025-12-29",
@@ -405,7 +405,7 @@
     "carrera": 12,
     "numero": 11.0,
     "caballo": "MAGUIRE",
-    "probabilidad": 9.0
+    "probabilidad": 2.5
   },
   {
     "fecha": "2025-12-29",
@@ -413,7 +413,7 @@
     "carrera": 13,
     "numero": 1.0,
     "caballo": "CHIVARO",
-    "probabilidad": 6.5
+    "probabilidad": 9.6
   },
   {
     "fecha": "2025-12-29",
@@ -421,7 +421,7 @@
     "carrera": 13,
     "numero": 2.0,
     "caballo": "TERCIADOR",
-    "probabilidad": 6.2
+    "probabilidad": 9.6
   },
   {
     "fecha": "2025-12-29",
@@ -429,7 +429,7 @@
     "carrera": 13,
     "numero": 3.0,
     "caballo": "KILIMANJARO",
-    "probabilidad": 6.5
+    "probabilidad": 9.6
   },
   {
     "fecha": "2025-12-29",
@@ -437,7 +437,7 @@
     "carrera": 13,
     "numero": 4.0,
     "caballo": "MUY SOLO AQUI",
-    "probabilidad": 6.5
+    "probabilidad": 2.3
   },
   {
     "fecha": "2025-12-29",
@@ -445,7 +445,7 @@
     "carrera": 13,
     "numero": 5.0,
     "caballo": "SASSI",
-    "probabilidad": 6.5
+    "probabilidad": 9.6
   },
   {
     "fecha": "2025-12-29",
@@ -453,7 +453,7 @@
     "carrera": 13,
     "numero": 6.0,
     "caballo": "GRAN PIOLA",
-    "probabilidad": 6.5
+    "probabilidad": 9.6
   },
   {
     "fecha": "2025-12-29",
@@ -461,7 +461,7 @@
     "carrera": 13,
     "numero": 7.0,
     "caballo": "JAVIVALETU",
-    "probabilidad": 6.5
+    "probabilidad": 2.3
   },
   {
     "fecha": "2025-12-29",
@@ -469,7 +469,7 @@
     "carrera": 13,
     "numero": 8.0,
     "caballo": "KORPER",
-    "probabilidad": 6.9
+    "probabilidad": 9.6
   },
   {
     "fecha": "2025-12-29",
@@ -477,7 +477,7 @@
     "carrera": 13,
     "numero": 9.0,
     "caballo": "VERSERO",
-    "probabilidad": 6.9
+    "probabilidad": 2.3
   },
   {
     "fecha": "2025-12-29",
@@ -485,7 +485,7 @@
     "carrera": 13,
     "numero": 10.0,
     "caballo": "TIA GUACOLDA",
-    "probabilidad": 6.9
+    "probabilidad": 9.6
   },
   {
     "fecha": "2025-12-29",
@@ -493,7 +493,7 @@
     "carrera": 13,
     "numero": 11.0,
     "caballo": "A MI EDAD DIFICIL",
-    "probabilidad": 6.9
+    "probabilidad": 9.6
   },
   {
     "fecha": "2025-12-29",
@@ -501,7 +501,7 @@
     "carrera": 13,
     "numero": 12.0,
     "caballo": "BEHIND THE SUN",
-    "probabilidad": 6.9
+    "probabilidad": 9.6
   },
   {
     "fecha": "2025-12-29",
@@ -509,7 +509,7 @@
     "carrera": 13,
     "numero": 13.0,
     "caballo": "MANKIND",
-    "probabilidad": 6.9
+    "probabilidad": 2.3
   },
   {
     "fecha": "2025-12-29",
@@ -517,7 +517,7 @@
     "carrera": 13,
     "numero": 14.0,
     "caballo": "ACLIS",
-    "probabilidad": 6.5
+    "probabilidad": 2.3
   },
   {
     "fecha": "2025-12-29",
@@ -525,7 +525,7 @@
     "carrera": 13,
     "numero": 15.0,
     "caballo": "ANCELOTTI",
-    "probabilidad": 6.9
+    "probabilidad": 2.3
   },
   {
     "fecha": "2025-12-29",
@@ -533,7 +533,7 @@
     "carrera": 14,
     "numero": 1.0,
     "caballo": "REY ESCOCES",
-    "probabilidad": 7.0
+    "probabilidad": 4.9
   },
   {
     "fecha": "2025-12-29",
@@ -541,7 +541,7 @@
     "carrera": 14,
     "numero": 2.0,
     "caballo": "PROFESSIONALS",
-    "probabilidad": 7.0
+    "probabilidad": 4.9
   },
   {
     "fecha": "2025-12-29",
@@ -549,7 +549,7 @@
     "carrera": 14,
     "numero": 3.0,
     "caballo": "SE PREPARO",
-    "probabilidad": 7.0
+    "probabilidad": 20.5
   },
   {
     "fecha": "2025-12-29",
@@ -557,7 +557,7 @@
     "carrera": 14,
     "numero": 4.0,
     "caballo": "LA POLITO",
-    "probabilidad": 7.0
+    "probabilidad": 20.5
   },
   {
     "fecha": "2025-12-29",
@@ -565,7 +565,7 @@
     "carrera": 14,
     "numero": 5.0,
     "caballo": "SWEET CHILD",
-    "probabilidad": 7.0
+    "probabilidad": 4.9
   },
   {
     "fecha": "2025-12-29",
@@ -573,7 +573,7 @@
     "carrera": 14,
     "numero": 7.0,
     "caballo": "RED DADDY",
-    "probabilidad": 7.0
+    "probabilidad": 4.9
   },
   {
     "fecha": "2025-12-29",
@@ -581,7 +581,7 @@
     "carrera": 14,
     "numero": 8.0,
     "caballo": "SIN PREJUICIOS",
-    "probabilidad": 7.0
+    "probabilidad": 4.9
   },
   {
     "fecha": "2025-12-29",
@@ -589,7 +589,7 @@
     "carrera": 14,
     "numero": 9.0,
     "caballo": "LA MARRE",
-    "probabilidad": 7.5
+    "probabilidad": 4.9
   },
   {
     "fecha": "2025-12-29",
@@ -597,7 +597,7 @@
     "carrera": 14,
     "numero": 10.0,
     "caballo": "TO COLLIPULLI",
-    "probabilidad": 7.5
+    "probabilidad": 4.9
   },
   {
     "fecha": "2025-12-29",
@@ -605,7 +605,7 @@
     "carrera": 14,
     "numero": 11.0,
     "caballo": "DOCTORA MILAGRO",
-    "probabilidad": 7.5
+    "probabilidad": 4.9
   },
   {
     "fecha": "2025-12-29",
@@ -613,7 +613,7 @@
     "carrera": 14,
     "numero": 12.0,
     "caballo": "RAPIDO Y VELOZ",
-    "probabilidad": 7.0
+    "probabilidad": 4.9
   },
   {
     "fecha": "2025-12-29",
@@ -621,7 +621,7 @@
     "carrera": 14,
     "numero": 13.0,
     "caballo": "PODEROSA NOBLEZA",
-    "probabilidad": 7.0
+    "probabilidad": 4.9
   },
   {
     "fecha": "2025-12-29",
@@ -629,7 +629,7 @@
     "carrera": 14,
     "numero": 14.0,
     "caballo": "JOHN COOPER",
-    "probabilidad": 7.5
+    "probabilidad": 4.9
   },
   {
     "fecha": "2025-12-29",
@@ -637,7 +637,7 @@
     "carrera": 14,
     "numero": 15.0,
     "caballo": "TOP KING",
-    "probabilidad": 7.5
+    "probabilidad": 4.9
   },
   {
     "fecha": "2025-12-29",
@@ -645,7 +645,7 @@
     "carrera": 15,
     "numero": 1.0,
     "caballo": "KAREV",
-    "probabilidad": 8.7
+    "probabilidad": 8.3
   },
   {
     "fecha": "2025-12-29",
@@ -653,7 +653,7 @@
     "carrera": 15,
     "numero": 2.0,
     "caballo": "LARRYKANE",
-    "probabilidad": 8.7
+    "probabilidad": 8.3
   },
   {
     "fecha": "2025-12-29",
@@ -661,7 +661,7 @@
     "carrera": 15,
     "numero": 3.0,
     "caballo": "NA NI NA",
-    "probabilidad": 8.7
+    "probabilidad": 8.3
   },
   {
     "fecha": "2025-12-29",
@@ -669,7 +669,7 @@
     "carrera": 15,
     "numero": 4.0,
     "caballo": "FREUD WISH",
-    "probabilidad": 8.7
+    "probabilidad": 8.3
   },
   {
     "fecha": "2025-12-29",
@@ -677,7 +677,7 @@
     "carrera": 15,
     "numero": 5.0,
     "caballo": "SALTO DEL GUAPO",
-    "probabilidad": 8.7
+    "probabilidad": 8.3
   },
   {
     "fecha": "2025-12-29",
@@ -685,7 +685,7 @@
     "carrera": 15,
     "numero": 6.0,
     "caballo": "EL MERLUZO",
-    "probabilidad": 8.1
+    "probabilidad": 8.3
   },
   {
     "fecha": "2025-12-29",
@@ -693,7 +693,7 @@
     "carrera": 15,
     "numero": 7.0,
     "caballo": "PESO COMPLETO",
-    "probabilidad": 8.1
+    "probabilidad": 8.3
   },
   {
     "fecha": "2025-12-29",
@@ -701,7 +701,7 @@
     "carrera": 15,
     "numero": 8.0,
     "caballo": "GRAND SMILE",
-    "probabilidad": 7.8
+    "probabilidad": 8.3
   },
   {
     "fecha": "2025-12-29",
@@ -709,7 +709,7 @@
     "carrera": 15,
     "numero": 9.0,
     "caballo": "GRAN RAI",
-    "probabilidad": 8.1
+    "probabilidad": 8.3
   },
   {
     "fecha": "2025-12-29",
@@ -717,7 +717,7 @@
     "carrera": 15,
     "numero": 10.0,
     "caballo": "MAGO DEL GELATO",
-    "probabilidad": 8.1
+    "probabilidad": 8.3
   },
   {
     "fecha": "2025-12-29",
@@ -725,7 +725,7 @@
     "carrera": 15,
     "numero": 11.0,
     "caballo": "MILTEO",
-    "probabilidad": 8.1
+    "probabilidad": 8.3
   },
   {
     "fecha": "2025-12-29",
@@ -733,7 +733,7 @@
     "carrera": 15,
     "numero": 12.0,
     "caballo": "NORTE RISUE\u00d1O",
-    "probabilidad": 8.1
+    "probabilidad": 8.3
   },
   {
     "fecha": "2025-12-29",
@@ -741,7 +741,7 @@
     "carrera": 16,
     "numero": 1.0,
     "caballo": "MI TIO POLO",
-    "probabilidad": 6.6
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -749,7 +749,7 @@
     "carrera": 16,
     "numero": 2.0,
     "caballo": "BESOS DE MIEL",
-    "probabilidad": 6.6
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -757,7 +757,7 @@
     "carrera": 16,
     "numero": 3.0,
     "caballo": "TEA AND MILK",
-    "probabilidad": 6.6
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -765,7 +765,7 @@
     "carrera": 16,
     "numero": 4.0,
     "caballo": "JE T'AIME",
-    "probabilidad": 6.6
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -773,7 +773,7 @@
     "carrera": 16,
     "numero": 5.0,
     "caballo": "JALONADO",
-    "probabilidad": 6.1
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -781,7 +781,7 @@
     "carrera": 16,
     "numero": 6.0,
     "caballo": "BARBIE DREAMS",
-    "probabilidad": 6.1
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -789,7 +789,7 @@
     "carrera": 16,
     "numero": 7.0,
     "caballo": "DOBLE NEGRO",
-    "probabilidad": 6.1
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -797,7 +797,7 @@
     "carrera": 16,
     "numero": 8.0,
     "caballo": "SEEKING THE SOUL",
-    "probabilidad": 5.9
+    "probabilidad": 21.8
   },
   {
     "fecha": "2025-12-29",
@@ -805,7 +805,7 @@
     "carrera": 16,
     "numero": 9.0,
     "caballo": "PETIROSSA",
-    "probabilidad": 6.1
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -813,7 +813,7 @@
     "carrera": 16,
     "numero": 10.0,
     "caballo": "SPELLBOUND",
-    "probabilidad": 6.1
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -821,7 +821,7 @@
     "carrera": 16,
     "numero": 11.0,
     "caballo": "NAHUEN",
-    "probabilidad": 6.6
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -829,7 +829,7 @@
     "carrera": 16,
     "numero": 12.0,
     "caballo": "FRENCH CANDY",
-    "probabilidad": 6.6
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -837,7 +837,7 @@
     "carrera": 16,
     "numero": 13.0,
     "caballo": "EL BOHEMIO",
-    "probabilidad": 6.1
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -845,7 +845,7 @@
     "carrera": 16,
     "numero": 14.0,
     "caballo": "PURA ROSA",
-    "probabilidad": 6.1
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -853,7 +853,7 @@
     "carrera": 16,
     "numero": 15.0,
     "caballo": "VALKYRIE LEGEND",
-    "probabilidad": 5.9
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -861,7 +861,7 @@
     "carrera": 16,
     "numero": 16.0,
     "caballo": "KOLETTE",
-    "probabilidad": 5.9
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -869,7 +869,7 @@
     "carrera": 17,
     "numero": 1.0,
     "caballo": "MR MISTER",
-    "probabilidad": 6.1
+    "probabilidad": 3.9
   },
   {
     "fecha": "2025-12-29",
@@ -877,7 +877,7 @@
     "carrera": 17,
     "numero": 2.0,
     "caballo": "TANGO Y COMPAS",
-    "probabilidad": 5.8
+    "probabilidad": 3.9
   },
   {
     "fecha": "2025-12-29",
@@ -885,7 +885,7 @@
     "carrera": 17,
     "numero": 3.0,
     "caballo": "QUIMBARA",
-    "probabilidad": 6.5
+    "probabilidad": 3.9
   },
   {
     "fecha": "2025-12-29",
@@ -893,7 +893,7 @@
     "carrera": 17,
     "numero": 4.0,
     "caballo": "RECHIFLAO",
-    "probabilidad": 6.5
+    "probabilidad": 16.4
   },
   {
     "fecha": "2025-12-29",
@@ -901,7 +901,7 @@
     "carrera": 17,
     "numero": 5.0,
     "caballo": "VALTTERI",
-    "probabilidad": 6.5
+    "probabilidad": 16.4
   },
   {
     "fecha": "2025-12-29",
@@ -909,7 +909,7 @@
     "carrera": 17,
     "numero": 6.0,
     "caballo": "LA PURA FE",
-    "probabilidad": 6.5
+    "probabilidad": 3.9
   },
   {
     "fecha": "2025-12-29",
@@ -917,7 +917,7 @@
     "carrera": 17,
     "numero": 7.0,
     "caballo": "GEROMILO",
-    "probabilidad": 6.5
+    "probabilidad": 3.9
   },
   {
     "fecha": "2025-12-29",
@@ -925,7 +925,7 @@
     "carrera": 17,
     "numero": 8.0,
     "caballo": "POWER MARINE",
-    "probabilidad": 6.5
+    "probabilidad": 3.9
   },
   {
     "fecha": "2025-12-29",
@@ -933,7 +933,7 @@
     "carrera": 17,
     "numero": 9.0,
     "caballo": "MI NONI",
-    "probabilidad": 6.1
+    "probabilidad": 3.9
   },
   {
     "fecha": "2025-12-29",
@@ -941,7 +941,7 @@
     "carrera": 17,
     "numero": 10.0,
     "caballo": "AGUILA DE FUEGO",
-    "probabilidad": 6.1
+    "probabilidad": 3.9
   },
   {
     "fecha": "2025-12-29",
@@ -949,7 +949,7 @@
     "carrera": 17,
     "numero": 11.0,
     "caballo": "MI PEQUE\u00d1O SUE\u00d1O",
-    "probabilidad": 6.1
+    "probabilidad": 3.9
   },
   {
     "fecha": "2025-12-29",
@@ -957,7 +957,7 @@
     "carrera": 17,
     "numero": 12.0,
     "caballo": "GRAN TOMAHAWK",
-    "probabilidad": 6.1
+    "probabilidad": 3.9
   },
   {
     "fecha": "2025-12-29",
@@ -965,7 +965,7 @@
     "carrera": 17,
     "numero": 13.0,
     "caballo": "PEQUE\u00d1O CRILIN",
-    "probabilidad": 6.1
+    "probabilidad": 3.9
   },
   {
     "fecha": "2025-12-29",
@@ -973,7 +973,7 @@
     "carrera": 17,
     "numero": 14.0,
     "caballo": "NOVELA GRIEGA",
-    "probabilidad": 6.1
+    "probabilidad": 3.9
   },
   {
     "fecha": "2025-12-29",
@@ -981,7 +981,7 @@
     "carrera": 17,
     "numero": 15.0,
     "caballo": "VAN DER SAR",
-    "probabilidad": 6.1
+    "probabilidad": 16.4
   },
   {
     "fecha": "2025-12-29",
@@ -989,7 +989,7 @@
     "carrera": 17,
     "numero": 16.0,
     "caballo": "HAMM GOOD",
-    "probabilidad": 6.5
+    "probabilidad": 3.9
   },
   {
     "fecha": "2025-12-29",
@@ -997,7 +997,7 @@
     "carrera": 18,
     "numero": 1.0,
     "caballo": "CROCKED",
-    "probabilidad": 6.6
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -1005,7 +1005,7 @@
     "carrera": 18,
     "numero": 2.0,
     "caballo": "VIVIMOS SO\u00d1ANDO",
-    "probabilidad": 6.6
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -1013,7 +1013,7 @@
     "carrera": 18,
     "numero": 3.0,
     "caballo": "GLAMROCK",
-    "probabilidad": 6.6
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -1021,7 +1021,7 @@
     "carrera": 18,
     "numero": 4.0,
     "caballo": "LA PALA",
-    "probabilidad": 6.2
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -1029,7 +1029,7 @@
     "carrera": 18,
     "numero": 5.0,
     "caballo": "MAKINEN",
-    "probabilidad": 6.2
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -1037,7 +1037,7 @@
     "carrera": 18,
     "numero": 6.0,
     "caballo": "DI ALBA",
-    "probabilidad": 5.9
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -1045,7 +1045,7 @@
     "carrera": 18,
     "numero": 7.0,
     "caballo": "SORELLA DEL KING",
-    "probabilidad": 5.9
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -1053,7 +1053,7 @@
     "carrera": 18,
     "numero": 8.0,
     "caballo": "FANTASTIC DREAM",
-    "probabilidad": 5.9
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -1061,7 +1061,7 @@
     "carrera": 18,
     "numero": 9.0,
     "caballo": "INDIA MAULINA",
-    "probabilidad": 5.9
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -1069,7 +1069,7 @@
     "carrera": 18,
     "numero": 10.0,
     "caballo": "SCANDINAVA",
-    "probabilidad": 6.2
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -1077,7 +1077,7 @@
     "carrera": 18,
     "numero": 11.0,
     "caballo": "LA TOTE",
-    "probabilidad": 5.9
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -1085,7 +1085,7 @@
     "carrera": 18,
     "numero": 12.0,
     "caballo": "CAPITANA MARVEL",
-    "probabilidad": 6.2
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -1093,7 +1093,7 @@
     "carrera": 18,
     "numero": 13.0,
     "caballo": "ROSARIO TIJERA",
-    "probabilidad": 6.6
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -1101,7 +1101,7 @@
     "carrera": 18,
     "numero": 14.0,
     "caballo": "QUEEN ANY",
-    "probabilidad": 6.6
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -1109,7 +1109,7 @@
     "carrera": 18,
     "numero": 15.0,
     "caballo": "SISI STAR",
-    "probabilidad": 6.3
+    "probabilidad": 21.8
   },
   {
     "fecha": "2025-12-29",
@@ -1117,7 +1117,7 @@
     "carrera": 18,
     "numero": 16.0,
     "caballo": "GUARDA BELLINA",
-    "probabilidad": 6.3
+    "probabilidad": 5.2
   },
   {
     "fecha": "2025-12-29",
@@ -1125,7 +1125,7 @@
     "carrera": 2,
     "numero": 1.0,
     "caballo": "MECEDOR",
-    "probabilidad": 9.7
+    "probabilidad": 7.6
   },
   {
     "fecha": "2025-12-29",
@@ -1133,7 +1133,7 @@
     "carrera": 2,
     "numero": 2.0,
     "caballo": "CONOCIENDOTE",
-    "probabilidad": 9.7
+    "probabilidad": 7.6
   },
   {
     "fecha": "2025-12-29",
@@ -1141,7 +1141,7 @@
     "carrera": 2,
     "numero": 3.0,
     "caballo": "PESO DORADO",
-    "probabilidad": 9.7
+    "probabilidad": 7.6
   },
   {
     "fecha": "2025-12-29",
@@ -1149,7 +1149,7 @@
     "carrera": 2,
     "numero": 4.0,
     "caballo": "VUELVE LA FARRA",
-    "probabilidad": 9.7
+    "probabilidad": 7.6
   },
   {
     "fecha": "2025-12-29",
@@ -1157,7 +1157,7 @@
     "carrera": 2,
     "numero": 5.0,
     "caballo": "NATALINO",
-    "probabilidad": 9.7
+    "probabilidad": 7.6
   },
   {
     "fecha": "2025-12-29",
@@ -1165,7 +1165,7 @@
     "carrera": 2,
     "numero": 6.0,
     "caballo": "GRAND CASABLANCA",
-    "probabilidad": 10.3
+    "probabilidad": 7.6
   },
   {
     "fecha": "2025-12-29",
@@ -1173,7 +1173,7 @@
     "carrera": 2,
     "numero": 7.0,
     "caballo": "TANGERINE TANGO",
-    "probabilidad": 10.3
+    "probabilidad": 7.6
   },
   {
     "fecha": "2025-12-29",
@@ -1181,7 +1181,7 @@
     "carrera": 2,
     "numero": 8.0,
     "caballo": "PEDRINHO",
-    "probabilidad": 10.3
+    "probabilidad": 7.6
   },
   {
     "fecha": "2025-12-29",
@@ -1189,7 +1189,7 @@
     "carrera": 2,
     "numero": 9.0,
     "caballo": "EN CAPILLA",
-    "probabilidad": 10.3
+    "probabilidad": 7.6
   },
   {
     "fecha": "2025-12-29",
@@ -1197,7 +1197,7 @@
     "carrera": 2,
     "numero": 10.0,
     "caballo": "QUIEN ME PILLO",
-    "probabilidad": 10.3
+    "probabilidad": 31.7
   },
   {
     "fecha": "2025-12-29",
@@ -1205,7 +1205,7 @@
     "carrera": 3,
     "numero": 1.0,
     "caballo": "BALDER EL NORUEGO",
-    "probabilidad": 9.3
+    "probabilidad": 3.3
   },
   {
     "fecha": "2025-12-29",
@@ -1213,7 +1213,7 @@
     "carrera": 3,
     "numero": 2.0,
     "caballo": "INDHIRA",
-    "probabilidad": 8.6
+    "probabilidad": 3.3
   },
   {
     "fecha": "2025-12-29",
@@ -1221,7 +1221,7 @@
     "carrera": 3,
     "numero": 3.0,
     "caballo": "SAPIRONGO",
-    "probabilidad": 8.6
+    "probabilidad": 3.3
   },
   {
     "fecha": "2025-12-29",
@@ -1229,7 +1229,7 @@
     "carrera": 3,
     "numero": 4.0,
     "caballo": "ARTHUR SHELBY",
-    "probabilidad": 9.3
+    "probabilidad": 3.3
   },
   {
     "fecha": "2025-12-29",
@@ -1237,7 +1237,7 @@
     "carrera": 3,
     "numero": 5.0,
     "caballo": "MATE AMARGO",
-    "probabilidad": 9.3
+    "probabilidad": 3.3
   },
   {
     "fecha": "2025-12-29",
@@ -1245,7 +1245,7 @@
     "carrera": 3,
     "numero": 6.0,
     "caballo": "FERLUISI",
-    "probabilidad": 9.3
+    "probabilidad": 13.9
   },
   {
     "fecha": "2025-12-29",
@@ -1253,7 +1253,7 @@
     "carrera": 3,
     "numero": 7.0,
     "caballo": "KANDOZI",
-    "probabilidad": 9.3
+    "probabilidad": 13.9
   },
   {
     "fecha": "2025-12-29",
@@ -1261,7 +1261,7 @@
     "carrera": 3,
     "numero": 8.0,
     "caballo": "MISTER STRESS",
-    "probabilidad": 9.3
+    "probabilidad": 13.9
   },
   {
     "fecha": "2025-12-29",
@@ -1269,7 +1269,7 @@
     "carrera": 3,
     "numero": 9.0,
     "caballo": "PLUMA DE MAR",
-    "probabilidad": 9.3
+    "probabilidad": 13.9
   },
   {
     "fecha": "2025-12-29",
@@ -1277,7 +1277,7 @@
     "carrera": 3,
     "numero": 10.0,
     "caballo": "RAUCO",
-    "probabilidad": 9.3
+    "probabilidad": 13.9
   },
   {
     "fecha": "2025-12-29",
@@ -1285,7 +1285,7 @@
     "carrera": 3,
     "numero": 11.0,
     "caballo": "WONDERFUL STAR",
-    "probabilidad": 8.6
+    "probabilidad": 13.9
   },
   {
     "fecha": "2025-12-29",
@@ -1293,7 +1293,7 @@
     "carrera": 4,
     "numero": 1.0,
     "caballo": "MONARCA",
-    "probabilidad": 7.0
+    "probabilidad": 7.1
   },
   {
     "fecha": "2025-12-29",
@@ -1301,7 +1301,7 @@
     "carrera": 4,
     "numero": 2.0,
     "caballo": "EL BIGOTE",
-    "probabilidad": 7.0
+    "probabilidad": 7.1
   },
   {
     "fecha": "2025-12-29",
@@ -1309,7 +1309,7 @@
     "carrera": 4,
     "numero": 3.0,
     "caballo": "PERFECTA ACTITUD",
-    "probabilidad": 6.7
+    "probabilidad": 7.1
   },
   {
     "fecha": "2025-12-29",
@@ -1317,7 +1317,7 @@
     "carrera": 4,
     "numero": 4.0,
     "caballo": "SUE\u00d1O REALIDAD",
-    "probabilidad": 6.7
+    "probabilidad": 7.1
   },
   {
     "fecha": "2025-12-29",
@@ -1325,7 +1325,7 @@
     "carrera": 4,
     "numero": 5.0,
     "caballo": "TURQUESA DORADA",
-    "probabilidad": 7.0
+    "probabilidad": 7.1
   },
   {
     "fecha": "2025-12-29",
@@ -1333,7 +1333,7 @@
     "carrera": 4,
     "numero": 6.0,
     "caballo": "AMPAWAN",
-    "probabilidad": 6.7
+    "probabilidad": 7.1
   },
   {
     "fecha": "2025-12-29",
@@ -1341,7 +1341,7 @@
     "carrera": 4,
     "numero": 7.0,
     "caballo": "REINA DEL MONTE",
-    "probabilidad": 7.5
+    "probabilidad": 7.1
   },
   {
     "fecha": "2025-12-29",
@@ -1349,7 +1349,7 @@
     "carrera": 4,
     "numero": 8.0,
     "caballo": "EXTROVERTIDA",
-    "probabilidad": 7.5
+    "probabilidad": 7.1
   },
   {
     "fecha": "2025-12-29",
@@ -1357,7 +1357,7 @@
     "carrera": 4,
     "numero": 9.0,
     "caballo": "LITTLE GASPI",
-    "probabilidad": 7.5
+    "probabilidad": 7.1
   },
   {
     "fecha": "2025-12-29",
@@ -1365,7 +1365,7 @@
     "carrera": 4,
     "numero": 10.0,
     "caballo": "MARULINA",
-    "probabilidad": 7.5
+    "probabilidad": 7.1
   },
   {
     "fecha": "2025-12-29",
@@ -1373,7 +1373,7 @@
     "carrera": 4,
     "numero": 11.0,
     "caballo": "OJO DE HALCON",
-    "probabilidad": 7.5
+    "probabilidad": 7.1
   },
   {
     "fecha": "2025-12-29",
@@ -1381,7 +1381,7 @@
     "carrera": 4,
     "numero": 12.0,
     "caballo": "SEE YOU AGAIN",
-    "probabilidad": 7.0
+    "probabilidad": 7.1
   },
   {
     "fecha": "2025-12-29",
@@ -1389,7 +1389,7 @@
     "carrera": 4,
     "numero": 13.0,
     "caballo": "MOSASAURUS",
-    "probabilidad": 7.0
+    "probabilidad": 7.1
   },
   {
     "fecha": "2025-12-29",
@@ -1397,7 +1397,7 @@
     "carrera": 4,
     "numero": 14.0,
     "caballo": "CABLE A TIERRA",
-    "probabilidad": 7.0
+    "probabilidad": 7.1
   },
   {
     "fecha": "2025-12-29",
@@ -1405,7 +1405,7 @@
     "carrera": 5,
     "numero": 1.0,
     "caballo": "CONQUISTADO",
-    "probabilidad": 7.0
+    "probabilidad": 2.2
   },
   {
     "fecha": "2025-12-29",
@@ -1413,7 +1413,7 @@
     "carrera": 5,
     "numero": 2.0,
     "caballo": "EL ATREVIDO",
-    "probabilidad": 7.0
+    "probabilidad": 2.2
   },
   {
     "fecha": "2025-12-29",
@@ -1421,7 +1421,7 @@
     "carrera": 5,
     "numero": 3.0,
     "caballo": "CRUZA EL RIO",
-    "probabilidad": 7.0
+    "probabilidad": 2.2
   },
   {
     "fecha": "2025-12-29",
@@ -1429,7 +1429,7 @@
     "carrera": 5,
     "numero": 4.0,
     "caballo": "TIO SALCHICHA",
-    "probabilidad": 6.7
+    "probabilidad": 2.2
   },
   {
     "fecha": "2025-12-29",
@@ -1437,7 +1437,7 @@
     "carrera": 5,
     "numero": 5.0,
     "caballo": "VIAJE A CARMEL",
-    "probabilidad": 7.5
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1445,7 +1445,7 @@
     "carrera": 5,
     "numero": 6.0,
     "caballo": "CATANZARO",
-    "probabilidad": 7.5
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1453,7 +1453,7 @@
     "carrera": 5,
     "numero": 7.0,
     "caballo": "MUSICO Y SOLDADO",
-    "probabilidad": 7.5
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1461,7 +1461,7 @@
     "carrera": 5,
     "numero": 8.0,
     "caballo": "EL SALVADOR",
-    "probabilidad": 7.5
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1469,7 +1469,7 @@
     "carrera": 5,
     "numero": 9.0,
     "caballo": "COCHEPE",
-    "probabilidad": 7.0
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1477,7 +1477,7 @@
     "carrera": 5,
     "numero": 10.0,
     "caballo": "GOLDEN COPPER",
-    "probabilidad": 7.0
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1485,7 +1485,7 @@
     "carrera": 5,
     "numero": 11.0,
     "caballo": "PERDUTO",
-    "probabilidad": 6.7
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1493,7 +1493,7 @@
     "carrera": 5,
     "numero": 12.0,
     "caballo": "EL JEI",
-    "probabilidad": 6.7
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1501,7 +1501,7 @@
     "carrera": 5,
     "numero": 13.0,
     "caballo": "SALTARIN",
-    "probabilidad": 7.0
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1509,7 +1509,7 @@
     "carrera": 5,
     "numero": 14.0,
     "caballo": "ERKAN",
-    "probabilidad": 7.5
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1517,7 +1517,7 @@
     "carrera": 6,
     "numero": 1.0,
     "caballo": "GENESIS",
-    "probabilidad": 9.3
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1525,7 +1525,7 @@
     "carrera": 6,
     "numero": 2.0,
     "caballo": "MI MAMA INES",
-    "probabilidad": 9.3
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1533,7 +1533,7 @@
     "carrera": 6,
     "numero": 3.0,
     "caballo": "GOOD SEA",
-    "probabilidad": 9.3
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1541,7 +1541,7 @@
     "carrera": 6,
     "numero": 4.0,
     "caballo": "SELVA BELLA",
-    "probabilidad": 9.3
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1549,7 +1549,7 @@
     "carrera": 6,
     "numero": 5.0,
     "caballo": "VELATRI",
-    "probabilidad": 9.3
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1557,7 +1557,7 @@
     "carrera": 6,
     "numero": 6.0,
     "caballo": "LADY IN BLACK",
-    "probabilidad": 9.3
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1565,7 +1565,7 @@
     "carrera": 6,
     "numero": 7.0,
     "caballo": "REINHA",
-    "probabilidad": 9.3
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1573,7 +1573,7 @@
     "carrera": 6,
     "numero": 8.0,
     "caballo": "MIA SELENTANA",
-    "probabilidad": 9.3
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1581,7 +1581,7 @@
     "carrera": 6,
     "numero": 9.0,
     "caballo": "CAMBIA EL SWITCH",
-    "probabilidad": 8.7
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1589,7 +1589,7 @@
     "carrera": 6,
     "numero": 10.0,
     "caballo": "PER NIENTE",
-    "probabilidad": 8.7
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1597,7 +1597,7 @@
     "carrera": 6,
     "numero": 11.0,
     "caballo": "SANDIA",
-    "probabilidad": 8.3
+    "probabilidad": 9.1
   },
   {
     "fecha": "2025-12-29",
@@ -1605,7 +1605,7 @@
     "carrera": 7,
     "numero": NaN,
     "caballo": "LINDO RECUERDO",
-    "probabilidad": 5.4
+    "probabilidad": 3.3
   },
   {
     "fecha": "2025-12-29",
@@ -1613,7 +1613,7 @@
     "carrera": 7,
     "numero": NaN,
     "caballo": "SIMONE BULL",
-    "probabilidad": 5.4
+    "probabilidad": 3.3
   },
   {
     "fecha": "2025-12-29",
@@ -1621,7 +1621,7 @@
     "carrera": 7,
     "numero": NaN,
     "caballo": "LINDO RECUERDO",
-    "probabilidad": 5.4
+    "probabilidad": 3.3
   },
   {
     "fecha": "2025-12-29",
@@ -1629,7 +1629,39 @@
     "carrera": 7,
     "numero": NaN,
     "caballo": "SIMONE BULL",
-    "probabilidad": 5.4
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2025-12-29",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 7,
+    "numero": NaN,
+    "caballo": "LINDO RECUERDO",
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2025-12-29",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 7,
+    "numero": NaN,
+    "caballo": "SIMONE BULL",
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2025-12-29",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 7,
+    "numero": NaN,
+    "caballo": "LINDO RECUERDO",
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2025-12-29",
+    "hipodromo": "Club H\u00edpico de Santiago",
+    "carrera": 7,
+    "numero": NaN,
+    "caballo": "SIMONE BULL",
+    "probabilidad": 3.3
   },
   {
     "fecha": "2025-12-29",
@@ -1637,7 +1669,7 @@
     "carrera": 7,
     "numero": 1.0,
     "caballo": "BEN MAMUT",
-    "probabilidad": 5.8
+    "probabilidad": 2.5
   },
   {
     "fecha": "2025-12-29",
@@ -1645,7 +1677,7 @@
     "carrera": 7,
     "numero": 2.0,
     "caballo": "EL LUBRISHELL",
-    "probabilidad": 5.8
+    "probabilidad": 2.5
   },
   {
     "fecha": "2025-12-29",
@@ -1653,7 +1685,7 @@
     "carrera": 7,
     "numero": 3.0,
     "caballo": "CATAPOS",
-    "probabilidad": 5.8
+    "probabilidad": 10.3
   },
   {
     "fecha": "2025-12-29",
@@ -1661,7 +1693,7 @@
     "carrera": 7,
     "numero": 4.0,
     "caballo": "POETA GRIEGO",
-    "probabilidad": 5.8
+    "probabilidad": 10.3
   },
   {
     "fecha": "2025-12-29",
@@ -1669,7 +1701,7 @@
     "carrera": 7,
     "numero": 5.0,
     "caballo": "PRIMAZO",
-    "probabilidad": 5.8
+    "probabilidad": 2.5
   },
   {
     "fecha": "2025-12-29",
@@ -1677,7 +1709,7 @@
     "carrera": 7,
     "numero": 8.0,
     "caballo": "ALFONSO EL GRANDE",
-    "probabilidad": 5.8
+    "probabilidad": 2.5
   },
   {
     "fecha": "2025-12-29",
@@ -1685,7 +1717,7 @@
     "carrera": 7,
     "numero": 9.0,
     "caballo": "ARRUMACO",
-    "probabilidad": 5.8
+    "probabilidad": 10.3
   },
   {
     "fecha": "2025-12-29",
@@ -1693,7 +1725,7 @@
     "carrera": 7,
     "numero": 10.0,
     "caballo": "GUACHACA",
-    "probabilidad": 5.2
+    "probabilidad": 2.5
   },
   {
     "fecha": "2025-12-29",
@@ -1701,7 +1733,7 @@
     "carrera": 7,
     "numero": 11.0,
     "caballo": "MACRON",
-    "probabilidad": 5.8
+    "probabilidad": 2.5
   },
   {
     "fecha": "2025-12-29",
@@ -1709,7 +1741,7 @@
     "carrera": 7,
     "numero": 12.0,
     "caballo": "EN CHATEAUROUX",
-    "probabilidad": 5.2
+    "probabilidad": 10.3
   },
   {
     "fecha": "2025-12-29",
@@ -1717,7 +1749,7 @@
     "carrera": 7,
     "numero": 13.0,
     "caballo": "MY SWEET LORD",
-    "probabilidad": 5.2
+    "probabilidad": 2.5
   },
   {
     "fecha": "2025-12-29",
@@ -1725,7 +1757,7 @@
     "carrera": 7,
     "numero": 14.0,
     "caballo": "MI GIGANTE",
-    "probabilidad": 5.4
+    "probabilidad": 2.5
   },
   {
     "fecha": "2025-12-29",
@@ -1733,7 +1765,7 @@
     "carrera": 7,
     "numero": 15.0,
     "caballo": "SIEMPRE ESTOY",
-    "probabilidad": 5.4
+    "probabilidad": 10.3
   },
   {
     "fecha": "2025-12-29",
@@ -1741,7 +1773,7 @@
     "carrera": 7,
     "numero": 16.0,
     "caballo": "LUQUITAS",
-    "probabilidad": 5.4
+    "probabilidad": 2.5
   },
   {
     "fecha": "2025-12-29",
@@ -1749,7 +1781,7 @@
     "carrera": 8,
     "numero": 1.0,
     "caballo": "GRIEZMANN",
-    "probabilidad": 9.7
+    "probabilidad": 15.9
   },
   {
     "fecha": "2025-12-29",
@@ -1757,7 +1789,7 @@
     "carrera": 8,
     "numero": 2.0,
     "caballo": "GALWAY GIRL",
-    "probabilidad": 9.7
+    "probabilidad": 15.9
   },
   {
     "fecha": "2025-12-29",
@@ -1765,7 +1797,7 @@
     "carrera": 8,
     "numero": 3.0,
     "caballo": "EL PITIN",
-    "probabilidad": 10.3
+    "probabilidad": 3.8
   },
   {
     "fecha": "2025-12-29",
@@ -1773,7 +1805,7 @@
     "carrera": 8,
     "numero": 4.0,
     "caballo": "LIMATOWN",
-    "probabilidad": 10.3
+    "probabilidad": 3.8
   },
   {
     "fecha": "2025-12-29",
@@ -1781,7 +1813,7 @@
     "carrera": 8,
     "numero": 5.0,
     "caballo": "BESO AL CIELO",
-    "probabilidad": 10.3
+    "probabilidad": 15.9
   },
   {
     "fecha": "2025-12-29",
@@ -1789,7 +1821,7 @@
     "carrera": 8,
     "numero": 6.0,
     "caballo": "SEE ME",
-    "probabilidad": 10.3
+    "probabilidad": 15.9
   },
   {
     "fecha": "2025-12-29",
@@ -1797,7 +1829,7 @@
     "carrera": 8,
     "numero": 7.0,
     "caballo": "BREGO",
-    "probabilidad": 10.3
+    "probabilidad": 3.8
   },
   {
     "fecha": "2025-12-29",
@@ -1805,7 +1837,7 @@
     "carrera": 8,
     "numero": 8.0,
     "caballo": "PALACETE",
-    "probabilidad": 9.7
+    "probabilidad": 15.9
   },
   {
     "fecha": "2025-12-29",
@@ -1813,7 +1845,7 @@
     "carrera": 8,
     "numero": 9.0,
     "caballo": "STRAY KIDS",
-    "probabilidad": 9.7
+    "probabilidad": 3.8
   },
   {
     "fecha": "2025-12-29",
@@ -1821,7 +1853,7 @@
     "carrera": 8,
     "numero": 10.0,
     "caballo": "ONIX BLUE",
-    "probabilidad": 9.7
+    "probabilidad": 5.1
   },
   {
     "fecha": "2025-12-29",
@@ -1829,7 +1861,7 @@
     "carrera": 9,
     "numero": 1.0,
     "caballo": "ESTILO ANTIGUO",
-    "probabilidad": 10.7
+    "probabilidad": 8.2
   },
   {
     "fecha": "2025-12-29",
@@ -1837,7 +1869,7 @@
     "carrera": 9,
     "numero": 2.0,
     "caballo": "MISIA NONI",
-    "probabilidad": 10.7
+    "probabilidad": 8.2
   },
   {
     "fecha": "2025-12-29",
@@ -1845,7 +1877,7 @@
     "carrera": 9,
     "numero": 3.0,
     "caballo": "GOLFISTA",
-    "probabilidad": 10.7
+    "probabilidad": 6.1
   },
   {
     "fecha": "2025-12-29",
@@ -1853,7 +1885,7 @@
     "carrera": 9,
     "numero": 4.0,
     "caballo": "REINA EGIPCIA",
-    "probabilidad": 10.7
+    "probabilidad": 6.1
   },
   {
     "fecha": "2025-12-29",
@@ -1861,7 +1893,7 @@
     "carrera": 9,
     "numero": 5.0,
     "caballo": "SIN EL",
-    "probabilidad": 11.4
+    "probabilidad": 25.5
   },
   {
     "fecha": "2025-12-29",
@@ -1869,7 +1901,7 @@
     "carrera": 9,
     "numero": 6.0,
     "caballo": "NI\u00d1ITA POR DIOS",
-    "probabilidad": 11.4
+    "probabilidad": 6.1
   },
   {
     "fecha": "2025-12-29",
@@ -1877,7 +1909,7 @@
     "carrera": 9,
     "numero": 7.0,
     "caballo": "PARA SIEMPRE",
-    "probabilidad": 11.4
+    "probabilidad": 25.5
   },
   {
     "fecha": "2025-12-29",
@@ -1885,7 +1917,7 @@
     "carrera": 9,
     "numero": 8.0,
     "caballo": "NILCA",
-    "probabilidad": 11.4
+    "probabilidad": 6.1
   },
   {
     "fecha": "2025-12-29",
@@ -1893,6 +1925,1230 @@
     "carrera": 9,
     "numero": 9.0,
     "caballo": "BLUE FOR EVER",
-    "probabilidad": 11.4
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 1,
+    "numero": 1.0,
+    "caballo": "EL MISTER",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 1,
+    "numero": 2.0,
+    "caballo": "KITTEN'S BLACK",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 1,
+    "numero": 3.0,
+    "caballo": "DON BRUNO",
+    "probabilidad": 18.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 1,
+    "numero": 4.0,
+    "caballo": "PICHO AMADO",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 1,
+    "numero": 5.0,
+    "caballo": "LOCO HERMES",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 1,
+    "numero": 6.0,
+    "caballo": "PAZZELLE",
+    "probabilidad": 18.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 1,
+    "numero": 7.0,
+    "caballo": "TOPACIO AZUL",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 1,
+    "numero": 8.0,
+    "caballo": "STRACCIATELLA",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 1,
+    "numero": 9.0,
+    "caballo": "MISTER CESAR",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 1,
+    "numero": 10.0,
+    "caballo": "ROM TALE (USA)",
+    "probabilidad": 18.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 1,
+    "numero": 11.0,
+    "caballo": "MU\u00d1ECO DASH",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 1,
+    "numero": 12.0,
+    "caballo": "RUBIO ALOCADO",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 1,
+    "numero": 13.0,
+    "caballo": "LUCKY BOSS",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 10,
+    "numero": 1.0,
+    "caballo": "BONE LESS",
+    "probabilidad": 19.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 10,
+    "numero": 2.0,
+    "caballo": "GLADIADOR ART",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 10,
+    "numero": 3.0,
+    "caballo": "BAPKIZA",
+    "probabilidad": 19.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 10,
+    "numero": 4.0,
+    "caballo": "LILYBETH",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 10,
+    "numero": 5.0,
+    "caballo": "GLADIATORE",
+    "probabilidad": 19.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 10,
+    "numero": 6.0,
+    "caballo": "KYO",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 10,
+    "numero": 7.0,
+    "caballo": "TED",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 10,
+    "numero": 8.0,
+    "caballo": "MISTER VILLAGRA",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 10,
+    "numero": 9.0,
+    "caballo": "JAPONEITOR",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 10,
+    "numero": 10.0,
+    "caballo": "LIO CORDILLERANO",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 10,
+    "numero": 11.0,
+    "caballo": "JUSTINSITO CRACK",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 10,
+    "numero": 12.0,
+    "caballo": "MAYSTER",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 11,
+    "numero": 1.0,
+    "caballo": "BACK TO BLACK",
+    "probabilidad": 20.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 11,
+    "numero": 2.0,
+    "caballo": "DALE ISI",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 11,
+    "numero": 3.0,
+    "caballo": "ANTTYAL",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 11,
+    "numero": 4.0,
+    "caballo": "MALA MEMORIA",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 11,
+    "numero": 5.0,
+    "caballo": "TE QUIERO TODAMA",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 11,
+    "numero": 6.0,
+    "caballo": "BREEZY STAR",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 11,
+    "numero": 7.0,
+    "caballo": "SPOTTER",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 11,
+    "numero": 8.0,
+    "caballo": "MERADONNA",
+    "probabilidad": 20.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 11,
+    "numero": 9.0,
+    "caballo": "GERASIMOVA",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 11,
+    "numero": 10.0,
+    "caballo": "MALAGACY GREEN",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 11,
+    "numero": 11.0,
+    "caballo": "INDIAN MELODY",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 11,
+    "numero": 12.0,
+    "caballo": "MALDOTTI",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 11,
+    "numero": 13.0,
+    "caballo": "GRACIA CLASICA",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 11,
+    "numero": 14.0,
+    "caballo": "EL PALOMO",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 12,
+    "numero": 1.0,
+    "caballo": "HUEVO DE CHOCOLATE",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 12,
+    "numero": 2.0,
+    "caballo": "JARRA DE VINO",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 12,
+    "numero": 3.0,
+    "caballo": "EL RENACIDO",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 12,
+    "numero": 4.0,
+    "caballo": "DEFENSOR ROJO",
+    "probabilidad": 18.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 12,
+    "numero": 5.0,
+    "caballo": "PRINCESITACAMI (ARG)",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 12,
+    "numero": 6.0,
+    "caballo": "CONDUCTA INFAME",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 12,
+    "numero": 7.0,
+    "caballo": "SORAILA",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 12,
+    "numero": 8.0,
+    "caballo": "NO MIRES ATRAS",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 12,
+    "numero": 9.0,
+    "caballo": "TIENES MI SONRISA",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 12,
+    "numero": 10.0,
+    "caballo": "HOFFA",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 12,
+    "numero": 11.0,
+    "caballo": "VELETA DE PROA",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 12,
+    "numero": 12.0,
+    "caballo": "LUIVERAR",
+    "probabilidad": 18.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 12,
+    "numero": 13.0,
+    "caballo": "ROYAL FIERCE",
+    "probabilidad": 18.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 13,
+    "numero": 1.0,
+    "caballo": "LUCKY STORM",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 13,
+    "numero": 2.0,
+    "caballo": "MR KISS",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 13,
+    "numero": 3.0,
+    "caballo": "CREO EN MI",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 13,
+    "numero": 4.0,
+    "caballo": "ROY PARA UN POCO",
+    "probabilidad": 2.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 13,
+    "numero": 5.0,
+    "caballo": "PAICAVI",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 13,
+    "numero": 6.0,
+    "caballo": "GRAN CAFRUNE",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 13,
+    "numero": 7.0,
+    "caballo": "WARRIOR SPIRIT",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 13,
+    "numero": 8.0,
+    "caballo": "MODELO DEL SALTO",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 13,
+    "numero": 9.0,
+    "caballo": "BETTER THAN",
+    "probabilidad": 2.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 13,
+    "numero": 10.0,
+    "caballo": "SALUS",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 13,
+    "numero": 11.0,
+    "caballo": "EL ESPIA",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 13,
+    "numero": 12.0,
+    "caballo": "KWIN",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 2,
+    "numero": 1.0,
+    "caballo": "DO\u00d1A MARLY",
+    "probabilidad": 2.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 2,
+    "numero": 2.0,
+    "caballo": "GO RUN GIGI",
+    "probabilidad": 2.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 2,
+    "numero": 3.0,
+    "caballo": "SCANDY DUBAI",
+    "probabilidad": 2.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 2,
+    "numero": 4.0,
+    "caballo": "PRESUMIDA FLAME",
+    "probabilidad": 12.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 2,
+    "numero": 5.0,
+    "caballo": "KAT DUBAI",
+    "probabilidad": 2.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 2,
+    "numero": 6.0,
+    "caballo": "MOROCHA DE ORO",
+    "probabilidad": 2.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 2,
+    "numero": 7.0,
+    "caballo": "SUMMER SOHN",
+    "probabilidad": 12.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 2,
+    "numero": 8.0,
+    "caballo": "STORMY LUCKY",
+    "probabilidad": 2.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 2,
+    "numero": 9.0,
+    "caballo": "MADAM SECRETARY",
+    "probabilidad": 12.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 2,
+    "numero": 10.0,
+    "caballo": "ROSITA DEL PUERTO",
+    "probabilidad": 12.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 2,
+    "numero": 11.0,
+    "caballo": "MI GRAN BICHOTA",
+    "probabilidad": 2.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 2,
+    "numero": 12.0,
+    "caballo": "SHIFLIN",
+    "probabilidad": 12.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 2,
+    "numero": 13.0,
+    "caballo": "LA PROPIA HERMANA",
+    "probabilidad": 2.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 2,
+    "numero": 14.0,
+    "caballo": "LADY LAURA",
+    "probabilidad": 12.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 2,
+    "numero": 15.0,
+    "caballo": "CIBELES (ARG)",
+    "probabilidad": 2.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 3,
+    "numero": 1.0,
+    "caballo": "EL HUEVO COTOTO",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 3,
+    "numero": 2.0,
+    "caballo": "MACKLIN",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 3,
+    "numero": 3.0,
+    "caballo": "CONDE AUSTRAL",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 3,
+    "numero": 4.0,
+    "caballo": "DULCE ANITA",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 3,
+    "numero": 5.0,
+    "caballo": "MOSCON TORDILLO",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 3,
+    "numero": 6.0,
+    "caballo": "GANDA YA",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 3,
+    "numero": 7.0,
+    "caballo": "SUAVE BRISA",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 3,
+    "numero": 8.0,
+    "caballo": "MY SISTER",
+    "probabilidad": 27.2
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 3,
+    "numero": 9.0,
+    "caballo": "PHRODO",
+    "probabilidad": 27.2
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 4,
+    "numero": 1.0,
+    "caballo": "GRAN ESPARTACO",
+    "probabilidad": 16.1
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 4,
+    "numero": 2.0,
+    "caballo": "KING PAPER",
+    "probabilidad": 16.1
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 4,
+    "numero": 3.0,
+    "caballo": "GOCCE",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 4,
+    "numero": 4.0,
+    "caballo": "RADIO TEATRO (ARG)",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 4,
+    "numero": 5.0,
+    "caballo": "MONO MONIN",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 4,
+    "numero": 6.0,
+    "caballo": "PINTA DE MUSICO",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 4,
+    "numero": 7.0,
+    "caballo": "TE LO CEDO",
+    "probabilidad": 16.1
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 4,
+    "numero": 8.0,
+    "caballo": "SUPER PIRATA",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 4,
+    "numero": 9.0,
+    "caballo": "PABLOSKY",
+    "probabilidad": 16.1
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 4,
+    "numero": 10.0,
+    "caballo": "SO HANDSOME",
+    "probabilidad": 16.1
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 5,
+    "numero": 1.0,
+    "caballo": "INDIAN SYMPHONY",
+    "probabilidad": 13.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 5,
+    "numero": 2.0,
+    "caballo": "RESPECT",
+    "probabilidad": 13.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 5,
+    "numero": 3.0,
+    "caballo": "CLAU THE GOLD",
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 5,
+    "numero": 4.0,
+    "caballo": "HOOT PRIZE",
+    "probabilidad": 13.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 5,
+    "numero": 5.0,
+    "caballo": "ROGLIC",
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 5,
+    "numero": 6.0,
+    "caballo": "EL LOBO PAGA",
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 5,
+    "numero": 7.0,
+    "caballo": "LOBELIUS",
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 5,
+    "numero": 8.0,
+    "caballo": "THE GREAT DANY",
+    "probabilidad": 13.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 5,
+    "numero": 9.0,
+    "caballo": "ADIOS",
+    "probabilidad": 13.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 5,
+    "numero": 10.0,
+    "caballo": "LA TIA ELENA",
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 5,
+    "numero": 11.0,
+    "caballo": "DESPROLIJO",
+    "probabilidad": 13.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 6,
+    "numero": 1.0,
+    "caballo": "DRAKE (ARG)",
+    "probabilidad": 10.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 6,
+    "numero": 2.0,
+    "caballo": "MIPIPO",
+    "probabilidad": 10.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 6,
+    "numero": 3.0,
+    "caballo": "BOMBONETE",
+    "probabilidad": 10.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 6,
+    "numero": 4.0,
+    "caballo": "CANDELARIA BLIZ",
+    "probabilidad": 10.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 6,
+    "numero": 5.0,
+    "caballo": "TANYTUS",
+    "probabilidad": 10.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 6,
+    "numero": 6.0,
+    "caballo": "CALIFORNIA SPRING",
+    "probabilidad": 10.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 6,
+    "numero": 7.0,
+    "caballo": "THE GREAT TEXAS",
+    "probabilidad": 2.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 6,
+    "numero": 8.0,
+    "caballo": "MUBARAK",
+    "probabilidad": 10.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 6,
+    "numero": 9.0,
+    "caballo": "ALGO LE PASO",
+    "probabilidad": 10.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 6,
+    "numero": 10.0,
+    "caballo": "LIUCURA PARK",
+    "probabilidad": 2.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 6,
+    "numero": 11.0,
+    "caballo": "CALA DE ORO",
+    "probabilidad": 10.5
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 7,
+    "numero": 1.0,
+    "caballo": "HENDRICKS",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 7,
+    "numero": 2.0,
+    "caballo": "SAG GIGA",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 7,
+    "numero": 3.0,
+    "caballo": "MAX FOUR",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 7,
+    "numero": 4.0,
+    "caballo": "RAIMUNDO A",
+    "probabilidad": 16.1
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 7,
+    "numero": 5.0,
+    "caballo": "THE GREAT JOHNNY",
+    "probabilidad": 16.1
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 7,
+    "numero": 6.0,
+    "caballo": "MCCLANE",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 7,
+    "numero": 7.0,
+    "caballo": "ROPOPOMPOM",
+    "probabilidad": 16.1
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 7,
+    "numero": 8.0,
+    "caballo": "BLUE LABEL",
+    "probabilidad": 16.1
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 7,
+    "numero": 9.0,
+    "caballo": "AMIGO FARUK",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 7,
+    "numero": 10.0,
+    "caballo": "ZIM",
+    "probabilidad": 16.1
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 8,
+    "numero": 1.0,
+    "caballo": "ENCANTO VELOZ",
+    "probabilidad": 17.6
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 8,
+    "numero": 2.0,
+    "caballo": "OCHO DE ABRIL",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 8,
+    "numero": 3.0,
+    "caballo": "MUY AMIGO",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 8,
+    "numero": 4.0,
+    "caballo": "IRISH BOY",
+    "probabilidad": 17.6
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 8,
+    "numero": 5.0,
+    "caballo": "WHITE SPIRIT",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 8,
+    "numero": 6.0,
+    "caballo": "GOOD RUNNER",
+    "probabilidad": 17.6
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 8,
+    "numero": 7.0,
+    "caballo": "EXHAUSTING",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 8,
+    "numero": 8.0,
+    "caballo": "RULE OF LAW",
+    "probabilidad": 17.6
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 8,
+    "numero": 9.0,
+    "caballo": "RUBATO",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 8,
+    "numero": 10.0,
+    "caballo": "DOPPLER",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 8,
+    "numero": 11.0,
+    "caballo": "CAFE RISTRETTO",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 9,
+    "numero": 1.0,
+    "caballo": "AHI VIENE AHI VA",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 9,
+    "numero": 2.0,
+    "caballo": "LUCA BRASI",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 9,
+    "numero": 3.0,
+    "caballo": "AFIRMATE GATO",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 9,
+    "numero": 4.0,
+    "caballo": "TERUKA",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 9,
+    "numero": 5.0,
+    "caballo": "NARCISISTA",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 9,
+    "numero": 6.0,
+    "caballo": "RIO PEREZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 9,
+    "numero": 7.0,
+    "caballo": "XENOTES",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 9,
+    "numero": 8.0,
+    "caballo": "VESUBIO",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 9,
+    "numero": 9.0,
+    "caballo": "POLLOLLO",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 9,
+    "numero": 10.0,
+    "caballo": "THUNDERMAN",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 9,
+    "numero": 11.0,
+    "caballo": "PRINCESA LUDY",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2025-12-31",
+    "hipodromo": "Valpara\u00edso Sporting",
+    "carrera": 9,
+    "numero": 12.0,
+    "caballo": "TODO CAMBIA",
+    "probabilidad": 8.3
   }
 ]

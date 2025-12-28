@@ -1,14 +1,11 @@
 import sqlite3
 import pandas as pd
-import itertools
-import functools
-
 import os
 import json
 import joblib
 import numpy as np
 from datetime import datetime, timedelta
-from .features import FeatureEngineering
+
 
 def cargar_datos(nombre_db='data/db/hipica_data.db'):
     """Carga los datos desde la base de datos SQLite (tabla antigua para compatibilidad)."""
@@ -144,356 +141,9 @@ def cargar_programa(nombre_db='data/db/hipica_data.db', solo_futuras=True):
         print(f"Error cargando programa: {e}")
         return pd.DataFrame()
 
-# Global variable for in-memory cache to replace lru_cache
-_memory_cache = {
-    'data': None,
-    'mtime': 0,
-    'path': None
-}
+# [CLEANUP] Legacy in-memory cache and local inference logic removed.
+# Refer to Firestore implementation below.
 
-def obtener_analisis_jornada():
-    """Genera análisis usando ML o carga desde cache con validación de frescura."""
-    # --- CACHE LOGIC START ---
-    from pathlib import Path
-    import json
-    
-    # Intentar cargar desde cache
-    try:
-        # Ajustamos path para que funcione tanto local como en container
-        cache_path = Path("data/cache_analisis.json")
-        if not cache_path.exists():
-             cache_path = Path("app/data/cache_analisis.json")
-
-        if cache_path.exists():
-            current_mtime = cache_path.stat().st_mtime
-            
-            # Check if we have valid memory cache
-            # NOTE: We still need to re-filter memory cache if the day changed, 
-            # but for simplicity we rely on the fact the file usually updates daily.
-            # Ideally we should filter the return value regardless of source.
-            # But let's apply filter on load.
-            
-            if _memory_cache['data'] is not None and \
-               _memory_cache['path'] == str(cache_path) and \
-               _memory_cache['mtime'] == current_mtime:
-               
-                # Re-apply filter to memory cache to be safe (in case day changed while app running)
-                # Chile time offset
-                chile_time = datetime.utcnow() - timedelta(hours=3)
-                today_str = chile_time.strftime('%Y-%m-%d')
-                
-                filtered_mem_data = [
-                    d for d in _memory_cache['data'] 
-                    if d.get('fecha') >= today_str
-                ]
-                return filtered_mem_data
-
-            # If not in memory or file changed, reload from disk
-            with open(cache_path, 'r', encoding='utf-8') as f:
-                print(f"⚡ [DISK] Recargando cache predicciones ({current_mtime})")
-                data = json.load(f)
-                
-                # --- FILTER LOGIC START ---
-                # Chile time offset
-                chile_time = datetime.utcnow() - timedelta(hours=3)
-                today_str = chile_time.strftime('%Y-%m-%d')
-                
-                # Filter strictly future/today
-                data = [d for d in data if d.get('fecha') >= today_str]
-                # --- FILTER LOGIC END ---
-                
-                # FIX: Normalizar nombres de hipódromos 'legacy' o 'raw' al vuelo
-                # Esto corrige VALP/VAL -> Valparaíso Sporting inmediatamente en la vista
-                for carrera in data:
-                    hip = carrera.get('hipodromo', '')
-                    if hip == 'VALP' or hip == 'VAL':
-                        carrera['hipodromo'] = 'Valparaíso Sporting'
-                    elif hip == 'CHH':
-                        carrera['hipodromo'] = 'Club Hípico'
-                
-                # Update memory cache
-                _memory_cache['data'] = data
-                _memory_cache['mtime'] = current_mtime
-                _memory_cache['path'] = str(cache_path)
-                
-                return data
-    except Exception as e:
-        print(f"⚠️ Error al leer cache, calculando dinámicamente: {e}")
-        # Invalidate memory cache on error
-        _memory_cache['data'] = None
-    # --- CACHE LOGIC END ---
-
-    print("🔄 Calculando predicciones dinámicamente...")
-    # Cargar programa (ya filtrado >= hoy por defecto)
-    df_programa = cargar_programa(solo_futuras=True)
-    
-    if df_programa.empty:
-        return []
-        
-    analisis_completo = []
-    
-    # Cargar modelo ML v3 + Features
-    model = None
-    fe = None
-    try:
-        if os.path.exists("src/models/lgbm_ranker_v1.pkl"):
-            model = joblib.load("src/models/lgbm_ranker_v1.pkl")
-            fe = FeatureEngineering.load("src/models/feature_eng_v2.pkl")
-            ml_available = True
-        elif os.path.exists('src/models/gb_model_v3.pkl'):
-            model = joblib.load('src/models/gb_model_v3.pkl')
-            fe = FeatureEngineering.load('src/models/feature_eng_v2.pkl')
-            ml_available = True
-        else:
-             ml_available = False
-    except:
-        ml_available = False
-    
-    # Cargar datos históricos para features
-    df_historial = cargar_datos_3nf()
-    
-    if not df_programa.empty:
-        if 'fecha' in df_programa.columns:
-            df_programa['fecha_dt'] = pd.to_datetime(df_programa['fecha'])
-            # Filtrar para mostrar programas desde hoy en adelante
-            if not df_programa.empty:
-                # today = datetime.now().strftime('%Y-%m-%d')
-                # future_programs = df_programa[df_programa['fecha'] >= today]
-                # Para permitir calcular precisión histórica, procesamos todo
-                future_programs = df_programa
-                
-                if not future_programs.empty:
-                    df_programa = future_programs
-                else:
-                    # Si no hay futuros, mostrar el último disponible (fallback)
-                    latest_date = df_programa['fecha_dt'].max()
-                    df_programa = df_programa[df_programa['fecha_dt'] == latest_date]
-
-            
-    if 'numero' in df_programa.columns and not df_programa.empty:
-        # Assuming 'nro_carrera' exists or 'carrera' column
-        carrera_col = 'nro_carrera' if 'nro_carrera' in df_programa.columns else 'carrera'
-        
-        grupos = df_programa.groupby(['fecha', 'hipodromo', carrera_col])
-        
-        for (fecha, hipodromo, nro_carrera), grupo in grupos:
-            caballos_df = grupo[['numero', 'caballo', 'jinete', 'stud', 'peso']].copy()
-            caballos_df['numero'] = pd.to_numeric(caballos_df['numero'], errors='coerce').fillna(0).astype(int)
-            caballos_df = caballos_df.sort_values('numero').reset_index(drop=True)
-            
-            # Extract context for ML
-            distancia_val = grupo.iloc[0]['distancia'] 
-            try:
-                distancia_val = float(str(distancia_val).replace('.','')) if isinstance(distancia_val, str) else float(distancia_val)
-            except:
-                distancia_val = 1100.0
-
-            fecha_val = grupo.iloc[0]['fecha']
-            pista_val = grupo.iloc[0].get('condicion', 'ARENA')
-            
-            # Context dict
-            ctx = {
-                'distancia': distancia_val,
-                'fecha': fecha_val,
-                'pista': pista_val,
-                'hipodromo': hipodromo
-            }
-
-            if ml_available and not df_historial.empty:
-                predicciones = analizar_probabilidad_caballos(caballos_df, df_historial, model=model, fe=fe, context=ctx)
-            else:
-                predicciones = analizar_probabilidad_caballos(caballos_df, df_historial, model=None, fe=None, context=ctx)
-            
-            caballos_df.columns = ['Nº', 'Caballo', 'Jinete', 'Stud', 'Peso']
-            
-            analisis_completo.append({
-                'hipodromo': hipodromo,
-                'carrera': nro_carrera,
-                'fecha': fecha,
-                'hora': grupo.iloc[0]['hora'],
-                'distancia': grupo.iloc[0]['distancia'],
-                'caballos': caballos_df,
-                'predicciones': predicciones
-            })
-    
-    analisis_completo.sort(key=lambda x: (x['fecha'], x['hipodromo'], x['carrera']))
-    return analisis_completo
-
-def analizar_probabilidad_caballos(caballos_df, historial_resultados, model=None, fe=None, context=None):
-    """Analiza probabilidades usando ML (LGBMRanker + Softmax) o Heurística."""
-    if historial_resultados.empty or caballos_df.empty:
-        return []
-
-    # Check for V2 Model override (if passed None, try load?)
-    # Usually model is passed from `obtener_analisis_jornada` which loads it.
-    # We assume `model` passed here is the correct one.
-    
-    scores = []
-    
-    # Context
-    distancia = context.get('distancia', 1000) if context else 1000
-    fecha_carrera = pd.to_datetime(context.get('fecha', datetime.now())) if context else datetime.now()
-    pista = context.get('pista', 'ARENA') if context else 'ARENA'
-
-    # Vectors for Batch Prediction
-    X_batch = []
-    indices_batch = []
-
-    for idx, row in caballos_df.iterrows():
-        nombre = row.get('caballo', '').strip()
-        val_num = row.get('numero', 0)
-        jinete_nombre = row.get('jinete', 'Jinete')
-        peso_val = row.get('peso', 470)
-        
-        # Heuristic Score (legacy fallback factor)
-        heuristic_score = 50.0
-        
-        # Robust Name Matching
-        caballo_hist = historial_resultados[historial_resultados['caballo'] == nombre].sort_values('fecha')
-        if caballo_hist.empty:
-             caballo_hist = historial_resultados[historial_resultados['caballo'].str.strip() == nombre].sort_values('fecha')
-
-        if not caballo_hist.empty:
-            wins = len(caballo_hist[caballo_hist['posicion'] == 1])
-            runs = len(caballo_hist)
-            win_rate = wins / runs if runs > 0 else 0
-            heuristic_score += (win_rate * 50.0)
-            try:
-                days = (fecha_carrera - pd.to_datetime(caballo_hist.iloc[-1]['fecha'])).days
-                if days < 30: heuristic_score += 5
-            except: pass
-        else:
-            heuristic_score = 45.0 # Debutante
-
-        # ML Feature Generation (Keep per-horse lag logic)
-        ml_ready = False
-        if model and fe:
-            try:
-                # IDs
-                j_id = 0
-                j_hist = historial_resultados[historial_resultados['jinete'] == jinete_nombre]
-                if not j_hist.empty: j_id = j_hist.iloc[0]['jinete_id']
-                
-                c_id = 0
-                if not caballo_hist.empty: c_id = caballo_hist.iloc[0]['caballo_id']
-                
-                # Padre/Preparador would be needed for V2 features but we might lack them in `caballos_df` inputs
-                # `caballos_df` comes from `programa` table. 
-                # If we updated `programa` table or query to include them?
-                # For now we use defaults or partial info.
-                
-                current_row = {
-                    'fecha': fecha_carrera,
-                    'caballo_id': c_id,
-                    'jinete_id': j_id,
-                    'distancia': distancia,
-                    'pista': pista,
-                    'peso_fs': peso_val,
-                    'mandil': val_num,
-                    'tiempo': 0, 'posicion': 0, 'is_win': 0,
-                    # Added for V2 support if columns exist in FE expectations, else filled 0
-                    'preparador_id': 0, # TODO: Pass preparador from context or df
-                    'padre': '0'
-                }
-                
-                cols_needed = ['fecha', 'caballo_id', 'jinete_id', 'distancia', 'pista', 'peso_fs', 'mandil', 'tiempo', 'posicion']
-                # If dataframe has more cols (v2 prep), we need them. 
-                # For now simply concat.
-                
-                if caballo_hist.empty:
-                     h_subset = pd.DataFrame([current_row]) 
-                else:
-                     # Ensure cols match
-                     common_cols = list(set(caballo_hist.columns) & set(current_row.keys()))
-                     # We need columns that FE expects. FE is robust to missing?
-                     # FE V2 expects 'preparador_id' etc.
-                     # We should ensure `historial_resultados` has them?
-                     # `obtener_resultados_historicos` query needs update for V2?
-                     # Assuming for now we do best effort.
-                     h_subset = pd.concat([caballo_hist[cols_needed].copy(), pd.DataFrame([current_row])], ignore_index=True)
-                
-                feats = fe.transform(h_subset, is_training=False)
-                last_feat = feats.iloc[-1:].copy()
-                
-                X_batch.append(last_feat)
-                indices_batch.append(idx)
-                ml_ready = True
-                
-            except Exception as e:
-                # print(f"ML Step Error: {e}")
-                pass
-        
-        # Store metadata
-        scores.append({
-            'idx': idx,
-            'numero': int(val_num),
-            'caballo': nombre,
-            'jinete': jinete_nombre,
-            'heuristic': heuristic_score,
-            'ml_score': 0.0, # Will fill later
-            'final_prob': 0.0
-        })
-
-    # Batch Prediction & Softmax
-    if X_batch and model:
-        try:
-            X_full = pd.concat(X_batch)
-            
-            # Predict
-            # Check if predict_proba (Classifier) or predict (Ranker)
-            if hasattr(model, "predict_proba"):
-                # Classifier (Legacy)
-                probs = model.predict_proba(X_full)[:, 1]
-                # Normalize sum to 1? Or just use raw prob?
-                # User asked for Softmax on Ranker.
-                # If classifier, probs are 0-1.
-                raw_preds = probs * 10 # Scale up for softmax?
-            else:
-                # Ranker (LGBM `predict` returns raw score/margin)
-                raw_preds = model.predict(X_full)
-            
-            # Apply Softmax
-            exp_preds = np.exp(raw_preds)
-            softmax_probs = exp_preds / np.sum(exp_preds)
-            
-            # Assign back
-            for i, score_idx in enumerate(indices_batch):
-                # Find the score obj with this idx
-                for s in scores:
-                    if s['idx'] == score_idx:
-                        s['ml_score'] = float(softmax_probs[i]) * 100.0 # Percent
-                        break
-                        
-        except Exception as e:
-            print(f"Batch predict error: {e}")
-
-    # Final Adjustment / Formatting
-    # If ML failed, use heuristic 50-50
-    # Usage: If ml_score is present, it is the PRIMARY score (Softmax).
-    # We might mix heuristic for "Hybrid" approach or just trust LGBM V2.
-    # "Pista Inteligente v2" implies trusting the Ranker.
-    
-    final_output = []
-    scores.sort(key=lambda x: x['ml_score'] if x['ml_score'] > 0 else x['heuristic'], reverse=True)
-    
-    for s in scores:
-        # If ml_score > 0, use it. Else fall back to heuristic normalized?
-        if s['ml_score'] > 0:
-            final_prob = s['ml_score']
-        else:
-            # Normalize heuristic locally?
-            final_prob = 50.0 
-            
-        final_output.append({
-            'numero': s['numero'],
-            'caballo': s['caballo'],
-            'jinete': s['jinete'],
-            'puntaje_ia': round(final_prob, 1), # This is now % chance
-            'prob_ml': f"{final_prob:.1f}"
-        })
-
-    # Return top 4
-    return final_output[:4]
 
 # --- FIRESTORE INTEGRATION (HYBRID VIEW) ---
 import firebase_admin
@@ -588,7 +238,12 @@ def obtener_analisis_jornada(use_firestore=True):
                 'prob_ml': f"{det.get('probabilidad', 0):.1f}"
             })
             
-        race_obj['predicciones'] = view_preds
+        # 🚨 CRÍTICO: Ordenar por probabilidad ANTES de limitar
+        # Sin esto, muestra en orden correlativo (1,2,3,4) en lugar de por predicción del modelo
+        view_preds.sort(key=lambda x: x['puntaje_ia'], reverse=True)
+        
+        # Limit to Top 4 for display
+        race_obj['predicciones'] = view_preds[:4]
         analisis_completo.append(race_obj)
 
     # Sort: Date -> Hipodromo -> Race Number
@@ -603,13 +258,7 @@ def obtener_lista_hipodromos():
     except Exception:
         return ['club hípico de santiago', 'hipódromo chile']
         
-    # DEAD CODE REMOVED (Local DB Logic)
-    """
-    try:
-        df = cargar_datos_3nf()
-        if df.empty:
-             df = cargar_datos()
-    """
+
              
 
 
@@ -883,11 +532,13 @@ def detectar_patrones_futuros():
         
         for carrera in programa:
             # Caballos en esta carrera futura
-            # carrera['caballos'] is a list of dicts or DF. data_manager returns dicts in serializable.
-            # But inside data_manager, obtaining directly might be list of dicts if cached, or dict if not.
-            # obtener_analisis_jornada checks cache and returns list of dicts.
-            
+            # Fix: Firestore version returns 'predicciones', not 'caballos'.
+            # 'predicciones' contains enriched horse data.
             caballos_carrera = carrera.get('caballos', [])
+            if not caballos_carrera and 'predicciones' in carrera:
+                 caballos_carrera = carrera['predicciones']
+            
+            # Normalize names
             # Normalize names
             nombres_carrera = set()
             for c in caballos_carrera:

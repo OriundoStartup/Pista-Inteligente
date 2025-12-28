@@ -55,7 +55,14 @@ class FeatureEngineering(BaseEstimator, TransformerMixin):
         
         # --- PREPROCESSING ---
         df['fecha'] = pd.to_datetime(df['fecha'])
-        df = df.sort_values('fecha')
+        
+        # ✅ CRÍTICO: Ordenar por caballo Y fecha para evitar leakage
+        df = df.sort_values(['caballo_id', 'fecha']).reset_index(drop=True)
+        
+        # Validación anti-leakage
+        grouped_check = df.groupby('caballo_id')['fecha']
+        if not grouped_check.apply(lambda x: x.is_monotonic_increasing).all():
+            raise ValueError("❌ LEAKAGE RISK: Fechas no están ordenadas correctamente por caballo")
         
         # Numeric conversions
         df['posicion'] = pd.to_numeric(df['posicion'], errors='coerce').fillna(0)

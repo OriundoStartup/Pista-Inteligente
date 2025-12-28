@@ -150,9 +150,59 @@ class HipicaLearner:
         # Save
         print("\n💾 Guardando artefactos...")
         os.makedirs('src/models', exist_ok=True)
-        # New filename v1
-        joblib.dump(self.model, 'src/models/lgbm_ranker_v1.pkl')
-        self.fe.save('src/models/feature_eng_v2.pkl')
+        
+        from datetime import datetime
+        import json
+        
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        
+        # Paths con timestamp
+        model_path = f'src/models/lgbm_ranker_v1_{timestamp}.pkl'
+        fe_path = f'src/models/feature_eng_v2_{timestamp}.pkl'
+        
+        joblib.dump(self.model, model_path)
+        self.fe.save(fe_path)
+        
+        # Metadata
+        metadata = {
+            'timestamp': timestamp,
+            'model_type': 'LGBMRanker',
+            'model_path': model_path,
+            'fe_path': fe_path,
+            'training_samples': len(X_train),
+            'test_samples': len(X_test),
+            'n_features': X_train.shape[1],
+            'feature_names': list(X_train.columns),
+            'hyperparameters': {
+                'objective': 'lambdarank',
+                'metric': 'ndcg',
+                'n_estimators': 500,
+                'learning_rate': 0.05,
+                'num_leaves': 31,
+                'random_state': 42,
+                'importance_type': 'gain'
+            },
+            'best_iteration': int(self.model.best_iteration_) if hasattr(self.model, 'best_iteration_') else None,
+            'feature_importance': dict(zip(
+                X_train.columns,
+                [float(x) for x in self.model.feature_importances_.tolist()]
+            ))
+        }
+        
+        # Guardar metadata
+        metadata_path = f'src/models/metadata_v1_{timestamp}.json'
+        with open(metadata_path, 'w', encoding='utf-8') as f:
+            json.dump(metadata, f, indent=2, ensure_ascii=False)
+        
+        # Crear alias "latest" para producción
+        import shutil
+        shutil.copy(model_path, 'src/models/lgbm_ranker_v1.pkl')
+        shutil.copy(fe_path, 'src/models/feature_eng_v2.pkl')
+        
+        print(f"✅ Modelo guardado: {model_path}")
+        print(f"✅ Metadata guardada: {metadata_path}")
+        if metadata['best_iteration']:
+            print(f"✅ Best iteration: {metadata['best_iteration']}")
         
         print("✅ Modelo Ranker V1 Guardado.")
 

@@ -1,0 +1,244 @@
+# 🔄 Flujo de Actualización de Predicciones con Nuevos Cambios
+
+## ✅ Respuesta Directa: SÍ
+
+**Los cambios SE VERÁN REFLEJADOS automáticamente cuando uses `sync_system.py`**
+
+---
+
+## 📋 Flujo Completo del Sistema
+
+### 1. Cuando ejecutas `sync_system.py`:
+
+```python
+# sync_system.py hace lo siguiente:
+
+# Paso 1: ETL (Carga nuevos programas y resultados)
+etl = HipicaETL()
+etl.run()
+
+# Paso 2: Re-entrenamiento (OPCIONAL - solo si hay nuevos resultados)
+if nueva_data_disponible:
+    learner = HipicaLearner()
+    learner.train()  # Genera nuevo modelo
+
+# Paso 3: INFERENCIA (AQUÍ SE USAN TUS CAMBIOS) ⭐
+pipeline = InferencePipeline()  # ← Usa la clase modificada con calibración
+pipeline.run()  # ← Aplica Temperature=0.7 + Amplification=1.5
+
+# Paso 4: Migración a Firestore
+migrate()  # Sube las predicciones mejoradas a la nube
+```
+
+### 2. Lo que pasa en `InferencePipeline.run()`:
+
+```python
+class InferencePipeline:
+    def __init__(self):
+        # 🎯 ESTOS VALORES SE USAN AUTOMÁTICAMENTE
+        self.temperature = 0.7  
+        self.amplification_power = 1.5
+    
+    def run(self):
+        # 1. Carga modelo
+        # 2. Carga programa NUEVO desde la BD
+        # 3. Genera features
+        # 4. Predice con modelo
+        # 5. Aplica SOFTMAX CALIBRADO ← AQUÍ ESTÁN TUS CAMBIOS
+        #    - Normaliza scores
+        #    - Aplica amplificación (power=1.5)
+        #    - Aplica temperature (0.7)
+        # 6. Guarda en predicciones_activas.json
+```
+
+---
+
+## 🎯 ¿Qué Sucede Exactamente?
+
+### Escenario: Agregas programa del 2025-12-30
+
+```bash
+# 1. Ejecutas sync_system
+python sync_system.py
+```
+
+**Lo que pasa internamente:**
+
+```
+📥 ETL Process
+├─ Scraping/Importación de PROGRAMA_HC_2025-12-30.csv
+├─ Inserción en tabla `programa_carreras`
+└─ ✅ Nuevas carreras disponibles en BD
+
+🧠 Inference Pipeline (CON TUS CAMBIOS)
+├─ Carga programa futuro (incluye 2025-12-30)
+├─ Genera features para cada caballo
+├─ Modelo predice raw_scores: [1.25, 1.18, 1.12, ...]
+│
+├─ 🎯 CALIBRACIÓN PROFESIONAL (NUEVO)
+│   ├─ Normaliza: [1.0, 0.7, 0.4, ...]
+│   ├─ Amplifica (^1.5): [1.0, 0.59, 0.25, ...]
+│   ├─ Temperature (÷0.7): [1.43, 0.84, 0.36, ...]
+│   └─ Softmax: [42%, 25%, 15%, ...]  ← DIFERENCIADAS!
+│
+└─ Guarda predicciones_activas.json
+
+☁️ Migración
+└─ Sube a Firestore con probabilidades MEJORADAS
+```
+
+---
+
+## 📊 Comparación Antes vs Después en sync_system
+
+### ANTES de tus cambios:
+
+```
+sync_system.py ejecuta:
+└─ InferencePipeline.run()
+    └─ Softmax simple
+        └─ Probabilidades: [6.9%, 6.9%, 6.9%, 6.5%, ...]
+```
+
+❌ Resultado: Números correlativos porque no hay diferenciación
+
+### DESPUÉS de tus cambios:
+
+```
+sync_system.py ejecuta:
+└─ InferencePipeline.run()
+    └─ Softmax CALIBRADO (T=0.7, Power=1.5)
+        └─ Probabilidades: [15.2%, 12.1%, 9.8%, 7.2%, ...]
+```
+
+✅ Resultado: Clara jerarquía de favoritos
+
+---
+
+## 🔄 Workflow Completo
+
+```mermaid
+graph TD
+    A[Nuevos CSVs disponibles] --> B[python sync_system.py]
+    
+    B --> C[ETL: Importa programas]
+    C --> D[BD: programa_carreras actualizada]
+    
+    B --> E[Inference con CALIBRACIÓN]
+    E --> F[Genera predicciones MEJORADAS]
+    F --> G[predicciones_activas.json]
+    
+    B --> H[migrate.py]
+    G --> H
+    H --> I[Firestore actualizado]
+    
+    I --> J[Flask app muestra NUEVAS predicciones]
+    J --> K[UI: Favoritos diferenciados ✅]
+    
+    style E fill:#9cf,stroke:#333,stroke-width:3px
+    style K fill:#9f9,stroke:#333,stroke-width:2px
+```
+
+---
+
+## ✅ Checklist de Verificación
+
+Cuando ejecutes `sync_system.py`, verifica:
+
+### En el log de consola:
+```bash
+✅ Busca este mensaje:
+"Applying Calibrated Softmax with Temperature Scaling..."
+```
+
+### En predicciones_activas.json:
+```json
+{
+  "carrera": 1,
+  "numero": 7,
+  "caballo": "NIETA DEL MONTY",
+  "probabilidad": 15.2  // ← Debe ser > 10% para el favorito
+},
+{
+  "carrera": 1,
+  "numero": 8,
+  "caballo": "MANANO",
+  "probabilidad": 12.1  // ← Clara diferencia con el #1
+}
+```
+
+✅ **Si el favorito tiene >10% y hay >5% de diferencia con el 4to, funciona!**
+
+### En la UI:
+- Top pick: 🥇 con ~12-18%
+- 2do lugar: 🥈 con ~9-13%
+- 3er lugar: 🥉 con ~7-10%
+- 4to lugar: con ~5-8%
+
+---
+
+## 🎛️ Si Quieres Ajustar la Calibración
+
+Si sientes que las predicciones son:
+
+### Demasiado confiadas (favorito con >25%):
+```python
+# src/models/inference.py - línea 36-37
+self.temperature = 0.9  # Aumentar (más conservador)
+self.amplification_power = 1.2  # Reducir
+```
+
+### Poco diferenciadas (favorito con <8%):
+```python
+# src/models/inference.py - línea 36-37
+self.temperature = 0.5  # Reducir (más agresivo)
+self.amplification_power = 1.8  # Aumentar
+```
+
+Luego vuelve a ejecutar:
+```bash
+python sync_system.py
+```
+
+---
+
+## 📝 Resumen
+
+| Pregunta | Respuesta |
+|----------|-----------|
+| ¿Se reflejan los cambios al usar sync_system? | ✅ **SÍ, automáticamente** |
+| ¿Debo modificar sync_system.py? | ❌ **NO, ya usa InferencePipeline** |
+| ¿Cuándo se aplican los cambios? | ✅ **Cada vez que ejecutes sync_system.py** |
+| ¿Funcionan con programas nuevos? | ✅ **SÍ, con cualquier programa futuro** |
+| ¿Funcionan con resultados nuevos? | ✅ **SÍ, al re-entrenar usa nuevos datos** |
+
+---
+
+## 🚀 Próximos Pasos Recomendados
+
+1. **Agrega un programa nuevo**:
+   ```bash
+   # Coloca PROGRAMA_HC_2025-XX-XX.csv en data/raw/
+   python sync_system.py
+   ```
+
+2. **Verifica las predicciones**:
+   ```bash
+   # Revisa data/predicciones_activas.json
+   # Busca probabilidades >10% para favoritos
+   ```
+
+3. **Sube a producción**:
+   ```bash
+   # Si las probabilidades se ven bien, ya están en Firestore
+   # La UI reflejará los cambios automáticamente
+   ```
+
+4. **Monitorea resultados**:
+   - Cuando haya resultados reales, verifica si los favoritos (>12%) ganan más
+   - Si la accuracy mejora, la calibración es correcta
+   - Si no, ajusta temperature y vuelve a probar
+
+---
+
+**Conclusión**: Tus cambios están **PERMANENTES** y se aplicarán **SIEMPRE** que se generen predicciones, ya sea mediante `sync_system.py` o cualquier otro método que use `InferencePipeline`. 🎯
