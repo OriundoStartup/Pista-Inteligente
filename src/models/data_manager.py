@@ -588,11 +588,7 @@ def obtener_analisis_jornada(use_firestore=True):
                 'prob_ml': f"{det.get('probabilidad', 0):.1f}"
             })
             
-        # Sort by IA Score descending
-        view_preds.sort(key=lambda x: x['puntaje_ia'], reverse=True)
-        
-        # Limit to Top 4
-        race_obj['predicciones'] = view_preds[:4]
+        race_obj['predicciones'] = view_preds
         analisis_completo.append(race_obj)
 
     # Sort: Date -> Hipodromo -> Race Number
