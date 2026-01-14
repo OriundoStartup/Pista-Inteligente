@@ -37,7 +37,8 @@ Para usar las funcionalidades de IA, necesitas configurar tu API Key de Gemini:
 🔒 IMPORTANTE: El archivo .env no se subirá a Git (está en .gitignore)
 """
         print(error_msg)
-        raise ValueError("GEMINI_API_KEY no configurada. Ver instrucciones arriba.")
+        # raise ValueError("GEMINI_API_KEY no configurada. Ver instrucciones arriba.")
+        print("⚠️ Continuando sin soporte de IA... (No API Key)")
     else:
         # Configurar explícitamente con API key
         genai.configure(api_key=api_key)

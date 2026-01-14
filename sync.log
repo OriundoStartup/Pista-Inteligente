@@ -74,3 +74,691 @@
 2025-12-28 19:07:10,553 - INFO - 🎉 SINCRONIZACIÓN FINALIZADA en 7.32 segundos.
 2025-12-28 19:07:10,553 - INFO -  -> Base de datos Local: ACTUALIZADA
 2025-12-28 19:07:10,553 - INFO -  -> Predicciones: DISPONIBLES
+2025-12-28 20:44:16,143 - INFO - ==================================================
+2025-12-28 20:44:16,143 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2025-12-28 20:44:16,143 - INFO -    MODELO: ENSEMBLE V4
+2025-12-28 20:44:16,143 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2025-12-28 20:44:16,143 - INFO - ==================================================
+2025-12-28 20:44:16,144 - INFO - [PASO 1/4] Ejecutando ETL (Extracción de Datos)...
+2025-12-28 20:44:16,254 - INFO - ✅ Se han procesado 3 archivos nuevos.
+2025-12-28 20:44:16,254 - INFO -    Tiempo: 0.1s
+2025-12-28 20:44:16,299 - INFO - [PASO 2/4] Entrenando Ensemble v4 (LightGBM + XGBoost + CatBoost)...
+2025-12-28 20:44:18,577 - ERROR - ⚠️ Error en entrenamiento ensemble: Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\train_v4_ensemble.py", line 15, in <module>
+    from src.models.ensemble_ranker import EnsembleRanker, compare_ensemble_vs_baseline
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\ensemble_ranker.py", line 13, in <module>
+    from xgboost import XGBRanker
+ModuleNotFoundError: No module named 'xgboost'
+
+2025-12-28 20:44:18,578 - WARNING -  -> Fallback a baseline v2...
+2025-12-28 20:44:18,578 - ERROR - ⚠️ Error entrenando ensemble: Ensemble training failed
+2025-12-28 20:44:18,578 - INFO -    Intentando con baseline v2...
+2025-12-28 20:44:18,578 - INFO - [PASO 2/4] Entrenando Baseline v2 (LightGBM)...
+2025-12-28 20:44:20,252 - INFO - ✅ Baseline v2 entrenado exitosamente.
+2025-12-28 20:44:20,252 - INFO -    Tiempo entrenamiento: 4.0s
+2025-12-28 20:44:20,299 - INFO - [PASO 3/4] Ejecutando Pipeline de Inferencia...
+2025-12-28 20:44:20,300 - INFO -    Usando: Baseline v2 (LightGBM)
+2025-12-28 20:44:24,071 - INFO - ✅ Inferencia completada exitosamente.
+2025-12-28 20:44:24,071 - INFO -    Últimas líneas de inferencia:
+2025-12-28 20:44:24,072 - INFO -    -> ⚖️ Applying Softmax Normalization...
+2025-12-28 20:44:24,072 - INFO -    -> ✅ Saved 396 predictions to data/predicciones_activas.json
+2025-12-28 20:44:24,072 - INFO -    -> ✅ Saved to DB table 'predicciones_activas'
+2025-12-28 20:44:24,072 - INFO -    Tiempo inferencia: 3.8s
+2025-12-28 20:44:24,121 - INFO - [PASO 4/4] Migrando datos a Firestore...
+2025-12-28 20:44:42,438 - INFO - ✅ Migración a Firestore completada.
+2025-12-28 20:44:42,438 - INFO -    Tiempo migración: 18.3s
+2025-12-28 20:44:42,478 - INFO - 
+======================================================================
+2025-12-28 20:44:42,478 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 26.33s
+2025-12-28 20:44:42,478 - INFO - ======================================================================
+2025-12-28 20:44:42,478 - INFO -  -> Modelo usado: ENSEMBLE V4
+2025-12-28 20:44:42,478 - INFO -  -> Base de datos Local: ACTUALIZADA
+2025-12-28 20:44:42,478 - INFO -  -> Predicciones: DISPONIBLES
+2025-12-28 20:44:42,478 - INFO -  -> Firebase: SINCRONIZADO
+2025-12-28 20:44:42,479 - INFO - ======================================================================
+2025-12-29 21:54:54,231 - INFO - ==================================================
+2025-12-29 21:54:54,231 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2025-12-29 21:54:54,231 - INFO -    MODELO: ENSEMBLE V4
+2025-12-29 21:54:54,231 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2025-12-29 21:54:54,231 - INFO - ==================================================
+2025-12-29 21:54:54,231 - INFO - [PASO 1/4] Ejecutando ETL (Extracción de Datos)...
+2025-12-29 21:54:54,295 - INFO - ✅ Se han procesado 1 archivos nuevos.
+2025-12-29 21:54:54,296 - INFO -    Tiempo: 0.1s
+2025-12-29 21:54:54,345 - INFO - [PASO 2/4] Entrenando Ensemble v4 (LightGBM + XGBoost + CatBoost)...
+2025-12-29 21:54:56,557 - ERROR - ⚠️ Error en entrenamiento ensemble: Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\train_v4_ensemble.py", line 15, in <module>
+    from src.models.ensemble_ranker import EnsembleRanker, compare_ensemble_vs_baseline
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\ensemble_ranker.py", line 13, in <module>
+    from xgboost import XGBRanker
+ModuleNotFoundError: No module named 'xgboost'
+
+2025-12-29 21:54:56,558 - WARNING -  -> Fallback a baseline v2...
+2025-12-29 21:54:56,558 - ERROR - ⚠️ Error entrenando ensemble: Ensemble training failed
+2025-12-29 21:54:56,558 - INFO -    Intentando con baseline v2...
+2025-12-29 21:54:56,558 - INFO - [PASO 2/4] Entrenando Baseline v2 (LightGBM)...
+2025-12-29 21:54:59,188 - INFO - ✅ Baseline v2 entrenado exitosamente.
+2025-12-29 21:54:59,188 - INFO -    Tiempo entrenamiento: 4.8s
+2025-12-29 21:54:59,232 - INFO - [PASO 3/4] Ejecutando Pipeline de Inferencia...
+2025-12-29 21:54:59,232 - INFO -    Usando: Baseline v2 (LightGBM)
+2025-12-29 21:55:02,938 - INFO - ✅ Inferencia completada exitosamente.
+2025-12-29 21:55:02,939 - INFO -    Últimas líneas de inferencia:
+2025-12-29 21:55:02,939 - INFO -    -> ⚖️ Applying Softmax Normalization...
+2025-12-29 21:55:02,939 - INFO -    -> ✅ Saved 396 predictions to data/predicciones_activas.json
+2025-12-29 21:55:02,939 - INFO -    -> ✅ Saved to DB table 'predicciones_activas'
+2025-12-29 21:55:02,939 - INFO -    Tiempo inferencia: 3.7s
+2025-12-29 21:55:02,985 - INFO - [PASO 4/4] Migrando datos a Firestore...
+2025-12-29 21:55:21,411 - INFO - ✅ Migración a Firestore completada.
+2025-12-29 21:55:21,411 - INFO -    Tiempo migración: 18.4s
+2025-12-29 21:55:21,458 - INFO - 
+======================================================================
+2025-12-29 21:55:21,458 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 27.23s
+2025-12-29 21:55:21,458 - INFO - ======================================================================
+2025-12-29 21:55:21,458 - INFO -  -> Modelo usado: ENSEMBLE V4
+2025-12-29 21:55:21,458 - INFO -  -> Base de datos Local: ACTUALIZADA
+2025-12-29 21:55:21,458 - INFO -  -> Predicciones: DISPONIBLES
+2025-12-29 21:55:21,459 - INFO -  -> Firebase: SINCRONIZADO
+2025-12-29 21:55:21,459 - INFO - ======================================================================
+2025-12-29 21:55:23,825 - INFO - ==================================================
+2025-12-29 21:55:23,826 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2025-12-29 21:55:23,826 - INFO -    MODELO: ENSEMBLE V4
+2025-12-29 21:55:23,826 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2025-12-29 21:55:23,826 - INFO - ==================================================
+2025-12-29 21:55:23,826 - INFO - [PASO 1/4] Ejecutando ETL (Extracción de Datos)...
+2025-12-29 21:55:23,831 - INFO - ✅ No hay datos históricos nuevos.
+2025-12-29 21:55:23,831 - INFO -    Tiempo: 0.0s
+2025-12-29 21:55:23,905 - INFO - [PASO 2/4] Saltando entrenamiento (Modelo vigente).
+2025-12-29 21:55:23,905 - INFO - [PASO 3/4] Ejecutando Pipeline de Inferencia...
+2025-12-29 21:55:23,905 - INFO -    Usando: Ensemble v4 (LightGBM + XGBoost + CatBoost)
+2025-12-29 21:55:26,175 - ERROR - ❌ Error en Inferencia:
+2025-12-29 21:55:26,176 - ERROR - Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\inference_ensemble.py", line 21, in <module>
+    from src.models.ensemble_ranker import EnsembleRanker
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\ensemble_ranker.py", line 13, in <module>
+    from xgboost import XGBRanker
+ModuleNotFoundError: No module named 'xgboost'
+
+2025-12-29 21:55:26,176 - WARNING - ⚠️ Intentando con baseline v2...
+2025-12-29 21:55:29,910 - INFO - ✅ Inferencia con baseline completada.
+2025-12-29 21:55:29,910 - INFO -    Tiempo inferencia: 6.0s
+2025-12-29 21:55:29,952 - INFO - [PASO 4/4] Migrando datos a Firestore...
+2025-12-29 21:55:47,168 - INFO - ✅ Migración a Firestore completada.
+2025-12-29 21:55:47,168 - INFO -    Tiempo migración: 17.2s
+2025-12-29 21:55:47,227 - INFO - 
+======================================================================
+2025-12-29 21:55:47,228 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 23.40s
+2025-12-29 21:55:47,228 - INFO - ======================================================================
+2025-12-29 21:55:47,228 - INFO -  -> Modelo usado: ENSEMBLE V4
+2025-12-29 21:55:47,228 - INFO -  -> Base de datos Local: ACTUALIZADA
+2025-12-29 21:55:47,228 - INFO -  -> Predicciones: DISPONIBLES
+2025-12-29 21:55:47,228 - INFO -  -> Firebase: SINCRONIZADO
+2025-12-29 21:55:47,228 - INFO - ======================================================================
+2025-12-29 21:56:18,661 - INFO - ==================================================
+2025-12-29 21:56:18,661 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2025-12-29 21:56:18,661 - INFO -    MODELO: ENSEMBLE V4
+2025-12-29 21:56:18,662 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2025-12-29 21:56:18,662 - INFO - ==================================================
+2025-12-29 21:56:18,662 - INFO - [PASO 1/4] Ejecutando ETL (Extracción de Datos)...
+2025-12-29 21:56:18,776 - INFO - ✅ Se han procesado 4 archivos nuevos.
+2025-12-29 21:56:18,777 - INFO -    Tiempo: 0.1s
+2025-12-29 21:56:18,832 - INFO - [PASO 2/4] Entrenando Ensemble v4 (LightGBM + XGBoost + CatBoost)...
+2025-12-29 21:56:21,203 - ERROR - ⚠️ Error en entrenamiento ensemble: Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\train_v4_ensemble.py", line 15, in <module>
+    from src.models.ensemble_ranker import EnsembleRanker, compare_ensemble_vs_baseline
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\ensemble_ranker.py", line 13, in <module>
+    from xgboost import XGBRanker
+ModuleNotFoundError: No module named 'xgboost'
+
+2025-12-29 21:56:21,203 - WARNING -  -> Fallback a baseline v2...
+2025-12-29 21:56:21,203 - ERROR - ⚠️ Error entrenando ensemble: Ensemble training failed
+2025-12-29 21:56:21,203 - INFO -    Intentando con baseline v2...
+2025-12-29 21:56:21,203 - INFO - [PASO 2/4] Entrenando Baseline v2 (LightGBM)...
+2025-12-29 21:56:22,674 - INFO - ✅ Baseline v2 entrenado exitosamente.
+2025-12-29 21:56:22,674 - INFO -    Tiempo entrenamiento: 3.8s
+2025-12-29 21:56:22,738 - INFO - [PASO 3/4] Ejecutando Pipeline de Inferencia...
+2025-12-29 21:56:22,738 - INFO -    Usando: Baseline v2 (LightGBM)
+2025-12-29 21:56:26,675 - INFO - ✅ Inferencia completada exitosamente.
+2025-12-29 21:56:26,675 - INFO -    Últimas líneas de inferencia:
+2025-12-29 21:56:26,675 - INFO -    -> ⚖️ Applying Softmax Normalization...
+2025-12-29 21:56:26,675 - INFO -    -> ✅ Saved 398 predictions to data/predicciones_activas.json
+2025-12-29 21:56:26,675 - INFO -    -> ✅ Saved to DB table 'predicciones_activas'
+2025-12-29 21:56:26,675 - INFO -    Tiempo inferencia: 3.9s
+2025-12-29 21:56:26,730 - INFO - [PASO 4/4] Migrando datos a Firestore...
+2025-12-29 21:56:45,328 - INFO - ✅ Migración a Firestore completada.
+2025-12-29 21:56:45,329 - INFO -    Tiempo migración: 18.6s
+2025-12-29 21:56:45,408 - INFO - 
+======================================================================
+2025-12-29 21:56:45,408 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 26.75s
+2025-12-29 21:56:45,409 - INFO - ======================================================================
+2025-12-29 21:56:45,409 - INFO -  -> Modelo usado: ENSEMBLE V4
+2025-12-29 21:56:45,409 - INFO -  -> Base de datos Local: ACTUALIZADA
+2025-12-29 21:56:45,409 - INFO -  -> Predicciones: DISPONIBLES
+2025-12-29 21:56:45,409 - INFO -  -> Firebase: SINCRONIZADO
+2025-12-29 21:56:45,409 - INFO - ======================================================================
+2025-12-29 22:00:36,340 - INFO - ==================================================
+2025-12-29 22:00:36,341 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2025-12-29 22:00:36,341 - INFO -    MODELO: ENSEMBLE V4
+2025-12-29 22:00:36,341 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2025-12-29 22:00:36,341 - INFO - ==================================================
+2025-12-29 22:00:36,341 - INFO - [PASO 1/4] Ejecutando ETL (Extracción de Datos)...
+2025-12-29 22:00:36,450 - INFO - ✅ Se han procesado 4 archivos nuevos.
+2025-12-29 22:00:36,450 - INFO -    Tiempo: 0.1s
+2025-12-29 22:00:36,494 - INFO - [PASO 2/4] Entrenando Ensemble v4 (LightGBM + XGBoost + CatBoost)...
+2025-12-29 22:00:38,719 - ERROR - ⚠️ Error en entrenamiento ensemble: Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\train_v4_ensemble.py", line 15, in <module>
+    from src.models.ensemble_ranker import EnsembleRanker, compare_ensemble_vs_baseline
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\ensemble_ranker.py", line 13, in <module>
+    from xgboost import XGBRanker
+ModuleNotFoundError: No module named 'xgboost'
+
+2025-12-29 22:00:38,719 - WARNING -  -> Fallback a baseline v2...
+2025-12-29 22:00:38,720 - ERROR - ⚠️ Error entrenando ensemble: Ensemble training failed
+2025-12-29 22:00:38,720 - INFO -    Intentando con baseline v2...
+2025-12-29 22:00:38,720 - INFO - [PASO 2/4] Entrenando Baseline v2 (LightGBM)...
+2025-12-29 22:00:40,122 - INFO - ✅ Baseline v2 entrenado exitosamente.
+2025-12-29 22:00:40,122 - INFO -    Tiempo entrenamiento: 3.6s
+2025-12-29 22:00:40,170 - INFO - [PASO 3/4] Ejecutando Pipeline de Inferencia...
+2025-12-29 22:00:40,170 - INFO -    Usando: Baseline v2 (LightGBM)
+2025-12-29 22:00:43,844 - INFO - ✅ Inferencia completada exitosamente.
+2025-12-29 22:00:43,844 - INFO -    Últimas líneas de inferencia:
+2025-12-29 22:00:43,844 - INFO -    -> ⚖️ Applying Softmax Normalization...
+2025-12-29 22:00:43,844 - INFO -    -> ✅ Saved 400 predictions to data/predicciones_activas.json
+2025-12-29 22:00:43,844 - INFO -    -> ✅ Saved to DB table 'predicciones_activas'
+2025-12-29 22:00:43,845 - INFO -    Tiempo inferencia: 3.7s
+2025-12-29 22:00:43,892 - INFO - [PASO 4/4] Migrando datos a Firestore...
+2025-12-29 22:01:01,699 - INFO - ✅ Migración a Firestore completada.
+2025-12-29 22:01:01,699 - INFO -    Tiempo migración: 17.8s
+2025-12-29 22:01:01,738 - INFO - 
+======================================================================
+2025-12-29 22:01:01,738 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 25.40s
+2025-12-29 22:01:01,738 - INFO - ======================================================================
+2025-12-29 22:01:01,738 - INFO -  -> Modelo usado: ENSEMBLE V4
+2025-12-29 22:01:01,738 - INFO -  -> Base de datos Local: ACTUALIZADA
+2025-12-29 22:01:01,738 - INFO -  -> Predicciones: DISPONIBLES
+2025-12-29 22:01:01,738 - INFO -  -> Firebase: SINCRONIZADO
+2025-12-29 22:01:01,738 - INFO - ======================================================================
+2025-12-29 22:12:21,082 - INFO - ==================================================
+2025-12-29 22:12:21,082 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2025-12-29 22:12:21,082 - INFO -    MODELO: ENSEMBLE V4
+2025-12-29 22:12:21,082 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2025-12-29 22:12:21,082 - INFO - ==================================================
+2025-12-29 22:12:21,082 - INFO - [PASO 1/4] Ejecutando ETL (Extracción de Datos)...
+2025-12-29 22:12:21,087 - INFO - ✅ No hay datos históricos nuevos.
+2025-12-29 22:12:21,087 - INFO -    Tiempo: 0.0s
+2025-12-29 22:12:21,134 - INFO - [PASO 2/4] Saltando entrenamiento (Modelo vigente).
+2025-12-29 22:12:21,134 - INFO - [PASO 3/4] Ejecutando Pipeline de Inferencia...
+2025-12-29 22:12:21,134 - INFO -    Usando: Ensemble v4 (LightGBM + XGBoost + CatBoost)
+2025-12-29 22:12:24,356 - ERROR - ❌ Error en Inferencia:
+2025-12-29 22:12:24,357 - ERROR - INFO:__main__:======================================================================
+INFO:__main__:ENSEMBLE V4 INFERENCE PIPELINE
+INFO:__main__:======================================================================
+INFO:__main__:Ensemble: src/models/ensemble_latest.pkl
+INFO:__main__:FE: src/models/feature_eng_v4_ensemble.pkl
+INFO:__main__:======================================================================
+INFO:src.models.ensemble_ranker:\u2705 Ensemble cargado desde: src/models/ensemble_latest.pkl
+INFO:src.models.ensemble_ranker:   Timestamp: 20251229_220821
+INFO:src.models.ensemble_ranker:   Pesos:
+INFO:src.models.ensemble_ranker:      LightGBM    : 0.3079
+INFO:src.models.ensemble_ranker:      XGBoost     : -0.2703
+INFO:src.models.ensemble_ranker:      CatBoost    : -0.3237
+INFO:__main__:Artifacts loaded
+INFO:__main__:Loading historical data for features...
+INFO:__main__:\u2705 History loaded: 4,162 records
+INFO:__main__:
+[PASO 1/4] Cargando programa de carreras futuras...
+INFO:__main__:\u2705 Cargadas 400 entradas de programa futuro
+INFO:__main__:   Carreras �nicas: 18
+INFO:__main__:   Fechas: ['2025-12-29', '2025-12-31']
+INFO:__main__:
+[PASO 2/4] Transformando features...
+INFO:__main__:   Mapping names to IDs...
+INFO:__main__:   Concatenating history (0) + future (400)...
+C:\espacioDeTrabajo\HipicaAntigracity\src\models\inference_ensemble.py:231: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df_combined = pd.concat([hist_subset, df_future_input], ignore_index=True)
+INFO:__main__:   Applying feature engineering...
+INFO:__main__:\u2705 Features ready: 12 columns, 400 rows
+INFO:__main__:
+[PASO 3/4] Generando predicciones con Ensemble...
+INFO:__main__:   Ejecutando ensemble (LightGBM + XGBoost + CatBoost)...
+INFO:__main__:   Aplicando calibraci�n de probabilidades...
+ERROR:__main__:\u274c Error en pipeline de inferencia: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\inference_ensemble.py", line 123, in run
+    predictions = self._predict_with_calibration(X_future, df_program_enriched)
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\inference_ensemble.py", line 301, in _predict_with_calibration
+    'numero': int(r['numero']),
+              ~~~^^^^^^^^^^^^^
+ValueError: cannot convert float NaN to integer
+ERROR:__main__:\u274c Pipeline failed: cannot convert float NaN to integer
+
+2025-12-29 22:12:24,357 - WARNING - ⚠️ Intentando con baseline v2...
+2025-12-29 22:12:28,886 - INFO - ✅ Inferencia con baseline completada.
+2025-12-29 22:12:28,887 - INFO -    Tiempo inferencia: 7.8s
+2025-12-29 22:12:28,953 - INFO - [PASO 4/4] Migrando datos a Firestore...
+2025-12-29 22:12:46,940 - INFO - ✅ Migración a Firestore completada.
+2025-12-29 22:12:46,940 - INFO -    Tiempo migración: 18.0s
+2025-12-29 22:12:46,992 - INFO - 
+======================================================================
+2025-12-29 22:12:46,992 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 25.91s
+2025-12-29 22:12:46,992 - INFO - ======================================================================
+2025-12-29 22:12:46,993 - INFO -  -> Modelo usado: ENSEMBLE V4
+2025-12-29 22:12:46,993 - INFO -  -> Base de datos Local: ACTUALIZADA
+2025-12-29 22:12:46,993 - INFO -  -> Predicciones: DISPONIBLES
+2025-12-29 22:12:46,993 - INFO -  -> Firebase: SINCRONIZADO
+2025-12-29 22:12:46,993 - INFO - ======================================================================
+2025-12-29 22:48:08,998 - INFO - ==================================================
+2025-12-29 22:48:08,998 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2025-12-29 22:48:08,998 - INFO -    MODELO: ENSEMBLE V4
+2025-12-29 22:48:08,999 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2025-12-29 22:48:08,999 - INFO - ==================================================
+2025-12-29 22:48:08,999 - INFO - [PASO 1/4] Ejecutando ETL (Extracción de Datos)...
+2025-12-29 22:48:09,115 - INFO - ✅ Se han procesado 4 archivos nuevos.
+2025-12-29 22:48:09,115 - INFO -    Tiempo: 0.1s
+2025-12-29 22:48:09,162 - INFO - [PASO 2/4] Entrenando Ensemble v4 (LightGBM + XGBoost + CatBoost)...
+2025-12-29 22:48:11,371 - ERROR - ⚠️ Error en entrenamiento ensemble: Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\train_v4_ensemble.py", line 15, in <module>
+    from src.models.ensemble_ranker import EnsembleRanker, compare_ensemble_vs_baseline
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\ensemble_ranker.py", line 13, in <module>
+    from xgboost import XGBRanker
+ModuleNotFoundError: No module named 'xgboost'
+
+2025-12-29 22:48:11,371 - WARNING -  -> Fallback a baseline v2...
+2025-12-29 22:48:11,371 - ERROR - ⚠️ Error entrenando ensemble: Ensemble training failed
+2025-12-29 22:48:11,371 - INFO -    Intentando con baseline v2...
+2025-12-29 22:48:11,371 - INFO - [PASO 2/4] Entrenando Baseline v2 (LightGBM)...
+2025-12-29 22:48:12,811 - INFO - ✅ Baseline v2 entrenado exitosamente.
+2025-12-29 22:48:12,811 - INFO -    Tiempo entrenamiento: 3.6s
+2025-12-29 22:48:12,866 - INFO - [PASO 3/4] Ejecutando Pipeline de Inferencia...
+2025-12-29 22:48:12,866 - INFO -    Usando: Baseline v2 (LightGBM)
+2025-12-29 22:48:16,611 - INFO - ✅ Inferencia completada exitosamente.
+2025-12-29 22:48:16,611 - INFO -    Últimas líneas de inferencia:
+2025-12-29 22:48:16,611 - INFO -    -> ⚖️ Applying Softmax Normalization...
+2025-12-29 22:48:16,611 - INFO -    -> ✅ Saved 402 predictions to data/predicciones_activas.json
+2025-12-29 22:48:16,611 - INFO -    -> ✅ Saved to DB table 'predicciones_activas'
+2025-12-29 22:48:16,611 - INFO -    Tiempo inferencia: 3.7s
+2025-12-29 22:48:16,660 - INFO - [PASO 4/4] Migrando datos a Firestore...
+2025-12-29 22:48:34,918 - INFO - ✅ Migración a Firestore completada.
+2025-12-29 22:48:34,918 - INFO -    Tiempo migración: 18.3s
+2025-12-29 22:48:34,963 - INFO - 
+======================================================================
+2025-12-29 22:48:34,963 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 25.96s
+2025-12-29 22:48:34,964 - INFO - ======================================================================
+2025-12-29 22:48:34,964 - INFO -  -> Modelo usado: ENSEMBLE V4
+2025-12-29 22:48:34,964 - INFO -  -> Base de datos Local: ACTUALIZADA
+2025-12-29 22:48:34,964 - INFO -  -> Predicciones: DISPONIBLES
+2025-12-29 22:48:34,964 - INFO -  -> Firebase: SINCRONIZADO
+2025-12-29 22:48:34,964 - INFO - ======================================================================
+2025-12-29 22:53:29,789 - INFO - ==================================================
+2025-12-29 22:53:29,789 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2025-12-29 22:53:29,789 - INFO -    MODELO: ENSEMBLE V4
+2025-12-29 22:53:29,790 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2025-12-29 22:53:29,790 - INFO - ==================================================
+2025-12-29 22:53:29,790 - INFO - [PASO 1/4] Ejecutando ETL (Extracción de Datos)...
+2025-12-29 22:53:29,921 - INFO - ✅ Se han procesado 4 archivos nuevos.
+2025-12-29 22:53:29,921 - INFO -    Tiempo: 0.1s
+2025-12-29 22:53:29,969 - INFO - [PASO 2/4] Entrenando Ensemble v4 (LightGBM + XGBoost + CatBoost)...
+2025-12-29 22:53:45,735 - INFO - ✅ Ensemble v4 entrenado exitosamente.
+2025-12-29 22:53:45,735 - INFO -    Tiempo entrenamiento: 15.8s
+2025-12-29 22:53:45,798 - INFO - [PASO 3/4] Ejecutando Pipeline de Inferencia...
+2025-12-29 22:53:45,799 - INFO -    Usando: Ensemble v4 (LightGBM + XGBoost + CatBoost)
+2025-12-29 22:53:48,674 - ERROR - ❌ Error en Inferencia:
+2025-12-29 22:53:48,675 - ERROR - INFO:__main__:======================================================================
+INFO:__main__:ENSEMBLE V4 INFERENCE PIPELINE
+INFO:__main__:======================================================================
+INFO:__main__:Ensemble: src/models/ensemble_latest.pkl
+INFO:__main__:FE: src/models/feature_eng_v4_ensemble.pkl
+INFO:__main__:======================================================================
+INFO:src.models.ensemble_ranker:\u2705 Ensemble cargado desde: src/models/ensemble_latest.pkl
+INFO:src.models.ensemble_ranker:   Timestamp: 20251229_225345
+INFO:src.models.ensemble_ranker:   Pesos:
+INFO:src.models.ensemble_ranker:      LightGBM    : 0.3852
+INFO:src.models.ensemble_ranker:      XGBoost     : -0.4793
+INFO:src.models.ensemble_ranker:      CatBoost    : -0.2738
+INFO:__main__:Artifacts loaded
+INFO:__main__:Loading historical data for features...
+INFO:__main__:\u2705 History loaded: 4,162 records
+INFO:__main__:
+[PASO 1/4] Cargando programa de carreras futuras...
+INFO:__main__:\u2705 Cargadas 404 entradas de programa futuro
+INFO:__main__:   Carreras �nicas: 18
+INFO:__main__:   Fechas: ['2025-12-29', '2025-12-31']
+INFO:__main__:
+[PASO 2/4] Transformando features...
+INFO:__main__:   Mapping names to IDs...
+INFO:__main__:   Concatenating history (0) + future (404)...
+C:\espacioDeTrabajo\HipicaAntigracity\src\models\inference_ensemble.py:231: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df_combined = pd.concat([hist_subset, df_future_input], ignore_index=True)
+INFO:__main__:   Applying feature engineering...
+INFO:__main__:\u2705 Features ready: 12 columns, 404 rows
+INFO:__main__:
+[PASO 3/4] Generando predicciones con Ensemble...
+INFO:__main__:   Ejecutando ensemble (LightGBM + XGBoost + CatBoost)...
+INFO:__main__:   Aplicando calibraci�n de probabilidades...
+ERROR:__main__:\u274c Error en pipeline de inferencia: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\inference_ensemble.py", line 123, in run
+    predictions = self._predict_with_calibration(X_future, df_program_enriched)
+  File "C:\espacioDeTrabajo\HipicaAntigracity\src\models\inference_ensemble.py", line 301, in _predict_with_calibration
+    'numero': int(r['numero']),
+              ~~~^^^^^^^^^^^^^
+ValueError: cannot convert float NaN to integer
+ERROR:__main__:\u274c Pipeline failed: cannot convert float NaN to integer
+
+2025-12-29 22:53:48,675 - WARNING - ⚠️ Intentando con baseline v2...
+2025-12-29 22:53:52,712 - INFO - ✅ Inferencia con baseline completada.
+2025-12-29 22:53:52,712 - INFO -    Tiempo inferencia: 6.9s
+2025-12-29 22:53:52,763 - INFO - [PASO 4/4] Migrando datos a Firestore...
+2025-12-29 22:54:10,277 - INFO - ✅ Migración a Firestore completada.
+2025-12-29 22:54:10,277 - INFO -    Tiempo migración: 17.5s
+2025-12-29 22:54:10,322 - INFO - 
+======================================================================
+2025-12-29 22:54:10,322 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 40.53s
+2025-12-29 22:54:10,322 - INFO - ======================================================================
+2025-12-29 22:54:10,323 - INFO -  -> Modelo usado: ENSEMBLE V4
+2025-12-29 22:54:10,323 - INFO -  -> Base de datos Local: ACTUALIZADA
+2025-12-29 22:54:10,323 - INFO -  -> Predicciones: DISPONIBLES
+2025-12-29 22:54:10,323 - INFO -  -> Firebase: SINCRONIZADO
+2025-12-29 22:54:10,323 - INFO - ======================================================================
+2025-12-29 22:57:19,659 - INFO - ==================================================
+2025-12-29 22:57:19,659 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2025-12-29 22:57:19,659 - INFO -    MODELO: ENSEMBLE V4
+2025-12-29 22:57:19,659 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2025-12-29 22:57:19,659 - INFO - ==================================================
+2025-12-29 22:57:19,659 - INFO - [PASO 1/4] Ejecutando ETL (Extracción de Datos)...
+2025-12-29 22:57:19,776 - INFO - ✅ Se han procesado 4 archivos nuevos.
+2025-12-29 22:57:19,776 - INFO -    Tiempo: 0.1s
+2025-12-29 22:57:19,827 - INFO - [PASO 2/4] Entrenando Ensemble v4 (LightGBM + XGBoost + CatBoost)...
+2025-12-29 22:57:36,716 - INFO - ✅ Ensemble v4 entrenado exitosamente.
+2025-12-29 22:57:36,716 - INFO -    Tiempo entrenamiento: 16.9s
+2025-12-29 22:57:36,801 - INFO - [PASO 3/4] Ejecutando Pipeline de Inferencia...
+2025-12-29 22:57:36,801 - INFO -    Usando: Ensemble v4 (LightGBM + XGBoost + CatBoost)
+2025-12-29 22:57:39,942 - INFO - ✅ Inferencia completada exitosamente.
+2025-12-29 22:57:39,942 - INFO -    Últimas líneas de inferencia:
+2025-12-29 22:57:39,943 - INFO -    -> 
+2025-12-29 22:57:39,943 - INFO -    Tiempo inferencia: 3.1s
+2025-12-29 22:57:40,003 - INFO - [PASO 4/4] Migrando datos a Firestore...
+2025-12-29 22:57:58,325 - INFO - ✅ Migración a Firestore completada.
+2025-12-29 22:57:58,325 - INFO -    Tiempo migración: 18.3s
+2025-12-29 22:57:58,378 - INFO - 
+======================================================================
+2025-12-29 22:57:58,378 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 38.72s
+2025-12-29 22:57:58,378 - INFO - ======================================================================
+2025-12-29 22:57:58,378 - INFO -  -> Modelo usado: ENSEMBLE V4
+2025-12-29 22:57:58,378 - INFO -  -> Base de datos Local: ACTUALIZADA
+2025-12-29 22:57:58,378 - INFO -  -> Predicciones: DISPONIBLES
+2025-12-29 22:57:58,379 - INFO -  -> Firebase: SINCRONIZADO
+2025-12-29 22:57:58,379 - INFO - ======================================================================
+2025-12-29 23:01:50,297 - INFO - ==================================================
+2025-12-29 23:01:50,297 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2025-12-29 23:01:50,297 - INFO -    MODELO: ENSEMBLE V4
+2025-12-29 23:01:50,298 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2025-12-29 23:01:50,298 - INFO - ==================================================
+2025-12-29 23:01:50,298 - INFO - [PASO 1/4] Ejecutando ETL (Extracción de Datos)...
+2025-12-29 23:01:50,302 - INFO - ✅ No hay datos históricos nuevos.
+2025-12-29 23:01:50,302 - INFO -    Tiempo: 0.0s
+2025-12-29 23:01:50,348 - INFO - [PASO 2/4] Saltando entrenamiento (Modelo vigente).
+2025-12-29 23:01:50,348 - INFO - [PASO 3/4] Ejecutando Pipeline de Inferencia...
+2025-12-29 23:01:50,348 - INFO -    Usando: Ensemble v4 (LightGBM + XGBoost + CatBoost)
+2025-12-29 23:01:53,246 - INFO - ✅ Inferencia completada exitosamente.
+2025-12-29 23:01:53,247 - INFO -    Últimas líneas de inferencia:
+2025-12-29 23:01:53,247 - INFO -    -> 
+2025-12-29 23:01:53,247 - INFO -    Tiempo inferencia: 2.9s
+2025-12-29 23:01:53,305 - INFO - [PASO 4/4] Migrando datos a Firestore...
+2025-12-29 23:02:11,080 - INFO - ✅ Migración a Firestore completada.
+2025-12-29 23:02:11,080 - INFO -    Tiempo migración: 17.8s
+2025-12-29 23:02:11,141 - INFO - 
+======================================================================
+2025-12-29 23:02:11,141 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 20.84s
+2025-12-29 23:02:11,141 - INFO - ======================================================================
+2025-12-29 23:02:11,141 - INFO -  -> Modelo usado: ENSEMBLE V4
+2025-12-29 23:02:11,142 - INFO -  -> Base de datos Local: ACTUALIZADA
+2025-12-29 23:02:11,142 - INFO -  -> Predicciones: DISPONIBLES
+2025-12-29 23:02:11,142 - INFO -  -> Firebase: SINCRONIZADO
+2025-12-29 23:02:11,142 - INFO - ======================================================================
+2025-12-29 23:02:35,063 - INFO - ==================================================
+2025-12-29 23:02:35,063 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2025-12-29 23:02:35,063 - INFO -    MODELO: ENSEMBLE V4
+2025-12-29 23:02:35,063 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2025-12-29 23:02:35,063 - INFO - ==================================================
+2025-12-29 23:02:35,064 - INFO - [PASO 1/4] Ejecutando ETL (Extracción de Datos)...
+2025-12-29 23:02:35,187 - INFO - ✅ Se han procesado 4 archivos nuevos.
+2025-12-29 23:02:35,187 - INFO -    Tiempo: 0.1s
+2025-12-29 23:02:35,252 - INFO - [PASO 2/4] Entrenando Ensemble v4 (LightGBM + XGBoost + CatBoost)...
+2025-12-29 23:02:55,203 - INFO - ✅ Ensemble v4 entrenado exitosamente.
+2025-12-29 23:02:55,203 - INFO -    Tiempo entrenamiento: 20.0s
+2025-12-29 23:02:55,267 - INFO - [PASO 3/4] Ejecutando Pipeline de Inferencia...
+2025-12-29 23:02:55,267 - INFO -    Usando: Ensemble v4 (LightGBM + XGBoost + CatBoost)
+2025-12-29 23:02:58,385 - INFO - ✅ Inferencia completada exitosamente.
+2025-12-29 23:02:58,385 - INFO -    Últimas líneas de inferencia:
+2025-12-29 23:02:58,385 - INFO -    -> 
+2025-12-29 23:02:58,385 - INFO -    Tiempo inferencia: 3.1s
+2025-12-29 23:02:58,438 - INFO - [PASO 4/4] Migrando datos a Firestore...
+2025-12-29 23:03:16,467 - INFO - ✅ Migración a Firestore completada.
+2025-12-29 23:03:16,467 - INFO -    Tiempo migración: 18.0s
+2025-12-29 23:03:16,514 - INFO - 
+======================================================================
+2025-12-29 23:03:16,514 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 41.45s
+2025-12-29 23:03:16,514 - INFO - ======================================================================
+2025-12-29 23:03:16,514 - INFO -  -> Modelo usado: ENSEMBLE V4
+2025-12-29 23:03:16,514 - INFO -  -> Base de datos Local: ACTUALIZADA
+2025-12-29 23:03:16,514 - INFO -  -> Predicciones: DISPONIBLES
+2025-12-29 23:03:16,515 - INFO -  -> Firebase: SINCRONIZADO
+2025-12-29 23:03:16,515 - INFO - ======================================================================
+2026-01-03 23:02:41,289 - INFO - ==================================================
+2026-01-03 23:02:41,289 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2026-01-03 23:02:41,290 - INFO -    MODELO: ENSEMBLE V4
+2026-01-03 23:02:41,290 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2026-01-03 23:02:41,290 - INFO - ==================================================
+2026-01-03 23:02:41,290 - INFO - [PASO 1/5] Ejecutando ETL (Extracción de Datos)...
+2026-01-03 23:02:41,300 - INFO - ✅ No hay datos históricos nuevos.
+2026-01-03 23:02:41,300 - INFO -    Tiempo: 0.0s
+2026-01-03 23:02:41,350 - INFO - [PASO 2/5] Saltando entrenamiento (Modelo vigente).
+2026-01-03 23:02:41,351 - INFO - [PASO 3/5] Ejecutando Pipeline de Inferencia...
+2026-01-03 23:02:41,351 - INFO -    Usando: Ensemble v4 (LightGBM + XGBoost + CatBoost)
+2026-01-03 23:02:44,707 - INFO - ✅ Inferencia completada exitosamente.
+2026-01-03 23:02:44,707 - INFO -    Últimas líneas de inferencia:
+2026-01-03 23:02:44,707 - INFO -    -> 
+2026-01-03 23:02:44,707 - INFO -    Tiempo inferencia: 3.4s
+2026-01-03 23:02:44,759 - INFO - [PASO 4/5] Migrando datos a Firestore...
+2026-01-03 23:03:03,786 - INFO - ✅ Migración a Firestore completada.
+2026-01-03 23:03:03,786 - INFO -    Tiempo migración: 19.0s
+2026-01-03 23:03:03,841 - INFO - [PASO 5/5] Desplegando versión económica a Cloud Run...
+2026-01-03 23:03:03,841 - INFO -    Ejecutando: gcloud run deploy pista-inteligente --source . --region us-central1 --allow-unauthenticated --min-instances 0 --max-instances 1 --memory 512Mi --quiet
+2026-01-03 23:03:12,202 - ERROR - ❌ Falló el despliegue.
+2026-01-03 23:03:12,202 - ERROR -    Detalle: ERROR: Permission denied while accessing Artifact Registry. Artifact Registry access is required to deploy from source.
+ERROR: (gcloud.run.deploy) PERMISSION_DENIED: This API method requires billing to be enabled. Please enable billing on project #pista-inteligente by visiting https://console.developers.google.com/billing/enable?project=pista-inteligente then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. This command is authenticated as juancamposgomez80@gmail.com which is the active account specified by the [core/account] property.
+This API method requires billing to be enabled. Please enable billing on project #pista-inteligente by visiting https://console.developers.google.com/billing/enable?project=pista-inteligente then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.
+Google developers console billing
+https://console.developers.google.com/billing/enable?project=pista-inteligente
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: googleapis.com
+  metadata:
+    consumer: projects/pista-inteligente
+    containerInfo: pista-inteligente
+    service: artifactregistry.googleapis.com
+  reason: BILLING_DISABLED
+
+2026-01-03 23:03:12,202 - INFO - [EXTRA] Sincronizando Hosting (firebase deploy)...
+2026-01-03 23:03:47,436 - INFO - ✅ Firebase Hosting actualizado.
+2026-01-03 23:03:47,436 - INFO -    Tiempo despliegue: 43.6s
+2026-01-03 23:03:47,483 - INFO - 
+======================================================================
+2026-01-03 23:03:47,483 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 66.19s
+2026-01-03 23:03:47,483 - INFO - ======================================================================
+2026-01-03 23:03:47,484 - INFO -  -> Modelo usado: ENSEMBLE V4
+2026-01-03 23:03:47,484 - INFO -  -> Base de datos Local: ACTUALIZADA
+2026-01-03 23:03:47,484 - INFO -  -> Predicciones: DISPONIBLES
+2026-01-03 23:03:47,484 - INFO -  -> Firebase: SINCRONIZADO
+2026-01-03 23:03:47,484 - INFO - ======================================================================
+2026-01-04 14:15:51,754 - INFO - ==================================================
+2026-01-04 14:15:51,758 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2026-01-04 14:15:51,762 - INFO -    MODELO: ENSEMBLE V4
+2026-01-04 14:15:51,772 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2026-01-04 14:15:51,785 - INFO - ==================================================
+2026-01-04 14:15:51,788 - INFO - [PASO 1/5] Ejecutando ETL (Extracción de Datos)...
+2026-01-04 14:15:52,788 - INFO - ✅ Se han procesado 4 archivos nuevos.
+2026-01-04 14:15:52,792 - INFO -    Tiempo: 1.0s
+2026-01-04 14:15:53,242 - INFO - [PASO 2/5] Entrenando Ensemble v4 (LightGBM + XGBoost + CatBoost)...
+2026-01-04 14:19:31,346 - INFO - ==================================================
+2026-01-04 14:19:31,346 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2026-01-04 14:19:31,347 - INFO -    MODELO: ENSEMBLE V4
+2026-01-04 14:19:31,347 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2026-01-04 14:19:31,348 - INFO - ==================================================
+2026-01-04 14:19:31,348 - INFO - [PASO 1/5] Ejecutando ETL (Extracción de Datos)...
+2026-01-04 14:19:31,379 - INFO - ✅ No hay datos históricos nuevos.
+2026-01-04 14:19:31,381 - INFO -    Tiempo: 0.0s
+2026-01-04 14:19:31,661 - INFO - [PASO 2/5] Saltando entrenamiento (Modelo vigente).
+2026-01-04 14:19:31,665 - INFO - [PASO 3/5] Ejecutando Pipeline de Inferencia...
+2026-01-04 14:19:31,667 - INFO -    Usando: Ensemble v4 (LightGBM + XGBoost + CatBoost)
+2026-01-04 14:19:44,320 - INFO - ✅ Inferencia completada exitosamente.
+2026-01-04 14:19:44,321 - INFO -    Últimas líneas de inferencia:
+2026-01-04 14:19:44,321 - INFO -    -> 
+2026-01-04 14:19:44,321 - INFO -    Tiempo inferencia: 12.7s
+2026-01-04 14:19:44,598 - INFO - [PASO 4/5] Migrando datos a Firestore...
+2026-01-04 14:20:05,861 - INFO - ==================================================
+2026-01-04 14:20:05,862 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2026-01-04 14:20:05,865 - INFO -    MODELO: ENSEMBLE V4
+2026-01-04 14:20:05,868 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2026-01-04 14:20:05,869 - INFO - ==================================================
+2026-01-04 14:20:05,869 - INFO - [PASO 1/5] Ejecutando ETL (Extracción de Datos)...
+2026-01-04 14:20:06,469 - INFO - ✅ Se han procesado 8 archivos nuevos.
+2026-01-04 14:20:06,471 - INFO -    Tiempo: 0.6s
+2026-01-04 14:20:06,687 - INFO - [PASO 2/5] Entrenando Ensemble v4 (LightGBM + XGBoost + CatBoost)...
+2026-01-04 14:41:39,440 - INFO - ==================================================
+2026-01-04 14:41:39,440 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2026-01-04 14:41:39,441 - INFO -    MODELO: ENSEMBLE V4
+2026-01-04 14:41:39,441 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2026-01-04 14:41:39,441 - INFO - ==================================================
+2026-01-04 14:41:39,441 - INFO - [PASO 1/5] Ejecutando ETL (Extracción de Datos)...
+2026-01-04 14:41:39,455 - INFO - ✅ No hay datos históricos nuevos.
+2026-01-04 14:41:39,455 - INFO -    Tiempo: 0.0s
+2026-01-04 14:41:39,671 - INFO - [PASO 2/5] Saltando entrenamiento (Modelo vigente).
+2026-01-04 14:41:39,673 - INFO - [PASO 3/5] Ejecutando Pipeline de Inferencia...
+2026-01-04 14:41:39,674 - INFO -    Usando: Ensemble v4 (LightGBM + XGBoost + CatBoost)
+2026-01-04 14:41:49,842 - INFO - ✅ Inferencia completada exitosamente.
+2026-01-04 14:41:49,842 - INFO -    Últimas líneas de inferencia:
+2026-01-04 14:41:49,843 - INFO -    -> 
+2026-01-04 14:41:49,843 - INFO -    Tiempo inferencia: 10.2s
+2026-01-04 14:41:50,067 - INFO - [PASO 4/5] Migrando datos a Firestore...
+2026-01-04 14:42:08,331 - INFO - ✅ Migración a Firestore completada.
+2026-01-04 14:42:08,331 - INFO -    Tiempo migración: 18.3s
+2026-01-04 14:42:08,484 - INFO - [PASO 5/5] Desplegando versión económica a Cloud Run...
+2026-01-04 14:42:08,486 - INFO -    Ejecutando: gcloud run deploy pista-inteligente --source . --region us-central1 --allow-unauthenticated --min-instances 0 --max-instances 1 --memory 512Mi --quiet
+2026-01-04 14:48:04,282 - INFO - ✅ Despliegue exitoso.
+2026-01-04 14:48:04,282 - INFO - [EXTRA] Sincronizando Hosting (firebase deploy)...
+2026-01-04 14:49:54,045 - INFO - ✅ Firebase Hosting actualizado.
+2026-01-04 14:49:54,046 - INFO -    Tiempo despliegue: 465.6s
+2026-01-04 14:49:54,683 - INFO - 
+======================================================================
+2026-01-04 14:49:54,700 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 495.24s
+2026-01-04 14:49:54,719 - INFO - ======================================================================
+2026-01-04 14:49:54,738 - INFO -  -> Modelo usado: ENSEMBLE V4
+2026-01-04 14:49:54,740 - INFO -  -> Base de datos Local: ACTUALIZADA
+2026-01-04 14:49:54,755 - INFO -  -> Predicciones: DISPONIBLES
+2026-01-04 14:49:54,774 - INFO -  -> Firebase: SINCRONIZADO
+2026-01-04 14:49:54,778 - INFO - ======================================================================
+2026-01-04 16:03:20,692 - INFO - ✅ Ensemble v4 entrenado exitosamente.
+2026-01-04 16:03:20,696 - INFO -    Tiempo entrenamiento: 6194.0s
+2026-01-04 16:03:21,017 - INFO - [PASO 3/5] Ejecutando Pipeline de Inferencia...
+2026-01-04 16:03:21,018 - INFO -    Usando: Ensemble v4 (LightGBM + XGBoost + CatBoost)
+2026-01-04 16:03:32,249 - INFO - ✅ Inferencia completada exitosamente.
+2026-01-04 16:03:32,249 - INFO -    Últimas líneas de inferencia:
+2026-01-04 16:03:32,249 - INFO -    -> 
+2026-01-04 16:03:32,249 - INFO -    Tiempo inferencia: 11.2s
+2026-01-04 16:03:32,337 - INFO - [PASO 4/5] Migrando datos a Firestore...
+2026-01-04 16:03:49,826 - INFO - ✅ Migración a Firestore completada.
+2026-01-04 16:03:49,826 - INFO -    Tiempo migración: 17.5s
+2026-01-04 16:03:50,065 - INFO - [PASO 5/5] Desplegando versión económica a Cloud Run...
+2026-01-04 16:03:50,066 - INFO -    Ejecutando: gcloud run deploy pista-inteligente --source . --region us-central1 --allow-unauthenticated --min-instances 0 --max-instances 1 --memory 512Mi --quiet
+2026-01-04 16:10:52,294 - INFO - ✅ Despliegue exitoso.
+2026-01-04 16:10:52,295 - INFO - [EXTRA] Sincronizando Hosting (firebase deploy)...
+2026-01-04 16:10:59,207 - INFO - ✅ Firebase Hosting actualizado.
+2026-01-04 16:10:59,207 - INFO -    Tiempo despliegue: 429.1s
+2026-01-04 16:10:59,268 - INFO - 
+======================================================================
+2026-01-04 16:10:59,268 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 6653.40s
+2026-01-04 16:10:59,268 - INFO - ======================================================================
+2026-01-04 16:10:59,268 - INFO -  -> Modelo usado: ENSEMBLE V4
+2026-01-04 16:10:59,269 - INFO -  -> Base de datos Local: ACTUALIZADA
+2026-01-04 16:10:59,269 - INFO -  -> Predicciones: DISPONIBLES
+2026-01-04 16:10:59,269 - INFO -  -> Firebase: SINCRONIZADO
+2026-01-04 16:10:59,269 - INFO - ======================================================================
+2026-01-04 16:15:49,750 - INFO - ==================================================
+2026-01-04 16:15:49,750 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2026-01-04 16:15:49,750 - INFO -    MODELO: ENSEMBLE V4
+2026-01-04 16:15:49,750 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2026-01-04 16:15:49,751 - INFO - ==================================================
+2026-01-04 16:15:49,751 - INFO - [PASO 1/5] Ejecutando ETL (Extracción de Datos)...
+2026-01-04 16:15:49,977 - INFO - ✅ Se han procesado 8 archivos nuevos.
+2026-01-04 16:15:49,978 - INFO -    Tiempo: 0.2s
+2026-01-04 16:15:50,031 - INFO - [PASO 2/5] Entrenando Ensemble v4 (LightGBM + XGBoost + CatBoost)...
+2026-01-04 16:16:10,538 - INFO - ✅ Ensemble v4 entrenado exitosamente.
+2026-01-04 16:16:10,538 - INFO -    Tiempo entrenamiento: 20.5s
+2026-01-04 16:16:10,620 - INFO - [PASO 3/5] Ejecutando Pipeline de Inferencia...
+2026-01-04 16:16:10,620 - INFO -    Usando: Ensemble v4 (LightGBM + XGBoost + CatBoost)
+2026-01-04 16:16:14,073 - INFO - ✅ Inferencia completada exitosamente.
+2026-01-04 16:16:14,074 - INFO -    Últimas líneas de inferencia:
+2026-01-04 16:16:14,074 - INFO -    -> 
+2026-01-04 16:16:14,074 - INFO -    Tiempo inferencia: 3.5s
+2026-01-04 16:16:14,131 - INFO - [PASO 4/5] Migrando datos a Firestore...
+2026-01-04 16:16:31,470 - INFO - ✅ Migración a Firestore completada.
+2026-01-04 16:16:31,471 - INFO -    Tiempo migración: 17.3s
+2026-01-04 16:16:31,527 - INFO - [PASO 5/5] Desplegando versión económica a Cloud Run...
+2026-01-04 16:16:31,528 - INFO -    Ejecutando: gcloud run deploy pista-inteligente --source . --region us-central1 --allow-unauthenticated --min-instances 0 --max-instances 1 --memory 512Mi --quiet
+2026-01-04 16:19:12,725 - INFO - ==================================================
+2026-01-04 16:19:12,726 - INFO -    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.0
+2026-01-04 16:19:12,726 - INFO -    MODELO: ENSEMBLE V4
+2026-01-04 16:19:12,726 - INFO -    (MODO: LOCAL / CONTENEDOR)
+2026-01-04 16:19:12,726 - INFO - ==================================================
+2026-01-04 16:19:12,726 - INFO - [PASO 1/5] Ejecutando ETL (Extracción de Datos)...
+2026-01-04 16:19:12,732 - INFO - ✅ No hay datos históricos nuevos.
+2026-01-04 16:19:12,732 - INFO -    Tiempo: 0.0s
+2026-01-04 16:19:12,792 - INFO - [PASO 2/5] Saltando entrenamiento (Modelo vigente).
+2026-01-04 16:19:12,792 - INFO - [PASO 3/5] Ejecutando Pipeline de Inferencia...
+2026-01-04 16:19:12,792 - INFO -    Usando: Ensemble v4 (LightGBM + XGBoost + CatBoost)
+2026-01-04 16:19:16,416 - INFO - ✅ Inferencia completada exitosamente.
+2026-01-04 16:19:16,416 - INFO -    Últimas líneas de inferencia:
+2026-01-04 16:19:16,416 - INFO -    -> 
+2026-01-04 16:19:16,417 - INFO -    Tiempo inferencia: 3.6s
+2026-01-04 16:19:16,485 - INFO - [PASO 4/5] Migrando datos a Firestore...
+2026-01-04 16:19:27,489 - INFO - ✅ Migración a Firestore completada.
+2026-01-04 16:19:27,489 - INFO -    Tiempo migración: 11.0s
+2026-01-04 16:19:27,553 - INFO - [PASO 5/5] Desplegando versión económica a Cloud Run...
+2026-01-04 16:19:27,553 - INFO -    Ejecutando: gcloud run deploy pista-inteligente --source . --region us-central1 --allow-unauthenticated --min-instances 0 --max-instances 1 --memory 512Mi --quiet
+2026-01-04 16:22:25,840 - INFO - ✅ Despliegue exitoso.
+2026-01-04 16:22:25,840 - INFO - [EXTRA] Sincronizando Hosting (firebase deploy)...
+2026-01-04 16:22:33,158 - INFO - ✅ Firebase Hosting actualizado.
+2026-01-04 16:22:33,158 - INFO -    Tiempo despliegue: 361.6s
+2026-01-04 16:22:33,241 - INFO - 
+======================================================================
+2026-01-04 16:22:33,241 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 403.49s
+2026-01-04 16:22:33,241 - INFO - ======================================================================
+2026-01-04 16:22:33,241 - INFO -  -> Modelo usado: ENSEMBLE V4
+2026-01-04 16:22:33,242 - INFO -  -> Base de datos Local: ACTUALIZADA
+2026-01-04 16:22:33,242 - INFO -  -> Predicciones: DISPONIBLES
+2026-01-04 16:22:33,242 - INFO -  -> Firebase: SINCRONIZADO
+2026-01-04 16:22:33,242 - INFO - ======================================================================
+2026-01-04 16:24:28,088 - INFO - ✅ Despliegue exitoso.
+2026-01-04 16:24:28,088 - INFO - [EXTRA] Sincronizando Hosting (firebase deploy)...
+2026-01-04 16:25:09,433 - INFO - ✅ Firebase Hosting actualizado.
+2026-01-04 16:25:09,433 - INFO -    Tiempo despliegue: 341.9s
+2026-01-04 16:25:09,496 - INFO - 
+======================================================================
+2026-01-04 16:25:09,496 - INFO - 🎉 SINCRONIZACIÓN COMPLETADA en 356.77s
+2026-01-04 16:25:09,496 - INFO - ======================================================================
+2026-01-04 16:25:09,497 - INFO -  -> Modelo usado: ENSEMBLE V4
+2026-01-04 16:25:09,497 - INFO -  -> Base de datos Local: ACTUALIZADA
+2026-01-04 16:25:09,497 - INFO -  -> Predicciones: DISPONIBLES
+2026-01-04 16:25:09,497 - INFO -  -> Firebase: SINCRONIZADO
+2026-01-04 16:25:09,497 - INFO - ======================================================================

@@ -83,7 +83,8 @@ class EnsembleRanker:
             
             random_state=42,
             n_jobs=-1,
-            verbose=-1
+            verbose=-1,
+            force_col_wise=True
         )
     
     def _build_xgb(self):
@@ -211,7 +212,7 @@ class EnsembleRanker:
                 val_groups = g_val.value_counts().sort_index().values
                 
                 # Train
-                if isinstance(model, CatBoostRanker) and categorical_features:
+                if isinstance(model, CatBoostRanker):
                     model.fit(
                         X_train, y_train, group_id=g_train,
                         cat_features=categorical_features,
@@ -245,7 +246,7 @@ class EnsembleRanker:
         for model, name in zip(self.base_models, self.base_model_names):
             logger.info(f"   Re-entrenando {name}...")
             
-            if isinstance(model, CatBoostRanker) and categorical_features:
+            if isinstance(model, CatBoostRanker):
                 model.fit(
                     X, y, group_id=groups,
                     cat_features=categorical_features,

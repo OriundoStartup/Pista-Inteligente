@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="language" content="es">
+    <meta name="robots" content="index, follow">
+
+    <!-- Title -->
+    <title>Pista Inteligente - Predicciones Hípicas con IA para Hipódromo Chile y Club Hípico</title>
+
+    <!-- Meta Description -->
+    <meta name="description"
+        content="Predicciones hípicas profesionales con Inteligencia Artificial para Hipódromo Chile y Club Hípico de Chile. Pronósticos en tiempo real, análisis de carreras de caballos y estadísticas actualizadas. Mejora tus apuestas con IA avanzada.">
+
+    <!-- Meta Keywords -->
+    <meta name="keywords"
+        content="programa hipódromo chile, club hípico de chile, predicciones hípicas chile, carreras de caballos chile, pronósticos hipódromo, inteligencia artificial carreras, apuestas hípicas, análisis carreras caballos, pista inteligente">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pista-inteligente.web.app/">
+    <meta property="og:title" content="Pista Inteligente - Predicciones Hípicas con IA">
+    <meta property="og:description" content="Predicciones con IA para Hipódromo Chile y Club Hípico de Chile">
+    <meta property="og:image" content="/static/img/header_brand.png">
+    <meta property="og:locale" content="es_CL">
+    <meta property="og:site_name" content="Pista Inteligente">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pista Inteligente - Predicciones Hípicas">
+    <meta name="twitter:description" content="Predicciones con IA para carreras de caballos en Chile">
+    <meta name="twitter:image" content="/static/img/header_brand.png">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Pista Inteligente",
+      "url": "https://pista-inteligente.web.app/",
+      "logo": "/static/img/logo.jpg",
+      "description": "Predicciones hípicas con Inteligencia Artificial para Hipódromo Chile y Club Hípico de Chile",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CL"
+      },
+      "areaServed": "Chile",
+      "knowsAbout": ["Horse Racing", "Artificial Intelligence", "Sports Analytics", "Predictive Modeling"]
+    }
+    </script>
+
+    <!-- Google Fonts: Outfit (Modern Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/static/css/main.css">
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5579178295407019"
+        crossorigin="anonymous"></script>
+
+    <!-- AMP Auto Ads -->
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+
+    <!-- Firebase SDK -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+        import { getPerformance } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-performance.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyCEKzonZpbAMEDML3noTJbxg3Zr89Ojp7k",
+            authDomain: "pista-inteligente.firebaseapp.com",
+            projectId: "pista-inteligente",
+            storageBucket: "pista-inteligente.firebasestorage.app",
+            messagingSenderId: "286245664040",
+            appId: "1:286245664040:web:d4b9f31c39e7de909c0c1d",
+            measurementId: "G-ZPL096F6VZ"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        const perf = getPerformance(app);
+
+        logEvent(analytics, 'page_view', {
+            page_title: document.title,
+            page_location: window.location.href,
+            page_path: window.location.pathname
+        });
+
+        window.firebaseAnalytics = analytics;
+        window.logFirebaseEvent = (eventName, params) => logEvent(analytics, eventName, params);
+    </script>
+</head>
+
+<body>
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-5579178295407019">
+    </amp-auto-ads>
+
+    <!-- Header Glassmorphism -->
+    <header class="glass-header">
+        <a href="/" class="brand">
+            <img src="/static/img/logo.jpg" alt="Logo" style="height: 40px; border-radius: 50%;">
+            <span>Pista Inteligente</span>
+        </a>
+        <nav class="nav-links">
+            <a href="/" class="nav-link active">Inicio</a>
+            <a href="/programa" class="nav-link">Predicciones</a>
+            <a href="/precision" class="nav-link">Precisión</a>
+            <a href="/analisis" class="nav-link">Patrones</a>
+            <a href="/estadisticas" class="nav-link">Estadísticas</a>
+        </nav>
+    </header>
+
+    <!-- Brand Header Image -->
+    <div class="hero-banner">
+        <img src="/static/img/header_brand.png"
+            alt="Pista Inteligente - Programa Hipódromo Chile y Club Hípico de Chile con Predicciones IA"
+            class="hero-banner-img">
+    </div>
+
+    <!-- AdSense Top -->
+    <div class="container" style="text-align: center; margin: 0; padding: 0.5rem 0;">
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5579178295407019"
+            data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+    <main class="container">
+        <!-- Home Content (Static) -->
+        <section class="hero">
+            <h1>Predicciones para Hipódromo Chile y Club Hípico <br>con IA Avanzada</h1>
+            <p>
+                Utilizamos algoritmos de última generación para analizar el <strong>Programa Hipódromo
+                    Chile</strong> y las carreras del <strong>Club Hípico</strong>.
+                Detectamos patrones ocultos en miles de resultados históricos para entregarte pronósticos profesionales con las
+                mejores probabilidades de acierto.
+            </p>
+            <a href="/programa" class="cta-button">Ver Programa de Hoy con Predicciones IA</a>
+        </section>
+
+        <!-- Dynamic Statistics Section -->
+        <div class="glass-card">
+            <div class="section-title">📊 Estadísticas en Tiempo Real</div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+                <div style="text-align: center; padding: 2rem;">
+                    <span class="stat-number" id="stat-carreras"
+                        style="font-size: 3rem; color: var(--secondary); display: block; font-weight: 800;">...</span>
+                    <p>Carreras Analizadas</p>
+                </div>
+                <div style="text-align: center; padding: 2rem;">
+                    <span class="stat-number" id="stat-precision"
+                        style="font-size: 3rem; color: var(--primary); display: block; font-weight: 800;">...</span>
+                    <p>Precisión (Último Mes)</p>
+                </div>
+                <div style="text-align: center; padding: 2rem;">
+                    <span class="stat-number" id="stat-dividendos"
+                        style="font-size: 3rem; color: var(--accent); display: block; font-weight: 800;">...</span>
+                    <p>Dividendos Generados</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dynamic Top Jinetes Section -->
+        <div class="glass-card">
+            <div class="section-title">🏆 Top Jinetes de la Temporada</div>
+            <table class="modern-table">
+                <thead>
+                    <tr>
+                        <th>Jinete</th>
+                        <th>Triunfos</th>
+                        <th>Eficiencia</th>
+                    </tr>
+                </thead>
+                <tbody id="table-jinetes">
+                    <tr><td colspan="3" style="text-align:center">Cargando datos...</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- AdSense Bottom -->
+        <div class="container" style="text-align: center; margin-top: 3rem;">
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5579178295407019"
+                data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </main>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-fab" id="chatbotBtn">
+        <img src="/static/img/bot_avatar.png" alt="Chat"
+            style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
+    </div>
+
+    <div class="chatbot-window" id="chatbotWindow">
+        <div class="chat-header">
+            <div style="display:flex; align-items:center; gap:0.5rem;">
+                <img src="/static/img/bot_avatar.png"
+                    style="height:30px; width:30px; border-radius:50%; border:1px solid white;">
+                <span>🤖 Asistente Hípico</span>
+            </div>
+            <span style="cursor:pointer" id="closeChat">✖</span>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <div class="msg bot">Hola, soy tu asistente de IA. ¿En qué te puedo ayudar hoy?</div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="chatInput" class="chat-input" placeholder="Pregunta sobre una carrera...">
+            <button id="sendBtn" style="padding:0.5rem; background:var(--secondary); border:none; border-radius:4px; cursor:pointer">➤</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="copyright">© 2025 Pista Inteligente. Todos los derechos reservados.</p>
+            <div class="footer-links" style="margin-bottom: 0.5rem;">
+                <a href="/quienes-somos" style="color: var(--text-muted); font-size: 0.9rem; margin-right: 1rem; text-decoration: none;">Quiénes Somos</a>
+                <a href="/politica-de-privacidad" style="color: var(--text-muted); font-size: 0.9rem; margin-right: 1rem; text-decoration: none;">Política de Privacidad</a>
+                <a href="/terminos-y-condiciones" style="color: var(--text-muted); font-size: 0.9rem; margin-right: 1rem; text-decoration: none;">Términos y Condiciones</a>
+            </div>
+            <p class="credits">
+                Sitio creado por
+                <a href="https://oriundostartupchile.com" target="_blank" rel="noopener noreferrer">oriundostartupchile.com</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- CLIENT SIDE LOGIC -->
+    <script>
+        // 1. Fetch Stats & Jinetes from API
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                const response = await fetch('/api/stats');
+                const data = await response.json();
+
+                // Update Stats
+                document.getElementById('stat-carreras').innerText = data.total_carreras;
+                document.getElementById('stat-precision').innerText = data.aciertos_ultimo_mes + '%';
+                document.getElementById('stat-dividendos').innerText = data.dividendos_generados;
+
+                // Update Jinetes Table
+                const tbody = document.getElementById('table-jinetes');
+                tbody.innerHTML = '';
+                
+                if (data.jinetes && data.jinetes.length > 0) {
+                     data.jinetes.forEach(j => {
+                         const tr = document.createElement('tr');
+                         tr.innerHTML = `<td>${j.jinete}</td><td>${j.ganadas}</td><td>${j.eficiencia}%</td>`;
+                         tbody.appendChild(tr);
+                     });
+                } else {
+                    tbody.innerHTML = '<tr><td colspan="3" style="text-align:center">No hay datos disponibles se actualizarán pronto.</td></tr>';
+                }
+
+            } catch (error) {
+                console.error("Error fetching stats:", error);
+            }
+        });
+
+        // 2. Chatbot Logic (Same as base.html)
+        const chatBtn = document.getElementById('chatbotBtn');
+        const chatWindow = document.getElementById('chatbotWindow');
+        const closeChat = document.getElementById('closeChat');
+        const sendBtn = document.getElementById('sendBtn');
+        const chatInput = document.getElementById('chatInput');
+        const chatBody = document.getElementById('chatBody');
+
+        chatBtn.addEventListener('click', () => {
+            chatWindow.style.display = chatWindow.style.display === 'flex' ? 'none' : 'flex';
+        });
+
+        closeChat.addEventListener('click', () => {
+            chatWindow.style.display = 'none';
+        });
+
+        async function sendMessage() {
+            const text = chatInput.value.trim();
+            if (!text) return;
+
+            // User Message
+            addMessage(text, 'user');
+            chatInput.value = '';
+
+            // AI Response
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: text })
+                });
+                const data = await response.json();
+                addMessage(data.response, 'bot');
+            } catch (error) {
+                addMessage('Lo siento, hubo un error al conectar con la IA.', 'bot');
+            }
+        }
+
+        function addMessage(text, sender) {
+            const div = document.createElement('div');
+            div.className = `msg ${sender}`;
+            div.innerText = text;
+            chatBody.appendChild(div);
+            scrollTop();
+        }
+        
+        function scrollTop() {
+            chatBody.scrollTop = chatBody.scrollHeight;
+        }
+
+        sendBtn.addEventListener('click', sendMessage);
+        chatInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') sendMessage();
+        });
+    </script>
+</body>
+</html>

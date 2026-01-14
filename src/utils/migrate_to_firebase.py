@@ -132,11 +132,11 @@ def migrate(incremental=True):
             # Normalize columns
             try:
                 col_carrera = 'carrera' if 'carrera' in df_preds.columns else 'nro_carrera'
-                df_preds['carrera_int'] = df_preds[col_carrera].fillna(0).astype(int)
-                df_preds['numero_int'] = df_preds['numero'].fillna(0).astype(int)
+                df_preds['carrera_int'] = pd.to_numeric(df_preds[col_carrera], errors='coerce').fillna(0).astype(int)
+                df_preds['numero_int'] = pd.to_numeric(df_preds['numero'], errors='coerce').fillna(0).astype(int)
                 
-                df_program['nro_carrera_int'] = df_program['nro_carrera'].fillna(0).astype(int)
-                df_program['numero_int'] = df_program['numero'].fillna(0).astype(int)
+                df_program['nro_carrera_int'] = pd.to_numeric(df_program['nro_carrera'], errors='coerce').fillna(0).astype(int)
+                df_program['numero_int'] = pd.to_numeric(df_program['numero'], errors='coerce').fillna(0).astype(int)
                 
                 print("🔗 Fusionando Predicciones + Metadatos...")
                 
@@ -153,7 +153,10 @@ def migrate(incremental=True):
                 # Fill Missing Metadata
                 df_enriched['jinete'] = df_enriched['jinete'].fillna('N/A')
                 df_enriched['hora'] = df_enriched['hora'].fillna('00:00')
-                df_enriched['distancia'] = df_enriched['distancia'].fillna(0).astype(int)
+                try:
+                    df_enriched['distancia'] = pd.to_numeric(df_enriched['distancia'].astype(str).str.replace('.', '', regex=False), errors='coerce').fillna(0).astype(int)
+                except:
+                    df_enriched['distancia'] = 0
                 
                 # If cached prediction had no horse name or weird one, use program name
                 if 'caballo_meta' in df_enriched.columns:
@@ -239,7 +242,11 @@ def migrate(incremental=True):
             detalles = []
             for _, row in group.iterrows():
                 # FIX: Filtro estricto de números inválidos
-                num = int(row['numero'])
+                try:
+                    num = int(float(row['numero']))
+                except (ValueError, TypeError):
+                    num = 0
+
                 if num <= 0: continue
                 
                 detalles.append({

@@ -56,7 +56,7 @@ def main(force_sync=False, use_ensemble=True):
         # ---------------------------------------------------------
         # PASO 1: ETL (Cargar datos nuevos de la web)
         # ---------------------------------------------------------
-        logging.info("[PASO 1/4] Ejecutando ETL (Extracción de Datos)...")
+        logging.info("[PASO 1/5] Ejecutando ETL (Extracción de Datos)...")
         etl_start = time.time()
         etl = HipicaETL()
         archivos_nuevos = etl.run(force_reprocess=force_sync)
@@ -76,7 +76,7 @@ def main(force_sync=False, use_ensemble=True):
             train_start = time.time()
             
             if use_ensemble:
-                logging.info("[PASO 2/4] Entrenando Ensemble v4 (LightGBM + XGBoost + CatBoost)...")
+                logging.info("[PASO 2/5] Entrenando Ensemble v4 (LightGBM + XGBoost + CatBoost)...")
                 try:
                     # Entrenar ensemble v4
                     cmd_train = [sys.executable, "-m", "src.models.train_v4_ensemble"]
@@ -96,7 +96,7 @@ def main(force_sync=False, use_ensemble=True):
                     use_ensemble = False
             
             if not use_ensemble:
-                logging.info("[PASO 2/4] Entrenando Baseline v2 (LightGBM)...")
+                logging.info("[PASO 2/5] Entrenando Baseline v2 (LightGBM)...")
                 try:
                     learner = HipicaLearner()
                     learner.train()
@@ -108,12 +108,12 @@ def main(force_sync=False, use_ensemble=True):
             logging.info(f"   Tiempo entrenamiento: {time.time() - train_start:.1f}s")
             gc.collect()
         else:
-            logging.info("[PASO 2/4] Saltando entrenamiento (Modelo vigente).")
+            logging.info("[PASO 2/5] Saltando entrenamiento (Modelo vigente).")
 
         # ---------------------------------------------------------
         # PASO 3: INFERENCIA (Predicciones para futuro)
         # ---------------------------------------------------------
-        logging.info("[PASO 3/4] Ejecutando Pipeline de Inferencia...")
+        logging.info("[PASO 3/5] Ejecutando Pipeline de Inferencia...")
         inference_start = time.time()
         
         # Seleccionar modelo para inferencia
@@ -165,7 +165,7 @@ def main(force_sync=False, use_ensemble=True):
         # ---------------------------------------------------------
         # PASO 4: MIGRACIÓN A FIREBASE
         # ---------------------------------------------------------
-        logging.info("[PASO 4/4] Migrando datos a Firestore...")
+        logging.info("[PASO 4/5] Migrando datos a Firestore...")
         migration_start = time.time()
         
         try:
@@ -177,6 +177,59 @@ def main(force_sync=False, use_ensemble=True):
             logging.warning("   Las predicciones están disponibles localmente, pero no en Cloud.")
             # Non-blocking: Local predictions still available
         
+        gc.collect()
+
+        # ---------------------------------------------------------
+        # PASO 5: DESPLIEGUE A CLOUD RUN (MODO ECONÓMICO)
+        # ---------------------------------------------------------
+        logging.info("[PASO 5/5] Desplegando versión económica a Cloud Run...")
+        deploy_start = time.time()
+
+        # Comando para desplegar código fuente directamente (incluye BD en data/)
+        # Configurado para minimizar costos: 0 min instances, 512MB RAM
+        deploy_cmd = (
+            "gcloud run deploy pista-inteligente "
+            "--source . "
+            "--region us-central1 "
+            "--allow-unauthenticated "
+            "--min-instances 0 "
+            "--max-instances 1 "
+            "--memory 512Mi "
+            "--quiet"  # No pedir confirmación
+        )
+
+        try:
+            logging.info(f"   Ejecutando: {deploy_cmd}")
+            # shell=True es recomedable en Windows para comandos como gcloud
+            res_deploy = subprocess.run(deploy_cmd, shell=True, capture_output=True, text=True, encoding='utf-8', errors='replace')
+
+            if res_deploy.returncode == 0:
+                logging.info("✅ Despliegue exitoso.")
+                # Intentar mostrar la URL
+                for line in res_deploy.stdout.splitlines():
+                    if "Service URL:" in line:
+                        logging.info(f"   🌍 {line.strip()}")
+            else:
+                logging.error("❌ Falló el despliegue.")
+                if "403" in res_deploy.stderr:
+                    logging.error("   ⚠️ Error de permisos (403). Verifica que tu usuario tenga rol de 'Cloud Build Editor' o 'Owner'.")
+                logging.error(f"   Detalle: {res_deploy.stderr}")
+        
+        except Exception as e:
+            logging.error(f"❌ Error ejecutando comando de despliegue: {e}")
+
+        # Deploy to Firebase Hosting (Static Assets + Rewrite Rules)
+        logging.info("[EXTRA] Sincronizando Hosting (firebase deploy)...")
+        try:
+            res_hosting = subprocess.run("firebase deploy --only hosting", shell=True, capture_output=True, text=True, encoding='utf-8', errors='replace')
+            if res_hosting.returncode == 0:
+                logging.info("✅ Firebase Hosting actualizado.")
+            else:
+                logging.warning(f"⚠️ Error actualizando Hosting: {res_hosting.stderr}")
+        except Exception as e:
+            logging.warning(f"⚠️ No se pudo ejecutar firebase deploy: {e}")
+
+        logging.info(f"   Tiempo despliegue: {time.time() - deploy_start:.1f}s")
         gc.collect()
 
         # ---------------------------------------------------------

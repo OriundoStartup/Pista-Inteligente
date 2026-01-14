@@ -242,19 +242,29 @@ class EnsembleInferencePipeline:
         
         return X_future, df_program
     
-    def _predict_with_calibration(self, X_future, df_program):
+    def _predict_with_calibration(self, X_future, df_program_enriched):
         """
         Genera predicciones y aplica calibración de probabilidades
         
         Returns:
             list of prediction dicts
         """
+        # --- INICIO CORRECCIÓN ---
+        # 1. Sanitizar columna 'numero' y 'nro_carrera': Rellenar NaN con 0 y forzar int
+        # Esto previene ValueError: cannot convert float NaN to integer
+        if 'numero' in df_program_enriched.columns:
+            df_program_enriched['numero'] = df_program_enriched['numero'].fillna(0).astype(int)
+            
+        if 'nro_carrera' in df_program_enriched.columns:
+            df_program_enriched['nro_carrera'] = df_program_enriched['nro_carrera'].fillna(0).astype(int)
+        # --------------------------
+
         # Predict with ensemble
         logger.info("   Ejecutando ensemble (LightGBM + XGBoost + CatBoost)...")
         raw_scores = self.ensemble.predict(X_future)
         
         # Attach scores to program
-        df_program = df_program.copy()
+        df_program = df_program_enriched.copy()
         df_program['raw_score'] = raw_scores
         
         # Apply softmax per race
@@ -294,11 +304,19 @@ class EnsembleInferencePipeline:
             
             # Format results
             for idx, r in group.iterrows():
+                # Safe conversion for possibly NaN values
+                try:
+                    carrera_num = int(r['nro_carrera']) if pd.notnull(r['nro_carrera']) else 0
+                    mandil_num = int(r['numero']) if pd.notnull(r['numero']) else 0
+                except (ValueError, TypeError):
+                    carrera_num = 0
+                    mandil_num = 0
+                
                 results.append({
                     'fecha': str(r['fecha']).split()[0],  # YYYY-MM-DD
                     'hipodromo': r['hipodromo'],
-                    'carrera': int(r['nro_carrera']),
-                    'numero': int(r['numero']),
+                    'carrera': carrera_num,
+                    'numero': mandil_num,
                     'caballo': r['caballo'],
                     'probabilidad': round(r['prob_win'] * 100, 1)
                 })

@@ -1,0 +1,13 @@
+{
+  "version": "4.0",
+  "timestamp": "20260104_161610",
+  "ensemble_ndcg": 0.6834613639337959,
+  "baseline_ndcg": 0.6979143692955393,
+  "mejora_porcentual": -2.0708851970381414,
+  "ensemble_mejor": false,
+  "n_features": 12,
+  "n_samples_train": 3905,
+  "n_samples_test": 941,
+  "n_races_train": 325,
+  "n_races_test": 82
+}

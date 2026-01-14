@@ -1,3154 +1,1666 @@
 [
   {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 1,
-    "numero": 1.0,
-    "caballo": "ESTEPHANIA",
-    "probabilidad": 14.1
+    "numero": 1,
+    "caballo": "COMMAND",
+    "probabilidad": 20.8
   },
   {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 1,
-    "numero": 2.0,
-    "caballo": "KEPKA",
-    "probabilidad": 6.9
+    "numero": 2,
+    "caballo": "POOR SMELL",
+    "probabilidad": 6.7
   },
   {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 1,
-    "numero": 3.0,
-    "caballo": "GRAN LALITO",
-    "probabilidad": 6.9
+    "numero": 3,
+    "caballo": "LALIBERTINA",
+    "probabilidad": 7.7
   },
   {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 1,
-    "numero": 4.0,
-    "caballo": "UNO CERO",
-    "probabilidad": 6.9
+    "numero": 4,
+    "caballo": "PRIMO HAPPY",
+    "probabilidad": 9.0
   },
   {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 1,
-    "numero": 5.0,
-    "caballo": "VINNALIA",
-    "probabilidad": 6.9
+    "numero": 5,
+    "caballo": "GRAN ROMANO",
+    "probabilidad": 5.4
   },
   {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 1,
-    "numero": 6.0,
-    "caballo": "DANITA FIRST",
-    "probabilidad": 6.9
+    "numero": 6,
+    "caballo": "W AR MICAN",
+    "probabilidad": 4.5
   },
   {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 1,
-    "numero": 7.0,
-    "caballo": "NIETA DEL MONTY",
-    "probabilidad": 3.4
+    "numero": 7,
+    "caballo": "ELVENECO",
+    "probabilidad": 4.7
   },
   {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 1,
-    "numero": 8.0,
-    "caballo": "MANANO",
-    "probabilidad": 3.4
+    "numero": 8,
+    "caballo": "DI LUNA",
+    "probabilidad": 5.6
   },
   {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 1,
-    "numero": 9.0,
-    "caballo": "DIMITRA",
-    "probabilidad": 3.4
+    "numero": 9,
+    "caballo": "I MPERIO BABILONICO",
+    "probabilidad": 5.0
   },
   {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 1,
-    "numero": 10.0,
-    "caballo": "MANCHITA DEL NUBLE",
-    "probabilidad": 6.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 1,
-    "numero": 11.0,
-    "caballo": "PRAIA DO FORTE",
-    "probabilidad": 6.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 1,
-    "numero": 12.0,
-    "caballo": "LUDMILA",
-    "probabilidad": 6.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 1,
-    "numero": 13.0,
-    "caballo": "TORNADO DE BULI",
-    "probabilidad": 6.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 1,
-    "numero": 14.0,
-    "caballo": "RAYO VELOZ",
-    "probabilidad": 6.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 1,
-    "numero": 15.0,
-    "caballo": "WILLIAM FAULKNER",
-    "probabilidad": 6.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 10,
-    "numero": 1.0,
-    "caballo": "JANNIK",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 10,
-    "numero": 2.0,
-    "caballo": "MURCOTT",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 10,
-    "numero": 3.0,
-    "caballo": "MATCHPOINT",
-    "probabilidad": 3.4
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 10,
-    "numero": 4.0,
-    "caballo": "TOUCHING ME",
-    "probabilidad": 3.4
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 10,
-    "numero": 5.0,
-    "caballo": "WIELKA",
-    "probabilidad": 3.4
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 10,
-    "numero": 6.0,
-    "caballo": "ANNCIATORE",
-    "probabilidad": 14.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 10,
-    "numero": 7.0,
-    "caballo": "ME DAS OTRO BESO",
-    "probabilidad": 3.4
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 10,
-    "numero": 8.0,
-    "caballo": "PISANELLO",
-    "probabilidad": 14.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 10,
-    "numero": 9.0,
-    "caballo": "600GY",
-    "probabilidad": 3.4
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 10,
-    "numero": 10.0,
-    "caballo": "MALORY",
-    "probabilidad": 14.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 10,
-    "numero": 11.0,
-    "caballo": "RAMHE",
-    "probabilidad": 14.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 10,
-    "numero": 12.0,
-    "caballo": "MUY ADMIRADO",
-    "probabilidad": 3.4
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 10,
-    "numero": 13.0,
-    "caballo": "SEVEN WONDERS",
-    "probabilidad": 14.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 11,
-    "numero": 1.0,
-    "caballo": "DIAMOND BLUE",
-    "probabilidad": 19.4
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 11,
-    "numero": 2.0,
-    "caballo": "JAMES BRUCE",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 11,
-    "numero": 3.0,
-    "caballo": "HARMONY OF THE SEA",
-    "probabilidad": 19.4
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 11,
-    "numero": 4.0,
-    "caballo": "BUTACHAUQUES",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 11,
-    "numero": 5.0,
-    "caballo": "GANDA",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 11,
-    "numero": 6.0,
-    "caballo": "CINQUE TERRE",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 11,
-    "numero": 7.0,
-    "caballo": "TOTEM REAL",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 11,
-    "numero": 8.0,
-    "caballo": "MISTER WATSON",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 11,
-    "numero": 9.0,
-    "caballo": "DE GRASSE",
-    "probabilidad": 19.4
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 11,
-    "numero": 10.0,
-    "caballo": "NO ME QUEMES",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 11,
-    "numero": 11.0,
-    "caballo": "TROTSKI",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 11,
-    "numero": 12.0,
-    "caballo": "LION KING",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 12,
-    "numero": 1.0,
-    "caballo": "SOY DEL CICLON",
-    "probabilidad": 10.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 12,
-    "numero": 2.0,
-    "caballo": "GONE STAR",
-    "probabilidad": 10.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 12,
-    "numero": 3.0,
-    "caballo": "DE ORO Y COBRE",
-    "probabilidad": 2.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 12,
-    "numero": 4.0,
-    "caballo": "SATOSHI",
-    "probabilidad": 10.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 12,
-    "numero": 5.0,
-    "caballo": "IMANOL",
-    "probabilidad": 10.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 12,
-    "numero": 6.0,
-    "caballo": "RADIANT ORQUIDEA",
-    "probabilidad": 10.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 12,
-    "numero": 7.0,
-    "caballo": "CON ZEUS",
-    "probabilidad": 10.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 12,
-    "numero": 8.0,
-    "caballo": "EL ARRUGAO",
-    "probabilidad": 10.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 12,
-    "numero": 9.0,
-    "caballo": "RIO AZOPARDO",
-    "probabilidad": 10.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 12,
-    "numero": 10.0,
-    "caballo": "CI MANCHI FRATELO",
-    "probabilidad": 10.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 12,
-    "numero": 11.0,
-    "caballo": "MAGUIRE",
-    "probabilidad": 2.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 13,
-    "numero": 1.0,
-    "caballo": "CHIVARO",
-    "probabilidad": 9.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 13,
-    "numero": 2.0,
-    "caballo": "TERCIADOR",
-    "probabilidad": 9.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 13,
-    "numero": 3.0,
-    "caballo": "KILIMANJARO",
-    "probabilidad": 9.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 13,
-    "numero": 4.0,
-    "caballo": "MUY SOLO AQUI",
-    "probabilidad": 2.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 13,
-    "numero": 5.0,
-    "caballo": "SASSI",
-    "probabilidad": 9.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 13,
-    "numero": 6.0,
-    "caballo": "GRAN PIOLA",
-    "probabilidad": 9.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 13,
-    "numero": 7.0,
-    "caballo": "JAVIVALETU",
-    "probabilidad": 2.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 13,
-    "numero": 8.0,
-    "caballo": "KORPER",
-    "probabilidad": 9.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 13,
-    "numero": 9.0,
-    "caballo": "VERSERO",
-    "probabilidad": 2.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 13,
-    "numero": 10.0,
-    "caballo": "TIA GUACOLDA",
-    "probabilidad": 9.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 13,
-    "numero": 11.0,
-    "caballo": "A MI EDAD DIFICIL",
-    "probabilidad": 9.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 13,
-    "numero": 12.0,
-    "caballo": "BEHIND THE SUN",
-    "probabilidad": 9.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 13,
-    "numero": 13.0,
-    "caballo": "MANKIND",
-    "probabilidad": 2.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 13,
-    "numero": 14.0,
-    "caballo": "ACLIS",
-    "probabilidad": 2.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 13,
-    "numero": 15.0,
-    "caballo": "ANCELOTTI",
-    "probabilidad": 2.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 14,
-    "numero": 1.0,
-    "caballo": "REY ESCOCES",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 14,
-    "numero": 2.0,
-    "caballo": "PROFESSIONALS",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 14,
-    "numero": 3.0,
-    "caballo": "SE PREPARO",
-    "probabilidad": 20.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 14,
-    "numero": 4.0,
-    "caballo": "LA POLITO",
-    "probabilidad": 20.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 14,
-    "numero": 5.0,
-    "caballo": "SWEET CHILD",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 14,
-    "numero": 7.0,
-    "caballo": "RED DADDY",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 14,
-    "numero": 8.0,
-    "caballo": "SIN PREJUICIOS",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 14,
-    "numero": 9.0,
-    "caballo": "LA MARRE",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 14,
-    "numero": 10.0,
-    "caballo": "TO COLLIPULLI",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 14,
-    "numero": 11.0,
-    "caballo": "DOCTORA MILAGRO",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 14,
-    "numero": 12.0,
-    "caballo": "RAPIDO Y VELOZ",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 14,
-    "numero": 13.0,
-    "caballo": "PODEROSA NOBLEZA",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 14,
-    "numero": 14.0,
-    "caballo": "JOHN COOPER",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 14,
-    "numero": 15.0,
-    "caballo": "TOP KING",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 15,
-    "numero": 1.0,
-    "caballo": "KAREV",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 15,
-    "numero": 2.0,
-    "caballo": "LARRYKANE",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 15,
-    "numero": 3.0,
-    "caballo": "NA NI NA",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 15,
-    "numero": 4.0,
-    "caballo": "FREUD WISH",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 15,
-    "numero": 5.0,
-    "caballo": "SALTO DEL GUAPO",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 15,
-    "numero": 6.0,
-    "caballo": "EL MERLUZO",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 15,
-    "numero": 7.0,
-    "caballo": "PESO COMPLETO",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 15,
-    "numero": 8.0,
-    "caballo": "GRAND SMILE",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 15,
-    "numero": 9.0,
-    "caballo": "GRAN RAI",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 15,
-    "numero": 10.0,
-    "caballo": "MAGO DEL GELATO",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 15,
-    "numero": 11.0,
-    "caballo": "MILTEO",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 15,
-    "numero": 12.0,
-    "caballo": "NORTE RISUE\u00d1O",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 1.0,
-    "caballo": "MI TIO POLO",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 2.0,
-    "caballo": "BESOS DE MIEL",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 3.0,
-    "caballo": "TEA AND MILK",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 4.0,
-    "caballo": "JE T'AIME",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 5.0,
-    "caballo": "JALONADO",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 6.0,
-    "caballo": "BARBIE DREAMS",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 7.0,
-    "caballo": "DOBLE NEGRO",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 8.0,
-    "caballo": "SEEKING THE SOUL",
-    "probabilidad": 21.8
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 9.0,
-    "caballo": "PETIROSSA",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 10.0,
-    "caballo": "SPELLBOUND",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 11.0,
-    "caballo": "NAHUEN",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 12.0,
-    "caballo": "FRENCH CANDY",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 13.0,
-    "caballo": "EL BOHEMIO",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 14.0,
-    "caballo": "PURA ROSA",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 15.0,
-    "caballo": "VALKYRIE LEGEND",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 16,
-    "numero": 16.0,
-    "caballo": "KOLETTE",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 1.0,
-    "caballo": "MR MISTER",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 2.0,
-    "caballo": "TANGO Y COMPAS",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 3.0,
-    "caballo": "QUIMBARA",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 4.0,
-    "caballo": "RECHIFLAO",
-    "probabilidad": 16.4
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 5.0,
-    "caballo": "VALTTERI",
-    "probabilidad": 16.4
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 6.0,
-    "caballo": "LA PURA FE",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 7.0,
-    "caballo": "GEROMILO",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 8.0,
-    "caballo": "POWER MARINE",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 9.0,
-    "caballo": "MI NONI",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 10.0,
-    "caballo": "AGUILA DE FUEGO",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 11.0,
-    "caballo": "MI PEQUE\u00d1O SUE\u00d1O",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 12.0,
-    "caballo": "GRAN TOMAHAWK",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 13.0,
-    "caballo": "PEQUE\u00d1O CRILIN",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 14.0,
-    "caballo": "NOVELA GRIEGA",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 15.0,
-    "caballo": "VAN DER SAR",
-    "probabilidad": 16.4
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 17,
-    "numero": 16.0,
-    "caballo": "HAMM GOOD",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 1.0,
-    "caballo": "CROCKED",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 2.0,
-    "caballo": "VIVIMOS SO\u00d1ANDO",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 3.0,
-    "caballo": "GLAMROCK",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 4.0,
-    "caballo": "LA PALA",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 5.0,
-    "caballo": "MAKINEN",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 6.0,
-    "caballo": "DI ALBA",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 7.0,
-    "caballo": "SORELLA DEL KING",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 8.0,
-    "caballo": "FANTASTIC DREAM",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 9.0,
-    "caballo": "INDIA MAULINA",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 10.0,
-    "caballo": "SCANDINAVA",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 11.0,
-    "caballo": "LA TOTE",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 12.0,
-    "caballo": "CAPITANA MARVEL",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 13.0,
-    "caballo": "ROSARIO TIJERA",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 14.0,
-    "caballo": "QUEEN ANY",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 15.0,
-    "caballo": "SISI STAR",
-    "probabilidad": 21.8
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 18,
-    "numero": 16.0,
-    "caballo": "GUARDA BELLINA",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 2,
-    "numero": 1.0,
-    "caballo": "MECEDOR",
+    "numero": 10,
+    "caballo": "IZESTE",
     "probabilidad": 7.6
   },
   {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 2,
-    "numero": 2.0,
-    "caballo": "CONOCIENDOTE",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 11,
+    "caballo": "CAPO DI FAMIGLIA",
+    "probabilidad": 5.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 12,
+    "caballo": "SHIVERS",
+    "probabilidad": 5.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 13,
+    "caballo": "W AMRAY",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 14,
+    "caballo": "ALPHA MALE",
     "probabilidad": 7.6
   },
   {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 2,
-    "numero": 3.0,
-    "caballo": "PESO DORADO",
-    "probabilidad": 7.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 2,
-    "numero": 4.0,
-    "caballo": "VUELVE LA FARRA",
-    "probabilidad": 7.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 2,
-    "numero": 5.0,
-    "caballo": "NATALINO",
-    "probabilidad": 7.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 2,
-    "numero": 6.0,
-    "caballo": "GRAND CASABLANCA",
-    "probabilidad": 7.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 2,
-    "numero": 7.0,
-    "caballo": "TANGERINE TANGO",
-    "probabilidad": 7.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 2,
-    "numero": 8.0,
-    "caballo": "PEDRINHO",
-    "probabilidad": 7.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 2,
-    "numero": 9.0,
-    "caballo": "EN CAPILLA",
-    "probabilidad": 7.6
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 2,
-    "numero": 10.0,
-    "caballo": "QUIEN ME PILLO",
-    "probabilidad": 31.7
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 3,
-    "numero": 1.0,
-    "caballo": "BALDER EL NORUEGO",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 3,
-    "numero": 2.0,
-    "caballo": "INDHIRA",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 3,
-    "numero": 3.0,
-    "caballo": "SAPIRONGO",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 3,
-    "numero": 4.0,
-    "caballo": "ARTHUR SHELBY",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 3,
-    "numero": 5.0,
-    "caballo": "MATE AMARGO",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 3,
-    "numero": 6.0,
-    "caballo": "FERLUISI",
-    "probabilidad": 13.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 3,
-    "numero": 7.0,
-    "caballo": "KANDOZI",
-    "probabilidad": 13.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 3,
-    "numero": 8.0,
-    "caballo": "MISTER STRESS",
-    "probabilidad": 13.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 3,
-    "numero": 9.0,
-    "caballo": "PLUMA DE MAR",
-    "probabilidad": 13.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 3,
-    "numero": 10.0,
-    "caballo": "RAUCO",
-    "probabilidad": 13.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 3,
-    "numero": 11.0,
-    "caballo": "WONDERFUL STAR",
-    "probabilidad": 13.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 4,
-    "numero": 1.0,
-    "caballo": "MONARCA",
-    "probabilidad": 7.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 4,
-    "numero": 2.0,
-    "caballo": "EL BIGOTE",
-    "probabilidad": 7.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 4,
-    "numero": 3.0,
-    "caballo": "PERFECTA ACTITUD",
-    "probabilidad": 7.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 4,
-    "numero": 4.0,
-    "caballo": "SUE\u00d1O REALIDAD",
-    "probabilidad": 7.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 4,
-    "numero": 5.0,
-    "caballo": "TURQUESA DORADA",
-    "probabilidad": 7.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 4,
-    "numero": 6.0,
-    "caballo": "AMPAWAN",
-    "probabilidad": 7.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 4,
-    "numero": 7.0,
-    "caballo": "REINA DEL MONTE",
-    "probabilidad": 7.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 4,
-    "numero": 8.0,
-    "caballo": "EXTROVERTIDA",
-    "probabilidad": 7.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 4,
-    "numero": 9.0,
-    "caballo": "LITTLE GASPI",
-    "probabilidad": 7.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 4,
-    "numero": 10.0,
-    "caballo": "MARULINA",
-    "probabilidad": 7.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 4,
-    "numero": 11.0,
-    "caballo": "OJO DE HALCON",
-    "probabilidad": 7.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 4,
-    "numero": 12.0,
-    "caballo": "SEE YOU AGAIN",
-    "probabilidad": 7.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 4,
-    "numero": 13.0,
-    "caballo": "MOSASAURUS",
-    "probabilidad": 7.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 4,
-    "numero": 14.0,
-    "caballo": "CABLE A TIERRA",
-    "probabilidad": 7.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 5,
-    "numero": 1.0,
-    "caballo": "CONQUISTADO",
-    "probabilidad": 2.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 5,
-    "numero": 2.0,
-    "caballo": "EL ATREVIDO",
-    "probabilidad": 2.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 5,
-    "numero": 3.0,
-    "caballo": "CRUZA EL RIO",
-    "probabilidad": 2.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 5,
-    "numero": 4.0,
-    "caballo": "TIO SALCHICHA",
-    "probabilidad": 2.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 5,
-    "numero": 5.0,
-    "caballo": "VIAJE A CARMEL",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 5,
-    "numero": 6.0,
-    "caballo": "CATANZARO",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 5,
-    "numero": 7.0,
-    "caballo": "MUSICO Y SOLDADO",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 5,
-    "numero": 8.0,
-    "caballo": "EL SALVADOR",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 5,
-    "numero": 9.0,
-    "caballo": "COCHEPE",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 5,
-    "numero": 10.0,
-    "caballo": "GOLDEN COPPER",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 5,
-    "numero": 11.0,
-    "caballo": "PERDUTO",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 5,
-    "numero": 12.0,
-    "caballo": "EL JEI",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 5,
-    "numero": 13.0,
-    "caballo": "SALTARIN",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 5,
-    "numero": 14.0,
-    "caballo": "ERKAN",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 6,
-    "numero": 1.0,
-    "caballo": "GENESIS",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 6,
-    "numero": 2.0,
-    "caballo": "MI MAMA INES",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 6,
-    "numero": 3.0,
-    "caballo": "GOOD SEA",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 6,
-    "numero": 4.0,
-    "caballo": "SELVA BELLA",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 6,
-    "numero": 5.0,
-    "caballo": "VELATRI",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 6,
-    "numero": 6.0,
-    "caballo": "LADY IN BLACK",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 6,
-    "numero": 7.0,
-    "caballo": "REINHA",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 6,
-    "numero": 8.0,
-    "caballo": "MIA SELENTANA",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 6,
-    "numero": 9.0,
-    "caballo": "CAMBIA EL SWITCH",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 6,
-    "numero": 10.0,
-    "caballo": "PER NIENTE",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 6,
-    "numero": 11.0,
-    "caballo": "SANDIA",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": NaN,
-    "caballo": "LINDO RECUERDO",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": NaN,
-    "caballo": "SIMONE BULL",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": NaN,
-    "caballo": "LINDO RECUERDO",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": NaN,
-    "caballo": "SIMONE BULL",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": NaN,
-    "caballo": "LINDO RECUERDO",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": NaN,
-    "caballo": "SIMONE BULL",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": NaN,
-    "caballo": "LINDO RECUERDO",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": NaN,
-    "caballo": "SIMONE BULL",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": 1.0,
-    "caballo": "BEN MAMUT",
-    "probabilidad": 2.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": 2.0,
-    "caballo": "EL LUBRISHELL",
-    "probabilidad": 2.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": 3.0,
-    "caballo": "CATAPOS",
-    "probabilidad": 10.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": 4.0,
-    "caballo": "POETA GRIEGO",
-    "probabilidad": 10.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": 5.0,
-    "caballo": "PRIMAZO",
-    "probabilidad": 2.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": 8.0,
-    "caballo": "ALFONSO EL GRANDE",
-    "probabilidad": 2.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": 9.0,
-    "caballo": "ARRUMACO",
-    "probabilidad": 10.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": 10.0,
-    "caballo": "GUACHACA",
-    "probabilidad": 2.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": 11.0,
-    "caballo": "MACRON",
-    "probabilidad": 2.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": 12.0,
-    "caballo": "EN CHATEAUROUX",
-    "probabilidad": 10.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": 13.0,
-    "caballo": "MY SWEET LORD",
-    "probabilidad": 2.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": 14.0,
-    "caballo": "MI GIGANTE",
-    "probabilidad": 2.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": 15.0,
-    "caballo": "SIEMPRE ESTOY",
-    "probabilidad": 10.3
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 7,
-    "numero": 16.0,
-    "caballo": "LUQUITAS",
-    "probabilidad": 2.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 8,
-    "numero": 1.0,
-    "caballo": "GRIEZMANN",
-    "probabilidad": 15.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 8,
-    "numero": 2.0,
-    "caballo": "GALWAY GIRL",
-    "probabilidad": 15.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 8,
-    "numero": 3.0,
-    "caballo": "EL PITIN",
-    "probabilidad": 3.8
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 8,
-    "numero": 4.0,
-    "caballo": "LIMATOWN",
-    "probabilidad": 3.8
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 8,
-    "numero": 5.0,
-    "caballo": "BESO AL CIELO",
-    "probabilidad": 15.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 8,
-    "numero": 6.0,
-    "caballo": "SEE ME",
-    "probabilidad": 15.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 8,
-    "numero": 7.0,
-    "caballo": "BREGO",
-    "probabilidad": 3.8
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 8,
-    "numero": 8.0,
-    "caballo": "PALACETE",
-    "probabilidad": 15.9
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 8,
-    "numero": 9.0,
-    "caballo": "STRAY KIDS",
-    "probabilidad": 3.8
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 8,
-    "numero": 10.0,
-    "caballo": "ONIX BLUE",
-    "probabilidad": 5.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 9,
-    "numero": 1.0,
-    "caballo": "ESTILO ANTIGUO",
-    "probabilidad": 8.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 9,
-    "numero": 2.0,
-    "caballo": "MISIA NONI",
-    "probabilidad": 8.2
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 9,
-    "numero": 3.0,
-    "caballo": "GOLFISTA",
-    "probabilidad": 6.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 9,
-    "numero": 4.0,
-    "caballo": "REINA EGIPCIA",
-    "probabilidad": 6.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 9,
-    "numero": 5.0,
-    "caballo": "SIN EL",
-    "probabilidad": 25.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 9,
-    "numero": 6.0,
-    "caballo": "NI\u00d1ITA POR DIOS",
-    "probabilidad": 6.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 9,
-    "numero": 7.0,
-    "caballo": "PARA SIEMPRE",
-    "probabilidad": 25.5
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 9,
-    "numero": 8.0,
-    "caballo": "NILCA",
-    "probabilidad": 6.1
-  },
-  {
-    "fecha": "2025-12-29",
-    "hipodromo": "Club H\u00edpico de Santiago",
-    "carrera": 9,
-    "numero": 9.0,
-    "caballo": "BLUE FOR EVER",
-    "probabilidad": 8.2
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 1,
-    "numero": 1.0,
-    "caballo": "EL MISTER",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 1,
-    "numero": 2.0,
-    "caballo": "KITTEN'S BLACK",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 1,
-    "numero": 3.0,
-    "caballo": "DON BRUNO",
-    "probabilidad": 18.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 1,
-    "numero": 4.0,
-    "caballo": "PICHO AMADO",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 1,
-    "numero": 5.0,
-    "caballo": "LOCO HERMES",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 1,
-    "numero": 6.0,
-    "caballo": "PAZZELLE",
-    "probabilidad": 18.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 1,
-    "numero": 7.0,
-    "caballo": "TOPACIO AZUL",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 1,
-    "numero": 8.0,
-    "caballo": "STRACCIATELLA",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 1,
-    "numero": 9.0,
-    "caballo": "MISTER CESAR",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 1,
-    "numero": 10.0,
-    "caballo": "ROM TALE (USA)",
-    "probabilidad": 18.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 1,
-    "numero": 11.0,
-    "caballo": "MU\u00d1ECO DASH",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 1,
-    "numero": 12.0,
-    "caballo": "RUBIO ALOCADO",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 1,
-    "numero": 13.0,
-    "caballo": "LUCKY BOSS",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 10,
-    "numero": 1.0,
-    "caballo": "BONE LESS",
-    "probabilidad": 19.4
+    "numero": 1,
+    "caballo": "FURIOSO NANO",
+    "probabilidad": 4.8
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 10,
-    "numero": 2.0,
-    "caballo": "GLADIADOR ART",
+    "numero": 2,
+    "caballo": "STEVIETOO",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 3,
+    "caballo": "ROY PARA UN POCO",
+    "probabilidad": 21.5
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 4,
+    "caballo": "FROM THE SKY",
+    "probabilidad": 21.5
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 5,
+    "caballo": "NOI",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 6,
+    "caballo": "WARRIOR SPIRIT",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 7,
+    "caballo": "MR KISS",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 8,
+    "caballo": "MISTER W AYNE",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 9,
+    "caballo": "EL ODIOSO (ARG)",
     "probabilidad": 4.6
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 10,
-    "numero": 3.0,
-    "caballo": "BAPKIZA",
-    "probabilidad": 19.4
+    "numero": 10,
+    "caballo": "POTRO QUERIDO",
+    "probabilidad": 6.3
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 10,
-    "numero": 4.0,
-    "caballo": "LILYBETH",
-    "probabilidad": 4.6
+    "numero": 11,
+    "caballo": "ALIVES",
+    "probabilidad": 6.3
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 10,
-    "numero": 5.0,
-    "caballo": "GLADIATORE",
-    "probabilidad": 19.4
+    "numero": 12,
+    "caballo": "UNION ARMY (ARG)",
+    "probabilidad": 6.2
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 10,
-    "numero": 6.0,
-    "caballo": "KYO",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 10,
-    "numero": 7.0,
-    "caballo": "TED",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 10,
-    "numero": 8.0,
-    "caballo": "MISTER VILLAGRA",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 10,
-    "numero": 9.0,
-    "caballo": "JAPONEITOR",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 10,
-    "numero": 10.0,
-    "caballo": "LIO CORDILLERANO",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 10,
-    "numero": 11.0,
-    "caballo": "JUSTINSITO CRACK",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 10,
-    "numero": 12.0,
-    "caballo": "MAYSTER",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 11,
-    "numero": 1.0,
-    "caballo": "BACK TO BLACK",
-    "probabilidad": 20.5
+    "numero": 1,
+    "caballo": "JERUSA",
+    "probabilidad": 5.9
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 11,
-    "numero": 2.0,
+    "numero": 2,
+    "caballo": "EL LOCO PEYUCO",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 3,
+    "caballo": "THE TEACHER",
+    "probabilidad": 15.0
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 4,
+    "caballo": "GUAPA PORTEÑA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 5,
+    "caballo": "HIPATIA",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 6,
+    "caballo": "IL SODOMA",
+    "probabilidad": 5.5
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 7,
+    "caballo": "DONNARUMMA",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 8,
+    "caballo": "BETTOLINA",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 9,
+    "caballo": "KING OCTOPUS",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 10,
+    "caballo": "ADIOS",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 11,
+    "caballo": "SOTO DE ANGOL",
+    "probabilidad": 25.8
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 1,
+    "caballo": "MAGIC FLAME",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 2,
+    "caballo": "ANDREI BOLKONSKY",
+    "probabilidad": 5.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 3,
+    "caballo": "VIVE LE ROI",
+    "probabilidad": 5.9
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 4,
+    "caballo": "KAPU",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 5,
+    "caballo": "POGACAR",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 6,
+    "caballo": "POR MI MISMO",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 7,
+    "caballo": "GOLDEN EAST",
+    "probabilidad": 5.9
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 8,
+    "caballo": "MISTER E",
+    "probabilidad": 25.0
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 9,
     "caballo": "DALE ISI",
-    "probabilidad": 4.9
+    "probabilidad": 5.4
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 11,
-    "numero": 3.0,
-    "caballo": "ANTTYAL",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 11,
-    "numero": 4.0,
-    "caballo": "MALA MEMORIA",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 11,
-    "numero": 5.0,
-    "caballo": "TE QUIERO TODAMA",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 11,
-    "numero": 6.0,
-    "caballo": "BREEZY STAR",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 11,
-    "numero": 7.0,
-    "caballo": "SPOTTER",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 11,
-    "numero": 8.0,
-    "caballo": "MERADONNA",
-    "probabilidad": 20.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 11,
-    "numero": 9.0,
-    "caballo": "GERASIMOVA",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 11,
-    "numero": 10.0,
-    "caballo": "MALAGACY GREEN",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 11,
-    "numero": 11.0,
-    "caballo": "INDIAN MELODY",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 11,
-    "numero": 12.0,
-    "caballo": "MALDOTTI",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 11,
-    "numero": 13.0,
-    "caballo": "GRACIA CLASICA",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 11,
-    "numero": 14.0,
-    "caballo": "EL PALOMO",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 12,
-    "numero": 1.0,
-    "caballo": "HUEVO DE CHOCOLATE",
-    "probabilidad": 4.4
+    "numero": 10,
+    "caballo": "SOL DE TROYA",
+    "probabilidad": 25.0
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 12,
-    "numero": 2.0,
-    "caballo": "JARRA DE VINO",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 12,
-    "numero": 3.0,
-    "caballo": "EL RENACIDO",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 12,
-    "numero": 4.0,
-    "caballo": "DEFENSOR ROJO",
-    "probabilidad": 18.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 12,
-    "numero": 5.0,
-    "caballo": "PRINCESITACAMI (ARG)",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 12,
-    "numero": 6.0,
-    "caballo": "CONDUCTA INFAME",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 12,
-    "numero": 7.0,
-    "caballo": "SORAILA",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 12,
-    "numero": 8.0,
-    "caballo": "NO MIRES ATRAS",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 12,
-    "numero": 9.0,
-    "caballo": "TIENES MI SONRISA",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 12,
-    "numero": 10.0,
-    "caballo": "HOFFA",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 12,
-    "numero": 11.0,
-    "caballo": "VELETA DE PROA",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 12,
-    "numero": 12.0,
-    "caballo": "LUIVERAR",
-    "probabilidad": 18.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 12,
-    "numero": 13.0,
-    "caballo": "ROYAL FIERCE",
-    "probabilidad": 18.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 13,
-    "numero": 1.0,
+    "numero": 1,
+    "caballo": "CAPOLAVORO",
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 2,
+    "caballo": "NEW EMPIRE",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 3,
+    "caballo": "LORENZZO",
+    "probabilidad": 14.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 4,
+    "caballo": "VOY SALIENDO",
+    "probabilidad": 3.2
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 5,
+    "caballo": "EL JAPONES",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 6,
+    "caballo": "HELA",
+    "probabilidad": 3.1
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 7,
+    "caballo": "COLISEO DI ROMA",
+    "probabilidad": 14.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 8,
+    "caballo": "CARTMAN",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 9,
+    "caballo": "HIMALAYA SPIRIT",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 10,
+    "caballo": "HOTU MATUA",
+    "probabilidad": 3.1
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 11,
+    "caballo": "BACAN SOLTERO",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 12,
+    "caballo": "WALLACE",
+    "probabilidad": 3.1
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 13,
+    "caballo": "DALYAN",
+    "probabilidad": 3.5
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 14,
+    "caballo": "A TODO GALOPE",
+    "probabilidad": 3.2
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 15,
+    "caballo": "TREMENDO MACHO",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 16,
+    "caballo": "SALTO ETERNO",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 1,
+    "caballo": "CHE SAMARITAN",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 2,
+    "caballo": "PIETRA DI LUNA",
+    "probabilidad": 15.2
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 3,
+    "caballo": "OURO",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 4,
+    "caballo": "PRIMA NOTTE",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 5,
+    "caballo": "EXETER (ARG)",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 6,
+    "caballo": "SUAVE BRISA",
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 7,
+    "caballo": "EL VIEJO LAUCHA",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 8,
+    "caballo": "CREED",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 9,
+    "caballo": "MADAME CAYETANA",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 10,
+    "caballo": "MUJER DE PASARELA",
+    "probabilidad": 12.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 11,
+    "caballo": "ANGELINA DE RIVOLI",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 12,
+    "caballo": "SEXTA FEIRA",
+    "probabilidad": 15.2
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 13,
+    "caballo": "SOUL QUEEN",
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 1,
+    "caballo": "GREEN DRESS",
+    "probabilidad": 16.6
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 2,
+    "caballo": "EJEMPLO DE VALOR",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 3,
+    "caballo": "SUD AMERICANO",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 4,
+    "caballo": "MAYSTER",
+    "probabilidad": 16.6
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 5,
+    "caballo": "TROIS PLUMES",
+    "probabilidad": 3.6
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 6,
+    "caballo": "TAISEI",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 7,
+    "caballo": "OSCURO Y SALVAJE",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 8,
+    "caballo": "OPERETA DE PLAZA",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 9,
+    "caballo": "CONDUCTA INFAME",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 10,
+    "caballo": "FLYING GIANT",
+    "probabilidad": 16.6
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 11,
+    "caballo": "GERMANICUS",
+    "probabilidad": 3.6
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 12,
+    "caballo": "MAKIS (ARG)",
+    "probabilidad": 3.6
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 16,
+    "numero": 1,
+    "caballo": "MERENGON",
+    "probabilidad": 3.8
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 16,
+    "numero": 2,
+    "caballo": "WANNABE",
+    "probabilidad": 17.5
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 16,
+    "numero": 3,
+    "caballo": "TUTTO APIACCERE",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 16,
+    "numero": 4,
+    "caballo": "EL BOTICARIO",
+    "probabilidad": 17.5
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 16,
+    "numero": 5,
+    "caballo": "SEÑORA BERNI",
+    "probabilidad": 4.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 16,
+    "numero": 6,
+    "caballo": "PASION POR ELLA",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 16,
+    "numero": 7,
+    "caballo": "ROJO BURGUES",
+    "probabilidad": 3.8
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 16,
+    "numero": 8,
+    "caballo": "PRINCESITACAMI (ARG)",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 16,
+    "numero": 9,
+    "caballo": "STAR HONEY",
+    "probabilidad": 4.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 16,
+    "numero": 10,
+    "caballo": "TIENES MI SONRISA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 16,
+    "numero": 11,
+    "caballo": "EL TANQUE AGUS",
+    "probabilidad": 3.8
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 16,
+    "numero": 12,
+    "caballo": "MIND THE GAP",
+    "probabilidad": 4.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 16,
+    "numero": 13,
+    "caballo": "SORAILA",
+    "probabilidad": 3.8
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 16,
+    "numero": 14,
+    "caballo": "ALAS DE PLATA",
+    "probabilidad": 3.8
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 17,
+    "numero": 1,
+    "caballo": "CALOCHITA",
+    "probabilidad": 15.9
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 17,
+    "numero": 2,
+    "caballo": "CONCLUYENTE",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 17,
+    "numero": 3,
+    "caballo": "ULI EL LUCHADOR",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 17,
+    "numero": 4,
     "caballo": "LUCKY STORM",
     "probabilidad": 9.5
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 13,
-    "numero": 2.0,
-    "caballo": "MR KISS",
-    "probabilidad": 9.5
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 17,
+    "numero": 5,
+    "caballo": "HOOTEROAD",
+    "probabilidad": 4.2
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 13,
-    "numero": 3.0,
-    "caballo": "CREO EN MI",
-    "probabilidad": 9.5
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 17,
+    "numero": 6,
+    "caballo": "WATAKIN",
+    "probabilidad": 3.5
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 13,
-    "numero": 4.0,
-    "caballo": "ROY PARA UN POCO",
-    "probabilidad": 2.3
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 17,
+    "numero": 7,
+    "caballo": "FRANK SLADE",
+    "probabilidad": 4.2
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 13,
-    "numero": 5.0,
-    "caballo": "PAICAVI",
-    "probabilidad": 9.5
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 17,
+    "numero": 8,
+    "caballo": "DADDY TITO",
+    "probabilidad": 3.5
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 13,
-    "numero": 6.0,
-    "caballo": "GRAN CAFRUNE",
-    "probabilidad": 9.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 13,
-    "numero": 7.0,
-    "caballo": "WARRIOR SPIRIT",
-    "probabilidad": 9.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 13,
-    "numero": 8.0,
-    "caballo": "MODELO DEL SALTO",
-    "probabilidad": 9.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 13,
-    "numero": 9.0,
-    "caballo": "BETTER THAN",
-    "probabilidad": 2.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 13,
-    "numero": 10.0,
-    "caballo": "SALUS",
-    "probabilidad": 9.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 13,
-    "numero": 11.0,
-    "caballo": "EL ESPIA",
-    "probabilidad": 9.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 13,
-    "numero": 12.0,
-    "caballo": "KWIN",
-    "probabilidad": 9.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 2,
-    "numero": 1.0,
-    "caballo": "DO\u00d1A MARLY",
-    "probabilidad": 2.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 2,
-    "numero": 2.0,
-    "caballo": "GO RUN GIGI",
-    "probabilidad": 2.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 2,
-    "numero": 3.0,
-    "caballo": "SCANDY DUBAI",
-    "probabilidad": 2.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 2,
-    "numero": 4.0,
-    "caballo": "PRESUMIDA FLAME",
-    "probabilidad": 12.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 2,
-    "numero": 5.0,
-    "caballo": "KAT DUBAI",
-    "probabilidad": 2.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 2,
-    "numero": 6.0,
-    "caballo": "MOROCHA DE ORO",
-    "probabilidad": 2.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 2,
-    "numero": 7.0,
-    "caballo": "SUMMER SOHN",
-    "probabilidad": 12.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 2,
-    "numero": 8.0,
-    "caballo": "STORMY LUCKY",
-    "probabilidad": 2.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 2,
-    "numero": 9.0,
-    "caballo": "MADAM SECRETARY",
-    "probabilidad": 12.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 2,
-    "numero": 10.0,
-    "caballo": "ROSITA DEL PUERTO",
-    "probabilidad": 12.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 2,
-    "numero": 11.0,
-    "caballo": "MI GRAN BICHOTA",
-    "probabilidad": 2.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 2,
-    "numero": 12.0,
-    "caballo": "SHIFLIN",
-    "probabilidad": 12.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 2,
-    "numero": 13.0,
-    "caballo": "LA PROPIA HERMANA",
-    "probabilidad": 2.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 2,
-    "numero": 14.0,
-    "caballo": "LADY LAURA",
-    "probabilidad": 12.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 2,
-    "numero": 15.0,
-    "caballo": "CIBELES (ARG)",
-    "probabilidad": 2.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 3,
-    "numero": 1.0,
-    "caballo": "EL HUEVO COTOTO",
-    "probabilidad": 6.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 3,
-    "numero": 2.0,
-    "caballo": "MACKLIN",
-    "probabilidad": 6.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 3,
-    "numero": 3.0,
-    "caballo": "CONDE AUSTRAL",
-    "probabilidad": 6.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 3,
-    "numero": 4.0,
-    "caballo": "DULCE ANITA",
-    "probabilidad": 6.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 3,
-    "numero": 5.0,
-    "caballo": "MOSCON TORDILLO",
-    "probabilidad": 6.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 3,
-    "numero": 6.0,
-    "caballo": "GANDA YA",
-    "probabilidad": 6.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 3,
-    "numero": 7.0,
-    "caballo": "SUAVE BRISA",
-    "probabilidad": 6.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 3,
-    "numero": 8.0,
-    "caballo": "MY SISTER",
-    "probabilidad": 27.2
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 3,
-    "numero": 9.0,
-    "caballo": "PHRODO",
-    "probabilidad": 27.2
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 4,
-    "numero": 1.0,
-    "caballo": "GRAN ESPARTACO",
-    "probabilidad": 16.1
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 4,
-    "numero": 2.0,
-    "caballo": "KING PAPER",
-    "probabilidad": 16.1
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 4,
-    "numero": 3.0,
-    "caballo": "GOCCE",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 4,
-    "numero": 4.0,
-    "caballo": "RADIO TEATRO (ARG)",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 4,
-    "numero": 5.0,
-    "caballo": "MONO MONIN",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 4,
-    "numero": 6.0,
-    "caballo": "PINTA DE MUSICO",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 4,
-    "numero": 7.0,
-    "caballo": "TE LO CEDO",
-    "probabilidad": 16.1
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 4,
-    "numero": 8.0,
-    "caballo": "SUPER PIRATA",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 4,
-    "numero": 9.0,
-    "caballo": "PABLOSKY",
-    "probabilidad": 16.1
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 4,
-    "numero": 10.0,
-    "caballo": "SO HANDSOME",
-    "probabilidad": 16.1
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 5,
-    "numero": 1.0,
-    "caballo": "INDIAN SYMPHONY",
-    "probabilidad": 13.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 5,
-    "numero": 2.0,
-    "caballo": "RESPECT",
-    "probabilidad": 13.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 5,
-    "numero": 3.0,
-    "caballo": "CLAU THE GOLD",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 5,
-    "numero": 4.0,
-    "caballo": "HOOT PRIZE",
-    "probabilidad": 13.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 5,
-    "numero": 5.0,
-    "caballo": "ROGLIC",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 5,
-    "numero": 6.0,
-    "caballo": "EL LOBO PAGA",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 5,
-    "numero": 7.0,
-    "caballo": "LOBELIUS",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 5,
-    "numero": 8.0,
-    "caballo": "THE GREAT DANY",
-    "probabilidad": 13.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 5,
-    "numero": 9.0,
-    "caballo": "ADIOS",
-    "probabilidad": 13.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 5,
-    "numero": 10.0,
-    "caballo": "LA TIA ELENA",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 5,
-    "numero": 11.0,
-    "caballo": "DESPROLIJO",
-    "probabilidad": 13.9
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 6,
-    "numero": 1.0,
-    "caballo": "DRAKE (ARG)",
-    "probabilidad": 10.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 6,
-    "numero": 2.0,
-    "caballo": "MIPIPO",
-    "probabilidad": 10.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 6,
-    "numero": 3.0,
-    "caballo": "BOMBONETE",
-    "probabilidad": 10.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 6,
-    "numero": 4.0,
-    "caballo": "CANDELARIA BLIZ",
-    "probabilidad": 10.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 6,
-    "numero": 5.0,
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 17,
+    "numero": 9,
     "caballo": "TANYTUS",
-    "probabilidad": 10.5
+    "probabilidad": 15.8
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 6,
-    "numero": 6.0,
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 17,
+    "numero": 10,
+    "caballo": "AWARDED",
+    "probabilidad": 3.8
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 17,
+    "numero": 11,
+    "caballo": "MORINGA",
+    "probabilidad": 3.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 17,
+    "numero": 12,
+    "caballo": "SWEET SUNDOWN",
+    "probabilidad": 15.9
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 17,
+    "numero": 13,
+    "caballo": "VIENE PUELCHE",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 17,
+    "numero": 14,
+    "caballo": "MEDFORD",
+    "probabilidad": 3.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 18,
+    "numero": 1,
+    "caballo": "GOLDEN STONE",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 18,
+    "numero": 2,
+    "caballo": "WARA AND RED",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 18,
+    "numero": 3,
+    "caballo": "PAICAVI",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 18,
+    "numero": 4,
+    "caballo": "FOREHAND",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 18,
+    "numero": 5,
+    "caballo": "TIA HEDY",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 18,
+    "numero": 6,
+    "caballo": "YULIECITA CRACK",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 18,
+    "numero": 7,
+    "caballo": "LAST GAMBLE",
+    "probabilidad": 3.8
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 18,
+    "numero": 8,
+    "caballo": "LADY LUMBER",
+    "probabilidad": 17.6
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 18,
+    "numero": 9,
+    "caballo": "CANELA STAR",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 18,
+    "numero": 10,
+    "caballo": "CHAMPELICE",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 18,
+    "numero": 11,
     "caballo": "CALIFORNIA SPRING",
-    "probabilidad": 10.5
+    "probabilidad": 17.6
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 6,
-    "numero": 7.0,
-    "caballo": "THE GREAT TEXAS",
-    "probabilidad": 2.5
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 18,
+    "numero": 12,
+    "caballo": "MEXA",
+    "probabilidad": 3.9
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 6,
-    "numero": 8.0,
-    "caballo": "MUBARAK",
-    "probabilidad": 10.5
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 18,
+    "numero": 13,
+    "caballo": "PINE BLACK",
+    "probabilidad": 3.8
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 6,
-    "numero": 9.0,
-    "caballo": "ALGO LE PASO",
-    "probabilidad": 10.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 6,
-    "numero": 10.0,
-    "caballo": "LIUCURA PARK",
-    "probabilidad": 2.5
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 6,
-    "numero": 11.0,
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 18,
+    "numero": 14,
     "caballo": "CALA DE ORO",
-    "probabilidad": 10.5
+    "probabilidad": 7.6
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 7,
-    "numero": 1.0,
-    "caballo": "HENDRICKS",
-    "probabilidad": 3.9
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 1,
+    "caballo": "ARAUKAN",
+    "probabilidad": 7.0
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 7,
-    "numero": 2.0,
-    "caballo": "SAG GIGA",
-    "probabilidad": 3.9
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 2,
+    "caballo": "REGALA TODO",
+    "probabilidad": 21.6
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 7,
-    "numero": 3.0,
-    "caballo": "MAX FOUR",
-    "probabilidad": 3.9
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 3,
+    "caballo": "PIRATOMY",
+    "probabilidad": 4.6
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 7,
-    "numero": 4.0,
-    "caballo": "RAIMUNDO A",
-    "probabilidad": 16.1
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 4,
+    "caballo": "SESTRI LEVANTE",
+    "probabilidad": 21.6
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 7,
-    "numero": 5.0,
-    "caballo": "THE GREAT JOHNNY",
-    "probabilidad": 16.1
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 5,
+    "caballo": "ELON",
+    "probabilidad": 7.0
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 7,
-    "numero": 6.0,
-    "caballo": "MCCLANE",
-    "probabilidad": 3.9
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 6,
+    "caballo": "SIGAN LAMUSICA",
+    "probabilidad": 6.9
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 7,
-    "numero": 7.0,
-    "caballo": "ROPOPOMPOM",
-    "probabilidad": 16.1
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 7,
+    "caballo": "CHATO",
+    "probabilidad": 7.9
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 7,
-    "numero": 8.0,
-    "caballo": "BLUE LABEL",
-    "probabilidad": 16.1
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 8,
+    "caballo": "BEIT JALA",
+    "probabilidad": 5.8
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 7,
-    "numero": 9.0,
-    "caballo": "AMIGO FARUK",
-    "probabilidad": 3.9
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 9,
+    "caballo": "FALLEN STAR",
+    "probabilidad": 6.2
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 7,
-    "numero": 10.0,
-    "caballo": "ZIM",
-    "probabilidad": 16.1
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 10,
+    "caballo": "KRASNYY AND RED",
+    "probabilidad": 11.3
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 8,
-    "numero": 1.0,
-    "caballo": "ENCANTO VELOZ",
-    "probabilidad": 17.6
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 1,
+    "caballo": "IRISH BAND",
+    "probabilidad": 13.5
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 8,
-    "numero": 2.0,
-    "caballo": "OCHO DE ABRIL",
-    "probabilidad": 4.2
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 2,
+    "caballo": "EL HUEVO COTOTO",
+    "probabilidad": 12.8
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 8,
-    "numero": 3.0,
-    "caballo": "MUY AMIGO",
-    "probabilidad": 4.2
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 3,
+    "caballo": "PRINCESA TROYANA",
+    "probabilidad": 6.9
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 8,
-    "numero": 4.0,
-    "caballo": "IRISH BOY",
-    "probabilidad": 17.6
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 4,
+    "caballo": "PRINCESS UP",
+    "probabilidad": 13.5
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 8,
-    "numero": 5.0,
-    "caballo": "WHITE SPIRIT",
-    "probabilidad": 4.2
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 5,
+    "caballo": "LADY EMPER",
+    "probabilidad": 5.8
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 8,
-    "numero": 6.0,
-    "caballo": "GOOD RUNNER",
-    "probabilidad": 17.6
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 6,
+    "caballo": "G TIZ Z IANO",
+    "probabilidad": 13.3
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 8,
-    "numero": 7.0,
-    "caballo": "EXHAUSTING",
-    "probabilidad": 4.2
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 7,
+    "caballo": "ENCINITAS",
+    "probabilidad": 26.8
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 8,
-    "numero": 8.0,
-    "caballo": "RULE OF LAW",
-    "probabilidad": 17.6
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 8,
+    "caballo": "PROFESORA TOP",
+    "probabilidad": 7.4
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 8,
-    "numero": 9.0,
-    "caballo": "RUBATO",
-    "probabilidad": 4.2
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 1,
+    "caballo": "CAPRI LA BELLA",
+    "probabilidad": 22.9
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 8,
-    "numero": 10.0,
-    "caballo": "DOPPLER",
-    "probabilidad": 4.2
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 2,
+    "caballo": "REGALITO",
+    "probabilidad": 5.5
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 8,
-    "numero": 11.0,
-    "caballo": "CAFE RISTRETTO",
-    "probabilidad": 4.2
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 3,
+    "caballo": "RAWSON",
+    "probabilidad": 6.0
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 9,
-    "numero": 1.0,
-    "caballo": "AHI VIENE AHI VA",
-    "probabilidad": 8.3
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 4,
+    "caballo": "ROM TALE (USA)",
+    "probabilidad": 5.0
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 9,
-    "numero": 2.0,
-    "caballo": "LUCA BRASI",
-    "probabilidad": 8.3
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 5,
+    "caballo": "MORGAN SOUL",
+    "probabilidad": 5.5
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 9,
-    "numero": 3.0,
-    "caballo": "AFIRMATE GATO",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 9,
-    "numero": 4.0,
-    "caballo": "TERUKA",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 9,
-    "numero": 5.0,
-    "caballo": "NARCISISTA",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 9,
-    "numero": 6.0,
-    "caballo": "RIO PEREZ",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 9,
-    "numero": 7.0,
-    "caballo": "XENOTES",
-    "probabilidad": 8.3
-  },
-  {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 9,
-    "numero": 8.0,
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 6,
     "caballo": "VESUBIO",
-    "probabilidad": 8.3
+    "probabilidad": 14.1
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 9,
-    "numero": 9.0,
-    "caballo": "POLLOLLO",
-    "probabilidad": 8.3
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 7,
+    "caballo": "IGMAFE",
+    "probabilidad": 5.5
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 9,
-    "numero": 10.0,
-    "caballo": "THUNDERMAN",
-    "probabilidad": 8.3
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 8,
+    "caballo": "EL MISTER",
+    "probabilidad": 6.0
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
-    "carrera": 9,
-    "numero": 11.0,
-    "caballo": "PRINCESA LUDY",
-    "probabilidad": 8.3
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 9,
+    "caballo": "MUÑECO DASH",
+    "probabilidad": 5.0
   },
   {
-    "fecha": "2025-12-31",
-    "hipodromo": "Valpara\u00edso Sporting",
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 10,
+    "caballo": "ONE VISION",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 11,
+    "caballo": "ANGELITO ALAN",
+    "probabilidad": 5.1
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 12,
+    "caballo": "ROMATRI",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 13,
+    "caballo": "SUEÑO DEL ALMA",
+    "probabilidad": 5.0
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 1,
+    "caballo": "AKA AND RED",
+    "probabilidad": 17.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 2,
+    "caballo": "PRIMO JULERO",
+    "probabilidad": 23.2
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 3,
+    "caballo": "MARINO SIN VACILAR",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 4,
+    "caballo": "TATUN",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 5,
+    "caballo": "FALLEN DREAMER",
+    "probabilidad": 9.9
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 6,
+    "caballo": "LA MUJER DE BLANCO",
+    "probabilidad": 5.0
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 7,
+    "caballo": "CONOLORA POBRE",
+    "probabilidad": 5.0
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 8,
+    "caballo": "BLACK AND RED",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 9,
+    "caballo": "GRAN SAMCREDO",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 10,
+    "caballo": "KARSTADT",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 1,
+    "caballo": "ALTOBELLO",
+    "probabilidad": 10.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 2,
+    "caballo": "COMPOSTELANA",
+    "probabilidad": 10.8
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 3,
+    "caballo": "SILVERADO",
+    "probabilidad": 17.2
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 4,
+    "caballo": "MIMONCHI MONCHI",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 5,
+    "caballo": "LORD JIM (ARG)",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 6,
+    "caballo": "ON LOOK",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 7,
+    "caballo": "GLI AMICI",
+    "probabilidad": 17.2
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 8,
+    "caballo": "COBARON",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 9,
+    "caballo": "MILANES (ARG)",
+    "probabilidad": 13.9
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 10,
+    "caballo": "MONTECRISTO",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 1,
+    "caballo": "DALE FLACA",
+    "probabilidad": 4.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 2,
+    "caballo": "ROSA COQUETA",
+    "probabilidad": 16.2
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 3,
+    "caballo": "NO MIRES ATRAS",
+    "probabilidad": 8.1
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 4,
+    "caballo": "TE CANTO A TI",
+    "probabilidad": 4.8
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 5,
+    "caballo": "KING PAPER",
+    "probabilidad": 4.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 6,
+    "caballo": "TERUKA",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 7,
+    "caballo": "GUERRERO ARABE",
+    "probabilidad": 20.1
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 8,
+    "caballo": "DIJO FRANCISCO",
+    "probabilidad": 12.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 9,
+    "caballo": "LA BANDA VERDE",
+    "probabilidad": 12.7
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 10,
+    "caballo": "NARCISISTA",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 1,
+    "caballo": "INDIAN MELODY",
+    "probabilidad": 12.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 2,
+    "caballo": "PEGGY NICE",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 3,
+    "caballo": "S LEVANTATE BEBE",
+    "probabilidad": 29.5
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 4,
+    "caballo": "NADIE ME CREE",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 5,
+    "caballo": "LE PEINTRE (ARG)",
+    "probabilidad": 12.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 6,
+    "caballo": "SIEMPRE AVANTE",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 7,
+    "caballo": "IL VENTO",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 8,
+    "caballo": "NO PAIN NO GAIN",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 9,
+    "caballo": "TONADA VIEJA",
+    "probabilidad": 12.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
     "carrera": 9,
-    "numero": 12.0,
-    "caballo": "TODO CAMBIA",
-    "probabilidad": 8.3
+    "numero": 1,
+    "caballo": "SIBARATO",
+    "probabilidad": 20.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 2,
+    "caballo": "RAMSES (ARG)",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 3,
+    "caballo": "DALE TOTO",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 4,
+    "caballo": "MCCLANE",
+    "probabilidad": 32.5
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 5,
+    "caballo": "HENDRICKS",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 6,
+    "caballo": "BLUE LABEL",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 7,
+    "caballo": "ENCAÑADO",
+    "probabilidad": 9.3
+  },
+  {
+    "fecha": "2026-01-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 8,
+    "caballo": "NEGRO YIYI",
+    "probabilidad": 7.0
   }
 ]

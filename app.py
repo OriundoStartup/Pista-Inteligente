@@ -229,6 +229,12 @@ def estadisticas():
     stats = obtener_estadisticas_generales()
     return render_template('estadisticas.html', stats=stats)
 
+@app.route('/api/stats')
+def api_stats():
+    """Endpoint JSON for Static Home Page"""
+    data = obtener_estadisticas_generales()
+    return jsonify(data)
+
 @app.route('/programa')
 def programa():
     hipodromo_filter = request.args.get('hipodromo', 'Todos')

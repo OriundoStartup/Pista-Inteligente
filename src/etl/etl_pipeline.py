@@ -406,38 +406,20 @@ class HipicaETL:
                 if not line.strip():
                     continue
                     
-                cur_seps = line.count(delimiter)
+                # Check separator count ignoring quotes
+                # Regex to temporarily remove quoted content for counting
+                line_no_quotes = re.sub(r'"[^"]*"', '', line)
+                cur_seps = line_no_quotes.count(delimiter)
+                
                 if cur_seps > expected_seps:
-                    # Hay comas extra, asumimos que están en la última columna (Observaciones)
-                    # Estrategia: Reemplazar comas excedentes por espacio o nada, 
-                    # pero respetando las primeras N-1 comas.
-                    # Mejor: Split maxsplit=expected_seps
-                    parts = line.split(delimiter, expected_seps)
-                    # parts tendrá length = expected_seps + 1. 
-                    # El último elemento (parts[-1]) contiene el resto de la línea con las comas extra.
-                    # Debemos asegurar que ese último elemento esté entre comillas si no lo está.
-                    
-                    # Reconstruir línea
-                    # Pero cuidado, split elimina los delimitadores.
-                    # Una forma segura es reconstruir: particionar en N-1 separadores, y lo que sobra es la última columna.
-                    
-                    # Enfoque simple: Entrecomillar manualmente la última parte si tiene comas
-                    # O más simple: Reemplazar las comas extra por otra cosa solo en memoria? No, cambiamos los datos.
-                    # Mejor enfoque: Usar csv module para parsear manualmente? Muy lento.
-                    
-                    # Solución robusta: Unir los tokens extra
+                    # Hay comas extra FUERA de las comillas (realmente roto)
                     parts = line.split(delimiter)
-                    # Los primeros 'expected_seps' campos son seguros.
-                    # Desde 'expected_seps' hasta el final es la última columna rota.
                     last_col_idx = expected_seps
                     
                     fixed_parts = parts[:last_col_idx]
                     broken_tail = parts[last_col_idx:]
-                    # Unir la cola rota recuperando las comas
                     fixed_last_col = delimiter.join(broken_tail).strip()
-                    
-                    # Entrecomillar si no lo está y quitar saltos de línea incorrectos
-                    fixed_last_col = fixed_last_col.replace('"', "'") # Evitar conflictos con comillas dobles
+                    fixed_last_col = fixed_last_col.replace('"', "'")
                     fixed_last_col = f'"{fixed_last_col}"'
                     
                     fixed_parts.append(fixed_last_col + '\n')

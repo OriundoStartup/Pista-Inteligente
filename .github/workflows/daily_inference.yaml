@@ -1,0 +1,35 @@
+name: Daily Inference Worker
+
+on:
+  schedule:
+    # Ejecutar todos los días a las 12:00 UTC (9:00 AM Chile aprox)
+    - cron: '0 12 * * *'
+  workflow_dispatch: # Permite ejecutar manualmente desde GitHub UI
+
+jobs:
+  inference-job:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+
+    - name: Install Dependencies
+      run: |
+        pip install -r requirements.txt
+        pip install supabase
+
+    - name: Run Daily Inference
+      env:
+        # Secrets configurados en GitHub -> Settings -> Secrets and variables -> Actions
+        SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }} 
+        # Nota: Usamos la Service Role Key porque el Worker necesita ESCRIBIR en la BD
+      run: |
+        python src/scripts/daily_inference_job.py
