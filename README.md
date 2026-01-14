@@ -193,12 +193,13 @@ python Scripts/maintenance/cleanup_firestore.py
                            ▼
   ┌──────────────────────────────────────────────┐
   │      Firestore (Cloud Database)              │
+  │     / Supabase (New Architecture)            │
   └──────────────────────────────────────────────┘
                            │
                            ▼
   ┌──────────────────────────────────────────────┐
-  │         Flask Web Application                │
-  │    (Cloud Run + Firebase Hosting)            │
+  │         Next.js Web Application              │
+  │     (Vercel Hosting + Supabase Client)       │
   └──────────────────────────────────────────────┘
 ```
 
