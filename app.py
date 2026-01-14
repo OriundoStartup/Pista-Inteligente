@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 # --- AUTOMATION IMPORTS ---
 try:
     from src.models.inference import InferencePipeline
-    from src.models.train_v2 import HipicaLearner # Optional if we want to retrain
-    from src.utils.migrate_to_firebase import migrate
+    from src.models.train_v2 import HipicaLearner
+    from src.utils.migrate_sqlite_to_supabase import run_migration
 except ImportError:
     pass # Handle gracefully if running outside context
 
@@ -62,12 +62,7 @@ configurar_gemini()
 def cron_update():
     """
     Endpoint para actualizar predicciones diariamente.
-    Ejecuta: ETL (implícito en inferencia si se requiere? No, inferencia carga DB) -> Inferencia -> Migración.
-    Para producción, idealmente se debería correr ETL antes.
-    
-    En este diseño V2 simplificado:
-    1. Ejecutamos Inferencia (Genera predicciones para carreras futuras ya en DB).
-    2. Ejecutamos Migración (Sube todo a Firestore).
+    Ejecuta: Inferencia -> Migración a Supabase.
     """
     print("⏰ [CRON] Starting daily update...")
     start_t = time.time()
@@ -78,9 +73,9 @@ def cron_update():
         pipeline = InferencePipeline()
         pipeline.run()
         
-        # 2. Migration
-        print("   -> Running Firestore Migration...")
-        migrate()
+        # 2. Migration to Supabase
+        print("   -> Running Supabase Migration...")
+        run_migration()
         
         # 3. Cleanup
         del pipeline
@@ -95,34 +90,21 @@ def cron_update():
         print(f"❌ [CRON ERROR] {e}")
         return jsonify({'status': 'error', 'message': str(e)}), 500
 
-@app.route('/debug/firestore')
-def debug_firestore():
-    from src.models.data_manager import obtener_predicciones_firestore, _init_firebase_db
-    import datetime
+@app.route('/debug/supabase')
+def debug_supabase():
+    """Debug endpoint for Supabase connection."""
+    from src.models.data_manager import _init_supabase
     
     status = {}
     try:
-        # Check DB Init
-        db = _init_firebase_db()
-        status['db_initialized'] = (db is not None)
+        client = _init_supabase()
+        status['supabase_connected'] = (client is not None)
+        if client:
+            # Test query
+            response = client.table('predicciones').select('id').limit(1).execute()
+            status['test_query'] = 'success' if response.data else 'empty'
     except Exception as e:
-        status['db_error'] = str(e)
-        return jsonify(status)
-        
-    # Check Data
-    try:
-        # Get all future predictions to check hipodromes
-        all_docs = db.collection('predicciones').where('fecha', '>=', '2025-12-28').stream()
-        hips = set()
-        count = 0
-        for d in all_docs:
-             dd = d.to_dict()
-             hips.add(dd.get('hipodromo', 'Unknown'))
-             count += 1
-        status['unique_hipodromos'] = list(hips)
-        status['total_future_docs'] = count
-    except Exception as e:
-        status['query_error'] = str(e)
+        status['error'] = str(e)
         
     return jsonify(status)
 
@@ -156,17 +138,17 @@ def health_check():
     db_path = 'data/db/hipica_data.db'
     health['checks']['database_exists'] = os.path.exists(db_path)
     
-    # Check: Firestore
+    # Check: Supabase
     try:
-        from src.models.data_manager import _init_firebase_db
-        db = _init_firebase_db()
-        health['checks']['firestore_connected'] = (db is not None)
+        from src.models.data_manager import _init_supabase
+        client = _init_supabase()
+        health['checks']['supabase_connected'] = (client is not None)
     except Exception as e:
-        health['checks']['firestore_connected'] = False
-        health['checks']['firestore_error'] = str(e)
+        health['checks']['supabase_connected'] = False
+        health['checks']['supabase_error'] = str(e)
     
     # Determinar status general
-    all_healthy = all(v for k, v in health['checks'].items() if k != 'firestore_error')
+    all_healthy = all(v for k, v in health['checks'].items() if not k.endswith('_error'))
     health['status'] = 'healthy' if all_healthy else 'degraded'
     
     status_code = 200 if all_healthy else 503

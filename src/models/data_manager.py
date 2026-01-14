@@ -142,121 +142,107 @@ def cargar_programa(nombre_db='data/db/hipica_data.db', solo_futuras=True):
         return pd.DataFrame()
 
 # [CLEANUP] Legacy in-memory cache and local inference logic removed.
-# Refer to Firestore implementation below.
+# Now using Supabase for cloud data.
 
 
-# --- FIRESTORE INTEGRATION (HYBRID VIEW) ---
-import firebase_admin
-from firebase_admin import credentials, firestore
-
-def _init_firebase_db():
+# --- SUPABASE INTEGRATION ---
+def _init_supabase():
+    """Initialize Supabase client."""
     try:
-        if not firebase_admin._apps:
-            # Try serviceAccountKey.json locally
-            cred_path = 'serviceAccountKey.json'
-            if os.path.exists(cred_path):
-                cred = credentials.Certificate(cred_path)
-                firebase_admin.initialize_app(cred)
-            else:
-                # Cloud Run / ADC
-                cred = credentials.ApplicationDefault()
-                firebase_admin.initialize_app(cred, {'projectId': 'pista-inteligente'})
-        return firestore.client()
+        from supabase import create_client
+        from dotenv import load_dotenv
+        load_dotenv()
+        
+        url = os.getenv('SUPABASE_URL')
+        key = os.getenv('SUPABASE_SERVICE_ROLE_KEY') or os.getenv('SUPABASE_KEY')
+        
+        if not url or not key:
+            print("⚠️ SUPABASE_URL o SUPABASE_KEY no configurados en .env")
+            return None
+            
+        return create_client(url, key)
     except Exception as e:
-        print(f"⚠️ Firebase Init Warning: {e}")
+        print(f"⚠️ Supabase Init Warning: {e}")
         return None
 
-def obtener_predicciones_firestore(fecha_min_str):
-    """Obtiene predicciones futuras desde Firestore."""
-    db = _init_firebase_db()
-    if not db: return []
+def obtener_predicciones_supabase(fecha_min_str):
+    """Obtiene predicciones futuras desde Supabase."""
+    supabase = _init_supabase()
+    if not supabase:
+        return []
     
     try:
-        # Query: fecha >= hoy
-        # Collection: 'predicciones'
-        docs = db.collection('predicciones')\
-                 .where('fecha', '>=', fecha_min_str)\
-                 .stream()
+        # Query predicciones table
+        response = supabase.table('predicciones')\
+            .select('*, carreras(nro_carrera, hora, distancia, jornadas(fecha, hipodromos(nombre)))')\
+            .gte('created_at', fecha_min_str)\
+            .order('rank_predicho', desc=False)\
+            .execute()
         
-        results = []
-        for d in docs:
-            data = d.to_dict()
-            data['id'] = d.id
-            results.append(data)
-        return results
+        return response.data if response.data else []
     except Exception as e:
-        print(f"⚠️ Error Firestore Read: {e}")
+        print(f"⚠️ Error Supabase Read: {e}")
         return []
 
-def obtener_analisis_jornada(use_firestore=True):
+def obtener_analisis_jornada(use_firestore=False):
     """
-    Genera análisis usando EXCLUSIVAMENTE Firestore (Full Cloud).
-    Si no hay datos en la nube, retorna vacío.
+    Genera análisis usando Supabase (Full Cloud).
+    Parámetro use_firestore se mantiene por compatibilidad pero se ignora.
     """
-    # 0. Common Date Logic (Chile)
     chile_time = datetime.utcnow() - timedelta(hours=3)
     today_str = chile_time.strftime('%Y-%m-%d')
 
-    if not use_firestore:
-        print("⚠️ Advertencia: Modo local desactivado. Habilitando Firestore forzosamente.")
-    
     try:
-         # Query Firestore directly
-         firestore_data = obtener_predicciones_firestore(today_str)
+        supabase_data = obtener_predicciones_supabase(today_str)
     except Exception as e:
-         print(f"❌ Error Critical Firestore: {e}")
-         return []
-
-    if not firestore_data:
+        print(f"❌ Error Critical Supabase: {e}")
         return []
 
-    analisis_completo = []
-    
-    # 1. Map Firestore Documents -> View Objects
-    for doc in firestore_data:
-        # Doc keys: fecha, hipodromo, carrera, hora, distancia, detalles[]
-        
-        race_obj = {
-            'hipodromo': doc.get('hipodromo', 'Unknown'),
-            'carrera': doc.get('carrera', 0),
-            'fecha': doc.get('fecha', today_str),
-            'hora': doc.get('hora', '00:00'),
-            'distancia': doc.get('distancia', 0),
-            'predicciones': []
-        }
-        
-        # Details contains enriched data (caballo, numero, jinete, probabilidad)
-        detalles = doc.get('detalles', [])
-        
-        view_preds = []
-        for det in detalles:
-            view_preds.append({
-                'numero': det.get('numero'),
-                'caballo': det.get('caballo'),
-                'jinete': det.get('jinete', 'N/A'), # Now serving directly from Cloud
-                'puntaje_ia': round(det.get('probabilidad', 0), 1),
-                'prob_ml': f"{det.get('probabilidad', 0):.1f}"
-            })
-            
-        # 🚨 CRÍTICO: Ordenar por probabilidad ANTES de limitar
-        # Sin esto, muestra en orden correlativo (1,2,3,4) en lugar de por predicción del modelo
-        view_preds.sort(key=lambda x: x['puntaje_ia'], reverse=True)
-        
-        # Limit to Top 4 for display
-        race_obj['predicciones'] = view_preds[:4]
-        analisis_completo.append(race_obj)
+    if not supabase_data:
+        return []
 
-    # Sort: Date -> Hipodromo -> Race Number
+    # Group predictions by race
+    races_dict = {}
+    
+    for pred in supabase_data:
+        carrera_data = pred.get('carreras', {}) or {}
+        jornada_data = carrera_data.get('jornadas', {}) or {}
+        hipodromo_data = jornada_data.get('hipodromos', {}) or {}
+        
+        race_key = pred.get('carrera_id', 'unknown')
+        
+        if race_key not in races_dict:
+            races_dict[race_key] = {
+                'hipodromo': hipodromo_data.get('nombre', 'Unknown'),
+                'carrera': carrera_data.get('nro_carrera', 0),
+                'fecha': jornada_data.get('fecha', today_str),
+                'hora': carrera_data.get('hora', '00:00'),
+                'distancia': carrera_data.get('distancia', 0),
+                'predicciones': []
+            }
+        
+        races_dict[race_key]['predicciones'].append({
+            'numero': pred.get('numero_caballo', 0),
+            'caballo': pred.get('caballo', 'N/A'),
+            'jinete': pred.get('jinete', 'N/A'),
+            'puntaje_ia': round((pred.get('probabilidad', 0) or 0) * 100, 1),
+            'prob_ml': f"{(pred.get('probabilidad', 0) or 0) * 100:.1f}"
+        })
+
+    analisis_completo = list(races_dict.values())
+    
+    # Sort predictions within each race and limit to Top 4
+    for race in analisis_completo:
+        race['predicciones'].sort(key=lambda x: x['puntaje_ia'], reverse=True)
+        race['predicciones'] = race['predicciones'][:4]
+    
+    # Sort races by date, hipodromo, number
     analisis_completo.sort(key=lambda x: (x['fecha'], x['hipodromo'], x['carrera']))
     return analisis_completo
 
 def obtener_lista_hipodromos():
     """Obtiene la lista única de hipódromos."""
-    try:
-        # Full Cloud Optimization: Return static list to avoid local DB reads
-        return ['Club Hípico de Santiago', 'Hipódromo Chile', 'Valparaíso Sporting']
-    except Exception:
-        return ['club hípico de santiago', 'hipódromo chile']
+    return ['Club Hípico de Santiago', 'Hipódromo Chile', 'Valparaíso Sporting']
         
 
              

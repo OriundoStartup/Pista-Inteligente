@@ -1,0 +1,57 @@
+00:23:21 | INFO     | 🚀 Inicializando navegador...
+00:23:22 | INFO     | ✅ Navegador listo
+00:23:22 | INFO     | 
+======================================================================
+00:23:22 | INFO     | 🔮 OBTENIENDO TODOS LOS PROGRAMAS (próximas 3 jornadas)
+00:23:22 | INFO     | ======================================================================
+00:23:22 | INFO     | 
+============================================================
+00:23:22 | INFO     | 🔮 HIPÓDROMO CHILE - PROGRAMAS
+00:23:22 | INFO     |    📅 Límite: próximas 3 jornadas
+00:23:22 | INFO     | ============================================================
+00:23:22 | INFO     |    🌐 Cargando: https://hipodromo.cl/carreras-proximos-programas
+00:23:29 | DEBUG    |    📄 HTML guardado: html_dumps\HC_programas_v3.html
+00:23:29 | INFO     |    📋 Fechas encontradas: 1
+00:23:29 | DEBUG    |       ✓ 2026-01-15 (futura)
+00:23:29 | INFO     |    ✅ Fechas futuras válidas: 1
+00:23:29 | INFO     |       📅 2026-01-15 (en 1 días)
+00:23:29 | INFO     | 
+   🎯 Procesando TOP 1 jornadas:
+00:23:29 | INFO     | 
+   [1/1] 📅 2026-01-15
+00:23:29 | INFO     |        ✅ 21 carreras extraídas
+00:23:29 | INFO     | 
+   ✅ Total programas: 21
+00:23:29 | INFO     | 
+   📊 ESTADÍSTICAS DE FILTRADO:
+00:23:29 | INFO     |       ✅ Procesados:        21
+00:23:29 | INFO     |       ⏮️  Filtrados antiguos: 0
+00:23:29 | INFO     |       ⏭️  Filtrados futuros:  0
+00:23:29 | INFO     | 
+============================================================
+00:23:29 | INFO     | 🔮 CLUB HÍPICO DE SANTIAGO - PROGRAMAS
+00:23:29 | INFO     |    📅 Límite: próximas 3 jornadas
+00:23:29 | INFO     | ============================================================
+00:23:29 | INFO     |    🌐 Cargando: https://www.clubhipico.cl/carreras/programa/
+00:23:57 | WARNING  |    ⚠️ Timeout esperando table
+00:23:59 | DEBUG    |    📄 HTML guardado: html_dumps\CHS_programas_v3.html
+00:24:00 | INFO     |    📋 Fechas encontradas: 4
+00:24:00 | DEBUG    |       ✗ 2026-01-02 (pasada)
+00:24:00 | DEBUG    |       ✗ 2026-01-09 (pasada)
+00:24:00 | DEBUG    |       ✗ 2026-01-12 (pasada)
+00:24:00 | INFO     |       ✓ 2026-01-16 (en 2 días)
+00:24:00 | INFO     | 
+   ✅ Fechas futuras válidas: 1
+00:24:00 | INFO     |    🎯 Procesando TOP 1 jornadas:
+00:24:00 | INFO     | 
+   [1/1] 📅 2026-01-16
+00:24:00 | INFO     |    🌐 Cargando: https://www.clubhipico.cl/carreras/programa-digital/?fecha=2026-01-16
+00:24:24 | WARNING  |    ⚠️ Timeout esperando table
+00:24:26 | INFO     |        ✅ 4 carreras extraídas
+00:24:26 | INFO     | 
+   ✅ Total programas CHS: 4
+00:24:26 | INFO     | 
+   📊 ESTADÍSTICAS DE FILTRADO:
+00:24:26 | INFO     |       ✅ Procesados:        4
+00:24:26 | INFO     |       ⏮️  Filtrados antiguos: 3
+00:24:26 | INFO     |       ⏭️  Filtrados futuros:  0
