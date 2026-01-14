@@ -513,7 +513,8 @@ class HipicaETL:
         }
         
         # Intentar extraer fecha e hipodromo del nombre
-        match = re.search(r'_([A-Z]+)_(\d{4}-\d{2}-\d{2})', filename)
+        # Soporta: PROGRAMA_HC_2026-01-15.csv y RESULTADO_VAL2026-01-11.csv
+        match = re.search(r'_([A-Z]+)_?(\d{4}-\d{2}-\d{2})', filename)
         if match:
             code, date_str = match.groups()
             full_name = hipodromos_k.get(code, code)
