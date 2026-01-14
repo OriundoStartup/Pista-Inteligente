@@ -1,10 +1,43 @@
 # Vercel Ignore File
-# Exclude backend heavy files
+# Aggressively ignore everything backend-related
+# We ONLY want to deploy the 'frontend' folder
+
+# Backend Logic & Data
 src/
 data/
+exports/
+img/
+logs/
+models/
+scripts/
+utils/
+templates/
+static/
+tests/
+
+# Python Environment
 venv/
 __pycache__/
+*.py[cod]
 *.pkl
 *.db
 *.csv
+requirements.txt
+app.py
+run.bat
+Dockerfile
+cloudrun-service.yaml
+serviceAccountKey.json
+
+# Configs (Root)
+.env
+.env.*
 .github/
+.vscode/
+.devcontainer/
+firebase.json
+.firebaserc
+
+# Keep frontend and explicit config
+!frontend/
+!.vercelignore
