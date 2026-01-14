@@ -3,18 +3,42 @@ import os
 import time
 import logging
 import argparse
+import requests
 
 # Configurar logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+def trigger_vercel_redeploy():
+    """
+    Dispara un redeploy en Vercel usando un Deploy Hook.
+    Configura VERCEL_DEPLOY_HOOK en tu .env con el webhook de tu proyecto.
+    """
+    deploy_hook = os.getenv('VERCEL_DEPLOY_HOOK')
+    if not deploy_hook:
+        logging.warning("⚠️ VERCEL_DEPLOY_HOOK no configurado. Salta el redeploy automático.")
+        logging.info("   Para activar: crea un Deploy Hook en Vercel > Settings > Git > Deploy Hooks")
+        return False
+    
+    try:
+        response = requests.post(deploy_hook, timeout=30)
+        if response.status_code == 200 or response.status_code == 201:
+            logging.info("✅ Vercel redeploy disparado exitosamente!")
+            return True
+        else:
+            logging.warning(f"⚠️ Vercel respondió con código {response.status_code}")
+            return False
+    except Exception as e:
+        logging.error(f"❌ Error al disparar redeploy de Vercel: {e}")
+        return False
+
 def main(force_sync=False):
     """
-    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.1 (SUPABASE EDITION)
-    Orquestador principal: CSV -> SQLite -> Supabase -> Inferencia
+    SISTEMA DE HIPICA INTELIGENTE - SYNC V4.2 (SUPABASE + VERCEL)
+    Orquestador principal: CSV -> SQLite -> Supabase -> (Opcional) Vercel Redeploy
     """
     logging.info("==================================================")
-    logging.info("   SISTEMA DE HIPICA INTELIGENTE - SYNC V4.1")
-    logging.info("   TARGET: SUPABASE (Vercel Backend)")
+    logging.info("   SISTEMA DE HIPICA INTELIGENTE - SYNC V4.2")
+    logging.info("   TARGET: SUPABASE (DB) + VERCEL (Frontend)")
     logging.info("==================================================")
     
     start_time = time.time()
@@ -22,7 +46,7 @@ def main(force_sync=False):
     # ---------------------------------------------------------
     # PASO 1: ETL (CSV -> SQLite)
     # ---------------------------------------------------------
-    logging.info("\n[PASO 1/3] Ejecutando ETL (Extracción de CSVs)...")
+    logging.info("\n[PASO 1/4] Ejecutando ETL (Extracción de CSVs)...")
     try:
         from src.etl.etl_pipeline import HipicaETL
         etl = HipicaETL()
@@ -40,53 +64,42 @@ def main(force_sync=False):
     # ---------------------------------------------------------
     # PASO 2: MIGRACIÓN (SQLite -> Supabase)
     # ---------------------------------------------------------
-    logging.info("\n[PASO 2/3] Sincronizando SQLite -> Supabase...")
+    logging.info("\n[PASO 2/4] Sincronizando SQLite -> Supabase...")
     try:
         from src.utils.migrate_sqlite_to_supabase import run_migration
-        # Nota: run_migration() actualmente migra TODO. 
-        # Idealmente se optimizaría para migrar solo deltas, pero el upsert lo maneja.
         run_migration()
         logging.info("✅ Sincronización con Supabase completada.")
         
     except Exception as e:
         logging.critical(f"❌ Error en Migración a Supabase: {e}")
-        logging.info("Asegúrate de tener SUPABASE_URL y KEY en tu .env")
+        logging.info("   Asegúrate de tener SUPABASE_URL y KEY en tu .env")
         sys.exit(1)
 
     # ---------------------------------------------------------
-    # PASO 3: INFERENCIA (Supabase -> Predicciones)
+    # PASO 3: INFERENCIA (Generar Predicciones)
     # ---------------------------------------------------------
-    logging.info("\n[PASO 3/3] Ejecutando Inferencia sobre datos de Supabase...")
+    logging.info("\n[PASO 3/4] Ejecutando Inferencia sobre datos de Supabase...")
     try:
         from src.scripts.daily_inference_job import SupabaseMigrationWorker
         
         worker = SupabaseMigrationWorker()
-        # En lugar de scrapear web (ingest_races), usamos lo que ya subimos (programs)
-        # Pero el worker actual está diseñado para scrapear.
-        # Vamos a llamar a 'run_inference' directamente si podemos reconstruir el DF del programa.
-        
-        # HACK: Por ahora, el worker scrapea de nuevo para tener el DF en memoria rapido.
-        # Idealmente leemos de supabase.
-        # Pero como acabamos de subir los programas, "ingest_races" del worker funcionará idempotentemente.
-        
         logging.info("   -> Re-validando programas y generando predicciones...")
-        # Llama al flujo completo del worker (Scrape Future + Inference)
-        # Esto asegura que tengamos el DF con los IDs correctos para predecir
-        worker.run_ingestion_pipeline() 
-        # Nota: Si el programa YA estaba en CSV, el scraper web lo volverá a bajar. 
-        # Si queremos usar SOLO el CSV, tendríamos que adaptar el worker.
-        # PERO: Los CSVs ya subidos a Supabase por Paso 2 ya están ahí.
-        
-        # TODO: Refactorizar worker para leer 'Programas Futuros' desde DB.
-        # Por ahora, corremos el worker estándar que baja de la web para asegurar frescura.
+        worker.run_ingestion_pipeline()
+        logging.info("✅ Predicciones generadas y guardadas en Supabase.")
         
     except Exception as e:
         logging.error(f"❌ Error en Inferencia: {e}")
         # No fatal, los datos ya están subidos.
 
+    # ---------------------------------------------------------
+    # PASO 4: REDEPLOY VERCEL (Opcional)
+    # ---------------------------------------------------------
+    logging.info("\n[PASO 4/4] Disparando redeploy en Vercel (si configurado)...")
+    trigger_vercel_redeploy()
+
     logging.info("\n" + "="*70)
     logging.info(f"🎉 PROCESO COMPLETADO en {time.time() - start_time:.2f}s")
-    logging.info("   Los datos deberían estar visibles en Vercel.")
+    logging.info("   Los datos deberían estar visibles en tu sitio Vercel.")
     logging.info("="*70)
 
 if __name__ == "__main__":
