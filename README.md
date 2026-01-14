@@ -340,7 +340,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 📞 Contacto
 
-- Website: [pista-inteligente.web.app](https://pista-inteligente.web.app)
+- Website: [pista-inteligente.vercel.app](https://pista-inteligente.vercel.app)
 - Email: contacto@oriundo.cl
 
 ---

@@ -318,6 +318,7 @@ class EnsembleInferencePipeline:
                     'carrera': carrera_num,
                     'numero': mandil_num,
                     'caballo': r['caballo'],
+                    'jinete': r.get('jinete', ''),  # Include jinete for frontend display
                     'probabilidad': round(r['prob_win'] * 100, 1)
                 })
         

@@ -29,8 +29,8 @@ interface Carrera {
 // Fetch predictions from Supabase
 async function getPredicciones(): Promise<{ carreras: Carrera[], stats: { total_carreras: number, total_caballos: number, fecha_principal: string } }> {
     try {
-        // Get upcoming jornadas
-        const today = new Date().toISOString().split('T')[0]
+        // Get upcoming jornadas (Force Chile Timezone)
+        const today = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Santiago' })
         const { data: jornadas } = await supabase
             .from('jornadas')
             .select('id, fecha, hipodromo_id')
@@ -43,6 +43,20 @@ async function getPredicciones(): Promise<{ carreras: Carrera[], stats: { total_
                 carreras: [],
                 stats: { total_carreras: 0, total_caballos: 0, fecha_principal: today }
             }
+        }
+
+        // Get hipodromos names
+        const hipodromoIds = [...new Set(jornadas.map(j => j.hipodromo_id))]
+        const { data: hipodromos } = await supabase
+            .from('hipodromos')
+            .select('id, nombre')
+            .in('id', hipodromoIds)
+
+        // Build hipódromo map with both string and number keys to handle type mismatches
+        const hipodromoMap = new Map<string | number, string>()
+        for (const h of (hipodromos || [])) {
+            hipodromoMap.set(h.id, h.nombre)
+            hipodromoMap.set(String(h.id), h.nombre)
         }
 
         // Get races for those jornadas
@@ -63,6 +77,11 @@ async function getPredicciones(): Promise<{ carreras: Carrera[], stats: { total_
         // Build response
         const carrerasConPredicciones: Carrera[] = (carreras || []).map(carrera => {
             const jornada = jornadas.find(j => j.id === carrera.jornada_id)
+            // Try both number and string keys for hipódromo lookup
+            const hipodromoNombre = jornada
+                ? (hipodromoMap.get(jornada.hipodromo_id) || hipodromoMap.get(String(jornada.hipodromo_id)))
+                : undefined
+
             const preds = (predicciones || [])
                 .filter(p => p.carrera_id === carrera.id)
                 .slice(0, 4)
@@ -75,11 +94,11 @@ async function getPredicciones(): Promise<{ carreras: Carrera[], stats: { total_
 
             return {
                 id: carrera.id,
-                hipodromo: 'Hipódromo Chile',
+                hipodromo: hipodromoNombre || 'Hipódromo Chile',
                 carrera: carrera.numero,
                 fecha: jornada?.fecha || today,
                 hora: carrera.hora || '00:00',
-                distancia: carrera.distancia || 1200,
+                distancia: carrera.distancia || 1000,
                 predicciones: preds.length > 0 ? preds : [
                     { numero: 1, caballo: 'Datos pendientes', jinete: '-', puntaje_ia: 0 }
                 ]

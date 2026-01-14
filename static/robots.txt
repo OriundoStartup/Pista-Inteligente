@@ -11,7 +11,7 @@ Disallow: /api/
 Disallow: /admin/
 
 # Sitemap
-Sitemap: https://pista-inteligente-4my57mz64a-uc.a.run.app/sitemap.xml
+Sitemap: https://pista-inteligente.vercel.app/sitemap.xml
 
 # Crawl-delay para ser amigables con los bots
 Crawl-delay: 1

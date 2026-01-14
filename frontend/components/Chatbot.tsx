@@ -36,6 +36,7 @@ export default function Chatbot() {
                 <img
                     src="/bot_avatar.png"
                     alt="Chat"
+                    loading="eager"
                     style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover' }}
                 />
             </div>

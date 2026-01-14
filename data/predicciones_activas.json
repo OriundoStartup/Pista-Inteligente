@@ -1,11 +1,1470 @@
 [
   {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 1,
+    "caballo": "DULCE ANITA",
+    "jinete": "W. QUINTEROS",
+    "probabilidad": 19.1
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 2,
+    "caballo": "JAPONEITOR",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 4.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 3,
+    "caballo": "EXETER (ARG)",
+    "jinete": "F. MORENO",
+    "probabilidad": 5.9
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 4,
+    "caballo": "SEXTA FEIRA",
+    "jinete": "L. VILLAGRAN",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 5,
+    "caballo": "SMALL",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 4.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 6,
+    "caballo": "CAPO DI FAMIGLIA",
+    "jinete": "J. EYZAGUIRRE",
+    "probabilidad": 5.9
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 7,
+    "caballo": "MUJER DE PASARELA",
+    "jinete": "R. FOURNET",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 8,
+    "caballo": "PRINCESA LUDY",
+    "jinete": "F. TAPIA",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 9,
+    "caballo": "IMPERIO BABILONICO",
+    "jinete": "A. APABLAZA",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 10,
+    "caballo": "OURO",
+    "jinete": "P. REYES",
+    "probabilidad": 4.1
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 11,
+    "caballo": "PRIMO HAPPY",
+    "jinete": "B. SANCHO",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 12,
+    "caballo": "TERUKA",
+    "jinete": "C. E. URBINA",
+    "probabilidad": 4.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 13,
+    "caballo": "EL VIEJO LAUCHA",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 14,
+    "caballo": "AMIGO CALICHE",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 4.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 15,
+    "caballo": "PICHO AMADO",
+    "jinete": "M. SALINAS",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 16,
+    "caballo": "GOCCE",
+    "jinete": "N. ROJAS",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 1,
+    "caballo": "THE TEACHER",
+    "jinete": "F. MORENO",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 2,
+    "caballo": "GOLDEN STONE",
+    "jinete": "D. CARVACHO",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 3,
+    "caballo": "IRISH BAND",
+    "jinete": "C. E. URBINA",
+    "probabilidad": 4.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 4,
+    "caballo": "KRASNYY AND RED",
+    "jinete": "W. QUINTEROS",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 5,
+    "caballo": "TROIS PLUMES",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 5.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 6,
+    "caballo": "OSCURO Y SALVAJE",
+    "jinete": "F. TAPIA",
+    "probabilidad": 13.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 7,
+    "caballo": "LADY LUMBER",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 21.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 8,
+    "caballo": "CONDE AUSTRAL",
+    "jinete": "M. SALINAS",
+    "probabilidad": 5.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 9,
+    "caballo": "CALIFORNIA SPRING",
+    "jinete": "J. MEDINA",
+    "probabilidad": 5.2
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 10,
+    "caballo": "MASTER KAN",
+    "jinete": "J. CUETO",
+    "probabilidad": 5.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 11,
+    "caballo": "SOUL QUEEN",
+    "jinete": "J. EYZAGUIRRE",
+    "probabilidad": 13.5
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 1,
+    "caballo": "MISTER E",
+    "jinete": "J. MEDINA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 2,
+    "caballo": "VIDA SALVAJE",
+    "jinete": "C. E. URBINA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 3,
+    "caballo": "SOL DE TROYA",
+    "jinete": "B. SANCHO",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 4,
+    "caballo": "TANYTUS",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 10.5
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 5,
+    "caballo": "WINGS OF FIRE",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 10.5
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 6,
+    "caballo": "IL VENTO",
+    "jinete": "M. GUTIERREZ",
+    "probabilidad": 4.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 7,
+    "caballo": "VIVE LE ROI",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 10.5
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 8,
+    "caballo": "NETHERLANDER",
+    "jinete": "L. VALDIVIA",
+    "probabilidad": 18.2
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 9,
+    "caballo": "TE QUIERO TODAVIA",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 4.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 10,
+    "caballo": "DESPROLIJO",
+    "jinete": "J. HERRERA",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 11,
+    "caballo": "NAKBA",
+    "jinete": "F. TAPIA",
+    "probabilidad": 18.2
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 1,
+    "caballo": "HOFFA",
+    "jinete": "N. ROJAS",
+    "probabilidad": 21.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 2,
+    "caballo": "SORAILA",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 4.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 3,
+    "caballo": "KWIN",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 5.6
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 4,
+    "caballo": "MISTER VILLAGRA",
+    "jinete": "F. MORENO",
+    "probabilidad": 4.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 5,
+    "caballo": "PABLOSKY",
+    "jinete": "B. GOMEZ",
+    "probabilidad": 5.5
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 6,
+    "caballo": "EL TANQUE AGUS",
+    "jinete": "S. MARIN",
+    "probabilidad": 4.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 7,
+    "caballo": "TIENES MI SONRISA",
+    "jinete": "R. FOURNET",
+    "probabilidad": 5.2
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 8,
+    "caballo": "LUIVERAR",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 5.5
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 9,
+    "caballo": "SEÑORA BERNI",
+    "jinete": "C. BOBADILLA",
+    "probabilidad": 5.5
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 10,
+    "caballo": "TUTTO APIACCERE",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 11,
+    "caballo": "DICTATORIAL",
+    "jinete": "D. CARVACHO",
+    "probabilidad": 5.5
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 12,
+    "caballo": "POOR SMELL",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 5.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 13,
+    "caballo": "HUEVO DE CHOCOLATE",
+    "jinete": "J. ZUÑIGA",
+    "probabilidad": 4.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 14,
+    "caballo": "BLACK OLIVES",
+    "jinete": "M. SALINAS",
+    "probabilidad": 4.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 15,
+    "caballo": "CREED",
+    "jinete": "M. A. DONOSO",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 1,
+    "caballo": "BRAVUCON",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 2,
+    "caballo": "EL ARTE DE CANTAR",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 4.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 3,
+    "caballo": "CHELENKO",
+    "jinete": "C. E. URBINA",
+    "probabilidad": 12.9
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 4,
+    "caballo": "BREEZY STAR",
+    "jinete": "R. FOURNET",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 5,
+    "caballo": "YA SILIO",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 4.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 6,
+    "caballo": "POGACAR",
+    "jinete": "R. CISTERNAS",
+    "probabilidad": 22.2
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 7,
+    "caballo": "EL GRAN PIRATA",
+    "jinete": "J. ZUÑIGA",
+    "probabilidad": 4.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 8,
+    "caballo": "NO PAIN NO GAIN",
+    "jinete": "L. VALDIVIA",
+    "probabilidad": 12.9
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 9,
+    "caballo": "ANDREI BOLKONSKY",
+    "jinete": "J. HERRERA",
+    "probabilidad": 4.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 10,
+    "caballo": "MAJISTIQ",
+    "jinete": "J. MEDINA",
+    "probabilidad": 5.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 11,
+    "caballo": "LEVANTATE BEBE",
+    "jinete": "B. SANCHO",
+    "probabilidad": 12.9
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 12,
+    "caballo": "MALA MEMORIA",
+    "jinete": "C. BOBADILLA",
+    "probabilidad": 4.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 1,
+    "caballo": "NADIE ME CREE",
+    "jinete": "P. REYES",
+    "probabilidad": 18.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 2,
+    "caballo": "TIGRE DE FUEGO",
+    "jinete": "R. CISTERNAS",
+    "probabilidad": 5.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 3,
+    "caballo": "SIEMPRE AVANTE",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 5.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 4,
+    "caballo": "DRAKE (ARG)",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 5.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 5,
+    "caballo": "ELON",
+    "jinete": "J. ZUÑIGA",
+    "probabilidad": 5.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 6,
+    "caballo": "CLAU THE GOLD",
+    "jinete": "C. BOBADILLA",
+    "probabilidad": 4.1
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 7,
+    "caballo": "DADDY TITO",
+    "jinete": "F. TAPIA",
+    "probabilidad": 18.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 8,
+    "caballo": "PAICAVI",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 9,
+    "caballo": "LOBELIUS",
+    "jinete": "M. A. DONOSO",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 10,
+    "caballo": "THE GREAT DANY",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 18.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 11,
+    "caballo": "GRAN CAFRUNE",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 12,
+    "caballo": "MUY AVISPADA",
+    "jinete": "N. ROJAS",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 13,
+    "caballo": "RESPECT",
+    "jinete": "L. VALDIVIA",
+    "probabilidad": 4.1
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 1,
+    "caballo": "DE BOLOGNIA",
+    "jinete": "N. ROJAS",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 2,
+    "caballo": "LA PROPIA HERMANA",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 3,
+    "caballo": "LA ALBITA",
+    "jinete": "R. FOURNET",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 4,
+    "caballo": "SHIFLIN",
+    "jinete": "C. POBLETE",
+    "probabilidad": 15.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 5,
+    "caballo": "SONRISA CARIÑOSA",
+    "jinete": "S. MARIN",
+    "probabilidad": 5.2
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 6,
+    "caballo": "DAYS OF FUTURE",
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 5.1
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 7,
+    "caballo": "LUNA MEZZ'O MARE",
+    "jinete": "C. BOBADILLA",
+    "probabilidad": 4.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 8,
+    "caballo": "MOROCHA DE ORO",
+    "jinete": "L. GONZALEZ",
+    "probabilidad": 4.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 9,
+    "caballo": "LA POCA FONDA",
+    "jinete": "L. VALDIVIA",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 10,
+    "caballo": "MADAM SECRETARY",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 3.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 11,
+    "caballo": "MAJNUN AMYRA",
+    "jinete": "J. MIÑO",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 12,
+    "caballo": "SUMMER SOHN",
+    "jinete": "F. MORENO",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 13,
+    "caballo": "GUAPA QUITEÑA",
+    "jinete": "J. ZUÑIGA",
+    "probabilidad": 3.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 14,
+    "caballo": "CANDY DUBAI",
+    "jinete": "M. GUTIERREZ",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 1,
+    "caballo": "HENDRICKS",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 19.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 2,
+    "caballo": "AMIGO FARUK",
+    "jinete": "J. MEDINA",
+    "probabilidad": 27.2
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 3,
+    "caballo": "MAX FOUR",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 9.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 4,
+    "caballo": "EL OPORTUNO",
+    "jinete": "J. HERRERA",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 5,
+    "caballo": "MCCLANE",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 8.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 6,
+    "caballo": "DOPPLER",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 7,
+    "caballo": "MIRALLI",
+    "jinete": "J. MIÑO",
+    "probabilidad": 19.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 1,
+    "caballo": "DONNARUMMA",
+    "jinete": "G. ULLOA",
+    "probabilidad": 8.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 2,
+    "caballo": "CALOCHITA",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 3,
+    "caballo": "EL TERRIBLE",
+    "jinete": "J. MEDINA",
+    "probabilidad": 8.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 4,
+    "caballo": "OH QUE FRESCO",
+    "jinete": "J. ZUÑIGA",
+    "probabilidad": 27.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 5,
+    "caballo": "GERMANICUS",
+    "jinete": "L. GONZALEZ",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 6,
+    "caballo": "ALTOBELLO",
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 9.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 7,
+    "caballo": "CONDUCTA INFAME",
+    "jinete": "B. SANCHO",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 8,
+    "caballo": "NEW DAY (ARG)",
+    "jinete": "L. VILLAGRAN",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 9,
+    "caballo": "GLI AMICI",
+    "jinete": "J. HERRERA",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 10,
+    "caballo": "HOUDINI",
+    "jinete": "P. REYES",
+    "probabilidad": 8.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 1,
+    "caballo": "MUBARAK",
+    "jinete": "R. FOURNET",
+    "probabilidad": 15.1
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 2,
+    "caballo": "PRESUMIDA FLAME",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 3,
+    "caballo": "MUÑECO DASH",
+    "jinete": "C. E. URBINA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 4,
+    "caballo": "LIO CORDILLERANO",
+    "jinete": "J. HERRERA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 5,
+    "caballo": "PRINCESITACAMI (ARG)",
+    "jinete": "C. POBLETE",
+    "probabilidad": 31.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 6,
+    "caballo": "CREO EN MI",
+    "jinete": "M.A. DONOSO",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 7,
+    "caballo": "STORMY LUCKY",
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 8,
+    "caballo": "XENOTES",
+    "jinete": "D. CARVACHO",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 9,
+    "caballo": "BONE LESS",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 1,
+    "caballo": "CHALEKYTA",
+    "jinete": "J. ZUÑIGA",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 2,
+    "caballo": "EL RODO",
+    "jinete": "J. MEDINA",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 3,
+    "caballo": "COMMAND",
+    "jinete": "C. POBLETE",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 4,
+    "caballo": "PASION POR ELLA",
+    "jinete": "M. GUTIERREZ",
+    "probabilidad": 5.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 5,
+    "caballo": "THUNDERMAN",
+    "jinete": "M.A. DONOSO",
+    "probabilidad": 19.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 6,
+    "caballo": "BAPKIZA",
+    "jinete": "N. ROJAS",
+    "probabilidad": 14.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 7,
+    "caballo": "MAYSTER",
+    "jinete": "F. TAPIA",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 8,
+    "caballo": "NARCISISTA",
+    "jinete": "B. SANCHO",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 9,
+    "caballo": "DIJO FRANCISCO",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 14.2
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 10,
+    "caballo": "MICHELITINA",
+    "jinete": "L. VILLAGRAN",
+    "probabilidad": 5.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 11,
+    "caballo": "MY HERO",
+    "jinete": "S.E. GONZALEZ",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 1,
+    "caballo": "ARAUKAN",
+    "jinete": "J. ZUÑIGA",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 2,
+    "caballo": "BRUCE BANNER",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 3,
+    "caballo": "BEIT JALA",
+    "jinete": "B. SANCHO",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 4,
+    "caballo": "MARINO SIN VACILAR",
+    "jinete": "R. FOURNET",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 5,
+    "caballo": "PRIMO JULERO",
+    "jinete": "J. MEDINA",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 6,
+    "caballo": "ANAHEIM",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 7,
+    "caballo": "CLINT EL BUENO",
+    "jinete": "L. VALDIVIA",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 8,
+    "caballo": "GRAN SAMCREDO",
+    "jinete": "C.E. URBINA",
+    "probabilidad": 5.1
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 9,
+    "caballo": "BLACK AND RED",
+    "jinete": "J. HERRERA",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 10,
+    "caballo": "FALLEN DREAMER",
+    "jinete": "N. ROJAS",
+    "probabilidad": 23.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 11,
+    "caballo": "FLYING GIANT",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 15.2
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 1,
+    "caballo": "PONTEAU",
+    "jinete": "R. CISTERNAS",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 2,
+    "caballo": "SOBERANO REY",
+    "jinete": "A. RIVERA",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 3,
+    "caballo": "IMPLICADO",
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 23.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 4,
+    "caballo": "JAMES BRUCE",
+    "jinete": "L. VALDIVIA",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 5,
+    "caballo": "BRAVO NINO",
+    "jinete": "A. ALVAREZ",
+    "probabilidad": 8.9
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 6,
+    "caballo": "DAKTARI (ARG)",
+    "jinete": "G. ULLOA",
+    "probabilidad": 5.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 7,
+    "caballo": "BAND OF BROTHERS",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 8,
+    "caballo": "BUCEFALO (ARG)",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 9,
+    "caballo": "LE KOPPERS",
+    "jinete": "J. MEDINA",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 10,
+    "caballo": "GOOD DEAL",
+    "jinete": "J. HERRERA",
+    "probabilidad": 15.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 1,
+    "caballo": "KITTEN'S BLACK",
+    "jinete": "B. SANCHO",
+    "probabilidad": 15.6
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 2,
+    "caballo": "CORAZON NOBLE",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 3,
+    "caballo": "PINO HUACHO",
+    "jinete": "S. MARIN",
+    "probabilidad": 4.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 4,
+    "caballo": "OPERETA DE PLAZA",
+    "jinete": "R. S. DORES",
+    "probabilidad": 3.4
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 5,
+    "caballo": "PANCHOTE",
+    "jinete": "F. TAPIA",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 6,
+    "caballo": "GUERRERO ARABE",
+    "jinete": "M. GUTIERREZ",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 7,
+    "caballo": "SALUS",
+    "jinete": "L. VILLAGRAN",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 8,
+    "caballo": "LADY EMPER",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 11.8
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 9,
+    "caballo": "CARIBEAN PASSION",
+    "jinete": "M. SALINAS",
+    "probabilidad": 5.9
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 10,
+    "caballo": "WARA AND RED",
+    "jinete": "C. BOBADILLA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 11,
+    "caballo": "GREEN DRESS",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 11.2
+  },
+  {
+    "fecha": "2026-01-14",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 12,
+    "caballo": "SUMERVOLT",
+    "jinete": "W. QUINTEROS",
+    "probabilidad": 15.2
+  },
+  {
     "fecha": "2026-01-15",
     "hipodromo": "Hipódromo Chile",
     "carrera": 1,
     "numero": 1,
     "caballo": "TATA MONCHO",
-    "probabilidad": 18.8
+    "jinete": "P.ZUNIGA",
+    "probabilidad": 4.6
   },
   {
     "fecha": "2026-01-15",
@@ -13,7 +1472,8 @@
     "carrera": 1,
     "numero": 2,
     "caballo": "DON'T STOP ME NOW",
-    "probabilidad": 7.5
+    "jinete": "N.VENEGAS",
+    "probabilidad": 5.6
   },
   {
     "fecha": "2026-01-15",
@@ -21,7 +1481,8 @@
     "carrera": 1,
     "numero": 3,
     "caballo": "INDIA TERCA",
-    "probabilidad": 8.9
+    "jinete": "LVALDIVIA",
+    "probabilidad": 4.6
   },
   {
     "fecha": "2026-01-15",
@@ -29,7 +1490,8 @@
     "carrera": 1,
     "numero": 4,
     "caballo": "BONITA SORPRESA",
-    "probabilidad": 5.3
+    "jinete": "P.GALAZ",
+    "probabilidad": 5.6
   },
   {
     "fecha": "2026-01-15",
@@ -37,7 +1499,8 @@
     "carrera": 1,
     "numero": 5,
     "caballo": "SAHARA CHROME",
-    "probabilidad": 5.4
+    "jinete": "B.GONZALEZ",
+    "probabilidad": 4.6
   },
   {
     "fecha": "2026-01-15",
@@ -45,7 +1508,8 @@
     "carrera": 1,
     "numero": 6,
     "caballo": "COSMIC TRIGGER",
-    "probabilidad": 5.0
+    "jinete": "J.EYZAGUIRRE",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-15",
@@ -53,7 +1517,8 @@
     "carrera": 1,
     "numero": 7,
     "caballo": "TARRES (ARG)",
-    "probabilidad": 4.1
+    "jinete": "N.SANTIBANEZ",
+    "probabilidad": 5.2
   },
   {
     "fecha": "2026-01-15",
@@ -61,7 +1526,8 @@
     "carrera": 1,
     "numero": 8,
     "caballo": "TEMPORAL DE AMOR",
-    "probabilidad": 7.5
+    "jinete": "A.ALVAREZ",
+    "probabilidad": 5.6
   },
   {
     "fecha": "2026-01-15",
@@ -69,7 +1535,8 @@
     "carrera": 1,
     "numero": 9,
     "caballo": "BEAUTIFUL MOON",
-    "probabilidad": 5.0
+    "jinete": "B.SANCHO",
+    "probabilidad": 12.4
   },
   {
     "fecha": "2026-01-15",
@@ -77,6 +1544,7 @@
     "carrera": 1,
     "numero": 10,
     "caballo": "CHICA DE CAMPEONES",
+    "jinete": "T.SEITH",
     "probabilidad": 4.7
   },
   {
@@ -85,7 +1553,8 @@
     "carrera": 1,
     "numero": 11,
     "caballo": "KING CORLEONE",
-    "probabilidad": 5.0
+    "jinete": "D.SANCHEZ",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-15",
@@ -93,7 +1562,8 @@
     "carrera": 1,
     "numero": 12,
     "caballo": "TE DIRIA",
-    "probabilidad": 8.7
+    "jinete": "C.BUSTOS",
+    "probabilidad": 5.6
   },
   {
     "fecha": "2026-01-15",
@@ -101,7 +1571,8 @@
     "carrera": 1,
     "numero": 13,
     "caballo": "LA TOSTADORA",
-    "probabilidad": 4.0
+    "jinete": "M.GUTIERREZ",
+    "probabilidad": 21.3
   },
   {
     "fecha": "2026-01-15",
@@ -109,7 +1580,8 @@
     "carrera": 1,
     "numero": 14,
     "caballo": "AVISPATE COMADRE",
-    "probabilidad": 5.3
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 5.6
   },
   {
     "fecha": "2026-01-15",
@@ -117,7 +1589,8 @@
     "carrera": 1,
     "numero": 15,
     "caballo": "EL MARIPEPA",
-    "probabilidad": 4.7
+    "jinete": "R.ARAYA",
+    "probabilidad": 5.2
   },
   {
     "fecha": "2026-01-15",
@@ -125,7 +1598,8 @@
     "carrera": 10,
     "numero": 1,
     "caballo": "AZRA",
-    "probabilidad": 3.2
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 13.1
   },
   {
     "fecha": "2026-01-15",
@@ -133,7 +1607,8 @@
     "carrera": 10,
     "numero": 2,
     "caballo": "AZALEA INDIA",
-    "probabilidad": 14.6
+    "jinete": "R.CISTERNAS",
+    "probabilidad": 12.6
   },
   {
     "fecha": "2026-01-15",
@@ -141,7 +1616,8 @@
     "carrera": 10,
     "numero": 3,
     "caballo": "RASHEEM",
-    "probabilidad": 3.3
+    "jinete": "J.M.SOTO",
+    "probabilidad": 16.2
   },
   {
     "fecha": "2026-01-15",
@@ -149,7 +1625,8 @@
     "carrera": 10,
     "numero": 4,
     "caballo": "TIA MARTA",
-    "probabilidad": 3.9
+    "jinete": "N.SANTIBANEZ",
+    "probabilidad": 6.3
   },
   {
     "fecha": "2026-01-15",
@@ -157,7 +1634,8 @@
     "carrera": 10,
     "numero": 5,
     "caballo": "SIN MIEDO",
-    "probabilidad": 14.6
+    "jinete": "D.SANCHEZ",
+    "probabilidad": 4.1
   },
   {
     "fecha": "2026-01-15",
@@ -165,7 +1643,8 @@
     "carrera": 10,
     "numero": 6,
     "caballo": "FABRANA",
-    "probabilidad": 3.3
+    "jinete": "R.FUENZALIDA",
+    "probabilidad": 9.2
   },
   {
     "fecha": "2026-01-15",
@@ -173,7 +1652,8 @@
     "carrera": 10,
     "numero": 7,
     "caballo": "INDIA ADORADA",
-    "probabilidad": 14.6
+    "jinete": "L.MENGHINI",
+    "probabilidad": 4.1
   },
   {
     "fecha": "2026-01-15",
@@ -181,7 +1661,8 @@
     "carrera": 10,
     "numero": 8,
     "caballo": "SILVESTRIN",
-    "probabilidad": 4.4
+    "jinete": "J.MINO",
+    "probabilidad": 3.8
   },
   {
     "fecha": "2026-01-15",
@@ -189,7 +1670,8 @@
     "carrera": 10,
     "numero": 9,
     "caballo": "UNA PROPUESTA",
-    "probabilidad": 4.3
+    "jinete": "J.EYZAGUIRRE",
+    "probabilidad": 9.2
   },
   {
     "fecha": "2026-01-15",
@@ -197,7 +1679,8 @@
     "carrera": 10,
     "numero": 10,
     "caballo": "POWER OF HORSES",
-    "probabilidad": 4.3
+    "jinete": "C.BUSTOS",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -205,7 +1688,8 @@
     "carrera": 10,
     "numero": 11,
     "caballo": "SURPRISE BOX",
-    "probabilidad": 4.3
+    "jinete": "N.VENEGAS",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -213,7 +1697,8 @@
     "carrera": 10,
     "numero": 12,
     "caballo": "SALUD COMPADRE",
-    "probabilidad": 3.4
+    "jinete": "J.SOLANO",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -221,7 +1706,8 @@
     "carrera": 10,
     "numero": 13,
     "caballo": "ME VERAS CAER",
-    "probabilidad": 15.0
+    "jinete": "R.FOURNET",
+    "probabilidad": 4.1
   },
   {
     "fecha": "2026-01-15",
@@ -229,7 +1715,8 @@
     "carrera": 10,
     "numero": 14,
     "caballo": "GAMORRA",
-    "probabilidad": 3.3
+    "jinete": "J.TORO",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -237,6 +1724,7 @@
     "carrera": 10,
     "numero": 15,
     "caballo": "YA MAGICO",
+    "jinete": "JO.A. GONZALEZ",
     "probabilidad": 3.5
   },
   {
@@ -245,7 +1733,8 @@
     "carrera": 11,
     "numero": 1,
     "caballo": "TESORITO MIO",
-    "probabilidad": 19.4
+    "jinete": "N.RAMIREZ",
+    "probabilidad": 3.2
   },
   {
     "fecha": "2026-01-15",
@@ -253,7 +1742,8 @@
     "carrera": 11,
     "numero": 2,
     "caballo": "IRISH NATION",
-    "probabilidad": 4.2
+    "jinete": "D.CARVACHO",
+    "probabilidad": 3.2
   },
   {
     "fecha": "2026-01-15",
@@ -261,7 +1751,8 @@
     "carrera": 11,
     "numero": 3,
     "caballo": "FRANCOLI",
-    "probabilidad": 4.3
+    "jinete": "J.CUETO",
+    "probabilidad": 6.8
   },
   {
     "fecha": "2026-01-15",
@@ -269,7 +1760,8 @@
     "carrera": 11,
     "numero": 4,
     "caballo": "GRAN NONO",
-    "probabilidad": 4.4
+    "jinete": "JO.A.GONZALEZ",
+    "probabilidad": 15.0
   },
   {
     "fecha": "2026-01-15",
@@ -277,6 +1769,7 @@
     "carrera": 11,
     "numero": 5,
     "caballo": "MITSKI",
+    "jinete": "N.MOLINA",
     "probabilidad": 4.2
   },
   {
@@ -285,7 +1778,8 @@
     "carrera": 11,
     "numero": 6,
     "caballo": "VICARIA AMELIA",
-    "probabilidad": 5.7
+    "jinete": "C.ALEGRIA",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -293,7 +1787,8 @@
     "carrera": 11,
     "numero": 7,
     "caballo": "BLACK KINGLY",
-    "probabilidad": 4.2
+    "jinete": "L.C.GONZALEZ",
+    "probabilidad": 8.9
   },
   {
     "fecha": "2026-01-15",
@@ -301,7 +1796,8 @@
     "carrera": 11,
     "numero": 8,
     "caballo": "GRAN LALITO",
-    "probabilidad": 5.7
+    "jinete": "R.FOURNET",
+    "probabilidad": 3.2
   },
   {
     "fecha": "2026-01-15",
@@ -309,7 +1805,8 @@
     "carrera": 11,
     "numero": 9,
     "caballo": "GRAN PEPE",
-    "probabilidad": 4.2
+    "jinete": "F.MEDINA",
+    "probabilidad": 7.6
   },
   {
     "fecha": "2026-01-15",
@@ -317,7 +1814,8 @@
     "carrera": 11,
     "numero": 10,
     "caballo": "MI NIETO BRUNO",
-    "probabilidad": 4.4
+    "jinete": "C.BUSTOS",
+    "probabilidad": 7.7
   },
   {
     "fecha": "2026-01-15",
@@ -325,7 +1823,8 @@
     "carrera": 11,
     "numero": 11,
     "caballo": "ZIGEUNER",
-    "probabilidad": 5.1
+    "jinete": "AND.COVARRUBIAS",
+    "probabilidad": 12.6
   },
   {
     "fecha": "2026-01-15",
@@ -333,7 +1832,8 @@
     "carrera": 11,
     "numero": 12,
     "caballo": "JULIA DOMNA",
-    "probabilidad": 5.7
+    "jinete": "J.SOLANO",
+    "probabilidad": 3.2
   },
   {
     "fecha": "2026-01-15",
@@ -341,7 +1841,8 @@
     "carrera": 11,
     "numero": 13,
     "caballo": "PATYTA BLACK",
-    "probabilidad": 19.4
+    "jinete": "I.VALDIVIA",
+    "probabilidad": 7.7
   },
   {
     "fecha": "2026-01-15",
@@ -349,7 +1850,8 @@
     "carrera": 11,
     "numero": 14,
     "caballo": "MARRAKECH",
-    "probabilidad": 4.6
+    "jinete": "B.GONZALEZ",
+    "probabilidad": 5.5
   },
   {
     "fecha": "2026-01-15",
@@ -357,7 +1859,8 @@
     "carrera": 11,
     "numero": 15,
     "caballo": "SASUKE",
-    "probabilidad": 4.6
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 7.6
   },
   {
     "fecha": "2026-01-15",
@@ -365,7 +1868,8 @@
     "carrera": 12,
     "numero": 1,
     "caballo": "EL ULTIMO QUENO",
-    "probabilidad": 5.1
+    "jinete": "H.OCHOA",
+    "probabilidad": 7.3
   },
   {
     "fecha": "2026-01-15",
@@ -373,7 +1877,8 @@
     "carrera": 12,
     "numero": 2,
     "caballo": "MONKYPOC",
-    "probabilidad": 19.9
+    "jinete": "B.GONZALEZ",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-15",
@@ -381,7 +1886,8 @@
     "carrera": 12,
     "numero": 3,
     "caballo": "LECCLERC",
-    "probabilidad": 5.1
+    "jinete": "N.RAMIREZ",
+    "probabilidad": 10.7
   },
   {
     "fecha": "2026-01-15",
@@ -389,7 +1895,8 @@
     "carrera": 12,
     "numero": 4,
     "caballo": "A LA BANDADA",
-    "probabilidad": 4.7
+    "jinete": "R.VARAS",
+    "probabilidad": 3.9
   },
   {
     "fecha": "2026-01-15",
@@ -397,7 +1904,8 @@
     "carrera": 12,
     "numero": 5,
     "caballo": "SOVICH",
-    "probabilidad": 11.3
+    "jinete": "B.AYALA",
+    "probabilidad": 3.9
   },
   {
     "fecha": "2026-01-15",
@@ -405,7 +1913,8 @@
     "carrera": 12,
     "numero": 6,
     "caballo": "VOLASTE A LA META",
-    "probabilidad": 4.4
+    "jinete": "M.MORALES",
+    "probabilidad": 3.9
   },
   {
     "fecha": "2026-01-15",
@@ -413,7 +1922,8 @@
     "carrera": 12,
     "numero": 7,
     "caballo": "ARTE DE MAGIA",
-    "probabilidad": 4.3
+    "jinete": "A.APABLAZA",
+    "probabilidad": 3.9
   },
   {
     "fecha": "2026-01-15",
@@ -421,7 +1931,8 @@
     "carrera": 12,
     "numero": 8,
     "caballo": "LEGENDE",
-    "probabilidad": 5.1
+    "jinete": "R.FUENZALIDA",
+    "probabilidad": 4.0
   },
   {
     "fecha": "2026-01-15",
@@ -429,7 +1940,8 @@
     "carrera": 12,
     "numero": 9,
     "caballo": "COMO EL SOL",
-    "probabilidad": 8.3
+    "jinete": "A.VASQUEZ",
+    "probabilidad": 10.7
   },
   {
     "fecha": "2026-01-15",
@@ -437,7 +1949,8 @@
     "carrera": 12,
     "numero": 10,
     "caballo": "RABIOSO PELAO",
-    "probabilidad": 4.3
+    "jinete": "M.GUTIERREZ",
+    "probabilidad": 3.9
   },
   {
     "fecha": "2026-01-15",
@@ -445,7 +1958,8 @@
     "carrera": 12,
     "numero": 11,
     "caballo": "VIVIMOS SONANDO",
-    "probabilidad": 5.1
+    "jinete": "R.PAINEN",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-15",
@@ -453,6 +1967,7 @@
     "carrera": 12,
     "numero": 12,
     "caballo": "PONLE TOBY",
+    "jinete": "N.ROJAS",
     "probabilidad": 4.7
   },
   {
@@ -461,7 +1976,8 @@
     "carrera": 12,
     "numero": 13,
     "caballo": "GIORGIO ELORIGINAL",
-    "probabilidad": 5.1
+    "jinete": "M.GALAZ",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-15",
@@ -469,7 +1985,8 @@
     "carrera": 12,
     "numero": 14,
     "caballo": "PRINCESA RUBY",
-    "probabilidad": 4.7
+    "jinete": "P.ZUNIGA",
+    "probabilidad": 10.5
   },
   {
     "fecha": "2026-01-15",
@@ -477,7 +1994,8 @@
     "carrera": 12,
     "numero": 15,
     "caballo": "VASCA BRAVA",
-    "probabilidad": 7.8
+    "jinete": "D.CARRASCO",
+    "probabilidad": 18.2
   },
   {
     "fecha": "2026-01-15",
@@ -485,7 +2003,8 @@
     "carrera": 13,
     "numero": 1,
     "caballo": "MUCHOVA",
-    "probabilidad": 4.8
+    "jinete": "K.ESPINA",
+    "probabilidad": 21.2
   },
   {
     "fecha": "2026-01-15",
@@ -493,7 +2012,8 @@
     "carrera": 13,
     "numero": 2,
     "caballo": "TORDILLA DIVINA",
-    "probabilidad": 13.1
+    "jinete": "H.OCHOA",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-15",
@@ -501,7 +2021,8 @@
     "carrera": 13,
     "numero": 3,
     "caballo": "STELLA AUSTRALIS",
-    "probabilidad": 4.8
+    "jinete": "SEB.GONZALEZ",
+    "probabilidad": 11.9
   },
   {
     "fecha": "2026-01-15",
@@ -509,7 +2030,8 @@
     "carrera": 13,
     "numero": 4,
     "caballo": "QUANTO AMORE SEI",
-    "probabilidad": 4.1
+    "jinete": "J.HERRERA",
+    "probabilidad": 4.8
   },
   {
     "fecha": "2026-01-15",
@@ -517,7 +2039,8 @@
     "carrera": 13,
     "numero": 5,
     "caballo": "SELENZA",
-    "probabilidad": 3.9
+    "jinete": "JO.A.GONZALEZ",
+    "probabilidad": 21.8
   },
   {
     "fecha": "2026-01-15",
@@ -525,7 +2048,8 @@
     "carrera": 13,
     "numero": 6,
     "caballo": "ZIERVANA",
-    "probabilidad": 13.4
+    "jinete": "L.VALDIVIA",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-15",
@@ -533,7 +2057,8 @@
     "carrera": 13,
     "numero": 7,
     "caballo": "RICONDITA",
-    "probabilidad": 13.1
+    "jinete": "J.MEDINA",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-15",
@@ -541,7 +2066,8 @@
     "carrera": 13,
     "numero": 8,
     "caballo": "LA INSTRUMENTISTA",
-    "probabilidad": 4.0
+    "jinete": "R.AVILA",
+    "probabilidad": 4.8
   },
   {
     "fecha": "2026-01-15",
@@ -549,7 +2075,8 @@
     "carrera": 13,
     "numero": 9,
     "caballo": "STAY WITH ME",
-    "probabilidad": 17.7
+    "jinete": "R.FUENZALIDA",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-15",
@@ -557,7 +2084,8 @@
     "carrera": 13,
     "numero": 10,
     "caballo": "INNA",
-    "probabilidad": 9.0
+    "jinete": "B.TRONCOSO",
+    "probabilidad": 6.0
   },
   {
     "fecha": "2026-01-15",
@@ -565,7 +2093,8 @@
     "carrera": 13,
     "numero": 11,
     "caballo": "ROCE SECRETO",
-    "probabilidad": 8.3
+    "jinete": "A. VASQUEZ",
+    "probabilidad": 6.0
   },
   {
     "fecha": "2026-01-15",
@@ -573,7 +2102,8 @@
     "carrera": 13,
     "numero": 12,
     "caballo": "ODESSA",
-    "probabilidad": 3.8
+    "jinete": "JZUNIGA",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-15",
@@ -581,7 +2111,8 @@
     "carrera": 14,
     "numero": 1,
     "caballo": "VAQUITA LOIRA",
-    "probabilidad": 5.6
+    "jinete": "AND. COVARRUBIAS",
+    "probabilidad": 15.2
   },
   {
     "fecha": "2026-01-15",
@@ -589,7 +2120,8 @@
     "carrera": 14,
     "numero": 2,
     "caballo": "AYUSA",
-    "probabilidad": 4.9
+    "jinete": "B.AYALA",
+    "probabilidad": 4.3
   },
   {
     "fecha": "2026-01-15",
@@ -597,7 +2129,8 @@
     "carrera": 14,
     "numero": 3,
     "caballo": "LA SONE",
-    "probabilidad": 5.7
+    "jinete": "B.GONZALEZ",
+    "probabilidad": 4.4
   },
   {
     "fecha": "2026-01-15",
@@ -605,7 +2138,8 @@
     "carrera": 14,
     "numero": 4,
     "caballo": "SOLKA",
-    "probabilidad": 4.3
+    "jinete": "J.HERRERA",
+    "probabilidad": 15.6
   },
   {
     "fecha": "2026-01-15",
@@ -613,7 +2147,8 @@
     "carrera": 14,
     "numero": 5,
     "caballo": "DIOSA KALI",
-    "probabilidad": 4.2
+    "jinete": "PZUNIGA",
+    "probabilidad": 3.4
   },
   {
     "fecha": "2026-01-15",
@@ -621,7 +2156,8 @@
     "carrera": 14,
     "numero": 6,
     "caballo": "FETLOCK JOINT",
-    "probabilidad": 4.2
+    "jinete": "LURREJOLA",
+    "probabilidad": 3.4
   },
   {
     "fecha": "2026-01-15",
@@ -629,7 +2165,8 @@
     "carrera": 14,
     "numero": 7,
     "caballo": "KANASAKI",
-    "probabilidad": 6.8
+    "jinete": "D.CARVACHO",
+    "probabilidad": 15.2
   },
   {
     "fecha": "2026-01-15",
@@ -637,7 +2174,8 @@
     "carrera": 14,
     "numero": 8,
     "caballo": "MR RANGER",
-    "probabilidad": 8.9
+    "jinete": "M.GUTIERREZ",
+    "probabilidad": 3.4
   },
   {
     "fecha": "2026-01-15",
@@ -645,7 +2183,8 @@
     "carrera": 14,
     "numero": 9,
     "caballo": "TANGO",
-    "probabilidad": 8.9
+    "jinete": "L.MENGHINI",
+    "probabilidad": 8.6
   },
   {
     "fecha": "2026-01-15",
@@ -653,7 +2192,8 @@
     "carrera": 14,
     "numero": 10,
     "caballo": "CASPER INN",
-    "probabilidad": 6.8
+    "jinete": "J.M.SOTO",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -661,7 +2201,8 @@
     "carrera": 14,
     "numero": 11,
     "caballo": "RUCIA DE ORO",
-    "probabilidad": 5.6
+    "jinete": "C.ORTEGA",
+    "probabilidad": 3.3
   },
   {
     "fecha": "2026-01-15",
@@ -669,7 +2210,8 @@
     "carrera": 14,
     "numero": 12,
     "caballo": "ROSARIO TIJERA",
-    "probabilidad": 5.6
+    "jinete": "W.QUINTEROS",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -677,7 +2219,8 @@
     "carrera": 14,
     "numero": 13,
     "caballo": "DI ALBA",
-    "probabilidad": 4.2
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 4.3
   },
   {
     "fecha": "2026-01-15",
@@ -685,7 +2228,8 @@
     "carrera": 14,
     "numero": 14,
     "caballo": "CALLAHAN",
-    "probabilidad": 19.5
+    "jinete": "JO.A.GONZALEZ",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -693,7 +2237,8 @@
     "carrera": 14,
     "numero": 15,
     "caballo": "EL CHICO RICHARD",
-    "probabilidad": 4.6
+    "jinete": "N.MOLINA",
+    "probabilidad": 8.6
   },
   {
     "fecha": "2026-01-15",
@@ -701,7 +2246,8 @@
     "carrera": 15,
     "numero": 1,
     "caballo": "DALEMITA",
-    "probabilidad": 3.8
+    "jinete": "L.VALDIVIA",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -709,7 +2255,8 @@
     "carrera": 15,
     "numero": 2,
     "caballo": "DUBAI WIND",
-    "probabilidad": 3.8
+    "jinete": "JO.A.GONZALEZ",
+    "probabilidad": 4.1
   },
   {
     "fecha": "2026-01-15",
@@ -717,7 +2264,8 @@
     "carrera": 15,
     "numero": 3,
     "caballo": "LEXUS",
-    "probabilidad": 10.2
+    "jinete": "N.ROJAS",
+    "probabilidad": 15.8
   },
   {
     "fecha": "2026-01-15",
@@ -725,7 +2273,8 @@
     "carrera": 15,
     "numero": 4,
     "caballo": "COTILLARD",
-    "probabilidad": 8.5
+    "jinete": "B.TRONCOSO",
+    "probabilidad": 3.8
   },
   {
     "fecha": "2026-01-15",
@@ -733,7 +2282,8 @@
     "carrera": 15,
     "numero": 5,
     "caballo": "ONDA RADIAL",
-    "probabilidad": 17.3
+    "jinete": "R.CISTERNAS",
+    "probabilidad": 3.4
   },
   {
     "fecha": "2026-01-15",
@@ -741,7 +2291,8 @@
     "carrera": 15,
     "numero": 6,
     "caballo": "ATACAMA FLOWER",
-    "probabilidad": 3.7
+    "jinete": "R.PAINEN",
+    "probabilidad": 3.4
   },
   {
     "fecha": "2026-01-15",
@@ -749,7 +2300,8 @@
     "carrera": 15,
     "numero": 7,
     "caballo": "COSITA DULCE",
-    "probabilidad": 4.2
+    "jinete": "H.OCHOA",
+    "probabilidad": 6.2
   },
   {
     "fecha": "2026-01-15",
@@ -757,7 +2309,8 @@
     "carrera": 15,
     "numero": 8,
     "caballo": "ARTHUR SHELBY",
-    "probabilidad": 3.9
+    "jinete": "M.A.BUSTAMANTE",
+    "probabilidad": 9.0
   },
   {
     "fecha": "2026-01-15",
@@ -765,7 +2318,8 @@
     "carrera": 15,
     "numero": 9,
     "caballo": "DONA SHISHI",
-    "probabilidad": 4.5
+    "jinete": "N.MOLINA",
+    "probabilidad": 15.8
   },
   {
     "fecha": "2026-01-15",
@@ -773,7 +2327,8 @@
     "carrera": 15,
     "numero": 10,
     "caballo": "LIMENO FELIZ",
-    "probabilidad": 10.0
+    "jinete": "A.APABLAZA",
+    "probabilidad": 9.1
   },
   {
     "fecha": "2026-01-15",
@@ -781,7 +2336,8 @@
     "carrera": 15,
     "numero": 11,
     "caballo": "WESTERN FILM",
-    "probabilidad": 7.4
+    "jinete": "C.BUSTOS",
+    "probabilidad": 6.3
   },
   {
     "fecha": "2026-01-15",
@@ -789,7 +2345,8 @@
     "carrera": 15,
     "numero": 12,
     "caballo": "NUEVA VIDA",
-    "probabilidad": 7.4
+    "jinete": "A.ALVAREZ",
+    "probabilidad": 3.6
   },
   {
     "fecha": "2026-01-15",
@@ -797,7 +2354,8 @@
     "carrera": 15,
     "numero": 13,
     "caballo": "HENGROEN",
-    "probabilidad": 7.0
+    "jinete": "B.SANCHO",
+    "probabilidad": 3.4
   },
   {
     "fecha": "2026-01-15",
@@ -805,7 +2363,8 @@
     "carrera": 15,
     "numero": 14,
     "caballo": "LEYSKA",
-    "probabilidad": 3.9
+    "jinete": "N.RAMIREZ",
+    "probabilidad": 9.0
   },
   {
     "fecha": "2026-01-15",
@@ -813,7 +2372,8 @@
     "carrera": 15,
     "numero": 15,
     "caballo": "TU MI CUNCA",
-    "probabilidad": 4.5
+    "jinete": "M.MORALES",
+    "probabilidad": 3.4
   },
   {
     "fecha": "2026-01-15",
@@ -821,7 +2381,8 @@
     "carrera": 16,
     "numero": 1,
     "caballo": "FAMOSA LUZ",
-    "probabilidad": 5.2
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -829,7 +2390,8 @@
     "carrera": 16,
     "numero": 2,
     "caballo": "AMOR DE CHOCOLATE",
-    "probabilidad": 5.0
+    "jinete": "C.ORTEGA",
+    "probabilidad": 12.5
   },
   {
     "fecha": "2026-01-15",
@@ -837,7 +2399,8 @@
     "carrera": 16,
     "numero": 3,
     "caballo": "ROMANINI",
-    "probabilidad": 6.3
+    "jinete": "N.VENEGAS",
+    "probabilidad": 4.2
   },
   {
     "fecha": "2026-01-15",
@@ -845,7 +2408,8 @@
     "carrera": 16,
     "numero": 4,
     "caballo": "GOOD TERRY",
-    "probabilidad": 6.5
+    "jinete": "R.FUENZALIDA",
+    "probabilidad": 4.1
   },
   {
     "fecha": "2026-01-15",
@@ -853,7 +2417,8 @@
     "carrera": 16,
     "numero": 5,
     "caballo": "LA CHUCKY TRINI",
-    "probabilidad": 4.8
+    "jinete": "L.C.GONZALEZ",
+    "probabilidad": 6.5
   },
   {
     "fecha": "2026-01-15",
@@ -861,7 +2426,8 @@
     "carrera": 16,
     "numero": 6,
     "caballo": "MANNY RIBERA",
-    "probabilidad": 22.1
+    "jinete": "N.RAMIREZ",
+    "probabilidad": 9.3
   },
   {
     "fecha": "2026-01-15",
@@ -869,7 +2435,8 @@
     "carrera": 16,
     "numero": 7,
     "caballo": "MERENGADA",
-    "probabilidad": 4.9
+    "jinete": "N.SANTIBANEZ",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -877,7 +2444,8 @@
     "carrera": 16,
     "numero": 8,
     "caballo": "DOMINGUITA ONCE",
-    "probabilidad": 6.5
+    "jinete": "N.MOLINA",
+    "probabilidad": 6.4
   },
   {
     "fecha": "2026-01-15",
@@ -885,7 +2453,8 @@
     "carrera": 16,
     "numero": 9,
     "caballo": "TREN A CAJON",
-    "probabilidad": 6.5
+    "jinete": "D.CARVACHO",
+    "probabilidad": 16.3
   },
   {
     "fecha": "2026-01-15",
@@ -893,7 +2462,8 @@
     "carrera": 16,
     "numero": 10,
     "caballo": "KAUNAS",
-    "probabilidad": 5.8
+    "jinete": "P.ZUNIGA",
+    "probabilidad": 4.2
   },
   {
     "fecha": "2026-01-15",
@@ -901,7 +2471,8 @@
     "carrera": 16,
     "numero": 11,
     "caballo": "SEEKING THE SOUL",
-    "probabilidad": 4.7
+    "jinete": "A.APABLAZA",
+    "probabilidad": 9.5
   },
   {
     "fecha": "2026-01-15",
@@ -909,7 +2480,8 @@
     "carrera": 16,
     "numero": 12,
     "caballo": "ARAKUN",
-    "probabilidad": 5.5
+    "jinete": "J.CUETO",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -917,7 +2489,8 @@
     "carrera": 16,
     "numero": 13,
     "caballo": "ARAGONERO",
-    "probabilidad": 4.8
+    "jinete": "H.OCHOA",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -925,7 +2498,8 @@
     "carrera": 16,
     "numero": 14,
     "caballo": "CHINITA TRAVIESA",
-    "probabilidad": 5.3
+    "jinete": "D.CARRASCO",
+    "probabilidad": 3.7
   },
   {
     "fecha": "2026-01-15",
@@ -933,7 +2507,8 @@
     "carrera": 16,
     "numero": 15,
     "caballo": "LINDA ALMA",
-    "probabilidad": 6.0
+    "jinete": "M.MORALES",
+    "probabilidad": 9.3
   },
   {
     "fecha": "2026-01-15",
@@ -941,7 +2516,8 @@
     "carrera": 17,
     "numero": 1,
     "caballo": "COMPADRE CRISTIAN",
-    "probabilidad": 7.7
+    "jinete": "J.VILLABLANCA",
+    "probabilidad": 16.7
   },
   {
     "fecha": "2026-01-15",
@@ -949,7 +2525,8 @@
     "carrera": 17,
     "numero": 2,
     "caballo": "MIEL RUBIA",
-    "probabilidad": 6.8
+    "jinete": "L.C.GONZALEZ",
+    "probabilidad": 6.7
   },
   {
     "fecha": "2026-01-15",
@@ -957,7 +2534,8 @@
     "carrera": 17,
     "numero": 3,
     "caballo": "NIETO ESPANOL",
-    "probabilidad": 7.7
+    "jinete": "R.FUENZALIDA",
+    "probabilidad": 4.4
   },
   {
     "fecha": "2026-01-15",
@@ -965,7 +2543,8 @@
     "carrera": 17,
     "numero": 4,
     "caballo": "SECRET DRAGON",
-    "probabilidad": 3.8
+    "jinete": "P.GALAZ",
+    "probabilidad": 6.7
   },
   {
     "fecha": "2026-01-15",
@@ -973,7 +2552,8 @@
     "carrera": 17,
     "numero": 5,
     "caballo": "RED ROJO RED",
-    "probabilidad": 3.8
+    "jinete": "B.AYALA",
+    "probabilidad": 3.6
   },
   {
     "fecha": "2026-01-15",
@@ -981,7 +2561,8 @@
     "carrera": 17,
     "numero": 6,
     "caballo": "IRON SWIM",
-    "probabilidad": 3.9
+    "jinete": "A.ALVAREZ",
+    "probabilidad": 9.7
   },
   {
     "fecha": "2026-01-15",
@@ -989,7 +2570,8 @@
     "carrera": 17,
     "numero": 7,
     "caballo": "LO FRANCO",
-    "probabilidad": 3.4
+    "jinete": "N.SANTIBANEZ",
+    "probabilidad": 3.6
   },
   {
     "fecha": "2026-01-15",
@@ -997,7 +2579,8 @@
     "carrera": 17,
     "numero": 8,
     "caballo": "RESISTO BIEN",
-    "probabilidad": 6.9
+    "jinete": "N.RAMIREZ",
+    "probabilidad": 9.7
   },
   {
     "fecha": "2026-01-15",
@@ -1005,7 +2588,8 @@
     "carrera": 17,
     "numero": 9,
     "caballo": "EL ORADOR",
-    "probabilidad": 12.0
+    "jinete": "B.SANCHO",
+    "probabilidad": 9.7
   },
   {
     "fecha": "2026-01-15",
@@ -1013,7 +2597,8 @@
     "carrera": 17,
     "numero": 10,
     "caballo": "PAILITA DE HUEVO",
-    "probabilidad": 6.7
+    "jinete": "D.CARVACHO",
+    "probabilidad": 4.4
   },
   {
     "fecha": "2026-01-15",
@@ -1021,7 +2606,8 @@
     "carrera": 17,
     "numero": 11,
     "caballo": "WONDER WOMAN",
-    "probabilidad": 16.0
+    "jinete": "M.GUTIERREZ",
+    "probabilidad": 3.6
   },
   {
     "fecha": "2026-01-15",
@@ -1029,7 +2615,8 @@
     "carrera": 17,
     "numero": 12,
     "caballo": "NO ME PILLA",
-    "probabilidad": 6.3
+    "jinete": "R.FOURNET",
+    "probabilidad": 9.7
   },
   {
     "fecha": "2026-01-15",
@@ -1037,7 +2624,8 @@
     "carrera": 17,
     "numero": 13,
     "caballo": "MAXIWARIO",
-    "probabilidad": 3.8
+    "jinete": "H.OCHOA",
+    "probabilidad": 3.6
   },
   {
     "fecha": "2026-01-15",
@@ -1045,7 +2633,8 @@
     "carrera": 17,
     "numero": 14,
     "caballo": "NOVATO CONTENTO",
-    "probabilidad": 7.7
+    "jinete": "N.ROJAS",
+    "probabilidad": 3.6
   },
   {
     "fecha": "2026-01-15",
@@ -1053,7 +2642,8 @@
     "carrera": 17,
     "numero": 15,
     "caballo": "CITY BLUE",
-    "probabilidad": 3.5
+    "jinete": "C.BUSTOS",
+    "probabilidad": 4.4
   },
   {
     "fecha": "2026-01-15",
@@ -1061,7 +2651,8 @@
     "carrera": 18,
     "numero": 1,
     "caballo": "CAPO AZZURRA",
-    "probabilidad": 15.2
+    "jinete": "N.SANTIBANEZ",
+    "probabilidad": 4.3
   },
   {
     "fecha": "2026-01-15",
@@ -1069,7 +2660,8 @@
     "carrera": 18,
     "numero": 2,
     "caballo": "BADBOY",
-    "probabilidad": 3.5
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 4.9
   },
   {
     "fecha": "2026-01-15",
@@ -1077,7 +2669,8 @@
     "carrera": 18,
     "numero": 3,
     "caballo": "EL JOKER",
-    "probabilidad": 3.4
+    "jinete": "B.SANCHO",
+    "probabilidad": 5.0
   },
   {
     "fecha": "2026-01-15",
@@ -1085,7 +2678,8 @@
     "carrera": 18,
     "numero": 4,
     "caballo": "THE ALFA DOS",
-    "probabilidad": 3.5
+    "jinete": "J.HERRERA",
+    "probabilidad": 7.1
   },
   {
     "fecha": "2026-01-15",
@@ -1093,7 +2687,8 @@
     "carrera": 18,
     "numero": 5,
     "caballo": "PRINCESITA CHROME",
-    "probabilidad": 3.8
+    "jinete": "C.ALEGRIA",
+    "probabilidad": 4.9
   },
   {
     "fecha": "2026-01-15",
@@ -1101,7 +2696,8 @@
     "carrera": 18,
     "numero": 6,
     "caballo": "ANGELA CLASICA",
-    "probabilidad": 11.0
+    "jinete": "D.CARVACHO",
+    "probabilidad": 4.3
   },
   {
     "fecha": "2026-01-15",
@@ -1109,7 +2705,8 @@
     "carrera": 18,
     "numero": 7,
     "caballo": "BLACKCRACK",
-    "probabilidad": 4.0
+    "jinete": "N.RAMIREZ",
+    "probabilidad": 4.3
   },
   {
     "fecha": "2026-01-15",
@@ -1117,7 +2714,8 @@
     "carrera": 18,
     "numero": 8,
     "caballo": "MI MENCHITA",
-    "probabilidad": 3.4
+    "jinete": "A.ALVAREZ",
+    "probabilidad": 7.1
   },
   {
     "fecha": "2026-01-15",
@@ -1125,7 +2723,8 @@
     "carrera": 18,
     "numero": 9,
     "caballo": "TODOS CANTAN",
-    "probabilidad": 6.8
+    "jinete": "B.TRONCOSO",
+    "probabilidad": 12.1
   },
   {
     "fecha": "2026-01-15",
@@ -1133,7 +2732,8 @@
     "carrera": 18,
     "numero": 10,
     "caballo": "GOLD DADDY",
-    "probabilidad": 3.7
+    "jinete": "R.FUENZALIDA",
+    "probabilidad": 9.7
   },
   {
     "fecha": "2026-01-15",
@@ -1141,7 +2741,8 @@
     "carrera": 18,
     "numero": 11,
     "caballo": "NOSECOMPARE",
-    "probabilidad": 7.4
+    "jinete": "J.TORO",
+    "probabilidad": 7.1
   },
   {
     "fecha": "2026-01-15",
@@ -1149,7 +2750,8 @@
     "carrera": 18,
     "numero": 12,
     "caballo": "MENTE BRILLANTE",
-    "probabilidad": 3.7
+    "jinete": "N.MOLINA",
+    "probabilidad": 20.0
   },
   {
     "fecha": "2026-01-15",
@@ -1157,7 +2759,8 @@
     "carrera": 18,
     "numero": 13,
     "caballo": "JIMBO",
-    "probabilidad": 15.6
+    "jinete": "A.VASQUEZ",
+    "probabilidad": 4.3
   },
   {
     "fecha": "2026-01-15",
@@ -1165,7 +2768,8 @@
     "carrera": 18,
     "numero": 14,
     "caballo": "BRUNO EL TERRIBLE",
-    "probabilidad": 14.9
+    "jinete": "M.GUTIERREZ",
+    "probabilidad": 4.9
   },
   {
     "fecha": "2026-01-15",
@@ -1173,7 +2777,8 @@
     "carrera": 19,
     "numero": 1,
     "caballo": "TATUADOR",
-    "probabilidad": 19.6
+    "jinete": "H.OCHOA",
+    "probabilidad": 7.1
   },
   {
     "fecha": "2026-01-15",
@@ -1181,7 +2786,8 @@
     "carrera": 19,
     "numero": 2,
     "caballo": "NOB",
-    "probabilidad": 8.3
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-15",
@@ -1189,7 +2795,8 @@
     "carrera": 19,
     "numero": 3,
     "caballo": "NAVIDAD VELOZ",
-    "probabilidad": 5.1
+    "jinete": "AND. COVARRUBIAS",
+    "probabilidad": 3.8
   },
   {
     "fecha": "2026-01-15",
@@ -1197,7 +2804,8 @@
     "carrera": 19,
     "numero": 4,
     "caballo": "FIRST POINT'S",
-    "probabilidad": 11.3
+    "jinete": "B.SANCHO",
+    "probabilidad": 7.1
   },
   {
     "fecha": "2026-01-15",
@@ -1205,7 +2813,8 @@
     "carrera": 19,
     "numero": 5,
     "caballo": "VIDA SABROSA",
-    "probabilidad": 5.0
+    "jinete": "M.GUTIERREZ",
+    "probabilidad": 3.8
   },
   {
     "fecha": "2026-01-15",
@@ -1213,7 +2822,8 @@
     "carrera": 19,
     "numero": 6,
     "caballo": "FAST PATTERN",
-    "probabilidad": 4.7
+    "jinete": "J.HERRERA",
+    "probabilidad": 3.9
   },
   {
     "fecha": "2026-01-15",
@@ -1221,7 +2831,8 @@
     "carrera": 19,
     "numero": 7,
     "caballo": "SUNAM",
-    "probabilidad": 11.2
+    "jinete": "JO.A.GONZALEZ",
+    "probabilidad": 9.0
   },
   {
     "fecha": "2026-01-15",
@@ -1229,7 +2840,8 @@
     "carrera": 19,
     "numero": 8,
     "caballo": "PARA TI",
-    "probabilidad": 4.2
+    "jinete": "O.ULLOA",
+    "probabilidad": 3.8
   },
   {
     "fecha": "2026-01-15",
@@ -1237,7 +2849,8 @@
     "carrera": 19,
     "numero": 9,
     "caballo": "KATARA JOY",
-    "probabilidad": 4.3
+    "jinete": "M.GALAZ",
+    "probabilidad": 4.1
   },
   {
     "fecha": "2026-01-15",
@@ -1245,7 +2858,8 @@
     "carrera": 19,
     "numero": 10,
     "caballo": "SUPER FLY",
-    "probabilidad": 4.3
+    "jinete": "R.PAINEN",
+    "probabilidad": 17.7
   },
   {
     "fecha": "2026-01-15",
@@ -1253,7 +2867,8 @@
     "carrera": 19,
     "numero": 11,
     "caballo": "KOCCIA",
-    "probabilidad": 5.0
+    "jinete": "R.CISTERNAS",
+    "probabilidad": 4.6
   },
   {
     "fecha": "2026-01-15",
@@ -1261,7 +2876,8 @@
     "carrera": 19,
     "numero": 12,
     "caballo": "BLESSED",
-    "probabilidad": 4.3
+    "jinete": "J.TORO",
+    "probabilidad": 3.9
   },
   {
     "fecha": "2026-01-15",
@@ -1269,7 +2885,8 @@
     "carrera": 19,
     "numero": 13,
     "caballo": "EL AMIGO",
-    "probabilidad": 4.3
+    "jinete": "T.SEITH",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-15",
@@ -1277,7 +2894,8 @@
     "carrera": 19,
     "numero": 14,
     "caballo": "SILENE",
-    "probabilidad": 4.2
+    "jinete": "N.RAMIREZ",
+    "probabilidad": 3.8
   },
   {
     "fecha": "2026-01-15",
@@ -1285,7 +2903,8 @@
     "carrera": 19,
     "numero": 15,
     "caballo": "AMBROSE",
-    "probabilidad": 4.2
+    "jinete": "B.TRONCOSO",
+    "probabilidad": 17.7
   },
   {
     "fecha": "2026-01-15",
@@ -1293,7 +2912,8 @@
     "carrera": 2,
     "numero": 1,
     "caballo": "ANGEL EN EL CIELO",
-    "probabilidad": 5.2
+    "jinete": "A.ALVAREZ",
+    "probabilidad": 16.9
   },
   {
     "fecha": "2026-01-15",
@@ -1301,7 +2921,8 @@
     "carrera": 2,
     "numero": 2,
     "caballo": "GRANDE TATA REY",
-    "probabilidad": 5.5
+    "jinete": "G.AROS",
+    "probabilidad": 3.7
   },
   {
     "fecha": "2026-01-15",
@@ -1309,7 +2930,8 @@
     "carrera": 2,
     "numero": 3,
     "caballo": "TEEN WOLF",
-    "probabilidad": 6.2
+    "jinete": "J.EYZAGUIRRE",
+    "probabilidad": 3.6
   },
   {
     "fecha": "2026-01-15",
@@ -1317,7 +2939,8 @@
     "carrera": 2,
     "numero": 4,
     "caballo": "DON CACHAFAZ",
-    "probabilidad": 7.2
+    "jinete": "C.ORTEGA",
+    "probabilidad": 4.8
   },
   {
     "fecha": "2026-01-15",
@@ -1325,7 +2948,8 @@
     "carrera": 2,
     "numero": 5,
     "caballo": "NIHUIL",
-    "probabilidad": 4.1
+    "jinete": "N.RAMIREZ",
+    "probabilidad": 9.4
   },
   {
     "fecha": "2026-01-15",
@@ -1333,7 +2957,8 @@
     "carrera": 2,
     "numero": 6,
     "caballo": "PEDERNALES",
-    "probabilidad": 4.1
+    "jinete": "M.GALAZ",
+    "probabilidad": 3.6
   },
   {
     "fecha": "2026-01-15",
@@ -1341,7 +2966,8 @@
     "carrera": 2,
     "numero": 7,
     "caballo": "PELAO PELAO",
-    "probabilidad": 4.5
+    "jinete": "P.REYES",
+    "probabilidad": 4.8
   },
   {
     "fecha": "2026-01-15",
@@ -1349,7 +2975,8 @@
     "carrera": 2,
     "numero": 8,
     "caballo": "BELLO BIJOU",
-    "probabilidad": 19.0
+    "jinete": "R.FOURNET",
+    "probabilidad": 4.3
   },
   {
     "fecha": "2026-01-15",
@@ -1357,7 +2984,8 @@
     "carrera": 2,
     "numero": 9,
     "caballo": "GRAND PA LINDO",
-    "probabilidad": 7.2
+    "jinete": "LVALDIVIA",
+    "probabilidad": 4.8
   },
   {
     "fecha": "2026-01-15",
@@ -1365,7 +2993,8 @@
     "carrera": 2,
     "numero": 10,
     "caballo": "MIGUEL ANGEL NOMAS",
-    "probabilidad": 5.6
+    "jinete": "P.GALAZ",
+    "probabilidad": 4.3
   },
   {
     "fecha": "2026-01-15",
@@ -1373,7 +3002,8 @@
     "carrera": 2,
     "numero": 11,
     "caballo": "THE LYON BLUE",
-    "probabilidad": 6.2
+    "jinete": "B.GONZALEZ",
+    "probabilidad": 9.4
   },
   {
     "fecha": "2026-01-15",
@@ -1381,7 +3011,8 @@
     "carrera": 2,
     "numero": 12,
     "caballo": "TEMPLE DEL TOQUE",
-    "probabilidad": 5.6
+    "jinete": "B.AYALA",
+    "probabilidad": 4.8
   },
   {
     "fecha": "2026-01-15",
@@ -1389,7 +3020,8 @@
     "carrera": 2,
     "numero": 13,
     "caballo": "ASTON",
-    "probabilidad": 10.0
+    "jinete": "J.M.SOTO",
+    "probabilidad": 17.0
   },
   {
     "fecha": "2026-01-15",
@@ -1397,7 +3029,8 @@
     "carrera": 2,
     "numero": 14,
     "caballo": "MI BELLO MILAN",
-    "probabilidad": 5.5
+    "jinete": "JO.A.GONZALEZ",
+    "probabilidad": 4.8
   },
   {
     "fecha": "2026-01-15",
@@ -1405,7 +3038,8 @@
     "carrera": 2,
     "numero": 15,
     "caballo": "ORIONISTA",
-    "probabilidad": 4.1
+    "jinete": "J.HERRERA",
+    "probabilidad": 3.8
   },
   {
     "fecha": "2026-01-15",
@@ -1413,7 +3047,8 @@
     "carrera": 20,
     "numero": 1,
     "caballo": "FRIDAY",
-    "probabilidad": 6.7
+    "jinete": "G.AROS",
+    "probabilidad": 3.0
   },
   {
     "fecha": "2026-01-15",
@@ -1421,7 +3056,8 @@
     "carrera": 20,
     "numero": 2,
     "caballo": "TERRIBLE BRUNO",
-    "probabilidad": 14.2
+    "jinete": "R.PAINEN",
+    "probabilidad": 7.9
   },
   {
     "fecha": "2026-01-15",
@@ -1429,7 +3065,8 @@
     "carrera": 20,
     "numero": 3,
     "caballo": "LUCIA DE SIRACUSA",
-    "probabilidad": 3.9
+    "jinete": "B.TRONCOSO",
+    "probabilidad": 4.3
   },
   {
     "fecha": "2026-01-15",
@@ -1437,7 +3074,8 @@
     "carrera": 20,
     "numero": 4,
     "caballo": "REINA MARGARET",
-    "probabilidad": 3.3
+    "jinete": "J.HERRERA",
+    "probabilidad": 5.4
   },
   {
     "fecha": "2026-01-15",
@@ -1445,7 +3083,8 @@
     "carrera": 20,
     "numero": 5,
     "caballo": "PERO PEDRO",
-    "probabilidad": 8.3
+    "jinete": "D.CARRASCO",
+    "probabilidad": 5.4
   },
   {
     "fecha": "2026-01-15",
@@ -1453,7 +3092,8 @@
     "carrera": 20,
     "numero": 6,
     "caballo": "CICARELLI",
-    "probabilidad": 3.0
+    "jinete": "JO.A.GONZALEZ",
+    "probabilidad": 14.2
   },
   {
     "fecha": "2026-01-15",
@@ -1461,7 +3101,8 @@
     "carrera": 20,
     "numero": 7,
     "caballo": "JAVIERA CONSTANZA",
-    "probabilidad": 7.5
+    "jinete": "N.SANTIBANEZ",
+    "probabilidad": 3.6
   },
   {
     "fecha": "2026-01-15",
@@ -1469,7 +3110,8 @@
     "carrera": 20,
     "numero": 8,
     "caballo": "COSTAMIA",
-    "probabilidad": 7.5
+    "jinete": "A.VASQUEZ",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -1477,7 +3119,8 @@
     "carrera": 20,
     "numero": 9,
     "caballo": "SHOW PAINT",
-    "probabilidad": 12.6
+    "jinete": "R.ARAYA",
+    "probabilidad": 7.9
   },
   {
     "fecha": "2026-01-15",
@@ -1485,7 +3128,8 @@
     "carrera": 20,
     "numero": 10,
     "caballo": "ZULEMA ZAHIR",
-    "probabilidad": 3.1
+    "jinete": "M.A.BUSTAMANTE",
+    "probabilidad": 7.9
   },
   {
     "fecha": "2026-01-15",
@@ -1493,7 +3137,8 @@
     "carrera": 20,
     "numero": 11,
     "caballo": "CALIFORNIA DADDY",
-    "probabilidad": 7.5
+    "jinete": "N.ROJAS",
+    "probabilidad": 8.1
   },
   {
     "fecha": "2026-01-15",
@@ -1501,7 +3146,8 @@
     "carrera": 20,
     "numero": 12,
     "caballo": "PROFESSIONALS",
-    "probabilidad": 5.6
+    "jinete": "J.EYZAGUIRRE",
+    "probabilidad": 3.1
   },
   {
     "fecha": "2026-01-15",
@@ -1509,7 +3155,8 @@
     "carrera": 20,
     "numero": 13,
     "caballo": "CLASSIC FORM",
-    "probabilidad": 7.5
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -1517,7 +3164,8 @@
     "carrera": 20,
     "numero": 14,
     "caballo": "TROYANA",
-    "probabilidad": 5.6
+    "jinete": "J.SOLANO",
+    "probabilidad": 7.9
   },
   {
     "fecha": "2026-01-15",
@@ -1525,7 +3173,8 @@
     "carrera": 20,
     "numero": 15,
     "caballo": "ATRAQUELE COMPADRE",
-    "probabilidad": 3.6
+    "jinete": "D.SANCHEZ",
+    "probabilidad": 14.2
   },
   {
     "fecha": "2026-01-15",
@@ -1533,7 +3182,8 @@
     "carrera": 21,
     "numero": 1,
     "caballo": "EL KEMAO",
-    "probabilidad": 10.4
+    "jinete": "T.SEITH",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -1541,7 +3191,8 @@
     "carrera": 21,
     "numero": 2,
     "caballo": "QUIERO RE TRUCO",
-    "probabilidad": 3.9
+    "jinete": "J.HERRERA",
+    "probabilidad": 7.8
   },
   {
     "fecha": "2026-01-15",
@@ -1549,7 +3200,8 @@
     "carrera": 21,
     "numero": 3,
     "caballo": "UN GUARITO",
-    "probabilidad": 3.8
+    "jinete": "A.VASQUEZ",
+    "probabilidad": 13.9
   },
   {
     "fecha": "2026-01-15",
@@ -1557,7 +3209,8 @@
     "carrera": 21,
     "numero": 4,
     "caballo": "APOLINARIO",
-    "probabilidad": 3.8
+    "jinete": "O.ULLOA",
+    "probabilidad": 4.0
   },
   {
     "fecha": "2026-01-15",
@@ -1565,7 +3218,8 @@
     "carrera": 21,
     "numero": 5,
     "caballo": "THE ARION",
-    "probabilidad": 3.9
+    "jinete": "H.OCHOA",
+    "probabilidad": 4.0
   },
   {
     "fecha": "2026-01-15",
@@ -1573,7 +3227,8 @@
     "carrera": 21,
     "numero": 6,
     "caballo": "SINESIO",
-    "probabilidad": 4.0
+    "jinete": "L.C.GONZALEZ",
+    "probabilidad": 5.4
   },
   {
     "fecha": "2026-01-15",
@@ -1581,7 +3236,8 @@
     "carrera": 21,
     "numero": 7,
     "caballo": "TERRIBLE PANCHO",
-    "probabilidad": 10.4
+    "jinete": "D.CARVACHO",
+    "probabilidad": 3.0
   },
   {
     "fecha": "2026-01-15",
@@ -1589,7 +3245,8 @@
     "carrera": 21,
     "numero": 8,
     "caballo": "LUZ OCULTA",
-    "probabilidad": 3.8
+    "jinete": "L.TORRES",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -1597,7 +3254,8 @@
     "carrera": 21,
     "numero": 9,
     "caballo": "LUCIANITA",
-    "probabilidad": 4.6
+    "jinete": "A.APABLAZA",
+    "probabilidad": 13.6
   },
   {
     "fecha": "2026-01-15",
@@ -1605,7 +3263,8 @@
     "carrera": 21,
     "numero": 10,
     "caballo": "LES FONTS D'ALGAR",
-    "probabilidad": 4.6
+    "jinete": "C.ORTEGA",
+    "probabilidad": 7.9
   },
   {
     "fecha": "2026-01-15",
@@ -1613,7 +3272,8 @@
     "carrera": 21,
     "numero": 11,
     "caballo": "NO VUELVO MAS",
-    "probabilidad": 4.6
+    "jinete": "J.MINO",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -1621,7 +3281,8 @@
     "carrera": 21,
     "numero": 12,
     "caballo": "VILLETA",
-    "probabilidad": 10.3
+    "jinete": "J.TORO",
+    "probabilidad": 3.2
   },
   {
     "fecha": "2026-01-15",
@@ -1629,7 +3290,8 @@
     "carrera": 21,
     "numero": 13,
     "caballo": "SOY BUSHIDO",
-    "probabilidad": 17.7
+    "jinete": "G.AROS",
+    "probabilidad": 9.2
   },
   {
     "fecha": "2026-01-15",
@@ -1637,7 +3299,8 @@
     "carrera": 21,
     "numero": 14,
     "caballo": "FASTLOVE",
-    "probabilidad": 10.3
+    "jinete": "M.MORALES",
+    "probabilidad": 13.9
   },
   {
     "fecha": "2026-01-15",
@@ -1645,7 +3308,8 @@
     "carrera": 21,
     "numero": 15,
     "caballo": "GOOD PARTNER",
-    "probabilidad": 3.8
+    "jinete": "L.MENGHINI",
+    "probabilidad": 3.6
   },
   {
     "fecha": "2026-01-15",
@@ -1653,7 +3317,8 @@
     "carrera": 3,
     "numero": 1,
     "caballo": "AL CONTADO",
-    "probabilidad": 6.2
+    "jinete": "LVALDIVIA",
+    "probabilidad": 5.5
   },
   {
     "fecha": "2026-01-15",
@@ -1661,7 +3326,8 @@
     "carrera": 3,
     "numero": 2,
     "caballo": "LUSSO",
-    "probabilidad": 29.0
+    "jinete": "A.ALVAREZ",
+    "probabilidad": 17.9
   },
   {
     "fecha": "2026-01-15",
@@ -1669,7 +3335,8 @@
     "carrera": 3,
     "numero": 3,
     "caballo": "ZULTHAN",
-    "probabilidad": 17.8
+    "jinete": "F.MEDINA",
+    "probabilidad": 17.6
   },
   {
     "fecha": "2026-01-15",
@@ -1677,7 +3344,8 @@
     "carrera": 3,
     "numero": 4,
     "caballo": "LOS BISNIETOS",
-    "probabilidad": 6.9
+    "jinete": "L.TORRES",
+    "probabilidad": 5.5
   },
   {
     "fecha": "2026-01-15",
@@ -1685,7 +3353,8 @@
     "carrera": 3,
     "numero": 5,
     "caballo": "NO ME DICE NADA",
-    "probabilidad": 8.0
+    "jinete": "B.SANCHO",
+    "probabilidad": 25.2
   },
   {
     "fecha": "2026-01-15",
@@ -1693,7 +3362,8 @@
     "carrera": 3,
     "numero": 6,
     "caballo": "STAVOS",
-    "probabilidad": 17.8
+    "jinete": "AND.COVARRUBIAS",
+    "probabilidad": 11.4
   },
   {
     "fecha": "2026-01-15",
@@ -1701,7 +3371,8 @@
     "carrera": 3,
     "numero": 7,
     "caballo": "YESERAYE",
-    "probabilidad": 6.2
+    "jinete": "R.FOURNET",
+    "probabilidad": 11.4
   },
   {
     "fecha": "2026-01-15",
@@ -1709,7 +3380,8 @@
     "carrera": 3,
     "numero": 8,
     "caballo": "COCHEPE",
-    "probabilidad": 8.0
+    "jinete": "N.RAMIREZ",
+    "probabilidad": 5.4
   },
   {
     "fecha": "2026-01-15",
@@ -1717,7 +3389,8 @@
     "carrera": 4,
     "numero": 1,
     "caballo": "VITA KC",
-    "probabilidad": 9.0
+    "jinete": "B.SANCHO",
+    "probabilidad": 5.9
   },
   {
     "fecha": "2026-01-15",
@@ -1725,7 +3398,8 @@
     "carrera": 4,
     "numero": 2,
     "caballo": "BONITA FLOR",
-    "probabilidad": 5.0
+    "jinete": "N.SANTIBANEZ",
+    "probabilidad": 5.3
   },
   {
     "fecha": "2026-01-15",
@@ -1733,7 +3407,8 @@
     "carrera": 4,
     "numero": 3,
     "caballo": "POP VISION",
-    "probabilidad": 5.0
+    "jinete": "N.MOLINA",
+    "probabilidad": 6.0
   },
   {
     "fecha": "2026-01-15",
@@ -1741,7 +3416,8 @@
     "carrera": 4,
     "numero": 4,
     "caballo": "BETONE",
-    "probabilidad": 5.6
+    "jinete": "N.ROJAS",
+    "probabilidad": 4.6
   },
   {
     "fecha": "2026-01-15",
@@ -1749,7 +3425,8 @@
     "carrera": 4,
     "numero": 5,
     "caballo": "MANO DE BRONCE",
-    "probabilidad": 5.6
+    "jinete": "LURREJOIA",
+    "probabilidad": 4.4
   },
   {
     "fecha": "2026-01-15",
@@ -1757,7 +3434,8 @@
     "carrera": 4,
     "numero": 6,
     "caballo": "MARIA CAMILA",
-    "probabilidad": 5.9
+    "jinete": "R.ARAYA",
+    "probabilidad": 4.4
   },
   {
     "fecha": "2026-01-15",
@@ -1765,7 +3443,8 @@
     "carrera": 4,
     "numero": 7,
     "caballo": "NANVERQUI",
-    "probabilidad": 6.6
+    "jinete": "F.MEDINA",
+    "probabilidad": 7.1
   },
   {
     "fecha": "2026-01-15",
@@ -1773,7 +3452,8 @@
     "carrera": 4,
     "numero": 8,
     "caballo": "VAN DER SAR",
-    "probabilidad": 4.2
+    "jinete": "J.PIMENTEL",
+    "probabilidad": 9.2
   },
   {
     "fecha": "2026-01-15",
@@ -1781,7 +3461,8 @@
     "carrera": 4,
     "numero": 9,
     "caballo": "BLESS WHITE LEGS",
-    "probabilidad": 5.0
+    "jinete": "B.TRONCOSO",
+    "probabilidad": 9.2
   },
   {
     "fecha": "2026-01-15",
@@ -1789,7 +3470,8 @@
     "carrera": 4,
     "numero": 10,
     "caballo": "LIMITLESS",
-    "probabilidad": 18.2
+    "jinete": "D.SANCHEZ",
+    "probabilidad": 7.1
   },
   {
     "fecha": "2026-01-15",
@@ -1797,7 +3479,8 @@
     "carrera": 4,
     "numero": 11,
     "caballo": "RESILIENTE GETS",
-    "probabilidad": 11.3
+    "jinete": "P.ZUNIGA",
+    "probabilidad": 5.9
   },
   {
     "fecha": "2026-01-15",
@@ -1805,7 +3488,8 @@
     "carrera": 4,
     "numero": 12,
     "caballo": "QUE HICE MAL",
-    "probabilidad": 5.2
+    "jinete": "LC.GONZALEZ",
+    "probabilidad": 5.9
   },
   {
     "fecha": "2026-01-15",
@@ -1813,7 +3497,8 @@
     "carrera": 4,
     "numero": 13,
     "caballo": "SATISFY MY SOUL",
-    "probabilidad": 3.9
+    "jinete": "R.FUENZALIDA",
+    "probabilidad": 4.4
   },
   {
     "fecha": "2026-01-15",
@@ -1821,7 +3506,8 @@
     "carrera": 4,
     "numero": 14,
     "caballo": "ENTRATE NUNCA",
-    "probabilidad": 9.5
+    "jinete": "L.MENGHINI",
+    "probabilidad": 20.6
   },
   {
     "fecha": "2026-01-15",
@@ -1829,7 +3515,8 @@
     "carrera": 5,
     "numero": 1,
     "caballo": "ALFONSO EL GRANDE",
-    "probabilidad": 6.1
+    "jinete": "N.MOLINA",
+    "probabilidad": 4.9
   },
   {
     "fecha": "2026-01-15",
@@ -1837,7 +3524,8 @@
     "carrera": 5,
     "numero": 2,
     "caballo": "LUCRECIO",
-    "probabilidad": 6.4
+    "jinete": "F.MEDINA",
+    "probabilidad": 4.9
   },
   {
     "fecha": "2026-01-15",
@@ -1845,6 +3533,7 @@
     "carrera": 5,
     "numero": 3,
     "caballo": "SEVEN POINTS",
+    "jinete": "J.CUETO",
     "probabilidad": 4.0
   },
   {
@@ -1853,7 +3542,8 @@
     "carrera": 5,
     "numero": 4,
     "caballo": "EL GAGUI",
-    "probabilidad": 6.8
+    "jinete": "N.SANTIBANEZ",
+    "probabilidad": 4.0
   },
   {
     "fecha": "2026-01-15",
@@ -1861,7 +3551,8 @@
     "carrera": 5,
     "numero": 5,
     "caballo": "NESHELY QUASHELY",
-    "probabilidad": 6.8
+    "jinete": "C.ORTEGA",
+    "probabilidad": 11.0
   },
   {
     "fecha": "2026-01-15",
@@ -1869,7 +3560,8 @@
     "carrera": 5,
     "numero": 6,
     "caballo": "POR FORTUNA",
-    "probabilidad": 5.1
+    "jinete": "O.ULLOA",
+    "probabilidad": 9.1
   },
   {
     "fecha": "2026-01-15",
@@ -1877,7 +3569,8 @@
     "carrera": 5,
     "numero": 7,
     "caballo": "REAL ENVIDO",
-    "probabilidad": 9.6
+    "jinete": "N.ROJAS",
+    "probabilidad": 18.7
   },
   {
     "fecha": "2026-01-15",
@@ -1885,7 +3578,8 @@
     "carrera": 5,
     "numero": 8,
     "caballo": "DON TATO",
-    "probabilidad": 17.6
+    "jinete": "J.EYZAGUIRRE",
+    "probabilidad": 4.0
   },
   {
     "fecha": "2026-01-15",
@@ -1893,6 +3587,7 @@
     "carrera": 5,
     "numero": 9,
     "caballo": "GRAND LUCHO",
+    "jinete": "M.MORALES",
     "probabilidad": 4.6
   },
   {
@@ -1901,7 +3596,8 @@
     "carrera": 5,
     "numero": 10,
     "caballo": "NEGRO ROMERO",
-    "probabilidad": 5.3
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 4.2
   },
   {
     "fecha": "2026-01-15",
@@ -1909,7 +3605,8 @@
     "carrera": 5,
     "numero": 11,
     "caballo": "TODOS MIENTEN",
-    "probabilidad": 3.8
+    "jinete": "R.FOURNET",
+    "probabilidad": 4.8
   },
   {
     "fecha": "2026-01-15",
@@ -1917,7 +3614,8 @@
     "carrera": 5,
     "numero": 12,
     "caballo": "TEATRO GRIEGO",
-    "probabilidad": 4.1
+    "jinete": "D.SANCHEZ",
+    "probabilidad": 10.8
   },
   {
     "fecha": "2026-01-15",
@@ -1925,7 +3623,8 @@
     "carrera": 5,
     "numero": 13,
     "caballo": "BIRD RITAN",
-    "probabilidad": 12.5
+    "jinete": "A.ALVAREZ",
+    "probabilidad": 7.5
   },
   {
     "fecha": "2026-01-15",
@@ -1933,7 +3632,8 @@
     "carrera": 5,
     "numero": 14,
     "caballo": "MAXIMUS MATIAS",
-    "probabilidad": 7.4
+    "jinete": "J.HERRERA",
+    "probabilidad": 7.5
   },
   {
     "fecha": "2026-01-15",
@@ -1941,7 +3641,8 @@
     "carrera": 6,
     "numero": 1,
     "caballo": "RIO SERRANO",
-    "probabilidad": 18.5
+    "jinete": "L.TORRES",
+    "probabilidad": 34.7
   },
   {
     "fecha": "2026-01-15",
@@ -1949,7 +3650,8 @@
     "carrera": 6,
     "numero": 2,
     "caballo": "GOGOL",
-    "probabilidad": 7.6
+    "jinete": "J.A.GONZALEZ",
+    "probabilidad": 7.5
   },
   {
     "fecha": "2026-01-15",
@@ -1957,7 +3659,8 @@
     "carrera": 6,
     "numero": 3,
     "caballo": "GIANCARLO",
-    "probabilidad": 8.8
+    "jinete": "A.VASQUEZ",
+    "probabilidad": 11.5
   },
   {
     "fecha": "2026-01-15",
@@ -1965,7 +3668,8 @@
     "carrera": 6,
     "numero": 4,
     "caballo": "JEREZANO",
-    "probabilidad": 17.0
+    "jinete": "T.SEITH",
+    "probabilidad": 7.8
   },
   {
     "fecha": "2026-01-15",
@@ -1973,7 +3677,8 @@
     "carrera": 6,
     "numero": 5,
     "caballo": "AQUIMBAO",
-    "probabilidad": 25.8
+    "jinete": "I.VALDIVIA",
+    "probabilidad": 7.5
   },
   {
     "fecha": "2026-01-15",
@@ -1981,7 +3686,8 @@
     "carrera": 6,
     "numero": 6,
     "caballo": "MALANDRO",
-    "probabilidad": 8.8
+    "jinete": "B.TRONCOSO",
+    "probabilidad": 11.0
   },
   {
     "fecha": "2026-01-15",
@@ -1989,7 +3695,8 @@
     "carrera": 6,
     "numero": 7,
     "caballo": "ENSENAME",
-    "probabilidad": 7.9
+    "jinete": "R.CISTERNAS",
+    "probabilidad": 12.4
   },
   {
     "fecha": "2026-01-15",
@@ -1997,7 +3704,8 @@
     "carrera": 6,
     "numero": 8,
     "caballo": "LABURADOR",
-    "probabilidad": 5.5
+    "jinete": "D.CARVACHO",
+    "probabilidad": 7.5
   },
   {
     "fecha": "2026-01-15",
@@ -2005,7 +3713,8 @@
     "carrera": 7,
     "numero": 1,
     "caballo": "ROMAN WAR",
-    "probabilidad": 5.9
+    "jinete": "JO.A.GONZALEZ",
+    "probabilidad": 12.4
   },
   {
     "fecha": "2026-01-15",
@@ -2013,7 +3722,8 @@
     "carrera": 7,
     "numero": 2,
     "caballo": "BHADRAK",
-    "probabilidad": 3.3
+    "jinete": "AND.COVARRUBIAS",
+    "probabilidad": 3.5
   },
   {
     "fecha": "2026-01-15",
@@ -2021,7 +3731,8 @@
     "carrera": 7,
     "numero": 3,
     "caballo": "MANGINO",
-    "probabilidad": 9.0
+    "jinete": "R.CISTERNAS",
+    "probabilidad": 4.5
   },
   {
     "fecha": "2026-01-15",
@@ -2029,7 +3740,8 @@
     "carrera": 7,
     "numero": 4,
     "caballo": "ALAJJA",
-    "probabilidad": 15.3
+    "jinete": "N.SANTIBANEZ",
+    "probabilidad": 4.4
   },
   {
     "fecha": "2026-01-15",
@@ -2037,7 +3749,8 @@
     "carrera": 7,
     "numero": 5,
     "caballo": "DIFFERENZA",
-    "probabilidad": 3.5
+    "jinete": "N.ROJAS",
+    "probabilidad": 4.1
   },
   {
     "fecha": "2026-01-15",
@@ -2045,7 +3758,8 @@
     "carrera": 7,
     "numero": 6,
     "caballo": "INFINITO VIAJE",
-    "probabilidad": 3.4
+    "jinete": "R.FUENZALIDA",
+    "probabilidad": 3.3
   },
   {
     "fecha": "2026-01-15",
@@ -2053,7 +3767,8 @@
     "carrera": 7,
     "numero": 7,
     "caballo": "JUNTITOS SIEMPRE",
-    "probabilidad": 3.3
+    "jinete": "P.ZUNIGA",
+    "probabilidad": 3.8
   },
   {
     "fecha": "2026-01-15",
@@ -2061,7 +3776,8 @@
     "carrera": 7,
     "numero": 8,
     "caballo": "MI SOLCITO",
-    "probabilidad": 8.9
+    "jinete": "J.SOLANO",
+    "probabilidad": 3.4
   },
   {
     "fecha": "2026-01-15",
@@ -2069,7 +3785,8 @@
     "carrera": 7,
     "numero": 9,
     "caballo": "BEBETIAN",
-    "probabilidad": 6.6
+    "jinete": "L.C.GONZALEZ",
+    "probabilidad": 3.6
   },
   {
     "fecha": "2026-01-15",
@@ -2077,7 +3794,8 @@
     "carrera": 7,
     "numero": 10,
     "caballo": "CHILLY WILLY",
-    "probabilidad": 6.6
+    "jinete": "N.MOLINA",
+    "probabilidad": 4.2
   },
   {
     "fecha": "2026-01-15",
@@ -2085,7 +3803,8 @@
     "carrera": 7,
     "numero": 11,
     "caballo": "SENORITA JERICO",
-    "probabilidad": 3.4
+    "jinete": "J.TORO",
+    "probabilidad": 15.6
   },
   {
     "fecha": "2026-01-15",
@@ -2093,7 +3812,8 @@
     "carrera": 7,
     "numero": 12,
     "caballo": "REDQUIVER",
-    "probabilidad": 8.9
+    "jinete": "B.SANCHO",
+    "probabilidad": 12.7
   },
   {
     "fecha": "2026-01-15",
@@ -2101,7 +3821,8 @@
     "carrera": 7,
     "numero": 13,
     "caballo": "MESTIZA FLOR",
-    "probabilidad": 8.9
+    "jinete": "M.GUTIERREZ",
+    "probabilidad": 15.6
   },
   {
     "fecha": "2026-01-15",
@@ -2109,7 +3830,8 @@
     "carrera": 7,
     "numero": 14,
     "caballo": "CANOVANAS",
-    "probabilidad": 4.0
+    "jinete": "C.BUSTOS",
+    "probabilidad": 4.5
   },
   {
     "fecha": "2026-01-15",
@@ -2117,7 +3839,8 @@
     "carrera": 7,
     "numero": 15,
     "caballo": "EXAGERADA Y BUENA",
-    "probabilidad": 8.9
+    "jinete": "N.VENEGAS",
+    "probabilidad": 4.4
   },
   {
     "fecha": "2026-01-15",
@@ -2125,7 +3848,8 @@
     "carrera": 8,
     "numero": 1,
     "caballo": "ALISHEBA",
-    "probabilidad": 18.5
+    "jinete": "B.TRONCOSO",
+    "probabilidad": 4.2
   },
   {
     "fecha": "2026-01-15",
@@ -2133,7 +3857,8 @@
     "carrera": 8,
     "numero": 2,
     "caballo": "MAGOSHISHA",
-    "probabilidad": 4.9
+    "jinete": "N.MOLINA",
+    "probabilidad": 3.7
   },
   {
     "fecha": "2026-01-15",
@@ -2141,7 +3866,8 @@
     "carrera": 8,
     "numero": 3,
     "caballo": "SENA PAGADA",
-    "probabilidad": 4.0
+    "jinete": "R.PAINEN",
+    "probabilidad": 5.7
   },
   {
     "fecha": "2026-01-15",
@@ -2149,7 +3875,8 @@
     "carrera": 8,
     "numero": 4,
     "caballo": "DONNA MARIA",
-    "probabilidad": 18.5
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 7.8
   },
   {
     "fecha": "2026-01-15",
@@ -2157,7 +3884,8 @@
     "carrera": 8,
     "numero": 5,
     "caballo": "MUAK",
-    "probabilidad": 18.5
+    "jinete": "D.SANCHEZ",
+    "probabilidad": 13.7
   },
   {
     "fecha": "2026-01-15",
@@ -2165,7 +3893,8 @@
     "carrera": 8,
     "numero": 6,
     "caballo": "NARANJITA DULCE",
-    "probabilidad": 4.1
+    "jinete": "M.GALAZ",
+    "probabilidad": 7.6
   },
   {
     "fecha": "2026-01-15",
@@ -2173,7 +3902,8 @@
     "carrera": 8,
     "numero": 7,
     "caballo": "SEMINARE",
-    "probabilidad": 4.9
+    "jinete": "J.HERRERA",
+    "probabilidad": 7.1
   },
   {
     "fecha": "2026-01-15",
@@ -2181,7 +3911,8 @@
     "carrera": 8,
     "numero": 8,
     "caballo": "COSTA Y PAMPA",
-    "probabilidad": 4.0
+    "jinete": "I.VALDIVIA",
+    "probabilidad": 17.1
   },
   {
     "fecha": "2026-01-15",
@@ -2189,7 +3920,8 @@
     "carrera": 8,
     "numero": 9,
     "caballo": "LADY KINGLY",
-    "probabilidad": 4.8
+    "jinete": "O.ULLOA",
+    "probabilidad": 6.7
   },
   {
     "fecha": "2026-01-15",
@@ -2197,7 +3929,8 @@
     "carrera": 8,
     "numero": 10,
     "caballo": "MISS KINGLY",
-    "probabilidad": 4.0
+    "jinete": "R.FOURNET",
+    "probabilidad": 4.2
   },
   {
     "fecha": "2026-01-15",
@@ -2205,7 +3938,8 @@
     "carrera": 8,
     "numero": 11,
     "caballo": "TRATA DE CAMBIAR",
-    "probabilidad": 4.5
+    "jinete": "B.SANCHO",
+    "probabilidad": 8.7
   },
   {
     "fecha": "2026-01-15",
@@ -2213,7 +3947,8 @@
     "carrera": 8,
     "numero": 12,
     "caballo": "SUENA FELIZ",
-    "probabilidad": 4.8
+    "jinete": "R.FUENZALIDA",
+    "probabilidad": 3.7
   },
   {
     "fecha": "2026-01-15",
@@ -2221,7 +3956,8 @@
     "carrera": 8,
     "numero": 13,
     "caballo": "BADRA",
-    "probabilidad": 4.8
+    "jinete": "M.GUTIERREZ",
+    "probabilidad": 9.8
   },
   {
     "fecha": "2026-01-15",
@@ -2229,7 +3965,8 @@
     "carrera": 9,
     "numero": 1,
     "caballo": "MISTER HIRABOKU",
-    "probabilidad": 10.0
+    "jinete": "L.TORRES",
+    "probabilidad": 5.4
   },
   {
     "fecha": "2026-01-15",
@@ -2237,7 +3974,8 @@
     "carrera": 9,
     "numero": 2,
     "caballo": "RECHAZADO",
-    "probabilidad": 6.0
+    "jinete": "JO.A. GONZALEZ",
+    "probabilidad": 5.2
   },
   {
     "fecha": "2026-01-15",
@@ -2245,7 +3983,8 @@
     "carrera": 9,
     "numero": 3,
     "caballo": "LERICI",
-    "probabilidad": 5.5
+    "jinete": "W.LEON",
+    "probabilidad": 5.2
   },
   {
     "fecha": "2026-01-15",
@@ -2253,7 +3992,8 @@
     "carrera": 9,
     "numero": 4,
     "caballo": "PLATON",
-    "probabilidad": 5.3
+    "jinete": "SEB.GONZALEZ",
+    "probabilidad": 5.4
   },
   {
     "fecha": "2026-01-15",
@@ -2261,7 +4001,8 @@
     "carrera": 9,
     "numero": 5,
     "caballo": "SIMPLEMENTE SOY",
-    "probabilidad": 5.1
+    "jinete": "A.VASQUEZ",
+    "probabilidad": 6.2
   },
   {
     "fecha": "2026-01-15",
@@ -2269,7 +4010,8 @@
     "carrera": 9,
     "numero": 6,
     "caballo": "EL BATEY",
-    "probabilidad": 9.4
+    "jinete": "J.MEDINA",
+    "probabilidad": 24.1
   },
   {
     "fecha": "2026-01-15",
@@ -2277,7 +4019,8 @@
     "carrera": 9,
     "numero": 7,
     "caballo": "PAMPEADO",
-    "probabilidad": 5.3
+    "jinete": "N.MOLINA",
+    "probabilidad": 6.8
   },
   {
     "fecha": "2026-01-15",
@@ -2285,6 +4028,7 @@
     "carrera": 9,
     "numero": 8,
     "caballo": "ALARIDO",
+    "jinete": "N.RAMIREZ",
     "probabilidad": 5.2
   },
   {
@@ -2293,7 +4037,8 @@
     "carrera": 9,
     "numero": 9,
     "caballo": "BISCOTTINO",
-    "probabilidad": 13.7
+    "jinete": "J.TORO",
+    "probabilidad": 12.3
   },
   {
     "fecha": "2026-01-15",
@@ -2301,7 +4046,8 @@
     "carrera": 9,
     "numero": 10,
     "caballo": "GIANDANI",
-    "probabilidad": 5.4
+    "jinete": "L.VALDIVIA",
+    "probabilidad": 6.1
   },
   {
     "fecha": "2026-01-15",
@@ -2309,7 +4055,8 @@
     "carrera": 9,
     "numero": 11,
     "caballo": "PRESENTE CHA",
-    "probabilidad": 5.1
+    "jinete": "L.C.GONZALEZ",
+    "probabilidad": 12.3
   },
   {
     "fecha": "2026-01-15",
@@ -2317,7 +4064,8 @@
     "carrera": 9,
     "numero": 12,
     "caballo": "MOREAU",
-    "probabilidad": 24.0
+    "jinete": "J.TORO",
+    "probabilidad": 5.8
   },
   {
     "fecha": "2026-01-16",
@@ -2325,7 +4073,8 @@
     "carrera": 1,
     "numero": 1,
     "caballo": "MAGNUS AURELIUS",
-    "probabilidad": 6.4
+    "jinete": "B. AYALA",
+    "probabilidad": 4.3
   },
   {
     "fecha": "2026-01-16",
@@ -2333,7 +4082,8 @@
     "carrera": 1,
     "numero": 2,
     "caballo": "NO TIENE PALABRA",
-    "probabilidad": 3.7
+    "jinete": "R. AVILA",
+    "probabilidad": 4.2
   },
   {
     "fecha": "2026-01-16",
@@ -2341,6 +4091,7 @@
     "carrera": 1,
     "numero": 3,
     "caballo": "TANGERINE TANGO",
+    "jinete": "T. SEITH",
     "probabilidad": 9.5
   },
   {
@@ -2349,7 +4100,8 @@
     "carrera": 1,
     "numero": 4,
     "caballo": "DOMINGO ISLEÑO",
-    "probabilidad": 6.6
+    "jinete": "JS. VILLABLANCA",
+    "probabilidad": 6.5
   },
   {
     "fecha": "2026-01-16",
@@ -2357,7 +4109,8 @@
     "carrera": 1,
     "numero": 5,
     "caballo": "PEDRINHO",
-    "probabilidad": 3.7
+    "jinete": "JR. A. MORA",
+    "probabilidad": 4.8
   },
   {
     "fecha": "2026-01-16",
@@ -2365,7 +4118,8 @@
     "carrera": 1,
     "numero": 6,
     "caballo": "VAI BENE COSI",
-    "probabilidad": 3.6
+    "jinete": "V. BRACETTI",
+    "probabilidad": 10.6
   },
   {
     "fecha": "2026-01-16",
@@ -2373,7 +4127,8 @@
     "carrera": 1,
     "numero": 7,
     "caballo": "ACLIS",
-    "probabilidad": 9.3
+    "jinete": "JS. PAREDES",
+    "probabilidad": 5.1
   },
   {
     "fecha": "2026-01-16",
@@ -2381,7 +4136,8 @@
     "carrera": 1,
     "numero": 8,
     "caballo": "CONOCIENDOTE",
-    "probabilidad": 3.6
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 6.5
   },
   {
     "fecha": "2026-01-16",
@@ -2389,7 +4145,8 @@
     "carrera": 1,
     "numero": 9,
     "caballo": "NIÑO SEXY(R-4)",
-    "probabilidad": 11.9
+    "jinete": "R. CISTERNAS",
+    "probabilidad": 3.8
   },
   {
     "fecha": "2026-01-16",
@@ -2397,7 +4154,8 @@
     "carrera": 1,
     "numero": 10,
     "caballo": "FELIPHON",
-    "probabilidad": 4.1
+    "jinete": "H. OCHOA",
+    "probabilidad": 3.7
   },
   {
     "fecha": "2026-01-16",
@@ -2405,7 +4163,8 @@
     "carrera": 1,
     "numero": 11,
     "caballo": "SAHOURIYE",
-    "probabilidad": 3.9
+    "jinete": "M. A. BUSTAMANTE",
+    "probabilidad": 3.7
   },
   {
     "fecha": "2026-01-16",
@@ -2413,7 +4172,8 @@
     "carrera": 1,
     "numero": 12,
     "caballo": "RUCIA DEL DOC",
-    "probabilidad": 6.6
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 17.2
   },
   {
     "fecha": "2026-01-16",
@@ -2421,7 +4181,8 @@
     "carrera": 1,
     "numero": 13,
     "caballo": "MUY TEMPERADA",
-    "probabilidad": 3.6
+    "jinete": "JOH. GONZALEZ",
+    "probabilidad": 9.5
   },
   {
     "fecha": "2026-01-16",
@@ -2429,7 +4190,8 @@
     "carrera": 1,
     "numero": 14,
     "caballo": "QUEEN ANY",
-    "probabilidad": 6.8
+    "jinete": "J. REYES",
+    "probabilidad": 6.5
   },
   {
     "fecha": "2026-01-16",
@@ -2437,7 +4199,8 @@
     "carrera": 1,
     "numero": 15,
     "caballo": "SOBRAO DE CARIÑO",
-    "probabilidad": 16.7
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 3.9
   },
   {
     "fecha": "2026-01-16",
@@ -2445,7 +4208,8 @@
     "carrera": 10,
     "numero": 1,
     "caballo": "OJO DE HALCON",
-    "probabilidad": 5.3
+    "jinete": "J. MEDINA",
+    "probabilidad": 7.9
   },
   {
     "fecha": "2026-01-16",
@@ -2453,7 +4217,8 @@
     "carrera": 10,
     "numero": 2,
     "caballo": "QUE TERRIBLE",
-    "probabilidad": 10.3
+    "jinete": "JOH. GONZALEZ",
+    "probabilidad": 7.9
   },
   {
     "fecha": "2026-01-16",
@@ -2461,7 +4226,8 @@
     "carrera": 10,
     "numero": 3,
     "caballo": "AGUILA DE FUEGO",
-    "probabilidad": 5.7
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 7.9
   },
   {
     "fecha": "2026-01-16",
@@ -2469,7 +4235,8 @@
     "carrera": 10,
     "numero": 4,
     "caballo": "LA CHIPRIOTA",
-    "probabilidad": 24.8
+    "jinete": "N. SANTIBAÑEZ",
+    "probabilidad": 5.2
   },
   {
     "fecha": "2026-01-16",
@@ -2477,7 +4244,8 @@
     "carrera": 10,
     "numero": 5,
     "caballo": "RECHIFLAO",
-    "probabilidad": 5.3
+    "jinete": "N. MOLINA",
+    "probabilidad": 7.7
   },
   {
     "fecha": "2026-01-16",
@@ -2485,7 +4253,8 @@
     "carrera": 10,
     "numero": 6,
     "caballo": "LA PURA FE",
-    "probabilidad": 5.8
+    "jinete": "JS. CUETO",
+    "probabilidad": 10.7
   },
   {
     "fecha": "2026-01-16",
@@ -2493,7 +4262,8 @@
     "carrera": 10,
     "numero": 7,
     "caballo": "LITTLE GASPI",
-    "probabilidad": 5.9
+    "jinete": "GVO. ARES",
+    "probabilidad": 7.7
   },
   {
     "fecha": "2026-01-16",
@@ -2501,7 +4271,8 @@
     "carrera": 10,
     "numero": 8,
     "caballo": "LLUVIA DE ENERO",
-    "probabilidad": 5.9
+    "jinete": "A. ALVAREZ",
+    "probabilidad": 23.8
   },
   {
     "fecha": "2026-01-16",
@@ -2509,7 +4280,8 @@
     "carrera": 10,
     "numero": 9,
     "caballo": "MONARCA",
-    "probabilidad": 9.6
+    "jinete": "B. SANCHO",
+    "probabilidad": 5.1
   },
   {
     "fecha": "2026-01-16",
@@ -2517,7 +4289,8 @@
     "carrera": 10,
     "numero": 10,
     "caballo": "MANCHITA DEL NUBLE",
-    "probabilidad": 9.7
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 8.0
   },
   {
     "fecha": "2026-01-16",
@@ -2525,7 +4298,8 @@
     "carrera": 10,
     "numero": 11,
     "caballo": "CARIÑOSITO",
-    "probabilidad": 11.7
+    "jinete": "R. S. DORES",
+    "probabilidad": 8.0
   },
   {
     "fecha": "2026-01-16",
@@ -2533,7 +4307,8 @@
     "carrera": 11,
     "numero": 1,
     "caballo": "PRETTY DISTORTED",
-    "probabilidad": 6.4
+    "jinete": "H. OCHOA",
+    "probabilidad": 24.0
   },
   {
     "fecha": "2026-01-16",
@@ -2541,7 +4316,8 @@
     "carrera": 11,
     "numero": 2,
     "caballo": "GOOD DECISIONS",
-    "probabilidad": 6.6
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 6.3
   },
   {
     "fecha": "2026-01-16",
@@ -2549,7 +4325,8 @@
     "carrera": 11,
     "numero": 3,
     "caballo": "REINA EGIPCIA",
-    "probabilidad": 29.6
+    "jinete": "JOH. GONZALEZ",
+    "probabilidad": 13.9
   },
   {
     "fecha": "2026-01-16",
@@ -2557,7 +4334,8 @@
     "carrera": 11,
     "numero": 4,
     "caballo": "SANDIA",
-    "probabilidad": 6.5
+    "jinete": "L. VALDIVIA",
+    "probabilidad": 5.1
   },
   {
     "fecha": "2026-01-16",
@@ -2565,7 +4343,8 @@
     "carrera": 11,
     "numero": 5,
     "caballo": "SORRISI",
-    "probabilidad": 6.4
+    "jinete": "J. MEDINA",
+    "probabilidad": 13.9
   },
   {
     "fecha": "2026-01-16",
@@ -2573,7 +4352,8 @@
     "carrera": 11,
     "numero": 6,
     "caballo": "LADY ARANTZA(R-3)",
-    "probabilidad": 7.5
+    "jinete": "M. MORALES",
+    "probabilidad": 5.1
   },
   {
     "fecha": "2026-01-16",
@@ -2581,7 +4361,8 @@
     "carrera": 11,
     "numero": 7,
     "caballo": "BEIJING CRISTAL",
-    "probabilidad": 6.7
+    "jinete": "R. CISTERNAS",
+    "probabilidad": 6.3
   },
   {
     "fecha": "2026-01-16",
@@ -2589,7 +4370,8 @@
     "carrera": 11,
     "numero": 8,
     "caballo": "LADY IN BLACK",
-    "probabilidad": 8.1
+    "jinete": "J. HERRERA",
+    "probabilidad": 6.2
   },
   {
     "fecha": "2026-01-16",
@@ -2597,7 +4379,8 @@
     "carrera": 11,
     "numero": 9,
     "caballo": "DIANKA(R-3)",
-    "probabilidad": 6.6
+    "jinete": "B. LEON",
+    "probabilidad": 5.3
   },
   {
     "fecha": "2026-01-16",
@@ -2605,7 +4388,8 @@
     "carrera": 11,
     "numero": 10,
     "caballo": "NAHUEN",
-    "probabilidad": 15.7
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 13.9
   },
   {
     "fecha": "2026-01-16",
@@ -2613,6 +4397,7 @@
     "carrera": 12,
     "numero": 1,
     "caballo": "EL BIGOTE",
+    "jinete": "A. ALVAREZ",
     "probabilidad": 4.2
   },
   {
@@ -2621,6 +4406,7 @@
     "carrera": 12,
     "numero": 2,
     "caballo": "PERFECTA ACTITUD",
+    "jinete": "JS. VILLABLANCA",
     "probabilidad": 3.9
   },
   {
@@ -2629,6 +4415,7 @@
     "carrera": 12,
     "numero": 3,
     "caballo": "MINONI",
+    "jinete": "R. AVILA",
     "probabilidad": 3.9
   },
   {
@@ -2637,6 +4424,7 @@
     "carrera": 12,
     "numero": 4,
     "caballo": "PACIFICADOR",
+    "jinete": "JOH. GONZALEZ",
     "probabilidad": 3.5
   },
   {
@@ -2645,6 +4433,7 @@
     "carrera": 12,
     "numero": 5,
     "caballo": "TANGO Y COMPAS",
+    "jinete": "SEB. GONZALEZ",
     "probabilidad": 4.2
   },
   {
@@ -2653,7 +4442,8 @@
     "carrera": 12,
     "numero": 6,
     "caballo": "EL NENE",
-    "probabilidad": 9.5
+    "jinete": "N. MOLINA",
+    "probabilidad": 9.4
   },
   {
     "fecha": "2026-01-16",
@@ -2661,6 +4451,7 @@
     "carrera": 12,
     "numero": 7,
     "caballo": "EL LEGENDARIO",
+    "jinete": "G. RODRIGUEZ",
     "probabilidad": 4.2
   },
   {
@@ -2669,6 +4460,7 @@
     "carrera": 12,
     "numero": 8,
     "caballo": "RAPILLANA",
+    "jinete": "M. CHAMORRO",
     "probabilidad": 3.9
   },
   {
@@ -2677,6 +4469,7 @@
     "carrera": 12,
     "numero": 9,
     "caballo": "JE T'AIME",
+    "jinete": "C. ORTEGA",
     "probabilidad": 3.5
   },
   {
@@ -2685,6 +4478,7 @@
     "carrera": 12,
     "numero": 10,
     "caballo": "SIN APUROS(R-3)",
+    "jinete": "R. S. DORES",
     "probabilidad": 3.8
   },
   {
@@ -2693,7 +4487,8 @@
     "carrera": 12,
     "numero": 11,
     "caballo": "NIÑITA POR DIOS",
-    "probabilidad": 6.9
+    "jinete": "GVA. AROS",
+    "probabilidad": 6.5
   },
   {
     "fecha": "2026-01-16",
@@ -2701,6 +4496,7 @@
     "carrera": 12,
     "numero": 12,
     "caballo": "GOLFISTA",
+    "jinete": "J. HERRERA",
     "probabilidad": 3.5
   },
   {
@@ -2709,6 +4505,7 @@
     "carrera": 12,
     "numero": 13,
     "caballo": "ELMITA",
+    "jinete": "B. SANCHO",
     "probabilidad": 4.2
   },
   {
@@ -2717,7 +4514,8 @@
     "carrera": 12,
     "numero": 14,
     "caballo": "EL BOHEMIO",
-    "probabilidad": 15.4
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 16.2
   },
   {
     "fecha": "2026-01-16",
@@ -2725,7 +4523,8 @@
     "carrera": 12,
     "numero": 15,
     "caballo": "TARUGUITA",
-    "probabilidad": 16.1
+    "jinete": "JR. ZUÑIGA",
+    "probabilidad": 15.8
   },
   {
     "fecha": "2026-01-16",
@@ -2733,7 +4532,8 @@
     "carrera": 12,
     "numero": 16,
     "caballo": "EXTROVERTIDA",
-    "probabilidad": 9.5
+    "jinete": "R. LOYOLA",
+    "probabilidad": 9.4
   },
   {
     "fecha": "2026-01-16",
@@ -2741,7 +4541,8 @@
     "carrera": 13,
     "numero": 1,
     "caballo": "MATE AMARGO",
-    "probabilidad": 4.8
+    "jinete": "R. PAINEN",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-16",
@@ -2749,6 +4550,7 @@
     "carrera": 13,
     "numero": 2,
     "caballo": "TIGRO (ARG)",
+    "jinete": "T. SEITH",
     "probabilidad": 5.6
   },
   {
@@ -2757,7 +4559,8 @@
     "carrera": 13,
     "numero": 3,
     "caballo": "RAIRET",
-    "probabilidad": 4.6
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-16",
@@ -2765,6 +4568,7 @@
     "carrera": 13,
     "numero": 4,
     "caballo": "SECUENCIA PERFECTA",
+    "jinete": "R. FUENZALIDA",
     "probabilidad": 12.5
   },
   {
@@ -2773,6 +4577,7 @@
     "carrera": 13,
     "numero": 5,
     "caballo": "YO SOY YI",
+    "jinete": "R. LOYOLA",
     "probabilidad": 21.5
   },
   {
@@ -2781,7 +4586,8 @@
     "carrera": 13,
     "numero": 6,
     "caballo": "DON GIORGIO",
-    "probabilidad": 4.9
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 4.8
   },
   {
     "fecha": "2026-01-16",
@@ -2789,7 +4595,8 @@
     "carrera": 13,
     "numero": 7,
     "caballo": "CRANS MONTANA",
-    "probabilidad": 4.6
+    "jinete": "J. HERRERA",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-16",
@@ -2797,7 +4604,8 @@
     "carrera": 13,
     "numero": 8,
     "caballo": "FRENCH CANDY",
-    "probabilidad": 5.2
+    "jinete": "JS. CUETO",
+    "probabilidad": 5.3
   },
   {
     "fecha": "2026-01-16",
@@ -2805,7 +4613,8 @@
     "carrera": 13,
     "numero": 9,
     "caballo": "SORELLA DEL KING",
-    "probabilidad": 4.6
+    "jinete": "J. MEDINA",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-16",
@@ -2813,6 +4622,7 @@
     "carrera": 13,
     "numero": 10,
     "caballo": "HIER ANCORE",
+    "jinete": "R. CISTERNAS",
     "probabilidad": 8.7
   },
   {
@@ -2821,6 +4631,7 @@
     "carrera": 13,
     "numero": 11,
     "caballo": "TEA AND MILK",
+    "jinete": "R. AVILA",
     "probabilidad": 4.6
   },
   {
@@ -2829,6 +4640,7 @@
     "carrera": 13,
     "numero": 12,
     "caballo": "MY RICHARD",
+    "jinete": "P. REYES",
     "probabilidad": 12.7
   },
   {
@@ -2837,6 +4649,7 @@
     "carrera": 13,
     "numero": 13,
     "caballo": "RAUCO",
+    "jinete": "JR. A. GONZALEZ",
     "probabilidad": 5.7
   },
   {
@@ -2845,6 +4658,7 @@
     "carrera": 14,
     "numero": 1,
     "caballo": "SIETE DE ABRIL",
+    "jinete": "H. OCHOA",
     "probabilidad": 4.1
   },
   {
@@ -2853,7 +4667,8 @@
     "carrera": 14,
     "numero": 2,
     "caballo": "ONIX BLUE",
-    "probabilidad": 7.8
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 7.5
   },
   {
     "fecha": "2026-01-16",
@@ -2861,7 +4676,8 @@
     "carrera": 14,
     "numero": 3,
     "caballo": "SATOSHI",
-    "probabilidad": 7.5
+    "jinete": "A. ALVAREZ",
+    "probabilidad": 8.1
   },
   {
     "fecha": "2026-01-16",
@@ -2869,7 +4685,8 @@
     "carrera": 14,
     "numero": 4,
     "caballo": "LOU ARMSTRONG",
-    "probabilidad": 4.7
+    "jinete": "JR. ZUÑIGA",
+    "probabilidad": 4.8
   },
   {
     "fecha": "2026-01-16",
@@ -2877,7 +4694,8 @@
     "carrera": 14,
     "numero": 5,
     "caballo": "SEÑOR AMANTE",
-    "probabilidad": 7.8
+    "jinete": "N. MOLINA",
+    "probabilidad": 7.5
   },
   {
     "fecha": "2026-01-16",
@@ -2885,7 +4703,8 @@
     "carrera": 14,
     "numero": 6,
     "caballo": "LA ABU(R-2)",
-    "probabilidad": 4.7
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 5.0
   },
   {
     "fecha": "2026-01-16",
@@ -2893,7 +4712,8 @@
     "carrera": 14,
     "numero": 7,
     "caballo": "ARAKI",
-    "probabilidad": 10.9
+    "jinete": "A. PADOVANI E.",
+    "probabilidad": 11.0
   },
   {
     "fecha": "2026-01-16",
@@ -2901,7 +4721,8 @@
     "carrera": 14,
     "numero": 8,
     "caballo": "GRANDE TUZA",
-    "probabilidad": 19.3
+    "jinete": "L. C. GONZALEZ",
+    "probabilidad": 19.1
   },
   {
     "fecha": "2026-01-16",
@@ -2909,6 +4730,7 @@
     "carrera": 14,
     "numero": 9,
     "caballo": "JALISCO",
+    "jinete": "P. ROBLES",
     "probabilidad": 4.5
   },
   {
@@ -2917,7 +4739,8 @@
     "carrera": 14,
     "numero": 10,
     "caballo": "MAGICO DAY(R-6)",
-    "probabilidad": 19.3
+    "jinete": "R. PAINEN",
+    "probabilidad": 19.1
   },
   {
     "fecha": "2026-01-16",
@@ -2925,6 +4748,7 @@
     "carrera": 14,
     "numero": 11,
     "caballo": "BREGO",
+    "jinete": "G. RODRIGUEZ",
     "probabilidad": 4.5
   },
   {
@@ -2933,7 +4757,8 @@
     "carrera": 14,
     "numero": 12,
     "caballo": "DIAMOND ONE",
-    "probabilidad": 4.7
+    "jinete": "J. HERRERA",
+    "probabilidad": 4.8
   },
   {
     "fecha": "2026-01-16",
@@ -2941,6 +4766,7 @@
     "carrera": 15,
     "numero": 1,
     "caballo": "GENUINE COMMAND",
+    "jinete": "N. MOLINA",
     "probabilidad": 3.5
   },
   {
@@ -2949,7 +4775,8 @@
     "carrera": 15,
     "numero": 2,
     "caballo": "SEATTLE SNOW",
-    "probabilidad": 9.5
+    "jinete": "GVO. AROS",
+    "probabilidad": 8.7
   },
   {
     "fecha": "2026-01-16",
@@ -2957,7 +4784,8 @@
     "carrera": 15,
     "numero": 3,
     "caballo": "GENIUS",
-    "probabilidad": 3.8
+    "jinete": "B. LEON",
+    "probabilidad": 3.9
   },
   {
     "fecha": "2026-01-16",
@@ -2965,7 +4793,8 @@
     "carrera": 15,
     "numero": 4,
     "caballo": "MR NUTS",
-    "probabilidad": 8.5
+    "jinete": "JR. ZUÑIGA",
+    "probabilidad": 8.7
   },
   {
     "fecha": "2026-01-16",
@@ -2973,7 +4802,8 @@
     "carrera": 15,
     "numero": 5,
     "caballo": "CORAL REEF",
-    "probabilidad": 16.3
+    "jinete": "A. ALVAREZ",
+    "probabilidad": 16.4
   },
   {
     "fecha": "2026-01-16",
@@ -2981,7 +4811,8 @@
     "carrera": 15,
     "numero": 6,
     "caballo": "MR YO",
-    "probabilidad": 4.1
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 4.2
   },
   {
     "fecha": "2026-01-16",
@@ -2989,6 +4820,7 @@
     "carrera": 15,
     "numero": 7,
     "caballo": "MR CASPER",
+    "jinete": "R. FUENZALIDA",
     "probabilidad": 3.5
   },
   {
@@ -2997,6 +4829,7 @@
     "carrera": 15,
     "numero": 8,
     "caballo": "OBRA DE ARTE",
+    "jinete": "R. S. DORES",
     "probabilidad": 3.5
   },
   {
@@ -3005,7 +4838,8 @@
     "carrera": 15,
     "numero": 9,
     "caballo": "QUEEN TIGER",
-    "probabilidad": 3.5
+    "jinete": "R. CISTERNAS",
+    "probabilidad": 3.6
   },
   {
     "fecha": "2026-01-16",
@@ -3013,6 +4847,7 @@
     "carrera": 15,
     "numero": 10,
     "caballo": "CRISTALINO",
+    "jinete": "B. SANCHO",
     "probabilidad": 3.5
   },
   {
@@ -3021,7 +4856,8 @@
     "carrera": 15,
     "numero": 11,
     "caballo": "HARRY GO",
-    "probabilidad": 16.3
+    "jinete": "M. MORALES",
+    "probabilidad": 16.4
   },
   {
     "fecha": "2026-01-16",
@@ -3029,7 +4865,8 @@
     "carrera": 15,
     "numero": 12,
     "caballo": "DONDE RAUL",
-    "probabilidad": 16.3
+    "jinete": "V. MIRANDA",
+    "probabilidad": 16.4
   },
   {
     "fecha": "2026-01-16",
@@ -3037,7 +4874,8 @@
     "carrera": 15,
     "numero": 13,
     "caballo": "TENGO UN SUEÑO",
-    "probabilidad": 4.2
+    "jinete": "JOH. GONZALEZ",
+    "probabilidad": 4.3
   },
   {
     "fecha": "2026-01-16",
@@ -3045,6 +4883,7 @@
     "carrera": 15,
     "numero": 14,
     "caballo": "VERSE BIEN",
+    "jinete": "L. C. GONZALEZ",
     "probabilidad": 3.5
   },
   {
@@ -3053,7 +4892,8 @@
     "carrera": 2,
     "numero": 1,
     "caballo": "MY SWEET LORD",
-    "probabilidad": 5.4
+    "jinete": "T. SEITH",
+    "probabilidad": 5.5
   },
   {
     "fecha": "2026-01-16",
@@ -3061,7 +4901,8 @@
     "carrera": 2,
     "numero": 2,
     "caballo": "EN CHATEAUROUX",
-    "probabilidad": 15.1
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 5.4
   },
   {
     "fecha": "2026-01-16",
@@ -3069,7 +4910,8 @@
     "carrera": 2,
     "numero": 3,
     "caballo": "ON THE LEVEL",
-    "probabilidad": 4.3
+    "jinete": "A. ALVAREZ",
+    "probabilidad": 5.4
   },
   {
     "fecha": "2026-01-16",
@@ -3077,7 +4919,8 @@
     "carrera": 2,
     "numero": 4,
     "caballo": "POETA GRIEGO (ARG)",
-    "probabilidad": 4.3
+    "jinete": "O. SANCHEZ",
+    "probabilidad": 25.0
   },
   {
     "fecha": "2026-01-16",
@@ -3085,7 +4928,8 @@
     "carrera": 2,
     "numero": 5,
     "caballo": "TORO DEL MONTE",
-    "probabilidad": 4.7
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 12.7
   },
   {
     "fecha": "2026-01-16",
@@ -3093,7 +4937,8 @@
     "carrera": 2,
     "numero": 6,
     "caballo": "MI GIGANTE",
-    "probabilidad": 4.3
+    "jinete": "J. MEDINA",
+    "probabilidad": 5.6
   },
   {
     "fecha": "2026-01-16",
@@ -3101,7 +4946,8 @@
     "carrera": 2,
     "numero": 7,
     "caballo": "ANNCIATORE",
-    "probabilidad": 4.3
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 11.3
   },
   {
     "fecha": "2026-01-16",
@@ -3109,7 +4955,8 @@
     "carrera": 2,
     "numero": 8,
     "caballo": "MIYAGI",
-    "probabilidad": 4.3
+    "jinete": "J. HERRERA",
+    "probabilidad": 5.8
   },
   {
     "fecha": "2026-01-16",
@@ -3117,7 +4964,8 @@
     "carrera": 2,
     "numero": 9,
     "caballo": "BEN MAMUT",
-    "probabilidad": 9.6
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 5.4
   },
   {
     "fecha": "2026-01-16",
@@ -3125,7 +4973,8 @@
     "carrera": 2,
     "numero": 10,
     "caballo": "MUY ADMIRADO",
-    "probabilidad": 19.8
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 5.4
   },
   {
     "fecha": "2026-01-16",
@@ -3133,7 +4982,8 @@
     "carrera": 2,
     "numero": 11,
     "caballo": "LINDO RECUERDO",
-    "probabilidad": 14.0
+    "jinete": "R. FOURNET",
+    "probabilidad": 6.9
   },
   {
     "fecha": "2026-01-16",
@@ -3141,7 +4991,8 @@
     "carrera": 2,
     "numero": 12,
     "caballo": "GOLDEN COPPER",
-    "probabilidad": 10.0
+    "jinete": "R. S. DORES",
+    "probabilidad": 5.8
   },
   {
     "fecha": "2026-01-16",
@@ -3149,7 +5000,8 @@
     "carrera": 3,
     "numero": 1,
     "caballo": "VINDALOO(R-2)",
-    "probabilidad": 31.8
+    "jinete": "J. MEDINA",
+    "probabilidad": 6.5
   },
   {
     "fecha": "2026-01-16",
@@ -3157,7 +5009,8 @@
     "carrera": 3,
     "numero": 2,
     "caballo": "CI MANCHI FRATELO",
-    "probabilidad": 6.9
+    "jinete": "F. HENRIQUEZ",
+    "probabilidad": 11.7
   },
   {
     "fecha": "2026-01-16",
@@ -3165,7 +5018,8 @@
     "carrera": 3,
     "numero": 3,
     "caballo": "PODEROSA NOBLEZA",
-    "probabilidad": 7.7
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 7.4
   },
   {
     "fecha": "2026-01-16",
@@ -3173,7 +5027,8 @@
     "carrera": 3,
     "numero": 4,
     "caballo": "SIN PREJUICIOS (PP)",
-    "probabilidad": 12.3
+    "jinete": "R. S. DORES",
+    "probabilidad": 15.8
   },
   {
     "fecha": "2026-01-16",
@@ -3181,7 +5036,8 @@
     "carrera": 3,
     "numero": 5,
     "caballo": "CHIVARO",
-    "probabilidad": 8.1
+    "jinete": "H. OCHOA",
+    "probabilidad": 5.1
   },
   {
     "fecha": "2026-01-16",
@@ -3189,7 +5045,8 @@
     "carrera": 3,
     "numero": 6,
     "caballo": "IMANOL",
-    "probabilidad": 6.8
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 23.9
   },
   {
     "fecha": "2026-01-16",
@@ -3197,7 +5054,8 @@
     "carrera": 3,
     "numero": 7,
     "caballo": "ME FALTAN TRES",
-    "probabilidad": 12.3
+    "jinete": "JR. A. GONZALEZ",
+    "probabilidad": 5.2
   },
   {
     "fecha": "2026-01-16",
@@ -3205,7 +5063,8 @@
     "carrera": 3,
     "numero": 8,
     "caballo": "RUSTY",
-    "probabilidad": 6.9
+    "jinete": "A. ALVAREZ",
+    "probabilidad": 11.6
   },
   {
     "fecha": "2026-01-16",
@@ -3213,7 +5072,8 @@
     "carrera": 3,
     "numero": 9,
     "caballo": "PAROLACCIA",
-    "probabilidad": 7.1
+    "jinete": "O. ULLOA",
+    "probabilidad": 12.7
   },
   {
     "fecha": "2026-01-16",
@@ -3221,7 +5081,8 @@
     "carrera": 4,
     "numero": 1,
     "caballo": "KERI TOO",
-    "probabilidad": 15.4
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 7.3
   },
   {
     "fecha": "2026-01-16",
@@ -3229,7 +5090,8 @@
     "carrera": 4,
     "numero": 2,
     "caballo": "ALL IN",
-    "probabilidad": 6.5
+    "jinete": "O. ULLOA",
+    "probabilidad": 7.1
   },
   {
     "fecha": "2026-01-16",
@@ -3237,7 +5099,8 @@
     "carrera": 4,
     "numero": 3,
     "caballo": "LOCK",
-    "probabilidad": 7.0
+    "jinete": "M. GUTIERREZ",
+    "probabilidad": 7.3
   },
   {
     "fecha": "2026-01-16",
@@ -3245,7 +5108,8 @@
     "carrera": 4,
     "numero": 4,
     "caballo": "SEÑOR PEPE",
-    "probabilidad": 30.4
+    "jinete": "JR. A. GONZALEZ",
+    "probabilidad": 10.0
   },
   {
     "fecha": "2026-01-16",
@@ -3253,7 +5117,8 @@
     "carrera": 4,
     "numero": 5,
     "caballo": "TIZ THE RULE",
-    "probabilidad": 7.7
+    "jinete": "H. OCHOA",
+    "probabilidad": 7.2
   },
   {
     "fecha": "2026-01-16",
@@ -3261,7 +5126,8 @@
     "carrera": 4,
     "numero": 6,
     "caballo": "EL FANDI",
-    "probabilidad": 9.1
+    "jinete": "J. MEDINA",
+    "probabilidad": 33.2
   },
   {
     "fecha": "2026-01-16",
@@ -3269,7 +5135,8 @@
     "carrera": 4,
     "numero": 7,
     "caballo": "ALEGREMENTE",
-    "probabilidad": 12.0
+    "jinete": "V. BRACETTI",
+    "probabilidad": 9.4
   },
   {
     "fecha": "2026-01-16",
@@ -3277,7 +5144,8 @@
     "carrera": 4,
     "numero": 8,
     "caballo": "EL VOLCAN",
-    "probabilidad": 12.0
+    "jinete": "JR. ZUÑIGA",
+    "probabilidad": 18.5
   },
   {
     "fecha": "2026-01-16",
@@ -3285,7 +5153,8 @@
     "carrera": 5,
     "numero": 1,
     "caballo": "NUTCRACKER",
-    "probabilidad": 18.4
+    "jinete": "JN. MUÑOZ M.",
+    "probabilidad": 5.2
   },
   {
     "fecha": "2026-01-16",
@@ -3293,7 +5162,8 @@
     "carrera": 5,
     "numero": 2,
     "caballo": "DANITA FIRST",
-    "probabilidad": 4.6
+    "jinete": "P. REYES",
+    "probabilidad": 6.7
   },
   {
     "fecha": "2026-01-16",
@@ -3301,7 +5171,8 @@
     "carrera": 5,
     "numero": 3,
     "caballo": "REPUBLIC ANA",
-    "probabilidad": 4.6
+    "jinete": "GVO. AROS",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-16",
@@ -3309,7 +5180,8 @@
     "carrera": 5,
     "numero": 4,
     "caballo": "SE VA EL CAIMAN",
-    "probabilidad": 10.4
+    "jinete": "T. SEITH",
+    "probabilidad": 9.2
   },
   {
     "fecha": "2026-01-16",
@@ -3317,7 +5189,8 @@
     "carrera": 5,
     "numero": 5,
     "caballo": "WILLIAM FAULKNER",
-    "probabilidad": 4.0
+    "jinete": "JOH. GONZALEZ",
+    "probabilidad": 5.1
   },
   {
     "fecha": "2026-01-16",
@@ -3325,7 +5198,8 @@
     "carrera": 5,
     "numero": 6,
     "caballo": "HAMM GOOD",
-    "probabilidad": 17.6
+    "jinete": "C. ORTEGA",
+    "probabilidad": 21.7
   },
   {
     "fecha": "2026-01-16",
@@ -3333,7 +5207,8 @@
     "carrera": 5,
     "numero": 7,
     "caballo": "AHMAKIL",
-    "probabilidad": 5.0
+    "jinete": "JS. CUETO",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-16",
@@ -3341,7 +5216,8 @@
     "carrera": 5,
     "numero": 8,
     "caballo": "JOLTIN JOE",
-    "probabilidad": 5.0
+    "jinete": "B. SANCHO",
+    "probabilidad": 5.1
   },
   {
     "fecha": "2026-01-16",
@@ -3349,7 +5225,8 @@
     "carrera": 5,
     "numero": 9,
     "caballo": "CABLE A TIERRA",
-    "probabilidad": 7.6
+    "jinete": "M. CHAMORRO",
+    "probabilidad": 5.2
   },
   {
     "fecha": "2026-01-16",
@@ -3357,7 +5234,8 @@
     "carrera": 5,
     "numero": 10,
     "caballo": "MY CLAUDIA",
-    "probabilidad": 4.0
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 5.1
   },
   {
     "fecha": "2026-01-16",
@@ -3365,7 +5243,8 @@
     "carrera": 5,
     "numero": 11,
     "caballo": "FERNANDOIS",
-    "probabilidad": 4.6
+    "jinete": "B. AYALA",
+    "probabilidad": 8.3
   },
   {
     "fecha": "2026-01-16",
@@ -3373,7 +5252,8 @@
     "carrera": 5,
     "numero": 12,
     "caballo": "EL KICHAN",
-    "probabilidad": 9.9
+    "jinete": "R. PAINEN",
+    "probabilidad": 8.6
   },
   {
     "fecha": "2026-01-16",
@@ -3381,7 +5261,8 @@
     "carrera": 5,
     "numero": 13,
     "caballo": "AKISI",
-    "probabilidad": 4.5
+    "jinete": "C. FUENZALIDA",
+    "probabilidad": 10.4
   },
   {
     "fecha": "2026-01-16",
@@ -3389,7 +5270,8 @@
     "carrera": 6,
     "numero": 1,
     "caballo": "SO AMAIZING",
-    "probabilidad": 4.8
+    "jinete": "J. MEDINA",
+    "probabilidad": 6.6
   },
   {
     "fecha": "2026-01-16",
@@ -3397,7 +5279,8 @@
     "carrera": 6,
     "numero": 2,
     "caballo": "JOHN DUTTON",
-    "probabilidad": 13.7
+    "jinete": "J. HERRERA",
+    "probabilidad": 6.7
   },
   {
     "fecha": "2026-01-16",
@@ -3405,7 +5288,8 @@
     "carrera": 6,
     "numero": 3,
     "caballo": "TRASCATRASCA",
-    "probabilidad": 22.3
+    "jinete": "B. SANCHO",
+    "probabilidad": 30.8
   },
   {
     "fecha": "2026-01-16",
@@ -3413,7 +5297,8 @@
     "carrera": 6,
     "numero": 4,
     "caballo": "ZARKAHN",
-    "probabilidad": 5.1
+    "jinete": "O. ULLOA",
+    "probabilidad": 6.7
   },
   {
     "fecha": "2026-01-16",
@@ -3421,7 +5306,8 @@
     "carrera": 6,
     "numero": 5,
     "caballo": "PRINCESS THAI",
-    "probabilidad": 5.1
+    "jinete": "JS. VILLABLANCA",
+    "probabilidad": 6.6
   },
   {
     "fecha": "2026-01-16",
@@ -3429,7 +5315,8 @@
     "carrera": 6,
     "numero": 6,
     "caballo": "NAMRUD TIGER",
-    "probabilidad": 4.9
+    "jinete": "R. CISTERNAS",
+    "probabilidad": 7.6
   },
   {
     "fecha": "2026-01-16",
@@ -3437,7 +5324,8 @@
     "carrera": 6,
     "numero": 7,
     "caballo": "AL AMIR",
-    "probabilidad": 12.1
+    "jinete": "I. VALDIVIA",
+    "probabilidad": 7.6
   },
   {
     "fecha": "2026-01-16",
@@ -3445,7 +5333,8 @@
     "carrera": 6,
     "numero": 8,
     "caballo": "NIETO DEL SHEIK",
-    "probabilidad": 7.9
+    "jinete": "N. MOLINA",
+    "probabilidad": 6.6
   },
   {
     "fecha": "2026-01-16",
@@ -3453,7 +5342,8 @@
     "carrera": 6,
     "numero": 9,
     "caballo": "CAREMECHE",
-    "probabilidad": 5.5
+    "jinete": "JS. CUETO",
+    "probabilidad": 7.2
   },
   {
     "fecha": "2026-01-16",
@@ -3461,7 +5351,8 @@
     "carrera": 6,
     "numero": 10,
     "caballo": "PORTODOS",
-    "probabilidad": 12.8
+    "jinete": "T. SEITH",
+    "probabilidad": 6.7
   },
   {
     "fecha": "2026-01-16",
@@ -3469,7 +5360,8 @@
     "carrera": 6,
     "numero": 11,
     "caballo": "MURCOTT",
-    "probabilidad": 5.9
+    "jinete": "R. S. DORES",
+    "probabilidad": 6.7
   },
   {
     "fecha": "2026-01-16",
@@ -3477,7 +5369,8 @@
     "carrera": 7,
     "numero": 1,
     "caballo": "LA DICHA(R-3)",
-    "probabilidad": 9.2
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 6.3
   },
   {
     "fecha": "2026-01-16",
@@ -3485,7 +5378,8 @@
     "carrera": 7,
     "numero": 2,
     "caballo": "KAREV",
-    "probabilidad": 5.1
+    "jinete": "J. MEDINA",
+    "probabilidad": 6.6
   },
   {
     "fecha": "2026-01-16",
@@ -3493,7 +5387,8 @@
     "carrera": 7,
     "numero": 3,
     "caballo": "MITOU (PP)",
-    "probabilidad": 5.1
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 7.2
   },
   {
     "fecha": "2026-01-16",
@@ -3501,7 +5396,8 @@
     "carrera": 7,
     "numero": 4,
     "caballo": "ANALOGO",
-    "probabilidad": 20.0
+    "jinete": "A. VASQUEZ",
+    "probabilidad": 6.3
   },
   {
     "fecha": "2026-01-16",
@@ -3509,7 +5405,8 @@
     "carrera": 7,
     "numero": 5,
     "caballo": "PERTINAX",
-    "probabilidad": 12.3
+    "jinete": "W. LEON",
+    "probabilidad": 6.4
   },
   {
     "fecha": "2026-01-16",
@@ -3517,7 +5414,8 @@
     "carrera": 7,
     "numero": 6,
     "caballo": "FAGIOLO",
-    "probabilidad": 8.7
+    "jinete": "V. MIRANDA",
+    "probabilidad": 17.1
   },
   {
     "fecha": "2026-01-16",
@@ -3525,7 +5423,8 @@
     "carrera": 7,
     "numero": 7,
     "caballo": "THE SCIENTIST",
-    "probabilidad": 5.4
+    "jinete": "GVO. AROS",
+    "probabilidad": 29.5
   },
   {
     "fecha": "2026-01-16",
@@ -3533,7 +5432,8 @@
     "carrera": 7,
     "numero": 8,
     "caballo": "PESO COMPLETO",
-    "probabilidad": 5.1
+    "jinete": "B. LEON",
+    "probabilidad": 6.4
   },
   {
     "fecha": "2026-01-16",
@@ -3541,7 +5441,8 @@
     "carrera": 7,
     "numero": 9,
     "caballo": "AMIGOS POR SIEMPRE",
-    "probabilidad": 23.6
+    "jinete": "R. CISTERNAS",
+    "probabilidad": 6.4
   },
   {
     "fecha": "2026-01-16",
@@ -3549,7 +5450,8 @@
     "carrera": 7,
     "numero": 10,
     "caballo": "KAPICHU (ARG)",
-    "probabilidad": 5.3
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 7.8
   },
   {
     "fecha": "2026-01-16",
@@ -3557,7 +5459,8 @@
     "carrera": 8,
     "numero": 1,
     "caballo": "CAROLITO",
-    "probabilidad": 22.1
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 6.3
   },
   {
     "fecha": "2026-01-16",
@@ -3565,7 +5468,8 @@
     "carrera": 8,
     "numero": 2,
     "caballo": "PIANTAO",
-    "probabilidad": 5.5
+    "jinete": "B. SANCHO",
+    "probabilidad": 11.8
   },
   {
     "fecha": "2026-01-16",
@@ -3573,7 +5477,8 @@
     "carrera": 8,
     "numero": 3,
     "caballo": "GRIEZMANN",
-    "probabilidad": 4.7
+    "jinete": "R. S. DORES",
+    "probabilidad": 7.7
   },
   {
     "fecha": "2026-01-16",
@@ -3581,7 +5486,8 @@
     "carrera": 8,
     "numero": 4,
     "caballo": "STRAY KIDS",
-    "probabilidad": 4.7
+    "jinete": "A. ALVAREZ",
+    "probabilidad": 6.3
   },
   {
     "fecha": "2026-01-16",
@@ -3589,7 +5495,8 @@
     "carrera": 8,
     "numero": 5,
     "caballo": "GALWAY GIRL",
-    "probabilidad": 7.2
+    "jinete": "H. OCHOA",
+    "probabilidad": 6.4
   },
   {
     "fecha": "2026-01-16",
@@ -3597,7 +5504,8 @@
     "carrera": 8,
     "numero": 6,
     "caballo": "CANTICIO",
-    "probabilidad": 5.5
+    "jinete": "JS. ARAYA B.",
+    "probabilidad": 6.3
   },
   {
     "fecha": "2026-01-16",
@@ -3605,7 +5513,8 @@
     "carrera": 8,
     "numero": 7,
     "caballo": "FLACO TITO",
-    "probabilidad": 6.4
+    "jinete": "J. HERRERA",
+    "probabilidad": 7.7
   },
   {
     "fecha": "2026-01-16",
@@ -3613,7 +5522,8 @@
     "carrera": 8,
     "numero": 8,
     "caballo": "LIMATOWN",
-    "probabilidad": 14.6
+    "jinete": "B. LEON",
+    "probabilidad": 6.3
   },
   {
     "fecha": "2026-01-16",
@@ -3621,7 +5531,8 @@
     "carrera": 8,
     "numero": 9,
     "caballo": "LOCO Y DEMENTE",
-    "probabilidad": 7.2
+    "jinete": "D. SANCHEZ",
+    "probabilidad": 11.8
   },
   {
     "fecha": "2026-01-16",
@@ -3629,7 +5540,8 @@
     "carrera": 8,
     "numero": 10,
     "caballo": "SEE ME",
-    "probabilidad": 22.1
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 29.3
   },
   {
     "fecha": "2026-01-16",
@@ -3637,7 +5549,8 @@
     "carrera": 9,
     "numero": 1,
     "caballo": "RUBIA CLARA",
-    "probabilidad": 3.9
+    "jinete": "L. C. GONZALEZ",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-16",
@@ -3645,7 +5558,8 @@
     "carrera": 9,
     "numero": 2,
     "caballo": "DULCITA",
-    "probabilidad": 11.8
+    "jinete": "V. MIRANDA",
+    "probabilidad": 3.8
   },
   {
     "fecha": "2026-01-16",
@@ -3653,6 +5567,7 @@
     "carrera": 9,
     "numero": 3,
     "caballo": "ULTIMO PASEO",
+    "jinete": "J. HERRERA",
     "probabilidad": 3.9
   },
   {
@@ -3661,7 +5576,8 @@
     "carrera": 9,
     "numero": 4,
     "caballo": "YA AGUS",
-    "probabilidad": 6.9
+    "jinete": "F. HENRIQUEZ",
+    "probabilidad": 17.8
   },
   {
     "fecha": "2026-01-16",
@@ -3669,7 +5585,8 @@
     "carrera": 9,
     "numero": 5,
     "caballo": "YADA",
-    "probabilidad": 7.4
+    "jinete": "B. SANCHO",
+    "probabilidad": 4.1
   },
   {
     "fecha": "2026-01-16",
@@ -3677,7 +5594,8 @@
     "carrera": 9,
     "numero": 6,
     "caballo": "KISS THE QUEEN",
-    "probabilidad": 3.9
+    "jinete": "JR. ZUÑIGA",
+    "probabilidad": 7.2
   },
   {
     "fecha": "2026-01-16",
@@ -3685,7 +5603,8 @@
     "carrera": 9,
     "numero": 7,
     "caballo": "AMOR DE MAMA",
-    "probabilidad": 3.8
+    "jinete": "C. ORTEGA",
+    "probabilidad": 3.9
   },
   {
     "fecha": "2026-01-16",
@@ -3693,7 +5612,8 @@
     "carrera": 9,
     "numero": 8,
     "caballo": "LA SALCHI",
-    "probabilidad": 3.9
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-16",
@@ -3701,7 +5621,8 @@
     "carrera": 9,
     "numero": 9,
     "caballo": "DAMA DE LA LUZ II",
-    "probabilidad": 5.4
+    "jinete": "J. REYES",
+    "probabilidad": 17.8
   },
   {
     "fecha": "2026-01-16",
@@ -3709,7 +5630,8 @@
     "carrera": 9,
     "numero": 10,
     "caballo": "NUEVA ACTRICE",
-    "probabilidad": 3.9
+    "jinete": "JOH. GONZALEZ",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-16",
@@ -3717,7 +5639,8 @@
     "carrera": 9,
     "numero": 11,
     "caballo": "INARI",
-    "probabilidad": 17.8
+    "jinete": "N. MOLINA",
+    "probabilidad": 10.3
   },
   {
     "fecha": "2026-01-16",
@@ -3725,7 +5648,8 @@
     "carrera": 9,
     "numero": 12,
     "caballo": "GUAGUA BRAVA",
-    "probabilidad": 5.0
+    "jinete": "R. FOURNET",
+    "probabilidad": 4.0
   },
   {
     "fecha": "2026-01-16",
@@ -3733,7 +5657,8 @@
     "carrera": 9,
     "numero": 13,
     "caballo": "ANGELA BRAVA",
-    "probabilidad": 10.5
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-16",
@@ -3741,7 +5666,8 @@
     "carrera": 9,
     "numero": 14,
     "caballo": "TRANQUILA NIÑA",
-    "probabilidad": 4.6
+    "jinete": "JS. PAREDES",
+    "probabilidad": 4.7
   },
   {
     "fecha": "2026-01-16",
@@ -3749,6 +5675,7 @@
     "carrera": 9,
     "numero": 15,
     "caballo": "ISLA NAVARINO",
-    "probabilidad": 7.4
+    "jinete": "N. SANTIBAÑEZ",
+    "probabilidad": 3.9
   }
 ]

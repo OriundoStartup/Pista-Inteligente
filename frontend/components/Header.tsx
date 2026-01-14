@@ -10,8 +10,9 @@ export default function Header() {
         <header className="glass-header">
             <Link href="/" className="brand">
                 <img
-                    src="/logo.jpg"
-                    alt="Logo"
+                    src="/logo.png"
+                    alt="Logo Pista Inteligente"
+                    loading="eager"
                     style={{ height: '40px', borderRadius: '50%' }}
                 />
                 <span>Pista Inteligente</span>
