@@ -1,5 +1,5 @@
 import { supabase } from '@/lib/supabase'
-import { Trophy, TrendingUp, Users, MapPin, ArrowRight, Zap } from 'lucide-react'
+import { Trophy, TrendingUp, Users, MapPin, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 
 // Types
@@ -12,12 +12,30 @@ type Stats = {
   pistas: any[]
 }
 
-const getStats = async (): Promise<Stats> => {
-  // In a real scenario, this would call a Supabase RPC or view?
-  // For now we mock or query basic counts if possible.
-  // Since we haven't migrated data yet, we return valid placeholders 
-  // or try to query if env is set.
+const getPrograms = async () => {
+  const { data: jornadas, error } = await supabase
+    .from('jornadas')
+    .select(`
+      id,
+      fecha,
+      reunion,
+      hipodromos (
+        nombre
+      )
+    `)
+    .gte('fecha', new Date().toISOString().split('T')[0]) // From today onwards
+    .order('fecha', { ascending: true })
+    .limit(6)
 
+  if (error) {
+    console.error('Error fetching programs:', error)
+    return []
+  }
+  return jornadas
+}
+
+const getStats = async (): Promise<Stats> => {
+  // Mock stats for now until we have history
   return {
     total_carreras: 1250,
     aciertos_ultimo_mes: 85.4,
@@ -38,14 +56,15 @@ const getStats = async (): Promise<Stats> => {
 
 export default async function Home() {
   const stats = await getStats()
+  const programs = await getPrograms()
 
   return (
     <div className="min-h-screen text-white font-sans selection:bg-emerald-500 selection:text-white">
       {/* Navbar */}
       <nav className="glass-header">
         <div className="brand">
-          <Zap className="text-emerald-400 w-8 h-8" />
-          <span>Pista Inteligente</span>
+          <img src="/logo.png" alt="Pista Inteligente" className="h-10 w-auto" />
+          <span className="hidden sm:block">Pista Inteligente</span>
         </div>
         <div className="nav-links hidden md:flex">
           <Link href="/programa" className="nav-link">Programa</Link>
@@ -78,11 +97,38 @@ export default async function Home() {
             Ver Predicciones Hoy
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Link>
-          <Link href="/precision" className="glass-card flex items-center justify-center gap-2 px-8 py-4 !mb-0 !bg-transparent hover:!bg-white/10">
-            Ver Transparencia
-          </Link>
         </div>
       </header>
+
+      {/* Programas (Upcoming Races) - NEW SECTION */}
+      <section className="container py-12">
+        <h2 className="section-title">Próximos Programas 📅</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {programs && programs.length > 0 ? (
+            programs.map((prog: any) => (
+              <Link key={prog.id} href={`/programa/${prog.fecha}`} className="glass-card hover:bg-white/5 block group no-underline text-white">
+                <div className="flex justify-between items-start mb-4">
+                  <span className="bg-emerald-500/20 text-emerald-400 text-xs font-bold px-3 py-1 rounded-full border border-emerald-500/20">
+                    {prog.reunion || 'Programa Oficial'}
+                  </span>
+                  <span className="text-neutral-400 text-sm">{prog.fecha}</span>
+                </div>
+                <h3 className="text-xl font-bold mb-2 group-hover:text-emerald-400 transition-colors">
+                  {prog.hipodromos?.nombre || 'Hipódromo'}
+                </h3>
+                <div className="flex items-center text-sm text-neutral-400 gap-2">
+                  <MapPin className="w-4 h-4" />
+                  <span>Chile</span>
+                </div>
+              </Link>
+            ))
+          ) : (
+            <div className="col-span-full text-center py-12 text-neutral-500 bg-white/5 rounded-2xl border border-white/5 border-dashed">
+              <p>No se encontraron programas futuros disponibles. (Revisa si el worker corrió hoy)</p>
+            </div>
+          )}
+        </div>
+      </section>
 
       {/* Stats Grid */}
       <section className="container py-12">
