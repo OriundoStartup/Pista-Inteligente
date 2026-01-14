@@ -1,9 +1,15 @@
 import Link from 'next/link'
+import BotonQuinela from './BotonQuinela'
 
 export default function Footer() {
     return (
         <footer className="site-footer">
             <div className="footer-content">
+                {/* Botón de aporte voluntario */}
+                <div style={{ marginBottom: '1.5rem' }}>
+                    <BotonQuinela linkPago="https://link.mercadopago.cl/pistainteligente" />
+                </div>
+
                 <p className="copyright">© 2025 Pista Inteligente. Todos los derechos reservados.</p>
                 <div className="footer-links" style={{ marginBottom: '0.5rem' }}>
                     <Link

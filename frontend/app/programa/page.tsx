@@ -1,6 +1,7 @@
 import { supabase } from '@/lib/supabase'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import BotonQuinela from '@/components/BotonQuinela'
 
 export const metadata: Metadata = {
     title: 'Predicciones Hipódromo Chile | Pista Inteligente',
@@ -48,9 +49,9 @@ async function getPredicciones(): Promise<{ carreras: Carrera[], stats: { total_
         const jornadaIds = jornadas.map(j => j.id)
         const { data: carreras } = await supabase
             .from('carreras')
-            .select('id, nro_carrera, hora, distancia, jornada_id')
+            .select('id, numero, hora, distancia, jornada_id')
             .in('jornada_id', jornadaIds)
-            .order('nro_carrera', { ascending: true })
+            .order('numero', { ascending: true })
 
         // Get predictions
         const { data: predicciones } = await supabase
@@ -75,7 +76,7 @@ async function getPredicciones(): Promise<{ carreras: Carrera[], stats: { total_
             return {
                 id: carrera.id,
                 hipodromo: 'Hipódromo Chile',
-                carrera: carrera.nro_carrera,
+                carrera: carrera.numero,
                 fecha: jornada?.fecha || today,
                 hora: carrera.hora || '00:00',
                 distancia: carrera.distancia || 1200,
@@ -214,6 +215,28 @@ export default async function ProgramaPage() {
                     </div>
                 )}
             </div>
+
+            {/* Sección de Agradecimiento - Momento perfecto después de ver predicciones */}
+            {carreras.length > 0 && (
+                <div
+                    className="glass-card"
+                    style={{
+                        marginTop: '2rem',
+                        textAlign: 'center',
+                        padding: '2rem',
+                        background: 'linear-gradient(135deg, rgba(22, 163, 74, 0.15), rgba(6, 182, 212, 0.1))',
+                        borderTop: '3px solid rgba(22, 163, 74, 0.5)'
+                    }}
+                >
+                    <h3 style={{ color: 'var(--text-main)', marginBottom: '0.75rem', fontSize: '1.25rem' }}>
+                        🍀 ¿Te ayudaron nuestras predicciones?
+                    </h3>
+                    <p style={{ color: 'var(--text-muted)', marginBottom: '1.5rem', maxWidth: '500px', margin: '0 auto 1.5rem' }}>
+                        Si nuestros datos te fueron útiles, considera apoyarnos para mantener el servidor corriendo y mejorar nuestro modelo de IA.
+                    </p>
+                    <BotonQuinela linkPago="https://link.mercadopago.cl/pistainteligente" />
+                </div>
+            )}
         </>
     )
 }

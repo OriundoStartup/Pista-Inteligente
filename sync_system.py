@@ -46,7 +46,7 @@ def main(force_sync=False):
     # ---------------------------------------------------------
     # PASO 1: ETL (CSV -> SQLite)
     # ---------------------------------------------------------
-    logging.info("\n[PASO 1/4] Ejecutando ETL (Extracción de CSVs)...")
+    logging.info("\n[PASO 1/5] Ejecutando ETL (Extracción de CSVs)...")
     try:
         from src.etl.etl_pipeline import HipicaETL
         etl = HipicaETL()
@@ -64,7 +64,7 @@ def main(force_sync=False):
     # ---------------------------------------------------------
     # PASO 2: MIGRACIÓN (SQLite -> Supabase)
     # ---------------------------------------------------------
-    logging.info("\n[PASO 2/4] Sincronizando SQLite -> Supabase...")
+    logging.info("\n[PASO 2/5] Sincronizando SQLite -> Supabase...")
     try:
         from src.utils.migrate_sqlite_to_supabase import run_migration
         run_migration()
@@ -76,25 +76,38 @@ def main(force_sync=False):
         sys.exit(1)
 
     # ---------------------------------------------------------
-    # PASO 3: INFERENCIA (Generar Predicciones)
+    # PASO 3: INFERENCIA (Generar Predicciones con Ensemble v4)
     # ---------------------------------------------------------
-    logging.info("\n[PASO 3/4] Ejecutando Inferencia sobre datos de Supabase...")
+    logging.info("\n[PASO 3/5] Ejecutando Inferencia con Ensemble v4...")
     try:
-        from src.scripts.daily_inference_job import SupabaseMigrationWorker
+        from src.models.inference_ensemble import EnsembleInferencePipeline
         
-        worker = SupabaseMigrationWorker()
-        logging.info("   -> Re-validando programas y generando predicciones...")
-        worker.run_ingestion_pipeline()
-        logging.info("✅ Predicciones generadas y guardadas en Supabase.")
+        pipeline = EnsembleInferencePipeline()
+        pipeline.run()
+        logging.info("✅ Predicciones generadas con Ensemble v4 (LightGBM + XGBoost + CatBoost).")
         
     except Exception as e:
         logging.error(f"❌ Error en Inferencia: {e}")
-        # No fatal, los datos ya están subidos.
+        # Continúa porque los datos ya están subidos.
+
+    # ---------------------------------------------------------
+    # PASO 3.5: SUBIR PREDICCIONES A SUPABASE
+    # ---------------------------------------------------------
+    logging.info("\n[PASO 3.5/5] Subiendo predicciones a Supabase...")
+    try:
+        from src.utils.upload_predictions_supabase import run_upload
+        
+        uploaded = run_upload()
+        logging.info(f"✅ {uploaded} predicciones subidas a Supabase.")
+        
+    except Exception as e:
+        logging.error(f"❌ Error subiendo predicciones a Supabase: {e}")
+        # No fatal, las predicciones quedaron en JSON/SQLite.
 
     # ---------------------------------------------------------
     # PASO 4: REDEPLOY VERCEL (Opcional)
     # ---------------------------------------------------------
-    logging.info("\n[PASO 4/4] Disparando redeploy en Vercel (si configurado)...")
+    logging.info("\n[PASO 4/5] Disparando redeploy en Vercel...")
     trigger_vercel_redeploy()
 
     logging.info("\n" + "="*70)

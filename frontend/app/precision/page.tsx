@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import BotonQuinela from '@/components/BotonQuinela'
 
 export const metadata: Metadata = {
     title: 'Precisión del Modelo IA - Transparencia Total | Pista Inteligente',
@@ -177,9 +178,12 @@ export default function PrecisionPage() {
                 <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', marginBottom: '2rem', maxWidth: '600px', marginLeft: 'auto', marginRight: 'auto' }}>
                     Descubre los pronósticos de IA para las próximas carreras
                 </p>
-                <Link href="/programa" className="cta-button" style={{ display: 'inline-block' }}>
-                    Ver Predicciones de Hoy
-                </Link>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center', alignItems: 'center' }}>
+                    <Link href="/programa" className="cta-button" style={{ display: 'inline-block' }}>
+                        Ver Predicciones de Hoy
+                    </Link>
+                    <BotonQuinela linkPago="https://link.mercadopago.cl/pistainteligente" />
+                </div>
             </div>
         </>
     )
