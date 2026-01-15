@@ -66,6 +66,29 @@ class DataCleaner:
             return None
     
     @staticmethod
+    def clean_distancia(value) -> Optional[int]:
+        """Limpia distancia - maneja formatos como '1.000', '1000', '1100m'"""
+        if pd.isna(value) or value is None:
+            return None
+        try:
+            s = str(value).strip()
+            # Remover 'm' o 'M' al final
+            s = s.replace('m', '').replace('M', '').strip()
+            # Si tiene punto como separador de miles (ej: 1.000, 1.100)
+            # y hay exactamente 3 dígitos después del punto, es separador de miles
+            if '.' in s:
+                parts = s.split('.')
+                if len(parts) == 2 and len(parts[1]) == 3:
+                    # Es separador de miles: 1.000 -> 1000
+                    s = s.replace('.', '')
+                else:
+                    # Es decimal real, multiplicar por 1000
+                    return int(float(s) * 1000)
+            return int(s) if s else None
+        except:
+            return None
+    
+    @staticmethod
     def clean_tiempo(tiempo_str) -> Optional[str]:
         if pd.isna(tiempo_str) or not tiempo_str:
             return None
@@ -590,7 +613,7 @@ class HipicaETL:
                 item['hipodromo_txt'],
                 DataCleaner.clean_numero(row.get('carrera')),
                 DataCleaner.clean_text(row.get('hora')),
-                DataCleaner.clean_text(row.get('distancia')),
+                DataCleaner.clean_distancia(row.get('distancia')),
                 DataCleaner.clean_text(row.get('condicion')),
                 DataCleaner.clean_numero(row.get('numero')),
                 caballo_id,
