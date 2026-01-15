@@ -89,13 +89,34 @@ def resolve_carrera_id(db, hipodromo: str, fecha: str, nro_carrera: int) -> str:
         car_res = client.table('carreras').select('id').eq('jornada_id', jor_id).eq('numero', nro_carrera).execute()
         
         if car_res.data:
-            return car_res.data[0]['id']
+            carrera_id = car_res.data[0]['id']
+            
+            # Check if we need to update hora/distancia (might be empty)
+            car_full = client.table('carreras').select('hora, distancia').eq('id', carrera_id).execute()
+            if car_full.data and (not car_full.data[0].get('hora') or not car_full.data[0].get('distancia')):
+                # Try to get from programa_carreras
+                hora, distancia = get_hora_distancia_from_sqlite(fecha, hipodromo, nro_carrera)
+                if hora or distancia:
+                    update_data = {}
+                    if hora:
+                        update_data['hora'] = hora
+                    if distancia:
+                        update_data['distancia'] = distancia
+                    client.table('carreras').update(update_data).eq('id', carrera_id).execute()
+                    logger.info(f"   📝 Updated carrera C{nro_carrera} with hora={hora}, distancia={distancia}")
+            
+            return carrera_id
         else:
-            # Create carrera
-            logger.info(f"   🆕 Creating carrera: C{nro_carrera}")
+            # Get hora and distancia from programa_carreras (SQLite)
+            hora, distancia = get_hora_distancia_from_sqlite(fecha, hipodromo, nro_carrera)
+            
+            # Create carrera with hora and distancia
+            logger.info(f"   🆕 Creating carrera: C{nro_carrera} (hora={hora}, dist={distancia})")
             insert_res = client.table('carreras').insert({
                 'jornada_id': jor_id,
-                'numero': nro_carrera
+                'numero': nro_carrera,
+                'hora': hora,
+                'distancia': distancia
             }).execute()
             if insert_res.data:
                 return insert_res.data[0]['id']
@@ -106,6 +127,55 @@ def resolve_carrera_id(db, hipodromo: str, fecha: str, nro_carrera: int) -> str:
     except Exception as e:
         logger.error(f"Error resolving/creating carrera_id: {e}")
         return None
+
+
+def get_hora_distancia_from_sqlite(fecha: str, hipodromo: str, nro_carrera: int):
+    """
+    Read hora and distancia from programa_carreras SQLite table.
+    Returns (hora, distancia) tuple.
+    """
+    import sqlite3
+    
+    DB_PATH = 'data/db/hipica_data.db'
+    hora = None
+    distancia = None
+    
+    try:
+        if not os.path.exists(DB_PATH):
+            return (None, None)
+        
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        
+        # Query programa_carreras for hora and distancia
+        cursor.execute("""
+            SELECT hora, distancia 
+            FROM programa_carreras 
+            WHERE fecha = ? AND hipodromo LIKE ? AND nro_carrera = ?
+            LIMIT 1
+        """, (fecha, f'%{hipodromo.split()[0]}%', nro_carrera))
+        
+        result = cursor.fetchone()
+        conn.close()
+        
+        if result:
+            hora = result[0]
+            # Clean hora (remove "APROX." etc.)
+            if hora:
+                hora = hora.replace('APROX.', '').replace('aprox.', '').strip()
+            
+            # Parse distancia to integer
+            if result[1]:
+                try:
+                    distancia = int(str(result[1]).replace('m', '').replace('M', '').strip())
+                except:
+                    distancia = None
+                    
+        return (hora, distancia)
+        
+    except Exception as e:
+        logger.warning(f"Could not read hora/distancia from SQLite: {e}")
+        return (None, None)
 
 
 def upload_predictions_to_supabase(predictions: list) -> int:
