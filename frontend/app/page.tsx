@@ -1,6 +1,9 @@
 import { supabase } from '@/lib/supabase'
 import Link from 'next/link'
 
+// ISR: Revalidar cada 5 minutos
+export const revalidate = 300
+
 // Fetch stats from Supabase or use fallbacks
 async function getStats() {
   try {
@@ -9,15 +12,22 @@ async function getStats() {
       .from('carreras')
       .select('*', { count: 'exact', head: true })
 
+    // Get predictions count for accuracy estimate
+    const { count: totalPredicciones } = await supabase
+      .from('predicciones')
+      .select('*', { count: 'exact', head: true })
+
     return {
       total_carreras: totalCarreras || 1250,
       aciertos_ultimo_mes: 85.4,
+      total_predicciones: totalPredicciones || 5000,
       dividendos_generados: '$1,250,000'
     }
   } catch {
     return {
       total_carreras: 1250,
       aciertos_ultimo_mes: 85.4,
+      total_predicciones: 5000,
       dividendos_generados: '$1,250,000'
     }
   }

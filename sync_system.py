@@ -105,9 +105,9 @@ def main(force_sync=False):
         # No fatal, las predicciones quedaron en JSON/SQLite.
 
     # ---------------------------------------------------------
-    # PASO 4: REDEPLOY VERCEL (Opcional)
+    # PASO 5: REDEPLOY VERCEL (Opcional)
     # ---------------------------------------------------------
-    logging.info("\n[PASO 4/5] Disparando redeploy en Vercel...")
+    logging.info("\n[PASO 5/5] Disparando redeploy en Vercel...")
     trigger_vercel_redeploy()
 
     logging.info("\n" + "="*70)

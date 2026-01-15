@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     description: 'Programa completo y predicciones con IA para Hipódromo Chile y Club Hípico de Chile. Pronósticos profesionales y análisis en tiempo real.',
 }
 
+// ISR: Revalidar cada 5 minutos para datos frescos
+export const revalidate = 300
+
 // Types
 interface Prediccion {
     numero: number
@@ -280,9 +283,17 @@ export default async function ProgramaPage() {
                     })()
                 ) : (
                     <div className="glass-card" style={{ textAlign: 'center', padding: '3rem', color: 'var(--text-muted)' }}>
-                        No hay carreras disponibles para hoy. Revisa mañana para ver las predicciones.
-                        <br /><br />
-                        <Link href="/" className="cta-button">Volver al Inicio</Link>
+                        <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>🏇</div>
+                        <h2 style={{ color: 'var(--text-main)', marginBottom: '1rem' }}>No hay carreras programadas</h2>
+                        <p style={{ marginBottom: '1.5rem', maxWidth: '400px', margin: '0 auto 1.5rem' }}>
+                            Actualmente no hay carreras disponibles. Las predicciones se actualizan diariamente cuando hay jornadas programadas.
+                        </p>
+                        <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+                            <Link href="/" className="cta-button">Volver al Inicio</Link>
+                            <Link href="/estadisticas" className="nav-link" style={{ padding: '1rem 2rem', border: '1px solid var(--primary)', borderRadius: '50px' }}>
+                                Ver Estadísticas
+                            </Link>
+                        </div>
                     </div>
                 )}
             </div>

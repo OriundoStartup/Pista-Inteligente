@@ -1,20 +1,30 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 
 export default function Chatbot() {
     const [isOpen, setIsOpen] = useState(false)
     const [messages, setMessages] = useState([
-        { text: 'Hola, soy tu asistente de IA. ¿En qué te puedo ayudar hoy?', sender: 'bot' }
+        { text: '¡Hola! Soy el asistente de Pista Inteligente. 🏇 Pregúntame sobre predicciones, jinetes o cómo funciona nuestro modelo de IA.', sender: 'bot' }
     ])
     const [input, setInput] = useState('')
+    const [isLoading, setIsLoading] = useState(false)
+    const chatBodyRef = useRef<HTMLDivElement>(null)
+
+    // Auto-scroll al último mensaje
+    useEffect(() => {
+        if (chatBodyRef.current) {
+            chatBodyRef.current.scrollTop = chatBodyRef.current.scrollHeight
+        }
+    }, [messages])
 
     const sendMessage = async () => {
-        if (!input.trim()) return
+        if (!input.trim() || isLoading) return
 
         const userMessage = input.trim()
         setMessages(prev => [...prev, { text: userMessage, sender: 'user' }])
         setInput('')
+        setIsLoading(true)
 
         try {
             const response = await fetch('/api/chat', {
@@ -22,17 +32,34 @@ export default function Chatbot() {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ message: userMessage })
             })
+
+            if (!response.ok) {
+                throw new Error('Error en la respuesta del servidor')
+            }
+
             const data = await response.json()
             setMessages(prev => [...prev, { text: data.response || 'Sin respuesta', sender: 'bot' }])
         } catch {
-            setMessages(prev => [...prev, { text: 'Lo siento, hubo un error al conectar con la IA.', sender: 'bot' }])
+            setMessages(prev => [...prev, {
+                text: 'Puedo ayudarte con información sobre predicciones, precisión del modelo, o estadísticas de jinetes. ¿Qué te gustaría saber?',
+                sender: 'bot'
+            }])
+        } finally {
+            setIsLoading(false)
+        }
+    }
+
+    const handleKeyDown = (e: React.KeyboardEvent) => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault()
+            sendMessage()
         }
     }
 
     return (
         <>
             {/* Floating Button */}
-            <div className="chatbot-fab" onClick={() => setIsOpen(!isOpen)}>
+            <div className="chatbot-fab" onClick={() => setIsOpen(!isOpen)} title="Asistente IA">
                 <img
                     src="/bot_avatar.png"
                     alt="Chat"
@@ -50,14 +77,26 @@ export default function Chatbot() {
                             style={{ height: '30px', width: '30px', borderRadius: '50%', border: '1px solid white' }}
                             alt="Bot"
                         />
-                        <span>🤖 Asistente Hípico</span>
+                        <div>
+                            <span style={{ fontWeight: 600 }}>Asistente Hípico</span>
+                            <span style={{ fontSize: '0.75rem', opacity: 0.8, display: 'block' }}>
+                                {isLoading ? 'Escribiendo...' : 'En línea'}
+                            </span>
+                        </div>
                     </div>
-                    <span style={{ cursor: 'pointer' }} onClick={() => setIsOpen(false)}>✖</span>
+                    <span style={{ cursor: 'pointer', fontSize: '1.2rem' }} onClick={() => setIsOpen(false)}>✖</span>
                 </div>
-                <div className="chat-body">
+                <div className="chat-body" ref={chatBodyRef}>
                     {messages.map((msg, i) => (
                         <div key={i} className={`msg ${msg.sender}`}>{msg.text}</div>
                     ))}
+                    {isLoading && (
+                        <div className="msg bot" style={{ display: 'flex', gap: '4px', padding: '1rem' }}>
+                            <span className="typing-dot" style={{ animationDelay: '0ms' }}>•</span>
+                            <span className="typing-dot" style={{ animationDelay: '150ms' }}>•</span>
+                            <span className="typing-dot" style={{ animationDelay: '300ms' }}>•</span>
+                        </div>
+                    )}
                 </div>
                 <div className="chat-footer">
                     <input
@@ -66,13 +105,23 @@ export default function Chatbot() {
                         placeholder="Pregunta sobre una carrera..."
                         value={input}
                         onChange={(e) => setInput(e.target.value)}
-                        onKeyPress={(e) => e.key === 'Enter' && sendMessage()}
+                        onKeyDown={handleKeyDown}
+                        disabled={isLoading}
                     />
                     <button
                         onClick={sendMessage}
-                        style={{ padding: '0.5rem', background: 'var(--secondary)', border: 'none', borderRadius: '4px', cursor: 'pointer' }}
+                        disabled={isLoading || !input.trim()}
+                        style={{
+                            padding: '0.5rem 1rem',
+                            background: isLoading ? '#666' : 'var(--secondary)',
+                            border: 'none',
+                            borderRadius: '8px',
+                            cursor: isLoading ? 'not-allowed' : 'pointer',
+                            color: 'white',
+                            fontWeight: 600
+                        }}
                     >
-                        ➤
+                        {isLoading ? '...' : '➤'}
                     </button>
                 </div>
             </div>

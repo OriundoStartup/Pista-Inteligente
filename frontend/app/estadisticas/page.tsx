@@ -6,6 +6,9 @@ export const metadata: Metadata = {
     description: 'Estadísticas completas de carreras de caballos en Chile. Datos de jinetes, caballos y resultados históricos.',
 }
 
+// ISR: Revalidar cada 10 minutos
+export const revalidate = 600
+
 async function getEstadisticas() {
     try {
         const { count: totalCarreras } = await supabase
