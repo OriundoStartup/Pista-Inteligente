@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import PatronesList from '@/components/PatronesList'
 
 export const metadata: Metadata = {
     title: 'Patrones de Carreras - Análisis con IA | Pista Inteligente',
@@ -23,14 +24,24 @@ export default function AnalisisPage() {
                     🔍 Patrones Detectados por IA
                 </h1>
                 <p style={{ color: 'var(--text-muted)', fontSize: '1.2rem', maxWidth: '800px', margin: '0 auto' }}>
-                    Nuestro sistema de Inteligencia Artificial analiza miles de carreras para identificar patrones
-                    que influyen en los resultados. Estos son los insights más relevantes.
+                    Nuestro sistema analiza los resultados de los últimos 60 días en <strong>todos los hipódromos</strong> para encontrar números que se repiten.
                 </p>
             </div>
 
-            {/* Patrones Grid */}
+            {/* Dynamic Patterns Section */}
+            <div className="glass-card mb-8">
+                <div className="section-title flex items-center gap-2">
+                    <span>🎰</span> Patrones Numéricos en Vivo
+                </div>
+                <div className="mb-4 text-gray-400 text-sm">
+                    Estos números (mandiles) han formado combinaciones ganadoras (Quinelas, Trifectas, Superfectas) al menos 2 veces recientemente.
+                </div>
+                <PatronesList />
+            </div>
+
+            {/* Patrones Grid (Teoría) */}
             <div className="glass-card" style={{ marginBottom: '2rem' }}>
-                <div className="section-title">📊 Patrones Estadísticos Clave</div>
+                <div className="section-title">📚 Factores Estadísticos Generales</div>
 
                 <div style={{ display: 'grid', gap: '1rem' }}>
                     {patrones.map((patron, index) => (
