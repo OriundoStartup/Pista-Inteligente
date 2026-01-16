@@ -16,16 +16,22 @@ async function getUpcomingRaces(): Promise<string> {
     try {
         const today = new Date().toISOString().split('T')[0]
 
-        // Consultar próximas 5 carreras de hoy o futuro inmediato
+        if (!GEMINI_API_KEY) {
+            console.error('❌ GEMINI_API_KEY is missing in environment variables')
+            // Don't return here, let it fail in getGeminiResponse to trigger fallback, 
+            // but logging is crucial for debugging.
+        }
+
+        // Consultar próximas 3 carreras de hoy o futuro inmediato
         const { data: carreras, error } = await supabase
             .from('carreras')
             .select(`
                 numero,
                 hora,
                 distancia,
-                jornada:jornadas (
+                jornada:jornadas!inner (
                     fecha,
-                    hipodromo:hipodromos (nombre)
+                    hipodromo:hipodromos!inner (nombre)
                 ),
                 participaciones (
                     caballo:caballos (nombre),
@@ -36,7 +42,7 @@ async function getUpcomingRaces(): Promise<string> {
             .gte('jornada.fecha', today)
             .order('jornada(fecha)', { ascending: true })
             .order('hora', { ascending: true })
-            .limit(3) // Limitado a 3 para no exceder tokens
+            .limit(3)
 
         if (error) {
             console.error('Error fetching races for chatbot:', error)
