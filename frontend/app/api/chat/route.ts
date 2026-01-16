@@ -144,6 +144,10 @@ const fallbackResponses: Record<string, string> = {
     'default': 'Estoy teniendo problemas para conectar con mi cerebro de IA, pero puedes ver las predicciones en el menú principal o visitar Teletrak.cl para ver las carreras en vivo.'
 }
 
+// Simple Cache System
+const responseCache = new Map<string, { response: string, timestamp: number }>();
+const CACHE_DURATION = 1000 * 60 * 10; // 10 minutes cache logic
+
 function getFallbackResponse(message: string): string {
     const msgLower = message.toLowerCase()
     if (msgLower.includes('hola') || msgLower.includes('buenos')) return fallbackResponses['hola']
@@ -158,12 +162,31 @@ export async function POST(request: Request) {
             return NextResponse.json({ response: 'Mensaje inválido' }, { status: 400 })
         }
 
+        // Cache Check
+        const cacheKey = message.trim().toLowerCase();
+        const cached = responseCache.get(cacheKey);
+        if (cached && (Date.now() - cached.timestamp < CACHE_DURATION)) {
+            // Return cached response if valid
+            return NextResponse.json({ response: cached.response });
+        }
+
         try {
             // 1. Obtener contexto en tiempo real
+            // (Optimize: Context fetching could also be cached, but race data changes. 
+            // For now, let's cache only the AI response for specific questions)
             const raceContext = await getUpcomingRaces()
 
             // 2. Consultar a Gemini
             const aiResponse = await getGeminiResponse(message, raceContext)
+
+            // Save to Cache
+            responseCache.set(cacheKey, { response: aiResponse, timestamp: Date.now() });
+
+            // Limit cache size to prevent memory leaks in serverless
+            if (responseCache.size > 100) {
+                const firstKey = responseCache.keys().next().value;
+                if (firstKey) responseCache.delete(firstKey);
+            }
 
             return NextResponse.json({ response: aiResponse })
         } catch (error) {
