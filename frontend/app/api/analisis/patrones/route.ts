@@ -45,7 +45,7 @@ export async function GET() {
             .select(`
                 carrera_id,
                 posicion,
-                mandil,
+                numero_mandil,
                 carreras!inner (
                     id,
                     numero,
@@ -84,7 +84,7 @@ export async function GET() {
             races[carreraId].push({
                 carrera_id: carreraId,
                 posicion: row.posicion,
-                numero: row.mandil,
+                numero: row.numero_mandil,
                 hipodromo: row.carreras.jornadas.hipodromos.nombre,
                 fecha: row.carreras.jornadas.fecha,
                 nro_carrera: row.carreras.numero
