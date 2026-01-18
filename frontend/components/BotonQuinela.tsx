@@ -10,7 +10,9 @@ export default function BotonQuinela({ linkPago }: BotonQuinelaProps) {
     const [isHovered, setIsHovered] = useState(false)
 
     const handleClick = () => {
-        window.open(linkPago, '_blank', 'noopener,noreferrer')
+        if (typeof window !== 'undefined') {
+            window.open(linkPago, '_blank', 'noopener,noreferrer')
+        }
     }
 
     return (
