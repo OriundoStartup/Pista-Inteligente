@@ -1,4 +1,4 @@
-import { createClient } from '@/utils/supabase/server'
+import { createClient } from '../utils/supabase/server'
 import Link from 'next/link'
 
 // ISR: Revalidar cada 5 minutos

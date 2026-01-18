@@ -1,4 +1,4 @@
-import { createClient } from '@/utils/supabase/server'
+import { createClient } from '../../utils/supabase/server'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import BotonQuinela from '@/components/BotonQuinela'

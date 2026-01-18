@@ -1,6 +1,6 @@
 'use client'
 
-import { createClient } from '@/utils/supabase/client'
+import { createClient } from '../utils/supabase/client'
 
 export default function LoginWithGoogleButton() {
     const handleLogin = async () => {

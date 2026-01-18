@@ -1,4 +1,4 @@
-import { createClient } from '@/utils/supabase/server'
+import { createClient } from '../../utils/supabase/server'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
