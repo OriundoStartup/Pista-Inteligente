@@ -1,4 +1,4 @@
-import { supabase } from '@/lib/supabase'
+import { createClient } from '@/utils/supabase/server'
 import Link from 'next/link'
 
 // ISR: Revalidar cada 5 minutos
@@ -6,6 +6,7 @@ export const revalidate = 300
 
 // Fetch stats from Supabase or use fallbacks
 async function getStats() {
+  const supabase = await createClient()
   try {
     // Get total races count
     const { count: totalCarreras } = await supabase
@@ -35,7 +36,9 @@ async function getStats() {
 
 // Fetch top jockeys
 // Fetch top jockeys dynamically from Supabase (Year 2026)
+// Fetch top jockeys dynamically from Supabase (Year 2026)
 async function getTopJinetes() {
+  const supabase = await createClient()
   try {
     // 1. Fetch participaciones joint with carreras->jornadas to filter by date
     const { data, error } = await supabase

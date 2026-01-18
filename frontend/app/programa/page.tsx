@@ -1,4 +1,4 @@
-import { supabase } from '@/lib/supabase'
+import { createClient } from '@/utils/supabase/server'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import BotonQuinela from '@/components/BotonQuinela'
@@ -31,6 +31,7 @@ interface Carrera {
 
 // Fetch predictions from Supabase
 async function getPredicciones(): Promise<{ carreras: Carrera[], stats: { total_carreras: number, total_caballos: number, fecha_principal: string } }> {
+    const supabase = await createClient()
     try {
         // Get upcoming jornadas (Force Chile Timezone)
         const today = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Santiago' })

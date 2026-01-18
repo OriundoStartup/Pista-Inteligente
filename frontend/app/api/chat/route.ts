@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { supabase } from '@/lib/supabase'
+import { createClient } from '@/utils/supabase/server'
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY || ''
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent'
@@ -14,6 +14,7 @@ const EXTERNAL_LINKS = `
 
 async function getUpcomingRaces(): Promise<string> {
     try {
+        const supabase = await createClient()
         const today = new Date().toISOString().split('T')[0]
 
         if (!GEMINI_API_KEY) {

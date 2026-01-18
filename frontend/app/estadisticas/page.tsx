@@ -1,4 +1,4 @@
-import { supabase } from '@/lib/supabase'
+import { createClient } from '@/utils/supabase/server'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 export const revalidate = 600
 
 async function getEstadisticas() {
+    const supabase = await createClient()
     try {
         const { count: totalCarreras } = await supabase
             .from('carreras')
