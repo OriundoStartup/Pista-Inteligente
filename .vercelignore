@@ -10,7 +10,7 @@ img/
 logs/
 models/
 scripts/
-utils/
+# Note: frontend/utils/ is NOT ignored - only root utils if it exists
 templates/
 static/
 tests/
