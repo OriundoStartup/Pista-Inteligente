@@ -15,6 +15,8 @@ export default function Header() {
 
     // Cerrar menú al hacer scroll
     useEffect(() => {
+        if (typeof window === 'undefined') return
+
         const handleScroll = () => {
             if (isMenuOpen) setIsMenuOpen(false)
         }
@@ -24,6 +26,8 @@ export default function Header() {
 
     // Prevenir scroll cuando el menú está abierto
     useEffect(() => {
+        if (typeof document === 'undefined') return
+
         if (isMenuOpen) {
             document.body.style.overflow = 'hidden'
         } else {
