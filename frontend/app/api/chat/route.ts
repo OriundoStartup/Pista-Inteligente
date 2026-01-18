@@ -56,7 +56,7 @@ async function getUpcomingRaces(): Promise<string> {
 
         let context = "Información en tiempo real de las próximas carreras:\n"
 
-        carreras.forEach(c => {
+        carreras.forEach((c: any) => {
             // @ts-ignore
             const hipodromo = c.jornada?.hipodromo?.nombre || 'Hipódromo'
             // @ts-ignore
