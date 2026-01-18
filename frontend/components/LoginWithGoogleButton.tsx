@@ -5,9 +5,22 @@ import { createClient } from '../utils/supabase/client'
 export default function LoginWithGoogleButton() {
     const handleLogin = async () => {
         const supabase = createClient()
-        const redirectUrl = typeof window !== 'undefined'
-            ? `${window.location.origin}/auth/callback`
-            : '/auth/callback'
+
+        // Determinar la URL de redirección
+        // En producción, usar la URL de Vercel; en desarrollo, usar localhost
+        const getRedirectUrl = () => {
+            if (typeof window === 'undefined') return '/auth/callback'
+
+            // Si estamos en localhost, usar localhost
+            if (window.location.hostname === 'localhost') {
+                return `${window.location.origin}/auth/callback`
+            }
+
+            // En producción, usar la URL actual del sitio
+            return `${window.location.origin}/auth/callback`
+        }
+
+        const redirectUrl = getRedirectUrl()
 
         await supabase.auth.signInWithOAuth({
             provider: 'google',
