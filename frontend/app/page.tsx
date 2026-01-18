@@ -34,30 +34,77 @@ async function getStats() {
 }
 
 // Fetch top jockeys
+// Fetch top jockeys dynamically from Supabase (Year 2026)
 async function getTopJinetes() {
   try {
-    const { data } = await supabase
-      .from('jinetes')
-      .select('nombre')
-      .limit(5)
+    // 1. Fetch participaciones joint with carreras->jornadas to filter by date
+    const { data, error } = await supabase
+      .from('participaciones')
+      .select(`
+        posicion,
+        jinetes (nombre),
+        carreras!inner (
+          jornadas!inner (
+            fecha
+          )
+        )
+      `)
+      .gte('carreras.jornadas.fecha', '2026-01-01')
 
-    if (data && data.length > 0) {
-      return data.map((j, i) => ({
-        jinete: j.nombre,
-        ganadas: 45 - (i * 7),
-        eficiencia: (28.5 - (i * 3.5)).toFixed(1)
-      }))
+    if (error) {
+      console.error("Error fetching Top Jinetes:", error)
+      throw error
     }
-  } catch {
-    // Fallback
-  }
 
+    if (!data || data.length === 0) return fallbackJinetes()
+
+    // 2. Aggregate stats in memory
+    const stats: Record<string, { ganadas: number; montes: number }> = {}
+
+    data.forEach((row: any) => {
+      const jineteName = row.jinetes?.nombre || 'Desconocido'
+      // Normalizar nombre si es necesario
+      const nombre = jineteName.trim()
+
+      if (!stats[nombre]) {
+        stats[nombre] = { ganadas: 0, montes: 0 }
+      }
+
+      stats[nombre].montes += 1
+
+      // Check win (posicion 1)
+      // Note: posicion can be string "1" or number 1 depending on DB, safe check
+      if (row.posicion == 1) {
+        stats[nombre].ganadas += 1
+      }
+    })
+
+    // 3. Convert to array, sort and slice
+    const sortedStats = Object.entries(stats)
+      .map(([nombre, stat]) => {
+        const eficiencia = stat.montes > 0 ? (stat.ganadas / stat.montes) * 100 : 0
+        return {
+          jinete: nombre,
+          ganadas: stat.ganadas,
+          eficiencia: eficiencia.toFixed(1)
+        }
+      })
+      .sort((a, b) => b.ganadas - a.ganadas) // Sort by wins descending
+      .slice(0, 5) // Top 5
+
+    return sortedStats
+
+  } catch (e) {
+    console.error("Exception in getTopJinetes:", e)
+    return fallbackJinetes()
+  }
+}
+
+function fallbackJinetes() {
   return [
-    { jinete: 'J. Medina', ganadas: 45, eficiencia: '28.5' },
-    { jinete: 'B. Sancho', ganadas: 38, eficiencia: '24.1' },
-    { jinete: 'K. Espina', ganadas: 30, eficiencia: '21.0' },
-    { jinete: 'C. Ortega', ganadas: 25, eficiencia: '18.3' },
-    { jinete: 'R. Fuentes', ganadas: 22, eficiencia: '15.7' },
+    { jinete: 'J. Medina', ganadas: 0, eficiencia: '0.0' },
+    { jinete: 'B. Sancho', ganadas: 0, eficiencia: '0.0' },
+    { jinete: 'Sin Datos', ganadas: 0, eficiencia: '0.0' },
   ]
 }
 
@@ -118,9 +165,9 @@ export default async function Home() {
         </div>
       </div>
 
-      {/* Top Jinetes Card - Exact copy from home.html */}
+      {/* Top Jinetes Card */}
       <div className="glass-card">
-        <div className="section-title">🏆 Top Jinetes de la Temporada</div>
+        <div className="section-title">🏆 Top Jinetes 2026 (En Vivo)</div>
         <table className="modern-table">
           <thead>
             <tr>

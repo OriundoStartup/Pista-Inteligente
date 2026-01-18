@@ -1,4223 +1,2432 @@
 [
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
     "carrera": 1,
     "numero": 1,
-    "caballo": "TATA MONCHO",
-    "jinete": "P.ZUNIGA",
-    "probabilidad": 17.3
+    "caballo": "MESTIZA FLOR",
+    "jinete": "JAIME HIRMAS R.",
+    "probabilidad": 19.8
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
     "carrera": 1,
     "numero": 2,
-    "caballo": "DON'T STOP ME NOW",
-    "jinete": "N.VENEGAS",
-    "probabilidad": 6.9
+    "caballo": "POWER OF HORSES",
+    "jinete": "M.GUTIERREZ",
+    "probabilidad": 4.2
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
     "carrera": 1,
     "numero": 3,
-    "caballo": "INDIA TERCA",
-    "jinete": "LVALDIVIA",
-    "probabilidad": 8.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 1,
-    "numero": 4,
-    "caballo": "BONITA SORPRESA",
-    "jinete": "P.GALAZ",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 1,
-    "numero": 5,
-    "caballo": "SAHARA CHROME",
-    "jinete": "B.GONZALEZ",
-    "probabilidad": 5.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 1,
-    "numero": 6,
-    "caballo": "COSMIC TRIGGER",
-    "jinete": "J.EYZAGUIRRE",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 1,
-    "numero": 7,
-    "caballo": "TARRES (ARG)",
-    "jinete": "N.SANTIBANEZ",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 1,
-    "numero": 8,
-    "caballo": "TEMPORAL DE AMOR",
-    "jinete": "A.ALVAREZ",
-    "probabilidad": 6.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 1,
-    "numero": 9,
-    "caballo": "BEAUTIFUL MOON",
-    "jinete": "B.SANCHO",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 1,
-    "numero": 10,
-    "caballo": "CHICA DE CAMPEONES",
-    "jinete": "T.SEITH",
-    "probabilidad": 4.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 1,
-    "numero": 11,
-    "caballo": "KING CORLEONE",
-    "jinete": "D.SANCHEZ",
-    "probabilidad": 5.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 1,
-    "numero": 12,
-    "caballo": "TE DIRIA",
-    "jinete": "C.BUSTOS",
-    "probabilidad": 13.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 1,
-    "numero": 13,
-    "caballo": "LA TOSTADORA",
-    "jinete": "M.GUTIERREZ",
-    "probabilidad": 3.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 1,
-    "numero": 14,
-    "caballo": "AVISPATE COMADRE",
-    "jinete": "G.RODRIGUEZ",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 1,
-    "numero": 15,
-    "caballo": "EL MARIPEPA",
-    "jinete": "R.ARAYA",
+    "caballo": "GAMORRA",
+    "jinete": "L.RIVERA",
     "probabilidad": 4.3
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 10,
-    "numero": 1,
-    "caballo": "AZRA",
-    "jinete": "G.RODRIGUEZ",
-    "probabilidad": 2.9
+    "carrera": 1,
+    "numero": 4,
+    "caballo": "SONATA CELTA",
+    "jinete": "J.TORO",
+    "probabilidad": 4.5
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 10,
-    "numero": 2,
-    "caballo": "AZALEA INDIA",
+    "carrera": 1,
+    "numero": 5,
+    "caballo": "YA MAGICO",
+    "jinete": "B.GONZALEZ",
+    "probabilidad": 5.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 1,
+    "numero": 6,
+    "caballo": "SILVESTRIN",
+    "jinete": "J.SOLANO",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 1,
+    "numero": 7,
+    "caballo": "DESERT CAT",
     "jinete": "R.CISTERNAS",
-    "probabilidad": 13.4
+    "probabilidad": 8.6
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 10,
-    "numero": 3,
+    "carrera": 1,
+    "numero": 8,
     "caballo": "RASHEEM",
     "jinete": "J.M.SOTO",
-    "probabilidad": 10.0
+    "probabilidad": 10.5
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 10,
-    "numero": 4,
-    "caballo": "TIA MARTA",
-    "jinete": "N.SANTIBANEZ",
-    "probabilidad": 3.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 10,
-    "numero": 5,
-    "caballo": "SIN MIEDO",
-    "jinete": "D.SANCHEZ",
-    "probabilidad": 13.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 10,
-    "numero": 6,
-    "caballo": "FABRANA",
-    "jinete": "R.FUENZALIDA",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 10,
-    "numero": 7,
-    "caballo": "INDIA ADORADA",
-    "jinete": "L.MENGHINI",
-    "probabilidad": 13.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 10,
-    "numero": 8,
-    "caballo": "SILVESTRIN",
-    "jinete": "J.MINO",
-    "probabilidad": 4.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 10,
+    "carrera": 1,
     "numero": 9,
-    "caballo": "UNA PROPUESTA",
-    "jinete": "J.EYZAGUIRRE",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 10,
-    "numero": 10,
-    "caballo": "POWER OF HORSES",
-    "jinete": "C.BUSTOS",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 10,
-    "numero": 11,
-    "caballo": "SURPRISE BOX",
-    "jinete": "N.VENEGAS",
-    "probabilidad": 4.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 10,
-    "numero": 12,
-    "caballo": "SALUD COMPADRE",
-    "jinete": "J.SOLANO",
-    "probabilidad": 3.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 10,
-    "numero": 13,
-    "caballo": "ME VERAS CAER",
-    "jinete": "R.FOURNET",
-    "probabilidad": 13.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 10,
-    "numero": 14,
-    "caballo": "GAMORRA",
-    "jinete": "J.TORO",
-    "probabilidad": 3.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 10,
-    "numero": 15,
-    "caballo": "YA MAGICO",
-    "jinete": "JO.A. GONZALEZ",
-    "probabilidad": 3.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 11,
-    "numero": 1,
-    "caballo": "TESORITO MIO",
-    "jinete": "N.RAMIREZ",
-    "probabilidad": 17.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 11,
-    "numero": 2,
-    "caballo": "IRISH NATION",
-    "jinete": "D.CARVACHO",
-    "probabilidad": 4.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 11,
-    "numero": 3,
     "caballo": "FRANCOLI",
     "jinete": "J.CUETO",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 11,
-    "numero": 4,
-    "caballo": "GRAN NONO",
-    "jinete": "JO.A.GONZALEZ",
-    "probabilidad": 4.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 11,
-    "numero": 5,
-    "caballo": "MITSKI",
-    "jinete": "N.MOLINA",
-    "probabilidad": 4.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 11,
-    "numero": 6,
-    "caballo": "VICARIA AMELIA",
-    "jinete": "C.ALEGRIA",
-    "probabilidad": 5.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 11,
-    "numero": 7,
-    "caballo": "BLACK KINGLY",
-    "jinete": "L.C.GONZALEZ",
     "probabilidad": 4.3
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 11,
-    "numero": 8,
-    "caballo": "GRAN LALITO",
-    "jinete": "R.FOURNET",
-    "probabilidad": 5.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 11,
-    "numero": 9,
-    "caballo": "GRAN PEPE",
-    "jinete": "F.MEDINA",
-    "probabilidad": 4.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 11,
+    "carrera": 1,
     "numero": 10,
-    "caballo": "MI NIETO BRUNO",
-    "jinete": "C.BUSTOS",
-    "probabilidad": 4.5
+    "caballo": "MEME",
+    "jinete": "J.HERRERA",
+    "probabilidad": 5.0
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 11,
+    "carrera": 1,
     "numero": 11,
+    "caballo": "DON PICHO",
+    "jinete": "F.MORALES",
+    "probabilidad": 5.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 1,
+    "numero": 12,
+    "caballo": "MONTEPIEDRA",
+    "jinete": "D.CARVACHO",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 1,
+    "numero": 13,
     "caballo": "ZIGEUNER",
     "jinete": "AND.COVARRUBIAS",
-    "probabilidad": 5.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 11,
-    "numero": 12,
-    "caballo": "JULIA DOMNA",
-    "jinete": "J.SOLANO",
-    "probabilidad": 5.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 11,
-    "numero": 13,
-    "caballo": "PATYTA BLACK",
-    "jinete": "I.VALDIVIA",
-    "probabilidad": 19.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 11,
-    "numero": 14,
-    "caballo": "MARRAKECH",
-    "jinete": "B.GONZALEZ",
-    "probabilidad": 5.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 11,
-    "numero": 15,
-    "caballo": "SASUKE",
-    "jinete": "G.RODRIGUEZ",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 12,
-    "numero": 1,
-    "caballo": "EL ULTIMO QUENO",
-    "jinete": "H.OCHOA",
-    "probabilidad": 5.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 12,
-    "numero": 2,
-    "caballo": "MONKYPOC",
-    "jinete": "B.GONZALEZ",
-    "probabilidad": 19.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 12,
-    "numero": 3,
-    "caballo": "LECCLERC",
-    "jinete": "N.RAMIREZ",
-    "probabilidad": 5.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 12,
-    "numero": 4,
-    "caballo": "A LA BANDADA",
-    "jinete": "R.VARAS",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 12,
-    "numero": 5,
-    "caballo": "SOVICH",
-    "jinete": "B.AYALA",
-    "probabilidad": 11.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 12,
-    "numero": 6,
-    "caballo": "VOLASTE A LA META",
-    "jinete": "M.MORALES",
     "probabilidad": 4.3
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 12,
-    "numero": 7,
-    "caballo": "ARTE DE MAGIA",
-    "jinete": "A.APABLAZA",
-    "probabilidad": 4.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 12,
-    "numero": 8,
-    "caballo": "LEGENDE",
-    "jinete": "R.FUENZALIDA",
-    "probabilidad": 5.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 12,
-    "numero": 9,
-    "caballo": "COMO EL SOL",
-    "jinete": "A.VASQUEZ",
-    "probabilidad": 8.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 12,
-    "numero": 10,
-    "caballo": "RABIOSO PELAO",
-    "jinete": "M.GUTIERREZ",
-    "probabilidad": 4.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 12,
-    "numero": 11,
-    "caballo": "VIVIMOS SONANDO",
-    "jinete": "R.PAINEN",
-    "probabilidad": 5.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 12,
-    "numero": 12,
-    "caballo": "PONLE TOBY",
-    "jinete": "N.ROJAS",
-    "probabilidad": 4.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 12,
-    "numero": 13,
-    "caballo": "GIORGIO ELORIGINAL",
-    "jinete": "M.GALAZ",
-    "probabilidad": 6.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 12,
+    "carrera": 1,
     "numero": 14,
-    "caballo": "PRINCESA RUBY",
-    "jinete": "P.ZUNIGA",
-    "probabilidad": 4.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 12,
-    "numero": 15,
-    "caballo": "VASCA BRAVA",
-    "jinete": "D.CARRASCO",
-    "probabilidad": 7.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 13,
-    "numero": 1,
-    "caballo": "MUCHOVA",
-    "jinete": "K.ESPINA",
-    "probabilidad": 5.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 13,
-    "numero": 2,
-    "caballo": "TORDILLA DIVINA",
-    "jinete": "H.OCHOA",
-    "probabilidad": 9.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 13,
-    "numero": 3,
-    "caballo": "STELLA AUSTRALIS",
-    "jinete": "SEB.GONZALEZ",
-    "probabilidad": 5.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 13,
-    "numero": 4,
-    "caballo": "QUANTO AMORE SEI",
-    "jinete": "J.HERRERA",
-    "probabilidad": 4.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 13,
-    "numero": 5,
-    "caballo": "SELENZA",
-    "jinete": "JO.A.GONZALEZ",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 13,
-    "numero": 6,
-    "caballo": "ZIERVANA",
-    "jinete": "L.VALDIVIA",
-    "probabilidad": 10.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 13,
-    "numero": 7,
-    "caballo": "RICONDITA",
-    "jinete": "J.MEDINA",
-    "probabilidad": 9.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 13,
-    "numero": 8,
-    "caballo": "LA INSTRUMENTISTA",
-    "jinete": "R.AVILA",
-    "probabilidad": 4.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 13,
-    "numero": 9,
-    "caballo": "STAY WITH ME",
-    "jinete": "R.FUENZALIDA",
-    "probabilidad": 11.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 13,
-    "numero": 10,
-    "caballo": "INNA",
-    "jinete": "B.TRONCOSO",
-    "probabilidad": 21.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 13,
-    "numero": 11,
-    "caballo": "ROCE SECRETO",
-    "jinete": "A. VASQUEZ",
-    "probabilidad": 7.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 13,
-    "numero": 12,
-    "caballo": "ODESSA",
-    "jinete": "JZUNIGA",
-    "probabilidad": 4.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 14,
-    "numero": 1,
-    "caballo": "VAQUITA LOIRA",
-    "jinete": "AND. COVARRUBIAS",
-    "probabilidad": 5.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 14,
-    "numero": 2,
-    "caballo": "AYUSA",
-    "jinete": "B.AYALA",
-    "probabilidad": 4.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 14,
-    "numero": 3,
-    "caballo": "LA SONE",
-    "jinete": "B.GONZALEZ",
-    "probabilidad": 5.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 14,
-    "numero": 4,
-    "caballo": "SOLKA",
-    "jinete": "J.HERRERA",
-    "probabilidad": 4.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 14,
-    "numero": 5,
-    "caballo": "DIOSA KALI",
-    "jinete": "PZUNIGA",
-    "probabilidad": 4.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 14,
-    "numero": 6,
-    "caballo": "FETLOCK JOINT",
-    "jinete": "LURREJOLA",
-    "probabilidad": 4.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 14,
-    "numero": 7,
-    "caballo": "KANASAKI",
-    "jinete": "D.CARVACHO",
-    "probabilidad": 6.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 14,
-    "numero": 8,
-    "caballo": "MR RANGER",
-    "jinete": "M.GUTIERREZ",
-    "probabilidad": 8.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 14,
-    "numero": 9,
-    "caballo": "TANGO",
-    "jinete": "L.MENGHINI",
-    "probabilidad": 8.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 14,
-    "numero": 10,
-    "caballo": "CASPER INN",
-    "jinete": "J.M.SOTO",
-    "probabilidad": 6.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 14,
-    "numero": 11,
-    "caballo": "RUCIA DE ORO",
-    "jinete": "C.ORTEGA",
-    "probabilidad": 5.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 14,
-    "numero": 12,
-    "caballo": "ROSARIO TIJERA",
-    "jinete": "W.QUINTEROS",
-    "probabilidad": 5.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 14,
-    "numero": 13,
-    "caballo": "DI ALBA",
-    "jinete": "G.RODRIGUEZ",
-    "probabilidad": 6.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 14,
-    "numero": 14,
-    "caballo": "CALLAHAN",
-    "jinete": "JO.A.GONZALEZ",
-    "probabilidad": 19.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 14,
-    "numero": 15,
-    "caballo": "EL CHICO RICHARD",
-    "jinete": "N.MOLINA",
-    "probabilidad": 4.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 15,
-    "numero": 1,
-    "caballo": "DALEMITA",
-    "jinete": "L.VALDIVIA",
-    "probabilidad": 3.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 15,
-    "numero": 2,
-    "caballo": "DUBAI WIND",
-    "jinete": "JO.A.GONZALEZ",
-    "probabilidad": 3.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 15,
-    "numero": 3,
-    "caballo": "LEXUS",
-    "jinete": "N.ROJAS",
-    "probabilidad": 9.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 15,
-    "numero": 4,
-    "caballo": "COTILLARD",
-    "jinete": "B.TRONCOSO",
-    "probabilidad": 7.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 15,
-    "numero": 5,
-    "caballo": "ONDA RADIAL",
-    "jinete": "R.CISTERNAS",
-    "probabilidad": 17.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 15,
-    "numero": 6,
-    "caballo": "ATACAMA FLOWER",
-    "jinete": "R.PAINEN",
-    "probabilidad": 3.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 15,
-    "numero": 7,
-    "caballo": "COSITA DULCE",
-    "jinete": "H.OCHOA",
-    "probabilidad": 4.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 15,
-    "numero": 8,
-    "caballo": "ARTHUR SHELBY",
-    "jinete": "M.A.BUSTAMANTE",
-    "probabilidad": 8.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 15,
-    "numero": 9,
-    "caballo": "DONA SHISHI",
-    "jinete": "N.MOLINA",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 15,
-    "numero": 10,
-    "caballo": "LIMENO FELIZ",
-    "jinete": "A.APABLAZA",
-    "probabilidad": 9.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 15,
-    "numero": 11,
-    "caballo": "WESTERN FILM",
-    "jinete": "C.BUSTOS",
-    "probabilidad": 6.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 15,
-    "numero": 12,
-    "caballo": "NUEVA VIDA",
-    "jinete": "A.ALVAREZ",
-    "probabilidad": 6.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 15,
-    "numero": 13,
-    "caballo": "HENGROEN",
-    "jinete": "B.SANCHO",
-    "probabilidad": 6.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 15,
-    "numero": 14,
-    "caballo": "LEYSKA",
-    "jinete": "N.RAMIREZ",
-    "probabilidad": 3.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 15,
-    "numero": 15,
-    "caballo": "TU MI CUNCA",
-    "jinete": "M.MORALES",
-    "probabilidad": 4.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 16,
-    "numero": 1,
-    "caballo": "FAMOSA LUZ",
-    "jinete": "G.RODRIGUEZ",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 16,
-    "numero": 2,
-    "caballo": "AMOR DE CHOCOLATE",
-    "jinete": "C.ORTEGA",
-    "probabilidad": 5.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 16,
-    "numero": 3,
-    "caballo": "ROMANINI",
-    "jinete": "N.VENEGAS",
-    "probabilidad": 6.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 16,
-    "numero": 4,
-    "caballo": "GOOD TERRY",
-    "jinete": "R.FUENZALIDA",
-    "probabilidad": 6.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 16,
-    "numero": 5,
-    "caballo": "LA CHUCKY TRINI",
-    "jinete": "L.C.GONZALEZ",
-    "probabilidad": 4.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 16,
-    "numero": 6,
-    "caballo": "MANNY RIBERA",
-    "jinete": "N.RAMIREZ",
-    "probabilidad": 22.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 16,
-    "numero": 7,
-    "caballo": "MERENGADA",
-    "jinete": "N.SANTIBANEZ",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 16,
-    "numero": 8,
-    "caballo": "DOMINGUITA ONCE",
-    "jinete": "N.MOLINA",
-    "probabilidad": 6.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 16,
-    "numero": 9,
-    "caballo": "TREN A CAJON",
-    "jinete": "D.CARVACHO",
-    "probabilidad": 6.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 16,
-    "numero": 10,
-    "caballo": "KAUNAS",
-    "jinete": "P.ZUNIGA",
-    "probabilidad": 5.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 16,
-    "numero": 11,
-    "caballo": "SEEKING THE SOUL",
-    "jinete": "A.APABLAZA",
-    "probabilidad": 4.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 16,
-    "numero": 12,
-    "caballo": "ARAKUN",
-    "jinete": "J.CUETO",
-    "probabilidad": 5.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 16,
-    "numero": 13,
-    "caballo": "ARAGONERO",
-    "jinete": "H.OCHOA",
-    "probabilidad": 4.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 16,
-    "numero": 14,
-    "caballo": "CHINITA TRAVIESA",
-    "jinete": "D.CARRASCO",
-    "probabilidad": 5.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 16,
-    "numero": 15,
-    "caballo": "LINDA ALMA",
-    "jinete": "M.MORALES",
-    "probabilidad": 6.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 17,
-    "numero": 1,
-    "caballo": "COMPADRE CRISTIAN",
-    "jinete": "J.VILLABLANCA",
-    "probabilidad": 7.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 17,
-    "numero": 2,
-    "caballo": "MIEL RUBIA",
-    "jinete": "L.C.GONZALEZ",
-    "probabilidad": 6.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 17,
-    "numero": 3,
-    "caballo": "NIETO ESPANOL",
-    "jinete": "R.FUENZALIDA",
-    "probabilidad": 7.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 17,
-    "numero": 4,
-    "caballo": "SECRET DRAGON",
-    "jinete": "P.GALAZ",
-    "probabilidad": 3.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 17,
-    "numero": 5,
-    "caballo": "RED ROJO RED",
-    "jinete": "B.AYALA",
-    "probabilidad": 3.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 17,
-    "numero": 6,
-    "caballo": "IRON SWIM",
-    "jinete": "A.ALVAREZ",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 17,
-    "numero": 7,
-    "caballo": "LO FRANCO",
-    "jinete": "N.SANTIBANEZ",
-    "probabilidad": 3.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 17,
-    "numero": 8,
-    "caballo": "RESISTO BIEN",
-    "jinete": "N.RAMIREZ",
-    "probabilidad": 6.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 17,
-    "numero": 9,
-    "caballo": "EL ORADOR",
-    "jinete": "B.SANCHO",
-    "probabilidad": 11.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 17,
-    "numero": 10,
-    "caballo": "PAILITA DE HUEVO",
-    "jinete": "D.CARVACHO",
-    "probabilidad": 6.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 17,
-    "numero": 11,
-    "caballo": "WONDER WOMAN",
-    "jinete": "M.GUTIERREZ",
-    "probabilidad": 15.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 17,
-    "numero": 12,
-    "caballo": "NO ME PILLA",
-    "jinete": "R.FOURNET",
-    "probabilidad": 6.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 17,
-    "numero": 13,
-    "caballo": "MAXIWARIO",
-    "jinete": "H.OCHOA",
-    "probabilidad": 3.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 17,
-    "numero": 14,
-    "caballo": "NOVATO CONTENTO",
-    "jinete": "N.ROJAS",
+    "caballo": "ME VERAS CAER",
+    "jinete": "F.HENRIQUEZ",
     "probabilidad": 7.6
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 17,
+    "carrera": 1,
     "numero": 15,
-    "caballo": "CITY BLUE",
-    "jinete": "C.BUSTOS",
-    "probabilidad": 3.8
+    "caballo": "RAYO VELOZ",
+    "jinete": "B.AYALA",
+    "probabilidad": 5.8
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 18,
+    "carrera": 10,
     "numero": 1,
-    "caballo": "CAPO AZZURRA",
-    "jinete": "N.SANTIBANEZ",
-    "probabilidad": 14.9
+    "caballo": "COSITA DULCE",
+    "jinete": "N.ROJAS",
+    "probabilidad": 15.6
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 18,
+    "carrera": 10,
     "numero": 2,
-    "caballo": "BADBOY",
-    "jinete": "G.RODRIGUEZ",
-    "probabilidad": 3.4
+    "caballo": "GOLD ESCUDERO",
+    "jinete": "AND.COVARRUBIAS",
+    "probabilidad": 4.2
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 18,
+    "carrera": 10,
     "numero": 3,
-    "caballo": "EL JOKER",
-    "jinete": "B.SANCHO",
-    "probabilidad": 3.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 18,
-    "numero": 4,
-    "caballo": "THE ALFA DOS",
-    "jinete": "J.HERRERA",
-    "probabilidad": 3.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 18,
-    "numero": 5,
-    "caballo": "PRINCESITA CHROME",
-    "jinete": "C.ALEGRIA",
-    "probabilidad": 3.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 18,
-    "numero": 6,
-    "caballo": "ANGELA CLASICA",
-    "jinete": "D.CARVACHO",
-    "probabilidad": 10.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 18,
-    "numero": 7,
-    "caballo": "BLACKCRACK",
-    "jinete": "N.RAMIREZ",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 18,
-    "numero": 8,
-    "caballo": "MI MENCHITA",
-    "jinete": "A.ALVAREZ",
+    "caballo": "SOLO AMIGOS",
+    "jinete": "G.AROS",
     "probabilidad": 3.3
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 18,
-    "numero": 9,
-    "caballo": "TODOS CANTAN",
-    "jinete": "B.TRONCOSO",
-    "probabilidad": 6.7
+    "carrera": 10,
+    "numero": 4,
+    "caballo": "LADY MANU",
+    "jinete": "A.VASQUEZ",
+    "probabilidad": 3.4
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 18,
-    "numero": 10,
-    "caballo": "GOLD DADDY",
+    "carrera": 10,
+    "numero": 5,
+    "caballo": "NUEVO HORIZONTE",
+    "jinete": "M.GUTIERREZ",
+    "probabilidad": 15.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 10,
+    "numero": 6,
+    "caballo": "GRAN VERA",
+    "jinete": "B.SANCHO",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 10,
+    "numero": 7,
+    "caballo": "LYNGOTE",
+    "jinete": "B.AYALA",
+    "probabilidad": 3.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 10,
+    "numero": 8,
+    "caballo": "PAQUETE PLATICO",
     "jinete": "R.FUENZALIDA",
-    "probabilidad": 3.6
+    "probabilidad": 15.1
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 18,
+    "carrera": 10,
+    "numero": 9,
+    "caballo": "CITY BLUE",
+    "jinete": "C.BUSTOS",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 10,
+    "numero": 10,
+    "caballo": "YAMACH",
+    "jinete": "F.MEDINA",
+    "probabilidad": 15.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 10,
     "numero": 11,
-    "caballo": "NOSECOMPARE",
-    "jinete": "J.TORO",
-    "probabilidad": 9.2
+    "caballo": "RUCCO",
+    "jinete": "T.SEITH",
+    "probabilidad": 4.8
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 18,
+    "carrera": 10,
     "numero": 12,
-    "caballo": "MENTE BRILLANTE",
-    "jinete": "N.MOLINA",
+    "caballo": "EL GRAN MENOTTI",
+    "jinete": "D.CARVACHO",
     "probabilidad": 3.8
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 18,
+    "carrera": 10,
     "numero": 13,
-    "caballo": "JIMBO",
-    "jinete": "A.VASQUEZ",
-    "probabilidad": 15.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 18,
-    "numero": 14,
-    "caballo": "BRUNO EL TERRIBLE",
-    "jinete": "M.GUTIERREZ",
-    "probabilidad": 14.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 19,
-    "numero": 1,
-    "caballo": "TATUADOR",
-    "jinete": "H.OCHOA",
-    "probabilidad": 19.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 19,
-    "numero": 2,
-    "caballo": "NOB",
-    "jinete": "G.RODRIGUEZ",
-    "probabilidad": 8.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 19,
-    "numero": 3,
-    "caballo": "NAVIDAD VELOZ",
-    "jinete": "AND. COVARRUBIAS",
-    "probabilidad": 5.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 19,
-    "numero": 4,
-    "caballo": "FIRST POINT'S",
-    "jinete": "B.SANCHO",
-    "probabilidad": 12.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 19,
-    "numero": 5,
-    "caballo": "VIDA SABROSA",
-    "jinete": "M.GUTIERREZ",
-    "probabilidad": 5.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 19,
-    "numero": 6,
-    "caballo": "FAST PATTERN",
-    "jinete": "J.HERRERA",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 19,
-    "numero": 7,
-    "caballo": "SUNAM",
-    "jinete": "JO.A.GONZALEZ",
-    "probabilidad": 11.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 19,
-    "numero": 8,
-    "caballo": "PARA TI",
-    "jinete": "O.ULLOA",
-    "probabilidad": 4.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 19,
-    "numero": 9,
-    "caballo": "KATARA JOY",
-    "jinete": "M.GALAZ",
-    "probabilidad": 4.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 19,
-    "numero": 10,
-    "caballo": "SUPER FLY",
-    "jinete": "R.PAINEN",
-    "probabilidad": 4.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 19,
-    "numero": 11,
-    "caballo": "KOCCIA",
-    "jinete": "R.CISTERNAS",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 19,
-    "numero": 12,
-    "caballo": "BLESSED",
-    "jinete": "J.TORO",
-    "probabilidad": 4.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 19,
-    "numero": 13,
-    "caballo": "EL AMIGO",
-    "jinete": "T.SEITH",
-    "probabilidad": 4.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 19,
-    "numero": 14,
-    "caballo": "SILENE",
+    "caballo": "LEYSKA",
     "jinete": "N.RAMIREZ",
-    "probabilidad": 4.2
+    "probabilidad": 3.4
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 19,
-    "numero": 15,
-    "caballo": "AMBROSE",
+    "carrera": 11,
+    "numero": 1,
+    "caballo": "MACALLAN",
     "jinete": "B.TRONCOSO",
-    "probabilidad": 4.2
+    "probabilidad": 13.0
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 2,
-    "numero": 1,
-    "caballo": "ANGEL EN EL CIELO",
-    "jinete": "A.ALVAREZ",
-    "probabilidad": 5.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 2,
+    "carrera": 11,
     "numero": 2,
-    "caballo": "GRANDE TATA REY",
-    "jinete": "G.AROS",
-    "probabilidad": 5.5
+    "caballo": "NIETO ESPANOL",
+    "jinete": "R.FUENZALIDA",
+    "probabilidad": 5.2
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 2,
+    "carrera": 11,
     "numero": 3,
-    "caballo": "TEEN WOLF",
-    "jinete": "J.EYZAGUIRRE",
-    "probabilidad": 6.1
+    "caballo": "KRAVEN",
+    "jinete": "F.MEDINA",
+    "probabilidad": 6.3
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 2,
+    "carrera": 11,
     "numero": 4,
-    "caballo": "DON CACHAFAZ",
-    "jinete": "C.ORTEGA",
-    "probabilidad": 7.1
+    "caballo": "GRAN HORUS",
+    "jinete": "V.MIRANDA",
+    "probabilidad": 23.4
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 2,
+    "carrera": 11,
     "numero": 5,
-    "caballo": "NIHUIL",
-    "jinete": "N.RAMIREZ",
-    "probabilidad": 4.1
+    "caballo": "PIBE CANTINA",
+    "jinete": "B.SANCHO",
+    "probabilidad": 15.0
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 2,
+    "carrera": 11,
     "numero": 6,
+    "caballo": "AMPUERO",
+    "jinete": "G.AROS",
+    "probabilidad": 24.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 11,
+    "numero": 7,
+    "caballo": "GUACHACA",
+    "jinete": "M.GALAZ",
+    "probabilidad": 5.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 11,
+    "numero": 8,
+    "caballo": "THE LAWYER",
+    "jinete": "R.FOURNET",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 12,
+    "numero": 1,
+    "caballo": "RIDE LIKE A GIRL",
+    "jinete": "J.MEDINA",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 12,
+    "numero": 2,
+    "caballo": "SKY ARMY",
+    "jinete": "O.ULLOA",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 12,
+    "numero": 3,
+    "caballo": "LA REFALOSA",
+    "jinete": "I.VALDIVIA",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 12,
+    "numero": 4,
+    "caballo": "CHICA DE LA PALMA",
+    "jinete": "B.TRONCOSO",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 12,
+    "numero": 5,
+    "caballo": "TAO AWAY",
+    "jinete": "B.LEON",
+    "probabilidad": 31.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 12,
+    "numero": 6,
+    "caballo": "ALBA BRAVA",
+    "jinete": "G.AROS",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 12,
+    "numero": 7,
+    "caballo": "EYWA",
+    "jinete": "H.OCHOA",
+    "probabilidad": 9.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 12,
+    "numero": 8,
+    "caballo": "VOLAR SIN ALAS",
+    "jinete": "F.HENRIQUEZ",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 12,
+    "numero": 9,
+    "caballo": "AHORA QUIZAS",
+    "jinete": "J.ZUNIGA",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 12,
+    "numero": 10,
+    "caballo": "MISIA NONI",
+    "jinete": "A.ALVAREZ",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 13,
+    "numero": 1,
+    "caballo": "PAPITO ALFREDO",
+    "jinete": "L.VALDIVIA",
+    "probabilidad": 20.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 13,
+    "numero": 2,
+    "caballo": "SIETE DEL NUEVE",
+    "jinete": "C.BUSTOS",
+    "probabilidad": 4.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 13,
+    "numero": 3,
+    "caballo": "LACHITO",
+    "jinete": "R.PAINEN",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 13,
+    "numero": 4,
+    "caballo": "PAYBACK",
+    "jinete": "D.SANCHEZ",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 13,
+    "numero": 5,
+    "caballo": "CHINO MATADOR",
+    "jinete": "A.VASQUEZ",
+    "probabilidad": 4.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 13,
+    "numero": 6,
+    "caballo": "EXIJO RESPETO",
+    "jinete": "C.ORTEGA",
+    "probabilidad": 5.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 13,
+    "numero": 7,
+    "caballo": "THE WIND",
+    "jinete": "B.SANCHO",
+    "probabilidad": 4.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 13,
+    "numero": 8,
+    "caballo": "ESTERIOS",
+    "jinete": "W.LEON",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 13,
+    "numero": 9,
+    "caballo": "ISIDORA MIA",
+    "jinete": "A.APABLAZA",
+    "probabilidad": 12.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 13,
+    "numero": 10,
+    "caballo": "PANCHO MALO",
+    "jinete": "P.ZUNIGA",
+    "probabilidad": 4.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 13,
+    "numero": 11,
+    "caballo": "ENSENAME",
+    "jinete": "R.ARAYA",
+    "probabilidad": 4.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 13,
+    "numero": 12,
+    "caballo": "QUINTILA",
+    "jinete": "M.GUTIERREZ",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 13,
+    "numero": 13,
+    "caballo": "DEEBA SPIRIT",
+    "jinete": "R.CISTERNAS",
+    "probabilidad": 12.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 14,
+    "numero": 1,
+    "caballo": "KING EOLO",
+    "jinete": "P.GALAZ",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 14,
+    "numero": 2,
     "caballo": "PEDERNALES",
     "jinete": "M.GALAZ",
     "probabilidad": 4.1
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 2,
-    "numero": 7,
-    "caballo": "PELAO PELAO",
-    "jinete": "P.REYES",
-    "probabilidad": 4.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 2,
-    "numero": 8,
-    "caballo": "BELLO BIJOU",
-    "jinete": "R.FOURNET",
-    "probabilidad": 18.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 2,
-    "numero": 9,
-    "caballo": "GRAND PA LINDO",
-    "jinete": "LVALDIVIA",
-    "probabilidad": 7.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 2,
-    "numero": 10,
-    "caballo": "MIGUEL ANGEL NOMAS",
-    "jinete": "P.GALAZ",
-    "probabilidad": 5.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 2,
-    "numero": 11,
-    "caballo": "THE LYON BLUE",
-    "jinete": "B.GONZALEZ",
-    "probabilidad": 6.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 2,
-    "numero": 12,
-    "caballo": "TEMPLE DEL TOQUE",
-    "jinete": "B.AYALA",
-    "probabilidad": 5.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 2,
-    "numero": 13,
-    "caballo": "ASTON",
-    "jinete": "J.M.SOTO",
-    "probabilidad": 10.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 2,
-    "numero": 14,
-    "caballo": "MI BELLO MILAN",
-    "jinete": "JO.A.GONZALEZ",
-    "probabilidad": 6.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 2,
-    "numero": 15,
-    "caballo": "ORIONISTA",
-    "jinete": "J.HERRERA",
-    "probabilidad": 4.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 20,
-    "numero": 1,
-    "caballo": "FRIDAY",
-    "jinete": "G.AROS",
-    "probabilidad": 6.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 20,
-    "numero": 2,
-    "caballo": "TERRIBLE BRUNO",
-    "jinete": "R.PAINEN",
-    "probabilidad": 11.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 20,
+    "carrera": 14,
     "numero": 3,
-    "caballo": "LUCIA DE SIRACUSA",
-    "jinete": "B.TRONCOSO",
-    "probabilidad": 4.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 20,
-    "numero": 4,
-    "caballo": "REINA MARGARET",
-    "jinete": "J.HERRERA",
-    "probabilidad": 3.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 20,
-    "numero": 5,
-    "caballo": "PERO PEDRO",
-    "jinete": "D.CARRASCO",
-    "probabilidad": 7.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 20,
-    "numero": 6,
-    "caballo": "CICARELLI",
-    "jinete": "JO.A.GONZALEZ",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 20,
-    "numero": 7,
-    "caballo": "JAVIERA CONSTANZA",
-    "jinete": "N.SANTIBANEZ",
-    "probabilidad": 9.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 20,
-    "numero": 8,
-    "caballo": "COSTAMIA",
-    "jinete": "A.VASQUEZ",
-    "probabilidad": 7.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 20,
-    "numero": 9,
-    "caballo": "SHOW PAINT",
-    "jinete": "R.ARAYA",
-    "probabilidad": 15.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 20,
-    "numero": 10,
-    "caballo": "ZULEMA ZAHIR",
-    "jinete": "M.A.BUSTAMANTE",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 20,
-    "numero": 11,
-    "caballo": "CALIFORNIA DADDY",
-    "jinete": "N.ROJAS",
-    "probabilidad": 6.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 20,
-    "numero": 12,
-    "caballo": "PROFESSIONALS",
-    "jinete": "J.EYZAGUIRRE",
-    "probabilidad": 5.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 20,
-    "numero": 13,
-    "caballo": "CLASSIC FORM",
-    "jinete": "G.RODRIGUEZ",
-    "probabilidad": 6.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 20,
-    "numero": 14,
-    "caballo": "TROYANA",
-    "jinete": "J.SOLANO",
-    "probabilidad": 6.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 20,
-    "numero": 15,
-    "caballo": "ATRAQUELE COMPADRE",
-    "jinete": "D.SANCHEZ",
+    "caballo": "HEY DJ",
+    "jinete": "B.LEON",
     "probabilidad": 3.7
   },
   {
-    "fecha": "2026-01-15",
+    "fecha": "2026-01-17",
     "hipodromo": "Hipódromo Chile",
-    "carrera": 21,
-    "numero": 1,
-    "caballo": "EL KEMAO",
-    "jinete": "T.SEITH",
-    "probabilidad": 9.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 21,
-    "numero": 2,
-    "caballo": "QUIERO RE TRUCO",
-    "jinete": "J.HERRERA",
-    "probabilidad": 4.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 21,
-    "numero": 3,
-    "caballo": "UN GUARITO",
-    "jinete": "A.VASQUEZ",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 21,
-    "numero": 4,
-    "caballo": "APOLINARIO",
-    "jinete": "O.ULLOA",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 21,
-    "numero": 5,
-    "caballo": "THE ARION",
-    "jinete": "H.OCHOA",
-    "probabilidad": 4.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 21,
-    "numero": 6,
-    "caballo": "SINESIO",
-    "jinete": "L.C.GONZALEZ",
-    "probabilidad": 4.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 21,
-    "numero": 7,
-    "caballo": "TERRIBLE PANCHO",
-    "jinete": "D.CARVACHO",
-    "probabilidad": 10.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 21,
-    "numero": 8,
-    "caballo": "LUZ OCULTA",
-    "jinete": "L.TORRES",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 21,
-    "numero": 9,
-    "caballo": "LUCIANITA",
-    "jinete": "A.APABLAZA",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 21,
-    "numero": 10,
-    "caballo": "LES FONTS D'ALGAR",
-    "jinete": "C.ORTEGA",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 21,
-    "numero": 11,
-    "caballo": "NO VUELVO MAS",
-    "jinete": "J.MINO",
-    "probabilidad": 4.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 21,
-    "numero": 12,
-    "caballo": "VILLETA",
-    "jinete": "J.TORO",
-    "probabilidad": 9.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 21,
-    "numero": 13,
-    "caballo": "SOY BUSHIDO",
-    "jinete": "G.AROS",
-    "probabilidad": 18.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 21,
-    "numero": 14,
-    "caballo": "FASTLOVE",
-    "jinete": "M.MORALES",
-    "probabilidad": 9.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 21,
-    "numero": 15,
-    "caballo": "GOOD PARTNER",
-    "jinete": "L.MENGHINI",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 3,
-    "numero": 1,
-    "caballo": "AL CONTADO",
-    "jinete": "LVALDIVIA",
-    "probabilidad": 6.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 3,
-    "numero": 2,
-    "caballo": "LUSSO",
-    "jinete": "A.ALVAREZ",
-    "probabilidad": 29.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 3,
-    "numero": 3,
-    "caballo": "ZULTHAN",
-    "jinete": "F.MEDINA",
-    "probabilidad": 17.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 3,
-    "numero": 4,
-    "caballo": "LOS BISNIETOS",
-    "jinete": "L.TORRES",
-    "probabilidad": 6.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 3,
-    "numero": 5,
-    "caballo": "NO ME DICE NADA",
-    "jinete": "B.SANCHO",
-    "probabilidad": 8.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 3,
-    "numero": 6,
-    "caballo": "STAVOS",
-    "jinete": "AND.COVARRUBIAS",
-    "probabilidad": 17.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 3,
-    "numero": 7,
-    "caballo": "YESERAYE",
-    "jinete": "R.FOURNET",
-    "probabilidad": 6.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 3,
-    "numero": 8,
-    "caballo": "COCHEPE",
-    "jinete": "N.RAMIREZ",
-    "probabilidad": 8.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 4,
-    "numero": 1,
-    "caballo": "VITA KC",
-    "jinete": "B.SANCHO",
-    "probabilidad": 9.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 4,
-    "numero": 2,
-    "caballo": "BONITA FLOR",
-    "jinete": "N.SANTIBANEZ",
-    "probabilidad": 5.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 4,
-    "numero": 3,
-    "caballo": "POP VISION",
-    "jinete": "N.MOLINA",
-    "probabilidad": 5.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 4,
-    "numero": 4,
-    "caballo": "BETONE",
-    "jinete": "N.ROJAS",
-    "probabilidad": 5.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 4,
-    "numero": 5,
-    "caballo": "MANO DE BRONCE",
-    "jinete": "LURREJOIA",
-    "probabilidad": 5.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 4,
-    "numero": 6,
-    "caballo": "MARIA CAMILA",
-    "jinete": "R.ARAYA",
-    "probabilidad": 5.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 4,
-    "numero": 7,
-    "caballo": "NANVERQUI",
-    "jinete": "F.MEDINA",
-    "probabilidad": 6.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 4,
-    "numero": 8,
-    "caballo": "VAN DER SAR",
-    "jinete": "J.PIMENTEL",
-    "probabilidad": 4.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 4,
-    "numero": 9,
-    "caballo": "BLESS WHITE LEGS",
-    "jinete": "B.TRONCOSO",
-    "probabilidad": 5.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 4,
-    "numero": 10,
-    "caballo": "LIMITLESS",
-    "jinete": "D.SANCHEZ",
-    "probabilidad": 18.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 4,
-    "numero": 11,
-    "caballo": "RESILIENTE GETS",
-    "jinete": "P.ZUNIGA",
-    "probabilidad": 11.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 4,
-    "numero": 12,
-    "caballo": "QUE HICE MAL",
-    "jinete": "LC.GONZALEZ",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 4,
-    "numero": 13,
-    "caballo": "SATISFY MY SOUL",
-    "jinete": "R.FUENZALIDA",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 4,
-    "numero": 14,
-    "caballo": "ENTRATE NUNCA",
-    "jinete": "L.MENGHINI",
-    "probabilidad": 9.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 5,
-    "numero": 1,
-    "caballo": "ALFONSO EL GRANDE",
-    "jinete": "N.MOLINA",
-    "probabilidad": 6.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 5,
-    "numero": 2,
-    "caballo": "LUCRECIO",
-    "jinete": "F.MEDINA",
-    "probabilidad": 6.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 5,
-    "numero": 3,
-    "caballo": "SEVEN POINTS",
-    "jinete": "J.CUETO",
-    "probabilidad": 4.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 5,
+    "carrera": 14,
     "numero": 4,
     "caballo": "EL GAGUI",
-    "jinete": "N.SANTIBANEZ",
-    "probabilidad": 6.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 5,
-    "numero": 5,
-    "caballo": "NESHELY QUASHELY",
-    "jinete": "C.ORTEGA",
-    "probabilidad": 6.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 5,
-    "numero": 6,
-    "caballo": "POR FORTUNA",
-    "jinete": "O.ULLOA",
-    "probabilidad": 5.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 5,
-    "numero": 7,
-    "caballo": "REAL ENVIDO",
-    "jinete": "N.ROJAS",
-    "probabilidad": 9.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 5,
-    "numero": 8,
-    "caballo": "DON TATO",
-    "jinete": "J.EYZAGUIRRE",
-    "probabilidad": 17.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 5,
-    "numero": 9,
-    "caballo": "GRAND LUCHO",
-    "jinete": "M.MORALES",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 5,
-    "numero": 10,
-    "caballo": "NEGRO ROMERO",
-    "jinete": "G.RODRIGUEZ",
-    "probabilidad": 5.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 5,
-    "numero": 11,
-    "caballo": "TODOS MIENTEN",
-    "jinete": "R.FOURNET",
-    "probabilidad": 3.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 5,
-    "numero": 12,
-    "caballo": "TEATRO GRIEGO",
-    "jinete": "D.SANCHEZ",
-    "probabilidad": 4.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 5,
-    "numero": 13,
-    "caballo": "BIRD RITAN",
-    "jinete": "A.ALVAREZ",
-    "probabilidad": 12.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 5,
-    "numero": 14,
-    "caballo": "MAXIMUS MATIAS",
-    "jinete": "J.HERRERA",
-    "probabilidad": 7.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 6,
-    "numero": 1,
-    "caballo": "RIO SERRANO",
-    "jinete": "L.TORRES",
-    "probabilidad": 18.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 6,
-    "numero": 2,
-    "caballo": "GOGOL",
-    "jinete": "J.A.GONZALEZ",
-    "probabilidad": 7.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 6,
-    "numero": 3,
-    "caballo": "GIANCARLO",
-    "jinete": "A.VASQUEZ",
-    "probabilidad": 8.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 6,
-    "numero": 4,
-    "caballo": "JEREZANO",
-    "jinete": "T.SEITH",
-    "probabilidad": 17.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 6,
-    "numero": 5,
-    "caballo": "AQUIMBAO",
-    "jinete": "I.VALDIVIA",
-    "probabilidad": 25.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 6,
-    "numero": 6,
-    "caballo": "MALANDRO",
-    "jinete": "B.TRONCOSO",
-    "probabilidad": 8.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 6,
-    "numero": 7,
-    "caballo": "ENSENAME",
-    "jinete": "R.CISTERNAS",
-    "probabilidad": 7.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 6,
-    "numero": 8,
-    "caballo": "LABURADOR",
-    "jinete": "D.CARVACHO",
-    "probabilidad": 5.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 7,
-    "numero": 1,
-    "caballo": "ROMAN WAR",
-    "jinete": "JO.A.GONZALEZ",
-    "probabilidad": 5.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 7,
-    "numero": 2,
-    "caballo": "BHADRAK",
-    "jinete": "AND.COVARRUBIAS",
-    "probabilidad": 2.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 7,
-    "numero": 3,
-    "caballo": "MANGINO",
-    "jinete": "R.CISTERNAS",
-    "probabilidad": 8.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 7,
-    "numero": 4,
-    "caballo": "ALAJJA",
-    "jinete": "N.SANTIBANEZ",
-    "probabilidad": 13.6
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 7,
-    "numero": 5,
-    "caballo": "DIFFERENZA",
-    "jinete": "N.ROJAS",
-    "probabilidad": 3.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 7,
-    "numero": 6,
-    "caballo": "INFINITO VIAJE",
-    "jinete": "R.FUENZALIDA",
-    "probabilidad": 3.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 7,
-    "numero": 7,
-    "caballo": "JUNTITOS SIEMPRE",
-    "jinete": "P.ZUNIGA",
-    "probabilidad": 3.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 7,
-    "numero": 8,
-    "caballo": "MI SOLCITO",
-    "jinete": "J.SOLANO",
-    "probabilidad": 8.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 7,
-    "numero": 9,
-    "caballo": "BEBETIAN",
-    "jinete": "L.C.GONZALEZ",
-    "probabilidad": 8.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 7,
-    "numero": 10,
-    "caballo": "CHILLY WILLY",
-    "jinete": "N.MOLINA",
-    "probabilidad": 6.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 7,
-    "numero": 11,
-    "caballo": "SENORITA JERICO",
-    "jinete": "J.TORO",
-    "probabilidad": 3.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 7,
-    "numero": 12,
-    "caballo": "REDQUIVER",
-    "jinete": "B.SANCHO",
-    "probabilidad": 7.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 7,
-    "numero": 13,
-    "caballo": "MESTIZA FLOR",
-    "jinete": "M.GUTIERREZ",
-    "probabilidad": 7.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 7,
-    "numero": 14,
-    "caballo": "CANOVANAS",
-    "jinete": "C.BUSTOS",
-    "probabilidad": 10.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 7,
-    "numero": 15,
-    "caballo": "EXAGERADA Y BUENA",
-    "jinete": "N.VENEGAS",
-    "probabilidad": 8.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 8,
-    "numero": 1,
-    "caballo": "ALISHEBA",
-    "jinete": "B.TRONCOSO",
-    "probabilidad": 18.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 8,
-    "numero": 2,
-    "caballo": "MAGOSHISHA",
-    "jinete": "N.MOLINA",
-    "probabilidad": 4.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 8,
-    "numero": 3,
-    "caballo": "SENA PAGADA",
-    "jinete": "R.PAINEN",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 8,
-    "numero": 4,
-    "caballo": "DONNA MARIA",
-    "jinete": "G.RODRIGUEZ",
-    "probabilidad": 18.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 8,
-    "numero": 5,
-    "caballo": "MUAK",
-    "jinete": "D.SANCHEZ",
-    "probabilidad": 18.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 8,
-    "numero": 6,
-    "caballo": "NARANJITA DULCE",
-    "jinete": "M.GALAZ",
-    "probabilidad": 4.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 8,
-    "numero": 7,
-    "caballo": "SEMINARE",
-    "jinete": "J.HERRERA",
-    "probabilidad": 4.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 8,
-    "numero": 8,
-    "caballo": "COSTA Y PAMPA",
-    "jinete": "I.VALDIVIA",
-    "probabilidad": 4.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 8,
-    "numero": 9,
-    "caballo": "LADY KINGLY",
-    "jinete": "O.ULLOA",
-    "probabilidad": 4.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 8,
-    "numero": 10,
-    "caballo": "MISS KINGLY",
-    "jinete": "R.FOURNET",
-    "probabilidad": 4.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 8,
-    "numero": 11,
-    "caballo": "TRATA DE CAMBIAR",
-    "jinete": "B.SANCHO",
-    "probabilidad": 4.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 8,
-    "numero": 12,
-    "caballo": "SUENA FELIZ",
-    "jinete": "R.FUENZALIDA",
-    "probabilidad": 4.8
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 8,
-    "numero": 13,
-    "caballo": "BADRA",
-    "jinete": "M.GUTIERREZ",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 9,
-    "numero": 1,
-    "caballo": "MISTER HIRABOKU",
-    "jinete": "L.TORRES",
-    "probabilidad": 10.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 9,
-    "numero": 2,
-    "caballo": "RECHAZADO",
-    "jinete": "JO.A. GONZALEZ",
-    "probabilidad": 6.0
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 9,
-    "numero": 3,
-    "caballo": "LERICI",
-    "jinete": "W.LEON",
-    "probabilidad": 5.5
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 9,
-    "numero": 4,
-    "caballo": "PLATON",
-    "jinete": "SEB.GONZALEZ",
-    "probabilidad": 5.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 9,
-    "numero": 5,
-    "caballo": "SIMPLEMENTE SOY",
-    "jinete": "A.VASQUEZ",
-    "probabilidad": 5.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 9,
-    "numero": 6,
-    "caballo": "EL BATEY",
-    "jinete": "J.MEDINA",
-    "probabilidad": 9.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 9,
-    "numero": 7,
-    "caballo": "PAMPEADO",
-    "jinete": "N.MOLINA",
-    "probabilidad": 5.3
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 9,
-    "numero": 8,
-    "caballo": "ALARIDO",
-    "jinete": "N.RAMIREZ",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 9,
-    "numero": 9,
-    "caballo": "BISCOTTINO",
-    "jinete": "J.TORO",
-    "probabilidad": 13.7
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 9,
-    "numero": 10,
-    "caballo": "GIANDANI",
-    "jinete": "L.VALDIVIA",
-    "probabilidad": 5.4
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 9,
-    "numero": 11,
-    "caballo": "PRESENTE CHA",
-    "jinete": "L.C.GONZALEZ",
-    "probabilidad": 5.1
-  },
-  {
-    "fecha": "2026-01-15",
-    "hipodromo": "Hipódromo Chile",
-    "carrera": 9,
-    "numero": 12,
-    "caballo": "MOREAU",
-    "jinete": "J.TORO",
-    "probabilidad": 24.0
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 1,
-    "numero": 1,
-    "caballo": "MAGNUS AURELIUS",
-    "jinete": "B. AYALA",
-    "probabilidad": 5.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 1,
-    "numero": 2,
-    "caballo": "NO TIENE PALABRA",
-    "jinete": "R. AVILA",
-    "probabilidad": 4.1
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 1,
-    "numero": 3,
-    "caballo": "TANGERINE TANGO",
-    "jinete": "T. SEITH",
-    "probabilidad": 7.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 1,
-    "numero": 4,
-    "caballo": "DOMINGO ISLEÑO",
-    "jinete": "JS. VILLABLANCA",
-    "probabilidad": 5.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 1,
-    "numero": 5,
-    "caballo": "PEDRINHO",
-    "jinete": "JR. A. MORA",
-    "probabilidad": 4.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 1,
-    "numero": 6,
-    "caballo": "VAI BENE COSI",
-    "jinete": "V. BRACETTI",
-    "probabilidad": 4.1
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 1,
-    "numero": 7,
-    "caballo": "ACLIS",
-    "jinete": "JS. PAREDES",
-    "probabilidad": 19.0
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 1,
-    "numero": 8,
-    "caballo": "CONOCIENDOTE",
-    "jinete": "G. RODRIGUEZ",
-    "probabilidad": 4.1
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 1,
-    "numero": 9,
-    "caballo": "NIÑO SEXY(R-4)",
-    "jinete": "R. CISTERNAS",
-    "probabilidad": 8.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 1,
-    "numero": 10,
-    "caballo": "FELIPHON",
-    "jinete": "H. OCHOA",
-    "probabilidad": 5.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 1,
-    "numero": 11,
-    "caballo": "SAHOURIYE",
-    "jinete": "M. A. BUSTAMANTE",
-    "probabilidad": 4.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 1,
-    "numero": 12,
-    "caballo": "RUCIA DEL DOC",
-    "jinete": "B. TRONCOSO",
-    "probabilidad": 5.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 1,
-    "numero": 13,
-    "caballo": "MUY TEMPERADA",
-    "jinete": "JOH. GONZALEZ",
-    "probabilidad": 4.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 1,
-    "numero": 14,
-    "caballo": "QUEEN ANY",
-    "jinete": "J. REYES",
-    "probabilidad": 6.1
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 1,
-    "numero": 15,
-    "caballo": "SOBRAO DE CARIÑO",
-    "jinete": "R. FUENZALIDA",
-    "probabilidad": 10.7
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 10,
-    "numero": 1,
-    "caballo": "OJO DE HALCON",
-    "jinete": "J. MEDINA",
-    "probabilidad": 5.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 10,
-    "numero": 2,
-    "caballo": "QUE TERRIBLE",
-    "jinete": "JOH. GONZALEZ",
-    "probabilidad": 10.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 10,
-    "numero": 3,
-    "caballo": "AGUILA DE FUEGO",
-    "jinete": "N. RAMIREZ",
-    "probabilidad": 5.7
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 10,
-    "numero": 4,
-    "caballo": "LA CHIPRIOTA",
-    "jinete": "N. SANTIBAÑEZ",
-    "probabilidad": 24.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 10,
-    "numero": 5,
-    "caballo": "RECHIFLAO",
-    "jinete": "N. MOLINA",
-    "probabilidad": 5.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 10,
-    "numero": 6,
-    "caballo": "LA PURA FE",
-    "jinete": "JS. CUETO",
-    "probabilidad": 5.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 10,
-    "numero": 7,
-    "caballo": "LITTLE GASPI",
-    "jinete": "GVO. ARES",
-    "probabilidad": 5.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 10,
-    "numero": 8,
-    "caballo": "LLUVIA DE ENERO",
-    "jinete": "A. ALVAREZ",
-    "probabilidad": 5.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 10,
-    "numero": 9,
-    "caballo": "MONARCA",
-    "jinete": "B. SANCHO",
-    "probabilidad": 9.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 10,
-    "numero": 10,
-    "caballo": "MANCHITA DEL NUBLE",
-    "jinete": "R. FUENZALIDA",
-    "probabilidad": 9.7
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 10,
-    "numero": 11,
-    "caballo": "CARIÑOSITO",
-    "jinete": "R. S. DORES",
-    "probabilidad": 11.7
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 11,
-    "numero": 1,
-    "caballo": "PRETTY DISTORTED",
-    "jinete": "H. OCHOA",
-    "probabilidad": 6.4
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 11,
-    "numero": 2,
-    "caballo": "GOOD DECISIONS",
-    "jinete": "SEB. GONZALEZ",
-    "probabilidad": 6.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 11,
-    "numero": 3,
-    "caballo": "REINA EGIPCIA",
-    "jinete": "JOH. GONZALEZ",
-    "probabilidad": 29.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 11,
-    "numero": 4,
-    "caballo": "SANDIA",
-    "jinete": "L. VALDIVIA",
-    "probabilidad": 6.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 11,
-    "numero": 5,
-    "caballo": "SORRISI",
-    "jinete": "J. MEDINA",
-    "probabilidad": 6.4
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 11,
-    "numero": 6,
-    "caballo": "LADY ARANTZA(R-3)",
-    "jinete": "M. MORALES",
-    "probabilidad": 7.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 11,
-    "numero": 7,
-    "caballo": "BEIJING CRISTAL",
-    "jinete": "R. CISTERNAS",
-    "probabilidad": 6.7
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 11,
-    "numero": 8,
-    "caballo": "LADY IN BLACK",
-    "jinete": "J. HERRERA",
-    "probabilidad": 8.1
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 11,
-    "numero": 9,
-    "caballo": "DIANKA(R-3)",
-    "jinete": "B. LEON",
-    "probabilidad": 6.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 11,
-    "numero": 10,
-    "caballo": "NAHUEN",
-    "jinete": "G. RODRIGUEZ",
-    "probabilidad": 15.7
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 1,
-    "caballo": "EL BIGOTE",
-    "jinete": "A. ALVAREZ",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 2,
-    "caballo": "PERFECTA ACTITUD",
-    "jinete": "JS. VILLABLANCA",
-    "probabilidad": 3.7
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 3,
-    "caballo": "MINONI",
-    "jinete": "R. AVILA",
-    "probabilidad": 3.7
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 4,
-    "caballo": "PACIFICADOR",
-    "jinete": "JOH. GONZALEZ",
-    "probabilidad": 3.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 5,
-    "caballo": "TANGO Y COMPAS",
-    "jinete": "SEB. GONZALEZ",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 6,
-    "caballo": "EL NENE",
-    "jinete": "N. MOLINA",
-    "probabilidad": 8.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 7,
-    "caballo": "EL LEGENDARIO",
-    "jinete": "G. RODRIGUEZ",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 8,
-    "caballo": "RAPILLANA",
-    "jinete": "M. CHAMORRO",
-    "probabilidad": 3.7
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 9,
-    "caballo": "JE T'AIME",
-    "jinete": "C. ORTEGA",
-    "probabilidad": 3.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 10,
-    "caballo": "SIN APUROS(R-3)",
-    "jinete": "R. S. DORES",
-    "probabilidad": 3.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 11,
-    "caballo": "NIÑITA POR DIOS",
-    "jinete": "GVA. AROS",
-    "probabilidad": 6.4
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 12,
-    "caballo": "GOLFISTA",
-    "jinete": "J. HERRERA",
-    "probabilidad": 3.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 13,
-    "caballo": "ELMITA",
-    "jinete": "B. SANCHO",
-    "probabilidad": 10.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 14,
-    "caballo": "EL BOHEMIO",
-    "jinete": "B. TRONCOSO",
-    "probabilidad": 14.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 15,
-    "caballo": "TARUGUITA",
-    "jinete": "JR. ZUÑIGA",
-    "probabilidad": 15.0
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 12,
-    "numero": 16,
-    "caballo": "EXTROVERTIDA",
-    "jinete": "R. LOYOLA",
-    "probabilidad": 8.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 13,
-    "numero": 1,
-    "caballo": "MATE AMARGO",
-    "jinete": "R. PAINEN",
+    "jinete": "F.MORALES",
     "probabilidad": 4.7
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 13,
-    "numero": 2,
-    "caballo": "TIGRO (ARG)",
-    "jinete": "T. SEITH",
-    "probabilidad": 5.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 13,
-    "numero": 3,
-    "caballo": "RAIRET",
-    "jinete": "B. TRONCOSO",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 13,
-    "numero": 4,
-    "caballo": "SECUENCIA PERFECTA",
-    "jinete": "R. FUENZALIDA",
-    "probabilidad": 13.7
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 13,
-    "numero": 5,
-    "caballo": "YO SOY YI",
-    "jinete": "R. LOYOLA",
-    "probabilidad": 21.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 13,
-    "numero": 6,
-    "caballo": "DON GIORGIO",
-    "jinete": "G. RODRIGUEZ",
-    "probabilidad": 4.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 13,
-    "numero": 7,
-    "caballo": "CRANS MONTANA",
-    "jinete": "J. HERRERA",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 13,
-    "numero": 8,
-    "caballo": "FRENCH CANDY",
-    "jinete": "JS. CUETO",
-    "probabilidad": 5.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 13,
-    "numero": 9,
-    "caballo": "SORELLA DEL KING",
-    "jinete": "J. MEDINA",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 13,
-    "numero": 10,
-    "caballo": "HIER ANCORE",
-    "jinete": "R. CISTERNAS",
-    "probabilidad": 8.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 13,
-    "numero": 11,
-    "caballo": "TEA AND MILK",
-    "jinete": "R. AVILA",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 13,
-    "numero": 12,
-    "caballo": "MY RICHARD",
-    "jinete": "P. REYES",
-    "probabilidad": 12.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 13,
-    "numero": 13,
-    "caballo": "RAUCO",
-    "jinete": "JR. A. GONZALEZ",
-    "probabilidad": 5.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 14,
-    "numero": 1,
-    "caballo": "SIETE DE ABRIL",
-    "jinete": "H. OCHOA",
-    "probabilidad": 4.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 14,
-    "numero": 2,
-    "caballo": "ONIX BLUE",
-    "jinete": "N. RAMIREZ",
-    "probabilidad": 7.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 14,
-    "numero": 3,
-    "caballo": "SATOSHI",
-    "jinete": "A. ALVAREZ",
-    "probabilidad": 7.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 14,
-    "numero": 4,
-    "caballo": "LOU ARMSTRONG",
-    "jinete": "JR. ZUÑIGA",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
     "carrera": 14,
     "numero": 5,
-    "caballo": "SEÑOR AMANTE",
-    "jinete": "N. MOLINA",
-    "probabilidad": 7.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 14,
-    "numero": 6,
-    "caballo": "LA ABU(R-2)",
-    "jinete": "SEB. GONZALEZ",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 14,
-    "numero": 7,
-    "caballo": "ARAKI",
-    "jinete": "A. PADOVANI E.",
+    "caballo": "RABIOSO PELAO",
+    "jinete": "(NOCORRE)",
     "probabilidad": 10.6
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 14,
+    "numero": 6,
+    "caballo": "DON TATO",
+    "jinete": "J.EYZAGUIRRE",
+    "probabilidad": 10.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 14,
+    "numero": 7,
+    "caballo": "GIANBRUNO",
+    "jinete": "D.CARVACHO",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
     "carrera": 14,
     "numero": 8,
-    "caballo": "GRANDE TUZA",
-    "jinete": "L. C. GONZALEZ",
-    "probabilidad": 17.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 14,
-    "numero": 9,
-    "caballo": "JALISCO",
-    "jinete": "P. ROBLES",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 14,
-    "numero": 10,
-    "caballo": "MAGICO DAY(R-6)",
-    "jinete": "R. PAINEN",
-    "probabilidad": 20.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 14,
-    "numero": 11,
-    "caballo": "BREGO",
-    "jinete": "G. RODRIGUEZ",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 14,
-    "numero": 12,
-    "caballo": "DIAMOND ONE",
-    "jinete": "J. HERRERA",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 15,
-    "numero": 1,
-    "caballo": "GENUINE COMMAND",
-    "jinete": "N. MOLINA",
-    "probabilidad": 3.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 15,
-    "numero": 2,
-    "caballo": "SEATTLE SNOW",
-    "jinete": "GVO. AROS",
-    "probabilidad": 9.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 15,
-    "numero": 3,
-    "caballo": "GENIUS",
-    "jinete": "B. LEON",
-    "probabilidad": 3.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 15,
-    "numero": 4,
-    "caballo": "MR NUTS",
-    "jinete": "JR. ZUÑIGA",
-    "probabilidad": 8.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 15,
-    "numero": 5,
-    "caballo": "CORAL REEF",
-    "jinete": "A. ALVAREZ",
-    "probabilidad": 16.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 15,
-    "numero": 6,
-    "caballo": "MR YO",
-    "jinete": "B. TRONCOSO",
-    "probabilidad": 4.1
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 15,
-    "numero": 7,
-    "caballo": "MR CASPER",
-    "jinete": "R. FUENZALIDA",
-    "probabilidad": 3.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 15,
-    "numero": 8,
-    "caballo": "OBRA DE ARTE",
-    "jinete": "R. S. DORES",
-    "probabilidad": 3.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 15,
-    "numero": 9,
-    "caballo": "QUEEN TIGER",
-    "jinete": "R. CISTERNAS",
-    "probabilidad": 3.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 15,
-    "numero": 10,
-    "caballo": "CRISTALINO",
-    "jinete": "B. SANCHO",
-    "probabilidad": 3.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 15,
-    "numero": 11,
-    "caballo": "HARRY GO",
-    "jinete": "M. MORALES",
-    "probabilidad": 16.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 15,
-    "numero": 12,
-    "caballo": "DONDE RAUL",
-    "jinete": "V. MIRANDA",
-    "probabilidad": 16.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 15,
-    "numero": 13,
-    "caballo": "TENGO UN SUEÑO",
-    "jinete": "JOH. GONZALEZ",
-    "probabilidad": 4.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 15,
-    "numero": 14,
-    "caballo": "VERSE BIEN",
-    "jinete": "L. C. GONZALEZ",
-    "probabilidad": 3.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 2,
-    "numero": 1,
-    "caballo": "MY SWEET LORD",
-    "jinete": "T. SEITH",
-    "probabilidad": 5.4
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 2,
-    "numero": 2,
-    "caballo": "EN CHATEAUROUX",
-    "jinete": "B. TRONCOSO",
-    "probabilidad": 15.1
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 2,
-    "numero": 3,
-    "caballo": "ON THE LEVEL",
-    "jinete": "A. ALVAREZ",
-    "probabilidad": 4.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 2,
-    "numero": 4,
-    "caballo": "POETA GRIEGO (ARG)",
-    "jinete": "O. SANCHEZ",
-    "probabilidad": 4.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 2,
-    "numero": 5,
-    "caballo": "TORO DEL MONTE",
-    "jinete": "R. FUENZALIDA",
-    "probabilidad": 4.7
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 2,
-    "numero": 6,
-    "caballo": "MI GIGANTE",
-    "jinete": "J. MEDINA",
-    "probabilidad": 4.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 2,
-    "numero": 7,
-    "caballo": "ANNCIATORE",
-    "jinete": "SEB. GONZALEZ",
-    "probabilidad": 4.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 2,
-    "numero": 8,
-    "caballo": "MIYAGI",
-    "jinete": "J. HERRERA",
-    "probabilidad": 4.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 2,
-    "numero": 9,
-    "caballo": "BEN MAMUT",
-    "jinete": "N. RAMIREZ",
-    "probabilidad": 9.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 2,
-    "numero": 10,
-    "caballo": "MUY ADMIRADO",
-    "jinete": "G. RODRIGUEZ",
-    "probabilidad": 19.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 2,
-    "numero": 11,
-    "caballo": "LINDO RECUERDO",
-    "jinete": "R. FOURNET",
-    "probabilidad": 14.0
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 2,
-    "numero": 12,
-    "caballo": "GOLDEN COPPER",
-    "jinete": "R. S. DORES",
-    "probabilidad": 10.0
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 3,
-    "numero": 1,
-    "caballo": "VINDALOO(R-2)",
-    "jinete": "J. MEDINA",
-    "probabilidad": 31.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 3,
-    "numero": 2,
-    "caballo": "CI MANCHI FRATELO",
-    "jinete": "F. HENRIQUEZ",
-    "probabilidad": 6.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 3,
-    "numero": 3,
-    "caballo": "PODEROSA NOBLEZA",
-    "jinete": "SEB. GONZALEZ",
-    "probabilidad": 7.7
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 3,
-    "numero": 4,
-    "caballo": "SIN PREJUICIOS (PP)",
-    "jinete": "R. S. DORES",
-    "probabilidad": 12.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 3,
-    "numero": 5,
-    "caballo": "CHIVARO",
-    "jinete": "H. OCHOA",
-    "probabilidad": 8.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 3,
-    "numero": 6,
-    "caballo": "IMANOL",
-    "jinete": "B. TRONCOSO",
-    "probabilidad": 6.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 3,
-    "numero": 7,
-    "caballo": "ME FALTAN TRES",
-    "jinete": "JR. A. GONZALEZ",
-    "probabilidad": 12.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 3,
-    "numero": 8,
-    "caballo": "RUSTY",
-    "jinete": "A. ALVAREZ",
-    "probabilidad": 6.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 3,
-    "numero": 9,
-    "caballo": "PAROLACCIA",
-    "jinete": "O. ULLOA",
-    "probabilidad": 7.0
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 4,
-    "numero": 1,
-    "caballo": "KERI TOO",
-    "jinete": "SEB. GONZALEZ",
-    "probabilidad": 15.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 4,
-    "numero": 2,
-    "caballo": "ALL IN",
-    "jinete": "O. ULLOA",
-    "probabilidad": 6.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 4,
-    "numero": 3,
-    "caballo": "LOCK",
-    "jinete": "M. GUTIERREZ",
-    "probabilidad": 6.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 4,
-    "numero": 4,
-    "caballo": "SEÑOR PEPE",
-    "jinete": "JR. A. GONZALEZ",
-    "probabilidad": 30.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 4,
-    "numero": 5,
-    "caballo": "TIZ THE RULE",
-    "jinete": "H. OCHOA",
-    "probabilidad": 7.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 4,
-    "numero": 6,
-    "caballo": "EL FANDI",
-    "jinete": "J. MEDINA",
-    "probabilidad": 9.1
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 4,
-    "numero": 7,
-    "caballo": "ALEGREMENTE",
-    "jinete": "V. BRACETTI",
-    "probabilidad": 12.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 4,
-    "numero": 8,
-    "caballo": "EL VOLCAN",
-    "jinete": "JR. ZUÑIGA",
-    "probabilidad": 12.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 5,
-    "numero": 1,
-    "caballo": "NUTCRACKER",
-    "jinete": "JN. MUÑOZ M.",
-    "probabilidad": 18.4
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 5,
-    "numero": 2,
-    "caballo": "DANITA FIRST",
-    "jinete": "P. REYES",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 5,
-    "numero": 3,
-    "caballo": "REPUBLIC ANA",
-    "jinete": "GVO. AROS",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 5,
-    "numero": 4,
-    "caballo": "SE VA EL CAIMAN",
-    "jinete": "T. SEITH",
-    "probabilidad": 10.4
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 5,
-    "numero": 5,
-    "caballo": "WILLIAM FAULKNER",
-    "jinete": "JOH. GONZALEZ",
-    "probabilidad": 4.0
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 5,
-    "numero": 6,
-    "caballo": "HAMM GOOD",
-    "jinete": "C. ORTEGA",
-    "probabilidad": 17.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 5,
-    "numero": 7,
-    "caballo": "AHMAKIL",
-    "jinete": "JS. CUETO",
-    "probabilidad": 5.0
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 5,
-    "numero": 8,
-    "caballo": "JOLTIN JOE",
-    "jinete": "B. SANCHO",
-    "probabilidad": 5.0
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 5,
-    "numero": 9,
-    "caballo": "CABLE A TIERRA",
-    "jinete": "M. CHAMORRO",
-    "probabilidad": 7.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 5,
-    "numero": 10,
-    "caballo": "MY CLAUDIA",
-    "jinete": "G. RODRIGUEZ",
-    "probabilidad": 4.0
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 5,
-    "numero": 11,
-    "caballo": "FERNANDOIS",
-    "jinete": "B. AYALA",
-    "probabilidad": 4.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 5,
-    "numero": 12,
-    "caballo": "EL KICHAN",
-    "jinete": "R. PAINEN",
-    "probabilidad": 9.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 5,
-    "numero": 13,
-    "caballo": "AKISI",
-    "jinete": "C. FUENZALIDA",
+    "caballo": "REY OLIMPUS",
+    "jinete": "M.GUTIERREZ",
     "probabilidad": 4.5
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 6,
-    "numero": 1,
-    "caballo": "SO AMAIZING",
-    "jinete": "J. MEDINA",
-    "probabilidad": 4.8
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 14,
+    "numero": 9,
+    "caballo": "AMERICAN BUNNY",
+    "jinete": "R.FOURNET",
+    "probabilidad": 3.5
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 6,
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 14,
+    "numero": 10,
+    "caballo": "INDIAN BLITZ",
+    "jinete": "F.MEDINA",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 14,
+    "numero": 11,
+    "caballo": "HAZTE PAYASITO",
+    "jinete": null,
+    "probabilidad": 16.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 14,
+    "numero": 12,
+    "caballo": "NIHUIL",
+    "jinete": "J.CUETO",
+    "probabilidad": 16.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 14,
+    "numero": 13,
+    "caballo": "FLORO CHICO",
+    "jinete": "(NOCORRE)",
+    "probabilidad": 5.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 14,
+    "numero": 14,
+    "caballo": "ASTON",
+    "jinete": "B.GONZALEZ",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 15,
+    "numero": 1,
+    "caballo": "TWISTED GEM",
+    "jinete": "A.VASQUEZ",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 15,
     "numero": 2,
-    "caballo": "JOHN DUTTON",
-    "jinete": "J. HERRERA",
+    "caballo": "CHICHILO",
+    "jinete": "J.TORO",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 15,
+    "numero": 3,
+    "caballo": "KE PACQUIAO",
+    "jinete": "N.ROJAS",
+    "probabilidad": 13.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 15,
+    "numero": 4,
+    "caballo": "LERICI",
+    "jinete": "A.ALVAREZ",
+    "probabilidad": 5.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 15,
+    "numero": 5,
+    "caballo": "EL PIRI",
+    "jinete": "L.C.GONZALEZ",
+    "probabilidad": 5.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 15,
+    "numero": 6,
+    "caballo": "MUZAN",
+    "jinete": "J.RODRIGUEZ",
     "probabilidad": 13.6
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 6,
-    "numero": 3,
-    "caballo": "TRASCATRASCA",
-    "jinete": "B. SANCHO",
-    "probabilidad": 22.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 6,
-    "numero": 4,
-    "caballo": "ZARKAHN",
-    "jinete": "O. ULLOA",
-    "probabilidad": 5.0
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 6,
-    "numero": 5,
-    "caballo": "PRINCESS THAI",
-    "jinete": "JS. VILLABLANCA",
-    "probabilidad": 5.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 6,
-    "numero": 6,
-    "caballo": "NAMRUD TIGER",
-    "jinete": "R. CISTERNAS",
-    "probabilidad": 4.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 6,
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 15,
     "numero": 7,
-    "caballo": "AL AMIR",
-    "jinete": "I. VALDIVIA",
-    "probabilidad": 12.0
+    "caballo": "PRESENTE CHA",
+    "jinete": "W.LEON",
+    "probabilidad": 5.2
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 6,
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 15,
     "numero": 8,
-    "caballo": "NIETO DEL SHEIK",
-    "jinete": "N. MOLINA",
-    "probabilidad": 7.9
+    "caballo": "SEA OF GOLD",
+    "jinete": "P.ZUNIGA",
+    "probabilidad": 24.1
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 6,
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 15,
     "numero": 9,
-    "caballo": "CAREMECHE",
-    "jinete": "JS. CUETO",
-    "probabilidad": 5.5
+    "caballo": "KINO",
+    "jinete": "G.AROS",
+    "probabilidad": 9.4
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 6,
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 15,
     "numero": 10,
-    "caballo": "PORTODOS",
-    "jinete": "T. SEITH",
-    "probabilidad": 12.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 6,
-    "numero": 11,
-    "caballo": "MURCOTT",
-    "jinete": "R. S. DORES",
-    "probabilidad": 5.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 7,
-    "numero": 1,
-    "caballo": "LA DICHA(R-3)",
-    "jinete": "B. TRONCOSO",
-    "probabilidad": 9.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 7,
-    "numero": 2,
-    "caballo": "KAREV",
-    "jinete": "J. MEDINA",
-    "probabilidad": 5.1
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 7,
-    "numero": 3,
-    "caballo": "MITOU (PP)",
-    "jinete": "N. RAMIREZ",
-    "probabilidad": 5.1
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 7,
-    "numero": 4,
-    "caballo": "ANALOGO",
-    "jinete": "A. VASQUEZ",
-    "probabilidad": 20.0
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 7,
-    "numero": 5,
-    "caballo": "PERTINAX",
-    "jinete": "W. LEON",
-    "probabilidad": 12.3
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 7,
-    "numero": 6,
-    "caballo": "FAGIOLO",
-    "jinete": "V. MIRANDA",
-    "probabilidad": 8.7
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 7,
-    "numero": 7,
-    "caballo": "THE SCIENTIST",
-    "jinete": "GVO. AROS",
-    "probabilidad": 5.4
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 7,
-    "numero": 8,
-    "caballo": "PESO COMPLETO",
-    "jinete": "B. LEON",
-    "probabilidad": 5.1
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 7,
-    "numero": 9,
-    "caballo": "AMIGOS POR SIEMPRE",
-    "jinete": "R. CISTERNAS",
-    "probabilidad": 23.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 7,
-    "numero": 10,
-    "caballo": "KAPICHU (ARG)",
-    "jinete": "R. FUENZALIDA",
+    "caballo": "STRONG DAIKIRI",
+    "jinete": "N.MOLINA",
     "probabilidad": 5.3
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 8,
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 15,
+    "numero": 11,
+    "caballo": "BADERO",
+    "jinete": "B.TRONCOSO",
+    "probabilidad": 5.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 16,
     "numero": 1,
-    "caballo": "CAROLITO",
-    "jinete": "B. TRONCOSO",
-    "probabilidad": 22.1
+    "caballo": "ESTRATEGO",
+    "jinete": "A.VILLAGRA",
+    "probabilidad": 3.7
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 8,
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 16,
     "numero": 2,
-    "caballo": "PIANTAO",
-    "jinete": "B. SANCHO",
-    "probabilidad": 5.5
+    "caballo": "MECEDOR",
+    "jinete": "R.FUENZALIDA",
+    "probabilidad": 3.9
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 8,
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 16,
     "numero": 3,
-    "caballo": "GRIEZMANN",
-    "jinete": "R. S. DORES",
-    "probabilidad": 4.7
+    "caballo": "DRINK'S VALLEY",
+    "jinete": "L.VALDIVIA",
+    "probabilidad": 5.8
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 8,
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 16,
     "numero": 4,
-    "caballo": "STRAY KIDS",
-    "jinete": "A. ALVAREZ",
-    "probabilidad": 4.7
+    "caballo": "CACHORRITA MIA",
+    "jinete": "W.LEON",
+    "probabilidad": 15.0
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 8,
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 16,
     "numero": 5,
-    "caballo": "GALWAY GIRL",
-    "jinete": "H. OCHOA",
-    "probabilidad": 7.2
+    "caballo": "VICARIA AMELIA",
+    "jinete": "J.MINO",
+    "probabilidad": 4.2
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 8,
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 16,
     "numero": 6,
-    "caballo": "CANTICIO",
-    "jinete": "JS. ARAYA B.",
-    "probabilidad": 5.5
+    "caballo": "UNDECIDED",
+    "jinete": "M.GALAZ",
+    "probabilidad": 10.8
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 8,
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 16,
     "numero": 7,
-    "caballo": "FLACO TITO",
-    "jinete": "J. HERRERA",
+    "caballo": "YA LO CREO",
+    "jinete": "P.ZUNIGA",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 16,
+    "numero": 8,
+    "caballo": "VINE VIDE VINCI",
+    "jinete": "D.CARVACHO",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 16,
+    "numero": 9,
+    "caballo": "NEL BLU",
+    "jinete": "B.SANCHO",
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 16,
+    "numero": 10,
+    "caballo": "ELISITA MIA",
+    "jinete": "F.MEDINA",
+    "probabilidad": 3.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 16,
+    "numero": 11,
+    "caballo": "ARRANCATE PAIRINO",
+    "jinete": "N.SANTIBANEZ",
+    "probabilidad": 3.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 16,
+    "numero": 12,
+    "caballo": "LUMBER BOY",
+    "jinete": "J.EYZAGUIRRE",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 16,
+    "numero": 13,
+    "caballo": "HAGALE HAGALE",
+    "jinete": "P.GALAZ",
     "probabilidad": 6.4
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 8,
-    "numero": 8,
-    "caballo": "LIMATOWN",
-    "jinete": "B. LEON",
-    "probabilidad": 14.6
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 8,
-    "numero": 9,
-    "caballo": "LOCO Y DEMENTE",
-    "jinete": "D. SANCHEZ",
-    "probabilidad": 7.2
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 8,
-    "numero": 10,
-    "caballo": "SEE ME",
-    "jinete": "G. RODRIGUEZ",
-    "probabilidad": 22.1
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 9,
-    "numero": 1,
-    "caballo": "RUBIA CLARA",
-    "jinete": "L. C. GONZALEZ",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 9,
-    "numero": 2,
-    "caballo": "DULCITA",
-    "jinete": "V. MIRANDA",
-    "probabilidad": 11.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 9,
-    "numero": 3,
-    "caballo": "ULTIMO PASEO",
-    "jinete": "J. HERRERA",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 9,
-    "numero": 4,
-    "caballo": "YA AGUS",
-    "jinete": "F. HENRIQUEZ",
-    "probabilidad": 6.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 9,
-    "numero": 5,
-    "caballo": "YADA",
-    "jinete": "B. SANCHO",
-    "probabilidad": 7.4
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 9,
-    "numero": 6,
-    "caballo": "KISS THE QUEEN",
-    "jinete": "JR. ZUÑIGA",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 9,
-    "numero": 7,
-    "caballo": "AMOR DE MAMA",
-    "jinete": "C. ORTEGA",
-    "probabilidad": 3.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 9,
-    "numero": 8,
-    "caballo": "LA SALCHI",
-    "jinete": "R. FUENZALIDA",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 9,
-    "numero": 9,
-    "caballo": "DAMA DE LA LUZ II",
-    "jinete": "J. REYES",
-    "probabilidad": 5.4
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 9,
-    "numero": 10,
-    "caballo": "NUEVA ACTRICE",
-    "jinete": "JOH. GONZALEZ",
-    "probabilidad": 3.9
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 9,
-    "numero": 11,
-    "caballo": "INARI",
-    "jinete": "N. MOLINA",
-    "probabilidad": 17.8
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 9,
-    "numero": 12,
-    "caballo": "GUAGUA BRAVA",
-    "jinete": "R. FOURNET",
-    "probabilidad": 5.0
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 9,
-    "numero": 13,
-    "caballo": "ANGELA BRAVA",
-    "jinete": "N. RAMIREZ",
-    "probabilidad": 10.5
-  },
-  {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 9,
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 16,
     "numero": 14,
-    "caballo": "TRANQUILA NIÑA",
-    "jinete": "JS. PAREDES",
+    "caballo": "POMBITO",
+    "jinete": "N.RAMIREZ",
+    "probabilidad": 15.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 16,
+    "numero": 15,
+    "caballo": "SILVERCHAIR",
+    "jinete": "A.VASQUEZ",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 17,
+    "numero": 1,
+    "caballo": "SHOW PAINT",
+    "jinete": "N.VENEGAS",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 17,
+    "numero": 2,
+    "caballo": "EL GRAN MAESTRO",
+    "jinete": "B.TRONCOSO",
+    "probabilidad": 15.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 17,
+    "numero": 3,
+    "caballo": "NANITO VELOZ",
+    "jinete": "F.MEDINA",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 17,
+    "numero": 4,
+    "caballo": "PETIMETRE",
+    "jinete": "H.OCHOA",
+    "probabilidad": 16.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 17,
+    "numero": 5,
+    "caballo": "NATIVE SPIRIT",
+    "jinete": "R.CISTERNAS",
+    "probabilidad": 16.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 17,
+    "numero": 6,
+    "caballo": "NAGAO",
+    "jinete": "G.AROS",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 17,
+    "numero": 7,
+    "caballo": "TIRREL",
+    "jinete": "T.SEITH",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 17,
+    "numero": 8,
+    "caballo": "PREZIOSI",
+    "jinete": "B.LEON",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 17,
+    "numero": 9,
+    "caballo": "CUATRO DE COPAS",
+    "jinete": "J.HERRERA",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 17,
+    "numero": 10,
+    "caballo": "PUNTO QUIEBRE",
+    "jinete": "J.EYZAGUIRRE",
+    "probabilidad": 3.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 17,
+    "numero": 11,
+    "caballo": "INDIAN TIGER",
+    "jinete": "M.GUTIERREZ",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 17,
+    "numero": 12,
+    "caballo": "BOB PARR (ARG)",
+    "jinete": "N.ROJAS",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 17,
+    "numero": 13,
+    "caballo": "REY SIDONIO",
+    "jinete": "R.FUENZALIDA",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 17,
+    "numero": 14,
+    "caballo": "EXCITED",
+    "jinete": "W.LEON",
+    "probabilidad": 4.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 1,
+    "caballo": "SOUK",
+    "jinete": "D.SANCHEZ",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 2,
+    "caballo": "RUNNING IN NEVADA",
+    "jinete": "N.RAMIREZ",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 3,
+    "caballo": "CORDON DEL CAULLE",
+    "jinete": "B.SANCHO",
+    "probabilidad": 2.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 4,
+    "caballo": "EL CANCHERO",
+    "jinete": "B.TRONCOSO",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 5,
+    "caballo": "CHIQUITO CAMPEADOR",
+    "jinete": "N.ROJAS",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 6,
+    "caballo": "ALAZAN LUCERO",
+    "jinete": "V.MIRANDA",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 7,
+    "caballo": "BESA KISS",
+    "jinete": "T.SEITH",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 8,
+    "caballo": "MATSUYAMA",
+    "jinete": "I.VALDIVIA",
+    "probabilidad": 2.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 9,
+    "caballo": "CIAO XENA",
+    "jinete": "A.ALVAREZ",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 10,
+    "caballo": "RUN FAST",
+    "jinete": "B.LEON",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 11,
+    "caballo": "AQUI TODOS RIEN",
+    "jinete": "N.MOLINA",
+    "probabilidad": 2.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 12,
+    "caballo": "BELLAFONTE",
+    "jinete": "J.HERRERA",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 13,
+    "caballo": "GRANDE PANCHITO",
+    "jinete": "R.ARAYA",
+    "probabilidad": 3.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 14,
+    "caballo": "GOOD PARTNER",
+    "jinete": "G.AROS",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 15,
+    "caballo": "ANGEOLINA",
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 18,
+    "numero": 16,
+    "caballo": "VAN RISE",
+    "jinete": "L.TORRES",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 19,
+    "numero": 1,
+    "caballo": "YO LO ENTIENDO",
+    "jinete": "C.ORTEGA",
+    "probabilidad": 2.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 19,
+    "numero": 2,
+    "caballo": "LA NONITA",
+    "jinete": "R.FUENZALIDA",
+    "probabilidad": 2.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 19,
+    "numero": 3,
+    "caballo": "PROFESSIONALS",
+    "jinete": "N.ROJAS",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 19,
+    "numero": 4,
+    "caballo": "YERI STAR",
+    "jinete": "V.MIRANDA",
+    "probabilidad": 2.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 19,
+    "numero": 5,
+    "caballo": "LA VEGANA",
+    "jinete": "B.LEON",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 19,
+    "numero": 6,
+    "caballo": "VIEJA CHELA",
+    "jinete": "M.CORDERO",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 19,
+    "numero": 7,
+    "caballo": "MINDEN",
+    "jinete": "N.MOLINA",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 19,
+    "numero": 8,
+    "caballo": "BLADY ASTOR (USA)",
+    "jinete": "AND.COVARRUBIAS",
+    "probabilidad": 2.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 19,
+    "numero": 9,
+    "caballo": "EL REY JULIAN",
+    "jinete": "F.MEDINA",
+    "probabilidad": 2.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 19,
+    "numero": 10,
+    "caballo": "RUBIA MORENA",
+    "jinete": "J.VILLABLANCA",
+    "probabilidad": 2.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 19,
+    "numero": 11,
+    "caballo": "PERSEVERA SIEMPRE",
+    "jinete": "L.RIVERA",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 19,
+    "numero": 12,
+    "caballo": "BUNGABUNGA",
+    "jinete": "N.SANTIBANEZ",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 19,
+    "numero": 13,
+    "caballo": "BELLO ENCANTO",
+    "jinete": "R.AVILA",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 19,
+    "numero": 14,
+    "caballo": "RAPIDO Y VELOZ",
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 19,
+    "numero": 15,
+    "caballo": "RISBY",
+    "jinete": "L.GONZALEZ",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 2,
+    "numero": 1,
+    "caballo": "SHYUANNA",
+    "jinete": "N.RAMIREZ",
+    "probabilidad": 4.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 2,
+    "numero": 2,
+    "caballo": "SONG SONG BLUE",
+    "jinete": "J.EYZAGUIRRE",
+    "probabilidad": 3.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 2,
+    "numero": 3,
+    "caballo": "MIXED EMOTIONS",
+    "jinete": "(NOCORRE)",
+    "probabilidad": 16.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 2,
+    "numero": 4,
+    "caballo": "GET GIRLS",
+    "jinete": "D.CARVACHO",
+    "probabilidad": 3.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 2,
+    "numero": 5,
+    "caballo": "TIGUARDA",
+    "jinete": "F.SOTO",
+    "probabilidad": 16.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 2,
+    "numero": 6,
+    "caballo": "FOLLOW YOUR DREAMS",
+    "jinete": "R.AVILA",
+    "probabilidad": 3.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 2,
+    "numero": 7,
+    "caballo": "LA CIA",
+    "jinete": "M.GUTIERREZ",
+    "probabilidad": 9.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 2,
+    "numero": 8,
+    "caballo": "WITTENBURG",
+    "jinete": "N.ROJAS",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 2,
+    "numero": 9,
+    "caballo": "BELLA CHICHI",
+    "jinete": "P.GALAZ",
     "probabilidad": 4.6
   },
   {
-    "fecha": "2026-01-16",
-    "hipodromo": "Club Hípico de Santiago",
-    "carrera": 9,
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 2,
+    "numero": 10,
+    "caballo": "PARA TI MI AMOR",
+    "jinete": "N.MOLINA",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 2,
+    "numero": 11,
+    "caballo": "LA UNIVERSITARIA",
+    "jinete": "P.ZUNIGA",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 2,
+    "numero": 12,
+    "caballo": "SINAG",
+    "jinete": "J.CUETO",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 2,
+    "numero": 13,
+    "caballo": "KATIE MELUA",
+    "jinete": "A.ALVAREZ",
+    "probabilidad": 3.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 2,
+    "numero": 14,
+    "caballo": "BIANCA MIA",
+    "jinete": "J.HERRERA",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 2,
     "numero": 15,
-    "caballo": "ISLA NAVARINO",
-    "jinete": "N. SANTIBAÑEZ",
-    "probabilidad": 7.4
+    "caballo": "DIOSA CHOCOLATE",
+    "jinete": "F.MEDINA",
+    "probabilidad": 9.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 20,
+    "numero": 1,
+    "caballo": "VERSERO",
+    "jinete": "W.LEON",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 20,
+    "numero": 2,
+    "caballo": "LUCERO ROJO",
+    "jinete": "A.VASQUEZ",
+    "probabilidad": 4.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 20,
+    "numero": 3,
+    "caballo": "SINNERMAN",
+    "jinete": "V.MIRANDA",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 20,
+    "numero": 4,
+    "caballo": "SIGUE IGUAL",
+    "jinete": "N.MOLINA",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 20,
+    "numero": 5,
+    "caballo": "MIL COPAS",
+    "jinete": "J.M.SOTO",
+    "probabilidad": 4.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 20,
+    "numero": 6,
+    "caballo": "OFESTIVO",
+    "jinete": "R.CISTERNAS",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 20,
+    "numero": 7,
+    "caballo": "LA CHUCKY TRINI",
+    "jinete": "L.C.GONZALEZ",
+    "probabilidad": 3.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 20,
+    "numero": 8,
+    "caballo": "SEEKING THE SOUL",
+    "jinete": "N.ROJAS",
+    "probabilidad": 4.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 20,
+    "numero": 9,
+    "caballo": "EL COBALTO",
+    "jinete": "J.TORO",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 20,
+    "numero": 10,
+    "caballo": "TOP MODEL",
+    "jinete": "C.BUSTOS",
+    "probabilidad": 4.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 20,
+    "numero": 11,
+    "caballo": "RIO DE LOS CIERVOS",
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 17.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 20,
+    "numero": 12,
+    "caballo": "ELEGIDO CON PINZAS",
+    "jinete": "A.APABLAZA",
+    "probabilidad": 4.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 20,
+    "numero": 13,
+    "caballo": "FACIL LA PEGA",
+    "jinete": "D.SANCHEZ",
+    "probabilidad": 17.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 20,
+    "numero": 14,
+    "caballo": "LIKE A PRAYER",
+    "jinete": "J.CUETO",
+    "probabilidad": 10.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 20,
+    "numero": 15,
+    "caballo": "LINZ",
+    "jinete": "R.VARAS",
+    "probabilidad": 4.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 21,
+    "numero": 1,
+    "caballo": "CON ZEUS",
+    "jinete": "H.OCHOA",
+    "probabilidad": 4.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 21,
+    "numero": 2,
+    "caballo": "ESTARQUI",
+    "jinete": "J.CUETO",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 21,
+    "numero": 3,
+    "caballo": "DISMAI",
+    "jinete": "D.SANCHEZ",
+    "probabilidad": 4.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 21,
+    "numero": 4,
+    "caballo": "BESO AL CIELO",
+    "jinete": "R.PAINEN",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 21,
+    "numero": 5,
+    "caballo": "LOCO GANDHI",
+    "jinete": "A.VASQUEZ",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 21,
+    "numero": 6,
+    "caballo": "BENIBLU",
+    "jinete": "A.APABLAZA",
+    "probabilidad": 4.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 21,
+    "numero": 7,
+    "caballo": "MOUNTAIN MONARCH",
+    "jinete": "G.AROS",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 21,
+    "numero": 8,
+    "caballo": "STEVENS FOR RECORD",
+    "jinete": "P.GALAZ",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 21,
+    "numero": 9,
+    "caballo": "BENTINCK",
+    "jinete": "O.ULLOA",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 21,
+    "numero": 10,
+    "caballo": "MASSU TARE",
+    "jinete": "I.VALDIVIA",
+    "probabilidad": 4.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 21,
+    "numero": 11,
+    "caballo": "EL POLLO DORADO",
+    "jinete": "V.MIRANDA",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 21,
+    "numero": 12,
+    "caballo": "EASY PEASY",
+    "jinete": "N.ROJAS",
+    "probabilidad": 3.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 21,
+    "numero": 13,
+    "caballo": "EN VECES",
+    "jinete": "F.MORALES",
+    "probabilidad": 17.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 21,
+    "numero": 14,
+    "caballo": "STOP LOSS",
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 21,
+    "numero": 15,
+    "caballo": "AHSOKA",
+    "jinete": "N.RAMIREZ",
+    "probabilidad": 17.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 3,
+    "numero": 1,
+    "caballo": "SANSSITA",
+    "jinete": "AND.COVARRUBIAS",
+    "probabilidad": 10.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 3,
+    "numero": 2,
+    "caballo": "SMILE QUEEN",
+    "jinete": "A.ALVAREZ",
+    "probabilidad": 5.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 3,
+    "numero": 3,
+    "caballo": "ME DAS OTRO BESO",
+    "jinete": "B.TRONCOSO",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 3,
+    "numero": 4,
+    "caballo": "LA QUE MAS CHAE",
+    "jinete": "M.MORALES",
+    "probabilidad": 5.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 3,
+    "numero": 5,
+    "caballo": "SOGNA CON ME",
+    "jinete": "N.ROJAS",
+    "probabilidad": 10.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 3,
+    "numero": 6,
+    "caballo": "EMPERIFOLLADA",
+    "jinete": "A.VILLAGRA",
+    "probabilidad": 5.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 3,
+    "numero": 7,
+    "caballo": "MARIADYNIS",
+    "jinete": "R.FOURNET",
+    "probabilidad": 24.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 3,
+    "numero": 8,
+    "caballo": "TSUKIMI",
+    "jinete": "F.MEDINA",
+    "probabilidad": 5.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 3,
+    "numero": 9,
+    "caballo": "BAD ROMANCE",
+    "jinete": "C.BUSTOS",
+    "probabilidad": 14.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 3,
+    "numero": 10,
+    "caballo": "REGIA PIBA",
+    "jinete": "F.HENRIQUEZ",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 3,
+    "numero": 11,
+    "caballo": "MAS AMOR",
+    "jinete": "J.CUETO",
+    "probabilidad": 5.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 4,
+    "numero": 1,
+    "caballo": "MI SUENO SECRETO",
+    "jinete": "J.EYZAGUIRRE",
+    "probabilidad": 15.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 4,
+    "numero": 2,
+    "caballo": "NATALINO",
+    "jinete": "F.HENRIQUEZ",
+    "probabilidad": 3.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 4,
+    "numero": 3,
+    "caballo": "MENDEL QUINTA",
+    "jinete": "M.MORALES",
+    "probabilidad": 6.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 4,
+    "numero": 4,
+    "caballo": "JOHN WAYNE",
+    "jinete": "W.LEON",
+    "probabilidad": 3.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 4,
+    "numero": 5,
+    "caballo": "SOY ENRIQUETA",
+    "jinete": "G.AROS",
+    "probabilidad": 4.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 4,
+    "numero": 6,
+    "caballo": "INTERCEPTION",
+    "jinete": "AND.COVARRUBIAS",
+    "probabilidad": 4.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 4,
+    "numero": 7,
+    "caballo": "KIASTRELO",
+    "jinete": "B.LEON",
+    "probabilidad": 8.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 4,
+    "numero": 8,
+    "caballo": "UN DIA CONTIGO",
+    "jinete": "R.VARAS",
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 4,
+    "numero": 9,
+    "caballo": "ALAJJA",
+    "jinete": "N.SANTIBANEZ",
+    "probabilidad": 8.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 4,
+    "numero": 10,
+    "caballo": "MI DIEZ POR CIENTO",
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 3.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 4,
+    "numero": 11,
+    "caballo": "LEGION DE HONOR",
+    "jinete": "P.ZUNIGA",
+    "probabilidad": 3.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 4,
+    "numero": 12,
+    "caballo": "MONTE HUA",
+    "jinete": "M.GUTIERREZ",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 4,
+    "numero": 13,
+    "caballo": "KEEP DREAMING",
+    "jinete": "M.GALAZ",
+    "probabilidad": 15.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 4,
+    "numero": 14,
+    "caballo": "DESCREIDA",
+    "jinete": "R.FOURNET",
+    "probabilidad": 4.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 4,
+    "numero": 15,
+    "caballo": "DU PLESIS",
+    "jinete": "J.VILLABLANCA",
+    "probabilidad": 8.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 5,
+    "numero": 1,
+    "caballo": "LADY BAY",
+    "jinete": "M.GALAZ",
+    "probabilidad": 5.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 5,
+    "numero": 2,
+    "caballo": "ME LO LLEVO",
+    "jinete": "N.SANTIBANEZ",
+    "probabilidad": 20.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 5,
+    "numero": 3,
+    "caballo": "KIRSCH ROYAL",
+    "jinete": "R.AVILA",
+    "probabilidad": 20.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 5,
+    "numero": 4,
+    "caballo": "HACER POR HACER",
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 5,
+    "numero": 5,
+    "caballo": "PALABRA CIERTA",
+    "jinete": "D.CARVACHO",
+    "probabilidad": 11.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 5,
+    "numero": 6,
+    "caballo": "CUANDO LLEGO GANO",
+    "jinete": "P.GALAZ",
+    "probabilidad": 10.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 5,
+    "numero": 7,
+    "caballo": "INDIA TERCA",
+    "jinete": "I.VALDIVIA",
+    "probabilidad": 4.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 5,
+    "numero": 8,
+    "caballo": "SEE YOU AGAIN",
+    "jinete": "B.SANCHO",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 5,
+    "numero": 9,
+    "caballo": "CABLE A TIERRA",
+    "jinete": "J.SOLANO",
+    "probabilidad": 5.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 5,
+    "numero": 10,
+    "caballo": "LA TOSTADORA",
+    "jinete": "C.BUSTOS",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 5,
+    "numero": 11,
+    "caballo": "JOSIE GIRL",
+    "jinete": "V.MIRANDA",
+    "probabilidad": 4.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 6,
+    "numero": 1,
+    "caballo": "EL FLORITO",
+    "jinete": "G.AROS",
+    "probabilidad": 5.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 6,
+    "numero": 2,
+    "caballo": "MY RESILIENCE",
+    "jinete": "A.ALVAREZ",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 6,
+    "numero": 3,
+    "caballo": "EL PUNTUO",
+    "jinete": "J.TORO",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 6,
+    "numero": 4,
+    "caballo": "SCAR",
+    "jinete": "J.HERRERA",
+    "probabilidad": 24.1
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 6,
+    "numero": 5,
+    "caballo": "GOOD CHIEF",
+    "jinete": "R.AVILA",
+    "probabilidad": 5.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 6,
+    "numero": 6,
+    "caballo": "MI RINCON",
+    "jinete": "H.OCHOA",
+    "probabilidad": 23.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 6,
+    "numero": 7,
+    "caballo": "BUEN NORTE",
+    "jinete": "A.VASQUEZ",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 6,
+    "numero": 8,
+    "caballo": "PELUKA",
+    "jinete": "I.VALDIVIA",
+    "probabilidad": 5.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 6,
+    "numero": 9,
+    "caballo": "BABY SHAK",
+    "jinete": "N.RAMIREZ",
+    "probabilidad": 15.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 7,
+    "numero": 1,
+    "caballo": "SHETEPANO",
+    "jinete": "M.CORDERO",
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 7,
+    "numero": 2,
+    "caballo": "INDIA MAULINA",
+    "jinete": "R.DORES",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 7,
+    "numero": 3,
+    "caballo": "SALMA ALEGRE",
+    "jinete": "L.RIVERA",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 7,
+    "numero": 4,
+    "caballo": "EL APARECIDO",
+    "jinete": "D.CARVACHO",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 7,
+    "numero": 5,
+    "caballo": "ISTRIONICO",
+    "jinete": "P.GALAZ",
+    "probabilidad": 3.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 7,
+    "numero": 6,
+    "caballo": "REY GABRIEL ANDRES",
+    "jinete": "N.SANTIBANEZ",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 7,
+    "numero": 7,
+    "caballo": "MERKEL",
+    "jinete": "I.VALDIVIA",
+    "probabilidad": 3.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 7,
+    "numero": 8,
+    "caballo": "LA FLOWER",
+    "jinete": "J.TORO",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 7,
+    "numero": 9,
+    "caballo": "HERMANO ERIC",
+    "jinete": "V.MIRANDA",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 7,
+    "numero": 10,
+    "caballo": "SAND THICK",
+    "jinete": "D.SANCHEZ",
+    "probabilidad": 15.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 7,
+    "numero": 11,
+    "caballo": "PRIMER OTROSI",
+    "jinete": "N.VENEGAS",
+    "probabilidad": 15.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 7,
+    "numero": 12,
+    "caballo": "SONADO CAMPEON",
+    "jinete": "P.ZUNIGA",
+    "probabilidad": 15.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 7,
+    "numero": 13,
+    "caballo": "EL FORASTERO (ARG)",
+    "jinete": "A.VILLAGRA",
+    "probabilidad": 3.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 7,
+    "numero": 14,
+    "caballo": "MAL MIRADA",
+    "jinete": "R.CISTERNAS",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 8,
+    "numero": 1,
+    "caballo": "OSBOURNE",
+    "jinete": "N.ROJAS",
+    "probabilidad": 9.3
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 8,
+    "numero": 2,
+    "caballo": "RENATITOCRACK",
+    "jinete": "V.MIRANDA",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 8,
+    "numero": 3,
+    "caballo": "MISTER HARI",
+    "jinete": "I.VALDIVIA",
+    "probabilidad": 4.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 8,
+    "numero": 4,
+    "caballo": "DON CRISTIAN",
+    "jinete": "J.TORO",
+    "probabilidad": 17.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 8,
+    "numero": 5,
+    "caballo": "TSUBASA",
+    "jinete": "G.AROS",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 8,
+    "numero": 6,
+    "caballo": "DESTELLANTE",
+    "jinete": "R.FOURNET",
+    "probabilidad": 4.5
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 8,
+    "numero": 7,
+    "caballo": "JOAQUIN",
+    "jinete": "J.HERRERA",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 8,
+    "numero": 8,
+    "caballo": "VALCABADO",
+    "jinete": "M.MORALES",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 8,
+    "numero": 9,
+    "caballo": "AKU AKU",
+    "jinete": "G.ULLOA",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 8,
+    "numero": 10,
+    "caballo": "MOSO DIA",
+    "jinete": "G.RODRIGUEZ",
+    "probabilidad": 4.4
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 8,
+    "numero": 11,
+    "caballo": "LES TOCA A ELLOS",
+    "jinete": "R.FUENZALIDA",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 8,
+    "numero": 12,
+    "caballo": "QUE LOCURA",
+    "jinete": "B.TRONCOSO",
+    "probabilidad": 4.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 8,
+    "numero": 13,
+    "caballo": "GOOD POINT",
+    "jinete": "N.MOLINA",
+    "probabilidad": 3.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 8,
+    "numero": 14,
+    "caballo": "BRUNO FERRARI",
+    "jinete": "J.A.GONZALEZ",
+    "probabilidad": 3.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 8,
+    "numero": 15,
+    "caballo": "CHITORO",
+    "jinete": "N.RAMIREZ",
+    "probabilidad": 9.9
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 9,
+    "numero": 1,
+    "caballo": "EL UNGIDO",
+    "jinete": "J.ZUNIGA",
+    "probabilidad": 11.8
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 9,
+    "numero": 2,
+    "caballo": "PELE O REY",
+    "jinete": "R.CISTERNAS",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 9,
+    "numero": 3,
+    "caballo": "TRIPLECORONADO",
+    "jinete": "H.OCHOA",
+    "probabilidad": 41.7
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 9,
+    "numero": 4,
+    "caballo": "JAMON SERRANO",
+    "jinete": "B.TRONCOSO",
+    "probabilidad": 9.6
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 9,
+    "numero": 5,
+    "caballo": "REFERENDUM JOKE",
+    "jinete": "I.VALDIVIA",
+    "probabilidad": 16.2
+  },
+  {
+    "fecha": "2026-01-17",
+    "hipodromo": "Hipódromo Chile",
+    "carrera": 9,
+    "numero": 6,
+    "caballo": "PRACTICAL SISI",
+    "jinete": "L.TORRES",
+    "probabilidad": 11.8
   }
 ]
