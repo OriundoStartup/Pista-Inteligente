@@ -16,7 +16,7 @@ export default function LoginWithGoogleButton() {
     return (
         <button
             onClick={handleLogin}
-            className="flex items-center justify-center gap-3 bg-white text-gray-700 font-medium px-6 py-3 rounded-xl shadow-md hover:shadow-lg transition-all duration-200 border border-gray-100 group w-full"
+            className="flex items-center justify-center gap-3 bg-white text-gray-700 font-medium px-6 py-4 rounded-xl shadow-md hover:shadow-lg active:scale-95 transition-all duration-200 border border-gray-100 group w-full touch-manipulation"
         >
             {/* Google SVG Icon for better quality than favicon */}
             <svg className="w-5 h-5" viewBox="0 0 24 24">
