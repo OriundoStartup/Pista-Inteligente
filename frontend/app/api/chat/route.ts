@@ -1,8 +1,10 @@
 import { NextResponse } from 'next/server'
 import { createClient } from '../../../utils/supabase/server'
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || ''
-const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent'
+// Migrado de Gemini a Groq (2026-01-22) para mayor estabilidad
+const GROQ_API_KEY = process.env.GROQ_API_KEY || ''
+const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions'
+const GROQ_MODEL = 'llama-3.3-70b-versatile' // Modelo más reciente y estable
 
 // URLs oficiales para referencia
 const EXTERNAL_LINKS = `
@@ -12,14 +14,64 @@ const EXTERNAL_LINKS = `
 - Valparaíso Sporting: https://www.sporting.cl/
 `
 
+// Función para obtener información de Teletrak cuando no hay datos en Supabase
+async function fetchTeletrakInfo(): Promise<string> {
+    try {
+        // Intentar obtener la página de carreras de Teletrak
+        const controller = new AbortController()
+        const timeoutId = setTimeout(() => controller.abort(), 5000) // 5s timeout
+
+        const response = await fetch('https://www.teletrak.cl/hipismo/carreras', {
+            signal: controller.signal,
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (compatible; PistaInteligente/1.0)'
+            }
+        })
+        clearTimeout(timeoutId)
+
+        if (!response.ok) {
+            console.log('Teletrak fetch failed:', response.status)
+            return ''
+        }
+
+        const html = await response.text()
+
+        // Extraer información básica del HTML usando regex simple
+        // Buscar patrones de carreras, hipódromos y horarios
+        let info = '📡 Información en vivo desde Teletrak.cl:\n'
+
+        // Buscar menciones de hipódromos
+        const hipodromos = ['Club Hípico', 'Hipódromo Chile', 'Valparaíso Sporting']
+        hipodromos.forEach(h => {
+            if (html.includes(h)) {
+                info += `✅ ${h} tiene carreras programadas hoy\n`
+            }
+        })
+
+        // Buscar horarios (patrón HH:MM)
+        const horasMatch = html.match(/\b([0-1]?[0-9]|2[0-3]):[0-5][0-9]\b/g)
+        if (horasMatch && horasMatch.length > 0) {
+            const horasUnicas = [...new Set(horasMatch)].slice(0, 5)
+            info += `⏰ Horarios encontrados: ${horasUnicas.join(', ')}\n`
+        }
+
+        info += '\n👉 Para ver el programa completo visita: https://www.teletrak.cl/hipismo/carreras'
+
+        return info
+    } catch (e) {
+        console.log('Teletrak scraping failed (timeout or error):', e)
+        return ''
+    }
+}
+
 async function getUpcomingRaces(): Promise<string> {
     try {
         const supabase = await createClient()
         const today = new Date().toISOString().split('T')[0]
 
-        if (!GEMINI_API_KEY) {
-            console.error('❌ GEMINI_API_KEY is missing in environment variables')
-            // Don't return here, let it fail in getGeminiResponse to trigger fallback, 
+        if (!GROQ_API_KEY) {
+            console.error('❌ GROQ_API_KEY is missing in environment variables')
+            // Don't return here, let it fail in getGroqResponse to trigger fallback, 
             // but logging is crucial for debugging.
         }
 
@@ -51,7 +103,13 @@ async function getUpcomingRaces(): Promise<string> {
         }
 
         if (!carreras || carreras.length === 0) {
-            return 'No hay carreras programadas próximamente en la base de datos.'
+            // Fallback: intentar obtener info de Teletrak
+            console.log('No races in Supabase, fetching from Teletrak...')
+            const teletrakInfo = await fetchTeletrakInfo()
+            if (teletrakInfo) {
+                return teletrakInfo
+            }
+            return 'No hay carreras programadas próximamente. Visita https://www.teletrak.cl para ver el programa actualizado.'
         }
 
         let context = "Información en tiempo real de las próximas carreras:\n"
@@ -85,7 +143,7 @@ async function getUpcomingRaces(): Promise<string> {
     }
 }
 
-async function getGeminiResponse(userMessage: string, raceContext: string): Promise<string> {
+async function getGroqResponse(userMessage: string, raceContext: string): Promise<string> {
     const SYSTEM_PROMPT = `Actúa como "Pista Inteligente Analyst", un experto en hípica chilena.
     
 CONTEXTO ACTUAL (DATOS REALES):
@@ -103,39 +161,39 @@ REGLAS DE RESPUESTA:
 2. Si preguntan por una carrera específica, USA LOS DATOS DEL CONTEXTO.
 3. Si el usuario pide enlaces, dale los de Teletrak o el hipódromo correspondiente.
 4. Si no hay datos de la carrera que piden, di que "aún no está en mi sistema" y sugiere mirar Teletrak.
-5. Responde SIEMPRE en español conciso.
-
-Usuario: ${userMessage}
-Asistente:`
+5. Responde SIEMPRE en español conciso, máximo 3-4 oraciones.`
 
     try {
-        const response = await fetch(`${GEMINI_API_URL}?key=${GEMINI_API_KEY}`, {
+        const response = await fetch(GROQ_API_URL, {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${GROQ_API_KEY}`
+            },
             body: JSON.stringify({
-                contents: [{
-                    parts: [{ text: SYSTEM_PROMPT }]
-                }],
-                generationConfig: {
-                    temperature: 0.5, // Más preciso
-                    maxOutputTokens: 350,
-                }
+                model: GROQ_MODEL,
+                messages: [
+                    { role: 'system', content: SYSTEM_PROMPT },
+                    { role: 'user', content: userMessage }
+                ],
+                temperature: 0.5,
+                max_tokens: 350
             })
         })
 
         if (!response.ok) {
             const err = await response.text()
-            throw new Error(`Gemini API error ${response.status}: ${err}`)
+            throw new Error(`Groq API error ${response.status}: ${err}`)
         }
 
         const data = await response.json()
-        const text = data.candidates?.[0]?.content?.parts?.[0]?.text
+        const text = data.choices?.[0]?.message?.content
 
-        if (!text) throw new Error('Empty response from Gemini')
+        if (!text) throw new Error('Empty response from Groq')
         return text.trim()
 
     } catch (error) {
-        console.error('Gemini Interaction Failed:', error)
+        console.error('Groq Interaction Failed:', error)
         throw error
     }
 }
@@ -177,8 +235,8 @@ export async function POST(request: Request) {
             // For now, let's cache only the AI response for specific questions)
             const raceContext = await getUpcomingRaces()
 
-            // 2. Consultar a Gemini
-            const aiResponse = await getGeminiResponse(message, raceContext)
+            // 2. Consultar a Groq (Llama 3.3 70B)
+            const aiResponse = await getGroqResponse(message, raceContext)
 
             // Save to Cache
             responseCache.set(cacheKey, { response: aiResponse, timestamp: Date.now() });
