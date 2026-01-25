@@ -99,7 +99,9 @@ def get_gemini_response_stream(prompt, history=[]):
         contexto_hipico = generar_contexto_hipico()
         
         # Configurar modelo (Usando versión verificada por script)
-        model = genai.GenerativeModel('gemini-flash-latest')
+        # Usar modelo estable en lugar de alias -latest para evitar cambios automáticos
+        # Actualizado 2026-01-21: gemini-flash-latest migra a gemini-3 el 30/01/2026
+        model = genai.GenerativeModel('gemini-2.0-flash')
         
         # System Prompt Mejorado
         system_prompt = f"""

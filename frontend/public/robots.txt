@@ -1,0 +1,24 @@
+# Robots.txt for Pista Inteligente
+# https://pista-inteligente.vercel.app
+
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://pista-inteligente.vercel.app/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Block internal API routes
+Disallow: /api/
+
+# Allow all search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /

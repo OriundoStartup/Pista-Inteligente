@@ -1,0 +1,297 @@
+Carrera,Hora,Premio,Distancia,Superficie,Numero,Caballo,Peso,Jinete,Preparador
+1,12:00,Esmaltado,1200,Arena,1,MARKINABIZKAIA,55,M.Herrera,D.Contreras A.
+1,12:00,Esmaltado,1200,Arena,2,SILVESTRIN,54,J.Mino,M.Apablaza G.
+1,12:00,Esmaltado,1200,Arena,3,QUEEN ANY,54,R.Dores,R.Montesino S.
+1,12:00,Esmaltado,1200,Arena,4,MARRAKECH,56,N.Rojas,L.Toledo C.
+1,12:00,Esmaltado,1200,Arena,5,SATISFY MY SOUL,55,J.Villablanca,C.Bernal G.
+1,12:00,Esmaltado,1200,Arena,6,DU PLESIS,54,B.Ayala,L.Machulas G.
+1,12:00,Esmaltado,1200,Arena,7,KIRSCH ROYAL,54,R.Avila,M.Covarrubias E.
+1,12:00,Esmaltado,1200,Arena,8,THE LAST WOLF,56,And.Covarrubias,M.Covarrubias E.
+1,12:00,Esmaltado,1200,Arena,9,ZIGEUNER,54,M.Gutierrez,R.Quiroz S.
+1,12:00,Esmaltado,1200,Arena,10,SONATA CELTA,54,R.Cisternas,J.Espineira C.
+1,12:00,Esmaltado,1200,Arena,11,DESERT CAT,54,J.Cueto,R.Quiroz S.
+1,12:00,Esmaltado,1200,Arena,12,FRANCOLI,55,L.Urrejola,M.Apablaza G.
+1,12:00,Esmaltado,1200,Arena,13,VICARIA AMELIA,55,P.Galaz,H.Pacheco P.
+1,12:00,Esmaltado,1200,Arena,14,CUANDO LLEGO GANO,55,G.Rodriguez,C.Bernal G.
+1,12:00,Esmaltado,1200,Arena,15,RED KNIGHT,55,G.Rodriguez,C.Bernal G.
+2,12:25,Ejecutor,1000,Arena,1,ESCOPETA RECORTADA,57,R.Varas,L.Perez A.
+2,12:25,Ejecutor,1000,Arena,2,SEVEN POINTS,57,N.Santibanez,R.Quiroz S.
+2,12:25,Ejecutor,1000,Arena,3,MI NIETO FACUNDO,57,T.Seith,A.Castagneto U.
+2,12:25,Ejecutor,1000,Arena,4,APAPACHADOR,57,R.Fournet,C.A.Urbina R.
+2,12:25,Ejecutor,1000,Arena,5,REAL ENVIDO,57,N.Ramirez,L.Urbina H.
+2,12:25,Ejecutor,1000,Arena,6,CUAL ES TU LEY,57,B.Ayala,L.Machulas G.
+2,12:25,Ejecutor,1000,Arena,7,MACHINE HEAD,57,N.Rojas,J.Pinochet P.
+2,12:25,Ejecutor,1000,Arena,8,ASTON,57,Jo.A.Gonzalez,R.Munoz M.
+2,12:25,Ejecutor,1000,Arena,9,TEEN WOLF,57,J.Eyzaguirre,L.Parra G.
+2,12:25,Ejecutor,1000,Arena,10,INDIAN BLITZ,57,F.Medina,O.Donate S.
+2,12:25,Ejecutor,1000,Arena,11,KING EOLO,57,P.Galaz,H.Pacheco P.
+2,12:25,Ejecutor,1000,Arena,12,LAROMPE,57,V.Miranda,E.Lab R.
+2,12:25,Ejecutor,1000,Arena,13,JETS DADDY,57,R.Fuenzalida,A.Castagneto U.
+2,12:25,Ejecutor,1000,Arena,14,BIG CARBONCILLO,57,F.Morales,R.Montesino S.
+2,12:25,Ejecutor,1000,Arena,15,HUGO EL TERRIBLE,57,M.Gutierrez,O.Donate S.
+3,12:50,Estudioso,1200,Arena,1,EL MARIPEPA,56,M.A.Bustamante,J.Pichara J.
+3,12:50,Estudioso,1200,Arena,2,TEMPORAL DE AMOR,56,C.Ortega,E.Lab R.
+3,12:50,Estudioso,1200,Arena,3,SAHARA CHROME,56,R.Fuenzalida,E.Switt V.
+3,12:50,Estudioso,1200,Arena,4,ALAJJA,56,R.Varas,J.Aravena M.
+3,12:50,Estudioso,1200,Arena,5,SU MERCI,56,T.Seith,D.Contreras A.
+3,12:50,Estudioso,1200,Arena,6,BEAUTIFUL CHAMPION,56,D.Carvacho,R.Quiroz S.
+3,12:50,Estudioso,1200,Arena,7,POWER OF HORSES,56,F.Morales,J.Hirmas R.
+3,12:50,Estudioso,1200,Arena,8,AVISPATE COMADRE,56,M.Gutierrez,R.Bernal G.
+3,12:50,Estudioso,1200,Arena,9,WALKA,56,N.Santibanez,C.Melero F.
+3,12:50,Estudioso,1200,Arena,10,GAMORRA,56,B.Sancho,R.Quiroz S.
+3,12:50,Estudioso,1200,Arena,11,INDIA ADORADA,56,L.Menghini,E.Switt V.
+3,12:50,Estudioso,1200,Arena,12,LADY BAY,56,M.Galaz,J.Lastra B.
+3,12:50,Estudioso,1200,Arena,13,HACER POR HACER,56,F.Medina,E.Lab R.
+4,13:16,Esmeltico,1200,Arena,1,GRAN NONO,56,Jo.A.Gonzalez,G.Covarrubias E.
+4,13:16,Esmeltico,1200,Arena,2,MI NIETO BRUNO,55,Js.Vera B.,H.Pacheco P.
+4,13:16,Esmeltico,1200,Arena,3,GRAND CASABLANCA,55,R.Fuenzalida,G.Melej R.
+4,13:16,Esmeltico,1200,Arena,4,CACHORRITA MIA,56,J.Medina,P.Valderrama C.
+4,13:16,Esmeltico,1200,Arena,5,LUMBER BOY,55,And.Covarrubias,L.Perez A.
+4,13:16,Esmeltico,1200,Arena,6,EST BELLA,56,N.Rojas,J.Venegas P.
+4,13:16,Esmeltico,1200,Arena,7,GRAN PEPE,55,F.Medina,E.Switt V.
+4,13:16,Esmeltico,1200,Arena,8,CALLAHAN,56,W.Leon,G.Covarrubias E.
+4,13:16,Esmeltico,1200,Arena,9,VINE VIDE VINCI,55,D.Carvacho,R.Quiroz S.
+4,13:16,Esmeltico,1200,Arena,10,TE DIGO ALGO,56,N.Santibanez,C.Bernal G.
+4,13:16,Esmeltico,1200,Arena,11,YA MAGICO,56,R.Avila,G.Covarrubias E.
+4,13:16,Esmeltico,1200,Arena,12,BEAUTIFUL MOON,55,C.Bustos,J.Hirmas R.
+4,13:16,Esmeltico,1200,Arena,13,YA LO CREO,56,A.Varas,J.Castillo D.
+4,13:16,Esmeltico,1200,Arena,14,CASPER INN,56,B.Ayala,L.Machulas G.
+4,13:16,Esmeltico,1200,Arena,15,ROSARIO TIJERA,56,W.Quinteros,O.Donate S.
+5,13:41,Encanto,1300,Arena,1,GRANDE TATA REY,57,G.Aros,R.Quiroz S.
+5,13:41,Encanto,1300,Arena,2,TE CACHE,57,J.A.Gonzalez,L.Urbina H.
+5,13:41,Encanto,1300,Arena,3,SOKOLINO,57,F.Medina,E.Lab R.
+5,13:41,Encanto,1300,Arena,4,AL CONTADO,57,N.Rojas,P.Diaz S.
+5,13:41,Encanto,1300,Arena,5,SUENOS DE LEON,57,R.Dores,J.Castillo D.
+5,13:41,Encanto,1300,Arena,6,GRAND LUCHO,57,I.Vargas,H.Pacheco P.
+5,13:41,Encanto,1300,Arena,7,POR FORTUNA,57,O.Ulloa,J.P.Baeza J.
+5,13:41,Encanto,1300,Arena,8,ALFONSO EL GRANDE,57,N.Santibanez,C.Bernal G.
+5,13:41,Encanto,1300,Arena,9,THE LYON BLUE,57,R.Fuenzalida,E.Switt V.
+5,13:41,Encanto,1300,Arena,10,MONTESOR,57,M.A.Bustamante,J.Araya B.
+5,13:41,Encanto,1300,Arena,11,NEGRO ROMERO,57,G.Rodriguez,E.Lab R.
+5,13:41,Encanto,1300,Arena,12,PELAO PELAO,57,B.Leon,P.Molina I.
+5,13:41,Encanto,1300,Arena,13,MY SWEET LORD,57,T.Seith,C.Quiroz E.
+5,13:41,Encanto,1300,Arena,14,CARVALO REAL,57,H.Barrera,E.Lab R.
+5,13:41,Encanto,1300,Arena,15,INDIAN SPICE,57,R.Cisternas,M.Pavez O.
+5,13:41,Encanto,1300,Arena,16,MI BELLO MILAN,57,Jo.A.Gonzalez,R.Munoz M.
+6,14:06,Esponjado,1200,Arena,1,KEEP DREAMING,56,M.Galaz,R.Rojas S.
+6,14:06,Esponjado,1200,Arena,2,SOY ENRIQUETA,56,G.Aros,A.Padovani E.
+6,14:06,Esponjado,1200,Arena,3,PALABRA CIERTA,56,D.Carvacho,R.Quiroz S.
+6,14:06,Esponjado,1200,Arena,4,GRAN BENY,56,N.Santibanez,A.Lab J.
+6,14:06,Esponjado,1200,Arena,5,QUE HICE MAL,56,W.Quinteros,J.Hirmas R.
+6,14:06,Esponjado,1200,Arena,6,JOHN WAYNE,56,L.C.Gonzalez,G.Covarrubias E.
+6,14:06,Esponjado,1200,Arena,7,NATALINO,56,A.Apablaza,R.Rojas S.
+6,14:06,Esponjado,1200,Arena,8,INTERCEPTION,56,J.Villablanca,L.Perez A.
+6,14:06,Esponjado,1200,Arena,9,UN DIA CONTIGO,56,R.Varas,L.Perez A.
+6,14:06,Esponjado,1200,Arena,10,LA TOSTADORA,56,P.Galaz,H.Pacheco P.
+6,14:06,Esponjado,1200,Arena,11,ME LO LLEVO,56,G.Covarrubias,J.Castillo D.
+6,14:06,Esponjado,1200,Arena,12,MONTE HUA,56,M.A.Bustamante,O.Donate S.
+6,14:06,Esponjado,1200,Arena,13,MANGINO,56,R.Cisternas,A.Aviles L.
+7,14:31,En Trato,1900,Arena,1,STEELE,57,J.A.Gonzalez,R.Pulgar A.
+7,14:31,En Trato,1900,Arena,2,DE GRASSE,52,J.Medina,R.Sanchez Q.
+7,14:31,En Trato,1900,Arena,3,IMANOL,55,R.Cisternas,J.Araya B.
+7,14:31,En Trato,1900,Arena,4,DIAMOND BLUE,59,G.Aros,A.Padovani E.
+7,14:31,En Trato,1900,Arena,5,QUE GUSTO DE VERTE,53,N.Ramirez,J.Araya B.
+7,14:31,En Trato,1900,Arena,6,PAJOMA,57,D.Carvacho,I.Michea F.
+7,14:31,En Trato,1900,Arena,7,NOB,56,R.Painen,J.Pichara J.
+7,14:31,En Trato,1900,Arena,8,SIETE DEL NUEVE,59,L.Torres,E.Lab R.
+7,14:31,En Trato,1900,Arena,9,PERSEVERA SIEMPRE,51,L.Menghini,E.Switt V.
+7,14:31,En Trato,1900,Arena,10,CORDON DEL CAULLE,56,B.Sancho,J.Castillo D.
+8,14:58,Esmerado,1200,Arena,1,UNDECIDED,56,M.Galaz,D.Contreras A.
+8,14:58,Esmerado,1200,Arena,2,SONG SONG BLUE,55,J.Villablanca,C.Quiroz E.
+8,14:58,Esmerado,1200,Arena,3,NURMAGOMEDOV,55,A.Apablaza,O.Donate S.
+8,14:58,Esmerado,1200,Arena,4,MEME,56,J.Herrera,R.Bernal G.
+8,14:58,Esmerado,1200,Arena,5,SILVERCHAIR,55,D.Sanchez,O.Donate S.
+8,14:58,Esmerado,1200,Arena,6,SALMA ALEGRE,56,L.Rivera,E.Switt V.
+8,14:58,Esmerado,1200,Arena,7,MR RANGER,55,P.Reyes,I.Michea F.
+8,14:58,Esmerado,1200,Arena,8,MERKEL,56,A.Varas,R.Quiroz S.
+8,14:58,Esmerado,1200,Arena,9,UKIYO,55,L.C.Gonzalez,M.Perez A.
+8,14:58,Esmerado,1200,Arena,10,ESTRATEGO,55,A.Villagra,R.Rojas S.
+8,14:58,Esmerado,1200,Arena,11,MANDIOKA,55,A.Vasquez,M.Perez A.
+8,14:58,Esmerado,1200,Arena,12,MITSKI,55,D.Carvacho,R.Quiroz S.
+8,14:58,Esmerado,1200,Arena,13,ISTRIONICO,55,J.Mino,M.Apablaza G.
+8,14:58,Esmerado,1200,Arena,14,MI JOYA,56,F.Morales,R.Montesino S.
+8,14:58,Esmerado,1200,Arena,15,VASCA BRAVA,56,W.Leon,J.Espineira C.
+9,15:24,Eclipse De Luna,1200,Arena,1,GAUCHAZA,55,B.Sancho,C.Bernal G.
+9,15:24,Eclipse De Luna,1200,Arena,2,VOLANTINERA,55,J.Medina,J.P.Baeza J.
+9,15:24,Eclipse De Luna,1200,Arena,3,SKY TROY,55,G.Ulloa,J.Araya B.
+9,15:24,Eclipse De Luna,1200,Arena,4,ALISHEBA,55,A.Varas,A.Padovani E.
+9,15:24,Eclipse De Luna,1200,Arena,5,VALLE SALVAJE,55,F.Medina,R.Quiroz S.
+9,15:24,Eclipse De Luna,1200,Arena,6,DIVINA PALOMA,55,A.Apablaza,C.Quiroz E.
+9,15:24,Eclipse De Luna,1200,Arena,7,MELIPILLA ROCK,55,G.Aros,A.Padovani E.
+9,15:24,Eclipse De Luna,1200,Arena,8,BARELLA,55,N.Ramirez,M.Rabajille D.
+9,15:24,Eclipse De Luna,1200,Arena,9,ZUAZA,55,J.A.Gonzalez,A.Parra D.
+9,15:24,Eclipse De Luna,1200,Arena,10,GRAND SURI,55,N.Rojas,R.Lopez B.
+10,15:50,Galardon,1900,Arena,1,LONWHITE,57,K.Espina,C.Gonzalez M.
+10,15:50,Galardon,1900,Arena,2,AMORINO,50,A.Rivera,J.Orellana R.
+10,15:50,Galardon,1900,Arena,3,HIJO DEL TUTO,56,H.Ochoa,J.Araya B.
+10,15:50,Galardon,1900,Arena,4,LATOUR CENT,58,T.Seith,P.Diaz S.
+10,15:50,Galardon,1900,Arena,5,NINO INDOMABLE,52,I.Valdivia,C.A.Urbina R.
+10,15:50,Galardon,1900,Arena,6,RECHAZADO,58,W.Leon,G.Covarrubias E.
+11,16:18,Espionaje,1200,Arena,1,SOLO AMIGOS,56,G.Aros,A.Padovani E.
+11,16:18,Espionaje,1200,Arena,2,DRINK'S VALLEY,54,I.Valdivia,R.Quiroz S.
+11,16:18,Espionaje,1200,Arena,3,SHAMROCK,55,F.Medina,J.Castillo D.
+11,16:18,Espionaje,1200,Arena,4,KARMELIA,56,A.Varas,-
+11,16:18,Espionaje,1200,Arena,5,TOP MODEL,55,J.Herrera,-
+11,16:18,Espionaje,1200,Arena,6,SIGUE IGUAL,56,R.Fuenzalida,J.P.Baeza J.
+11,16:18,Espionaje,1200,Arena,7,GAELIA,55,C.Bustos,J.Venegas P.
+11,16:18,Espionaje,1200,Arena,8,LINZ,56,I.Vargas,J.Castillo D.
+11,16:18,Espionaje,1200,Arena,9,SCOTISH QUEEN,54,R.Varas,E.Lab R.
+11,16:18,Espionaje,1200,Arena,10,TETRA GOLEADOR Z,56,R.Painen,J.Bravo M.
+11,16:18,Espionaje,1200,Arena,11,BAILEMOS CUMBIA,55,A.Vasquez,J.Pichara J.
+11,16:18,Espionaje,1200,Arena,12,DARK BEAUTY,55,Jo.A.Gonzalez,O.Donate S.
+11,16:18,Espionaje,1200,Arena,13,TREN A CAJON,56,N.Ramirez,L.Urbina H.
+11,16:18,Espionaje,1200,Arena,14,RIO DE LOS CIERVOS,56,D.Carvacho,R.Lopez B.
+12,16:45,Estribillo,1200,Arena,1,EL GRAN MENOTTI,55,D.Carvacho,R.Quiroz S.
+12,16:45,Estribillo,1200,Arena,2,CITY BLUE,54,C.Bustos,J.Venegas P.
+12,16:45,Estribillo,1200,Arena,3,RUCCO,55,T.Seith,P.Diaz S.
+12,16:45,Estribillo,1200,Arena,4,GRAN HORUS,56,A.Varas,A.Padovani E.
+12,16:45,Estribillo,1200,Arena,5,AUDELIO,54,N.Santibanez,J.Castillo D.
+12,16:45,Estribillo,1200,Arena,6,BUEN NORTE,55,A.Vasquez,A.Martinez C.
+12,16:45,Estribillo,1200,Arena,7,NO ME PILLA,55,H.Barrera,R.Quiroz S.
+12,16:45,Estribillo,1200,Arena,8,LA CHUCKY TRINI,56,M.Galaz,G.Covarrubias E.
+12,16:45,Estribillo,1200,Arena,9,JOHN COOPER,54,R.Avila,R.Montesino S.
+12,16:45,Estribillo,1200,Arena,10,LECCLERC,55,D.Carrasco,J.Pichara J.
+12,16:45,Estribillo,1200,Arena,11,LO FRANCO,55,M.Gutierrez,R.Quiroz S.
+12,16:45,Estribillo,1200,Arena,12,LYNGOTE,55,B.Ayala,L.Machulas G.
+12,16:45,Estribillo,1200,Arena,13,LIMENO FELIZ,55,A.Apablaza,P.Valderrama C.
+12,16:45,Estribillo,1200,Arena,14,SEEKING THE SOUL,56,V.Miranda,A.Padovani E.
+13,17:12,,1000,Arena,1,GOOD FATHER,57,L.Valdivia,J.Pinochet P.
+13,17:12,,1000,Arena,2,THE ARION,57,Seb.Gonzalez,M.Apablaza G.
+13,17:12,,1000,Arena,3,SECRET DRAGON,57,P.Galaz,M.Apablaza G.
+13,17:12,,1000,Arena,4,APOLINARIO,57,J.Medina,J.P.Baeza J.
+13,17:12,,1000,Arena,5,TERRIBLE BRUNO,57,R.Painen,J.Pichara J.
+13,17:12,,1000,Arena,6,FASHION BOY,57,T.Seith,J.Pichara J.
+13,17:12,,1000,Arena,7,QUE LE HAN DICHO,57,J.Herrera,J.Silva S.
+13,17:12,,1000,Arena,8,BAJOS YORK,57,P.Robles,J.Pinochet P.
+13,17:12,,1000,Arena,9,WUALALA,57,H.Ochoa,J.Araya B.
+13,17:12,,1000,Arena,10,JIMBO,57,V.Miranda,J.Pichara J.
+13,17:12,,1000,Arena,11,ME VEO CONTENTO,57,J.Zuniga,P.Molina I.
+13,17:12,,1000,Arena,12,NOSECOMPARE,57,M.A.Bustamante,J.Pichara J.
+13,17:12,,1000,Arena,13,KRAVEN,57,D.Carvacho,R.Quiroz S.
+14,17:41,Estoy Listo,1200,Arena,1,INDIA MAULINA,56,R.Dores,J.Hirmas R.
+14,17:41,Estoy Listo,1200,Arena,2,COMO EL SOL,55,P.Galaz,J.Pichara J.
+14,17:41,Estoy Listo,1200,Arena,3,TEATRO GRIEGO,56,A.Varas,A.Aviles L.
+14,17:41,Estoy Listo,1200,Arena,4,COSE DELLA VITA,56,P.Robles,A.Perez D.
+14,17:41,Estoy Listo,1200,Arena,5,ARRANCATE PAIRINO,55,N.Santibanez,M.Apablaza G.
+14,17:41,Estoy Listo,1200,Arena,6,HERMANO ERIC,56,V.Miranda,A.Padovani E.
+14,17:41,Estoy Listo,1200,Arena,7,SONADO CAMPEON,56,P.Reyes,J.Castillo D.
+14,17:41,Estoy Listo,1200,Arena,8,GIORGIO EL ORIGINAL,56,M.Galaz,J.Lastra B.
+14,17:41,Estoy Listo,1200,Arena,9,INDIA TERCA,56,L.Rivera,E.Switt V.
+14,17:41,Estoy Listo,1200,Arena,10,MAL MIRADA,56,D.Carrasco,J.Espineira C.
+14,17:41,Estoy Listo,1200,Arena,11,PAQUETE PLATICO,56,R.Fuenzalida,E.Switt V.
+14,17:41,Estoy Listo,1200,Arena,12,SOGNA CON ME,56,N.Rojas,J.Venegas P.
+14,17:41,Estoy Listo,1200,Arena,13,NUEVO HORIZONTE,56,M.Gutierrez,R.Quiroz S.
+14,17:41,Estoy Listo,1200,Arena,14,GOLD ESCUDERO,56,And.Covarrubias,J.Castillo D.
+14,17:41,Estoy Listo,1200,Arena,15,LA SONE,56,W.Leon,G.Covarrubias E.
+15,18:09,Trotamondo,1000,Arena,1,KINO,59,F.Morales,R.Rojas S.
+15,18:09,Trotamondo,1000,Arena,2,EL PIRI,51,W.Leon,G.Covarrubias E.
+15,18:09,Trotamondo,1000,Arena,3,GUENA PETETE,52,C.Bustos,E.Lab R.
+15,18:09,Trotamondo,1000,Arena,4,EL BATEY,59,G.Aros,R.Lopez B.
+15,18:09,Trotamondo,1000,Arena,5,CHICHILO,51,J.Mino,A.Aviles L.
+15,18:09,Trotamondo,1000,Arena,6,KE PACQUIAO,59,N.Rojas,R.Pulgar A.
+15,18:09,Trotamondo,1000,Arena,7,STRONG DAIKIRI,53,R.Painen,J.Araya B.
+15,18:09,Trotamondo,1000,Arena,8,HUACHICHON,59,B.Sancho,R.Quiroz S.
+15,18:09,Trotamondo,1000,Arena,9,SEA OF GOLD,51,H.Barrera,R.Lopez B.
+15,18:09,Trotamondo,1000,Arena,10,PRESENTE CHA,58,Jo.A.Gonzalez,G.Covarrubias E.
+15,18:09,Trotamondo,1000,Arena,11,RUN RABBIT RUN,56,M.Gutierrez,C.Bernal G.
+15,18:09,Trotamondo,1000,Arena,12,TWISTED GEM,54,A.Vasquez,O.Donate S.
+15,18:09,Trotamondo,1000,Arena,13,BADERO,56,V.Miranda,A.Padovani E.
+16,18:37,El Amanecer,1400,Arena,1,JOSES,59,O.Ulloa,O.Silva S.
+16,18:37,El Amanecer,1400,Arena,2,LINDO DIA,52,R.Avila,R.Quiroz S.
+16,18:37,El Amanecer,1400,Arena,3,FRAGMENTADO,53,D.Carvacho,R.Quiroz S.
+16,18:37,El Amanecer,1400,Arena,4,ANALOGO,60,A.Vasquez,M.Perez A.
+16,18:37,El Amanecer,1400,Arena,5,SPLENDID SPRINGS,53,B.Leon,C.Urbina H.
+16,18:37,El Amanecer,1400,Arena,6,NITRATO,60,J.Herrera,R.Sanchez Q.
+16,18:37,El Amanecer,1400,Arena,7,CARAMEL FRAPPE,57,L.Valdivia,C.Urbina H.
+16,18:37,El Amanecer,1400,Arena,8,TONY MONTANA,60,B.Sancho,Js.Inda D.
+16,18:37,El Amanecer,1400,Arena,9,ENSENAME,50,L.Menghini,E.Switt V.
+16,18:37,El Amanecer,1400,Arena,10,LABURADOR,59,T.Seith,I.Michea F.
+17,19:06,Espaciado,1200,Arena,1,NO SE NA,56,J.A.Gonzalez,J.Alvarez D.
+17,19:06,Espaciado,1200,Arena,2,JAVIERA CONSTANZA,55,N.Santibanez,J.Aravena M.
+17,19:06,Espaciado,1200,Arena,3,GEMOLOGA,55,F.Medina,J.Castillo D.
+17,19:06,Espaciado,1200,Arena,4,BLESSED,56,D.Carvacho,R.Quiroz S.
+17,19:06,Espaciado,1200,Arena,5,GROZZA,55,G.Rodriguez,A.Castagneto U.
+17,19:06,Espaciado,1200,Arena,6,KOCCIA,56,R.Cisternas,O.Donate S.
+17,19:06,Espaciado,1200,Arena,7,ELEGIDO CON PINZAS,55,A.Apablaza,A.Padovani E.
+17,19:06,Espaciado,1200,Arena,8,CORAL REEF,56,J.Castillo,A.Parra D.
+17,19:06,Espaciado,1200,Arena,9,MIXED EMOTIONS,55,R.Fournet,C.Quiroz E.
+17,19:06,Espaciado,1200,Arena,10,VIEJA CHELA,56,M.Cordero,J.Castillo D.
+17,19:06,Espaciado,1200,Arena,11,CICARELLI,55,Jo.A.Gonzalez,G.Covarrubias E.
+17,19:06,Espaciado,1200,Arena,12,EL HABANO (ARG),55,M.Gutierrez,O.Donate S.
+17,19:06,Espaciado,1200,Arena,13,WILD DABBLER,56,J.Villablanca,M.Perez A.
+17,19:06,Espaciado,1200,Arena,14,EL GRAN MAESTRO,56,G.Aros,A.Padovani E.
+17,19:06,Espaciado,1200,Arena,15,PRINCESS ROSE,56,J.Herrera,E.Lab R.
+18,19:34,Exitoso,1200,Arena,1,RUBIA MORENA,56,J.Villablanca,C.Quiroz E.
+18,19:34,Exitoso,1200,Arena,2,LADY ASTOR (USA),55,And.Covarrubias,J.Castillo D.
+18,19:34,Exitoso,1200,Arena,3,LA FINESSE,55,B.Leon,C.A.Urbina R.
+18,19:34,Exitoso,1200,Arena,4,LUCIA DE SIRACUSA,56,G.Aros,A.Padovani E.
+18,19:34,Exitoso,1200,Arena,5,LA NONITA,55,R.Fuenzalida,H.Pacheco P.
+18,19:34,Exitoso,1200,Arena,6,ROCE SECRETO,56,V.Miranda,J.Pichara J.
+18,19:34,Exitoso,1200,Arena,7,KALANIT,55,J.Medina,J.P.Baeza J.
+18,19:34,Exitoso,1200,Arena,8,MINDEN,56,G.Rodriguez,A.Castagneto U.
+18,19:34,Exitoso,1200,Arena,9,OFESTIVO,55,R.Cisternas,J.Espineira C.
+18,19:34,Exitoso,1200,Arena,10,BUNGABUNGA,55,I.Vargas,J.Bravo M.
+18,19:34,Exitoso,1200,Arena,11,CHIQUITO CAMPEADOR,55,M.Gutierrez,R.Bernal G.
+18,19:34,Exitoso,1200,Arena,12,EL COBALTO,55,B.Sancho,J.Castillo D.
+18,19:34,Exitoso,1200,Arena,13,CALIFORNIA DADDY,56,N.Rojas,R.Pulgar A.
+18,19:34,Exitoso,1200,Arena,14,NIHUIL,55,N.Ramirez,J.Pichara J.
+18,19:34,Exitoso,1200,Arena,15,BERNOULLI,55,R.Varas,L.Perez A.
+19,20:02,El Vichuquen,1200,Arena,1,ZEFIRO,56,J.A.Gonzalez,J.Araya B.
+19,20:02,El Vichuquen,1200,Arena,2,GOOD PARTNER,54,L.Menghini,E.Switt V.
+19,20:02,El Vichuquen,1200,Arena,3,BLACKCRACK,54,R.Fuenzalida,J.Pichara J.
+19,20:02,El Vichuquen,1200,Arena,4,LOCO GANDHI,57,A.Vasquez,R.Lopez B.
+19,20:02,El Vichuquen,1200,Arena,5,EN VECES,54,P.Galaz,R.Rojas S.
+19,20:02,El Vichuquen,1200,Arena,6,STANAFUERA,56,R.Painen,M.Perez A.
+19,20:02,El Vichuquen,1200,Arena,7,ANGEOLINA,54,V.Miranda,A.Padovani E.
+19,20:02,El Vichuquen,1200,Arena,8,BENIBLU,56,A.Apablaza,A.Padovani E.
+19,20:02,El Vichuquen,1200,Arena,9,MOUNTAIN MONARCH,54,B.Sancho,R.Quiroz S.
+19,20:02,El Vichuquen,1200,Arena,10,A QUIEN SALISTE,55,L.Valdivia,R.Quiroz S.
+19,20:02,El Vichuquen,1200,Arena,11,TATUADOR,55,J.Medina,P.Valderrama C.
+19,20:02,El Vichuquen,1200,Arena,12,UN GUARITO,55,W.Leon,G.Covarrubias E.
+19,20:02,El Vichuquen,1200,Arena,13,RAPIDO Y VELOZ,55,G.Rodriguez,C.Bernal G.
+19,20:02,El Vichuquen,1200,Arena,14,ESTERIOS,56,A.Varas,A.Padovani E.
+20,20:32,Entredicho,1200,Arena,1,SEATTLE SNOW,56,F.Morales,R.Montesino S.
+20,20:32,Entredicho,1200,Arena,2,MANHATTAN PROJECT,54,N.Santibanez,C.Melero F.
+20,20:32,Entredicho,1200,Arena,3,EASY PEASY,54,F.Soto,R.Pulgar A.
+20,20:32,Entredicho,1200,Arena,4,ALAZAN LUCERO,56,V.Miranda,A.Padovani E.
+20,20:32,Entredicho,1200,Arena,5,JOSE GABRIEL,54,G.Rodriguez,M.Velarde B.
+20,20:32,Entredicho,1200,Arena,6,GIORGIO DI CAPRI,56,A.Vasquez,M.Perez A.
+20,20:32,Entredicho,1200,Arena,7,ZOBOOMAFOO,55,R.Fuenzalida,A.Castagneto U.
+20,20:32,Entredicho,1200,Arena,8,BEAST MODE,56,I.Valdivia,C.Urbina H.
+20,20:32,Entredicho,1200,Arena,9,ZULEMA ZAHIR,54,M.A.Bustamante,J.Araya B.
+20,20:32,Entredicho,1200,Arena,10,CLASSIC FORM,55,R.Avila,M.Covarrubias E.
+20,20:32,Entredicho,1200,Arena,11,PACHEKIN,55,P.Galaz,H.Pacheco P.
+20,20:32,Entredicho,1200,Arena,12,VAMOS DE LA MANO,55,G.Aros,R.Lopez B.
+20,20:32,Entredicho,1200,Arena,13,MENTE BRILLANTE,55,R.Fournet,J.Pichara J.
+20,20:32,Entredicho,1200,Arena,14,BRUNO EL TERRIBLE,56,N.Ramirez,J.Pichara J.
+20,20:32,Entredicho,1200,Arena,15,SEEKING THE DOLCE,56,T.Seith,H.Adonis B.
+21,21:01,Escarapelo,1200,Arena,1,FAST PATTERN,55,C.Hernandez,P.Valderrama C.
+21,21:01,Escarapelo,1200,Arena,2,NAVIDAD VELOZ,54,L.C.Gonzalez,M.Covarrubias E.
+21,21:01,Escarapelo,1200,Arena,3,LADY MANU,54,A.Vasquez,A.Martinez C.
+21,21:01,Escarapelo,1200,Arena,4,AFRICAN SPIRIT,55,R.Painen,M.Pavez O.
+21,21:01,Escarapelo,1200,Arena,5,MAXIWARIO,54,M.Fuentes,G.Covarrubias E.
+21,21:01,Escarapelo,1200,Arena,6,DALEMITA,55,H.Barrera,R.Quiroz S.
+21,21:01,Escarapelo,1200,Arena,7,INDIAN TIGER,54,N.Santibanez,J.Castillo D.
+21,21:01,Escarapelo,1200,Arena,8,AMBROSE,55,N.Rojas,A.Padovani E.
+21,21:01,Escarapelo,1200,Arena,9,YERI STAR,54,V.Miranda,A.Padovani E.
+21,21:01,Escarapelo,1200,Arena,10,NAGAO,55,G.Aros,R.Lopez B.
+21,21:01,Escarapelo,1200,Arena,11,BELLO ENCANTO,54,I.Vargas,J.Bravo M.
+21,21:01,Escarapelo,1200,Arena,12,COSTAMIA,54,G.Rodriguez,M.Perez A.
+21,21:01,Escarapelo,1200,Arena,13,TIRREL,55,I.Valdivia,P.Diaz S.
+21,21:01,Escarapelo,1200,Arena,14,DAKHAR,55,B.Leon,M.Covarrubias E.
+21,21:01,Escarapelo,1200,Arena,15,LEYENDA ROJA,55,P.Galaz,R.Rojas S.
+22,21:30,El Firmeza,1200,Arena,1,MONCHITOCRACK,58,V.Miranda,J.Pichara J.
+22,21:30,El Firmeza,1200,Arena,2,PAPITO ALFREDO,54,G.Rodriguez,P.Diaz S.
+22,21:30,El Firmeza,1200,Arena,3,QUIERO RE TRUCO,55,N.Ramirez,L.Urbina H.
+22,21:30,El Firmeza,1200,Arena,4,EL FERROVIARIO,59,J.Herrera,C.Bernal G.
+22,21:30,El Firmeza,1200,Arena,5,SCALPING,55,B.Sancho,C.Bernal G.
+22,21:30,El Firmeza,1200,Arena,6,ISIDORA MIA,58,A.Apablaza,A.Padovani E.
+22,21:30,El Firmeza,1200,Arena,7,GRAN ALASKA,55,J.Villablanca,M.Perez A.
+22,21:30,El Firmeza,1200,Arena,8,JEREZANO,59,T.Seith,P.Diaz S.
+22,21:30,El Firmeza,1200,Arena,9,STAR MAGIC,54,L.Valdivia,P.Diaz S.
+22,21:30,El Firmeza,1200,Arena,10,EXIJO RESPETO,57,C.Ortega,J.Alvarez D.
+22,21:30,El Firmeza,1200,Arena,11,INVITO YO,56,F.Morales,R.Pulgar A.
+22,21:30,El Firmeza,1200,Arena,12,CHINO MATADOR,55,M.Gutierrez,H.Castillo S.
+22,21:30,El Firmeza,1200,Arena,13,LACHITO,57,R.Painen,A.Perez D.
+22,21:30,El Firmeza,1200,Arena,14,PANCHO MALO,59,J.A.Gonzalez,J.Castillo D.
+22,21:30,El Firmeza,1200,Arena,15,LUZ OCULTA,58,L.Torres,M.Covarrubias E.

@@ -17,11 +17,12 @@ def get_sqlite_conn():
         return None
     return sqlite3.connect(DB_PATH)
 
-def migrate_table(table_name, supabase_table, mapping=None, unique_cols=None):
+def migrate_table(table_name, supabase_table, mapping=None, on_conflict=None, columns=None):
     """
     Reads a table from SQLite and upserts to Supabase.
     mapping: Dict {sqlite_col: supabase_col}
-    unique_cols: List of columns to use for on_conflict (upsert)
+    on_conflict: Column name to use for conflict resolution (upsert)
+    columns: List of columns to include (if None, includes all)
     """
     print(f"\n🚀 Migrating table: {table_name} -> {supabase_table}...")
     
@@ -42,6 +43,10 @@ def migrate_table(table_name, supabase_table, mapping=None, unique_cols=None):
         # Rename columns
         if mapping:
             df = df.rename(columns=mapping)
+        
+        # Filter to only specified columns if provided
+        if columns:
+            df = df[[col for col in columns if col in df.columns]]
             
         # Select only columns that match Supabase target (filtering others)
         # We need to know Supabase schema, but generally we rely on mapping.
@@ -71,7 +76,7 @@ def migrate_table(table_name, supabase_table, mapping=None, unique_cols=None):
 
             # Upsert
             # Note: Supabase-py 'upsert' might need checking if it respects ID
-            res = client.upsert(supabase_table, clean_batch)
+            res = client.upsert(supabase_table, clean_batch, on_conflict=on_conflict)
             
             # Simple Insert if upsert fails? No, Upsert is safer for re-runs.
             
@@ -83,24 +88,51 @@ def migrate_table(table_name, supabase_table, mapping=None, unique_cols=None):
 def run_migration():
     print("🏁 Starting Full Migration to Supabase...")
     
-    # 1. Hipodromos
-    # SQLite: hipodromos(id, nombre) -> Supabase: hipodromos(id, nombre)
-    migrate_table('hipodromos', 'hipodromos')
+    # 1. Hipodromos - Special handling to preserve SQLite IDs
+    # We need to ensure the IDs in Supabase match SQLite exactly for foreign key references
+    print("\n🚀 Migrating table: hipodromos -> hipodromos...")
+    conn = get_sqlite_conn()
+    if conn:
+        df = pd.read_sql("SELECT id, nombre FROM hipodromos", conn)
+        conn.close()
+        
+        if not df.empty:
+            print(f"   Items to migrate: {len(df)}")
+            records = df.to_dict('records')
+            client = SupabaseManager()
+            
+            # First delete existing hipodromos to avoid conflicts
+            # This is safe because we'll re-insert all data
+            try:
+                # Delete all existing records
+                client.get_client().table('hipodromos').delete().neq('id', -1).execute()
+                print("   🗑️ Cleared existing hipodromos")
+            except Exception as e:
+                print(f"   ⚠️ Could not clear hipodromos: {e}")
+            
+            # Now insert with exact SQLite IDs
+            try:
+                # Clean records
+                clean_records = [{k: (None if pd.isna(v) else v) for k, v in r.items()} for r in records]
+                client.get_client().table('hipodromos').insert(clean_records).execute()
+                print("   ✅ Hipodromos migrated with preserved IDs")
+            except Exception as e:
+                print(f"   ❌ Error inserting hipodromos: {e}")
     
-    # 2. Caballos
-    migrate_table('caballos', 'caballos')
+    # 2. Caballos (only columns that exist in Supabase)
+    migrate_table('caballos', 'caballos', on_conflict='id', columns=['id', 'nombre'])
     
     # 3. Jinetes
-    migrate_table('jinetes', 'jinetes')
+    migrate_table('jinetes', 'jinetes', on_conflict='id')
     
     # 4. Jornadas
     # SQLite: jornadas(id, hipodromo_id, fecha)
-    migrate_table('jornadas', 'jornadas')
+    migrate_table('jornadas', 'jornadas', on_conflict='id')
     
     # 5. Carreras
     # SQLite: carreras(id, jornada_id, numero, ...)
     # Mapping: numero -> numero, distancia -> distancia
-    migrate_table('carreras', 'carreras')
+    migrate_table('carreras', 'carreras', on_conflict='id')
     
     # 6. Participaciones
     # SQLite: participaciones(id, carrera_id, caballo_id, jinete_id, posicion, ...)

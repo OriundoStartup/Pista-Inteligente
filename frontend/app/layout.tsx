@@ -7,22 +7,72 @@ import Chatbot from "@/components/Chatbot";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Pista Inteligente - Predicciones Hípicas con IA",
-  description: "Predicciones hípicas con Inteligencia Artificial para Hipódromo Chile y Club Hípico de Chile. Análisis profesional de carreras, pronósticos y estadísticas en tiempo real.",
-  keywords: "programa hipódromo chile, club hípico de chile, predicciones hípicas, carreras de caballos chile, pronósticos hipódromo, análisis hípico, inteligencia artificial carreras",
+  title: "Pista Inteligente - Predicciones Hípicas con IA | Teletrak Chile",
+  description: "Predicciones hípicas con Inteligencia Artificial para Hipódromo Chile, Club Hípico de Santiago y Valparaíso Sporting. Pronósticos de carreras de caballos, programa del día, resultados y análisis profesional. Alternativa inteligente a Teletrak con IA.",
+  keywords: [
+    // Hipódromos principales
+    "hipódromo chile", "club hípico de santiago", "valparaíso sporting", "hipódromo chile carreras hoy",
+    // Teletrak y apuestas
+    "teletrak", "teletrak chile", "teletrak carreras", "teletrak en vivo", "teletrak resultados",
+    // Carreras de caballos
+    "carreras de caballos chile", "carreras de caballos hoy", "programa carreras de caballos",
+    "resultados carreras de caballos", "caballos chile",
+    // Predicciones y pronósticos
+    "predicciones hípicas", "pronósticos hipódromo", "predicciones carreras de caballos",
+    "pronosticos turf chile", "picks carreras chile",
+    // Apuestas hípicas
+    "apuestas hípicas chile", "apuestas caballos chile", "quinela hipódromo", "exacta hipódromo",
+    // Análisis
+    "análisis hípico", "estadísticas jinetes chile", "inteligencia artificial carreras",
+    // Programa del día
+    "programa hipódromo chile hoy", "programa club hípico hoy", "partantes del día"
+  ].join(", "),
+  authors: [{ name: "Pista Inteligente" }],
+  creator: "Pista Inteligente",
+  publisher: "Pista Inteligente",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://pista-inteligente.vercel.app",
+  },
+  category: "Sports",
   openGraph: {
     type: "website",
-    title: "Pista Inteligente - Predicciones Hípicas con IA",
-    description: "Predicciones con IA para Hipódromo Chile y Club Hípico de Chile",
-    images: ["/header_brand.png"],
+    title: "Pista Inteligente - Predicciones Hípicas con IA | Teletrak Chile",
+    description: "Predicciones con IA para Hipódromo Chile, Club Hípico de Santiago y Valparaíso Sporting. Pronósticos, programa del día, resultados y análisis de carreras de caballos.",
+    url: "https://pista-inteligente.vercel.app",
+    images: [{
+      url: "/header_brand.png",
+      width: 1200,
+      height: 630,
+      alt: "Pista Inteligente - Predicciones Hípicas con Inteligencia Artificial"
+    }],
     locale: "es_CL",
     siteName: "Pista Inteligente",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pista Inteligente - Predicciones Hípicas",
-    description: "Predicciones con IA para carreras de caballos en Chile",
+    title: "Pista Inteligente - Predicciones Hípicas con IA",
+    description: "Predicciones y pronósticos para carreras de caballos en Chile. Hipódromo Chile, Club Hípico y Valparaíso Sporting.",
     images: ["/header_brand.png"],
+    creator: "@PistaInteligente",
+  },
+  verification: {
+    google: "tu-codigo-de-verificacion-google", // Actualizar con tu código real de Google Search Console
+  },
+  other: {
+    "geo.region": "CL",
+    "geo.placename": "Santiago, Chile",
+    "content-language": "es-CL",
   },
 };
 
@@ -40,6 +90,63 @@ export default function RootLayout({
         <link
           href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap"
           rel="stylesheet"
+        />
+
+        {/* JSON-LD Structured Data for SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "WebSite",
+                  "@id": "https://pista-inteligente.vercel.app/#website",
+                  "url": "https://pista-inteligente.vercel.app",
+                  "name": "Pista Inteligente",
+                  "description": "Predicciones hípicas con Inteligencia Artificial para carreras de caballos en Chile",
+                  "publisher": { "@id": "https://pista-inteligente.vercel.app/#organization" },
+                  "inLanguage": "es-CL",
+                  "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://pista-inteligente.vercel.app/programa?q={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                  }
+                },
+                {
+                  "@type": "Organization",
+                  "@id": "https://pista-inteligente.vercel.app/#organization",
+                  "name": "Pista Inteligente",
+                  "url": "https://pista-inteligente.vercel.app",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://pista-inteligente.vercel.app/header_brand.png"
+                  },
+                  "description": "Plataforma de predicciones hípicas con IA para Hipódromo Chile, Club Hípico de Santiago y Valparaíso Sporting",
+                  "areaServed": {
+                    "@type": "Country",
+                    "name": "Chile"
+                  },
+                  "knowsAbout": [
+                    "Carreras de caballos",
+                    "Hipódromo Chile",
+                    "Club Hípico de Santiago",
+                    "Valparaíso Sporting",
+                    "Teletrak",
+                    "Predicciones hípicas",
+                    "Inteligencia Artificial"
+                  ]
+                },
+                {
+                  "@type": "SportsOrganization",
+                  "name": "Pista Inteligente - Análisis Hípico",
+                  "sport": "Horse Racing",
+                  "url": "https://pista-inteligente.vercel.app",
+                  "description": "Análisis y predicciones para carreras de caballos en los principales hipódromos de Chile"
+                }
+              ]
+            })
+          }}
         />
 
         {/* Google AdSense */}

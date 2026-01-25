@@ -1,0 +1,261 @@
+Reunion,Carrera,Hora,Distancia,Lugar,Numero,Ejemplar,Padrillo,Peso_Fisico,Peso_Jinete,Jinete,Preparador,Stud,Dividendo
+5,1,12:00,1200m,1,10,Sonata Celta,Mo Town,537,55,M. Gutiérrez,Rodrigo Quiroz S.,Lucaraste,7.30
+5,1,12:00,1200m,2,3,Queen Any,Cloud Computing,442,54,R.S. Dores,Raúl Montesino S.,Los Cabezas Alvarez,2.90
+5,1,12:00,1200m,3,1,Markinabizkaia,Annual Report,455,55,M. Herrera,Daniel Contreras A.,Daniel Contreras A.,51.80
+5,1,12:00,1200m,4,5,Satisfy My Soul,Sumerio,442,54,N. Rojas,Luis Toledo C.,Pequeño Matias,23.40
+5,1,12:00,1200m,5,4,Marrakech,El Milagrito,445,56,J. González,Genaro J. Covarrubias E.,La Corina,5.20
+5,1,12:00,1200m,6,15,Red Knight,Ivan Denisovich,481,55,G. Rodríguez,Claudio Bernal G.,Mario Y Elodia,4.90
+5,1,12:00,1200m,7,7,Kirsch Royal,Leading The Parade,464,54,R. Avila,Mario Covarrubias,Quarter Dollar,14.20
+5,1,12:00,1200m,8,6,Du Plesis,Sky Mesa,483,55,J. Villablanca,Claudio Bernal G.,Di Giorgio Dicone,18.70
+5,1,12:00,1200m,9,14,Cuando Llego Gano,El Distinto,424,55,P. Galáz,Hernán Pacheco P.,Dos E,8.00
+5,1,12:00,1200m,10,11,Desert Cat,Newfoundland,449,54,R. Cisternas,Jaime Espineira C.,La Tropa,13.50
+5,1,12:00,1200m,11,8,The Last Wolf,Del Pacifico,454,56,B. Ayala,Luis Machulas G.,Yayita,31.40
+5,1,12:00,1200m,12,2,Silvestrin,Daddy Long Legs,452,54,J.A. Miño,Mario A. Apablaza G.,Albino,33.60
+5,1,12:00,1200m,13,9,Zigeuner,Ivan Denisovich,484,54,A. Covarrubias,Mario Covarrubias,Felipe Jesus,16.60
+5,1,12:00,1200m,14,12,Francoli,Seeking The Dia,438,54,J. Cueto,Rodrigo Quiroz S.,Lucaraste,32.40
+5,1,12:00,1200m,15,13,Vicaria Amelia,California Chrome,432,55,I. Urrejola,Mario A. Apablaza G.,Lcg,56.40
+5,2,12:25,1000m,1,8,Aston,Ivan Denisovich,463,57,J. González,Rodrigo Muñoz M.,Cabritis,4.70
+5,2,12:25,1000m,2,10,Indian Blitz,Indian Trail,452,53,F. Medina,Oscar Donate S.,Tata Beto,4.20
+5,2,12:25,1000m,3,5,Real Envido,Hinz,450,57,N. Ramirez,Luis Urbina H.,G.G.,3.10
+5,2,12:25,1000m,4,15,Hugo El Terrible,California One,391,57,M. Gutiérrez,Oscar Donate S.,Bruno Alonso,10.30
+5,2,12:25,1000m,5,13,Jets Daddy,Get Jets,454,57,R. Fuenzalida,Aldo Castagneto U.,Martina Emilia,42.60
+5,2,12:25,1000m,6,4,Apapachador,Awesome Patriot,448,53,R. Fournet,Cristián Urbina R.,Patricio Millar M.,3.90
+5,2,12:25,1000m,7,7,Machine Head,Palm Springs,455,53,N. Rojas,John Pinochet P.,Magdalena,5.50
+5,2,12:25,1000m,8,3,Mi Nieto Facundo,Flameaway,460,57,T. Seith,Aldo Castagneto U.,Jamb,47.80
+5,2,12:25,1000m,9,1,Escopeta Recortada,Tapitdoro,413,57,R. Varas,Lauro Pérez A.,Los Topos,91.90
+5,2,12:25,1000m,10,14,Big Carboncillo,Gran Carboncillo,432,57,F. Morales,Raúl Montesino S.,Yayita,35.60
+5,2,12:25,1000m,11,6,Cual Es Tu Ley,Good Samaritan,407,56,B. Ayala,Luis Machulas G.,El Mero Mero,84.30
+5,2,12:25,1000m,12,9,Teen Wolf,Ivan Denisovich,451,56,J. Eyzaguirre,Leopoldo Parra G.,Gonzalez Toro,195.60
+5,2,12:25,1000m,13,2,Seven Points,Dubai Sky,444,57,N. Santibañez,Rodrigo Quiroz S.,Malcib,69.50
+5,2,12:25,1000m,14,11,King Eolo,Kingly,414,57,P. Galáz,Hernán Pacheco P.,Oxiper,92.50
+5,2,12:25,1000m,15,12,Larompe,Boboman,19,57,V. Miranda,Eduardo Lab R.,Claudio Saide A.,67.60
+5,3,12:50,1200m,1,4,Alajja,Indian Trail,427,56,R. Varas,Juan Aravena M.,Matias Aravena,9.70
+5,3,12:50,1200m,2,5,Su Merci,Sumerio,454,56,T. Seith,Daniel Contreras A.,Don Ismael,6.20
+5,3,12:50,1200m,3,12,Lady Bay,Neko Bay,379,56,M. Galáz,José Lastra B.,Viejo Querido,16.00
+5,3,12:50,1200m,4,7,Power Of Horses,Exaggerator,494,56,F. Morales,Jaime Hirmas R.,Jaime Hirmas R.,40.40
+5,3,12:50,1200m,5,8,Avíspate Comadre,Van Nistelrooy,442,56,M. Gutiérrez,Rafael Bernal G.,Florencia Paz,3.00
+5,3,12:50,1200m,6,6,Beautiful Champion,Sonoma Band,418,56,D. Carvacho,Rodrigo Quiroz S.,Don Alamiro,15.00
+5,3,12:50,1200m,7,13,Hacer Por Hacer,Fantasmagorico,418,56,F. Medina,Eduardo Lab R.,Mami Chela,12.40
+5,3,12:50,1200m,8,9,Walka,Shanghai Bobby,490,56,N. Santibañez,Carlos Melero F.,Carmen Fuentes de M.,50.00
+5,3,12:50,1200m,9,2,Temporal De Amor,Grand Daddy,427,56,C. Ortega,Eduardo Lab R.,Stud Mauro,5.20
+5,3,12:50,1200m,10,10,Gamorra,The Lumber Guy,442,56,B. Sancho,Rodrigo Quiroz S.,Los Bello,8.10
+5,3,12:50,1200m,11,3,Sahara Chrome,California Chrome,435,56,R. Fuenzalida,Eugenio Switt V.,Misacrisei,27.10
+5,3,12:50,1200m,12,1,El Maripepa,Hold Me Back,438,56,M. Bustamante,Juan C. Pichara J.,Cacique,5.30
+5,3,12:50,1200m,13,11,India Adorada,Exaggerator,448,56,L.D. Menghini,Eugenio Switt V.,Florence,22.30
+5,4,13:16,1200m,1,5,Lumber Boy,The Lumber Guy,430,55,A. Covarrubias,Lauro Pérez A.,Santa Malva,47.60
+5,4,13:16,1200m,2,10,Te Digo Algo,Exaggerator,453,56,N. Santibañez,Claudio Bernal G.,Mar Y Sol,5.50
+5,4,13:16,1200m,3,4,Cachorrita Mia,Long River,450,56,J. Medina,Patricio Valderrama C.,El Patron,7.60
+5,4,13:16,1200m,4,1,Gran Nono,Strong Mandate,531,56,J. González,Genaro J. Covarrubias E.,La Corina,3.80
+5,4,13:16,1200m,5,9,Vine Vide Vinci,Tumblebrutus,459,55,D. Carvacho,Rodrigo Quiroz S.,Lusugo,19.30
+5,4,13:16,1200m,6,11,Ya Magico,Viscount Nelson,434,56,R. Avila,Genaro J. Covarrubias E.,La Corina,10.10
+5,4,13:16,1200m,7,14,Casper Inn,Dylan Thomas,412,56,B. Ayala,Luis Machulas G.,Pepeluche,19.30
+5,4,13:16,1200m,8,6,Est Bella,Mendelssohn,466,56,N. Rojas,José Venegas P.,Jose Venegas P.,3.10
+5,4,13:16,1200m,9,15,Rosario Tijera,Sposito,460,56,W. Quinteros,Oscar Donate S.,Bon Touch,25.50
+5,4,13:16,1200m,10,7,Gran Pepe,Grand Daddy,543,55,F. Medina,Eugenio Switt V.,Dossetto,38.50
+5,4,13:16,1200m,11,8,Callahan,Viscount Nelson,441,56,W. León,Genaro J. Covarrubias E.,El Mero Mero,15.10
+5,4,13:16,1200m,12,12,Beautiful Moon,Exaggerator,410,55,C. C. Bustos,Jaime Hirmas R.,Los Aviadores,66.60
+5,4,13:16,1200m,13,13,Ya Lo Creo,Hootenanny,377,56,A. Varas,Julio Castillo D.,Sapito,9.50
+5,4,13:16,1200m,14,3,Grand Casablanca,Grand Daddy,502,55,R. Fuenzalida,Gabriel Melej R.,Kdm,13.60
+5,5,13:41,1300m,1,15,Indian spice,Indian Trail,517,57,R. Cisternas,Marco Pavez O.,Haras Sumaya,2.60
+5,5,13:41,1300m,2,2,Te Cache,Ivan Denisovich,462,57,J. González,Luis Urbina H.,Stud La Nonna Ltda.,2.00
+5,5,13:41,1300m,3,4,Al Contado,Classic Empire,463,53,N. Rojas,Pedro Diaz S.,Los Jeques,6.40
+5,5,13:41,1300m,4,1,Grande Tata Rey,Cunco,431,57,G. Aros,Rodrigo Quiroz S.,Tata Rey,29.60
+5,5,13:41,1300m,5,5,Sueños De Leon,Tapitdoro,472,57,R.S. Dores,Julio Castillo D.,Clauseb,25.10
+5,5,13:41,1300m,6,7,Por Fortuna,Spun to Run,473,57,O. Ulloa,Juan Pablo Baeza J.,Doña Sofía,7.30
+5,5,13:41,1300m,7,3,Sokolino,Mendelssohn,468,53,F. Medina,Eduardo Lab R.,Eduardo Lab R.,9.30
+5,5,13:41,1300m,8,6,Grand Lucho,Grand Daddy,504,57,I. Vargas,Hernán Pacheco P.,Oxiper,201.10
+5,5,13:41,1300m,9,13,My Sweet Lord,Cunco,458,57,T. Seith,Cristian Quiroz E.,Haras Santa Mónica,250.20
+5,5,13:41,1300m,10,8,Alfonso El Grande,Alfonso,439,57,N. Santibañez,Claudio Bernal G.,Tata Menghini,117.20
+5,5,13:41,1300m,11,9,The Lyon Blue,Shampoo Silver,437,57,R. Fuenzalida,Eugenio Switt V.,Tres O,312.70
+5,5,13:41,1300m,12,14,Carvalo Real,Boboman,416,57,H. Barrera,Eduardo Lab R.,Agric.Santa Laura,195.40
+5,5,13:41,1300m,13,10,Montesor,Spun to Run,447,57,M. Bustamante,J. Araya B.,Benvic,38.20
+5,5,13:41,1300m,14,12,Pelao Pelao,Patternrecognition,471,57,B. León,Pedro Molina I.,Ximena Monica,53.20
+5,5,13:41,1300m,15,16,Mi Bello Milan,Get Jets,393,57,J. González,Rodrigo Muñoz M.,Blanca Adelaida,228.00
+5,5,13:41,1300m,16,11,Negro Romero,Boboman,434,57,G. Rodríguez,Eduardo Lab R.,Macuro,63.80
+5,6,14:06,1200m,1,2,Soy Enriqueta,State Of Play,482,56,G. Aros,Alejandro Padovani E.,Mameza,6.80
+5,6,14:06,1200m,2,3,Palabra Cierta,Gemologist,475,56,D. Carvacho,Rodrigo Quiroz S.,Peter Ecso,3.20
+5,6,14:06,1200m,3,10,La Tostadora,Cupid,479,56,P. Galáz,Hernán Pacheco P.,Grande Tio Kiko,3.50
+5,6,14:06,1200m,4,11,Me Lo Llevo,Grand Daddy,518,56,A. Covarrubias,Julio Castillo D.,Corral Hipico,10.70
+5,6,14:06,1200m,5,5,Que Hice Mal,International Star,391,56,W. Quinteros,Jaime Hirmas R.,Los Aviadores,46.50
+5,6,14:06,1200m,6,1,Keep Dreaming,Hiraboku Deep,392,56,M. Galáz,Ricardo Rojas S.,Pequeño Matias,4.70
+5,6,14:06,1200m,7,6,John Wayne,Aragorn II,476,56,L. González,Genaro J. Covarrubias E.,Papi Rey,6.90
+5,6,14:06,1200m,8,9,Un Dia Contigo,Seeking The Dia,432,56,R. Varas,Lauro Pérez A.,Lauro Perez A.,13.60
+5,6,14:06,1200m,9,8,Interception,Ivan Denisovich,454,56,J. Villablanca,Lauro Pérez A.,Dianita Isabel,106.80
+5,6,14:06,1200m,10,13,Mangino,No Nay Never,467,56,R. Cisternas,Alberto Aviles L.,Hermanos y Amigos,10.80
+5,6,14:06,1200m,11,7,Natalino,Seeking The Dia,501,56,A. Apablaza,Ricardo Rojas S.,Chamo Candela,24.90
+5,6,14:06,1200m,12,4,Gran Beny,Jadada,450,56,N. Santibañez,Armando Lab J.,Armando Lab J.,123.20
+5,7,14:31,1900m,1,2,De Grasse,Flameaway,473,52,J. Medina,Rodrigo Sánchez Q.,Los Patrones,2.80
+5,7,14:31,1900m,2,6,Pajoma,Bad Daddy,445,57,D. Carvacho,Isaac Michea F.,Bruno Alonso,8.60
+5,7,14:31,1900m,3,10,Cordon Del Caulle,Papelon,460,56,B. Sancho,Julio Castillo D.,Corral Hipico,5.70
+5,7,14:31,1900m,4,1,Steele,Constitution,437,57,J. González,Rodrigo Pulgar A.,Tio Javi,3.70
+5,7,14:31,1900m,5,4,Diamond Blue,Mendelssohn,518,59,G. Aros,Alejandro Padovani E.,Elephant,3.30
+5,7,14:31,1900m,6,5,Que Gusto De Verte,Good Samaritan,493,53,N. Ramirez,J. Araya B.,Choapa,12.20
+5,7,14:31,1900m,7,9,Persevera Siempre,Bernardini,475,51,L.D. Menghini,Eugenio Switt V.,Carlos Cavieres,48.50
+5,7,14:31,1900m,8,8,Siete Del Nueve,Good Samaritan,455,59,L. Torres,Eduardo Lab R.,Crisval,18.70
+5,7,14:31,1900m,9,7,Nob,Exaggerator,513,56,R. Painen,Juan C. Pichara J.,Juan Jaque,20.60
+5,7,14:31,1900m,10,3,Imanol,Good Samaritan,452,55,R. Cisternas,J. Araya B.,El Mero Mero,56.00
+5,8,14:58,1200m,1,1,Undecided,Good Samaritan,520,56,M. Galáz,Daniel Contreras A.,Abuela Oca,4.50
+5,8,14:58,1200m,2,13,Istrionico,Dylan Thomas,511,55,J.A. Miño,Mario A. Apablaza G.,Criadero Don Vicente,3.60
+5,8,14:58,1200m,3,8,Merkel,Grand Daddy,418,56,A. Varas,Rodrigo Quiroz S.,Tata Rey,8.70
+5,8,14:58,1200m,4,4,Meme,Good Samaritan,406,56,J. Herrera,Rafael Bernal G.,Sema,8.40
+5,8,14:58,1200m,5,5,Silverchair,Papelon,407,55,A. Covarrubias,Oscar Donate S.,Redbros,32.50
+5,8,14:58,1200m,6,12,Mitski,Dylan Thomas,438,55,D. Carvacho,Rodrigo Quiroz S.,Grande Tio Kiko,13.30
+5,8,14:58,1200m,7,7,Mr Ranger,Mr Speaker,457,55,J. González,Isaac Michea F.,Lopito,44.80
+5,8,14:58,1200m,8,3,Nurmagomedov,Flameaway,496,55,A. Apablaza,Oscar Donate S.,Vasquez Retamales,6.80
+5,8,14:58,1200m,9,11,Mandioka,Dangerous Midge,427,55,A. Vásquez,Maritza Pérez A.,Tata Lalo,12.80
+5,8,14:58,1200m,10,2,Song Song Blue,Dubai Sky,426,55,J. Villablanca,Cristian Quiroz E.,Fos,232.50
+5,8,14:58,1200m,11,10,Estratego,Exaggerator,484,55,A. Villagra,Ricardo Rojas S.,Chamo Candela,10.30
+5,8,14:58,1200m,12,14,Mi Joya,Katmai,469,56,F. Morales,Raúl Montesino S.,Hermanos Díaz,8.70
+5,8,14:58,1200m,13,9,Ukiyo,California Chrome,462,55,L. González,Maritza Pérez A.,Fusta y Poncha,13.00
+5,8,14:58,1200m,14,15,Vasca Brava,International Star,434,56,W. León,Jaime Espineira C.,Jaime Espiñeira C.,22.30
+5,8,14:58,1200m,15,6,Salma Alegre,Gstaad II,416,56,L. Rivera,Eugenio Switt V.,Gallo,85.30
+5,9,15:24,1200m,1,1,Gauchaza,Katmai,461,55,B. Sancho,Claudio Bernal G.,labrador,2.80
+5,9,15:24,1200m,2,2,Volantinera,Flyer,493,55,J. Medina,Juan Pablo Baeza J.,Haras Santa Loreto,2.40
+5,9,15:24,1200m,3,5,Valle Salvaje,Dubai Sky,470,51,F. Medina,Rodrigo Quiroz S.,Las Araucarias,23.10
+5,9,15:24,1200m,4,3,Sky Troy,Dubai Sky,468,56,G. Ulloa,J. Araya B.,De Arauco,4.40
+5,9,15:24,1200m,5,10,Grand Suri,Grand Daddy,455,52,N. Rojas,Rodrigo López B.,Haras Mocito Guapo,33.00
+5,9,15:24,1200m,6,9,Zuaza,Newfoundland,467,56,J. González,Aldo Parra D.,Tim Bero,8.80
+5,9,15:24,1200m,7,7,Melipilla Rock,Katmai,478,56,G. Aros,Alejandro Padovani E.,Veintiseis,7.00
+5,9,15:24,1200m,8,8,Barella,Katmai,454,55,N. Ramirez,Mario Rabajille D.,Matriarca,13.40
+5,9,15:24,1200m,9,4,Alisheba,Mustaaqeem,439,56,A. Varas,Alejandro Padovani E.,Gonzalez Toro,36.40
+5,9,15:24,1200m,10,6,Divina Paloma,Gstaad II,415,55,A. Apablaza,Cristian Quiroz E.,Fos,105.10
+5,10,15:50,1900m,1,2,Amorino,Mendelssohn,443,50,A. Rivera,Julio Orellana R.,Stud La Nonna Ltda.,1.60
+5,10,15:50,1900m,2,5,Niño Indomable,Distorted Economy,487,52,I. Valdivia,Cristián Urbina R.,Gran Xime,2.50
+5,10,15:50,1900m,3,4,Latour Cent,Goldencents,484,58,T. Seith,Pedro Diaz S.,Los Jeques,16.90
+5,10,15:50,1900m,4,3,Hijo Del Tuto,Grand Daddy,483,56,H. Ochoa,J. Araya B.,Bengo,3.70
+5,10,15:50,1900m,5,6,Rechazado,Cunco,493,58,W. León,Genaro J. Covarrubias E.,La Corina,10.10
+5,11,16:18,1200m,1,11,Bailemos Cumbia,Patternrecognition,478,55,J. González,Genaro J. Covarrubias E.,Quarter Dollar,9.70
+5,11,16:18,1200m,2,14,Rio De Los Ciervos,Constitution,594,56,G. Rodríguez,Claudio Bernal G.,Mar Y Sol,7.30
+5,11,16:18,1200m,3,2,Drink's Valley,Stay Thirsty,446,54,I. Valdivia,Rodrigo Quiroz S.,Queen´s Valley,8.80
+5,11,16:18,1200m,4,7,Gaelia,State Of Play,458,55,J. Herrera,Eduardo Lab R.,Agric.Santa Laura,14.90
+5,11,16:18,1200m,5,6,Sigue Igual,Alfonso,460,56,A. Varas,Julio Castillo D.,Baemar,53.10
+5,11,16:18,1200m,6,13,Tren a Cajon,Dylan Thomas,497,56,D. Carvacho,Rodrigo López B.,Patito,16.70
+5,11,16:18,1200m,7,8,Linz,Constitution,476,56,R. Varas,José Bravo M.,Cecilia Falconi,37.50
+5,11,16:18,1200m,8,4,Karmelia,Kingly,448,56,R. Fuenzalida,Juan Pablo Baeza J.,Haras Mocito Guapo,16.60
+5,11,16:18,1200m,9,3,Shamrock,Bad Daddy,477,55,F. Medina,Julio Castillo D.,El Gallito,80.90
+5,11,16:18,1200m,10,10,Tetra Goleador Z,Dubai Sky,493,56,A. Vásquez,Oscar Donate S.,Patricio Millar M.,10.10
+5,11,16:18,1200m,11,12,Dark Beauty,Patternrecognition,478,55,N. Ramirez,Luis Urbina H.,Manchas Negras,2.10
+5,11,16:18,1200m,12,5,Top Model,Mo Town,442,55,C. C. Bustos,José Venegas P.,Jose Venegas P.,103.80
+5,11,16:18,1200m,13,1,Solo Amigos,Hootenanny,460,56,G. Aros,Alejandro Padovani E.,Alevuk,4.60
+5,11,16:18,1200m,14,9,Scotish Queen,Robert Bruce,454,54,R. Painen,Juan C. Pichara J.,Vasquez Retamales,18.80
+5,12,16:45,1200m,1,1,El Gran Menotti,Hold Me Back,437,55,D. Carvacho,Rodrigo Quiroz S.,Don Alamiro,4.10
+5,12,16:45,1200m,2,6,Buen Norte,Lookin At Lucky,474,55,A. Vásquez,Alejandro Martínez C.,Viña Del Mar,5.90
+5,12,16:45,1200m,3,4,Gran Horus,Grand Daddy,450,57,A. Varas,Alejandro Padovani E.,Gaona Hermanos,7.40
+5,12,16:45,1200m,4,9,John Cooper,Scat Royal,463,54,R. Avila,Raúl Montesino S.,Folli,7.10
+5,12,16:45,1200m,5,11,Lo Franco,Seeking The Dia,431,55,M. Gutiérrez,Rodrigo Quiroz S.,El Kaiser,32.10
+5,12,16:45,1200m,6,3,Rucco,Tourist,500,55,R.S. Dores,Pedro Diaz S.,Los Jeques,22.00
+5,12,16:45,1200m,7,7,No Me Pilla,Seeking The Dia,420,55,H. Barrera,Rodrigo Quiroz S.,Los Quirsan,10.30
+5,12,16:45,1200m,8,14,Seeking The Soul,Seeking The Dia,433,56,V. Miranda,Alejandro Padovani E.,Los Lokolopulus,4.50
+5,12,16:45,1200m,9,13,Limeño Feliz,Exaggerator,464,55,A. Apablaza,Patricio Valderrama C.,Chispita,7.30
+5,12,16:45,1200m,10,12,Lyngote,Ivan Denisovich,504,55,B. Ayala,Luis Machulas G.,Cayo,56.70
+5,12,16:45,1200m,11,8,La Chucky Trini,Stevie Wonderboy,418,56,M. Galáz,Genaro J. Covarrubias E.,El Magico Charly,9.50
+5,12,16:45,1200m,12,2,City Blue,Seeking The Dia,425,54,C. C. Bustos,José Venegas P.,Jose Venegas P.,114.70
+5,12,16:45,1200m,13,5,Audelio,Gemologist,487,54,N. Santibañez,Julio Castillo D.,El Gallito,28.70
+5,12,16:45,1200m,14,10,Lecclerc,Constitution,554,55,D. Carrasco,Juan C. Pichara J.,Vasquez Retamales,19.40
+5,13,17:12,1000m,1,2,The Arion,Indian Trail,444,57,S. González,Mario A. Apablaza G.,Tata Tito,3.10
+5,13,17:12,1000m,2,1,Good Father,The Lumber Guy,526,57,I. Valdivia,John Pinochet P.,Farolito,6.20
+5,13,17:12,1000m,3,8,Bajos York,Seeking The Dia,496,57,P. Robles,John Pinochet P.,Jean Franco,8.20
+5,13,17:12,1000m,4,7,Que Le Han Dicho,Patternrecognition,495,57,J. Herrera,Juan C. Silva S.,El Remanso,22.20
+5,13,17:12,1000m,5,4,Apolinario,Spun to Run,485,57,J. Medina,Juan Pablo Baeza J.,Don Ignacio,9.70
+5,13,17:12,1000m,6,9,Wualala,Zawraq,435,57,H. Ochoa,J. Araya B.,De Arauco,3.90
+5,13,17:12,1000m,7,3,Secret Dragon,Tapitdoro,454,57,P. Galáz,Mario A. Apablaza G.,Si se puede,119.50
+5,13,17:12,1000m,8,13,Kraven,Dubai Sky,490,57,D. Carvacho,Rodrigo Quiroz S.,Lost Vera,21.20
+5,13,17:12,1000m,9,5,Terrible Bruno,Ya Primo,440,57,R. Painen,Juan C. Pichara J.,Bruno Alonso,33.20
+5,13,17:12,1000m,10,10,Jimbo,Newfoundland,452,57,V. Miranda,Juan C. Pichara J.,Cecilia Falconi,38.90
+5,13,17:12,1000m,11,11,Me Veo Contento,Patternrecognition,493,57,J. Zúñiga,Pedro Molina I.,Isla Torina,3.40
+5,13,17:12,1000m,12,6,Fashion Boy,Ya Primo,506,57,T. Seith,Juan C. Pichara J.,Vasquez Retamales,59.60
+5,13,17:12,1000m,13,12,Nosecompare,Sumerio,460,57,M. Bustamante,Juan C. Pichara J.,Tarantino,78.40
+5,14,17:41,1200m,1,1,India Maulina,Awesome Patriot,448,56,R.S. Dores,Jaime Hirmas R.,Camilo Osses,5.20
+5,14,17:41,1200m,2,14,Gold Escudero,Goldencents,462,56,A. Covarrubias,Julio Castillo D.,Corral Hipico,13.30
+5,14,17:41,1200m,3,2,Como El Sol,Spun to Run,468,55,J. González,Juan C. Pichara J.,Amor Propio,22.20
+5,14,17:41,1200m,4,5,Arrancate Pairino,California Chrome,459,55,N. Santibañez,Mario A. Apablaza G.,Renita,2.90
+5,14,17:41,1200m,5,4,Cose Della Vita,International Star,0,56,P. Robles,Alexis Pérez D.,Energía,6.00
+5,14,17:41,1200m,6,3,Teatro Griego,Viscount Nelson,399,56,A. Varas,Alberto Aviles L.,Ganadero,9.50
+5,14,17:41,1200m,7,6,Hermano Eric,Gemologist,476,56,V. Miranda,Alejandro Padovani E.,Carjor,11.20
+5,14,17:41,1200m,8,7,Soñado Campeon,El Hueñe,518,56,J. Eyzaguirre,Julio Castillo D.,Tilin Corto La Cuerda,15.20
+5,14,17:41,1200m,9,12,Sogna Con Me,Ya Primo,444,56,N. Rojas,José Venegas P.,Jose Venegas P.,10.50
+5,14,17:41,1200m,10,10,Mal Mirada,Il Rey Ivan,439,56,D. Carrasco,Jaime Espineira C.,Jaime Espiñeira C.,51.70
+5,14,17:41,1200m,11,9,India Terca,Gemologist,482,55,L. Rivera,Eugenio Switt V.,Florence,49.80
+5,14,17:41,1200m,12,13,Nuevo Horizonte,Stevie Wonderboy,433,56,M. Gutiérrez,Rodrigo Quiroz S.,El Kaiser,7.00
+5,14,17:41,1200m,13,8,Giorgio Eloriginal,California One,444,56,C. C. Bustos,José Lastra B.,Callasis For Ever,49.50
+5,14,17:41,1200m,14,11,Paquete Platico,Awesome Patriot,417,56,R. Fuenzalida,Eugenio Switt V.,Misacrisei,44.00
+5,14,17:41,1200m,15,15,La Soñe,Midshipman,437,56,W. León,Genaro J. Covarrubias E.,La Corina,24.20
+5,15,18:09,1000m,1,4,El Batey,Gran Villano,482,59,G. Aros,Rodrigo López B.,Linares,6.80
+5,15,18:09,1000m,2,2,El Piri,Tourist,451,51,W. León,Genaro J. Covarrubias E.,Quarter Dollar,17.30
+5,15,18:09,1000m,3,13,Badero,Classic Empire,405,56,V. Miranda,Alejandro Padovani E.,Elephant,3.80
+5,15,18:09,1000m,4,6,Ke Pacquiao,International Star,462,59,N. Rojas,Rodrigo Pulgar A.,Luis Benjamin,3.80
+5,15,18:09,1000m,5,9,Sea Of Gold,Goldencents,487,51,H. Barrera,Rodrigo López B.,Bruce,17.80
+5,15,18:09,1000m,6,7,Strong Daikiri,Strong Mandate,489,53,R. Painen,J. Araya B.,Legacy,26.20
+5,15,18:09,1000m,7,11,Run Rabbit Run,Aragorn II,437,56,M. Gutiérrez,Claudio Bernal G.,San Felipe,16.00
+5,15,18:09,1000m,8,10,Presente Cha,Constitution,460,58,J. González,Genaro J. Covarrubias E.,Quarter Dollar,22.10
+5,15,18:09,1000m,9,1,Kino,Aragorn II,495,59,F. Morales,Ricardo Rojas S.,Camilo Osses,9.70
+5,15,18:09,1000m,10,12,Twisted Gem,Gemologist,539,54,A. Vásquez,Oscar Donate S.,Linea Errazuriz,4.20
+5,15,18:09,1000m,11,3,Guena Petete,Layman,466,52,C. C. Bustos,Eduardo Lab R.,Los Reyes,70.70
+5,15,18:09,1000m,12,8,Huachichon,Monthir,434,59,B. Sancho,Rodrigo Quiroz S.,Rodrigo Quiroz S.,6.60
+5,16,18:37,1400m,1,1,Joses,Mendelssohn,479,59,O. Ulloa,Oscar Silva S.,Pastito Verde,3.40
+5,16,18:37,1400m,2,6,Ni Trato,Mo Town,458,60,J. Herrera,Rodrigo Sánchez Q.,Bruno Alonso,11.60
+5,16,18:37,1400m,3,10,Laburador,Goldencents,494,59,T. Seith,Isaac Michea F.,Bruno Alonso,8.00
+5,16,18:37,1400m,4,2,Lindo Dia,Awesome Patriot,472,53,R. Avila,Rodrigo Quiroz S.,La Catedral,14.70
+5,16,18:37,1400m,5,7,Caramel Frappe,The Lumber Guy,476,57,I. Valdivia,Carlos Urbina H.,Gran Xime,5.90
+5,16,18:37,1400m,6,3,Fragmentado,Dubai Sky,456,53,D. Carvacho,Rodrigo Quiroz S.,Amapolas,40.90
+5,16,18:37,1400m,7,5,Splendid Springs,Palm Springs,495,53,B. León,Carlos Urbina H.,Doña Elena,5.50
+5,16,18:37,1400m,8,4,Analogo,Until Sundown,470,60,A. Vásquez,Maritza Pérez A.,Garage Jcs,29.30
+5,16,18:37,1400m,9,8,Tony Montana,Hootenanny,496,60,B. Sancho,José Ignacio Inda D.,Polpaico,2.20
+5,16,18:37,1400m,10,9,Enseñame,Ivan Denisovich,465,50,L.D. Menghini,Eugenio Switt V.,Los Garrido,114.90
+5,17,19:06,1200m,1,1,No Se Na,The Lumber Guy,436,56,J. González,José Alvarez D.,Haras Lizzie,3.20
+5,17,19:06,1200m,2,4,Blessed,Good Samaritan,438,56,D. Carvacho,Rodrigo Quiroz S.,C.V.D.,23.30
+5,17,19:06,1200m,3,14,El Gran Maestro,Lookin At Lucky,442,56,G. Aros,Alejandro Padovani E.,Carnes Oly,6.90
+5,17,19:06,1200m,4,15,Princess Rose,Get Jets,438,56,J. Herrera,Eduardo Lab R.,Yungay,3.10
+5,17,19:06,1200m,5,10,Vieja Chela,Boboman,499,56,M. Cordero,Julio Castillo D.,Corral Hipico,28.00
+5,17,19:06,1200m,6,5,Grozza,Dangerous Midge,498,55,G. Rodríguez,Aldo Castagneto U.,Claro,10.20
+5,17,19:06,1200m,7,7,Elegido Con Pinzas,Flameaway,492,55,A. Apablaza,Alejandro Padovani E.,Work Work Work,16.30
+5,17,19:06,1200m,8,2,Javiera Constanza,Monthir,411,55,N. Santibañez,Juan Aravena M.,Matias Aravena,17.90
+5,17,19:06,1200m,9,6,Koccia,Mendelssohn,458,56,R. Cisternas,Oscar Donate S.,Antonio Aida,18.30
+5,17,19:06,1200m,10,11,Cicarelli,Constitution,459,55,J. González,Genaro J. Covarrubias E.,La Corina,35.40
+5,17,19:06,1200m,11,8,Coral Reef,Dubai Sky,494,56,R. Fuenzalida,Aldo Parra D.,Las Araucarias,22.90
+5,17,19:06,1200m,12,12,El Habano,True Cause,471,55,M. Gutiérrez,Oscar Donate S.,Kevin Yerko,10.70
+5,17,19:06,1200m,13,9,Mixed Emotions,Grand Daddy,492,55,R. Fournet,Cristian Quiroz E.,De Quiva's,82.60
+5,17,19:06,1200m,14,3,Gemologa,Gemologist,542,55,F. Medina,Julio Castillo D.,Corral Hipico,8.30
+5,17,19:06,1200m,15,13,Wild Dabbler,Star Dabbler,505,56,J. Villablanca,Maritza Pérez A.,Alegria De Mi Corazon,93.70
+5,18,19:34,1200m,1,14,Nihuil,Classic Empire,480,56,N. Ramirez,Juan C. Pichara J.,Don Simon,2.00
+5,18,19:34,1200m,2,1,Rubia Morena,Classic Empire,471,56,J. Villablanca,Cristian Quiroz E.,Fos,35.70
+5,18,19:34,1200m,3,8,Minden,Get Jets,442,56,G. Rodríguez,Aldo Castagneto U.,Las Araucarias,18.30
+5,18,19:34,1200m,4,13,California Daddy,California Chrome,474,55,N. Rojas,Rodrigo Pulgar A.,Galiano,75.30
+5,18,19:34,1200m,5,11,Chiquito Campeador,Midshipman,419,55,M. Gutiérrez,Rafael Bernal G.,Santa Ana,16.50
+5,18,19:34,1200m,6,10,Bungabunga,Gran Villano,491,55,I. Vargas,José Bravo M.,Matias Orlando,70.70
+5,18,19:34,1200m,7,6,Roce Secreto,Good Samaritan,450,56,V. Miranda,Juan C. Pichara J.,Viejo Perro,5.10
+5,18,19:34,1200m,8,4,Lucia De Siracusa,Good Samaritan,443,56,G. Aros,Alejandro Padovani E.,Mameza,7.10
+5,18,19:34,1200m,9,15,Bernoulli,Distorted Economy,453,55,R. Varas,Lauro Pérez A.,Diablito De Pullally,74.60
+5,18,19:34,1200m,10,9,Ofestivo,Omayad,463,55,R. Cisternas,Jaime Espineira C.,Jaime Espiñeira C.,17.90
+5,18,19:34,1200m,11,3,La Finesse,Exaggerator,431,55,B. León,Cristián Urbina R.,Morat,8.40
+5,18,19:34,1200m,12,12,El Cobalto,Boboman,506,55,B. Sancho,Julio Castillo D.,Corral Hipico,9.60
+5,18,19:34,1200m,13,2,Lady Astor,Tamarkuz,454,55,A. Covarrubias,Julio Castillo D.,Mosqueteros De Lis,52.70
+5,18,19:34,1200m,14,5,La Ñoñita,Iron Clad,476,55,R. Fuenzalida,Hernán Pacheco P.,Oxiper,42.30
+5,18,19:34,1200m,15,7,Kalanit,Robert Bruce,497,55,J. Medina,Juan Pablo Baeza J.,Don Theo,10.70
+5,19,20:02,1200m,1,1,Zefiro,Mendelssohn,456,56,J. González,J. Araya B.,Bengo,1.60
+5,19,20:02,1200m,2,10,A Quien Saliste,Distorted Economy,480,55,I. Valdivia,Rodrigo Quiroz S.,Titan,4.60
+5,19,20:02,1200m,3,4,Loco Gandhi,Dylan Thomas,485,57,A. Vásquez,Rodrigo López B.,Morat,8.70
+5,19,20:02,1200m,4,14,Esterios,Boboman,548,56,A. Varas,Alejandro Padovani E.,Gaona Hermanos,14.10
+5,19,20:02,1200m,5,2,Good Partner,Exaggerator,426,54,L.D. Menghini,Eugenio Switt V.,Carlos Cavieres,102.40
+5,19,20:02,1200m,6,13,Rapido Y Veloz,Good Samaritan,445,55,G. Rodríguez,Claudio Bernal G.,Mar Y Sol,12.20
+5,19,20:02,1200m,7,6,Stanafuera,Monthir,515,56,R. Painen,Maritza Pérez A.,Morautos,18.00
+5,19,20:02,1200m,8,3,Blackcrack,Grand Daddy,474,54,R. Fuenzalida,Juan C. Pichara J.,Vasquez Retamales,17.50
+5,19,20:02,1200m,9,11,Tatuador,Goldencents,452,55,J. Medina,Patricio Valderrama C.,Bruno Alonso,9.50
+5,19,20:02,1200m,10,5,En Veces,Fantasmagorico,445,54,W. Quinteros,Ricardo Rojas S.,Chamo Candela,76.80
+5,19,20:02,1200m,11,12,Un Guarito,Tourist,463,55,W. León,Genaro J. Covarrubias E.,El Mero Mero,35.40
+5,19,20:02,1200m,12,9,Mountain Monarch,Sahara Spirit,487,54,B. Sancho,Rodrigo Quiroz S.,Francisco Alexandra,10.90
+5,20,20:32,1200m,1,8,Beast Mode,Grand Daddy,505,56,I. Valdivia,Carlos Urbina H.,Irlandes,1.70
+5,20,20:32,1200m,2,9,Zulema Zahir,War Command,408,54,M. Bustamante,J. Araya B.,El Mero Mero,13.10
+5,20,20:32,1200m,3,4,Alazan Lucero,Flameaway,525,56,V. Miranda,Alejandro Padovani E.,Carnes Oly,4.70
+5,20,20:32,1200m,4,3,Easy Peasy,Mo Town,418,54,F. Soto,Rodrigo Pulgar A.,Los Sarmientos,16.50
+5,20,20:32,1200m,5,5,Jose Gabriel,Flyer,439,54,G. Rodríguez,M. Velarde B.,Los Paredes,13.00
+5,20,20:32,1200m,6,1,Seattle Snow,Dubai Sky,447,56,F. Morales,Raúl Montesino S.,Forza Al Canut,13.70
+5,20,20:32,1200m,7,6,Giorgio Di Capri,Sonoma Band,442,56,A. Vásquez,Maritza Pérez A.,Garage Jcs,24.30
+5,20,20:32,1200m,8,15,Seeking The Dolce,Seeking The Dia,487,56,T. Seith,Harrison Adonis B.,Norma Y Carlos,41.50
+5,20,20:32,1200m,9,10,Classic Form,Mendelssohn,394,55,R. Avila,Mario Covarrubias,Doña Ester,13.40
+5,20,20:32,1200m,10,13,Mente Brillante,Mo Town,455,55,R. Fournet,Juan C. Pichara J.,Callasis For Ever,62.50
+5,20,20:32,1200m,11,12,Vamos De La Mano,Patternrecognition,425,55,W. León,Rodrigo López B.,Angelica Y Francisco,29.40
+5,20,20:32,1200m,12,7,Zoboomafoo,Forever Thing,468,55,R. Fuenzalida,Aldo Castagneto U.,Ivja,18.20
+5,20,20:32,1200m,13,14,Bruno El Terrible,Gemologist,496,56,N. Ramirez,Juan C. Pichara J.,Bruno Alonso,21.00
+5,20,20:32,1200m,14,11,Pachekin,Grand Daddy,521,55,J. Vera,Hernán Pacheco P.,Oxiper,21.20
+5,20,20:32,1200m,15,2,Manhattan Project,Cloud Computing,478,54,N. Santibañez,Carlos Melero F.,Hemispheres,75.20

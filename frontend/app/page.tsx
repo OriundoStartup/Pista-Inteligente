@@ -117,17 +117,21 @@ export default async function Home() {
 
   return (
     <>
-      {/* Hero Section - Exact copy from home.html */}
-      <section className="hero">
-        <h1>
-          Predicciones para Hipódromo Chile y Club Hípico <br />con IA Avanzada
+      {/* Hero Section - SEO Optimized */}
+      <section className="hero" itemScope itemType="https://schema.org/WebPage">
+        <h1 itemProp="name">
+          Predicciones Hípicas con IA para Chile<br />
+          Hipódromo Chile, Club Hípico y Valparaíso Sporting
         </h1>
-        <p>
-          Utilizamos algoritmos de última generación para analizar el{' '}
-          <strong>Programa Hipódromo Chile</strong> y las carreras del{' '}
-          <strong>Club Hípico</strong>.
-          Detectamos patrones ocultos en miles de resultados históricos para entregarte pronósticos profesionales con las
-          mejores probabilidades de acierto.
+        <p itemProp="description">
+          <strong>Alternativa inteligente a Teletrak</strong>: Utilizamos algoritmos de última generación para analizar el{' '}
+          <strong>programa del Hipódromo Chile</strong>, las carreras del{' '}
+          <strong>Club Hípico de Santiago</strong> y <strong>Valparaíso Sporting</strong>.
+          Detectamos patrones ocultos en miles de resultados históricos para entregarte
+          <strong> pronósticos profesionales</strong> con las mejores probabilidades de acierto.
+        </p>
+        <p style={{ fontSize: '0.95rem', opacity: 0.9, marginTop: '0.5rem' }}>
+          🏇 Programa del día • Resultados en vivo • Estadísticas de jinetes • Análisis de carreras
         </p>
         <Link href="/programa" className="cta-button">
           Ver Programa de Hoy con Predicciones IA

@@ -46,12 +46,15 @@ class SupabaseManager:
             print(f"Error inserting into {table}: {e}")
             return None
 
-    def upsert(self, table: str, data: dict, conflict_columns: list = None):
-        """Upsert a record"""
+    def upsert(self, table: str, data: dict, on_conflict: str = None):
+        """Upsert a record. Use on_conflict to specify the column(s) for conflict resolution."""
         c = self.get_client()
         if not c: return None
         try:
-            query = c.table(table).upsert(data)
+            if on_conflict:
+                query = c.table(table).upsert(data, on_conflict=on_conflict)
+            else:
+                query = c.table(table).upsert(data)
             return query.execute()
         except Exception as e:
             print(f"Error upserting into {table}: {e}")

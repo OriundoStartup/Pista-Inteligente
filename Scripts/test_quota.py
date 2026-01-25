@@ -7,14 +7,17 @@ load_dotenv()
 api_key = os.environ.get("GEMINI_API_KEY")
 genai.configure(api_key=api_key)
 
-# Candidates from user's previous list
+# Modelos candidatos para probar - ordenados por preferencia
+# Actualizado 2026-01-21: Evitar -latest que migrará a Gemini 3 el 30/01/2026
 candidates = [
+    "gemini-2.0-flash",  # ✅ PREFERIDO: Versión estable
+    "gemini-2.0-flash-001",
     "gemini-2.0-flash-lite-preview-02-05",
     "gemini-2.0-flash-lite-preview",
     "gemini-2.0-flash-exp",
-    "gemini-2.0-flash-001",
-    "gemini-flash-latest", # Often alias for 1.5 flash
-    "gemini-pro-latest"
+    # Los siguientes alias cambiarán automáticamente el 30/01/2026 - evitar en producción:
+    # "gemini-flash-latest",
+    # "gemini-pro-latest"
 ]
 
 print("🔍 Probando cuotas de modelos...")
