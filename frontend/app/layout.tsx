@@ -152,8 +152,13 @@ export default function RootLayout({
           }}
         />
 
-        {/* Google AdSense */}
+        {/* 
+          Google AdSense Script - Carga el SDK de AdSense
+          Este script habilita Auto Ads, que Google optimiza automáticamente
+          para colocar anuncios en las mejores posiciones de tu sitio.
+        */}
         <Script
+          id="adsense-script"
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5579178295407019"
           crossOrigin="anonymous"
@@ -173,33 +178,9 @@ export default function RootLayout({
           />
         </div>
 
-        {/* Top Ad Banner */}
-        <div className="container" style={{ textAlign: 'center', margin: 0, padding: '0.5rem 0' }}>
-          <ins
-            className="adsbygoogle"
-            style={{ display: 'block' }}
-            data-ad-client="ca-pub-5579178295407019"
-            data-ad-slot="1234567890"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          />
-        </div>
-
         {/* Main Content */}
         <main className="container">
           {children}
-
-          {/* Bottom Ad Banner */}
-          <div style={{ textAlign: 'center', marginTop: '3rem' }}>
-            <ins
-              className="adsbygoogle"
-              style={{ display: 'block' }}
-              data-ad-client="ca-pub-5579178295407019"
-              data-ad-slot="1234567890"
-              data-ad-format="auto"
-              data-full-width-responsive="true"
-            />
-          </div>
         </main>
 
         {/* Chatbot Widget */}
