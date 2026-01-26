@@ -84,6 +84,9 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
+        {/* Google AdSense Verification Meta Tag */}
+        <meta name="google-adsense-account" content="ca-pub-5579178295407019" />
+
         {/* Google Fonts: Outfit */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
