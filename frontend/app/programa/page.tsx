@@ -133,6 +133,19 @@ async function getPredicciones(): Promise<{ carreras: Carrera[], stats: { total_
 export default async function ProgramaPage() {
     const { carreras, stats } = await getPredicciones()
 
+    // Agrupar carreras por hipódromo fuera del JSX para limpieza
+    const hipodromoGroups = carreras.reduce((groups, carrera) => {
+        const key = carrera.hipodromo
+        if (!groups[key]) {
+            groups[key] = []
+        }
+        groups[key].push(carrera)
+        return groups
+    }, {} as Record<string, typeof carreras>)
+
+    // Ordenar los grupos (opcional, por ejemplo alfabéticamente o por importancia si se tuviera esa data)
+    const sortedHipodromos = Object.entries(hipodromoGroups).sort(([a], [b]) => a.localeCompare(b))
+
     return (
         <>
             {/* SEO Optimized H1 */}
@@ -179,68 +192,83 @@ export default async function ProgramaPage() {
             {/* Predictions - Grouped by Hipódromo */}
             <div className="predictions-container">
                 {carreras.length > 0 ? (
-                    // Agrupar carreras por hipódromo
-                    (() => {
-                        const hipodromoGroups = carreras.reduce((groups, carrera) => {
-                            const key = carrera.hipodromo
-                            if (!groups[key]) {
-                                groups[key] = []
-                            }
-                            groups[key].push(carrera)
-                            return groups
-                        }, {} as Record<string, typeof carreras>)
-
-                        return Object.entries(hipodromoGroups).map(([hipodromo, carrerasHip]) => (
-                            <div key={hipodromo} className="glass-card" style={{ marginBottom: '2rem', padding: '1.5rem' }}>
-                                {/* Header del Hipódromo */}
-                                <div style={{
-                                    borderBottom: '2px solid var(--primary)',
-                                    marginBottom: '1.5rem',
-                                    paddingBottom: '1rem'
-                                }}>
+                    sortedHipodromos.map(([hipodromo, carrerasHip]) => (
+                        <div key={hipodromo} className="glass-card" style={{ marginBottom: '2rem', padding: '1.5rem', borderLeft: '4px solid var(--primary)' }}>
+                            {/* Header del Hipódromo */}
+                            <div style={{
+                                borderBottom: '1px solid var(--border-glass)',
+                                marginBottom: '1.5rem',
+                                paddingBottom: '1rem',
+                                display: 'flex',
+                                justifyContent: 'space-between',
+                                alignItems: 'center',
+                                flexWrap: 'wrap',
+                                gap: '1rem'
+                            }}>
+                                <div>
                                     <h2 style={{
-                                        color: 'var(--primary)',
-                                        fontSize: '1.5rem',
+                                        color: 'var(--text-main)',
+                                        fontSize: '1.8rem',
                                         fontWeight: 800,
                                         margin: 0,
                                         display: 'flex',
                                         alignItems: 'center',
-                                        gap: '0.5rem'
+                                        gap: '0.75rem',
+                                        textShadow: '0 0 20px rgba(139, 92, 246, 0.3)'
                                     }}>
                                         🏇 {hipodromo}
-                                        <span style={{
-                                            fontSize: '0.9rem',
-                                            color: 'var(--text-muted)',
-                                            fontWeight: 400
-                                        }}>
-                                            ({carrerasHip.length} carreras)
-                                        </span>
                                     </h2>
-                                    <p style={{ color: 'var(--text-muted)', margin: '0.5rem 0 0 0', fontSize: '0.9rem' }}>
-                                        📅 {carrerasHip[0]?.fecha}
+                                    <p style={{ color: 'var(--text-muted)', margin: '0.25rem 0 0 0', fontSize: '1rem' }}>
+                                        📅 {carrerasHip[0]?.fecha} • {carrerasHip.length} Carreras Programadas
                                     </p>
                                 </div>
+                                <div style={{ 
+                                    background: 'rgba(139, 92, 246, 0.1)', 
+                                    padding: '0.5rem 1rem', 
+                                    borderRadius: '50px', 
+                                    border: '1px solid rgba(139, 92, 246, 0.2)',
+                                    color: 'var(--primary)',
+                                    fontWeight: '600',
+                                    fontSize: '0.9rem'
+                                }}>
+                                    Programa Oficial
+                                </div>
+                            </div>
 
-                                {/* Carreras de este hipódromo */}
+                            {/* Carreras de este hipódromo */}
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
                                 {carrerasHip.sort((a, b) => a.carrera - b.carrera).map((carrera) => (
                                     <div key={carrera.id} style={{
-                                        marginBottom: '1.5rem',
-                                        padding: '1rem',
-                                        background: 'rgba(255,255,255,0.03)',
-                                        borderRadius: '8px',
-                                        borderLeft: '3px solid var(--secondary)'
+                                        padding: '1.5rem',
+                                        background: 'rgba(255,255,255,0.02)',
+                                        borderRadius: '12px',
+                                        border: '1px solid rgba(255, 255, 255, 0.05)'
                                     }}>
-                                        <h3 style={{ color: 'white', marginBottom: '0.75rem', fontSize: '1.1rem' }}>
-                                            Carrera {carrera.carrera}
-                                            <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginLeft: '1rem' }}>
-                                                🕒 {carrera.hora} | 🏁 {carrera.distancia}m
-                                            </span>
-                                        </h3>
+                                        <div style={{ 
+                                            marginBottom: '1rem', 
+                                            display: 'flex', 
+                                            alignItems: 'center', 
+                                            justifyContent: 'space-between',
+                                            flexWrap: 'wrap',
+                                            gap: '0.5rem'
+                                        }}>
+                                            <h3 style={{ color: 'var(--secondary)', margin: 0, fontSize: '1.3rem', fontWeight: 700 }}>
+                                                Carrera {carrera.carrera}
+                                            </h3>
+                                            <div style={{ display: 'flex', gap: '1rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>
+                                                <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+                                                    🕒 {carrera.hora}
+                                                </span>
+                                                <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+                                                    🏁 {carrera.distancia}m
+                                                </span>
+                                            </div>
+                                        </div>
 
                                         <table className="modern-table">
                                             <thead>
                                                 <tr>
-                                                    <th>#</th>
+                                                    <th style={{ width: '50px', textAlign: 'center' }}>#</th>
                                                     <th>Caballo</th>
                                                     <th>Jinete</th>
                                                     <th>IA Score</th>
@@ -249,22 +277,22 @@ export default async function ProgramaPage() {
                                             <tbody>
                                                 {carrera.predicciones.map((pred, index) => (
                                                     <tr key={index}>
-                                                        <td>{pred.numero}</td>
-                                                        <td style={{ fontWeight: 600, color: 'var(--text-main)' }}>{pred.caballo}</td>
-                                                        <td>{pred.jinete}</td>
+                                                        <td style={{ textAlign: 'center', fontWeight: 'bold', color: 'var(--text-muted)' }}>{pred.numero}</td>
+                                                        <td style={{ fontWeight: 600, color: 'var(--text-main)' }}>
+                                                            {pred.caballo}
+                                                            {index === 0 && <span style={{ marginLeft: '0.5rem', fontSize: '0.8rem', background: '#eab308', color: 'black', padding: '1px 6px', borderRadius: '4px', fontWeight: 'bold' }}>FAV</span>}
+                                                        </td>
+                                                        <td style={{ color: 'var(--text-muted)' }}>{pred.jinete}</td>
                                                         <td>
                                                             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                                                                {index === 0 && <span title="Favorito de la IA" style={{ fontSize: '1.2rem' }}>🥇</span>}
-                                                                {index === 1 && <span title="Segunda Opción" style={{ fontSize: '1rem', opacity: 0.8 }}>🥈</span>}
-                                                                {index === 2 && <span title="Tercera Opción" style={{ fontSize: '1rem', opacity: 0.8 }}>🥉</span>}
-                                                                <div style={{ flexGrow: 1, minWidth: '80px' }}>
-                                                                    <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.8rem', marginBottom: '2px' }}>
-                                                                        <span style={{ fontWeight: 'bold', color: 'white' }}>IA Confianza</span>
+                                                                <div style={{ flexGrow: 1, minWidth: '80px', maxWidth: '200px' }}>
+                                                                    <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.75rem', marginBottom: '2px' }}>
+                                                                        <span style={{ color: 'var(--text-muted)' }}>Confianza</span>
                                                                         <span style={{ fontWeight: 'bold', color: pred.puntaje_ia > 80 ? '#4ade80' : pred.puntaje_ia > 50 ? '#fbbf24' : '#f87171' }}>
-                                                                            {pred.puntaje_ia.toFixed(1)}%
+                                                                            {pred.puntaje_ia.toFixed(0)}%
                                                                         </span>
                                                                     </div>
-                                                                    <div style={{ background: 'rgba(255,255,255,0.1)', height: '6px', borderRadius: '10px', overflow: 'hidden' }}>
+                                                                    <div style={{ background: 'rgba(255,255,255,0.1)', height: '4px', borderRadius: '10px', overflow: 'hidden' }}>
                                                                         <div
                                                                             style={{
                                                                                 width: `${pred.puntaje_ia}%`,
@@ -284,8 +312,8 @@ export default async function ProgramaPage() {
                                     </div>
                                 ))}
                             </div>
-                        ))
-                    })()
+                        </div>
+                    ))
                 ) : (
                     <div className="glass-card" style={{ textAlign: 'center', padding: '3rem', color: 'var(--text-muted)' }}>
                         <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>🏇</div>
