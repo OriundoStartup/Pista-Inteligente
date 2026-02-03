@@ -78,8 +78,8 @@ export default function JackpotAlert() {
         <>
             <div
                 className={`fixed bottom-4 left-4 z-50 w-full max-w-sm rounded-2xl shadow-2xl transition-all duration-500 transform translate-y-0 backdrop-blur-md border ${isMegaJackpot
-                        ? "bg-yellow-900/40 border-yellow-500/50 text-yellow-100"
-                        : "bg-[#0f172a]/90 border-white/10 text-slate-100"
+                    ? "bg-yellow-900/40 border-yellow-500/50 text-yellow-100"
+                    : "bg-[#0f172a]/90 border-white/10 text-slate-100"
                     }`}
                 style={{
                     boxShadow: isMegaJackpot ? '0 0 40px rgba(234, 179, 8, 0.2)' : '0 10px 30px -10px rgba(0,0,0,0.5)'
@@ -97,8 +97,8 @@ export default function JackpotAlert() {
                     <div className="flex items-start gap-4">
                         <div
                             className={`p-3 rounded-xl shadow-lg ${isMegaJackpot
-                                    ? "bg-gradient-to-br from-yellow-500 to-orange-600 text-white animate-pulse"
-                                    : "bg-gradient-to-br from-violet-600 to-indigo-600 text-white"
+                                ? "bg-gradient-to-br from-yellow-500 to-orange-600 text-white animate-pulse"
+                                : "bg-gradient-to-br from-violet-600 to-indigo-600 text-white"
                                 }`}
                         >
                             {isMegaJackpot ? <Flame size={28} /> : <DollarSign size={28} />}
@@ -127,17 +127,24 @@ export default function JackpotAlert() {
                                 )}
                             </div>
 
-                            {/* Botón de Jugada Inteligente */}
+                            {/* Botón de Jugada Inteligente - Hyper Premium */}
                             {topPozo.ticket_sugerido && (
                                 <button
                                     onClick={handleOpenTicket}
-                                    className={`mt-4 w-full py-2 px-4 rounded-xl text-sm font-bold flex items-center justify-center gap-2 transition-all hover:scale-[1.02] shadow-lg ${isMegaJackpot
-                                            ? "bg-gradient-to-r from-yellow-400 to-yellow-600 text-black hover:shadow-yellow-500/30"
-                                            : "bg-gradient-to-r from-cyan-500 to-blue-600 text-white hover:shadow-cyan-500/30"
+                                    className={`group relative mt-4 w-full py-2.5 px-4 rounded-xl text-sm font-bold flex items-center justify-center gap-2 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden ${isMegaJackpot
+                                        ? "bg-gradient-to-r from-yellow-500 via-amber-500 to-yellow-600 text-black shadow-[0_4px_20px_-5px_rgba(245,158,11,0.5)] border border-yellow-400/50"
+                                        : "bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600 text-white shadow-[0_4px_20px_-5px_rgba(37,99,235,0.5)] border border-cyan-400/30"
                                         }`}
                                 >
-                                    <Lightbulb size={16} strokeWidth={2.5} />
-                                    Ver Jugada Inteligente
+                                    {/* Shimmer Effect Overlay */}
+                                    <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/20 to-transparent pointer-events-none" />
+
+                                    {/* Icon with bounce effect */}
+                                    <Lightbulb size={18} strokeWidth={2.5} className="transition-transform group-hover:rotate-12 group-hover:scale-110" />
+
+                                    <span className="relative z-10 tracking-wide drop-shadow-sm">
+                                        Ver Jugada Inteligente
+                                    </span>
                                 </button>
                             )}
                         </div>
