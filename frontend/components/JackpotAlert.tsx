@@ -77,7 +77,7 @@ export default function JackpotAlert() {
     return (
         <>
             <div
-                className={`fixed bottom-4 left-4 z-50 w-full max-w-sm rounded-2xl shadow-2xl transition-all duration-500 transform translate-y-0 backdrop-blur-md border ${isMegaJackpot
+                className={`fixed bottom-2 left-2 right-2 sm:right-auto sm:left-4 sm:bottom-4 z-50 sm:w-auto sm:max-w-sm rounded-2xl shadow-2xl transition-all duration-500 transform translate-y-0 backdrop-blur-md border ${isMegaJackpot
                     ? "bg-yellow-900/40 border-yellow-500/50 text-yellow-100"
                     : "bg-[#0f172a]/90 border-white/10 text-slate-100"
                     }`}

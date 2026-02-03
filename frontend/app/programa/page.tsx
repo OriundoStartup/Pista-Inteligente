@@ -197,23 +197,23 @@ export default async function ProgramaPage() {
 
             {/* Stats Summary Cards */}
             <div className="glass-card" style={{ marginBottom: '1.5rem' }}>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '1rem', textAlign: 'center' }}>
-                    <div style={{ padding: '1.5rem' }}>
-                        <span style={{ fontSize: '2.5rem', color: 'var(--secondary)', display: 'block', fontWeight: 800 }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))', gap: '0.75rem', textAlign: 'center' }}>
+                    <div style={{ padding: '1rem' }}>
+                        <span style={{ fontSize: 'clamp(1.5rem, 4vw, 2.5rem)', color: 'var(--secondary)', display: 'block', fontWeight: 800 }}>
                             {stats.total_carreras}
                         </span>
-                        <p style={{ color: 'var(--text-muted)', margin: 0 }}>🏁 Carreras Programadas</p>
+                        <p style={{ color: 'var(--text-muted)', margin: 0, fontSize: '0.85rem' }}>🏁 Carreras Programadas</p>
                     </div>
-                    <div style={{ padding: '1.5rem' }}>
-                        <span style={{ fontSize: '2.5rem', color: 'var(--primary)', display: 'block', fontWeight: 800 }}>
+                    <div style={{ padding: '1rem' }}>
+                        <span style={{ fontSize: 'clamp(1.5rem, 4vw, 2.5rem)', color: 'var(--primary)', display: 'block', fontWeight: 800 }}>
                             {stats.total_caballos}
                         </span>
-                        <p style={{ color: 'var(--text-muted)', margin: 0 }}>🏇 Caballos en Competencia</p>
+                        <p style={{ color: 'var(--text-muted)', margin: 0, fontSize: '0.85rem' }}>🏇 Caballos en Competencia</p>
                     </div>
-                    <div style={{ padding: '1.5rem' }}>
-                        <span style={{ fontSize: '2.5rem', color: 'var(--accent)', display: 'block', fontWeight: 800 }}>📅</span>
-                        <p style={{ color: 'var(--text-main)', margin: 0, fontWeight: 600 }}>{stats.fecha_principal}</p>
-                        <p style={{ color: 'var(--text-muted)', margin: 0, fontSize: '0.85rem' }}>Próxima Jornada</p>
+                    <div style={{ padding: '1rem' }}>
+                        <span style={{ fontSize: 'clamp(1.5rem, 4vw, 2.5rem)', color: 'var(--accent)', display: 'block', fontWeight: 800 }}>📅</span>
+                        <p style={{ color: 'var(--text-main)', margin: 0, fontWeight: 600, fontSize: '0.9rem' }}>{stats.fecha_principal}</p>
+                        <p style={{ color: 'var(--text-muted)', margin: 0, fontSize: '0.75rem' }}>Próxima Jornada</p>
                     </div>
                 </div>
             </div>

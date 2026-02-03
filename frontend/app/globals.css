@@ -448,8 +448,15 @@ body {
     .modern-table th,
     .modern-table td {
         padding: 0.5rem;
-        font-size: 0.9rem;
-        white-space: nowrap;
+        font-size: 0.85rem;
+        white-space: normal;
+        word-break: break-word;
+    }
+
+    /* Tabla scroll horizontal cuando sea necesario */
+    .glass-card {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
     }
 
     .chatbot-window {
@@ -477,7 +484,53 @@ body {
     }
 
     .hero-banner {
-        height: 200px;
+        height: clamp(150px, 25vw, 200px);
+    }
+}
+
+/* ================= MOBILE SMALL (< 480px) ================= */
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.6rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .cta-button {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.95rem;
+    }
+
+    .section-title {
+        font-size: 1.4rem;
+    }
+
+    .glass-card {
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .modern-table th,
+    .modern-table td {
+        padding: 0.4rem;
+        font-size: 0.8rem;
+    }
+
+    .site-footer {
+        padding: 1rem 0.75rem;
+    }
+
+    /* Safe area para dispositivos con notch */
+    .glass-header {
+        padding-left: max(1rem, env(safe-area-inset-left));
+        padding-right: max(1rem, env(safe-area-inset-right));
+    }
+
+    .chatbot-fab {
+        bottom: max(1rem, env(safe-area-inset-bottom));
+        right: max(1rem, env(safe-area-inset-right));
     }
 }
 

@@ -142,33 +142,33 @@ export default async function Home() {
       {/* Stats Card - Exact copy from home.html */}
       <div className="glass-card">
         <div className="section-title">📊 Estadísticas en Tiempo Real</div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1rem' }}>
-          <div style={{ textAlign: 'center', padding: '2rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '0.75rem' }}>
+          <div style={{ textAlign: 'center', padding: '1rem' }}>
             <span
               className="stat-number"
-              style={{ fontSize: '3rem', color: 'var(--secondary)', display: 'block', fontWeight: 800 }}
+              style={{ fontSize: 'clamp(1.8rem, 5vw, 3rem)', color: 'var(--secondary)', display: 'block', fontWeight: 800 }}
             >
               {stats.total_carreras}
             </span>
-            <p>Carreras Analizadas</p>
+            <p style={{ fontSize: '0.9rem' }}>Carreras Analizadas</p>
           </div>
-          <div style={{ textAlign: 'center', padding: '2rem' }}>
+          <div style={{ textAlign: 'center', padding: '1rem' }}>
             <span
               className="stat-number"
-              style={{ fontSize: '3rem', color: 'var(--primary)', display: 'block', fontWeight: 800 }}
+              style={{ fontSize: 'clamp(1.8rem, 5vw, 3rem)', color: 'var(--primary)', display: 'block', fontWeight: 800 }}
             >
               {stats.aciertos_ultimo_mes}%
             </span>
-            <p>Precisión (Último Mes)</p>
+            <p style={{ fontSize: '0.9rem' }}>Precisión (Último Mes)</p>
           </div>
-          <div style={{ textAlign: 'center', padding: '2rem' }}>
+          <div style={{ textAlign: 'center', padding: '1rem' }}>
             <span
               className="stat-number"
-              style={{ fontSize: '3rem', color: 'var(--accent)', display: 'block', fontWeight: 800 }}
+              style={{ fontSize: 'clamp(1.8rem, 5vw, 3rem)', color: 'var(--accent)', display: 'block', fontWeight: 800 }}
             >
               {stats.dividendos_generados}
             </span>
-            <p>Dividendos Generados</p>
+            <p style={{ fontSize: '0.9rem' }}>Dividendos Generados</p>
           </div>
         </div>
       </div>

@@ -84,6 +84,10 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
+        {/* Mobile Viewport - Essential for responsive design */}
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover" />
+        <meta name="theme-color" content="#0f172a" />
+
         {/* Google AdSense Verification Meta Tag */}
         <meta name="google-adsense-account" content="ca-pub-5579178295407019" />
 
