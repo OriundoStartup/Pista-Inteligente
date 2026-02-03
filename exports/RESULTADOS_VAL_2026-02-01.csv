@@ -1,0 +1,334 @@
+Reunion,Carrera,Hora,Distancia,Lugar,Numero,Ejemplar,Padrillo,Peso_Fisico,Peso_Jinete,Jinete,Preparador,Stud,Dividendo
+7,1,09:00,1000,1,15,My Gran Tommy,Gstaad Ii,470,57,Claudio Poblete,Eduardo Donoso,Lo Orozco,3.1
+7,1,09:00,1000,2,1,Oppa,Sumerio,447,57,Benjamin Sancho,Luis Catena,Alfombra Magica,9.6
+7,1,09:00,1000,3,3,Rosita Del Puerto,Sumerio,470,57,Johan Gonzalez,Gonzalo Vegas,Winman,28.4
+7,1,09:00,1000,4,5,Ejemplo De Valor,Lookin At Lucky,434,57,Guillermo A. Perez,Marcos Contreras,Guerrero De La Vida,6.7
+7,1,09:00,1000,5,14,Creed,Tourist,422,57,Gerard Rodriguez,Osvaldo Urbina,Nimble,4.3
+7,1,09:00,1000,6,13,Poor Smell,Ivan Denisovich,390,57,Nicolas Ramirez,Maximo Silva,Maximo Silva D.,18.9
+7,1,09:00,1000,7,10,Mi Gran Bichota,Dubai Sky,409,57,Victor Miranda,Rafael Bernal T.,Bruno Alonso,18.0
+7,1,09:00,1000,8,16,Lattice,Dylan Thomas,458,57,Diego Carvacho,Jose Leiva,La Paloma,16.8
+7,1,09:00,1000,9,2,Pazzelle,Seeking The Dia,486,57,Jose Eyzaguirre,Victor Caballeria,Tata Nacho,12.2
+7,1,09:00,1000,10,12,Pietra Di Luna,Sumerio,481,57,Jose D. Villagran,Gabriel Reyes I.,Ely,13.8
+7,1,09:00,1000,11,8,Puerto Fonck,Grassy Ii,425,57,Moises A. Donoso,Osvaldo Urbina,Nimble,4.5
+7,1,09:00,1000,12,9,Merengon,Robert Bruce,405,57,Lennart Silva F.,Victor Moris,Arturo Y Cecilia,77.6
+7,1,09:00,1000,13,11,Aguila De Fuego,Good Samaritan (usa),400,57,Rodolfo Fuenzalida,Marcos Contreras,Guerrero De La Vida,41.8
+7,1,09:00,1000,14,4,Niña Pochocha,Rydilluc,478,57,Felipe Moreno,Braulio Gomez,El Fijo,57.6
+7,1,09:00,1000,15,6,La Maturana,Umamichi,460,57,Cristian Bobadilla,Alberto Ferrero,Alonso,240.3
+7,2,09:28,1100,1,14,Araukan,Alfonso (usa),456,53,Agustin I. Villagra,Gabriel Reyes I.,That,50.1
+7,2,09:28,1100,2,11,Anaheim,Katmai,470,57,Gerard Rodriguez,Gonzalo Vegas,Siempre Avante,2.6
+7,2,09:28,1100,3,2,Mi Gigante,Get Jets,512,57,Pedro Robles,Victor Moris,Js,3.0
+7,2,09:28,1100,4,13,Primo Julero,Ya Primo,460,53,Nelson Rojas,Juan Belzu,Milena,9.5
+7,2,09:28,1100,5,6,Beit Jala,Seeking The Dia,512,57,Benjamin Sancho,Wilfredo Mancilla,Quimera,6.9
+7,2,09:28,1100,6,10,Krasnyy And Red,Bad Daddy,430,56,Cristian Bobadilla,Enrique Lagunas,Redbros,108.8
+7,2,09:28,1100,7,1,Mati Rockero,Distorted Economy,427,57,Moises A. Donoso,Osvaldo Urbina,Ropa,8.4
+7,2,09:28,1100,8,9,Hello,Palm Springs (usa),415,57,Gonzalo Ulloa,Osvaldo Urbina,Doña Icha,5.6
+7,2,09:28,1100,9,7,Cocolino,Flyer,0,53,Fabian Medina,Luis Catena,Quinta Costa,14.3
+7,2,09:28,1100,10,5,Aura Azul Azul,Flyer,484,57,Felipe Moreno,Enrique Lagunas,Hermanos Y Amigos,40.4
+7,2,09:28,1100,11,12,Pita And Red,Get Jets,428,55,Bryan Rubilar,Enrique Lagunas,Redbros,139.3
+7,2,09:28,1100,12,3,Tarro Lays,Iron Clad,412,57,Israel Villagran,Luis Machulas,Cayo,47.5
+7,2,09:28,1100,13,15,La Pulga Atomica,The Lumber Guy,466,53,Jose D. Villagran,Gabriel Reyes I.,Ferro,33.7
+7,3,09:56,1300,1,1,Last Gamble,Robert Bruce,476,56.5,Piero Reyes,Ximeno Urenda,Subyugadora,6.0
+7,3,09:56,1300,2,2,Bucefalo (arg),Daddy Long Legs,470,56,Gustavo Calvente,Ximeno Urenda,Los Leones,2.7
+7,3,09:56,1300,3,4,Vive Le Roi,Ivan Denisovich,450,57,Carlos Ortega,Victor Moris,Valor Y Fe,10.0
+7,3,09:56,1300,4,11,Altobello,Get Jets,402,58,Benjamin Troncoso,Wilfredo Mancilla,Placilla,6.4
+7,3,09:56,1300,5,7,King Octopus,Dubai Sky,496,58,Gustavo Aros,Gonzalo Vegas,Mayfer Y Tata Pato,13.5
+7,3,09:56,1300,6,8,El Terrible,Cunco (ire),460,53,Jaime Medina,Carlos Vasquez,Doña Sofia,5.4
+7,3,09:56,1300,7,5,Chelenko,Midshipman,464,58,Carlos E. Urbina,Ximeno Urenda,Nativo,29.5
+7,3,09:56,1300,8,10,Soto De Angol,Constitution,456,57,Pedro Robles,Victor Moris,Mamita Linda,8.0
+7,3,09:56,1300,9,3,Radio Teatro (arg),War Command,530,54,Benjamin Sancho,Maximo Silva,Don Camilo,10.5
+7,3,09:56,1300,10,6,Jerusa,Indian Trail,486,58,Alvaro Apablaza,Victor Moris,The Good Father,30.0
+7,3,09:56,1300,11,9,Checo Is A Legend,Gstaad Ii,439,57,Gerard Rodriguez,Hernan Ulloa,C.h.c.,9.7
+7,4,10:26,1000,1,13,Shivers,Grand Daddy,449,57,Lesly Gonzalez,Marcos Contreras,Marcos Contreras L.,14.0
+7,4,10:26,1000,2,4,Mujer De Pasarela,Mendelssohn (usa),459,57.5,Tomas Seith,Maximo Silva,Maximo Silva D.,4.7
+7,4,10:26,1000,3,5,El Veneco,Dylan Thomas,490,57,Nicolas Ramirez,Maximo Silva,M S D,5.6
+7,4,10:26,1000,4,2,Nube De Agua,Lookin At Lucky,460,57,Piero Reyes,Eduardo Donoso,Los Felipes,3.3
+7,4,10:26,1000,5,12,Prima Notte,Dylan Thomas,456,57,Johan Gonzalez,Maximo Silva,Maximo Silva D.,11.7
+7,4,10:26,1000,6,8,Topacio Azul,Dylan Thomas,427,57,Cristian Bobadilla,Marcos Contreras,Guerrero De La Vida,8.3
+7,4,10:26,1000,7,10,Gran Romano,Constitution,430,57,Wladimir Quinteros,Wilfredo Mancilla,Mirafiori,6.2
+7,4,10:26,1000,8,7,Exeter (arg),Treasure Beach,471,57,Roberto L. Araya,Ramon Olivares,Papi Rey,45.6
+7,4,10:26,1000,9,6,El Viejo Laucha,El Farrero,418,57,Rodolfo Fuenzalida,Marcos Contreras,Guerrero De La Vida,8.0
+7,4,10:26,1000,10,3,Veinte De Plata,The Lumber Guy,470,57,Diego Carvacho,Osvaldo Urbina,Ciruelillo,9.4
+7,4,10:26,1000,11,11,Capo Di Famiglia,Bad Daddy,402,57,Jose Eyzaguirre,Ramon Olivares,Gamboa,28.8
+7,4,10:26,1000,12,14,El Mister,Exaggerator,468,57,Lennart Silva F.,Victor Moris,Arturo Y Cecilia,85.1
+7,4,10:26,1000,13,9,Gocce,Seeking The Dia,515,57,Bryan Rubilar,Braulio Gomez,Amarduq,96.3
+7,5,10:54,1100,1,5,Candy Dubai,Dubai Sky,443,53,Ronald Fournet,Cristobal Gonzalez,Charito,4.3
+7,5,10:54,1100,2,12,Oh Karina,Omayad,425,57,Nicolas Ramirez,Luis Catena,Granadilla,4.8
+7,5,10:54,1100,3,6,De Bolognia,Viscount Nelson,418,57,Lesly Gonzalez,Eduardo Donoso,Torres,7.0
+7,5,10:54,1100,4,3,Wittenburg,Dubai Sky,442,53,Nelson Rojas,Osvaldo Urbina,Las Araucarias,3.9
+7,5,10:54,1100,5,13,Sestri Levante,Dylan Thomas,440,57,Carlos E. Urbina,Victor Moris,The Good Father,14.9
+7,5,10:54,1100,6,4,Lady Laura,Sumerio,457,53,Fabian Medina,Luis Catena,Haras Santa Mariana,22.5
+7,5,10:54,1100,7,15,La Propia Hermana,The Lumber Guy,405,57.5,Tomas Seith,Braulio Gomez,J.j.,19.4
+7,5,10:54,1100,8,8,Ultimo Paseo,International Star (usa),448,57,Pedro Robles,Victor Moris,Js,3.7
+7,5,10:54,1100,9,14,Aunt Mercy,Palm Springs (usa),450,57,Israel Villagran,Rafael Bernal T.,Rafael Bernal T.,39.6
+7,5,10:54,1100,10,11,Al Aguaite,Zawraq (ire),421,57,Felipe Tapia,Braulio Gomez,Masaiva,106.2
+7,5,10:54,1100,11,2,Morocha De Oro,Tapitdoro,410,57,Jose Cueto,Jorge Araneda,Jorge Araneda M.,26.3
+7,5,10:54,1100,12,16,Doña Marly,Flyer,390,55,Bryan Rubilar,Rodrigo Silva,Barreras,77.2
+7,5,10:54,1100,13,7,Exclude (arg),Forge,416,57,Alvaro Apablaza,Marcos Contreras,Guerrero De La Vida,42.2
+7,5,10:54,1100,14,1,Mi Chunchita,International Star (usa),405,53,Jose D. Villagran,Sergio Salazar,Siempre Fe,31.4
+7,5,10:54,1100,15,10,Go Run Gigi,Spun To Run (usa),420,57,Diego Carvacho,Wilfredo Mancilla,Chevalex,95.9
+7,5,10:54,1100,16,9,Flash Splach,Grand Daddy,458,57,Victor Miranda,Rodrigo Silva,Joaquin Andres,69.3
+7,6,11:22,1300,1,4,Owen Jeep,Ivan Denisovich,480,57,Jaime Medina,Juan Baeza,Pinky,1.0
+7,6,11:22,1300,2,9,Makis (arg),Equal Stripes,478,57,Jorge Zuñiga,Luis Catena,Granadilla,7.1
+7,6,11:22,1300,3,3,Trois Plumes,Dylan Thomas,436,57,Johan Gonzalez,Maximo Silva,Maximo Silva D.,15.2
+7,6,11:22,1300,4,2,Princesa Ludy,Indian Trail,462,57,Felipe Tapia,Victor Moris,Mamita Linda,26.5
+7,6,11:22,1300,5,7,Macklin,Dylan Thomas,434,57,Rodolfo Fuenzalida,Marcos Contreras,Guerrero De La Vida,12.2
+7,6,11:22,1300,6,8,Summer Sohn,Mendelssohn (usa),405,57,Felipe Moreno,Alberto Ferrero,Chino Emperador,67.0
+7,6,11:22,1300,7,6,Conde Austral,Carlotum,436,57,Maximiliano Salinas,Braulio Gomez,Linea Errazuriz,51.5
+7,6,11:22,1300,8,12,Rosa Coqueta,Quick Casablanca,480,57,Diego Carvacho,Braulio Gomez,Braulio Gomez A.,19.3
+7,6,11:22,1300,9,11,Amigo Calichei,Exaggerator,456,57,Lesly Gonzalez,Eduardo Donoso,Indomable,15.8
+7,6,11:22,1300,10,10,Mayster,Father Of Science,456,57,Alvaro Apablaza,Victor Moris,Carnales,40.1
+7,6,11:22,1300,11,5,Command,Lookin At Lucky,432,57,Claudio Poblete,Ramon Olivares,Joaquin Herrera O.,77.4
+7,7,11:52,1100,1,10,Stracciatella,Lemon Sour,465,57,Wladimir Quinteros,Wilfredo Mancilla,Wilfredo Mancilla D.,17.5
+7,7,11:52,1100,2,12,Teruka,Grand Daddy,412,57,Carlos E. Urbina,Victor Moris,Aleph,4.0
+7,7,11:52,1100,3,13,Tutto Apiaccere,Annual Report,447,57,Benjamin Sancho,Braulio Gomez,Infinito,2.0
+7,7,11:52,1100,4,5,Loco Hermes,Annual Report,405,57,Rodolfo Fuenzalida,Rodrigo Silva,Rodrigo Silva S.,12.8
+7,7,11:52,1100,5,2,Super Pirata,Boboman,470,57,Maximiliano Salinas,Maximo Silva,Pirata,9.4
+7,7,11:52,1100,6,9,Romatri,Exaggerator,452,57,Jose D. Villagran,Sergio Salazar,Patricio Saavedra C.,9.1
+7,7,11:52,1100,7,14,Igmafe,Sahara Spirit,464,57,Israel Villagran,Sergio Salazar,Raulacho,8.2
+7,7,11:52,1100,8,4,Suave Brisa,Distorted Economy,397,57,Miguel Gutierrez,Cristobal Gonzalez,Tetito Ignacio,34.9
+7,7,11:52,1100,9,7,Rawson,Imperia Ii,414,57,Moises A. Donoso,Maximo Silva,La Paloma,31.6
+7,7,11:52,1100,10,3,You And I,Union Rags,456,57,Sebastian Marin,Jose Leiva,Juan De Turquia,45.4
+7,7,11:52,1100,11,11,Capri La Bella,Hootenanny (usa),423,57,Johan Gonzalez,Braulio Gomez,Premium,24.2
+7,7,11:52,1100,12,6,Rakata,Gstaad Ii,460,57,Felipe Tapia,Victor Moris,Carnales,25.4
+7,7,11:52,1100,13,8,War Mican,War Command,450,57,Piero Reyes,Rafael Bernal T.,C.b.g.,23.0
+7,7,11:52,1100,14,1,Sueño Del Alma,El Facha,445,57,Jose Cueto,Rodrigo Silva,Rodrigo Silva S.,52.9
+7,8,12:20,1000,1,6,Disco Star,Valid Point (usa),484,57,Guillermo A. Perez,Wilfredo Mancilla,Placilla,2.6
+7,8,12:20,1000,2,2,Prometeo,Tiz The Law (usa),470,57,Jorge Gonzalez,Ximeno Urenda,Los Leones,2.2
+7,8,12:20,1000,3,4,Otra Vez Pituco,Tacitus (usa),515,57,Jaime Medina,Carlos Vasquez,Doña Sofia,7.1
+7,8,12:20,1000,4,5,Catenaccio,El Milagrito,477,57,Joaquin Herrera,Luis Catena,Tarantino,5.7
+7,8,12:20,1000,5,11,Arrazzo,Fallen From Heaven,440,57,Johan Gonzalez,Braulio Gomez,Los Psiquicos,88.3
+7,8,12:20,1000,6,15,Lumber Touch,The Lumber Guy,481,57,Carlos Ortega,Ramon Olivares,Periko,58.9
+7,8,12:20,1000,7,8,La Pande,Seeking The Dia,435,55,Sebastian E. Gonzalez,Maximo Silva,Los Parritas,13.8
+7,8,12:20,1000,8,9,Fafifo,Tacitus (usa),460,57,Nicolas Ramirez,Maximo Silva,Maximo Silva D.,35.2
+7,8,12:20,1000,9,14,Ave Dorada,Lookin At Lucky,460,57,Felipe Tapia,Carlos Vasquez,Doña Sofia,15.9
+7,8,12:20,1000,10,3,Santa Yapa,Big Daddy,434,55,Lesly Gonzalez,Gabriel Reyes,Gabriel Reyes G.,22.9
+7,8,12:20,1000,11,1,Pirata Bigoton,Sumerio,450,57,Jorge Zuñiga,Maximo Silva,Pirata,54.3
+7,8,12:20,1000,12,10,Fito Y Fitipaldis,Handsome Tiger,454,57,Maximiliano Salinas,Jose Leiva,Haras Paulina,84.3
+7,8,12:20,1000,13,12,Teatro Del Giglio,Rydilluc,447,57,Benjamin Sancho,Jose Leiva,Sverige,26.8
+7,9,12:48,1100,1,11,El Gran Pirata,Boboman,500,58,Tomas Seith,Maximo Silva,Pirata,15.7
+7,9,12:48,1100,2,9,Tonada Vieja,Monthir,460,58,Joaquin Herrera,Rafael Bernal T.,Old Boy,5.6
+7,9,12:48,1100,3,8,El Apostol,Classic Empire (usa),467,55,Nicolas Ramirez,Wilfredo Mancilla,Placilla,1.6
+7,9,12:48,1100,4,2,El Arte De Cantar,Gemologist,512,56,Carlos Ortega,Victor Moris,Valor Y Fe,15.0
+7,9,12:48,1100,5,10,El Palomo,The Lumber Guy,453,57,Sebastian Marin,Jorge Araneda,Colicheu,11.9
+7,9,12:48,1100,6,1,Andrei Bolkonsky,Competitive Edge,461,56.5,Diego Carvacho,Jose Leiva,Jose Leiva L.,19.7
+7,9,12:48,1100,7,4,Janstar,International Star (usa),434,57,Jonathan Castillo,Marcos Contreras,Guerrero De La Vida,15.2
+7,9,12:48,1100,8,3,Le Peintre (arg),Interaction,495,55,Maximiliano Salinas,Juan Garcia,Tata`s Juan,36.7
+7,9,12:48,1100,9,12,Gerasimova,Aragorn Ii,440,56,Carlos E. Urbina,Marcos Contreras,Guerrero De La Vida,24.8
+7,9,12:48,1100,10,6,Kapu,Sumerio,486,58,Gerard Rodriguez,Gonzalo Vegas,Los Parritas,5.6
+7,9,12:48,1100,11,7,Mala Memoria,Gemologist,478,58,Ronald Fournet,Jose Araya,Legacy,34.6
+7,9,12:48,1100,12,5,Nadie Me Cree,Grand Daddy,449,58,Piero Reyes,Carlos Vasquez,Hermanos,17.5
+7,10,13:18,1000,1,8,Miralli,Practical Joke,415,51,Jaime Miño,William Ara,Mv Jr.,61.5
+7,10,13:18,1000,2,5,Pedernera,Flameaway (can),470,58,Jaime Medina,Rodrigo Sanchez,Any,4.9
+7,10,13:18,1000,3,3,Soul Queen,War Command,449,51,Hugo Ochoa,Victor Caballeria,Tata Nacho,6.0
+7,10,13:18,1000,4,10,Irish Boy,Irish Brother,504,54,Joaquin Herrera,Ximeno Urenda,Los Treiles,7.2
+7,10,13:18,1000,5,4,Vichito,Seeking The Dia,480,53.5,Ignacio Valdivia,Hernan Ulloa,Palestina,6.2
+7,10,13:18,1000,6,2,Palacete,Ticket To Run,470,52.5,Jonathan Castillo,Aldo Parra,Marita,10.1
+7,10,13:18,1000,7,12,Gone Star,Mendelssohn (usa),450,51,Jorge Zuñiga,Claudio Navarro,Always Happy,48.7
+7,10,13:18,1000,8,7,Single Barrel,Mendelssohn (usa),512,57,Pedro Robles,John Pinochet,Citral,2.6
+7,10,13:18,1000,9,9,Sueño Chilote,Court Vision,435,54.5,Alvaro Apablaza,Carlos Vasquez,Doña Sofia,6.9
+7,10,13:18,1000,10,11,Muy Amigo,Competitive Edge,509,61,Guillermo A. Perez,Guillermo Perez,Pobre Obrero,13.8
+7,10,13:18,1000,11,6,Spartan,Good Samaritan (usa),472,58,Nicolas Santibañez,Aldo Parra,Azul De Derecha,31.6
+7,11,13:46,1100,1,10,Pino Huacho,El Manu,409,58,Jorge Zuñiga,Jorge Araneda,Colicheu,3.9
+7,11,13:46,1100,2,13,Furioso Nano,Distorted Economy,452,57,Lennart Silva F.,Braulio Gomez,La Osito,3.5
+7,11,13:46,1100,3,11,Alives,Easing Along,480,58,Jaime Miño,William Ara,William Ara D.,9.2
+7,11,13:46,1100,4,6,Gran Cafrune,Hinz,476,58,Tomas Seith,Victor Caballeria,Tata Nacho,4.9
+7,11,13:46,1100,5,3,Narcisista,Strong Mandate,475,57,Jonathan Castillo,Wilfredo Mancilla,French Fries,10.3
+7,11,13:46,1100,6,1,Bapkiza,Cloud Computing,440,57,Sebastian Marin,Juan Belzu,Milena,27.0
+7,11,13:46,1100,7,4,Afirmate Gato,Seeking The Dia,430,57,Maximiliano Salinas,Juan Garcia,Don Salvador,10.3
+7,11,13:46,1100,8,7,Kwin,Ivan Denisovich,442,58,Jose Eyzaguirre,Victor Caballeria,Tata Nacho,11.8
+7,11,13:46,1100,9,8,La Albita,Il Rey Ivan,442,57,Ronald Fournet,Jose Araya,Legacy,6.5
+7,11,13:46,1100,10,12,Dale Flaca,Hinz,425,57,Lesly Gonzalez,Eduardo Donoso,Don Amadeo,8.6
+7,12,14:14,1000,1,6,Pine Black,Sumerio,470,58,Joaquin Herrera,Luis Catena,Granadilla,2.5
+7,12,14:14,1000,2,1,Tia Hedy,Katmai,484,57,Nicolas Molina,Gonzalo Vegas,Siempre Avante,3.6
+7,12,14:14,1000,3,10,Encinitas,Good Samaritan (usa),459,57,Sebastian E. Gonzalez,Jose Araya,Legacy,5.6
+7,12,14:14,1000,4,11,El Loco Peyuco,Forward March,442,58,Lesly Gonzalez,Marcos Contreras,Guerrero De La Vida,5.7
+7,12,14:14,1000,5,5,Gustavo Tulio,International Star (usa),460,58,Maximiliano Salinas,Ximeno Urenda,Santa Anita,20.1
+7,12,14:14,1000,6,7,California Spring,California Chrome,480,57,Sebastian Marin,Luis Valdivia,Tata Beto,8.2
+7,12,14:14,1000,7,4,Golden Stone,Goldencents,470,57,Felipe Moreno,Ramon Olivares,Margal,39.9
+7,12,14:14,1000,8,3,Yuliecita Crack,The Lumber Guy,434,55,Jose D. Villagran,Gabriel Reyes I.,Calera Calera,35.6
+7,12,14:14,1000,9,8,Tuyarak,Ya Primo,378,55,Rodolfo S. Dores,Eduardo Donoso,Boril Benito Ch.,30.2
+7,12,14:14,1000,10,12,Sexta Feira,Dylan Thomas,471,55.5,Israel Villagran,Marcos Contreras,Guerrero De La Vida,24.4
+7,12,14:14,1000,11,9,Canela Star,Awesome Patriot,445,57,Tomas Seith,Victor Caballeria,Tata Nacho,11.4
+7,12,14:14,1000,12,2,Muñeco Dash,Zawraq (ire),458,55,Carlos E. Urbina,Victor Moris,G.a.ocampo,33.8
+7,13,14:44,1400,1,11,Lonwhite,Mendelssohn (usa),482,61,Kevin Espina,Cristobal Gonzalez,Charito,2.8
+7,13,14:44,1400,2,9,Caña Alta,Classic Empire (usa),465,54,Joaquin Herrera,Ximeno Urenda,Vendaval,3.0
+7,13,14:44,1400,3,14,Good Runner,Good Samaritan (usa),473,58.5,Jonathan Castillo,Jose Araya,Matriarca,11.0
+7,13,14:44,1400,4,12,Black Spots,Dubai Sky,509,51,Jorge Zuñiga,Luis Urbina,Manchas Negras,20.5
+7,13,14:44,1400,5,3,Popovich (arg),Daddy Long Legs,487,51,Hugo Ochoa,Ximeno Urenda,Los Leones,7.2
+7,13,14:44,1400,6,5,Hufgner,Mendelssohn (usa),420,58.5,Rafael Cisternas,Julio Orellana,Tobe,7.7
+7,13,14:44,1400,7,2,Bravo Nino,Cunco (ire),480,54,Miguel Gutierrez,Cristobal Gonzalez,Charito,39.4
+7,13,14:44,1400,8,7,Don Altobello,Mendelssohn (usa),470,54.5,Jaime Medina,Juan Baeza,Don Mario,8.9
+7,13,14:44,1400,9,6,Mago Del Gelato,Flameaway (can),512,55.5,Pedro Robles,John Pinochet,Los Que Saben,11.3
+7,13,14:44,1400,10,1,Sag Giga,Sumerio,497,52.5,Sebastian Marin,Luis Catena,Granadilla,47.1
+7,13,14:44,1400,11,8,Oblak,War Command,495,51.5,Nicolas Molina,Osvaldo Urbina,G.g.,62.9
+7,13,14:44,1400,12,10,Implicado,Robert Bruce,465,53.5,Ignacio Valdivia,Hernan Ulloa,Monseñor,19.0
+7,13,14:44,1400,13,13,Exhausting,Lookin At Lucky,508,51.5,Lennart Silva F.,Gonzalo Vegas,Siempre Avante,31.3
+7,14,15:18,1100,1,3,Señora Berni,Good Samaritan (usa),477,57,Ronald Fournet,Victor Moris,Arlequina,25.2
+7,14,15:18,1100,2,1,Gladiador Art,Dubai Sky,434,57,Rodolfo Fuenzalida,Victor Moris,Palmatoria,9.0
+7,14,15:18,1100,3,9,El Boticario,International Star (usa),450,57,Guillermo A. Perez,Osvaldo Urbina,Osvaldo Urbina H.,2.2
+7,14,15:18,1100,4,13,Louving,Mendelssohn (usa),438,57,Jose Eyzaguirre,Victor Caballeria,Tata Nacho,8.1
+7,14,15:18,1100,5,14,Ciocolatta,Cunco (ire),487,57,Jose D. Villagran,Gabriel Reyes I.,Palestina,13.7
+7,14,15:18,1100,6,8,Pablosky,Ascot Prince,447,57.5,Kevin Espina,Braulio Gomez,Amarduq,4.3
+7,14,15:18,1100,7,4,Gipsy Vanner,Exaggerator,467,57,Cristian Bobadilla,Braulio Gomez,Infinito,22.7
+7,14,15:18,1100,8,11,Big Wallace (arg),Hurricane Cat,470,57,Jonathan Castillo,Braulio Gomez,J.j.,11.0
+7,14,15:18,1100,9,15,Fiore Di Campo,Grand Daddy,434,57,Moises A. Donoso,Jose Araya,Legacy,50.4
+7,14,15:18,1100,10,10,El Huevo Cototo,Forward March,443,57,Felipe Tapia,Braulio Gomez,Masaiva,64.5
+7,14,15:18,1100,11,5,Don Bruno,Awesome Patriot,478,57,Nelson Rojas,Sergio Salazar,Gracias Totales,12.1
+7,14,15:18,1100,12,7,Dulce Anita,Good Samaritan (usa),400,57,Wladimir Quinteros,Rodrigo Silva,Joaquin Andres,44.9
+7,14,15:18,1100,13,12,La Pela,Forward March,430,57,Sebastian Marin,Juan Belzu,Mayfer Y Tata Pato,15.5
+7,14,15:18,1100,14,2,La Ballota,Lemon Sour,449,57,Diego Carvacho,Sergio Salazar,Mis Tres Amores,17.7
+7,14,15:18,1100,15,6,Don Chacal (arg),Il Campione,432,57,Felipe Moreno,Eduardo Donoso,Si Nos Organizamos,51.0
+7,15,15:50,1300,1,12,So Handsome,Stay Thirsty,482,54.5,Alvaro Apablaza,Rodrigo Silva,Los Troncos,24.0
+7,15,15:50,1300,2,2,Kalos (arg),Fortify,550,54,Sebastian E. Gonzalez,Luis Catena,Granadilla,5.1
+7,15,15:50,1300,3,8,Sud Americano,Strong Mandate,505,54,Rafael Cisternas,Ximeno Urenda,Los Leones,6.7
+7,15,15:50,1300,4,1,Germanicus,Midshipman,470,54,Lesly Gonzalez,Ximeno Urenda,Don Mario,5.5
+7,15,15:50,1300,5,6,Karstadt,Dubai Sky,430,58,Maximiliano Salinas,Braulio Gomez,Las Araucarias,33.0
+7,15,15:50,1300,6,4,Green Dress,Lemon Sour,487,56,Carlos Ortega,Eduardo Donoso,Los Nanitos,12.3
+7,15,15:50,1300,7,5,Fallen Star,Fallen From Heaven,445,58,Nelson Rojas,Juan Belzu,Anyelo Andres,9.5
+7,15,15:50,1300,8,9,Champelice,Katmai,442,56,Gerard Rodriguez,Victor Caballeria,Los Caleranos,9.0
+7,15,15:50,1300,9,7,Master Kan,Mastercraftsman,482,58,Nicolas Ramirez,Hernan Ulloa,Palestina,6.5
+7,15,15:50,1300,10,10,Che Samaritan,Good Samaritan (usa),445,56,Rodolfo Fuenzalida,Marcos Contreras,Guerrero De La Vida,22.4
+7,15,15:50,1300,11,11,Calochita,Ivan Denisovich,474,58,Nicolas Molina,Gabriel Reyes I.,Palestina,9.5
+7,15,15:50,1300,12,3,Te Lo Cedo,Lookin At Lucky,475,54,Hugo Ochoa,Carlos Vasquez,Doña Sofia,4.1
+7,16,16:20,1600,1,13,Selva Bella,Mendelssohn (usa),459,57,Joaquin Herrera,Julio Orellana,Stud La Nonna Ltda.,7.4
+7,16,16:20,1600,2,12,Renta Efectiva,Lookin At Lucky,434,57,Jaime Medina,Carlos Raby,Stud El Mirador,2.9
+7,16,16:20,1600,3,10,Nartella,Mendelssohn (usa),0,57,Rafael Cisternas,Julio Orellana,Stud Haras Don Alberto,5.5
+7,16,16:20,1600,4,5,Dalyan,Dubai Sky,423,57,Nicolas Molina,Rodrigo Quiroz S.,Las Araucarias,14.9
+7,16,16:20,1600,5,2,Rainui,Ya Primo,470,57,Jorge Gonzalez,Julio Orellana,Stud El Mirador,4.1
+7,16,16:20,1600,6,8,Vivien Van,Ivan Denisovich,467,57,Nicolas Santibañez,Julio Orellana,Doña Lili,16.2
+7,16,16:20,1600,7,9,Mi Monchi Monchi,Palm Springs (usa),420,57,Sebastian E. Gonzalez,Rodrigo Quiroz S.,Tata Rey,8.5
+7,16,16:20,1600,8,11,Albanta (arg),Hi Happy,507,57,Gustavo Calvente,Ximeno Urenda,Los Leones,26.1
+7,16,16:20,1600,9,6,Hela,Spun To Run (usa),462,57.5,Gustavo Aros,Mario Covarrubias,Carvatero,31.0
+7,16,16:20,1600,10,7,Mi Clasica,Classic Empire (usa),439,57,Ignacio Valdivia,Luis Urbina,Vendaval,23.5
+7,16,16:20,1600,11,4,On Look,Lookin At Lucky,428,57.5,Luis Torres,Julio Orellana,Stud Marenga,16.7
+7,16,16:20,1600,12,1,Picpus (arg),Señor Candy,475,57,Benjamin Sancho,Ximeno Urenda,Los Leones,35.2
+7,16,16:20,1600,13,3,Wind Of Changes,Alfonso (usa),453,57,Gonzalo Ulloa,Osvaldo Urbina,Doña Icha,29.4
+7,16,16:20,1600,14,14,Bardas Blancas,Classic Empire (usa),470,57,Jorge Zuñiga,Mario Covarrubias,Vendaval,21.8
+7,17,16:50,1100,1,1,Luca Brasi,Ecliptic,512,57,Felipe Tapia,Carlos Vasquez,Doña Sofia,14.1
+7,17,16:50,1100,2,15,Alphatauri,Sumerio,466,57.5,Kevin Espina,Luis Catena,Granadilla,4.3
+7,17,16:50,1100,3,4,Guerrero Arabe,Arabian Spirit,470,57,Carlos Ortega,Eduardo Donoso,Los Nanitos,17.1
+7,17,16:50,1100,4,16,Princesitacami (arg),Fortify,465,58,Pedro Robles,Victor Moris,Js,9.8
+7,17,16:50,1100,5,8,Ted,Exaggerator,512,57,Gerard Rodriguez,Victor Caballeria,Tata Nacho,4.6
+7,17,16:50,1100,6,9,Rojo Burgues,Straight Up,434,58,Nelson Rojas,Gabriel Reyes I.,Felisi,20.5
+7,17,16:50,1100,7,12,Modelo Del Salto,Tapitdoro,431,57,Diego Carvacho,Sergio Salazar,Jeag,16.1
+7,17,16:50,1100,8,3,Tomate Un Trago,Mr Speaker,430,57,Moises A. Donoso,Rafael Bernal T.,Haras La Selva,10.7
+7,17,16:50,1100,9,10,Star Honey,Gemologist,520,58,Piero Reyes,Juan Belzu,Pablito Y Facundo,10.1
+7,17,16:50,1100,10,14,Lucky Boss,Gemologist,508,58,Johan Gonzalez,Maximo Silva,La Paloma,20.4
+7,17,16:50,1100,11,5,Lucky Storm,California Chrome,440,58,Rodolfo Fuenzalida,Victor Moris,Aleph,11.4
+7,17,16:50,1100,12,11,El Tanque Agus,Awesome Patriot,456,58,Tomas Seith,Eduardo Donoso,Si Nos Organizamos,16.9
+7,17,16:50,1100,13,13,Soraila,Exaggerator,437,57,Jose Cueto,Gabriel Reyes,Palestina,21.2
+7,17,16:50,1100,14,6,Panchote,Midshipman,428,58,Carlos E. Urbina,Victor Moris,Mamita Linda,32.2
+7,17,16:50,1100,15,7,Rio Perez,Cloud Computing,465,58,Sebastian E. Gonzalez,Juan Belzu,Milena,6.4
+7,17,16:50,1100,16,2,Luiverar,Viscount Nelson,402,57,Cristian Bobadilla,Braulio Gomez,Tararira,50.7
+7,18,17:20,1600,1,3,Voy Saliendo,Good Samaritan (usa),512,57.5,Kevin Espina,Cristobal Gonzalez,Charito,8.5
+7,18,17:20,1600,2,9,El Japones,Mendelssohn (usa),425,57,Jonathan Castillo,Aldo Parra,Azul De Derecha,3.0
+7,18,17:20,1600,3,2,Milanes (arg),Treasure Beach,449,57.5,Gustavo Calvente,Ximeno Urenda,Los Leones,21.0
+7,18,17:20,1600,4,5,Band Of Brothers,Flameaway (can),475,57,Gonzalo Ulloa,Rafael Bernal T.,Placilla,16.7
+7,18,17:20,1600,5,8,Tap Lucky,Lookin At Lucky,480,57,Ignacio Valdivia,Hernan Ulloa,Fortuna,7.9
+7,18,17:20,1600,6,4,James Bruce,Robert Bruce,440,57,Hugo Ochoa,Rodrigo Sanchez,Siempre Avante,5.2
+7,18,17:20,1600,7,10,Gran Miron,Mendelssohn (usa),457,57,Joaquin Herrera,Luis Urbina,Stud Drope,2.8
+7,18,17:20,1600,8,6,Capolavoro,Mendelssohn (usa),482,57,Oscar Ulloa,Juan Baeza,Don Mario,6.2
+7,18,17:20,1600,9,1,Lord Jim (arg),Daddy Long Legs,470,57,Benjamin Sancho,Ximeno Urenda,Los Leones,16.6
+7,19,17:52,1100,1,16,Mcclane,Competitive Edge,492,58,Lennart Silva F.,Victor Moris,Arturo Y Cecilia,16.2
+7,19,17:52,1100,2,10,Indian Melody,Indian Trail,525,57,Jonathan Castillo,Wilfredo Mancilla,French Potato,9.9
+7,19,17:52,1100,3,9,Gracia Clasica,Classic Empire (usa),456,58,Tomas Seith,Gabriel Reyes I.,Toleo Toleo,11.1
+7,19,17:52,1100,4,12,Sol De Troya,Exaggerator,464,56,Benjamin Sancho,Gonzalo Vegas,Mbarete,6.9
+7,19,17:52,1100,5,15,Il Vento,Exaggerator,487,56,Nicolas Ramirez,Maximo Silva,M S D,13.1
+7,19,17:52,1100,6,7,Dale Isi,Hinz,440,58,Lesly Gonzalez,Eduardo Donoso,Don Amadeo,9.7
+7,19,17:52,1100,7,3,Quebec Joy (arg),Fortify,547,54,Jorge Zuñiga,Luis Catena,Granadilla,3.8
+7,19,17:52,1100,8,4,Magic Flame,Flameaway (can),490,56,Pedro Robles,Victor Moris,Js,26.7
+7,19,17:52,1100,9,6,El Oportuno,Omayad,490,59,Diego Carvacho,Braulio Gomez,Le Mont,15.2
+7,19,17:52,1100,10,2,Pogacar,Exaggerator,496,56,Rafael Cisternas,Ximeno Urenda,Santa Anita,12.3
+7,19,17:52,1100,11,13,Antiyal,Grand Daddy,510,55.5,Jose Eyzaguirre,Victor Caballeria,Tata Nacho,24.7
+7,19,17:52,1100,12,8,Petit Air,Il Rey Ivan,446,54,Nicolas Molina,Gonzalo Vegas,Siempre Avante,27.1
+7,19,17:52,1100,13,11,Mis Mejores Amigos,War Command,476,59,Hugo Ochoa,Carlos Vasquez,Doña Sofia,5.5
+7,19,17:52,1100,14,5,Charlye Flow,Midshipman,460,59,Israel Villagran,Rafael Bernal T.,Salamanca,17.7
+7,19,17:52,1100,15,1,Mister E,Ecliptic,465,56,Nelson Rojas,Juan Belzu,Mayfer Y Tata Pato,21.3
+7,19,17:52,1100,16,14,Pato Cuncuna,Grand Daddy,490,59,Moises A. Donoso,Jose Leiva,Linlinao,20.0
+7,20,18:25,1100,1,5,Paicavi,Good Samaritan (usa),441,58,Carlos Ortega,Jose Araya,Stud De Arauco,6.9
+7,20,18:25,1100,2,9,Daddy Tito,Grand Daddy,515,57,Benjamin Sancho,Carlos Vasquez,Doña Sofia,6.6
+7,20,18:25,1100,3,8,Oh Que Fresco,Omayad,461,56,Sebastian E. Gonzalez,Luis Catena,Luis G. Catena,11.6
+7,20,18:25,1100,4,14,Muy Maton,Katmai,516,58,Sebastian Marin,Jorge Araneda,Elephant,4.0
+7,20,18:25,1100,5,2,Terrible Good,Good Samaritan (usa),475,57,Moises A. Donoso,Jose Araya,Lady Manchas Negras,7.1
+7,20,18:25,1100,6,11,Dentato,Good Samaritan (usa),478,58,Hugo Ochoa,Victor Caballeria,Tata Nacho,9.9
+7,20,18:25,1100,7,1,Nalhuitad,Flameaway,482,57,Guillermo A. Perez,Jose Leiva,Linlinao,19.4
+7,20,18:25,1100,8,12,The Great Dany,Zawraq (ire),427,57,Rodolfo Fuenzalida,Rafael Bernal T.,Rafael Bernal T.,15.5
+7,20,18:25,1100,9,10,Frank Slade,Indy Dancer,447,57,Felipe Tapia,Braulio Gomez,Braulio Gomez A.,8.4
+7,20,18:25,1100,10,4,La Tia Elena,Patternrecognition,494,57,Johan Gonzalez,Victor Caballeria,Tata Nacho,7.4
+7,20,18:25,1100,11,3,The Great Texas,Annual Report,423,56,Felipe Moreno,Rafael Bernal T.,J.v.g.,31.5
+7,20,18:25,1100,12,7,Viene Puelche,Awesome Patriot,410,58,Diego Carvacho,Sergio Salazar,Patricio Saavedra C.,14.6
+7,20,18:25,1100,13,13,Concluyente,Distorted Economy,446,56,Jorge Zuñiga,Jose Araya,Legacy,10.9
+7,21,19:00,1100,1,4,La Oligarca,Omayad,460,57.5,Kevin Espina,Luis Catena,La Reconquista,4.0
+7,21,19:00,1100,2,3,Warrior Spirit,Protonico,456,56,Nicolas Ramirez,Wilfredo Mancilla,French Potato,11.7
+7,21,19:00,1100,3,12,Salus,Empire Maker,516,57,Israel Villagran,Marcos Contreras,Guerrero De La Vida,13.4
+7,21,19:00,1100,4,9,Angelito Alan,Cumpleaños Feliz,477,57,Pedro Robles,Victor Moris,Js,28.0
+7,21,19:00,1100,5,8,Union Army (arg),Il Campione,460,57,Gerard Rodriguez,Victor Caballeria,Tata Nacho,3.7
+7,21,19:00,1100,6,14,Muy Avispada,Exaggerator,440,58,Tomas Seith,Braulio Gomez,Amarduq,6.4
+7,21,19:00,1100,7,6,Pasion Por Ella,Flyer,415,58,Alvaro Apablaza,Cristobal Gonzalez,Veronica Morales O.,28.9
+7,21,19:00,1100,8,7,Roy Para Un Poco,Indy Dancer,478,58,Jonathan Castillo,Wilfredo Mancilla,French Fries,6.5
+7,21,19:00,1100,9,11,Creo En Mi,Flameaway (can),451,58,Moises A. Donoso,Rafael Bernal T.,Rey Arturo,17.1
+7,21,19:00,1100,10,2,Orca,Flameaway (can),464,57,Piero Reyes,Carlos Vasquez,Doña Sofia,11.3
+7,21,19:00,1100,11,10,Defensor Rojo,Exaggerator,422,57,Jose D. Villagran,Eduardo Donoso,Los Felipes,28.1
+7,21,19:00,1100,12,13,Señor Seremi,Court Vision,448,57,Wladimir Quinteros,Enrique Lagunas,Alfonso Bacquet,13.1
+7,21,19:00,1100,13,1,Mubarak,Malagacy,506,57,Ronald Fournet,Jose Araya,Legacy,16.3
+7,21,19:00,1100,14,5,Noi,Hiraboku Deep (jap),436,58,Carlos E. Urbina,Victor Moris,Aleph,16.8
+7,22,19:45,2400,1,16,Teao,Ya Primo,504,57.5,Luis Torres,Julio Orellana,El Tata,4.6
+7,22,19:45,2400,2,8,Noche Sublime,Mendelssohn (usa),500,55,Rafael Cisternas,Julio Orellana,Doña Lili,14.4
+7,22,19:45,2400,3,9,Apolo Rey,Mendelssohn (usa),488,57.5,Jorge Gonzalez,Luis Urbina,Super Nico,4.3
+7,22,19:45,2400,4,1,Lorenzzo,Mendelssohn (usa),486,57,Joaquin Herrera,Julio Orellana,Stud Haras Don Alberto,7.0
+7,22,19:45,2400,5,6,Eccentric,Ivan Denisovich,502,55,Jaime Medina,Juan Baeza,Stud Haras Don Alberto,5.5
+7,22,19:45,2400,6,15,Salto Eterno,Ivan Denisovich,461,57,Gustavo Aros,Sergio Morales,Por Ti Negrita,53.3
+7,22,19:45,2400,7,13,Celtic Legend,Lookin At Lucky,496,57,Sebastian E. Gonzalez,Juan Baeza,Scotland,25.5
+7,22,19:45,2400,8,2,Good Deal,Good Samaritan (usa),472,57,Ignacio Valdivia,Mario Rabajille,Paula Ines,14.0
+7,22,19:45,2400,9,3,Cartman,Distorted Economy,472,57,Gerard Rodriguez,Gabriel Reyes I.,Gabriel Reyes G.,49.5
+7,22,19:45,2400,10,10,Created,Mendelssohn (usa),470,57,Oscar Ulloa,Juan Baeza,Stud Marenga,4.8
+7,22,19:45,2400,11,14,Himalaya Spirit,Sahara Spirit,515,57,Benjamin Troncoso,Wilfredo Mancilla,Leontina,63.3
+7,22,19:45,2400,12,4,New Empire,Classic Empire (usa),446,57,Hugo Ochoa,Rodrigo Sanchez,Los Tocornal,40.9
+7,22,19:45,2400,13,5,Kiasora,Lookin At Lucky,485,55,Anyelo Rivera,Julio Orellana,Stud Haras Don Alberto,16.8
+7,22,19:45,2400,14,7,Amada Mila,Flameaway (can),441,55.5,Gonzalo Ulloa,Claudio Navarro,Always Happy,24.7
+7,22,19:45,2400,15,12,Wallace,Spun To Run (usa),486,57.5,Gustavo Calvente,Ximeno Urenda,Los Leones,52.1
+7,22,19:45,2400,16,11,Hotu Matua,Alfonso (usa),505,57.5,Kevin Espina,Juan Baeza,Siempre Avante,12.6
+7,23,20:20,1000,1,6,Oscuro Y Salvaje,Viscount Nelson,450,58,Felipe Tapia,Carlos Vasquez,Doña Sofia,5.8
+7,23,20:20,1000,2,14,Bettolina,Irish Brother,470,58,Piero Reyes,Ximeno Urenda,Pegaso,4.6
+7,23,20:20,1000,3,8,Noel,Viscount Nelson,456,55,Joaquin Herrera,Carlos Vasquez,Doña Sofia,3.8
+7,23,20:20,1000,4,11,Alto Forever,Ivan Denisovich,480,58,Tomas Seith,Gabriel Reyes I.,Palestina,20.7
+7,23,20:20,1000,5,12,Cala De Oro,Mendelssohn (usa),411,55,Ronald Fournet,Cristobal Gonzalez,Charito,10.6
+7,23,20:20,1000,6,4,Hipatia,Mustaaqeem (aus),405,56,Nicolas Ramirez,Marcos Contreras,Guerrero De La Vida,21.0
+7,23,20:20,1000,7,13,Don Alfonso,Alfonso (usa),490,55,Alvaro Apablaza,Osvaldo Urbina,Luis Urbina H.,11.1
+7,23,20:20,1000,8,15,Guapa Porteña,Sumerio,450,56,Gerard Rodriguez,Maximo Silva,Winman,7.6
+7,23,20:20,1000,9,10,Clau The Gold,Dubai Sky,467,56,Jorge Zuñiga,Jose Araya,Lady Manchas Negras,7.4
+7,23,20:20,1000,10,7,Moringa,Seeking The Dia,443,57,Hugo Ochoa,Victor Caballeria,Los Caleranos,21.2
+7,23,20:20,1000,11,9,Sanna,Grand Daddy,436,57,Guillermo A. Perez,Osvaldo Urbina,Doña Icha,31.3
+7,23,20:20,1000,12,1,Negra Fina,Exaggerator,422,56,Moises A. Donoso,Osvaldo Urbina,Luz Rencoret,22.9
+7,23,20:20,1000,13,16,Spotter,Patternrecognition,497,58,Sebastian E. Gonzalez,Wilfredo Mancilla,Maquehua,24.8
+7,23,20:20,1000,14,3,Tren De La Quinta,El Farrero,426,55,Wladimir Quinteros,Wilfredo Mancilla,Lam,48.1
+7,23,20:20,1000,15,2,Tigre De Fuego,The Mighty Tiger,456,56,Carlos E. Urbina,Victor Moris,A Lo Caballero,32.9
+7,23,20:20,1000,16,5,Meradonna,Boboman,453,58,Maximiliano Salinas,Braulio Gomez,Corral Quellon,45.6
+7,24,20:55,1000,1,12,Japoneitor,Hiraboku Deep (jap),424,57,Sebastian E. Gonzalez,Rodrigo Silva,Rodrigo Silva S.,3.2
+7,24,20:55,1000,2,14,Lady Emper,Sumerio,438,58,Tomas Seith,Eduardo Donoso,Si Nos Organizamos,4.6
+7,24,20:55,1000,3,5,Ouro,Practical Joke,454,58,Piero Reyes,Carlos Vasquez,Hermanos,9.3
+7,24,20:55,1000,4,9,Profesora Top,Mendelssohn (usa),445,58,Hugo Ochoa,Carlos Vasquez,Doña Sofia,9.5
+7,24,20:55,1000,5,3,Veleta De Proa,Palm Springs (usa),415,57,Rodolfo Fuenzalida,Rafael Bernal T.,Cinerarias,17.0
+7,24,20:55,1000,6,6,Presumida Flame,Flameaway (can),407,58,Israel Villagran,Marcos Contreras,Guerrero De La Vida,11.7
+7,24,20:55,1000,7,2,Imperio Babilonico,Classic Empire (usa),450,57,Carlos E. Urbina,Victor Moris,A Lo Caballero,9.1
+7,24,20:55,1000,8,10,Wannabe,Palm Springs (usa),443,58,Bryan Rubilar,Rafael Bernal T.,Auguri,28.0
+7,24,20:55,1000,9,13,Mighty Flower,The Mighty Tiger,447,57,Carlos Ortega,Eduardo Donoso,D`bolton,22.1
+7,24,20:55,1000,10,15,Wara And Red,The Lumber Guy,445,58,Felipe Moreno,Enrique Lagunas,Redbros,28.9
+7,24,20:55,1000,11,7,Princesa Troyana,Rydilluc,415,58,Gonzalo Ulloa,Osvaldo Urbina,Habbaki,11.2
+7,24,20:55,1000,12,1,Gladiatore,Mendelssohn (usa),470,57,Fabian Medina,Gabriel Reyes,Doña Armanda,13.7
+7,24,20:55,1000,13,8,Primo Happy,Good Samaritan (usa),439,57,Wladimir Quinteros,Wilfredo Mancilla,Leontina,6.6
+7,24,20:55,1000,14,4,Dolce Amarena,Robert Bruce,431,57,Moises A. Donoso,Eduardo Donoso,Si Nos Organizamos,54.7
+7,25,21:30,1100,1,4,Tanytus,Exaggerator,496,58,Johan Gonzalez,Victor Caballeria,Tata Nacho,9.3
+7,25,21:30,1100,2,11,Breezy Star,Mendelssohn (usa),430,58,Carlos Ortega,Jose Araya,Legacy,14.4
+7,25,21:30,1100,3,14,Donnarumma,Flyer,460,58,Piero Reyes,Ximeno Urenda,Casimiro,11.0
+7,25,21:30,1100,4,12,Lilybeth,Fallen From Heaven,516,57,Rodolfo Fuenzalida,Victor Moris,The Good Father,12.5
+7,25,21:30,1100,5,13,Lobelius,Seeking The Dia,480,57,Maximiliano Salinas,Maximo Silva,Leonor,11.7
+7,25,21:30,1100,6,15,Peggy Nice,Quick Casablanca,475,58,Nicolas Ramirez,Marcos Contreras,Guerrero De La Vida,4.8
+7,25,21:30,1100,7,9,Medford,Mendelssohn (usa),518,58,Guillermo A. Perez,Marcos Contreras,Guerrero De La Vida,6.2
+7,25,21:30,1100,8,8,Mipipo,Exaggerator,468,57,Sebastian E. Gonzalez,Maximo Silva,M S D,10.5
+7,25,21:30,1100,9,2,Bone Less,Newfoundland,489,57,Wladimir Quinteros,Juan Belzu,Mayfer Y Tata Pato,26.6
+7,25,21:30,1100,10,7,Maldotti,Magnifi Cat,484,58,Alvaro Apablaza,Gonzalo Vegas,Salomon,10.5
+7,25,21:30,1100,11,3,Xenotes,Katmai,474,57,Felipe Moreno,Sergio Salazar,Gracias Totales,28.0
+7,25,21:30,1100,12,1,Uli El Luchador,Ecliptic,490,58,Jorge Zuñiga,Gabriel Reyes I.,Ferro,8.5
+7,25,21:30,1100,13,10,Omaymay,Omayad,445,58,Lennart Silva F.,Luis Catena,La Reconquista,4.2
+7,25,21:30,1100,14,6,La Dopinhue,Palm Springs (usa),416,58,Felipe Moreno,Eduardo Donoso,Si Nos Organizamos,66.4

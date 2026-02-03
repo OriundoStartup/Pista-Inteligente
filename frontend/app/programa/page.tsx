@@ -4,8 +4,20 @@ import type { Metadata } from 'next'
 import BotonQuinela from '@/components/BotonQuinela'
 
 export const metadata: Metadata = {
-    title: 'Predicciones Hipódromo Chile | Pista Inteligente',
-    description: 'Programa completo y predicciones con IA para Hipódromo Chile y Club Hípico de Chile. Pronósticos profesionales y análisis en tiempo real.',
+    title: 'Predicciones Hípica Chilena: Cobertura Nacional Completa con IA',
+    description: 'La plataforma líder en pronósticos hípicos con IA. Cobertura total: Hipódromo Chile, Club Hípico de Santiago, Valparaíso Sporting y Club Hípico de Concepción. ¡Obtén tu ventaja competitiva!',
+    openGraph: {
+        title: 'Predicciones Hípica Chilena: Cobertura Nacional Completa con IA',
+        description: 'La plataforma líder en pronósticos hípicos con IA. Cobertura total: Hipódromo Chile, Club Hípico de Santiago, Valparaíso Sporting y Club Hípico de Concepción. ¡Obtén tu ventaja competitiva!',
+        type: 'website',
+        images: ['/og-image-programa.png'],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Predicciones Hípica Chilena con IA',
+        description: 'Análisis de patrones ganadores en todos los hipódromos de Chile. Score de Confianza exclusivo.',
+        images: ['/og-image-programa.png'],
+    },
 }
 
 // ISR: Revalidar cada 5 minutos para datos frescos
@@ -64,6 +76,8 @@ async function getPredicciones(): Promise<{ carreras: Carrera[], stats: { total_
             hipodromoMap.set(h.id, h.nombre)
             // @ts-ignore
             hipodromoMap.set(String(h.id), h.nombre)
+            // @ts-ignore
+            hipodromoMap.set(Number(h.id), h.nombre) // Add explicit Number key just in case
         }
 
         // Get races for those jornadas
@@ -75,15 +89,35 @@ async function getPredicciones(): Promise<{ carreras: Carrera[], stats: { total_
             .in('jornada_id', jornadaIds)
             .order('numero', { ascending: true })
 
-        // Get predictions
+            .order('numero', { ascending: true })
+
+        // Check for completed races (those with entries in 'participaciones')
+        // We check if there's at least one participation record for the race
+        const allCarreraIds = carreras?.map(c => c.id) || []
+
+        // Use a lightweight query to get IDs of races that have results
+        // We group by carrera_id to get unique IDs, but since Supabase doesn't support distinct on select easily without rpc
+        // we just fetch carrera_id and handle it in JS. Given the page limit (5 jornadas), this is performant enough.
+        const { data: results } = await supabase
+            .from('participaciones')
+            .select('carrera_id')
+            .in('carrera_id', allCarreraIds)
+
+        // @ts-ignore
+        const completedRaceSet = new Set(results?.map((r: any) => r.carrera_id))
+
+        // Filter only active races (those NOT in completed set)
+        const activeCarreras = (carreras || []).filter(c => !completedRaceSet.has(c.id))
+
+        // Get predictions for ACTIVE races only
         const { data: predicciones } = await supabase
             .from('predicciones')
             .select('*')
-            .in('carrera_id', carreras?.map(c => c.id) || [])
+            .in('carrera_id', activeCarreras.map(c => c.id))
             .order('rank_predicho', { ascending: true })
 
         // Build response
-        const carrerasConPredicciones: Carrera[] = (carreras || []).map((carrera: any) => {
+        const carrerasConPredicciones: Carrera[] = activeCarreras.map((carrera: any) => {
             const jornada = jornadas.find((j: any) => j.id === carrera.jornada_id)
             // Try both number and string keys for hipódromo lookup
             const hipodromoNombre = jornada
@@ -151,13 +185,13 @@ export default async function ProgramaPage() {
             {/* SEO Optimized H1 */}
             <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
                 <h1 style={{ fontSize: '2rem', color: 'var(--text-main)', marginBottom: '0.5rem', fontWeight: 800 }}>
-                    Predicciones para Hipódromo Chile y Club Hípico con Inteligencia Artificial
+                    Predicciones Hípica Chilena: Cobertura Nacional Completa con IA
                 </h1>
                 <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '800px', margin: '0 auto' }}>
-                    Utilizamos modelos de aprendizaje automático de última generación para analizar cada carrera del
-                    <strong> Programa Hipódromo Chile</strong> y del <strong>Club Hípico</strong>.
-                    Nuestros algoritmos detectan patrones ocultos en miles de datos históricos para entregarte pronósticos
-                    profesionales con un Score de Confianza único en el mercado.
+                    La plataforma líder en pronósticos hípicos ahora integra <strong>todos los hipódromos de Chile</strong>:
+                    Hipódromo Chile, Club Hípico de Santiago, Valparaíso Sporting y Club Hípico de Concepción.
+                    Analizamos cada carrera con algoritmos de Inteligencia Artificial para detectar patrones ganadores y entregarte
+                    predicciones profesionales con un Score de Confianza exclusivo.
                 </p>
             </div>
 
@@ -222,10 +256,10 @@ export default async function ProgramaPage() {
                                         📅 {carrerasHip[0]?.fecha} • {carrerasHip.length} Carreras Programadas
                                     </p>
                                 </div>
-                                <div style={{ 
-                                    background: 'rgba(139, 92, 246, 0.1)', 
-                                    padding: '0.5rem 1rem', 
-                                    borderRadius: '50px', 
+                                <div style={{
+                                    background: 'rgba(139, 92, 246, 0.1)',
+                                    padding: '0.5rem 1rem',
+                                    borderRadius: '50px',
                                     border: '1px solid rgba(139, 92, 246, 0.2)',
                                     color: 'var(--primary)',
                                     fontWeight: '600',
@@ -244,10 +278,10 @@ export default async function ProgramaPage() {
                                         borderRadius: '12px',
                                         border: '1px solid rgba(255, 255, 255, 0.05)'
                                     }}>
-                                        <div style={{ 
-                                            marginBottom: '1rem', 
-                                            display: 'flex', 
-                                            alignItems: 'center', 
+                                        <div style={{
+                                            marginBottom: '1rem',
+                                            display: 'flex',
+                                            alignItems: 'center',
                                             justifyContent: 'space-between',
                                             flexWrap: 'wrap',
                                             gap: '0.5rem'

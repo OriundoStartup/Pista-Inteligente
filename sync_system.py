@@ -105,6 +105,17 @@ def main(force_sync=False):
         # No fatal, las predicciones quedaron en JSON/SQLite.
 
     # ---------------------------------------------------------
+    # PASO 4: MONITOR DE POZOS (Scraping)
+    # ---------------------------------------------------------
+    logging.info("\n[PASO 4/5] Ejecutando Monitor de Pozos Millonarios...")
+    try:
+        from src.scraping.monitor_pozos import main as monitor_pozos_main
+        monitor_pozos_main()
+        logging.info("✅ Monitor de pozos completado.")
+    except Exception as e:
+        logging.error(f"❌ Error en Monitor de Pozos: {e}")
+
+    # ---------------------------------------------------------
     # PASO 5: REDEPLOY VERCEL (Opcional)
     # ---------------------------------------------------------
     logging.info("\n[PASO 5/5] Disparando redeploy en Vercel...")

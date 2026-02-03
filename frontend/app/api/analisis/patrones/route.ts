@@ -36,10 +36,33 @@ export async function GET() {
         const pastDate = new Date();
         pastDate.setDate(today.getDate() - 60);
         const fechaMin = pastDate.toISOString().split('T')[0];
+        const todayStr = new Date().toISOString().split('T')[0];
 
-        // 2. Fetch results from Supabase
-        // We need: carrera_id, posicion, numero (mandil), jornada date, hipodromo name
-        // This query assumes standard Supabase relations
+        // 2a. Fetch Future Program (Predicciones for today/tomorrow) to check availability
+        const { data: futureData, error: futureError } = await supabase
+            .from('predicciones')
+            .select(`
+                carrera_id,
+                numero_caballo,
+                carreras!inner (
+                    id,
+                    jornadas!inner (
+                        fecha
+                    )
+                )
+            `)
+            .gte('carreras.jornadas.fecha', todayStr);
+
+        const futureRaces = new Map<number, Set<number>>();
+        if (futureData) {
+            futureData.forEach((row: any) => {
+                const cId = row.carrera_id;
+                if (!futureRaces.has(cId)) futureRaces.set(cId, new Set());
+                futureRaces.get(cId)?.add(row.numero_caballo);
+            });
+        }
+
+        // 2b. Fetch results from Supabase
         const { data, error } = await supabase
             .from('participaciones')
             .select(`
@@ -110,16 +133,6 @@ export async function GET() {
                 resultado: numeros
             };
 
-            // --- Quinela (Exacta logic or combinada? User said "1-4-7" implies order usually, but Quinela is any order. 
-            // Exacta is specific order. Let's use BOX (Any order) for Quinela as it's more common pattern "Lucky Numbers")
-            // Actually user example "1,4,7" implies specific set. 
-            // "si la trifecta fue 1,4,7" -> Usually strict order in betting is Trifecta. But users often mean "Combined".
-            // Let's stick to ORDERED for Trifecta/Superfecta?
-            // "solo importa que ese resultado se puede volver a dar"
-            // Let's use SORTED sets to find "COMBINATIONS" (Boxed).
-            // A Boxed Trifecta 1-4-7 pays if 1-4-7, 7-4-1, etc comes.
-            // This captures "Lucky Numbers" better.
-
             // Quinela (First 2)
             const quinelaSig = [...numeros.slice(0, 2)].sort((a, b) => a - b).join('-');
             const quinelaKey = `Q:${quinelaSig}`;
@@ -155,8 +168,29 @@ export async function GET() {
 
         // 5. Filter and Sort
         const result = Object.values(patternCounts)
-            .filter(p => p.veces >= 2) // Must repeat at least once (2 total occurrences)
-            .sort((a, b) => b.veces - a.veces); // Most frequent first
+            .filter(p => {
+                // Condition 1: Repeated exactly twice (as per user request: "solo las que se han repetido dos veces")
+                if (p.veces !== 2) return false;
+
+                // Condition 2: Must likely repeat active ("que se pueden repetir por una 3 vez")
+                // Check if this pattern is a SUBSET of any FUTURE race
+                // Optimization: Convert pattern numbers to Set once
+                const pSet = new Set(p.numeros);
+                
+                // Iterate all future races
+                for (const raceHorses of futureRaces.values()) {
+                    let match = true;
+                    for (const num of pSet) {
+                        if (!raceHorses.has(num)) {
+                            match = false;
+                            break;
+                        }
+                    }
+                    if (match) return true; // Found a race where it can happen!
+                }
+                return false;
+            }) 
+            .sort((a, b) => b.veces - a.veces); // Most frequent first (though all are 2 now)
 
         // Limit results to prevent lag
         return NextResponse.json({ patrones: result.slice(0, 50) });

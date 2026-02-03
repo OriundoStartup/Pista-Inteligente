@@ -54,7 +54,17 @@ def generar_contexto_hipico():
         analisis = obtener_analisis_jornada()
         if analisis:
             total_carreras = len(analisis)
-            contexto.append(f"📊 PREDICCIONES PARA EL PROGRAMA ACTUAL ({total_carreras} carreras en total):")
+            
+            # Resumen por Hipódromo
+            carreras_por_hipodromo = {}
+            for c in analisis:
+                h = c['hipodromo']
+                carreras_por_hipodromo[h] = carreras_por_hipodromo.get(h, 0) + 1
+            
+            resumen_str = ", ".join([f"{h} ({n} carreras)" for h, n in carreras_por_hipodromo.items()])
+            contexto.append(f"📊 RESUMEN JORNADA: Se detectaron carreras en: {resumen_str}")
+            
+            contexto.append(f"📋 DETALLE DE PREDICCIONES ({total_carreras} carreras disponibles):")
             for carrera in analisis:  # SIN LÍMITE - mostrar TODAS las carreras para datos precisos
                 pred_str = ""
                 # Tomar Top 3 predicciones
@@ -63,9 +73,10 @@ def generar_contexto_hipico():
                     nombres = [f"{p['caballo']} (Score: {int(p['puntaje_ia'])})" for p in top_preds]
                     pred_str = ", ".join(nombres)
                 
-                contexto.append(f"- {carrera['hipodromo']} Carrera {carrera['carrera']} ({carrera['distancia']}): Favoritos IA -> {pred_str}")
+                contexto.append(f"- {carrera['hipodromo']} {carrera['carrera']}ª ({carrera['hora']} | {carrera['distancia']}m {carrera['pista']}): 🔮 {pred_str}")
         else:
-            contexto.append("No hay un programa cargado actualmente.")
+            contexto.append("⚠️ No hay un programa de carreras cargado con predicciones actualmente.")
+            contexto.append("Nota: Esto puede deberse a que no hay carreras hoy o el sistema de predicción se está actualizando.")
     except Exception as e:
         contexto.append(f"Error cargando predicciones: {e}")
 
@@ -98,25 +109,37 @@ def get_gemini_response_stream(prompt, history=[]):
         # Generar Contexto Dinámico
         contexto_hipico = generar_contexto_hipico()
         
+        # Obtener lista de todos los hipódromos soportados
+        from .data_manager import obtener_lista_hipodromos
+        hipodromos_soportados = obtener_lista_hipodromos()
+        
         # Configurar modelo (Usando versión verificada por script)
         # Usar modelo estable en lugar de alias -latest para evitar cambios automáticos
-        # Actualizado 2026-01-21: gemini-flash-latest migra a gemini-3 el 30/01/2026
         model = genai.GenerativeModel('gemini-2.0-flash')
         
-        # System Prompt Mejorado
+        # System Prompt Mejorado - Rol Senior & Contexto Global
         system_prompt = f"""
-        Rol: Eres 'Caballo Roro', el analista experto de hípica chilena de la plataforma 'Pista Inteligente'.
-        Objetivo: Asesorar a los usuarios usando las predicciones y estadísticas provistas.
+        Rol: Eres 'Caballo Roro', el analista senior y experto de hípica chilena de la plataforma 'Pista Inteligente'.
         
-        INFORMACIÓN EN TIEMPO REAL (Contexto):
+        OBJETIVO PRINCIPAL:
+        Entregar información precisa, profesional y estratégica a los usuarios, utilizando TODOS los datos disponibles de los hipódromos. Tu misión es ser el asistente definitivo para el hípico.
+
+        CONTEXTO ACTUAL (DATOS EN TIEMPO REAL):
+        --------------------------------------------------
         {contexto_hipico}
+        --------------------------------------------------
         
-        Instrucciones:
-        1. Si el usuario pregunta por una carrera específica, busca en el contexto las predicciones de la IA.
-        2. Si no hay datos para una carrera, dilo honestamente ("No tengo datos para esa carrera en este momento").
-        3. Se amable pero profesional. Usa terminología hípica (fija, golpe, dividendo).
-        4. Tus predicciones y análisis se basan estrictamente en los datos provistos arriba.
-        5. Siempre responde en Español Chileno neutro o técnico.
+        HIPÓDROMOS SOPORTADOS EN EL SISTEMA:
+        {", ".join(hipodromos_soportados)}
+
+        INSTRUCCIONES CLAVES:
+        1. **Cobertura Total**: Siempre verifica y menciona información de todos los hipódromos disponibles en el contexto (Club Hípico, Hipódromo Chile, Sporting, Concepción). No te limites a uno solo a menos que el usuario lo pida.
+        2. **Precisión**: Si el usuario pregunta por una carrera específica, usa los puntajes de IA y probabilidades del contexto. Si no hay datos, indícalo claramente.
+        3. **Formato Profesional**: Usa listas, negritas y emojis estratégicos para hacer la lectura fácil y rápida.
+           - Ejemplo: "🏆 **Fija del Día**: [Caballo]"
+        4. **Lenguaje Hípico**: Habla como un experto. Usa términos como "fija", "golpe", "quinela", "índice", "preparador".
+        5. **Honestidad de Datos**: Nunca inventes predicciones. Si el contexto dice "No hay un programa cargado", informa al usuario que estamos esperando la actualización del programa oficial.
+        6. **Tono**: Amable, chileno neutro, alentador pero responsable (juego responsable).
         """
         
         # Iniciar chat (si history es soportado, sino query directa)

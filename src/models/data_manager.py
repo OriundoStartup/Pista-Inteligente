@@ -174,7 +174,7 @@ def obtener_predicciones_supabase(fecha_min_str):
     try:
         # Query predicciones table
         response = supabase.table('predicciones')\
-            .select('*, carreras(nro_carrera, hora, distancia, jornadas(fecha, hipodromos(nombre)))')\
+            .select('*, carreras(numero, hora, distancia, pista, jornadas(fecha, hipodromos(nombre)))')\
             .gte('created_at', fecha_min_str)\
             .order('rank_predicho', desc=False)\
             .execute()
@@ -214,10 +214,11 @@ def obtener_analisis_jornada(use_firestore=False):
         if race_key not in races_dict:
             races_dict[race_key] = {
                 'hipodromo': hipodromo_data.get('nombre', 'Unknown'),
-                'carrera': carrera_data.get('nro_carrera', 0),
+                'carrera': carrera_data.get('numero', 0),
                 'fecha': jornada_data.get('fecha', today_str),
                 'hora': carrera_data.get('hora', '00:00'),
                 'distancia': carrera_data.get('distancia', 0),
+                'pista': carrera_data.get('pista', 'Pista'),
                 'predicciones': []
             }
         
@@ -242,7 +243,7 @@ def obtener_analisis_jornada(use_firestore=False):
 
 def obtener_lista_hipodromos():
     """Obtiene la lista única de hipódromos."""
-    return ['Club Hípico de Santiago', 'Hipódromo Chile', 'Valparaíso Sporting']
+    return ['Club Hípico de Santiago', 'Hipódromo Chile', 'Valparaíso Sporting', 'Club Hípico de Concepción']
         
 
              

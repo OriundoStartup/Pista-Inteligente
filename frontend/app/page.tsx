@@ -1,5 +1,6 @@
 import { createClient } from '../utils/supabase/server'
 import Link from 'next/link'
+import JackpotAlert from '@/components/JackpotAlert'
 
 // ISR: Revalidar cada 5 minutos
 export const revalidate = 300
@@ -121,12 +122,12 @@ export default async function Home() {
       <section className="hero" itemScope itemType="https://schema.org/WebPage">
         <h1 itemProp="name">
           Predicciones Hípicas con IA para Chile<br />
-          Hipódromo Chile, Club Hípico y Valparaíso Sporting
+          Hipódromo Chile, Santiago, Valparaíso y Concepción
         </h1>
         <p itemProp="description">
           <strong>Alternativa inteligente a Teletrak</strong>: Utilizamos algoritmos de última generación para analizar el{' '}
-          <strong>programa del Hipódromo Chile</strong>, las carreras del{' '}
-          <strong>Club Hípico de Santiago</strong> y <strong>Valparaíso Sporting</strong>.
+          <strong>Programa del Hipódromo Chile</strong>, las carreras del{' '}
+          <strong>Club Hípico de Santiago</strong>, <strong>Valparaíso Sporting</strong> y <strong>Club Hípico de Concepción</strong>.
           Detectamos patrones ocultos en miles de resultados históricos para entregarte
           <strong> pronósticos profesionales</strong> con las mejores probabilidades de acierto.
         </p>
@@ -194,6 +195,8 @@ export default async function Home() {
           </tbody>
         </table>
       </div>
+
+      <JackpotAlert />
     </>
   )
 }

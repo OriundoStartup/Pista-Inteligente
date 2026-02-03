@@ -37,6 +37,40 @@ class DataCleaner:
         text = str(text).strip()
         text = re.sub(r'\s+', ' ', text)
         return text if text else None
+
+    # Mapeo de Jinetes duplicados (Alias -> Canónico)
+    JOCKEY_ALIASES = {
+        'J. HERRERA': 'JOAQUIN HERRERA',
+        'G. ULLOA': 'GONZALO ULLOA',
+        'J. MEDINA': 'JAIME MEDINA',
+        'B. SANCHO': 'BENJAMIN SANCHO',
+        'N. MOLINA': 'NICOLAS MOLINA',
+        'F. HENRIQUEZ': 'FELIPE HENRIQUEZ',
+        'J. I. GUARJARDO': 'J. I. GUAJARDO', # Fix typo
+        'J. I. GUAJARDO': 'JAVIER I. GUAJARDO',
+        'K. ESPINA': 'KEVIN ESPINA',
+        'W. QUINTEROS': 'WLADIMIR QUINTEROS',
+        'R. CISTERNAS': 'RAFAEL CISTERNAS'
+        # Agregar más según sea necesario
+    }
+
+    @staticmethod
+    def normalize_name(name: str, type='jinete') -> str:
+        """Normaliza nombres usando un diccionario de alias"""
+        if not name: return name
+        
+        name_upper = name.upper().strip()
+        
+        if type == 'jinete':
+            # 1. Alias directo
+            if name_upper in DataCleaner.JOCKEY_ALIASES:
+                return DataCleaner.JOCKEY_ALIASES[name_upper]
+            
+            # 2. Normalización de iniciales (e.g. "J. HERRERA" -> check alias again or keep)
+            # Por ahora confiamos en el diccionario explícito para evitar falsos positivos
+            
+        return name_upper
+
     
     @staticmethod
     def clean_numero(value) -> Optional[int]:
@@ -181,7 +215,10 @@ class SmartLoader:
         
     def register_jinete(self, nombre):
         if not nombre: return None
-        key = nombre.strip().upper()
+        # Normalizar antes de procesar
+        nombre_norm = DataCleaner.normalize_name(nombre, type='jinete')
+        key = nombre_norm.strip().upper()
+        
         if key not in self.jinetes:
             self.new_jinetes.add(key)
             return None
@@ -677,7 +714,13 @@ class HipicaETL:
             #      print(f"DEBUG TIME ROW: {row.get('tiempo')}")
             
             item['tiempo'] = DataCleaner.clean_tiempo(row.get('tiempo'))
-            item['mandil'] = DataCleaner.clean_numero(row.get('mandil')) 
+            item['tiempo'] = DataCleaner.clean_tiempo(row.get('tiempo'))
+            
+            # Fix: Fallback 'numero' if 'mandil' (Partida) is missing
+            mandil_val = DataCleaner.clean_numero(row.get('mandil'))
+            if mandil_val is None:
+                 mandil_val = DataCleaner.clean_numero(row.get('numero'))
+            item['mandil'] = mandil_val 
             
             if not item['fecha'] or not item['hipodromo_txt'] or not item['caballo_txt']:
                 continue
@@ -752,7 +795,7 @@ class HipicaETL:
         # Paso 5: Bulk Insert Participaciones
         if participaciones_batch:
             self.cursor.executemany('''
-                INSERT OR IGNORE INTO participaciones 
+                INSERT OR REPLACE INTO participaciones 
                 (carrera_id, caballo_id, jinete_id, stud_id, posicion, peso_fs, dividendo, mandil, tiempo)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
             ''', participaciones_batch)

@@ -19,7 +19,7 @@ export default function Footer() {
                         Quiénes Somos
                     </Link>
                     <Link
-                        href="/politica-de-privacidad"
+                        href="/privacidad"
                         style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginRight: '1rem', textDecoration: 'none' }}
                     >
                         Política de Privacidad

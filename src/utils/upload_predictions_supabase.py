@@ -51,9 +51,9 @@ def resolve_carrera_id(db, hipodromo: str, fecha: str, nro_carrera: int) -> str:
         # === STEP 1: Resolve/Create Hipodromo ===
         hip_res = client.table('hipodromos').select('id').eq('nombre', hipodromo).execute()
         
-        if not hip_res.data:
-            # Try common variations
-            hip_res = client.table('hipodromos').select('id').ilike('nombre', f'%{hipodromo.split()[0]}%').execute()
+        # [FIX] Removed unsafe fuzzy matching (Club -> Club Hipico de Santiago)
+        # if not hip_res.data:
+        #    hip_res = client.table('hipodromos').select('id').ilike('nombre', f'%{hipodromo.split()[0]}%').execute()
         
         if hip_res.data:
             hip_id = hip_res.data[0]['id']
