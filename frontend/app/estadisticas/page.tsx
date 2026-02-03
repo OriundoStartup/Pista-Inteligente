@@ -107,9 +107,23 @@ export default async function EstadisticasPage() {
                     </div>
 
                     <div className="glass-card" style={{ padding: '2rem', textAlign: 'center' }}>
-                        <h3 style={{ color: 'var(--secondary)', marginBottom: '0.5rem', fontSize: '1.5rem' }}>Club Hípico de Chile</h3>
+                        <h3 style={{ color: 'var(--secondary)', marginBottom: '0.5rem', fontSize: '1.5rem' }}>Club Hípico de Santiago</h3>
                         <p style={{ color: 'var(--text-muted)', margin: 0 }}>
                             Santiago - Tradición desde 1869
+                        </p>
+                    </div>
+
+                    <div className="glass-card" style={{ padding: '2rem', textAlign: 'center' }}>
+                        <h3 style={{ color: '#10b981', marginBottom: '0.5rem', fontSize: '1.5rem' }}>Valparaíso Sporting</h3>
+                        <p style={{ color: 'var(--text-muted)', margin: 0 }}>
+                            Viña del Mar - Cuna de la hípica chilena
+                        </p>
+                    </div>
+
+                    <div className="glass-card" style={{ padding: '2rem', textAlign: 'center' }}>
+                        <h3 style={{ color: '#f59e0b', marginBottom: '0.5rem', fontSize: '1.5rem' }}>Club Hípico de Concepción</h3>
+                        <p style={{ color: 'var(--text-muted)', margin: 0 }}>
+                            Hualpén - Hípica del sur
                         </p>
                     </div>
                 </div>
