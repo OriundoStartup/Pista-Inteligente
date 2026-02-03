@@ -55,9 +55,9 @@ export default function JackpotAlert() {
 
     return (
         <div
-            className={`fixed bottom-4 right-4 z-50 w-full max-w-sm rounded-lg shadow-xl transition-all duration-500 transform translate-y-0 ${isMegaJackpot
-                    ? "bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 text-black border-2 border-yellow-200"
-                    : "bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 text-zinc-900 dark:text-zinc-100"
+            className={`fixed bottom-4 left-4 z-50 w-full max-w-sm rounded-lg shadow-xl transition-all duration-500 transform translate-y-0 ${isMegaJackpot
+                ? "bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 text-black border-2 border-yellow-200"
+                : "bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 text-zinc-900 dark:text-zinc-100"
                 }`}
         >
             <div className="p-4 relative">
