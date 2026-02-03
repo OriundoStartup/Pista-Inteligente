@@ -197,7 +197,7 @@ def generar_ticket_ia(hipodromo, fecha, nro_carrera, tipo_apuesta):
     try:
         # Intentar buscar por nombre o codigo si existe columna, sino mapeo manual
         # Asumimos mapeo manual por seguridad si la tabla varia
-        hipo_map = {"CHS": 2, "HCH": 1, "VSC": 3, "CHC": 4, "HC": 1} # IDs comunes, ajustar si es necesario
+        hipo_map = {"CHS": 88, "HCH": 87, "VSC": 89, "CHC": 91, "HC": 87} # IDs Reales de Producción
         hipo_id = hipo_map.get(hipo_code, None)
         
         if not hipo_id:
@@ -249,10 +249,9 @@ def generar_ticket_ia(hipodromo, fecha, nro_carrera, tipo_apuesta):
             carrera_id = carrera_resp.data[0]['id']
             
             # Buscar predicciones (Top N)
-            # Asumimos tabla 'predicciones' con fk 'carrera_id' y columnas para join 'caballos(nombre)'
-            # Ojo: supabase-py join syntax: select("*, caballos(nombre)")
+            # Tabla predicciones tiene 'caballo' (nombre) y 'numero_caballo' (mandil) directos.
             preds_resp = supabase.table("predicciones")\
-                .select("probabilidad, caballo_id, caballos(nombre), nro_mandil")\
+                .select("probabilidad, caballo, numero_caballo")\
                 .eq("carrera_id", carrera_id)\
                 .order("probabilidad", desc=True)\
                 .limit(top_n)\
@@ -261,8 +260,8 @@ def generar_ticket_ia(hipodromo, fecha, nro_carrera, tipo_apuesta):
             if preds_resp.data:
                 caballos_sug = []
                 for p in preds_resp.data:
-                    nom = p['caballos']['nombre'] if p.get('caballos') else "Caballo " + str(p.get('caballo_id'))
-                    mandil = p.get('nro_mandil') or "?"
+                    nom = p['caballo']
+                    mandil = p.get('numero_caballo') or "?"
                     caballos_sug.append(f"#{mandil} {nom}")
                 
                 detalle_ticket.append({

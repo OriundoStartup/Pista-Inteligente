@@ -77,46 +77,51 @@ export default function JackpotAlert() {
     return (
         <>
             <div
-                className={`fixed bottom-4 left-4 z-50 w-full max-w-sm rounded-lg shadow-xl transition-all duration-500 transform translate-y-0 ${isMegaJackpot
-                        ? "bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 text-black border-2 border-yellow-200"
-                        : "bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 text-zinc-900 dark:text-zinc-100"
+                className={`fixed bottom-4 left-4 z-50 w-full max-w-sm rounded-2xl shadow-2xl transition-all duration-500 transform translate-y-0 backdrop-blur-md border ${isMegaJackpot
+                        ? "bg-yellow-900/40 border-yellow-500/50 text-yellow-100"
+                        : "bg-[#0f172a]/90 border-white/10 text-slate-100"
                     }`}
+                style={{
+                    boxShadow: isMegaJackpot ? '0 0 40px rgba(234, 179, 8, 0.2)' : '0 10px 30px -10px rgba(0,0,0,0.5)'
+                }}
             >
-                <div className="p-4 relative">
+                <div className="p-5 relative">
                     <button
                         onClick={() => setIsVisible(false)}
-                        className="absolute top-2 right-2 p-1 hover:bg-black/10 rounded-full transition-colors"
+                        className="absolute top-2 right-2 p-1.5 hover:bg-white/10 rounded-full transition-colors text-white/60 hover:text-white"
                         aria-label="Cerrar alerta"
                     >
                         <X size={16} />
                     </button>
 
-                    <div className="flex items-start gap-3">
+                    <div className="flex items-start gap-4">
                         <div
-                            className={`p-2 rounded-full ${isMegaJackpot ? "bg-red-600 text-white animate-pulse" : "bg-blue-100 text-blue-600 dark:bg-blue-900 dark:text-blue-300"
+                            className={`p-3 rounded-xl shadow-lg ${isMegaJackpot
+                                    ? "bg-gradient-to-br from-yellow-500 to-orange-600 text-white animate-pulse"
+                                    : "bg-gradient-to-br from-violet-600 to-indigo-600 text-white"
                                 }`}
                         >
-                            {isMegaJackpot ? <Flame size={24} /> : <DollarSign size={24} />}
+                            {isMegaJackpot ? <Flame size={28} /> : <DollarSign size={28} />}
                         </div>
 
                         <div className="flex-1">
-                            <h3 className={`font-bold text-lg leading-tight ${isMegaJackpot ? "text-red-900" : ""}`}>
-                                {isMegaJackpot ? "¡MEGA POZO VACANTE!" : "Posible Pozo Acumulado"}
+                            <h3 className={`font-bold text-lg leading-tight mb-1 ${isMegaJackpot ? "text-yellow-200" : "text-violet-200"}`}>
+                                {isMegaJackpot ? "¡MEGA POZO VACANTE!" : "Pozo Acumulado"}
                             </h3>
 
-                            <p className={`mt-1 text-2xl font-black tracking-tight ${isMegaJackpot ? "text-black" : "text-green-600 dark:text-green-400"}`}>
+                            <p className="text-3xl font-black tracking-tight text-white drop-shadow-sm">
                                 {formatMoney(topPozo.monto_estimado)}
                             </p>
 
-                            <div className="mt-2 flex flex-col gap-1 text-sm opacity-90">
-                                <span className="font-semibold flex items-center gap-1">
-                                    📍 {topPozo.hipodromo}
-                                </span>
-                                <span className="flex items-center gap-1">
+                            <div className="mt-3 flex flex-col gap-1.5 text-sm">
+                                <div className="flex items-center gap-2 text-white/80">
+                                    <span className="bg-white/5 px-2 py-0.5 rounded text-xs font-medium border border-white/10">📍 {topPozo.hipodromo}</span>
+                                </div>
+                                <div className="flex items-center gap-2 text-white/90 font-medium">
                                     🎰 {topPozo.tipo_apuesta}
-                                </span>
+                                </div>
                                 {topPozo.mensaje_marketing && (
-                                    <span className="italic text-xs mt-1 block">
+                                    <span className="text-xs italic text-white/60 mt-0.5 block">
                                         "{topPozo.mensaje_marketing}"
                                     </span>
                                 )}
@@ -126,65 +131,68 @@ export default function JackpotAlert() {
                             {topPozo.ticket_sugerido && (
                                 <button
                                     onClick={handleOpenTicket}
-                                    className={`mt-3 w-full py-1.5 px-3 rounded text-sm font-bold flex items-center justify-center gap-2 transition-transform hover:scale-105 ${isMegaJackpot
-                                            ? "bg-black text-yellow-400 hover:bg-zinc-800"
-                                            : "bg-blue-600 text-white hover:bg-blue-700"
+                                    className={`mt-4 w-full py-2 px-4 rounded-xl text-sm font-bold flex items-center justify-center gap-2 transition-all hover:scale-[1.02] shadow-lg ${isMegaJackpot
+                                            ? "bg-gradient-to-r from-yellow-400 to-yellow-600 text-black hover:shadow-yellow-500/30"
+                                            : "bg-gradient-to-r from-cyan-500 to-blue-600 text-white hover:shadow-cyan-500/30"
                                         }`}
                                 >
-                                    <Lightbulb size={16} />
-                                    Ver Jugada IA
+                                    <Lightbulb size={16} strokeWidth={2.5} />
+                                    Ver Jugada Inteligente
                                 </button>
                             )}
-
-                            <p className="mt-3 text-xs opacity-75">
-                                Solo para la jornada de hoy/próxima.
-                            </p>
                         </div>
                     </div>
                 </div>
 
                 {/* Shimmer effect for mega jackpot */}
                 {isMegaJackpot && (
-                    <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden rounded-lg">
-                        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/40 to-transparent -translate-x-full animate-[shimmer_2s_infinite]"></div>
+                    <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden rounded-2xl">
+                        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full animate-[shimmer_3s_infinite]"></div>
                     </div>
                 )}
             </div>
 
             {/* Modal de Ticket Sugerido */}
             {showModal && selectedTicket && (
-                <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200">
-                    <div className="bg-white dark:bg-zinc-900 rounded-xl shadow-2xl max-w-md w-full overflow-hidden border border-zinc-200 dark:border-zinc-700">
+                <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200">
+                    <div className="bg-[#1e293b] border border-white/10 rounded-2xl shadow-2xl max-w-md w-full overflow-hidden relative">
+
+                        {/* Background Decoration */}
+                        <div className="absolute top-0 right-0 w-32 h-32 bg-violet-500/20 blur-3xl rounded-full -translate-y-1/2 translate-x-1/2"></div>
+
                         {/* Header del Modal */}
-                        <div className="bg-gradient-to-r from-indigo-600 to-purple-600 p-4 text-white flex justify-between items-center">
-                            <div className="flex items-center gap-2">
-                                <Ticket className="text-yellow-300" />
-                                <h3 className="font-bold text-lg">{selectedTicket.titulo}</h3>
+                        <div className="bg-[#0f172a] p-5 border-b border-white/5 flex justify-between items-center relative z-10">
+                            <div className="flex items-center gap-3">
+                                <div className="bg-yellow-500/20 p-2 rounded-lg text-yellow-400">
+                                    <Ticket size={20} />
+                                </div>
+                                <div>
+                                    <h3 className="font-bold text-white text-lg leading-none">{selectedTicket.titulo}</h3>
+                                    <span className="text-xs text-slate-400">Sugerencia basada en IA</span>
+                                </div>
                             </div>
                             <button
                                 onClick={() => setShowModal(false)}
-                                className="p-1 hover:bg-white/20 rounded-full transition-colors"
+                                className="p-2 hover:bg-white/5 rounded-full transition-colors text-slate-400 hover:text-white"
                             >
                                 <X size={20} />
                             </button>
                         </div>
 
                         {/* Contenido del Modal */}
-                        <div className="p-6">
-                            <p className="text-sm text-zinc-500 mb-4 text-center">
-                                Basado en nuestros modelos de IA (LightGBM + XGBoost)
-                            </p>
-
+                        <div className="p-6 relative z-10">
                             <div className="space-y-4">
                                 {selectedTicket.detalle.map((item, idx) => (
-                                    <div key={idx} className="flex gap-3 items-start border-b border-zinc-100 dark:border-zinc-800 pb-3 last:border-0">
-                                        <div className="bg-zinc-100 dark:bg-zinc-800 rounded px-2 py-1 font-bold text-sm min-w-[5rem] text-center">
-                                            Carrera {item.carrera}
+                                    <div key={idx} className="flex gap-4 items-start bg-white/5 p-3 rounded-xl border border-white/5">
+                                        <div className="bg-violet-600/20 text-violet-300 rounded-lg px-2.5 py-1.5 font-bold text-sm min-w-[3.5rem] text-center flex flex-col items-center justify-center">
+                                            <span className="text-[10px] uppercase opacity-70">Carrera</span>
+                                            <span className="text-lg leading-none">{item.carrera}</span>
                                         </div>
                                         <div className="flex-1">
                                             {item.caballos.map((cab, cIdx) => (
-                                                <div key={cIdx} className="text-sm font-medium mb-1 flex items-center gap-1">
-                                                    🐴 {cab}
+                                                <div key={cIdx} className="text-slate-200 font-medium mb-1.5 last:mb-0 flex items-center gap-2">
+                                                    <span className="text-yellow-500">Video</span> {/* Using a fake icon concept or just simple unicode */}
+                                                    <span>🐴 {cab}</span>
                                                 </div>
                                             ))}
                                         </div>
@@ -192,18 +200,24 @@ export default function JackpotAlert() {
                                 ))}
                             </div>
 
-                            <div className="mt-6 pt-4 border-t border-zinc-100 dark:border-zinc-800 flex justify-between items-center text-sm">
-                                <span className="text-zinc-500">Costo Estimado:</span>
-                                <span className="font-bold text-lg">{formatMoney(selectedTicket.costo_estimado)}</span>
+                            <div className="mt-6 flex justify-between items-center bg-black/20 p-4 rounded-xl border border-white/5">
+                                <div className="flex flex-col">
+                                    <span className="text-slate-400 text-xs uppercase font-bold tracking-wider">Costo Estimado</span>
+                                    <span className="text-white font-bold text-xl">{formatMoney(selectedTicket.costo_estimado)}</span>
+                                </div>
+                                <div className="text-right">
+                                    <span className="text-slate-400 text-xs uppercase font-bold tracking-wider block">Combinaciones</span>
+                                    <span className="text-white font-medium">{selectedTicket.combinaciones}</span>
+                                </div>
                             </div>
                         </div>
 
-                        <div className="p-4 bg-zinc-50 dark:bg-zinc-950/50 text-center">
+                        <div className="p-4 bg-[#0f172a] border-t border-white/5 text-center">
                             <button
                                 onClick={() => setShowModal(false)}
-                                className="text-indigo-600 font-semibold text-sm hover:underline"
+                                className="text-violet-400 font-semibold text-sm hover:text-violet-300 transition-colors"
                             >
-                                Cerrar y volver
+                                Cerrar ventana
                             </button>
                         </div>
                     </div>
