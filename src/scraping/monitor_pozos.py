@@ -179,6 +179,112 @@ def scrape_chc():
                 })
     return pozos
 
+def generar_ticket_ia(hipodromo, fecha, nro_carrera, tipo_apuesta):
+    """
+    Genera una estructura de ticket sugerido consultando las predicciones existentes.
+    Retorna JSON o None.
+    """
+    if not supabase: return None
+    if nro_carrera == 0: return None
+    
+    # Normalizar codigo hipodromo
+    hipo_code = hipodromo.upper()
+    if hipo_code == "CLUB HÍPICO DE SANTIAGO": hipo_code = "CHS"
+    elif hipo_code == "HIPÓDROMO CHILE": hipo_code = "HCH" # Cuidado con mappings
+    
+    # 1. Obtener ID del Hipodromo
+    # (Podriamos cachear esto, pero para un script batch está bien hacerlo por llamada o al inicio)
+    try:
+        # Intentar buscar por nombre o codigo si existe columna, sino mapeo manual
+        # Asumimos mapeo manual por seguridad si la tabla varia
+        hipo_map = {"CHS": 2, "HCH": 1, "VSC": 3, "CHC": 4, "HC": 1} # IDs comunes, ajustar si es necesario
+        hipo_id = hipo_map.get(hipo_code, None)
+        
+        if not hipo_id:
+            # Fallback: consultar tabla hipodromos
+            resp = supabase.table("hipodromos").select("id").ilike("nombre", f"%{hipodromo}%").execute()
+            if resp.data:
+                hipo_id = resp.data[0]['id']
+            else:
+                return None
+                
+        # 2. Buscar Jornada
+        jornadas_resp = supabase.table("jornadas")\
+            .select("id")\
+            .eq("fecha", fecha)\
+            .eq("hipodromo_id", hipo_id)\
+            .execute()
+            
+        if not jornadas_resp.data:
+            return None
+        
+        jornada_id = jornadas_resp.data[0]['id']
+        
+        # 3. Determinar carreras a predecir
+        carreras_nums = []
+        es_multi = any(x in tipo_apuesta.lower() for x in ["triple", "doble", "sextuple"])
+        
+        if es_multi:
+            qty = 3 if "triple" in tipo_apuesta.lower() else (2 if "doble" in tipo_apuesta.lower() else 1)
+            carreras_nums = [nro_carrera + i for i in range(qty)]
+            top_n = 2 # 2 caballos para multi carreras
+        else:
+            carreras_nums = [nro_carrera]
+            top_n = 4 # 4 caballos para exacta/trifecta/superfecta
+            
+        detalle_ticket = []
+        total_combinaciones = 1
+        
+        for num in carreras_nums:
+            # Buscar ID de carrera
+            carrera_resp = supabase.table("carreras")\
+                .select("id")\
+                .eq("jornada_id", jornada_id)\
+                .eq("numero", num)\
+                .execute()
+                
+            if not carrera_resp.data:
+                continue
+                
+            carrera_id = carrera_resp.data[0]['id']
+            
+            # Buscar predicciones (Top N)
+            # Asumimos tabla 'predicciones' con fk 'carrera_id' y columnas para join 'caballos(nombre)'
+            # Ojo: supabase-py join syntax: select("*, caballos(nombre)")
+            preds_resp = supabase.table("predicciones")\
+                .select("probabilidad, caballo_id, caballos(nombre), nro_mandil")\
+                .eq("carrera_id", carrera_id)\
+                .order("probabilidad", desc=True)\
+                .limit(top_n)\
+                .execute()
+                
+            if preds_resp.data:
+                caballos_sug = []
+                for p in preds_resp.data:
+                    nom = p['caballos']['nombre'] if p.get('caballos') else "Caballo " + str(p.get('caballo_id'))
+                    mandil = p.get('nro_mandil') or "?"
+                    caballos_sug.append(f"#{mandil} {nom}")
+                
+                detalle_ticket.append({
+                    "carrera": num,
+                    "caballos": caballos_sug
+                })
+                total_combinaciones *= len(caballos_sug)
+        
+        if not detalle_ticket:
+            return None
+            
+        return {
+            "titulo": f"Sugerencia IA para {tipo_apuesta}",
+            "detalle": detalle_ticket,
+            "combinaciones": total_combinaciones,
+            "costo_estimado": total_combinaciones * 500 # Aprox $500 por combinacion base
+        }
+
+    except Exception as e:
+        logger.error(f"Error generando ticket IA: {e}")
+        return None
+
 def save_to_supabase(pozos):
     if not pozos:
         logger.info("No updated jackpots found.")
@@ -192,25 +298,22 @@ def save_to_supabase(pozos):
     today = datetime.date.today().isoformat()
     
     for p in pozos:
-        # Check if exists to avoid duplicates for same day/race/type
-        # For now, simple insert. RLS handles auth.
-        # We might want to deduplicate based on day + hipodromo + tipo_apuesta
-        # But allow updates? Let's just insert for log history or upsert if we had a unique key.
-        # Since we don't have a unique constraint on (date, hipodromo, type) in the create script yet (only index),
-        # we will just insert.
+        # Generar sugerencia
+        ticket = generar_ticket_ia(p['hipodromo'], today, p.get('nro_carrera', 0), p['tipo_apuesta'])
         
         data = {
             "hipodromo": p['hipodromo'],
-            "fecha_evento": today, # Assuming the pozo is for the next event or today. 
-            "nro_carrera": 0, # Default 0 if unknown
+            "fecha_evento": today,
+            "nro_carrera": p.get('nro_carrera', 0), # Ensure this is captured in scrapers!
             "tipo_apuesta": p['tipo_apuesta'],
             "monto_estimado": p['monto_estimado'],
-            "mensaje_marketing": p['mensaje_marketing']
+            "mensaje_marketing": p['mensaje_marketing'],
+            "ticket_sugerido": ticket
         }
         
         try:
             supabase.table("pozos_alertas").insert(data).execute()
-            logger.info(f"Saved alert: {p['hipodromo']} - {p['monto_estimado']}")
+            logger.info(f"Saved alert with ticket: {p['hipodromo']} - {p['monto_estimado']}")
         except Exception as e:
             error_msg = str(e)
             if "relation \"pozos_alertas\" does not exist" in error_msg or "42P01" in error_msg:
