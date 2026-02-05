@@ -53,6 +53,26 @@ def limpiar_monto(texto: str) -> int:
     
     return 0
 
+def extraer_nro_carrera(text: str) -> int:
+    """
+    Extracts race number from text using regex.
+    Patterns: "Carrera 5", "N° 5", "5a carrera"
+    """
+    if not text:
+        return 0
+    
+    # Pattern 1: "Carrera 5", "N°5", "Nro 5"
+    match = re.search(r"(?i)(?:Carrera|N°|Nro)\s*(\d+)", text)
+    if match:
+        return int(match.group(1))
+        
+    # Pattern 2: "5a carrera", "1ra carrera"
+    match = re.search(r"(\d+)(?:a|ra|da|ta)\s*carrera", text.lower())
+    if match:
+        return int(match.group(1))
+        
+    return 0
+
 def get_soup(url: str):
     try:
         response = requests.get(url, headers=HEADERS, timeout=15)
@@ -92,10 +112,13 @@ def scrape_chs():
                 elif "superfecta" in text: tipo_apuesta = "Superfecta"
                 elif "doble" in text: tipo_apuesta = "Doble de Mil"
                 
+                nro_carrera = extraer_nro_carrera(text)
+                
                 pozos.append({
                     "hipodromo": "CHS",
                     "monto_estimado": monto,
                     "tipo_apuesta": tipo_apuesta,
+                    "nro_carrera": nro_carrera,
                     "mensaje_marketing": text[:100] # Capture a snippet
                 })
     return pozos
@@ -122,10 +145,13 @@ def scrape_hch():
                 elif "sex" in text: tipo_apuesta = "Sextuple" # Careful with substring matching!
                 elif "sextu" in text: tipo_apuesta = "Sextuple"
                 
+                nro_carrera = extraer_nro_carrera(text)
+                
                 pozos.append({
                     "hipodromo": "HCH",
                     "monto_estimado": monto,
                     "tipo_apuesta": tipo_apuesta,
+                    "nro_carrera": nro_carrera,
                     "mensaje_marketing": text[:100]
                 })
     return pozos
@@ -145,10 +171,12 @@ def scrape_vsc():
         if "pozo" in alt_text and "$" in alt_text:
              monto = limpiar_monto(alt_text)
              if monto > 5_000_000:
+                 nro_carrera = extraer_nro_carrera(alt_text)
                  pozos.append({
                     "hipodromo": "VSC",
                     "monto_estimado": monto,
                     "tipo_apuesta": "Pozo (Banner)",
+                    "nro_carrera": nro_carrera,
                     "mensaje_marketing": alt_text
                 })
                  
@@ -171,10 +199,12 @@ def scrape_chc():
         if any(k in text for k in keywords) and "$" in text:
              monto = limpiar_monto(text)
              if monto > 5_000_000:
+                 nro_carrera = extraer_nro_carrera(text)
                  pozos.append({
                     "hipodromo": "CHC",
                     "monto_estimado": monto,
                     "tipo_apuesta": "Pozo Acumulado",
+                    "nro_carrera": nro_carrera,
                     "mensaje_marketing": text[:100]
                 })
     return pozos
@@ -185,7 +215,9 @@ def generar_ticket_ia(hipodromo, fecha, nro_carrera, tipo_apuesta):
     Retorna JSON o None.
     """
     if not supabase: return None
-    if nro_carrera == 0: return None
+    if nro_carrera == 0: 
+        logger.info(f"⚠️ No race number provided for {hipodromo} - {tipo_apuesta}. Cannot generate ticket.")
+        return None
     
     # Normalizar codigo hipodromo
     hipo_code = hipodromo.upper()
@@ -206,6 +238,7 @@ def generar_ticket_ia(hipodromo, fecha, nro_carrera, tipo_apuesta):
             if resp.data:
                 hipo_id = resp.data[0]['id']
             else:
+                logger.error(f"❌ Hippodrome ID not found for {hipodromo}")
                 return None
                 
         # 2. Buscar Jornada
@@ -216,6 +249,7 @@ def generar_ticket_ia(hipodromo, fecha, nro_carrera, tipo_apuesta):
             .execute()
             
         if not jornadas_resp.data:
+            logger.info(f"ℹ️ No jornada found for {hipodromo} on {fecha}")
             return None
         
         jornada_id = jornadas_resp.data[0]['id']
@@ -244,6 +278,7 @@ def generar_ticket_ia(hipodromo, fecha, nro_carrera, tipo_apuesta):
                 .execute()
                 
             if not carrera_resp.data:
+                logger.warning(f"⚠️ Race {num} not found in DB for jornada {jornada_id}")
                 continue
                 
             carrera_id = carrera_resp.data[0]['id']
@@ -269,10 +304,14 @@ def generar_ticket_ia(hipodromo, fecha, nro_carrera, tipo_apuesta):
                     "caballos": caballos_sug
                 })
                 total_combinaciones *= len(caballos_sug)
+            else:
+                 logger.warning(f"⚠️ No predictions found for race {num} (ID: {carrera_id})")
         
         if not detalle_ticket:
+            logger.info("ℹ️ No tickets generated (missing races or predictions).")
             return None
             
+        logger.info(f"✅ Ticket structure generated successfully for {hipodromo} Race {nro_carrera}")
         return {
             "titulo": f"Sugerencia IA para {tipo_apuesta}",
             "detalle": detalle_ticket,
@@ -281,7 +320,7 @@ def generar_ticket_ia(hipodromo, fecha, nro_carrera, tipo_apuesta):
         }
 
     except Exception as e:
-        logger.error(f"Error generando ticket IA: {e}")
+        logger.error(f"❌ Error generating AI ticket: {e}")
         return None
 
 def save_to_supabase(pozos):
