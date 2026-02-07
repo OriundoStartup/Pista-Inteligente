@@ -832,3 +832,105 @@ body {
     color: var(--text-muted);
     margin-top: 0.25rem;
 }
+
+/* ================= ACCORDION HIPODROMO ================= */
+.accordion-card {
+    transition: all 0.3s ease;
+}
+
+.accordion-header {
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+}
+
+.accordion-header:hover {
+    background: rgba(139, 92, 246, 0.08) !important;
+}
+
+.accordion-chevron {
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.accordion-chevron.open {
+    transform: rotate(180deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out, opacity 0.3s ease;
+    opacity: 0;
+}
+
+.accordion-content.open {
+    max-height: 10000px;
+    opacity: 1;
+    transition: max-height 0.6s ease-in, opacity 0.3s ease;
+}
+
+.badge-today {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    animation: pulse 2s ease-in-out infinite;
+    white-space: nowrap;
+}
+
+/* Table responsive wrapper */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Hide on mobile (< 640px) */
+.hide-mobile {
+    display: table-cell;
+}
+
+/* Show only on mobile */
+.show-mobile-only {
+    display: none;
+}
+
+@media (max-width: 640px) {
+    .hide-mobile {
+        display: none !important;
+    }
+    
+    .show-mobile-only {
+        display: block !important;
+    }
+    
+    .accordion-header {
+        padding: 1rem !important;
+    }
+    
+    .carrera-card {
+        padding: 0.75rem !important;
+    }
+    
+    .modern-table th,
+    .modern-table td {
+        padding: 0.5rem 0.35rem;
+        font-size: 0.8rem;
+    }
+    
+    .badge-today {
+        font-size: 0.65rem;
+        padding: 0.2rem 0.5rem;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 380px) {
+    .modern-table th,
+    .modern-table td {
+        padding: 0.4rem 0.25rem;
+        font-size: 0.75rem;
+    }
+}

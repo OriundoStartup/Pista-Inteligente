@@ -2,6 +2,8 @@ import { createClient } from '../../utils/supabase/server'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import BotonQuinela from '@/components/BotonQuinela'
+import HipodromoAccordion from '@/components/HipodromoAccordion'
+
 
 export const metadata: Metadata = {
     title: 'Predicciones Hípica Chilena: Cobertura Nacional Completa con IA',
@@ -223,131 +225,13 @@ export default async function ProgramaPage() {
                 <div className="section-title">🔮 Predicciones de Inteligencia Artificial</div>
             </div>
 
-            {/* Predictions - Grouped by Hipódromo */}
+            {/* Predictions - Grouped by Hipódromo with Accordion */}
             <div className="predictions-container">
                 {carreras.length > 0 ? (
-                    sortedHipodromos.map(([hipodromo, carrerasHip]) => (
-                        <div key={hipodromo} className="glass-card" style={{ marginBottom: '2rem', padding: '1.5rem', borderLeft: '4px solid var(--primary)' }}>
-                            {/* Header del Hipódromo */}
-                            <div style={{
-                                borderBottom: '1px solid var(--border-glass)',
-                                marginBottom: '1.5rem',
-                                paddingBottom: '1rem',
-                                display: 'flex',
-                                justifyContent: 'space-between',
-                                alignItems: 'center',
-                                flexWrap: 'wrap',
-                                gap: '1rem'
-                            }}>
-                                <div>
-                                    <h2 style={{
-                                        color: 'var(--text-main)',
-                                        fontSize: '1.8rem',
-                                        fontWeight: 800,
-                                        margin: 0,
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        gap: '0.75rem',
-                                        textShadow: '0 0 20px rgba(139, 92, 246, 0.3)'
-                                    }}>
-                                        🏇 {hipodromo}
-                                    </h2>
-                                    <p style={{ color: 'var(--text-muted)', margin: '0.25rem 0 0 0', fontSize: '1rem' }}>
-                                        📅 {carrerasHip[0]?.fecha} • {carrerasHip.length} Carreras Programadas
-                                    </p>
-                                </div>
-                                <div style={{
-                                    background: 'rgba(139, 92, 246, 0.1)',
-                                    padding: '0.5rem 1rem',
-                                    borderRadius: '50px',
-                                    border: '1px solid rgba(139, 92, 246, 0.2)',
-                                    color: 'var(--primary)',
-                                    fontWeight: '600',
-                                    fontSize: '0.9rem'
-                                }}>
-                                    Programa Oficial
-                                </div>
-                            </div>
-
-                            {/* Carreras de este hipódromo */}
-                            <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
-                                {carrerasHip.sort((a, b) => a.carrera - b.carrera).map((carrera) => (
-                                    <div key={carrera.id} style={{
-                                        padding: '1.5rem',
-                                        background: 'rgba(255,255,255,0.02)',
-                                        borderRadius: '12px',
-                                        border: '1px solid rgba(255, 255, 255, 0.05)'
-                                    }}>
-                                        <div style={{
-                                            marginBottom: '1rem',
-                                            display: 'flex',
-                                            alignItems: 'center',
-                                            justifyContent: 'space-between',
-                                            flexWrap: 'wrap',
-                                            gap: '0.5rem'
-                                        }}>
-                                            <h3 style={{ color: 'var(--secondary)', margin: 0, fontSize: '1.3rem', fontWeight: 700 }}>
-                                                Carrera {carrera.carrera}
-                                            </h3>
-                                            <div style={{ display: 'flex', gap: '1rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>
-                                                <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
-                                                    🕒 {carrera.hora}
-                                                </span>
-                                                <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
-                                                    🏁 {carrera.distancia}m
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                        <table className="modern-table">
-                                            <thead>
-                                                <tr>
-                                                    <th style={{ width: '50px', textAlign: 'center' }}>#</th>
-                                                    <th>Caballo</th>
-                                                    <th>Jinete</th>
-                                                    <th>IA Score</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                {carrera.predicciones.map((pred, index) => (
-                                                    <tr key={index}>
-                                                        <td style={{ textAlign: 'center', fontWeight: 'bold', color: 'var(--text-muted)' }}>{pred.numero}</td>
-                                                        <td style={{ fontWeight: 600, color: 'var(--text-main)' }}>
-                                                            {pred.caballo}
-                                                            {index === 0 && <span style={{ marginLeft: '0.5rem', fontSize: '0.8rem', background: '#eab308', color: 'black', padding: '1px 6px', borderRadius: '4px', fontWeight: 'bold' }}>FAV</span>}
-                                                        </td>
-                                                        <td style={{ color: 'var(--text-muted)' }}>{pred.jinete}</td>
-                                                        <td>
-                                                            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                                                                <div style={{ flexGrow: 1, minWidth: '80px', maxWidth: '200px' }}>
-                                                                    <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.75rem', marginBottom: '2px' }}>
-                                                                        <span style={{ color: 'var(--text-muted)' }}>Confianza</span>
-                                                                        <span style={{ fontWeight: 'bold', color: pred.puntaje_ia > 80 ? '#4ade80' : pred.puntaje_ia > 50 ? '#fbbf24' : '#f87171' }}>
-                                                                            {pred.puntaje_ia.toFixed(0)}%
-                                                                        </span>
-                                                                    </div>
-                                                                    <div style={{ background: 'rgba(255,255,255,0.1)', height: '4px', borderRadius: '10px', overflow: 'hidden' }}>
-                                                                        <div
-                                                                            style={{
-                                                                                width: `${pred.puntaje_ia}%`,
-                                                                                height: '100%',
-                                                                                background: pred.puntaje_ia > 80 ? '#4ade80' : pred.puntaje_ia > 50 ? '#fbbf24' : '#f87171',
-                                                                                borderRadius: '10px'
-                                                                            }}
-                                                                        />
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                ))}
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    ))
+                    <HipodromoAccordion
+                        hipodromos={sortedHipodromos}
+                        today={new Date().toLocaleDateString('en-CA', { timeZone: 'America/Santiago' })}
+                    />
                 ) : (
                     <div className="glass-card" style={{ textAlign: 'center', padding: '3rem', color: 'var(--text-muted)' }}>
                         <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>🏇</div>
@@ -364,6 +248,7 @@ export default async function ProgramaPage() {
                     </div>
                 )}
             </div>
+
 
             {/* Sección de Agradecimiento - Momento perfecto después de ver predicciones */}
             {carreras.length > 0 && (
