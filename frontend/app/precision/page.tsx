@@ -379,21 +379,6 @@ export default async function PrecisionPage() {
                     <BotonQuinela linkPago="https://link.mercadopago.cl/pistainteligente" />
                 </div>
             </div>
-
-            {/* Mobile-specific styles */}
-            <style jsx>{`
-                @media (max-width: 640px) {
-                    .hide-mobile {
-                        display: none !important;
-                    }
-                    .stats-grid {
-                        grid-template-columns: repeat(2, 1fr) !important;
-                    }
-                    .stat-card {
-                        padding: 1rem !important;
-                    }
-                }
-            `}</style>
         </>
     )
 }
