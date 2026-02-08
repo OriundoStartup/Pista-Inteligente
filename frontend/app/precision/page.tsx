@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { promises as fs } from 'fs'
-import path from 'path'
+import { createClient } from '@supabase/supabase-js'
 import BotonQuinela from '@/components/BotonQuinela'
 
 export const metadata: Metadata = {
@@ -48,14 +47,67 @@ interface PerformanceData {
 
 async function getPerformanceData(): Promise<PerformanceData | null> {
     try {
-        const filePath = path.join(process.cwd(), '..', 'data', 'rendimiento_stats.json')
-        const fileContents = await fs.readFile(filePath, 'utf8')
-        return JSON.parse(fileContents) as PerformanceData
+        const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+        const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+
+        if (!supabaseUrl || !supabaseKey) {
+            console.error('Supabase credentials not configured')
+            return null
+        }
+
+        const supabase = createClient(supabaseUrl, supabaseKey)
+
+        // Fetch global stats
+        const { data: statsRow, error: statsError } = await supabase
+            .from('rendimiento_stats')
+            .select('data')
+            .eq('id', 'global_stats')
+            .single()
+
+        if (statsError || !statsRow) {
+            console.error('Error fetching stats:', statsError)
+            return null
+        }
+
+        const statsData = typeof statsRow.data === 'string'
+            ? JSON.parse(statsRow.data)
+            : statsRow.data
+
+        // Fetch recent races
+        const { data: recentRaces, error: racesError } = await supabase
+            .from('rendimiento_historico')
+            .select('*')
+            .order('fecha', { ascending: false })
+            .limit(30)
+
+        const races: RaceResult[] = (recentRaces || []).map((r: any) => ({
+            fecha: r.fecha,
+            hipodromo: r.hipodromo,
+            nro_carrera: r.nro_carrera,
+            acierto_ganador: r.acierto_ganador,
+            acierto_quiniela: r.acierto_quiniela,
+            acierto_trifecta: r.acierto_trifecta,
+            acierto_superfecta: r.acierto_superfecta,
+            prediccion_top4: typeof r.prediccion_top4 === 'string' ? JSON.parse(r.prediccion_top4) : r.prediccion_top4 || [],
+            resultado_top4: typeof r.resultado_top4 === 'string' ? JSON.parse(r.resultado_top4) : r.resultado_top4 || []
+        }))
+
+        return {
+            generated_at: statsData.updated_at || new Date().toISOString(),
+            global: {
+                last_30_days: statsData.last_30_days || { total_carreras: 0, ganador_pct: 0, quiniela_pct: 0, trifecta_pct: 0, superfecta_pct: 0, ganador_count: 0, quiniela_count: 0, trifecta_count: 0, superfecta_count: 0 },
+                last_90_days: statsData.last_90_days || { total_carreras: 0, ganador_pct: 0, quiniela_pct: 0, trifecta_pct: 0, superfecta_pct: 0, ganador_count: 0, quiniela_count: 0, trifecta_count: 0, superfecta_count: 0 },
+                all_time: statsData.all_time || { total_carreras: 0, ganador_pct: 0, quiniela_pct: 0, trifecta_pct: 0, superfecta_pct: 0, ganador_count: 0, quiniela_count: 0, trifecta_count: 0, superfecta_count: 0 }
+            },
+            by_hipodromo: statsData.by_hipodromo || {},
+            recent_races: races
+        }
     } catch (error) {
         console.error('Error loading performance data:', error)
         return null
     }
 }
+
 
 function StatCard({ label, value, count, total, color }: {
     label: string, value: number, count?: number, total?: number, color: string
