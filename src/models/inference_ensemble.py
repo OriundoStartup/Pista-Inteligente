@@ -4,7 +4,7 @@ Usa EnsembleRanker (LightGBM + XGBoost + CatBoost) para predicciones
 
 Author: ML Engineering Team
 Date: 2025-12-28
-Version: 4.0
+Version: 4.2 (Isotonic Calibration)
 """
 
 import pandas as pd
@@ -15,10 +15,11 @@ import sys
 import logging
 import time
 import gc
+import joblib
 from datetime import datetime
-from src.models.data_manager import cargar_programa, cargar_datos_3nf
-from src.models.features import FeatureEngineering
+from src.models.data_manager import cargar_programa
 from src.models.ensemble_ranker import EnsembleRanker
+from src.models.feature_store import FeatureStore
 
 # Configure logging
 logging.basicConfig(
@@ -33,68 +34,63 @@ if sys.platform == "win32" and hasattr(sys.stdout, 'reconfigure'):
 
 
 class EnsembleInferencePipeline:
-    """Pipeline de inferencia usando Ensemble v4"""
+    """Pipeline de inferencia usando Ensemble v4 y Feature Store + Calibrador"""
     
     def __init__(self, 
                  ensemble_path='src/models/ensemble_latest.pkl',
-                 fe_path='src/models/feature_eng_v4_ensemble.pkl'):
+                 feature_store_path='data/feature_store.pkl',
+                 calibrator_path='src/models/calibrator_v4.pkl'):
         """
         Args:
             ensemble_path: Ruta al ensemble guardado
-            fe_path: Ruta al feature engineering
+            feature_store_path: Ruta al Feature Store
+            calibrator_path: Ruta al calibrador Isotonic
         """
         self.ensemble_path = ensemble_path
-        self.fe_path = fe_path
+        self.feature_store_path = feature_store_path
+        self.calibrator_path = calibrator_path
         self.ensemble = None
-        self.fe = None
-        self.history = None
-        
-        # 🎯 Professional Probability Calibration
-        # Temperature: Lower = more confident (larger differences)
-        # Amplification: Higher = amplify score differences
-        self.temperature = 0.65  # Slightly more confident than v2
-        self.amplification_power = 1.6  # Better separation for ensemble
+        self.store = None
+        self.calibrator = None
         
     def load_artifacts(self):
-        """Carga modelos y feature engineering"""
-        # Verificar existencia de archivos
+        """Carga modelos, Feature Store y Calibrador"""
+        # Verificar existencia de ensemble
         if not os.path.exists(self.ensemble_path):
             raise FileNotFoundError(f"Ensemble not found: {self.ensemble_path}")
         
-        # Fallback a feature engineering v2 si v4 no existe
-        if not os.path.exists(self.fe_path):
-            logger.warning(f"FE v4 not found, trying v2 fallback...")
-            self.fe_path = 'src/models/feature_eng_v2.pkl'
-            if not os.path.exists(self.fe_path):
-                raise FileNotFoundError("No feature engineering found")
+        # Enforce Feature Store
+        if not os.path.exists(self.feature_store_path):
+             logger.warning(f"Feature Store not found at {self.feature_store_path}. Creating empty store (Cold Start).")
         
         start = time.time()
         
         # Cargar ensemble
         self.ensemble = EnsembleRanker.load(self.ensemble_path)
         
-        # Cargar Feature Engineering
-        self.fe = FeatureEngineering.load(self.fe_path)
+        # Cargar Feature Store
+        self.store = FeatureStore.load(self.feature_store_path)
+        
+        # Cargar Calibrador
+        if os.path.exists(self.calibrator_path):
+            self.calibrator = joblib.load(self.calibrator_path)
+            logger.info(f"✅ Calibrador Isotonic cargado: {self.calibrator_path}")
+        else:
+            logger.warning(f"⚠️ Calibrator not found at {self.calibrator_path}. Probs will be uncalibrated.")
+            self.calibrator = None
         
         logger.info("Artifacts loaded", extra={
             'ensemble_path': self.ensemble_path,
-            'fe_path': self.fe_path,
+            'feature_store_path': self.feature_store_path,
+            'calibrator_path': self.calibrator_path,
             'load_time_ms': int((time.time() - start) * 1000)
         })
-        
-        # Load History for Feature Generation
-        logger.info("Loading historical data for features...")
-        self.history = cargar_datos_3nf()
-        logger.info(f"✅ History loaded: {len(self.history):,} records")
         
     def run(self):
         """Ejecuta el pipeline completo de inferencia"""
         start_time = time.time()
         logger.info("="*70)
-        logger.info("ENSEMBLE V4 INFERENCE PIPELINE")
-        logger.info("="*70)
-        logger.info(f"Ensemble: {self.ensemble_path}")
-        logger.info(f"FE: {self.fe_path}")
+        logger.info("ENSEMBLE V4 INFERENCE PIPELINE (Calibrated)")
         logger.info("="*70)
         
         try:
@@ -111,15 +107,13 @@ class EnsembleInferencePipeline:
                 return
             
             logger.info(f"✅ Cargadas {len(df_program)} entradas de programa futuro")
-            logger.info(f"   Carreras únicas: {df_program['nro_carrera'].nunique()}")
-            logger.info(f"   Fechas: {sorted(df_program['fecha'].unique())}")
             
             # 3. Transform features
-            logger.info("\n[PASO 2/4] Transformando features...")
+            logger.info("\n[PASO 2/4] Consultando Feature Store (O(1))...")
             X_future, df_program_enriched = self._prepare_features(df_program)
             
             # 4. Predict
-            logger.info("\n[PASO 3/4] Generando predicciones con Ensemble...")
+            logger.info("\n[PASO 3/4] Generando predicciones calibradas...")
             predictions = self._predict_with_calibration(X_future, df_program_enriched)
             
             # 5. Save results
@@ -143,22 +137,9 @@ class EnsembleInferencePipeline:
     
     def _prepare_features(self, df_program):
         """
-        Prepara features para inferencia
-        
-        Returns:
-            X_future: Features transformadas
-            df_program_enriched: Programa enriquecido con IDs mapeados
+        Prepara features para inferencia usando Feature Store.
+        Using same logic as v4.1 but consolidated.
         """
-        # Build ID mappers from history
-        caballo_map = self.history[['caballo_id', 'caballo']].drop_duplicates('caballo').set_index('caballo')['caballo_id'].to_dict()
-        jinete_map = self.history[['jinete_id', 'jinete']].drop_duplicates('jinete').set_index('jinete')['jinete_id'].to_dict()
-        
-        # Stud as Preparador
-        if 'stud_id' in self.history.columns:
-            stud_map = self.history[['stud_id', 'stud']].drop_duplicates('stud').set_index('stud')['stud_id'].to_dict()
-        else:
-            stud_map = {}
-        
         # Create race IDs for grouping
         df_program['race_unique_id'] = (
             df_program['fecha'].astype(str) + "_" + 
@@ -166,160 +147,152 @@ class EnsembleInferencePipeline:
             df_program['nro_carrera'].astype(str)
         )
         
-        logger.info(f"   Mapping names to IDs...")
-        mapped_rows = []
+        # Explicit feature columns (MUST match training)
+        feature_cols = [
+            'days_rest', 'win_rate', 'races_count', 'avg_speed_3',
+            'track_win_rate', 'dist_win_rate', 
+            'duo_eff',
+            'trend_3',
+            'sire_win_rate',
+            'peso', 'mandil', 'distancia'
+        ]
+        
+        # ID Mappers
+        import sqlite3
+        try:
+            conn = sqlite3.connect('data/db/hipica_data.db')
+            caballos = pd.read_sql("SELECT id, nombre FROM caballos", conn)
+            jinetes = pd.read_sql("SELECT id, nombre FROM jinetes", conn)
+            studs = pd.read_sql("SELECT id, nombre FROM studs", conn)
+            conn.close()
+            
+            c_map = dict(zip(caballos['nombre'], caballos['id']))
+            j_map = dict(zip(jinetes['nombre'], jinetes['id']))
+            s_map = dict(zip(studs['nombre'], studs['id']))
+        except Exception as e:
+            logger.warning(f"Feature Store Map Load Error: {e}")
+            c_map = {}; j_map = {}; s_map = {}
+            
+        hip_map = {
+            'Club Hípico de Santiago': '1',
+            'Hipódromo Chile': '2',
+            'Valparaíso Sporting': '3',
+            'Club Hípico de Concepción': '4'
+        }
+        
+        features_list = []
+        enriched_rows = []
         
         for idx, row in df_program.iterrows():
-            # Get names
             c_name = row.get('caballo', 'Unknown')
-            j_name = row.get('jinete', 'Unknown')
-            s_name = row.get('stud', 'Unknown')
-            
-            # Map to IDs (0 for cold start)
-            c_id = caballo_map.get(c_name, 0)
-            j_id = jinete_map.get(j_name, 0)
-            p_id = stud_map.get(s_name, 0)
-            
-            # Construct input row
-            input_row = {
-                'fecha': pd.to_datetime(row['fecha']),
-                'caballo_id': str(c_id),
-                'jinete_id': str(j_id),
-                'preparador_id': str(p_id),
-                'hipodromo_id': row.get('hipodromo', 'UNKNOWN'),
+            # ID resolution
+            c_id = str(c_map.get(c_name, 0))
+            j_id = str(j_map.get(row.get('jinete', ''), 0))
+            p_id = str(s_map.get(row.get('stud', ''), 0))
+            h_name = row.get('hipodromo', 'UNKNOWN')
+            h_id = hip_map.get(h_name, '0')
+
+            candidate = {
+                'caballo_id': c_id,
+                'jinete_id': j_id,
+                'preparador_id': p_id,
+                'hipodromo_id': h_id,
+                'fecha': row['fecha'],
                 'distancia': row.get('distancia', 1000),
-                'pista': row.get('pista', 'ARENA'),
-                'peso_fs': row.get('peso', 470),
+                'padre': '0', 
                 'mandil': row.get('numero', 0),
-                'posicion': 0,  # Future
-                'is_win': 0,
-                'tiempo': 0,
-                'padre': '0'
+                'peso_fs': row.get('peso', 470)
             }
             
-            mapped_rows.append(input_row)
+            # Lookup
+            feats = self.store.get_features(candidate)
+            features_list.append(feats)
+            
+            row_enriched = row.copy()
+            row_enriched['caballo_id'] = c_id
+            enriched_rows.append(row_enriched)
+            
+        # Create X DataFrame
+        X_future = pd.DataFrame(features_list)
         
-        df_future = pd.DataFrame(mapped_rows)
+        # Ensure correct columns and order
+        for col in feature_cols:
+            if col not in X_future.columns:
+                X_future[col] = 0.0
+                
+        X_future = X_future[feature_cols].fillna(0)
         
-        # Prepare for FE transform
-        cols_needed = ['fecha', 'caballo_id', 'jinete_id', 'preparador_id', 
-                       'hipodromo_id', 'distancia', 'pista', 'peso_fs', 
-                       'mandil', 'posicion', 'is_win', 'padre', 'tiempo']
-        
-        # Ensure history compatibility
-        if 'preparador_id' not in self.history.columns:
-            if 'stud_id' in self.history.columns:
-                self.history['preparador_id'] = self.history['stud_id']
-            else:
-                self.history['preparador_id'] = '0'
-        
-        if 'padre' not in self.history.columns:
-            self.history['padre'] = '0'
-        
-        if 'peso' in self.history.columns and 'peso_fs' not in self.history.columns:
-            self.history['peso_fs'] = self.history['peso']
-        
-        common_cols = list(set(self.history.columns) & set(cols_needed))
-        
-        # Filter history to relevant horses (memory optimization)
-        relevant_horses = df_future['caballo_id'].unique()
-        hist_subset = self.history[self.history['caballo_id'].isin(relevant_horses)][common_cols].copy()
-        
-        df_future_input = df_future[common_cols]
-        
-        logger.info(f"   Concatenating history ({len(hist_subset):,}) + future ({len(df_future_input):,})...")
-        df_combined = pd.concat([hist_subset, df_future_input], ignore_index=True)
-        
-        # Transform with FE
-        logger.info(f"   Applying feature engineering...")
-        df_transformed = self.fe.transform(df_combined, is_training=False)
-        
-        # Extract future rows (last N rows after sorting by date in FE)
-        future_indices = range(len(hist_subset), len(df_combined))
-        X_future = df_transformed.iloc[future_indices].copy()
-        
-        logger.info(f"✅ Features ready: {X_future.shape[1]} columns, {len(X_future)} rows")
-        
-        return X_future, df_program
+        return X_future, pd.DataFrame(enriched_rows)
     
     def _predict_with_calibration(self, X_future, df_program_enriched):
         """
         Genera predicciones y aplica calibración de probabilidades
-        
-        Returns:
-            list of prediction dicts
         """
-        # --- INICIO CORRECCIÓN ---
-        # 1. Sanitizar columna 'numero' y 'nro_carrera': Rellenar NaN con 0 y forzar int
-        # Esto previene ValueError: cannot convert float NaN to integer
+        # Sanitizar data types
         if 'numero' in df_program_enriched.columns:
             df_program_enriched['numero'] = df_program_enriched['numero'].fillna(0).astype(int)
-            
         if 'nro_carrera' in df_program_enriched.columns:
             df_program_enriched['nro_carrera'] = df_program_enriched['nro_carrera'].fillna(0).astype(int)
-        # --------------------------
 
-        # Predict with ensemble
-        logger.info("   Ejecutando ensemble (LightGBM + XGBoost + CatBoost)...")
+        # 1. Raw Scores
+        logger.info("   Obteniendo raw scores del Ensemble...")
         raw_scores = self.ensemble.predict(X_future)
         
-        # Attach scores to program
+        # 2. Calibration
         df_program = df_program_enriched.copy()
-        df_program['raw_score'] = raw_scores
         
-        # Apply softmax per race
-        logger.info("   Aplicando calibración de probabilidades...")
-        
+        if self.calibrator:
+            logger.info("   Aplicando Isotonic Calibration...")
+            # Ensure shape
+            calibrated_probs = self.calibrator.transform(raw_scores)
+            
+            # Clip strict [0, 1] just in case
+            calibrated_probs = np.clip(calibrated_probs, 0.0, 1.0)
+            
+            df_program['prob_win'] = calibrated_probs
+        else:
+            # Fallback (Manual Softmaxish)
+            logger.warning("   Using fallback heuristic calibration.")
+            s_min, s_max = raw_scores.min(), raw_scores.max()
+            if s_max > s_min:
+                norm = (raw_scores - s_min) / (s_max - s_min)
+                df_program['prob_win'] = norm ** 1.6
+            else:
+                df_program['prob_win'] = 0.1
+
+        # 3. Race-level Normalization
         results = []
         
         for race_id, group in df_program.groupby('race_unique_id'):
-            scores = group['raw_score'].values
+            probs = group['prob_win'].values
             
-            # 🎯 PROFESSIONAL CALIBRATION
-            score_min = scores.min()
-            score_max = scores.max()
-            score_range = score_max - score_min
+            # Normalizar para que sume 100% (Probabilidad de ganar ESTA carrera)
+            total_prob = probs.sum()
             
-            if score_range > 1e-6:
-                # 1. Normalize to [0, 1]
-                normalized = (scores - score_min) / score_range
-                
-                # 2. Amplify differences
-                amplified = normalized ** self.amplification_power
-                
-                # 3. Temperature scaling
-                scaled = amplified / self.temperature
-                
-                # 4. Softmax with numerical stability
-                exp_scores = np.exp(scaled - np.max(scaled))
-                probs = exp_scores / np.sum(exp_scores)
+            if total_prob > 0:
+                probs_normalized = probs / total_prob
             else:
-                # All scores identical → uniform
-                probs = np.ones(len(scores)) / len(scores)
-                logger.warning(f"Race {race_id}: Scores uniformes ({score_min:.3f})")
+                probs_normalized = np.ones(len(probs)) / len(probs)
             
-            # Map back
             group = group.copy()
-            group['prob_win'] = probs
+            group['prob_final'] = probs_normalized
             
             # Format results
             for idx, r in group.iterrows():
-                # Safe conversion for possibly NaN values
                 try:
                     carrera_num = int(r['nro_carrera']) if pd.notnull(r['nro_carrera']) else 0
                     mandil_num = int(r['numero']) if pd.notnull(r['numero']) else 0
-                except (ValueError, TypeError):
-                    carrera_num = 0
-                    mandil_num = 0
+                except:
+                    carrera_num = 0; mandil_num = 0
                 
                 results.append({
-                    'fecha': str(r['fecha']).split()[0],  # YYYY-MM-DD
+                    'fecha': str(r['fecha']).split()[0],
                     'hipodromo': r['hipodromo'],
                     'carrera': carrera_num,
                     'numero': mandil_num,
                     'caballo': r['caballo'],
-                    'jinete': r.get('jinete', ''),  # Include jinete for frontend display
-                    'probabilidad': round(r['prob_win'] * 100, 1)
+                    'jinete': r.get('jinete', ''),
+                    'probabilidad': round(r['prob_final'] * 100, 1)
                 })
         
         logger.info(f"✅ Predicciones calibradas para {len(results)} caballos")
@@ -335,16 +308,16 @@ class EnsembleInferencePipeline:
         with open(path, 'w', encoding='utf-8') as f:
             json.dump(results, f, default=str, indent=2, ensure_ascii=False)
         
-        logger.info(f"✅ Guardado JSON: {path} ({len(results)} predicciones)")
+        logger.info(f"✅ Guardado JSON: {path}")
         
-        # Save to SQLite (optional, for backwards compatibility)
+        # Save to SQLite
         try:
             import sqlite3
             df = pd.DataFrame(results)
             conn = sqlite3.connect('data/db/hipica_data.db')
             df.to_sql('predicciones_activas', conn, if_exists='replace', index=False)
             conn.close()
-            logger.info(f"✅ Guardado SQLite: predicciones_activas table")
+            logger.info(f"✅ Guardado SQLite: predicciones_activas")
         except Exception as e:
             logger.warning(f"⚠️ No se pudo guardar en SQLite: {e}")
 

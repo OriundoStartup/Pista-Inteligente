@@ -438,6 +438,11 @@ class HipicaETL:
         num_registros = 0
         print(f"\n📄 Procesando: {filename}")
         
+        # Check if file is empty
+        if os.path.getsize(file_path) == 0:
+            print(f"⚠️ Archivo vacío: {filename}. Saltando.")
+            return 0
+        
         # Detectar Header Row dinámicamente y leer con StringIO
         from io import StringIO
         try:

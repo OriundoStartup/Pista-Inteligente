@@ -150,6 +150,49 @@ def train_ensemble():
         ensemble, lgbm_baseline
     )
     
+    # Guardar Feature Engineering
+    import joblib
+    from datetime import datetime
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    
+    # --- CALIBRATION (ISOTONIC) ---
+    logger.info("\n" + "="*70)
+    logger.info("ENTRENANDO CALIBRADOR DE PROBABILIDADES (ISOTONIC)")
+    logger.info("="*70)
+    
+    from sklearn.isotonic import IsotonicRegression
+    from sklearn.exceptions import NotFittedError
+
+    # Usamos las predicciones del Test Set para calibrar
+    logger.info("   Generando scores en Test Set...")
+    try:
+        raw_scores_test = ensemble.predict(X_test)
+        
+        # Target binario (Ganador o no)
+        # y_test contains relevance (10, 5, 3...). We need binary 1/0.
+        # Assuming standard relevance: 10=1st
+        y_binary_test = (y_test >= 10).astype(int) 
+        
+        # Train Isotonic
+        calibrator = IsotonicRegression(out_of_bounds='clip', y_min=0, y_max=1)
+        calibrator.fit(raw_scores_test, y_binary_test)
+        
+        # Validate
+        probs_test = calibrator.transform(raw_scores_test)
+        msg_mean = f"   Mean Pred Prob: {probs_test.mean():.4f}"
+        msg_actual = f"   Actual Win Rate: {y_binary_test.mean():.4f}"
+        logger.info(msg_mean)
+        logger.info(msg_actual)
+        
+        # Save Calibrator
+        calibrator_path = 'src/models/calibrator_v4.pkl'
+        joblib.dump(calibrator, calibrator_path)
+        logger.info(f"✅ Calibrador guardado: {calibrator_path}")
+        
+    except Exception as e:
+        logger.error(f"❌ Error training calibrator: {e}")
+        # Continue saving process
+    
     # Guardar modelos
     logger.info("\n" + "="*70)
     logger.info("GUARDANDO MODELOS")
@@ -158,18 +201,13 @@ def train_ensemble():
     # Guardar ensemble (crea automáticamente alias 'latest')
     ensemble_path = ensemble.save('src/models/ensemble')
     
-    # Guardar Feature Engineering con versionado
-    import joblib
-    from datetime import datetime
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    
     fe.save(f'src/models/feature_eng_v4_ensemble_{timestamp}.pkl')
     fe.save('src/models/feature_eng_v4_ensemble.pkl')  # Latest alias
     logger.info(f"✅ Feature Engineering guardado: src/models/feature_eng_v4_ensemble.pkl")
     
     # Guardar metadatos del entrenamiento
     metadata = {
-        'version': '4.0',
+        'version': '4.1', # Bump version
         'timestamp': timestamp,
         'ensemble_ndcg': float(results['ensemble_ndcg']),
         'baseline_ndcg': float(results['baseline_ndcg']),
@@ -197,24 +235,6 @@ def train_ensemble():
     logger.info("\n" + "="*70)
     logger.info("✅ ENTRENAMIENTO COMPLETADO EXITOSAMENTE")
     logger.info("="*70)
-    logger.info(f"\n📁 Archivos generados:")
-    logger.info(f"   - Ensemble: {ensemble_path}")
-    logger.info(f"   - Feature Engineering: src/models/feature_eng_v4_ensemble.pkl")
-    logger.info(f"   - Baseline: {baseline_path}")
-    
-    logger.info(f"\n📊 Performance:")
-    logger.info(f"   - Ensemble NDCG: {results['ensemble_ndcg']:.4f}")
-    logger.info(f"   - Baseline NDCG: {results['baseline_ndcg']:.4f}")
-    logger.info(f"   - Mejora: {results['mejora_porcentual']:+.2f}%")
-    
-    if results['ensemble_mejor']:
-        logger.info(f"\n🏆 EL ENSEMBLE SUPERA AL BASELINE!")
-    else:
-        logger.info(f"\n⚠️  El baseline tiene mejor performance (puede ser varianza)")
-    
-    logger.info(f"\n💡 Próximo paso:")
-    logger.info(f"   Integrar ensemble en inference pipeline")
-    logger.info(f"   Ejecutar: python -m src.models.inference_ensemble")
     
     return ensemble, results
 

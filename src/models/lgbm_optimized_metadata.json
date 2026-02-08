@@ -1,0 +1,76 @@
+{
+  "version": "5.0",
+  "timestamp": "20260207_174920",
+  "ndcg": 0.733180292021808,
+  "n_features": 16,
+  "n_samples_train": 6951,
+  "n_samples_test": 1529,
+  "n_races_train": 569,
+  "n_races_test": 143,
+  "feature_importance": [
+    {
+      "feature": "sire_win_rate",
+      "importance": 838
+    },
+    {
+      "feature": "track_win_rate",
+      "importance": 660
+    },
+    {
+      "feature": "jockey_win_rate",
+      "importance": 659
+    },
+    {
+      "feature": "jockey_track_rate",
+      "importance": 643
+    },
+    {
+      "feature": "days_rest",
+      "importance": 632
+    },
+    {
+      "feature": "dist_win_rate",
+      "importance": 617
+    },
+    {
+      "feature": "win_rate",
+      "importance": 584
+    },
+    {
+      "feature": "mandil",
+      "importance": 541
+    },
+    {
+      "feature": "races_count",
+      "importance": 459
+    },
+    {
+      "feature": "recent_form",
+      "importance": 458
+    },
+    {
+      "feature": "trend_3",
+      "importance": 298
+    },
+    {
+      "feature": "distancia",
+      "importance": 146
+    },
+    {
+      "feature": "avg_speed_3",
+      "importance": 113
+    },
+    {
+      "feature": "duo_eff",
+      "importance": 0
+    },
+    {
+      "feature": "trainer_win_rate",
+      "importance": 0
+    },
+    {
+      "feature": "peso",
+      "importance": 0
+    }
+  ]
+}

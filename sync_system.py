@@ -76,15 +76,15 @@ def main(force_sync=False):
         sys.exit(1)
 
     # ---------------------------------------------------------
-    # PASO 3: INFERENCIA (Generar Predicciones con Ensemble v4)
+    # PASO 3: INFERENCIA (Generar Predicciones con LightGBM Optimizado v5.0)
     # ---------------------------------------------------------
-    logging.info("\n[PASO 3/5] Ejecutando Inferencia con Ensemble v4...")
+    logging.info("\n[PASO 3/5] Ejecutando Inferencia con LightGBM Optimizado v5.0...")
     try:
-        from src.models.inference_ensemble import EnsembleInferencePipeline
+        from src.models.inference_optimized import OptimizedInferencePipeline
         
-        pipeline = EnsembleInferencePipeline()
+        pipeline = OptimizedInferencePipeline()
         pipeline.run()
-        logging.info("✅ Predicciones generadas con Ensemble v4 (LightGBM + XGBoost + CatBoost).")
+        logging.info("✅ Predicciones generadas con LightGBM Optimizado v5.0 (NDCG: 0.7410).")
         
     except Exception as e:
         logging.error(f"❌ Error en Inferencia: {e}")
@@ -116,9 +116,20 @@ def main(force_sync=False):
         logging.error(f"❌ Error en Monitor de Pozos: {e}")
 
     # ---------------------------------------------------------
-    # PASO 5: REDEPLOY VERCEL (Opcional)
+    # PASO 5: CALCULAR MÉTRICAS DE RENDIMIENTO
     # ---------------------------------------------------------
-    logging.info("\n[PASO 5/5] Disparando redeploy en Vercel...")
+    logging.info("\n[PASO 5/6] Calculando métricas de rendimiento...")
+    try:
+        from src.scripts.calculate_performance import run as calculate_performance
+        calculate_performance()
+        logging.info("✅ Métricas de rendimiento actualizadas.")
+    except Exception as e:
+        logging.error(f"❌ Error calculando métricas: {e}")
+
+    # ---------------------------------------------------------
+    # PASO 6: REDEPLOY VERCEL (Opcional)
+    # ---------------------------------------------------------
+    logging.info("\n[PASO 6/6] Disparando redeploy en Vercel...")
     trigger_vercel_redeploy()
 
     logging.info("\n" + "="*70)

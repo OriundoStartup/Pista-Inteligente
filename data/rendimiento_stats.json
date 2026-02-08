@@ -1,0 +1,705 @@
+{
+  "generated_at": "2026-02-07T22:32:46.527646",
+  "global": {
+    "last_30_days": {
+      "total_carreras": 0,
+      "ganador_pct": 0,
+      "quiniela_pct": 0,
+      "trifecta_pct": 0,
+      "superfecta_pct": 0,
+      "ganador_count": 0,
+      "quiniela_count": 0,
+      "trifecta_count": 0,
+      "superfecta_count": 0
+    },
+    "last_90_days": {
+      "total_carreras": 171,
+      "ganador_pct": 33.3,
+      "quiniela_pct": 2.9,
+      "trifecta_pct": 1.8,
+      "superfecta_pct": 1.8,
+      "ganador_count": 57,
+      "quiniela_count": 5,
+      "trifecta_count": 3,
+      "superfecta_count": 3
+    },
+    "all_time": {
+      "total_carreras": 171,
+      "ganador_pct": 33.3,
+      "quiniela_pct": 2.9,
+      "trifecta_pct": 1.8,
+      "superfecta_pct": 1.8,
+      "ganador_count": 57,
+      "quiniela_count": 5,
+      "trifecta_count": 3,
+      "superfecta_count": 3
+    }
+  },
+  "by_hipodromo": {
+    "Hipódromo Chile": {
+      "total_carreras": 84,
+      "ganador_pct": 23.8,
+      "quiniela_pct": 2.4,
+      "trifecta_pct": 1.2,
+      "superfecta_pct": 1.2,
+      "ganador_count": 20,
+      "quiniela_count": 2,
+      "trifecta_count": 1,
+      "superfecta_count": 1
+    },
+    "Club Hípico de Santiago": {
+      "total_carreras": 76,
+      "ganador_pct": 43.4,
+      "quiniela_pct": 0.0,
+      "trifecta_pct": 0.0,
+      "superfecta_pct": 0.0,
+      "ganador_count": 33,
+      "quiniela_count": 0,
+      "trifecta_count": 0,
+      "superfecta_count": 0
+    },
+    "Valparaíso Sporting": {
+      "total_carreras": 11,
+      "ganador_pct": 36.4,
+      "quiniela_pct": 27.3,
+      "trifecta_pct": 18.2,
+      "superfecta_pct": 18.2,
+      "ganador_count": 4,
+      "quiniela_count": 3,
+      "trifecta_count": 2,
+      "superfecta_count": 2
+    }
+  },
+  "recent_races": [
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 1,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "AMAR AZUL",
+        "QUE HICE MAL",
+        "SAHARA CHROME",
+        "LORD COMMANDER"
+      ],
+      "resultado_top4": [
+        "SILVERCHAIR",
+        "TE DIGO ALGO",
+        "LA TOSTADORA",
+        "PALABRA CIERTA"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 2,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "FIOR DI LATTE",
+        "SONG SONG BLUE",
+        "SHYUANNA",
+        "SINAG"
+      ],
+      "resultado_top4": [
+        "LADY JETS",
+        "PERLA DEL BIO BIO",
+        "SANSSITA",
+        "SHYUANNA"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 3,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "MENDEL QUINTA",
+        "LA SOÑE",
+        "INDY JETS",
+        "UN DIA CONTIGO"
+      ],
+      "resultado_top4": [
+        "PELUKA",
+        "INDY JETS",
+        "HACER POR HACER",
+        "VINE VIDE VINCI"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 4,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "EXAGERADA Y BUENA",
+        "MAGO DE NAIPES",
+        "GOOD MORNING RED",
+        "CANOVANAS"
+      ],
+      "resultado_top4": [
+        "ZIGEUNER",
+        "INDIA ADORADA",
+        "MAGO DE NAIPES",
+        "LA OVALLE NEGRETE"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 5,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "HI FLY",
+        "PARA TI MI AMOR",
+        "POLLY GRAY",
+        "BAD ROMANCE"
+      ],
+      "resultado_top4": [
+        "TU MI CUNCA",
+        "POENNI",
+        "BELLA CHICHI",
+        "CHE AWAY"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 6,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "HENGROEN",
+        "LA INSTRUMENTISTA",
+        "LA FINESSE",
+        "ONDA RADIAL"
+      ],
+      "resultado_top4": [
+        "DABKE",
+        "LA INSTRUMENTISTA",
+        "RUCCO",
+        "EL GRAN MENOTTI"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 7,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "LOS BISNIETOS",
+        "EL FLORITO",
+        "SCAR",
+        "EL FORASTERO"
+      ],
+      "resultado_top4": [
+        "EL FORASTERO",
+        "SCAR",
+        "SUEÑOS DE LEON",
+        "ZULTHAN"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 8,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "LADY BAY",
+        "JOSIE GIRL",
+        "ME VERAS CAER",
+        "CABLE A TIERRA"
+      ],
+      "resultado_top4": [
+        "PAQUETE PLATICO",
+        "CHIQUI VELOZ",
+        "RED KNIGHT",
+        "LADY CHROME"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 9,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "JULIA DOMNA",
+        "POWER OF HORSES",
+        "MONTES PREMIUM",
+        "FRANCOLI"
+      ],
+      "resultado_top4": [
+        "MALVA STAR",
+        "MAS AMOR",
+        "VASCA BRAVA",
+        "NURMAGOMEDOV"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 10,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "NEGRITA PECOSA",
+        "TEMAUKEL",
+        "PATYTA BLACK",
+        "TESORITO MIO"
+      ],
+      "resultado_top4": [
+        "TREN A CAJON",
+        "EL ULTIMO QUENO",
+        "MEZZOSOPRANO",
+        "CARILO"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 11,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "BRUNO EL TERRIBLE",
+        "CARAMEL FRAPPE",
+        "CONSUL DORADO",
+        "OKUI"
+      ],
+      "resultado_top4": [
+        "CONSUL DORADO",
+        "CARAMEL FRAPPE",
+        "PAPITO ALFREDO",
+        "AHSOKA"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 12,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "MAL MIRADA",
+        "SALMA ALEGRE",
+        "CALLAHAN",
+        "BELLO ENCANTO"
+      ],
+      "resultado_top4": [
+        "BELLO ENCANTO",
+        "DALEMITA",
+        "MOMENT OF GET",
+        "SIR CALEB"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 13,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": true,
+      "acierto_superfecta": true,
+      "prediccion_top4": [
+        "KAUTO Y PILLO",
+        "GOOD TRAFFIC",
+        "PRACTICAL SISI",
+        "EL BATEY"
+      ],
+      "resultado_top4": [
+        "GOOD TRAFFIC",
+        "PRACTICAL SISI",
+        "KAUTO Y PILLO",
+        "EL BATEY"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 14,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "GAELIA",
+        "SONATA CELTA",
+        "CHIQUITO CAMPEADOR",
+        "SOGNA CON ME"
+      ],
+      "resultado_top4": [
+        "SHOW PAINT",
+        "ELEGIDO CON PINZAS",
+        "MY RESILIENCE",
+        "UNDECIDED"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 15,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "WILD DABBLER",
+        "FASHION BOY",
+        "JINZO",
+        "LADY ASTOR"
+      ],
+      "resultado_top4": [
+        "FASHION BOY",
+        "NAGAO",
+        "DUNHILL SMOKE",
+        "OFESTIVO"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 16,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "THE ARION",
+        "PERO PEDRO",
+        "AMBROSE",
+        "STAR MAGIC"
+      ],
+      "resultado_top4": [
+        "TERRIBLE PANCHO",
+        "THE ARION",
+        "GOLD DADDY",
+        "AMBROSE"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 17,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "LUCIANITA",
+        "TWISTED GEM",
+        "FASTLOVE",
+        "UN GUARITO"
+      ],
+      "resultado_top4": [
+        "TWISTED GEM",
+        "NUBES NEGRAS",
+        "SOY BUSHIDO",
+        "DEEBA SPIRIT"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 18,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "AGUSTINA SOFIA",
+        "LIKE A PRAYER",
+        "BRAVO TORERO",
+        "NOVATO CONTENTO"
+      ],
+      "resultado_top4": [
+        "FIRST POINT'S",
+        "LA CHUCKY TRINI",
+        "TETRA GOLEADOR Z",
+        "KAUNAS"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 19,
+      "acierto_ganador": true,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "BRUNO SPIDERMAN",
+        "KALANIT",
+        "GRAN VERA",
+        "VAMOS DE LA MANO"
+      ],
+      "resultado_top4": [
+        "BRUNO SPIDERMAN",
+        "EL GRAN MAESTRO",
+        "FLOWER POWER",
+        "MERCENARIA"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 20,
+      "acierto_ganador": true,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "NOUGATINI FLOWER",
+        "BUNGABUNGA",
+        "ZOBOOMAFOO",
+        "CALIFORNIA DADDY"
+      ],
+      "resultado_top4": [
+        "NOUGATINI FLOWER",
+        "COSTAMIA",
+        "ZOBOOMAFOO",
+        "CHINITA TRAVIESA"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 21,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "RULETAZO",
+        "TIRREL",
+        "ROYAL DUBLIN",
+        "STEVENS FOR RECORD"
+      ],
+      "resultado_top4": [
+        "MOUNTAIN MONARCH",
+        "BESA KISS",
+        "LOCO GANDHI",
+        "TIRREL"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 22,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "LABURADOR",
+        "LUZ OCULTA",
+        "JARUM",
+        "PLATON"
+      ],
+      "resultado_top4": [
+        "PLATON",
+        "LABURADOR",
+        "SAWYER",
+        "BADERO"
+      ]
+    },
+    {
+      "fecha": "2025-12-27",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 23,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "SEATTLE SNOW",
+        "NOB",
+        "EL JOKER",
+        "GIORGIO DI CAPRI"
+      ],
+      "resultado_top4": [
+        "TORDILLA DIVINA",
+        "CHINO MATADOR",
+        "GIORGIO DI CAPRI",
+        "NOB"
+      ]
+    },
+    {
+      "fecha": "2025-12-26",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 1,
+      "acierto_ganador": true,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "LEYSKA",
+        "AMAYNA",
+        "CARIÑOSITO",
+        "NO TIENE PALABRA"
+      ],
+      "resultado_top4": [
+        "LEYSKA",
+        "NO TIENE PALABRA",
+        "ANTUMBRA",
+        "AMAYNA"
+      ]
+    },
+    {
+      "fecha": "2025-12-26",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 2,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "NUNCA PERDONA",
+        "JEREZANO",
+        "CANTICIO",
+        "NI TRATO"
+      ],
+      "resultado_top4": [
+        "NI TRATO",
+        "DON ALTOBELLO",
+        "LOCO Y DEMENTE",
+        "FLACO TITO"
+      ]
+    },
+    {
+      "fecha": "2025-12-26",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 3,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "BICHOTA",
+        "EL NANY",
+        "NO PASO AGOSTO",
+        "CATITA REVOLTOSA"
+      ],
+      "resultado_top4": [
+        "EL NANY",
+        "ELKAN DADDY",
+        "TIGRO (ARG)",
+        "DON GIORGIO"
+      ]
+    },
+    {
+      "fecha": "2025-12-26",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 4,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "FRATELI LA VITA",
+        "KANE",
+        "LA DIGNATARIA",
+        "MY WAY"
+      ],
+      "resultado_top4": [
+        "MY WAY",
+        "MEDJOOL",
+        "FRATELI LA VITA",
+        "KANE"
+      ]
+    },
+    {
+      "fecha": "2025-12-26",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 5,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "EL NENE",
+        "MERCI MON DIEU",
+        "LUCHIN ENOJON",
+        "TAKE A NAP"
+      ],
+      "resultado_top4": [
+        "MERCI MON DIEU",
+        "BENVENUTO CELLINI",
+        "LATEN GOOD",
+        "VOLANTE MIXTO"
+      ]
+    },
+    {
+      "fecha": "2025-12-26",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 6,
+      "acierto_ganador": true,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "IMPLICADO",
+        "JALISCO",
+        "EXIJO RESPETO",
+        "DIVINA FE"
+      ],
+      "resultado_top4": [
+        "IMPLICADO",
+        "DIVINA FE",
+        "JALISCO",
+        "BY THE CLIFF"
+      ]
+    },
+    {
+      "fecha": "2025-12-26",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 7,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "JOY VANITY",
+        "MISS NINNA",
+        "CANDY FLAME",
+        "PIENSA EN SILENCIO"
+      ],
+      "resultado_top4": [
+        "MISS NINNA",
+        "JOY VANNY",
+        "PIENSA EN SILENCIO",
+        "VOLANTINERA"
+      ]
+    }
+  ]
+}
