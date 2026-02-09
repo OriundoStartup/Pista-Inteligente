@@ -510,6 +510,7 @@ class HipicaETL:
             'Carrera': 'carrera',
             'Carrera_Nro': 'carrera',
             'Nro_Carrera': 'carrera', # Fix: CHC header variant
+            'nro_carrera': 'carrera', # Fix: lowercase variant from some CSVs
             'carrera': 'carrera',
             'Cab. N°': 'numero',
             'Numero': 'numero',
@@ -665,13 +666,38 @@ class HipicaETL:
             ))
 
         if data:
+            # Validar y corregir nro_carrera NULL infiriéndolo de la hora
+            # Agrupar por (fecha, hipodromo) y asignar nro_carrera secuencial por hora única
+            from collections import defaultdict
+            corrected_data = []
+            hora_to_nro = defaultdict(dict)  # {(fecha, hip): {hora: nro}}
+            
+            for row in data:
+                fecha, hip, nro_carrera, hora = row[0], row[1], row[2], row[3]
+                key = (fecha, hip)
+                
+                if nro_carrera is None or nro_carrera == 0:
+                    # Inferir de hora
+                    if hora not in hora_to_nro[key]:
+                        hora_to_nro[key][hora] = len(hora_to_nro[key]) + 1
+                    nro_carrera = hora_to_nro[key][hora]
+                    # Reconstruir tupla con nro_carrera corregido
+                    row = (row[0], row[1], nro_carrera, row[3], row[4], row[5], row[6], row[7], row[8], row[9], row[10])
+                
+                corrected_data.append(row)
+            
+            # Advertir si hubo correcciones
+            if hora_to_nro:
+                for key, horas in hora_to_nro.items():
+                    print(f"   ⚠️ FIX: Inferidos {len(horas)} números de carrera para {key[0]} - {key[1]}")
+            
             self.cursor.executemany('''
                 INSERT OR REPLACE INTO programa_carreras 
                 (fecha, hipodromo, nro_carrera, hora, distancia, condicion, numero, caballo_id, jinete_id, stud_id, peso)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', data)
+            ''', corrected_data)
             self.conn.commit()
-            print(f"   ✅ {len(data)} registros de programa insertados.")
+            print(f"   ✅ {len(corrected_data)} registros de programa insertados.")
         
         return len(data)
 

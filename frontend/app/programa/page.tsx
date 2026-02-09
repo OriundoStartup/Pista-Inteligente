@@ -148,6 +148,8 @@ async function getPredicciones(): Promise<{ carreras: Carrera[], stats: { total_
                 ]
             }
         })
+        // Filtrar carreras inválidas (carrera 0 o null no existen en la realidad)
+        .filter((c: Carrera) => c.carrera && c.carrera > 0)
 
         return {
             carreras: carrerasConPredicciones,
