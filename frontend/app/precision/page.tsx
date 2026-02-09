@@ -303,26 +303,54 @@ function RaceResultCard({ race }: { race: RaceResult }) {
             }}>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
                     <div>
-                        <div style={{ color: 'var(--primary)', marginBottom: '0.25rem', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                        <div style={{ color: 'var(--primary)', marginBottom: '0.5rem', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 600 }}>
                             🤖 IA Predice
                         </div>
-                        <div style={{ color: 'var(--text-main)' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
                             {race.prediccion_top4.slice(0, 4).map((p, i) => (
-                                <span key={i} style={{ display: 'inline-block', marginRight: '0.5rem' }}>
-                                    {i + 1}. {p}
-                                </span>
+                                <div key={i} style={{
+                                    color: 'var(--text-main)',
+                                    fontSize: '0.8rem',
+                                    padding: '0.2rem 0.4rem',
+                                    background: i === 0 ? 'rgba(99, 102, 241, 0.15)' : 'transparent',
+                                    borderRadius: '4px',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: '0.3rem'
+                                }}>
+                                    <span style={{
+                                        color: i === 0 ? 'var(--primary)' : 'var(--text-muted)',
+                                        fontWeight: i === 0 ? 700 : 400,
+                                        minWidth: '1.2rem'
+                                    }}>{i + 1}.</span>
+                                    <span style={{ fontWeight: i === 0 ? 600 : 400 }}>{p}</span>
+                                </div>
                             ))}
                         </div>
                     </div>
                     <div>
-                        <div style={{ color: 'var(--secondary)', marginBottom: '0.25rem', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                        <div style={{ color: 'var(--secondary)', marginBottom: '0.5rem', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 600 }}>
                             🏁 Resultado
                         </div>
-                        <div style={{ color: 'var(--text-main)' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
                             {race.resultado_top4.slice(0, 4).map((r, i) => (
-                                <span key={i} style={{ display: 'inline-block', marginRight: '0.5rem' }}>
-                                    {i + 1}. {r}
-                                </span>
+                                <div key={i} style={{
+                                    color: 'var(--text-main)',
+                                    fontSize: '0.8rem',
+                                    padding: '0.2rem 0.4rem',
+                                    background: i === 0 ? 'rgba(52, 211, 153, 0.15)' : 'transparent',
+                                    borderRadius: '4px',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: '0.3rem'
+                                }}>
+                                    <span style={{
+                                        color: i === 0 ? 'var(--secondary)' : 'var(--text-muted)',
+                                        fontWeight: i === 0 ? 700 : 400,
+                                        minWidth: '1.2rem'
+                                    }}>{i + 1}.</span>
+                                    <span style={{ fontWeight: i === 0 ? 600 : 400 }}>{r}</span>
+                                </div>
                             ))}
                         </div>
                     </div>
