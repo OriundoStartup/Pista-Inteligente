@@ -269,7 +269,8 @@ def upload_to_supabase(stats_global, stats_by_hip, recent_results):
         logger.info("✅ Uploaded stats to Supabase (rendimiento_stats)")
         
         # Upload recent results for detail table
-        for r in recent_results[:50]:
+        # Uploading all results to ensure history is complete in Supabase
+        for r in recent_results:
             rec = {
                 'fecha': r['fecha'],
                 'hipodromo': r['hipodromo'],
