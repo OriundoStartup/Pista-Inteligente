@@ -78,6 +78,7 @@ async function getPerformanceData(): Promise<PerformanceData | null> {
             .from('rendimiento_historico')
             .select('*')
             .order('fecha', { ascending: false })
+            .gte('fecha', '2026-01-01')
             .limit(50)
 
         const races: RaceResult[] = (recentRaces || []).map((r: any) => ({
