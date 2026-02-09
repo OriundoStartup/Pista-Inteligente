@@ -166,26 +166,20 @@ def match_predictions_with_results(predictions_by_race, results_by_race):
         # Calculate hits using normalized names
         ganador_exacto = len(pred_nombres) > 0 and len(actual_nombres) > 0 and pred_nombres[0] == actual_nombres[0]
         
-        # Quiniela: Top 2 preds contain actual 1st and 2nd (any order)
+        # Quiniela: Top 2 preds match actual 1st and 2nd in EXACT ORDER
         quiniela = False
         if len(pred_nombres) >= 2 and len(actual_nombres) >= 2:
-            pred_top2_names = set(pred_nombres[:2])
-            actual_top2_names = set(actual_nombres[:2])
-            quiniela = pred_top2_names == actual_top2_names
+            quiniela = pred_nombres[:2] == actual_nombres[:2]
         
-        # Trifecta: Top 3 preds contain actual 1st, 2nd, 3rd (any order)
+        # Trifecta: Top 3 preds match actual 1st, 2nd, 3rd in EXACT ORDER
         trifecta = False
         if len(pred_nombres) >= 3 and len(actual_nombres) >= 3:
-            pred_top3_names = set(pred_nombres[:3])
-            actual_top3_names = set(actual_nombres[:3])
-            trifecta = pred_top3_names == actual_top3_names
+            trifecta = pred_nombres[:3] == actual_nombres[:3]
         
-        # Superfecta: Top 4 preds contain actual 1st, 2nd, 3rd, 4th (any order)
+        # Superfecta: Top 4 preds match actual 1st, 2nd, 3rd, 4th in EXACT ORDER
         superfecta = False
         if len(pred_nombres) >= 4 and len(actual_nombres) >= 4:
-            pred_top4_names = set(pred_nombres[:4])
-            actual_top4_names = set(actual_nombres[:4])
-            superfecta = pred_top4_names == actual_top4_names
+            superfecta = pred_nombres[:4] == actual_nombres[:4]
         
         # Get display names (original case)
         pred_display = [p.get('caballo', '') for p in pred_top4]
