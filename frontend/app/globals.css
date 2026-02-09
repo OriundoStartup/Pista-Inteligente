@@ -934,3 +934,41 @@ body {
         font-size: 0.75rem;
     }
 }
+
+/* ================= PRECISION PAGE RESPONSIVE ================= */
+@media (max-width: 768px) {
+    /* Race cards mobile */
+    .race-card {
+        padding: 0.875rem !important;
+    }
+    
+    /* Stats grid mobile - 2 columns */
+    .stats-container {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 0.5rem !important;
+    }
+    
+    /* Hits grid in race cards - smaller padding */
+    .hit-box {
+        padding: 0.375rem !important;
+    }
+    
+    /* Accordion summary mobile */
+    details summary {
+        padding: 0.75rem 0.875rem !important;
+        flex-wrap: wrap;
+    }
+    
+    /* Hipodromo list mobile */
+    .hipodromo-list {
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Stack prediction/result comparison */
+    .comparison-grid {
+        grid-template-columns: 1fr !important;
+        gap: 0.5rem !important;
+    }
+}
