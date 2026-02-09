@@ -78,7 +78,7 @@ async function getPerformanceData(): Promise<PerformanceData | null> {
             .from('rendimiento_historico')
             .select('*')
             .order('fecha', { ascending: false })
-            .limit(30)
+            .limit(50)
 
         const races: RaceResult[] = (recentRaces || []).map((r: any) => ({
             fecha: r.fecha,
@@ -191,30 +191,143 @@ function HipodromoCard({ name, stats }: { name: string, stats: StatsData }) {
     )
 }
 
-function RaceResultRow({ race }: { race: RaceResult }) {
+
+function RaceResultCard({ race }: { race: RaceResult }) {
     const formatDate = (fecha: string) => {
         const d = new Date(fecha + 'T12:00:00')
-        return d.toLocaleDateString('es-CL', { day: '2-digit', month: 'short' })
+        return d.toLocaleDateString('es-CL', { day: '2-digit', month: 'short', year: 'numeric' })
     }
 
-    const getShortName = (hip: string) => {
-        if (hip.includes('Hipódromo Chile')) return 'H. Chile'
-        if (hip.includes('Club Hípico de Santiago')) return 'C. Hípico'
-        if (hip.includes('Valparaíso')) return 'Valparaíso'
-        if (hip.includes('Concepción')) return 'Concepción'
-        return hip.substring(0, 12)
+    const getIcon = (hip: string) => {
+        if (hip.includes('Chile')) return '🏇'
+        if (hip.includes('Club')) return '🏛️'
+        if (hip.includes('Valparaíso')) return '🌊'
+        if (hip.includes('Concepción')) return '🌲'
+        return '🏇'
     }
 
     return (
-        <tr>
-            <td style={{ whiteSpace: 'nowrap' }}>{formatDate(race.fecha)}</td>
-            <td className="hide-mobile">{getShortName(race.hipodromo)}</td>
-            <td style={{ textAlign: 'center' }}>C{race.nro_carrera}</td>
-            <td style={{ textAlign: 'center' }}>{race.acierto_ganador ? '✅' : '❌'}</td>
-            <td style={{ textAlign: 'center' }}>{race.acierto_quiniela ? '✅' : '❌'}</td>
-            <td style={{ textAlign: 'center' }} className="hide-mobile">{race.acierto_trifecta ? '✅' : '❌'}</td>
-            <td style={{ textAlign: 'center' }} className="hide-mobile">{race.acierto_superfecta ? '✅' : '❌'}</td>
-        </tr>
+        <div className="glass-card race-card" style={{
+            padding: '1.25rem',
+            marginBottom: '1rem',
+            borderLeft: race.acierto_ganador ? '4px solid #FFD700' : '4px solid transparent',
+            background: 'rgba(255, 255, 255, 0.03)'
+        }}>
+            {/* Header */}
+            <div style={{
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                marginBottom: '1rem',
+                borderBottom: '1px solid rgba(255,255,255,0.05)',
+                paddingBottom: '0.75rem'
+            }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <span style={{ fontSize: '1.2rem' }}>{getIcon(race.hipodromo)}</span>
+                    <div>
+                        <div style={{ fontWeight: 700, fontSize: '0.95rem', color: 'var(--text-main)' }}>
+                            {race.hipodromo}
+                        </div>
+                        <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
+                            {formatDate(race.fecha)} • Carrera {race.nro_carrera}
+                        </div>
+                    </div>
+                </div>
+                {race.acierto_ganador && (
+                    <span className="badge" style={{
+                        background: 'rgba(255, 215, 0, 0.1)',
+                        color: '#FFD700',
+                        padding: '0.25rem 0.5rem',
+                        borderRadius: '4px',
+                        fontSize: '0.75rem',
+                        border: '1px solid rgba(255, 215, 0, 0.2)'
+                    }}>
+                        WINNER!
+                    </span>
+                )}
+            </div>
+
+            {/* Hits Grid */}
+            <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(4, 1fr)',
+                gap: '0.5rem',
+                marginBottom: '1rem',
+                textAlign: 'center'
+            }}>
+                <div className={`hit-box ${race.acierto_ganador ? 'hit' : ''}`} style={{
+                    padding: '0.5rem',
+                    borderRadius: '8px',
+                    background: race.acierto_ganador ? 'rgba(255, 215, 0, 0.1)' : 'rgba(255,255,255,0.02)',
+                    border: race.acierto_ganador ? '1px solid rgba(255, 215, 0, 0.3)' : '1px solid rgba(255,255,255,0.05)'
+                }}>
+                    <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginBottom: '0.2rem' }}>Ganador</div>
+                    <div style={{ fontSize: '1.1rem' }}>{race.acierto_ganador ? '✅' : '❌'}</div>
+                </div>
+                <div className={`hit-box ${race.acierto_quiniela ? 'hit' : ''}`} style={{
+                    padding: '0.5rem',
+                    borderRadius: '8px',
+                    background: race.acierto_quiniela ? 'rgba(192, 192, 192, 0.1)' : 'rgba(255,255,255,0.02)',
+                    border: race.acierto_quiniela ? '1px solid rgba(192, 192, 192, 0.3)' : '1px solid rgba(255,255,255,0.05)'
+                }}>
+                    <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginBottom: '0.2rem' }}>Quiniela</div>
+                    <div style={{ fontSize: '1.1rem' }}>{race.acierto_quiniela ? '✅' : '❌'}</div>
+                </div>
+                <div className={`hit-box ${race.acierto_trifecta ? 'hit' : ''}`} style={{
+                    padding: '0.5rem',
+                    borderRadius: '8px',
+                    background: race.acierto_trifecta ? 'rgba(205, 127, 50, 0.1)' : 'rgba(255,255,255,0.02)',
+                    border: race.acierto_trifecta ? '1px solid rgba(205, 127, 50, 0.3)' : '1px solid rgba(255,255,255,0.05)'
+                }}>
+                    <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginBottom: '0.2rem' }}>Trifecta</div>
+                    <div style={{ fontSize: '1.1rem' }}>{race.acierto_trifecta ? '✅' : '❌'}</div>
+                </div>
+                <div className={`hit-box ${race.acierto_superfecta ? 'hit' : ''}`} style={{
+                    padding: '0.5rem',
+                    borderRadius: '8px',
+                    background: race.acierto_superfecta ? 'rgba(99, 102, 241, 0.1)' : 'rgba(255,255,255,0.02)',
+                    border: race.acierto_superfecta ? '1px solid rgba(99, 102, 241, 0.3)' : '1px solid rgba(255,255,255,0.05)'
+                }}>
+                    <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginBottom: '0.2rem' }}>Super</div>
+                    <div style={{ fontSize: '1.1rem' }}>{race.acierto_superfecta ? '✅' : '❌'}</div>
+                </div>
+            </div>
+
+            {/* Comparison Details */}
+            <div style={{
+                background: 'rgba(0,0,0,0.2)',
+                borderRadius: '8px',
+                padding: '0.75rem',
+                fontSize: '0.85rem'
+            }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                    <div>
+                        <div style={{ color: 'var(--primary)', marginBottom: '0.25rem', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                            🤖 IA Predice
+                        </div>
+                        <div style={{ color: 'var(--text-main)' }}>
+                            {race.prediccion_top4.slice(0, 4).map((p, i) => (
+                                <span key={i} style={{ display: 'inline-block', marginRight: '0.5rem' }}>
+                                    {i + 1}. {p}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+                    <div>
+                        <div style={{ color: 'var(--secondary)', marginBottom: '0.25rem', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                            🏁 Resultado
+                        </div>
+                        <div style={{ color: 'var(--text-main)' }}>
+                            {race.resultado_top4.slice(0, 4).map((r, i) => (
+                                <span key={i} style={{ display: 'inline-block', marginRight: '0.5rem' }}>
+                                    {i + 1}. {r}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     )
 }
 
@@ -313,42 +426,32 @@ export default async function PrecisionPage() {
                 </div>
             </div>
 
-            {/* Recent Races Table */}
-            <div className="glass-card" style={{ marginBottom: '2rem', padding: '1.5rem' }}>
-                <div className="section-title" style={{ marginBottom: '1rem' }}>
-                    📋 Últimas Carreras Verificadas
+            {/* Recent Races Cards */}
+            <div style={{ marginBottom: '2rem' }}>
+                <div className="section-title" style={{ marginBottom: '1rem', paddingLeft: '0.5rem' }}>
+                    📋 Últimas Carreras Verificadas (2026)
                 </div>
 
-                <div className="table-container" style={{ overflowX: 'auto' }}>
-                    <table className="modern-table" style={{ width: '100%', fontSize: '0.9rem' }}>
-                        <thead>
-                            <tr>
-                                <th>Fecha</th>
-                                <th className="hide-mobile">Hipódromo</th>
-                                <th style={{ textAlign: 'center' }}>Carrera</th>
-                                <th style={{ textAlign: 'center' }}>🥇</th>
-                                <th style={{ textAlign: 'center' }}>🎯</th>
-                                <th style={{ textAlign: 'center' }} className="hide-mobile">🏆</th>
-                                <th style={{ textAlign: 'center' }} className="hide-mobile">⭐</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {data.recent_races.slice(0, 20).map((race, idx) => (
-                                <RaceResultRow key={`${race.fecha}-${race.hipodromo}-${race.nro_carrera}`} race={race} />
-                            ))}
-                        </tbody>
-                    </table>
+                <div className="races-grid" style={{
+                    display: 'grid',
+                    gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+                    gap: '1rem'
+                }}>
+                    {data.recent_races.slice(0, 50).map((race, idx) => (
+                        <RaceResultCard key={`${race.fecha}-${race.hipodromo}-${race.nro_carrera}`} race={race} />
+                    ))}
                 </div>
 
                 <div style={{
                     marginTop: '1rem',
-                    padding: '0.75rem',
+                    padding: '1rem',
                     background: 'rgba(255,255,255,0.05)',
-                    borderRadius: '8px',
-                    textAlign: 'center'
+                    borderRadius: '12px',
+                    textAlign: 'center',
+                    border: '1px solid rgba(255,255,255,0.1)'
                 }}>
-                    <span style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>
-                        🥇 = Ganador Exacto | 🎯 = Quiniela | 🏆 = Trifecta | ⭐ = Superfecta
+                    <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>
+                        Mostrando las últimas 50 carreras verificadas.
                     </span>
                 </div>
             </div>
@@ -434,3 +537,4 @@ export default async function PrecisionPage() {
         </>
     )
 }
+

@@ -232,7 +232,7 @@ def save_stats_json(stats_global, stats_by_hip, recent_results):
             'all_time': stats_global
         },
         'by_hipodromo': stats_by_hip,
-        'recent_races': recent_results[:30]  # Last 30 races for detail table
+        'recent_races': recent_results[:50]  # Last 50 races for detail table
     }
     
     os.makedirs('data', exist_ok=True)
@@ -279,17 +279,17 @@ def upload_to_supabase(stats_global, stats_by_hip, recent_results):
                 'acierto_quiniela': r['acierto_quiniela'],
                 'acierto_trifecta': r['acierto_trifecta'],
                 'acierto_superfecta': r['acierto_superfecta'],
-                'prediccion_top4': json.dumps(r['prediccion_top4'], ensure_ascii=False),
-                'resultado_top4': json.dumps(r['resultado_top4'], ensure_ascii=False)
+                'prediccion_top4': r['prediccion_top4'],  # Pass list directly, client handles JSON
+                'resultado_top4': r['resultado_top4']
             }
             try:
                 client.table('rendimiento_historico').upsert(
                     rec, on_conflict='fecha,hipodromo,nro_carrera'
                 ).execute()
             except Exception as e:
-                logger.debug(f"Skipping duplicate: {e}")
+                logger.error(f"Failed to upload record {rec['fecha']} {rec['hipodromo']}: {e}")
         
-        logger.info("✅ Uploaded recent results to Supabase (rendimiento_historico)")
+        logger.info(f"✅ Uploaded {len(recent_results)} records to Supabase (rendimiento_historico)")
         
     except Exception as e:
         if 'PGRST205' in str(e) or 'schema cache' in str(e):
