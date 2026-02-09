@@ -84,101 +84,138 @@ function HitCard({ race }: { race: HitRace }) {
     let hitType = 'Ganador';
     let horsesToShow = 1;
     let badgeColor = '#10b981'; // Default Emerald/Green
+    let gradientBg = 'linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(16, 185, 129, 0.05) 100%)';
     let label = '🥇 GANADOR';
+    let icon = '🥇';
 
     if (race.acierto_superfecta) {
         hitType = 'Superfecta';
         horsesToShow = 4;
         badgeColor = '#d946ef'; // Fuchsia/Purple
+        gradientBg = 'linear-gradient(135deg, rgba(217, 70, 239, 0.2) 0%, rgba(217, 70, 239, 0.05) 100%)';
         label = '⭐ SUPERFECTA';
+        icon = '⭐';
     } else if (race.acierto_trifecta) {
         hitType = 'Trifecta';
         horsesToShow = 3;
         badgeColor = '#f59e0b'; // Amber/Orange
+        gradientBg = 'linear-gradient(135deg, rgba(245, 158, 11, 0.15) 0%, rgba(245, 158, 11, 0.05) 100%)';
         label = '🏆 TRIFECTA';
+        icon = '🏆';
     } else if (race.acierto_quiniela) {
         hitType = 'Quiniela';
         horsesToShow = 2;
         badgeColor = '#3b82f6'; // Blue
+        gradientBg = 'linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(59, 130, 246, 0.05) 100%)';
         label = '🎯 QUINIELA';
+        icon = '🎯';
     }
 
     const horses = (race.prediccion_top4 || []).slice(0, horsesToShow);
 
     // Format Date
     const dateObj = new Date(race.fecha + 'T12:00:00');
-    const dateStr = dateObj.toLocaleDateString('es-CL', { day: 'numeric', month: 'short' });
+    const dateStr = dateObj.toLocaleDateString('es-CL', { day: 'numeric', month: 'long' });
 
     return (
         <div className="glass-card" style={{
-            padding: '1.25rem',
+            padding: 0,
             position: 'relative',
             overflow: 'hidden',
-            borderTop: `4px solid ${badgeColor}`,
+            border: `1px solid ${badgeColor}40`,
             height: '100%',
             display: 'flex',
-            flexDirection: 'column'
+            flexDirection: 'column',
+            background: 'rgba(30, 41, 59, 0.6)',
+            boxShadow: `0 10px 30px -10px ${badgeColor}20`
         }}>
             {/* Header: Badge & Date */}
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-                <span style={{
-                    backgroundColor: `${badgeColor}20`,
-                    color: badgeColor,
-                    padding: '0.25rem 0.75rem',
-                    borderRadius: '20px',
-                    fontSize: '0.75rem',
-                    fontWeight: 700,
-                    border: `1px solid ${badgeColor}40`
-                }}>
-                    {label}
-                </span>
-                <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>{dateStr}</span>
+            <div style={{
+                padding: '1rem',
+                background: gradientBg,
+                borderBottom: `1px solid ${badgeColor}20`,
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center'
+            }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <span style={{ fontSize: '1.2rem' }}>{icon}</span>
+                    <span style={{
+                        color: typeof badgeColor === 'string' ? badgeColor : 'white',
+                        fontWeight: 800,
+                        fontSize: '0.9rem',
+                        letterSpacing: '0.5px',
+                        textTransform: 'uppercase'
+                    }}>
+                        {hitType}
+                    </span>
+                </div>
+                <span style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.7)', fontWeight: 500 }}>{dateStr}</span>
             </div>
 
             {/* Content: Horses */}
-            <div style={{ marginBottom: '1rem', flex: 1 }}>
-                <div style={{ fontSize: '0.75rem', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: '0.5rem' }}>
-                    {horsesToShow > 1 ? 'Combinación Ganadora:' : 'Caballo Ganador:'}
+            <div style={{ padding: '1.25rem', flex: 1 }}>
+                <div style={{
+                    fontSize: '0.7rem',
+                    textTransform: 'uppercase',
+                    color: 'var(--text-muted)',
+                    marginBottom: '0.75rem',
+                    letterSpacing: '1px',
+                    fontWeight: 600
+                }}>
+                    {horsesToShow > 1 ? 'Combinación Ganadora' : 'Caballo Ganador'}
                 </div>
-                {horses.map((horse, idx) => (
-                    <div key={idx} style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '0.5rem',
-                        marginBottom: '0.35rem',
-                        fontSize: '0.9rem',
-                        color: 'var(--text-main)',
-                        fontWeight: idx === 0 ? 600 : 400
-                    }}>
-                        <span style={{
-                            width: '20px',
-                            height: '20px',
-                            minWidth: '20px',
-                            borderRadius: '50%',
-                            backgroundColor: 'rgba(255,255,255,0.1)',
+
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                    {horses.map((horse, idx) => (
+                        <div key={idx} style={{
                             display: 'flex',
                             alignItems: 'center',
-                            justifyContent: 'center',
-                            fontSize: '0.7rem',
-                            color: 'var(--text-muted)'
-                        }}>{idx + 1}</span>
-                        <span style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{horse}</span>
-                    </div>
-                ))}
+                            gap: '0.75rem',
+                            padding: '0.5rem',
+                            borderRadius: '8px',
+                            background: idx === 0 ? `linear-gradient(90deg, ${badgeColor}15, transparent)` : 'transparent',
+                            borderLeft: idx === 0 ? `3px solid ${badgeColor}` : '3px solid transparent'
+                        }}>
+                            <span style={{
+                                width: '24px',
+                                height: '24px',
+                                borderRadius: '50%',
+                                backgroundColor: idx === 0 ? badgeColor : 'rgba(255,255,255,0.1)',
+                                color: idx === 0 ? '#000' : 'var(--text-muted)',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                fontSize: '0.75rem',
+                                fontWeight: 700
+                            }}>{idx + 1}</span>
+                            <span style={{
+                                color: idx === 0 ? 'white' : 'var(--text-main)',
+                                fontWeight: idx === 0 ? 700 : 400,
+                                fontSize: '0.95rem'
+                            }}>{horse}</span>
+                        </div>
+                    ))}
+                </div>
             </div>
 
             {/* Footer: Context */}
             <div style={{
-                borderTop: '1px solid rgba(255,255,255,0.1)',
-                paddingTop: '0.75rem',
+                padding: '0.75rem 1.25rem',
+                background: 'rgba(0,0,0,0.2)',
+                borderTop: '1px solid rgba(255,255,255,0.05)',
                 fontSize: '0.8rem',
                 color: 'var(--text-muted)',
                 display: 'flex',
                 justifyContent: 'space-between',
                 marginTop: 'auto'
             }}>
-                <span style={{ fontWeight: 500 }}>{race.hipodromo}</span>
-                <span>Carrera {race.nro_carrera}</span>
+                <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+                    🏟️ <span style={{ fontWeight: 500 }}>{race.hipodromo}</span>
+                </span>
+                <span style={{ background: 'rgba(255,255,255,0.1)', padding: '0.1rem 0.5rem', borderRadius: '4px' }}>
+                    Carrera {race.nro_carrera}
+                </span>
             </div>
         </div>
     )
