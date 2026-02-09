@@ -455,21 +455,136 @@ export default async function PrecisionPage() {
                 </div>
             </div>
 
-            {/* Recent Races Cards */}
+            {/* Recent Races by Hipódromo (Accordion) */}
             <div style={{ marginBottom: '2rem' }}>
                 <div className="section-title" style={{ marginBottom: '1rem', paddingLeft: '0.5rem' }}>
                     📋 Últimas Carreras Verificadas (2026)
                 </div>
 
-                <div className="races-grid" style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
-                    gap: '1rem'
-                }}>
-                    {data.recent_races.slice(0, 50).map((race, idx) => (
-                        <RaceResultCard key={`${race.fecha}-${race.hipodromo}-${race.nro_carrera}`} race={race} />
-                    ))}
-                </div>
+                {(() => {
+                    // Group races by hipódromo
+                    const racesByHipodromo: { [key: string]: RaceResult[] } = {}
+                    data.recent_races.forEach(race => {
+                        if (!racesByHipodromo[race.hipodromo]) {
+                            racesByHipodromo[race.hipodromo] = []
+                        }
+                        racesByHipodromo[race.hipodromo].push(race)
+                    })
+
+                    // Sort hipódromos by most recent race date
+                    const sortedHipodromos = Object.entries(racesByHipodromo)
+                        .sort((a, b) => {
+                            const latestA = a[1][0]?.fecha || ''
+                            const latestB = b[1][0]?.fecha || ''
+                            return latestB.localeCompare(latestA)
+                        })
+
+                    const getIcon = (hip: string) => {
+                        if (hip.includes('Chile')) return '🏇'
+                        if (hip.includes('Club')) return '🏛️'
+                        if (hip.includes('Valparaíso')) return '🌊'
+                        if (hip.includes('Concepción')) return '🌲'
+                        return '🏇'
+                    }
+
+                    return sortedHipodromos.map(([hipodromo, races]) => {
+                        // Sort races by date desc, then by race number
+                        const sortedRaces = [...races].sort((a, b) => {
+                            const dateCompare = b.fecha.localeCompare(a.fecha)
+                            if (dateCompare !== 0) return dateCompare
+                            return a.nro_carrera - b.nro_carrera
+                        })
+
+                        // Group by date
+                        const racesByDate: { [key: string]: RaceResult[] } = {}
+                        sortedRaces.forEach(race => {
+                            if (!racesByDate[race.fecha]) {
+                                racesByDate[race.fecha] = []
+                            }
+                            racesByDate[race.fecha].push(race)
+                        })
+
+                        const sortedDates = Object.keys(racesByDate).sort((a, b) => b.localeCompare(a))
+
+                        // Calculate stats for this hipódromo
+                        const totalRaces = races.length
+                        const ganadorCount = races.filter(r => r.acierto_ganador).length
+                        const ganadorPct = totalRaces > 0 ? Math.round((ganadorCount / totalRaces) * 100) : 0
+
+                        return (
+                            <details key={hipodromo} className="glass-card" style={{ marginBottom: '1rem' }} open>
+                                <summary style={{
+                                    cursor: 'pointer',
+                                    padding: '1rem 1.25rem',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: '0.75rem',
+                                    listStyle: 'none',
+                                    userSelect: 'none'
+                                }}>
+                                    <span style={{ fontSize: '1.5rem' }}>{getIcon(hipodromo)}</span>
+                                    <div style={{ flex: 1 }}>
+                                        <div style={{ fontWeight: 700, color: 'var(--text-main)', fontSize: '1.1rem' }}>
+                                            {hipodromo}
+                                        </div>
+                                        <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
+                                            {totalRaces} carreras • {ganadorPct}% ganador exacto
+                                        </div>
+                                    </div>
+                                    <div style={{
+                                        background: 'rgba(99, 102, 241, 0.15)',
+                                        color: 'var(--primary)',
+                                        padding: '0.25rem 0.75rem',
+                                        borderRadius: '20px',
+                                        fontSize: '0.8rem',
+                                        fontWeight: 600
+                                    }}>
+                                        {ganadorCount} ✓
+                                    </div>
+                                    <span style={{ fontSize: '1.2rem', color: 'var(--text-muted)' }}>▼</span>
+                                </summary>
+
+                                <div style={{ padding: '0 1rem 1rem' }}>
+                                    {sortedDates.map(fecha => {
+                                        const dateRaces = racesByDate[fecha]
+                                        const d = new Date(fecha + 'T12:00:00')
+                                        const formattedDate = d.toLocaleDateString('es-CL', {
+                                            weekday: 'long',
+                                            day: 'numeric',
+                                            month: 'long',
+                                            year: 'numeric'
+                                        })
+
+                                        return (
+                                            <div key={fecha} style={{ marginBottom: '1rem' }}>
+                                                <div style={{
+                                                    color: 'var(--text-muted)',
+                                                    fontSize: '0.85rem',
+                                                    fontWeight: 600,
+                                                    textTransform: 'capitalize',
+                                                    marginBottom: '0.5rem',
+                                                    paddingBottom: '0.25rem',
+                                                    borderBottom: '1px solid rgba(255,255,255,0.1)'
+                                                }}>
+                                                    📅 {formattedDate}
+                                                </div>
+                                                <div style={{
+                                                    display: 'grid',
+                                                    gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+                                                    gap: '0.75rem'
+                                                }}>
+                                                    {dateRaces.map(race => (
+                                                        <RaceResultCard key={`${race.fecha}-${race.nro_carrera}`} race={race} />
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        )
+                                    })}
+                                </div>
+                            </details>
+                        )
+                    })
+                })()}
 
                 <div style={{
                     marginTop: '1rem',
@@ -480,7 +595,7 @@ export default async function PrecisionPage() {
                     border: '1px solid rgba(255,255,255,0.1)'
                 }}>
                     <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-                        Mostrando las últimas 50 carreras verificadas.
+                        Mostrando carreras verificadas de 2026
                     </span>
                 </div>
             </div>
