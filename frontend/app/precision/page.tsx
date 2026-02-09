@@ -301,7 +301,7 @@ function RaceResultCard({ race }: { race: RaceResult }) {
                 padding: '0.75rem',
                 fontSize: '0.85rem'
             }}>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                <div className="comparison-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
                     <div>
                         <div style={{ color: 'var(--primary)', marginBottom: '0.5rem', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 600 }}>
                             🤖 IA Predice
@@ -678,7 +678,62 @@ export default async function PrecisionPage() {
                     <BotonQuinela linkPago="https://link.mercadopago.cl/pistainteligente" />
                 </div>
             </div>
+
+            {/* Mobile Responsive Styles */}
+            <style jsx>{`
+                @media (max-width: 768px) {
+                    /* Global mobile adjustments */
+                    :global(.glass-card) {
+                        padding: 0.75rem !important;
+                        margin-bottom: 0.75rem !important;
+                    }
+                    
+                    /* Race cards mobile */
+                    :global(.race-card) {
+                        padding: 0.875rem !important;
+                    }
+                    
+                    /* Stats grid mobile */
+                    :global(.stats-container) {
+                        grid-template-columns: repeat(2, 1fr) !important;
+                        gap: 0.5rem !important;
+                    }
+                    
+                    /* Hits grid in race cards - 2x2 on mobile */
+                    :global(.hit-box) {
+                        padding: 0.375rem !important;
+                    }
+                    
+                    /* Accordion summary mobile */
+                    details summary {
+                        padding: 0.75rem 0.875rem !important;
+                        flex-wrap: wrap;
+                    }
+                    
+                    /* Hipodromo list mobile */
+                    :global(.hipodromo-list) {
+                        flex-direction: column !important;
+                    }
+                }
+
+                @media (max-width: 480px) {
+                    /* Smaller phones */
+                    :global(.glass-card) {
+                        border-radius: 12px !important;
+                    }
+                    
+                    /* Stack prediction/result comparison */
+                    :global(.comparison-grid) {
+                        grid-template-columns: 1fr !important;
+                        gap: 0.5rem !important;
+                    }
+                    
+                    /* Smaller text on very small screens */
+                    :global(.section-title) {
+                        font-size: 1rem !important;
+                    }
+                }
+            `}</style>
         </>
     )
 }
-
