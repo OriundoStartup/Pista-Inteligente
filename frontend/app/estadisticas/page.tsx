@@ -9,6 +9,41 @@ export const metadata: Metadata = {
 // ISR: Revalidar cada 10 minutos
 export const revalidate = 600
 
+interface HitRace {
+    fecha: string;
+    hipodromo: string;
+    nro_carrera: number;
+    acierto_ganador: boolean;
+    acierto_quiniela: boolean;
+    acierto_trifecta: boolean;
+    acierto_superfecta: boolean;
+    prediccion_top4: string[];
+}
+
+async function getRecentHits2026(): Promise<HitRace[]> {
+    const supabase = await createClient()
+
+    const { data, error } = await supabase
+        .from('rendimiento_historico')
+        .select('fecha, hipodromo, nro_carrera, acierto_ganador, acierto_quiniela, acierto_trifecta, acierto_superfecta, prediccion_top4')
+        .gte('fecha', '2026-01-01')
+        .or('acierto_ganador.eq.true,acierto_quiniela.eq.true,acierto_trifecta.eq.true,acierto_superfecta.eq.true')
+        .order('fecha', { ascending: false })
+        .limit(30)
+
+    if (error) {
+        console.error("Error fetching hits:", error);
+        return [];
+    }
+
+    return (data || []).map((row: any) => ({
+        ...row,
+        prediccion_top4: typeof row.prediccion_top4 === 'string'
+            ? JSON.parse(row.prediccion_top4)
+            : row.prediccion_top4
+    }));
+}
+
 async function getEstadisticas() {
     const supabase = await createClient()
     try {
@@ -44,14 +79,122 @@ async function getEstadisticas() {
     }
 }
 
+function HitCard({ race }: { race: HitRace }) {
+    // Logic to determine priority hit type
+    let hitType = 'Ganador';
+    let horsesToShow = 1;
+    let badgeColor = '#10b981'; // Default Emerald/Green
+    let label = '🥇 GANADOR';
+
+    if (race.acierto_superfecta) {
+        hitType = 'Superfecta';
+        horsesToShow = 4;
+        badgeColor = '#d946ef'; // Fuchsia/Purple
+        label = '⭐ SUPERFECTA';
+    } else if (race.acierto_trifecta) {
+        hitType = 'Trifecta';
+        horsesToShow = 3;
+        badgeColor = '#f59e0b'; // Amber/Orange
+        label = '🏆 TRIFECTA';
+    } else if (race.acierto_quiniela) {
+        hitType = 'Quiniela';
+        horsesToShow = 2;
+        badgeColor = '#3b82f6'; // Blue
+        label = '🎯 QUINIELA';
+    }
+
+    const horses = (race.prediccion_top4 || []).slice(0, horsesToShow);
+
+    // Format Date
+    const dateObj = new Date(race.fecha + 'T12:00:00');
+    const dateStr = dateObj.toLocaleDateString('es-CL', { day: 'numeric', month: 'short' });
+
+    return (
+        <div className="glass-card" style={{
+            padding: '1.25rem',
+            position: 'relative',
+            overflow: 'hidden',
+            borderTop: `4px solid ${badgeColor}`,
+            height: '100%',
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
+            {/* Header: Badge & Date */}
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+                <span style={{
+                    backgroundColor: `${badgeColor}20`,
+                    color: badgeColor,
+                    padding: '0.25rem 0.75rem',
+                    borderRadius: '20px',
+                    fontSize: '0.75rem',
+                    fontWeight: 700,
+                    border: `1px solid ${badgeColor}40`
+                }}>
+                    {label}
+                </span>
+                <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>{dateStr}</span>
+            </div>
+
+            {/* Content: Horses */}
+            <div style={{ marginBottom: '1rem', flex: 1 }}>
+                <div style={{ fontSize: '0.75rem', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: '0.5rem' }}>
+                    {horsesToShow > 1 ? 'Combinación Ganadora:' : 'Caballo Ganador:'}
+                </div>
+                {horses.map((horse, idx) => (
+                    <div key={idx} style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.5rem',
+                        marginBottom: '0.35rem',
+                        fontSize: '0.9rem',
+                        color: 'var(--text-main)',
+                        fontWeight: idx === 0 ? 600 : 400
+                    }}>
+                        <span style={{
+                            width: '20px',
+                            height: '20px',
+                            minWidth: '20px',
+                            borderRadius: '50%',
+                            backgroundColor: 'rgba(255,255,255,0.1)',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            fontSize: '0.7rem',
+                            color: 'var(--text-muted)'
+                        }}>{idx + 1}</span>
+                        <span style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{horse}</span>
+                    </div>
+                ))}
+            </div>
+
+            {/* Footer: Context */}
+            <div style={{
+                borderTop: '1px solid rgba(255,255,255,0.1)',
+                paddingTop: '0.75rem',
+                fontSize: '0.8rem',
+                color: 'var(--text-muted)',
+                display: 'flex',
+                justifyContent: 'space-between',
+                marginTop: 'auto'
+            }}>
+                <span style={{ fontWeight: 500 }}>{race.hipodromo}</span>
+                <span>Carrera {race.nro_carrera}</span>
+            </div>
+        </div>
+    )
+}
+
 export default async function EstadisticasPage() {
-    const stats = await getEstadisticas()
+    const statsPromise = getEstadisticas()
+    const recentHitsPromise = getRecentHits2026()
+
+    const [stats, recentHits] = await Promise.all([statsPromise, recentHitsPromise])
 
     return (
         <>
             {/* Header */}
             <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-                <h1 style={{ fontSize: '2.5rem', color: 'var(--text-main)', marginBottom: '0.5rem', fontWeight: 800 }}>
+                <h1 style={{ fontSize: 'clamp(2rem, 5vw, 2.5rem)', color: 'var(--text-main)', marginBottom: '0.5rem', fontWeight: 800 }}>
                     📈 Estadísticas del Sistema
                 </h1>
                 <p style={{ color: 'var(--text-muted)', fontSize: '1.2rem', maxWidth: '800px', margin: '0 auto' }}>
@@ -93,6 +236,30 @@ export default async function EstadisticasPage() {
                     </div>
                 </div>
             </div>
+
+            {/* Recent Hits 2026 Section */}
+            {recentHits.length > 0 && (
+                <div className="glass-card" style={{ marginBottom: '2rem', background: 'linear-gradient(145deg, rgba(16, 185, 129, 0.05), rgba(15, 23, 42, 0.4))' }}>
+                    <div className="section-title" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                        <span>✨ Últimos Aciertos 2026</span>
+                        <span className="badge" style={{ fontSize: '0.8rem', background: 'var(--primary)', color: '#000', padding: '0.1rem 0.5rem', borderRadius: '10px' }}>Verificados</span>
+                    </div>
+
+                    <div style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+                        gap: '1.5rem',
+                        marginTop: '1.5rem'
+                    }}>
+                        {recentHits.map((hit) => (
+                            <HitCard
+                                key={`${hit.fecha}-${hit.hipodromo}-${hit.nro_carrera}-${hit.acierto_superfecta}-${hit.acierto_trifecta}`}
+                                race={hit}
+                            />
+                        ))}
+                    </div>
+                </div>
+            )}
 
             {/* Hipódromos */}
             <div className="glass-card" style={{ marginBottom: '2rem' }}>
