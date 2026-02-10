@@ -1,0 +1,98 @@
+2026-02-09 17:41:27,747 - INFO - ============================================================
+2026-02-09 17:41:27,747 - INFO - CALCULATING PERFORMANCE METRICS (Supabase + SQLite)
+2026-02-09 17:41:27,747 - INFO - ============================================================
+2026-02-09 17:41:27,748 - INFO - 
+[1/4] Fetching predictions from Supabase...
+2026-02-09 17:41:29,284 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?select=%2A%2Ccarreras%21inner%28numero%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29%29 "HTTP/2 200 OK"
+2026-02-09 17:41:29,331 - INFO - Fetched 1000 predictions from Supabase (78 races)
+2026-02-09 17:41:29,331 - INFO - 
+[2/4] Fetching results from SQLite...
+2026-02-09 17:41:29,338 - INFO - Fetched results for 637 races from SQLite
+2026-02-09 17:41:29,338 - INFO - 
+[3/4] Matching predictions with results...
+2026-02-09 17:41:29,339 - INFO - Found 68 races with both predictions and results
+2026-02-09 17:41:29,339 - INFO - 
+[4/4] Calculating stats...
+2026-02-09 17:41:29,339 - INFO - Global: Ganador 2.9%, Quiniela 0.0%, Trifecta 0.0%, Superfecta 0.0%
+2026-02-09 17:41:29,339 - INFO -   Hip¾dromo Chile: 32 races, Ganador 6.2%
+2026-02-09 17:41:29,339 - INFO -   Club HÝpico de Santiago: 19 races, Ganador 0.0%
+2026-02-09 17:41:29,339 - INFO -   ValparaÝso Sporting: 17 races, Ganador 0.0%
+2026-02-09 17:41:29,339 - INFO - 
+Saving results...
+2026-02-09 17:41:29,343 - INFO - Saved 68 records to rendimiento_historico
+2026-02-09 17:41:29,345 - INFO - Saved stats to data/rendimiento_stats.json
+2026-02-09 17:41:29,525 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_stats?on_conflict=id "HTTP/2 200 OK"
+2026-02-09 17:41:29,526 - INFO - Uploaded stats to Supabase (rendimiento_stats)
+2026-02-09 17:41:29,703 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:29,870 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:30,041 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:30,215 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:30,400 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:30,596 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:30,782 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:30,953 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:31,126 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:31,302 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:31,470 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:31,634 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:31,806 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:31,975 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:32,147 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:32,318 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:32,481 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:32,648 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:32,816 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:32,981 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:33,142 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:33,317 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:33,487 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:33,643 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:33,812 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:33,983 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:34,149 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:34,312 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:34,490 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:34,667 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:34,842 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:35,018 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:35,181 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:35,341 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:35,505 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:35,665 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:35,847 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:36,012 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:36,174 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:36,338 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:36,502 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:36,663 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:36,831 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:36,998 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:37,160 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:37,339 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:37,502 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:37,674 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:37,837 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:37,996 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:38,163 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:38,322 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:38,498 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:38,673 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:38,855 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:39,017 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:39,186 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:39,350 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:39,519 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:39,705 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:39,878 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:40,043 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:40,225 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:40,411 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:40,594 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:40,757 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:40,930 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:41,106 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-09 17:41:41,106 - INFO - Uploaded 68 records to Supabase (rendimiento_historico)
+2026-02-09 17:41:41,107 - INFO - 
+============================================================
+2026-02-09 17:41:41,107 - INFO - PERFORMANCE CALCULATION COMPLETE
+2026-02-09 17:41:41,107 - INFO - ============================================================

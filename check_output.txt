@@ -1,0 +1,34 @@
+============================================================
+VERIFICANDO DATOS PARA MATCH DE RENDIMIENTO 2026
+============================================================
+
+1. PREDICCIONES 2026:
+   Total predicciones 2026: 0
+
+2. RESULTADOS 2026 (participaciones con posicion):
+   Total participaciones con resultado 2026: 4156
+   Ultimas carreras con resultados:
+      ('2026-02-07', 'Hip├│dromo Chile', 1)
+      ('2026-02-07', 'Hip├│dromo Chile', 2)
+      ('2026-02-07', 'Hip├│dromo Chile', 3)
+      ('2026-02-07', 'Hip├│dromo Chile', 4)
+      ('2026-02-07', 'Hip├│dromo Chile', 5)
+      ('2026-02-07', 'Hip├│dromo Chile', 6)
+      ('2026-02-07', 'Hip├│dromo Chile', 7)
+      ('2026-02-07', 'Hip├│dromo Chile', 8)
+      ('2026-02-07', 'Hip├│dromo Chile', 9)
+      ('2026-02-07', 'Hip├│dromo Chile', 10)
+
+3. JORNADAS 2026:
+   Total jornadas 2026: 21
+   Ultimas jornadas:
+      ('2026-02-07', 2)
+      ('2026-02-05', 2)
+      ('2026-02-04', 10)
+      ('2026-02-03', 12)
+      ('2026-02-01', 10)
+
+============================================================
+CONCLUSION:
+WARN Hay resultados pero NO hay predicciones para 2026.
+============================================================

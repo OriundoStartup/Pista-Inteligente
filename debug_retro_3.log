@@ -1,0 +1,924 @@
+2026-02-10 19:25:58,501 - INFO - ============================================================
+2026-02-10 19:25:58,501 - INFO - GENERATING RETROACTIVE PREDICTIONS
+2026-02-10 19:25:58,501 - INFO - ============================================================
+2026-02-10 19:25:58,501 - INFO - Target dates: ['2026-02-03', '2026-02-04', '2026-02-05', '2026-02-07', '2026-02-09']
+2026-02-10 19:25:58,503 - INFO - 
+Found 81 races needing predictions
+2026-02-10 19:25:58,542 - INFO - Generated predictions for 81 races
+2026-02-10 19:25:58,542 - INFO - 
+Uploading to Supabase...
+2026-02-10 19:26:00,268 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.1 "HTTP/2 200 OK"
+2026-02-10 19:26:00,560 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:00,561 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:00,846 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:00,847 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:01,053 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:01,053 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:01,263 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:01,263 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:01,496 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.2 "HTTP/2 200 OK"
+2026-02-10 19:26:01,711 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:01,711 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:01,926 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:01,926 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:02,143 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:02,143 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:02,375 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:02,376 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:02,625 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.3 "HTTP/2 200 OK"
+2026-02-10 19:26:02,838 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:02,839 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:03,076 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:03,076 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:03,279 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:03,280 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:03,484 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:03,485 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:03,702 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.4 "HTTP/2 200 OK"
+2026-02-10 19:26:03,906 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:03,906 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:04,135 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:04,135 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:04,337 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:04,338 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:04,535 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:04,535 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:04,752 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.5 "HTTP/2 200 OK"
+2026-02-10 19:26:04,948 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:04,948 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:05,116 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:05,116 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:05,300 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:05,300 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:05,491 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:05,491 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:05,662 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.6 "HTTP/2 200 OK"
+2026-02-10 19:26:05,822 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:05,823 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:05,988 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:05,989 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:06,150 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:06,150 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:06,309 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:06,309 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:06,494 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.7 "HTTP/2 200 OK"
+2026-02-10 19:26:06,656 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:06,656 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:06,811 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:06,811 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:06,986 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:06,986 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:07,168 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:07,169 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:07,343 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.8 "HTTP/2 200 OK"
+2026-02-10 19:26:07,509 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:07,510 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:07,668 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:07,668 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:07,844 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:07,844 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:08,005 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:08,005 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:08,170 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.9 "HTTP/2 200 OK"
+2026-02-10 19:26:08,333 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:08,334 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:08,498 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:08,498 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:08,685 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:08,686 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:08,851 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:08,852 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:09,014 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.10 "HTTP/2 200 OK"
+2026-02-10 19:26:09,183 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:09,184 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:09,348 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:09,348 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:09,516 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:09,516 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:09,689 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:09,689 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:09,880 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.11 "HTTP/2 200 OK"
+2026-02-10 19:26:10,049 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:10,049 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:10,219 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:10,220 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:10,383 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:10,383 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:10,549 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:10,550 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:10,747 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.12 "HTTP/2 200 OK"
+2026-02-10 19:26:10,922 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:10,922 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:11,094 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:11,095 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:11,279 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:11,280 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:11,456 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:11,457 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:11,628 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.1 "HTTP/2 200 OK"
+2026-02-10 19:26:11,825 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:11,826 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:11,989 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:11,990 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:12,165 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:12,165 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:12,357 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:12,357 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:12,537 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.2 "HTTP/2 200 OK"
+2026-02-10 19:26:12,708 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:12,708 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:12,887 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:12,888 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:13,056 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:13,057 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:13,224 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:13,224 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:13,405 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.3 "HTTP/2 200 OK"
+2026-02-10 19:26:13,573 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:13,573 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:13,739 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:13,739 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:13,903 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:13,903 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:14,071 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:14,071 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:14,237 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.4 "HTTP/2 200 OK"
+2026-02-10 19:26:14,405 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:14,405 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:14,583 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:14,583 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:14,748 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:14,748 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:14,917 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:14,917 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:15,088 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.5 "HTTP/2 200 OK"
+2026-02-10 19:26:15,250 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:15,251 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:15,419 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:15,420 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:15,585 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:15,585 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:15,754 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:15,755 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:15,917 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.6 "HTTP/2 200 OK"
+2026-02-10 19:26:16,079 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:16,079 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:16,255 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:16,255 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:16,421 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:16,422 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:16,584 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:16,584 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:16,746 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.7 "HTTP/2 200 OK"
+2026-02-10 19:26:16,903 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:16,903 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:17,066 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:17,067 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:17,227 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:17,227 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:17,390 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:17,391 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:17,572 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.8 "HTTP/2 200 OK"
+2026-02-10 19:26:17,746 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:17,746 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:17,909 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:17,909 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:18,076 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:18,076 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:18,241 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:18,241 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:18,402 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.9 "HTTP/2 200 OK"
+2026-02-10 19:26:18,573 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:18,574 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:18,731 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:18,731 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:18,891 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:18,891 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:19,054 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:19,054 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:19,219 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.10 "HTTP/2 200 OK"
+2026-02-10 19:26:19,395 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:19,395 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:19,558 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:19,558 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:19,727 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:19,727 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:19,896 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:19,896 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:20,056 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.11 "HTTP/2 200 OK"
+2026-02-10 19:26:20,231 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:20,232 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:20,386 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:20,386 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:20,547 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:20,547 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:20,708 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:20,709 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:20,873 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.12 "HTTP/2 200 OK"
+2026-02-10 19:26:21,043 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:21,044 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:21,214 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:21,214 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:21,396 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:21,397 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:21,562 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:21,562 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:21,731 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.1 "HTTP/2 200 OK"
+2026-02-10 19:26:21,892 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:21,892 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:22,058 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:22,059 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:22,227 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:22,228 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:22,389 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:22,389 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:22,581 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.2 "HTTP/2 200 OK"
+2026-02-10 19:26:22,766 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:22,766 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:22,927 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:22,927 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:23,108 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:23,109 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:23,276 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:23,276 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:23,439 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.3 "HTTP/2 200 OK"
+2026-02-10 19:26:23,604 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:23,605 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:23,768 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:23,768 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:23,936 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:23,937 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:24,135 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:24,135 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:24,303 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.4 "HTTP/2 200 OK"
+2026-02-10 19:26:24,467 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:24,467 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:24,636 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:24,637 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:24,799 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:24,800 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:24,973 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:24,973 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:25,141 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.5 "HTTP/2 200 OK"
+2026-02-10 19:26:25,309 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:25,310 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:25,653 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:25,653 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:25,809 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:25,810 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:25,967 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:25,967 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:26,125 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.6 "HTTP/2 200 OK"
+2026-02-10 19:26:26,287 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:26,288 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:26,453 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:26,453 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:26,625 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:26,625 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:26,789 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:26,789 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:26,948 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.7 "HTTP/2 200 OK"
+2026-02-10 19:26:27,127 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:27,127 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:27,290 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:27,290 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:27,453 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:27,453 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:27,623 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:27,624 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:27,805 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.8 "HTTP/2 200 OK"
+2026-02-10 19:26:27,985 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:27,985 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:28,157 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:28,157 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:28,326 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:28,327 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:28,485 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:28,485 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:28,646 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.9 "HTTP/2 200 OK"
+2026-02-10 19:26:28,810 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:28,811 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:28,978 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:28,979 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:29,138 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:29,139 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:29,314 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:29,315 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:29,497 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.10 "HTTP/2 200 OK"
+2026-02-10 19:26:29,660 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:29,660 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:29,821 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:29,822 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:29,990 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:29,991 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:30,157 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:30,157 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:30,319 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.11 "HTTP/2 200 OK"
+2026-02-10 19:26:30,502 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:30,502 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:30,673 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:30,673 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:30,874 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:30,875 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:31,070 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:31,071 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:31,235 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.12 "HTTP/2 200 OK"
+2026-02-10 19:26:31,406 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:31,407 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:31,568 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:31,569 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:31,754 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:31,754 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:31,922 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:31,923 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:32,084 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.13 "HTTP/2 200 OK"
+2026-02-10 19:26:32,244 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:32,244 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:32,419 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:32,419 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:32,583 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:32,584 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:32,749 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:32,750 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:32,906 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.14 "HTTP/2 200 OK"
+2026-02-10 19:26:33,075 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:33,075 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:33,239 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:33,240 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:33,405 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:33,406 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:33,578 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:33,578 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:33,749 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.15 "HTTP/2 200 OK"
+2026-02-10 19:26:33,910 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:33,910 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:34,072 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:34,072 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:34,235 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:34,236 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:34,398 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:34,398 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:34,556 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.16 "HTTP/2 200 OK"
+2026-02-10 19:26:34,735 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:34,736 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:34,894 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:34,895 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:35,055 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:35,056 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:35,221 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:35,221 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:35,380 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.17 "HTTP/2 200 OK"
+2026-02-10 19:26:35,536 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:35,537 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:35,695 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:35,695 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:35,853 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:35,853 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:36,015 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:36,015 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:36,175 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.18 "HTTP/2 200 OK"
+2026-02-10 19:26:36,336 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:36,337 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:36,493 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:36,493 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:36,652 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:36,653 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:36,822 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:36,822 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:36,985 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.19 "HTTP/2 200 OK"
+2026-02-10 19:26:37,174 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:37,175 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:37,335 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:37,335 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:37,506 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:37,506 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:37,678 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:37,678 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:37,843 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.1 "HTTP/2 200 OK"
+2026-02-10 19:26:38,009 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:38,010 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:38,178 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:38,179 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:38,351 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:38,351 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:38,512 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:38,512 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:38,681 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.2 "HTTP/2 200 OK"
+2026-02-10 19:26:38,850 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:38,850 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:39,024 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:39,025 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:39,190 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:39,191 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:39,362 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:39,363 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:39,532 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.3 "HTTP/2 200 OK"
+2026-02-10 19:26:39,711 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:39,711 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:39,879 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:39,880 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:40,038 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:40,039 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:40,200 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:40,201 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:40,359 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.4 "HTTP/2 200 OK"
+2026-02-10 19:26:40,517 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:40,517 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:40,686 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:40,686 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:40,853 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:40,853 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:41,016 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:41,016 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:41,187 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.5 "HTTP/2 200 OK"
+2026-02-10 19:26:41,350 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:41,350 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:41,520 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:41,520 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:41,700 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:41,700 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:41,862 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:41,862 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:42,025 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.6 "HTTP/2 200 OK"
+2026-02-10 19:26:42,185 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:42,185 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:42,350 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:42,351 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:42,515 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:42,515 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:42,675 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:42,676 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:42,841 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.7 "HTTP/2 200 OK"
+2026-02-10 19:26:43,017 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:43,018 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:43,192 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:43,193 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:43,358 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:43,359 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:43,518 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:43,518 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:43,679 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.8 "HTTP/2 200 OK"
+2026-02-10 19:26:43,841 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:43,841 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:44,002 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:44,002 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:44,176 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:44,177 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:44,350 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:44,350 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:44,511 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.9 "HTTP/2 200 OK"
+2026-02-10 19:26:44,681 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:44,681 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:44,861 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:44,861 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:45,039 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:45,039 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:45,199 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:45,199 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:45,361 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.10 "HTTP/2 200 OK"
+2026-02-10 19:26:45,520 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:45,520 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:45,679 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:45,679 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:45,835 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:45,835 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:45,993 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:45,993 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:46,158 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.11 "HTTP/2 200 OK"
+2026-02-10 19:26:46,318 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:46,318 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:46,475 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:46,475 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:46,632 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:46,633 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:46,789 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:46,789 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:46,945 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.12 "HTTP/2 200 OK"
+2026-02-10 19:26:47,104 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:47,104 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:47,262 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:47,263 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:47,419 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:47,419 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:47,592 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:47,593 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:47,757 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.13 "HTTP/2 200 OK"
+2026-02-10 19:26:47,919 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:47,919 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:48,074 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:48,075 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:48,232 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:48,232 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:48,397 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:48,397 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:48,555 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.14 "HTTP/2 200 OK"
+2026-02-10 19:26:48,738 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:48,739 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:48,917 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:48,917 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:49,081 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:49,082 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:49,247 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:49,247 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:49,414 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.15 "HTTP/2 200 OK"
+2026-02-10 19:26:49,575 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:49,575 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:49,735 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:49,736 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:49,896 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:49,896 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:50,064 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:50,064 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:50,221 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.16 "HTTP/2 200 OK"
+2026-02-10 19:26:50,378 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:50,378 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:50,542 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:50,542 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:50,703 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:50,704 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:50,873 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:50,873 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:51,040 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.17 "HTTP/2 200 OK"
+2026-02-10 19:26:51,208 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:51,208 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:51,376 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:51,376 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:51,535 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:51,535 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:51,695 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:51,696 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:51,861 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.18 "HTTP/2 200 OK"
+2026-02-10 19:26:52,020 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:52,020 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:52,192 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:52,193 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:52,358 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:52,359 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:52,521 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:52,521 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:52,690 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.19 "HTTP/2 200 OK"
+2026-02-10 19:26:52,870 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:52,870 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:53,039 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:53,039 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:53,203 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:53,203 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:53,380 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:53,380 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:53,549 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.20 "HTTP/2 200 OK"
+2026-02-10 19:26:53,721 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:53,722 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:53,892 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:53,893 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:54,073 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:54,074 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:54,239 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:54,240 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:54,407 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.21 "HTTP/2 200 OK"
+2026-02-10 19:26:54,570 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:54,571 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:54,731 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:54,731 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:54,907 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:54,907 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:55,075 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:55,075 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:55,252 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.1 "HTTP/2 200 OK"
+2026-02-10 19:26:55,417 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:55,418 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:55,584 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:55,584 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:55,749 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:55,749 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:55,912 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:55,913 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:56,073 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.2 "HTTP/2 200 OK"
+2026-02-10 19:26:56,268 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:56,269 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:56,431 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:56,432 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:56,595 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:56,596 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:56,761 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:56,761 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:56,928 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.3 "HTTP/2 200 OK"
+2026-02-10 19:26:57,088 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:57,088 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:57,250 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:57,250 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:57,422 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:57,423 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:57,582 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:57,582 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:57,746 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.4 "HTTP/2 200 OK"
+2026-02-10 19:26:57,908 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:57,908 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:58,074 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:58,074 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:58,258 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:58,259 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:58,433 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:58,433 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:58,598 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.5 "HTTP/2 200 OK"
+2026-02-10 19:26:58,757 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:58,757 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:58,921 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:58,921 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:59,079 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:59,080 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:59,246 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:59,249 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:59,407 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.6 "HTTP/2 200 OK"
+2026-02-10 19:26:59,567 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:59,568 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:59,736 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:59,737 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:26:59,909 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:26:59,909 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:00,069 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:00,069 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:00,230 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.7 "HTTP/2 200 OK"
+2026-02-10 19:27:00,393 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:00,394 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:00,557 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:00,557 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:00,722 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:00,723 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:00,890 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:00,890 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:01,051 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.8 "HTTP/2 200 OK"
+2026-02-10 19:27:01,214 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:01,214 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:01,387 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:01,387 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:01,551 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:01,552 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:01,711 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:01,711 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:01,872 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.9 "HTTP/2 200 OK"
+2026-02-10 19:27:02,049 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:02,050 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:02,221 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:02,222 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:02,394 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:02,394 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:02,557 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:02,558 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:02,729 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.10 "HTTP/2 200 OK"
+2026-02-10 19:27:02,895 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:02,896 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:03,059 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:03,059 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:03,219 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:03,220 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:03,401 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:03,401 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:03,563 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.11 "HTTP/2 200 OK"
+2026-02-10 19:27:03,725 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:03,725 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:03,886 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:03,886 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:04,054 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:04,055 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:04,213 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:04,213 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:04,377 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.12 "HTTP/2 200 OK"
+2026-02-10 19:27:04,541 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:04,541 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:04,704 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:04,705 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:04,892 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:04,893 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:05,058 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:05,059 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:05,226 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.13 "HTTP/2 200 OK"
+2026-02-10 19:27:05,388 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:05,388 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:05,549 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:05,549 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:05,719 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:05,720 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:05,888 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:05,888 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:06,052 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.14 "HTTP/2 200 OK"
+2026-02-10 19:27:06,213 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:06,214 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:06,394 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:06,395 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:06,568 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:06,569 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:06,732 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:06,732 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:06,903 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.15 "HTTP/2 200 OK"
+2026-02-10 19:27:07,067 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:07,067 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:07,231 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:07,232 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:07,398 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:07,398 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:07,567 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:07,567 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:07,732 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.16 "HTTP/2 200 OK"
+2026-02-10 19:27:07,898 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:07,899 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:08,061 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:08,061 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:08,221 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:08,221 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:08,387 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:08,387 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:08,553 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/carreras?select=id%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29&numero=eq.17 "HTTP/2 200 OK"
+2026-02-10 19:27:08,716 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:08,716 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:08,879 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:08,879 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:09,048 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:09,048 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:09,210 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?on_conflict=carrera_id%2Cnumero_caballo "HTTP/2 400 Bad Request"
+2026-02-10 19:27:09,211 - ERROR - Error uploading prediction: {'message': 'there is no unique or exclusion constraint matching the ON CONFLICT specification', 'code': '42P10', 'hint': None, 'details': None}
+2026-02-10 19:27:09,211 - INFO - Uploaded 0 predictions
+2026-02-10 19:27:09,211 - INFO - 
+Recalculating performance metrics...
+2026-02-10 19:27:09,212 - INFO - ============================================================
+2026-02-10 19:27:09,212 - INFO - CALCULATING PERFORMANCE METRICS (Supabase + SQLite)
+2026-02-10 19:27:09,212 - INFO - ============================================================
+2026-02-10 19:27:09,212 - INFO - 
+[1/4] Fetching predictions from Supabase...
+2026-02-10 19:27:09,566 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?select=%2A%2Ccarreras%21inner%28numero%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29%29 "HTTP/2 200 OK"
+2026-02-10 19:27:09,607 - INFO - Fetched 1000 predictions from Supabase (78 races)
+2026-02-10 19:27:09,607 - INFO - 
+[2/4] Fetching results from SQLite...
+2026-02-10 19:27:09,613 - INFO - Fetched results for 654 races from SQLite
+2026-02-10 19:27:09,613 - INFO - 
+[3/4] Matching predictions with results...
+2026-02-10 19:27:09,614 - INFO - Found 68 races with both predictions and results
+2026-02-10 19:27:09,614 - INFO - 
+[4/4] Calculating stats...
+2026-02-10 19:27:09,614 - INFO - Global: Ganador 2.9%, Quiniela 0.0%, Trifecta 0.0%, Superfecta 0.0%
+2026-02-10 19:27:09,614 - INFO -   Hip¾dromo Chile: 32 races, Ganador 6.2%
+2026-02-10 19:27:09,614 - INFO -   Club HÝpico de Santiago: 19 races, Ganador 0.0%
+2026-02-10 19:27:09,614 - INFO -   ValparaÝso Sporting: 17 races, Ganador 0.0%
+2026-02-10 19:27:09,614 - INFO - 
+Saving results...
+2026-02-10 19:27:09,618 - INFO - Saved 68 records to rendimiento_historico
+2026-02-10 19:27:09,619 - INFO - Saved stats to data/rendimiento_stats.json
+2026-02-10 19:27:09,792 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_stats?on_conflict=id "HTTP/2 200 OK"
+2026-02-10 19:27:09,792 - INFO - Uploaded stats to Supabase (rendimiento_stats)
+2026-02-10 19:27:09,973 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:10,148 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:10,316 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:10,488 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:10,663 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:10,835 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:11,001 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:11,190 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:11,375 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:11,542 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:11,706 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:11,876 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:12,057 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:12,252 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:12,427 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:12,663 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:12,827 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:13,013 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:13,201 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:13,364 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:13,532 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:13,713 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:13,881 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:14,039 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:14,200 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:14,377 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:14,547 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:14,711 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:14,878 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:15,041 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:15,220 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:15,383 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:15,546 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:15,718 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:15,882 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:16,054 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:16,228 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:16,391 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:16,558 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:16,722 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:16,883 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:17,063 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:17,237 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:17,402 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:17,569 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:17,742 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:17,906 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:18,074 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:18,238 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:18,402 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:18,568 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:18,742 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:18,912 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:19,076 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:19,242 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:19,404 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:19,577 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:19,753 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:19,924 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:20,085 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:20,276 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:20,446 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:20,608 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:20,777 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:20,947 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:21,112 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:21,274 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:21,442 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:27:21,443 - INFO - Uploaded 68 records to Supabase (rendimiento_historico)
+2026-02-10 19:27:21,443 - INFO - 
+============================================================
+2026-02-10 19:27:21,443 - INFO - PERFORMANCE CALCULATION COMPLETE
+2026-02-10 19:27:21,443 - INFO - ============================================================
+2026-02-10 19:27:21,443 - INFO - 
+============================================================
+2026-02-10 19:27:21,443 - INFO - RETROACTIVE PREDICTIONS COMPLETE
+2026-02-10 19:27:21,443 - INFO - ============================================================
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 1 ID: 699 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 2 ID: 700 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 3 ID: 701 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 4 ID: 702 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 5 ID: 703 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 6 ID: 704 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 7 ID: 705 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 8 ID: 706 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 9 ID: 707 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 10 ID: 708 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 11 ID: 709 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 12 ID: 710 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 1 ID: 711 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 2 ID: 712 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 3 ID: 713 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 4 ID: 714 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 5 ID: 715 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 6 ID: 716 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 7 ID: 717 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 8 ID: 718 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 9 ID: 719 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 10 ID: 720 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 11 ID: 721 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 12 ID: 722 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 1 ID: 723 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 2 ID: 724 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 3 ID: 725 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 4 ID: 726 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 5 ID: 727 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 6 ID: 728 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 7 ID: 729 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 8 ID: 730 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 9 ID: 731 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 10 ID: 732 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 11 ID: 733 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 12 ID: 734 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 13 ID: 735 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 14 ID: 736 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 15 ID: 737 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 16 ID: 738 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 17 ID: 739 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 18 ID: 740 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 19 ID: 741 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 1 ID: 742 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 2 ID: 743 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 3 ID: 744 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 4 ID: 745 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 5 ID: 746 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 6 ID: 747 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 7 ID: 748 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 8 ID: 749 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 9 ID: 750 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 10 ID: 751 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 11 ID: 752 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 12 ID: 753 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 13 ID: 754 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 14 ID: 755 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 15 ID: 756 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 16 ID: 757 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 17 ID: 758 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 18 ID: 759 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 19 ID: 760 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 20 ID: 761 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 21 ID: 762 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 1 ID: 763 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 2 ID: 764 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 3 ID: 765 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 4 ID: 766 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 5 ID: 767 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 6 ID: 768 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 7 ID: 769 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 8 ID: 770 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 9 ID: 771 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 10 ID: 772 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 11 ID: 773 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 12 ID: 774 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 13 ID: 775 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 14 ID: 776 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 15 ID: 777 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 16 ID: 778 TYPE: <class 'int'>
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 17 ID: 779 TYPE: <class 'int'>

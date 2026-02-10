@@ -1,0 +1,71 @@
+======================================================================
+MATCHES DESDE 2026-01-30 EN RENDIMIENTO_HISTORICO
+======================================================================
+
+Total de carreras con match desde 2026-01-30: 50
+
+Fecha        | Hipodromo                      | #   | G   | Q   | T   | S  
+----------------------------------------------------------------------
+2026-02-01   | Valpara├¡so Sporting            | 1   | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 2   | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 10  | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 11  | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 12  | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 13  | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 14  | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 15  | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 16  | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 17  | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 18  | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 19  | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 20  | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 21  | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 22  | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 23  | -   | -   | -   | -  
+2026-02-01   | Valpara├¡so Sporting            | 24  | -   | -   | -   | -  
+2026-01-31   | Hip├│dromo Chile                | 1   | -   | -   | -   | -  
+2026-01-31   | Hip├│dromo Chile                | 2   | -   | -   | -   | -  
+2026-01-31   | Hip├│dromo Chile                | 10  | +   | -   | -   | -  
+2026-01-31   | Hip├│dromo Chile                | 11  | -   | -   | -   | -  
+2026-01-31   | Hip├│dromo Chile                | 12  | -   | -   | -   | -  
+2026-01-31   | Hip├│dromo Chile                | 13  | -   | -   | -   | -  
+2026-01-31   | Hip├│dromo Chile                | 14  | +   | -   | -   | -  
+2026-01-31   | Hip├│dromo Chile                | 15  | -   | -   | -   | -  
+2026-01-31   | Hip├│dromo Chile                | 16  | -   | -   | -   | -  
+2026-01-31   | Hip├│dromo Chile                | 17  | -   | -   | -   | -  
+2026-01-31   | Hip├│dromo Chile                | 18  | -   | -   | -   | -  
+2026-01-31   | Hip├│dromo Chile                | 19  | -   | -   | -   | -  
+2026-01-31   | Hip├│dromo Chile                | 20  | -   | -   | -   | -  
+2026-01-31   | Hip├│dromo Chile                | 21  | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 1   | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 2   | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 3   | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 4   | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 5   | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 6   | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 7   | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 8   | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 9   | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 10  | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 11  | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 12  | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 13  | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 14  | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 15  | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 16  | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 17  | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 18  | -   | -   | -   | -  
+2026-01-30   | Club H├¡pico de Santiago        | 19  | -   | -   | -   | -  
+
+======================================================================
+PREDICCIONES DISPONIBLES EN SUPABASE (debe coincidir)
+======================================================================
+
+Jornadas con RESULTADOS desde 2026-01-30:
+  2026-02-07 | Hip├│dromo Chile | 21 carreras
+  2026-02-05 | Hip├│dromo Chile | 19 carreras
+  2026-02-04 | Valpara├¡so Sporting | 12 carreras
+  2026-02-03 | Club H├¡pico de Concepci├│n | 12 carreras
+  2026-02-01 | Valpara├¡so Sporting | 25 carreras
+  2026-01-31 | Hip├│dromo Chile | 21 carreras
+  2026-01-30 | Club H├¡pico de Santiago | 19 carreras

@@ -1,0 +1,1329 @@
+2026-02-10 19:23:58,168 - INFO - ============================================================
+2026-02-10 19:23:58,169 - INFO - GENERATING RETROACTIVE PREDICTIONS
+2026-02-10 19:23:58,169 - INFO - ============================================================
+2026-02-10 19:23:58,169 - INFO - Target dates: ['2026-02-03', '2026-02-04', '2026-02-05', '2026-02-07', '2026-02-09']
+2026-02-10 19:23:58,170 - INFO - 
+Found 81 races needing predictions
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 1 ID: 699 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 699
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 2 ID: 700 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 700
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 3 ID: 701 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 701
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 4 ID: 702 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 702
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 5 ID: 703 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 703
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 6 ID: 704 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 704
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 7 ID: 705 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 705
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 8 ID: 706 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 706
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 9 ID: 707 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 707
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 10 ID: 708 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 708
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 11 ID: 709 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 709
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-03 Club HÝpico de Concepci¾n 12 ID: 710 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 710
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 1 ID: 711 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 711
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 2 ID: 712 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 712
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 3 ID: 713 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 713
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 4 ID: 714 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 714
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 5 ID: 715 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 715
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 6 ID: 716 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 716
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 7 ID: 717 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 717
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 8 ID: 718 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 718
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 9 ID: 719 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 719
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 10 ID: 720 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 720
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 11 ID: 721 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 721
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-04 ValparaÝso Sporting 12 ID: 722 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 722
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 1 ID: 723 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 723
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 2 ID: 724 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 724
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 3 ID: 725 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 725
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 4 ID: 726 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 726
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 5 ID: 727 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 727
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 6 ID: 728 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 728
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 7 ID: 729 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 729
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 8 ID: 730 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 730
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 9 ID: 731 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 731
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 10 ID: 732 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 732
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 11 ID: 733 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 733
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 12 ID: 734 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 734
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 13 ID: 735 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 735
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 14 ID: 736 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 736
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 15 ID: 737 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 737
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 16 ID: 738 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 738
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 17 ID: 739 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 739
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 18 ID: 740 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 740
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-05 Hip¾dromo Chile 19 ID: 741 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 741
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 1 ID: 742 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 742
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 2 ID: 743 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 743
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 3 ID: 744 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 744
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 4 ID: 745 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 745
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 5 ID: 746 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 746
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 6 ID: 747 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 747
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 7 ID: 748 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 748
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 8 ID: 749 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 749
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 9 ID: 750 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 750
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 10 ID: 751 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 751
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 11 ID: 752 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 752
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 12 ID: 753 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 753
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 13 ID: 754 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 754
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 14 ID: 755 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 755
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 15 ID: 756 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 756
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 16 ID: 757 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 757
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 17 ID: 758 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 758
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 18 ID: 759 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 759
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 19 ID: 760 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 760
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 20 ID: 761 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 761
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-07 Hip¾dromo Chile 21 ID: 762 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 762
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 1 ID: 763 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 763
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 2 ID: 764 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 764
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 3 ID: 765 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 765
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 4 ID: 766 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 766
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 5 ID: 767 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 767
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 6 ID: 768 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 768
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 7 ID: 769 TYPE: <class 'int'>
+2026-02-10 19:23:58,202 - INFO - Generated predictions for 0 races
+2026-02-10 19:23:58,202 - INFO - 
+Uploading to Supabase...
+2026-02-10 19:23:58,561 - INFO - Uploaded 0 predictions
+2026-02-10 19:23:58,562 - INFO - 
+Recalculating performance metrics...
+2026-02-10 19:23:58,563 - INFO - ============================================================
+2026-02-10 19:23:58,563 - INFO - CALCULATING PERFORMANCE METRICS (Supabase + SQLite)
+2026-02-10 19:23:58,563 - INFO - ============================================================
+2026-02-10 19:23:58,563 - INFO - 
+[1/4] Fetching predictions from Supabase...
+2026-02-10 19:23:59,503 - INFO - HTTP Request: GET https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/predicciones?select=%2A%2Ccarreras%21inner%28numero%2Cjornadas%21inner%28fecha%2Chipodromos%21inner%28nombre%29%29%29 "HTTP/2 200 OK"
+2026-02-10 19:23:59,549 - INFO - Fetched 1000 predictions from Supabase (78 races)
+2026-02-10 19:23:59,550 - INFO - 
+[2/4] Fetching results from SQLite...
+2026-02-10 19:23:59,592 - INFO - Fetched results for 654 races from SQLite
+2026-02-10 19:23:59,592 - INFO - 
+[3/4] Matching predictions with results...
+2026-02-10 19:23:59,592 - INFO - Found 68 races with both predictions and results
+2026-02-10 19:23:59,592 - INFO - 
+[4/4] Calculating stats...
+2026-02-10 19:23:59,592 - INFO - Global: Ganador 2.9%, Quiniela 0.0%, Trifecta 0.0%, Superfecta 0.0%
+2026-02-10 19:23:59,592 - INFO -   Hip¾dromo Chile: 32 races, Ganador 6.2%
+2026-02-10 19:23:59,592 - INFO -   Club HÝpico de Santiago: 19 races, Ganador 0.0%
+2026-02-10 19:23:59,592 - INFO -   ValparaÝso Sporting: 17 races, Ganador 0.0%
+2026-02-10 19:23:59,592 - INFO - 
+Saving results...
+2026-02-10 19:23:59,598 - INFO - Saved 68 records to rendimiento_historico
+2026-02-10 19:23:59,599 - INFO - Saved stats to data/rendimiento_stats.json
+2026-02-10 19:23:59,784 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_stats?on_conflict=id "HTTP/2 200 OK"
+2026-02-10 19:23:59,785 - INFO - Uploaded stats to Supabase (rendimiento_stats)
+2026-02-10 19:23:59,969 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:00,143 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:00,306 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:00,474 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:00,645 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:00,869 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:01,063 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:01,245 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:01,443 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:01,693 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:01,988 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:02,206 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:02,405 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:02,582 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:02,769 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:02,969 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:03,158 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:03,328 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:03,504 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:03,679 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:03,863 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:04,040 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:04,221 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:04,441 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:04,616 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:04,781 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:04,943 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:05,140 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:05,347 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:05,595 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:05,801 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:06,032 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:06,255 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:06,501 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:06,689 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:06,884 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:07,107 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:07,291 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:07,506 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:07,668 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:07,833 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:08,017 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:08,188 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:08,364 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:08,557 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:08,727 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:08,896 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:09,061 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:09,232 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:09,413 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:09,588 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:09,751 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:09,924 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:10,104 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:10,303 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:10,484 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:10,662 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:10,826 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:10,998 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:11,165 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:11,324 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:11,487 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:11,675 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:11,848 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:12,032 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:12,203 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:12,424 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:12,619 - INFO - HTTP Request: POST https://bxdxztbdsxyyvvavvtoo.supabase.co/rest/v1/rendimiento_historico?on_conflict=fecha%2Chipodromo%2Cnro_carrera "HTTP/2 200 OK"
+2026-02-10 19:24:12,620 - INFO - Uploaded 68 records to Supabase (rendimiento_historico)
+2026-02-10 19:24:12,620 - INFO - 
+============================================================
+2026-02-10 19:24:12,620 - INFO - PERFORMANCE CALCULATION COMPLETE
+2026-02-10 19:24:12,620 - INFO - ============================================================
+2026-02-10 19:24:12,621 - INFO - 
+============================================================
+2026-02-10 19:24:12,622 - INFO - RETROACTIVE PREDICTIONS COMPLETE
+2026-02-10 19:24:12,622 - INFO - ============================================================
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 769
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 8 ID: 770 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 770
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 9 ID: 771 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 771
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 10 ID: 772 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 772
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 11 ID: 773 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 773
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 12 ID: 774 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 774
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 13 ID: 775 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 775
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 14 ID: 776 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 776
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 15 ID: 777 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 777
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 16 ID: 778 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 778
+    ORDER BY p.mandil
+    
+DEBUG: Processing race 2026-02-09 Club HÝpico de Santiago 17 ID: 779 TYPE: <class 'int'>
+ERROR executing query: no such column: p.peso
+QUERY: 
+    SELECT 
+        p.mandil as numero,
+        cab.nombre as caballo,
+        jin.nombre as jinete,
+        p.peso,
+        p.posicion
+    FROM participaciones p
+    INNER JOIN caballos cab ON p.caballo_id = cab.id
+    LEFT JOIN jinetes jin ON p.jinete_id = jin.id
+    WHERE p.carrera_id = 779
+    ORDER BY p.mandil
+    

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     description: 'Transparencia total: Conoce el rendimiento real de Pista Inteligente. Ganador exacto, Quiniela, Trifecta y Superfecta por hipódromo.',
 }
 
-export const revalidate = 3600 // Revalidar cada hora
+export const revalidate = 0 // Revalidar en cada request para datos siempre frescos
 
 interface StatsData {
     total_carreras: number
@@ -462,9 +462,15 @@ export default async function PrecisionPage() {
                 </div>
 
                 {(() => {
+                    // Filter races to show only those with at least one successful prediction
+                    const filteredRaces = data.recent_races.filter(race =>
+                        race.acierto_ganador || race.acierto_quiniela ||
+                        race.acierto_trifecta || race.acierto_superfecta
+                    )
+
                     // Group races by hipódromo
                     const racesByHipodromo: { [key: string]: RaceResult[] } = {}
-                    data.recent_races.forEach(race => {
+                    filteredRaces.forEach(race => {
                         if (!racesByHipodromo[race.hipodromo]) {
                             racesByHipodromo[race.hipodromo] = []
                         }

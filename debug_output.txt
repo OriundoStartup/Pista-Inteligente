@@ -1,0 +1,10 @@
+Sample predictions from Supabase:
+  Keys: ['id', 'carrera_id', 'numero_caballo', 'caballo', 'jinete', 'probabilidad', 'rank_predicho', 'modelo_version', 'created_at']
+  Sample: fecha=None, hip=None, carrera=None
+  Caballo: PALABRAS SERENAS, ID: None, Num: 1
+Traceback (most recent call last):
+  File "C:\espacioDeTrabajo\HipicaAntigracity\debug_supabase.py", line 24, in <module>
+    result2 = client.table('predicciones').select('fecha_carrera', count='exact').gte('fecha_carrera', '2026-01-01').execute()
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python313\Lib\site-packages\postgrest\_sync\request_builder.py", line 53, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': 'column predicciones.fecha_carrera does not exist', 'code': '42703', 'hint': None, 'details': None}
