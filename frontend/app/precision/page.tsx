@@ -73,13 +73,15 @@ async function getPerformanceData(): Promise<PerformanceData | null> {
             ? JSON.parse(statsRow.data)
             : statsRow.data
 
-        // Fetch recent races
+        // Fetch races with at least one successful prediction
+        // Using or() filter to get races where ANY prediction type succeeded
         const { data: recentRaces, error: racesError } = await supabase
             .from('rendimiento_historico')
             .select('*')
-            .order('fecha', { ascending: false })
             .gte('fecha', '2026-01-01')
-            .limit(50)
+            .or('acierto_ganador.eq.true,acierto_quiniela.eq.true,acierto_trifecta.eq.true,acierto_superfecta.eq.true')
+            .order('fecha', { ascending: false })
+            .limit(100) // Increased limit to show more successful predictions
 
         const races: RaceResult[] = (recentRaces || []).map((r: any) => ({
             fecha: r.fecha,
