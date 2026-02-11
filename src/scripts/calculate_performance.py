@@ -31,6 +31,7 @@ def get_predictions_from_supabase():
     """
     Fetch all predictions from Supabase with race info.
     Returns dict keyed by (fecha, hipodromo, nro_carrera) -> list of predictions.
+    Uses manual pagination to overcome Supabase's 1000 record limit.
     """
     try:
         db = SupabaseManager()
@@ -39,18 +40,35 @@ def get_predictions_from_supabase():
             logger.warning("Supabase client not available")
             return {}
         
-        # Fetch predicciones with joined carreras and jornadas data
-        # Using foreign key relationship: predicciones -> carreras -> jornadas -> hipodromos
-        result = client.table('predicciones').select(
-            '*,'
-            'carreras!inner(numero, jornadas!inner(fecha, hipodromos!inner(nombre)))'
-        ).execute()
+        # Manual pagination to fetch all predictions
+        all_preds = []
+        batch_size = 1000
+        offset = 0
         
-        preds = result.data if result.data else []
+        while True:
+            # Fetch batch with pagination using range()
+            result = client.table('predicciones').select(
+                '*,'
+                'carreras!inner(numero, jornadas!inner(fecha, hipodromos!inner(nombre)))'
+            ).range(offset, offset + batch_size - 1).execute()
+            
+            batch = result.data if result.data else []
+            if not batch:
+                break  # No more data
+            
+            all_preds.extend(batch)
+            logger.info(f"Fetched batch: {len(batch)} predictions (total so far: {len(all_preds)})")
+            
+            if len(batch) < batch_size:
+                break  # Last batch (less than 1000 records)
+            
+            offset += batch_size
+        
+        logger.info(f"Total predictions fetched: {len(all_preds)}")
         
         # Group by race
         by_race = defaultdict(list)
-        for p in preds:
+        for p in all_preds:
             carrera = p.get('carreras', {})
             jornada = carrera.get('jornadas', {})
             hipodromo = jornada.get('hipodromos', {})
@@ -74,7 +92,7 @@ def get_predictions_from_supabase():
         for key in by_race:
             by_race[key].sort(key=lambda x: x.get('rank_predicho') or 999)
         
-        logger.info(f"Fetched {len(preds)} predictions from Supabase ({len(by_race)} races)")
+        logger.info(f"Grouped into {len(by_race)} races")
         return by_race
         
     except Exception as e:
@@ -309,7 +327,7 @@ def save_stats_json(stats_global, stats_by_hip, recent_results):
     logger.info("Saved stats to data/rendimiento_stats.json")
 
 
-def upload_to_supabase(stats_global, stats_by_hip, recent_results):
+def upload_to_supabase(stats_global, stats_by_hip, all_results):
     """Upload stats to Supabase for frontend."""
     try:
         db = SupabaseManager()
@@ -322,8 +340,8 @@ def upload_to_supabase(stats_global, stats_by_hip, recent_results):
         record = {
             'id': 'global_stats',
             'data': json.dumps({
-                'last_30_days': calculate_stats(recent_results, days=30),
-                'last_90_days': calculate_stats(recent_results, days=90),
+                'last_30_days': calculate_stats(all_results, days=30),
+                'last_90_days': calculate_stats(all_results, days=90),
                 'all_time': stats_global,
                 'by_hipodromo': stats_by_hip,
                 'updated_at': datetime.now().isoformat()
@@ -333,8 +351,8 @@ def upload_to_supabase(stats_global, stats_by_hip, recent_results):
         client.table('rendimiento_stats').upsert(record, on_conflict='id').execute()
         logger.info("Uploaded stats to Supabase (rendimiento_stats)")
         
-        # Upload recent results for detail table
-        for r in recent_results:
+        # Upload ALL results for detail table
+        for r in all_results:
             rec = {
                 'fecha': r['fecha'],
                 'hipodromo': r['hipodromo'],
@@ -353,7 +371,7 @@ def upload_to_supabase(stats_global, stats_by_hip, recent_results):
             except Exception as e:
                 logger.error(f"Failed to upload record {rec['fecha']} {rec['hipodromo']}: {e}")
         
-        logger.info(f"Uploaded {len(recent_results)} records to Supabase (rendimiento_historico)")
+        logger.info(f"Uploaded {len(all_results)} records to Supabase (rendimiento_historico)")
         
     except Exception as e:
         if 'PGRST205' in str(e) or 'schema cache' in str(e):
