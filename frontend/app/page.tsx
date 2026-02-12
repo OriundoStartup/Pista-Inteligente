@@ -35,13 +35,11 @@ async function getStats() {
   }
 }
 
-// Fetch top jockeys
-// Fetch top jockeys dynamically from Supabase (Year 2026)
-// Fetch top jockeys dynamically from Supabase (Year 2026)
+// Fetch top jockeys from 2026 results
 async function getTopJinetes() {
   const supabase = await createClient()
   try {
-    // 1. Fetch participaciones joint with carreras->jornadas to filter by date
+    // Fetch all participaciones with jornada dates from 2026
     const { data, error } = await supabase
       .from('participaciones')
       .select(`
@@ -54,20 +52,23 @@ async function getTopJinetes() {
         )
       `)
       .gte('carreras.jornadas.fecha', '2026-01-01')
+      .lte('carreras.jornadas.fecha', '2026-12-31')
 
     if (error) {
-      console.error("Error fetching Top Jinetes:", error)
-      throw error
+      console.error("Error fetching jinetes 2026:", error)
+      return fallbackJinetes()
     }
 
-    if (!data || data.length === 0) return fallbackJinetes()
+    if (!data || data.length === 0) {
+      console.log("No data found for 2026 jockeys")
+      return fallbackJinetes()
+    }
 
-    // 2. Aggregate stats in memory
+    // Aggregate wins and mounts
     const stats: Record<string, { ganadas: number; montes: number }> = {}
 
     data.forEach((row: any) => {
       const jineteName = row.jinetes?.nombre || 'Desconocido'
-      // Normalizar nombre si es necesario
       const nombre = jineteName.trim()
 
       if (!stats[nombre]) {
@@ -76,27 +77,24 @@ async function getTopJinetes() {
 
       stats[nombre].montes += 1
 
-      // Check win (posicion 1)
-      // Note: posicion can be string "1" or number 1 depending on DB, safe check
-      if (row.posicion == 1) {
+      // Count wins (position 1)
+      if (row.posicion == 1 || row.posicion == '1') {
         stats[nombre].ganadas += 1
       }
     })
 
-    // 3. Convert to array, sort and slice
-    const sortedStats = Object.entries(stats)
-      .map(([nombre, stat]) => {
-        const eficiencia = stat.montes > 0 ? (stat.ganadas / stat.montes) * 100 : 0
-        return {
-          jinete: nombre,
-          ganadas: stat.ganadas,
-          eficiencia: eficiencia.toFixed(1)
-        }
-      })
-      .sort((a, b) => b.ganadas - a.ganadas) // Sort by wins descending
-      .slice(0, 5) // Top 5
+    // Convert to array and sort by wins
+    const sortedJinetes = Object.entries(stats)
+      .map(([nombre, stat]) => ({
+        jinete: nombre,
+        ganadas: stat.ganadas,
+        eficiencia: stat.montes > 0 ? ((stat.ganadas / stat.montes) * 100).toFixed(1) : '0.0'
+      }))
+      .sort((a, b) => b.ganadas - a.ganadas)
+      .slice(0, 5)
 
-    return sortedStats
+    // If we have data, return it, otherwise fallback
+    return sortedJinetes.length > 0 ? sortedJinetes : fallbackJinetes()
 
   } catch (e) {
     console.error("Exception in getTopJinetes:", e)
