@@ -37,7 +37,7 @@ const nextConfig: NextConfig = {
           },
           {
             key: 'Content-Security-Policy',
-            value: "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://va.vercel-scripts.com https://pagead2.googlesyndication.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' blob: data: https:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://bxdxztbdsxyyvvavvtoo.supabase.co https://vitals.vercel-insights.com https://googleads.g.doubleclick.net https://adservice.google.com;",
+            value: "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://va.vercel-scripts.com https://pagead2.googlesyndication.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' blob: data: https:; font-src 'self' data: https://fonts.gstatic.com; frame-src https://googleads.g.doubleclick.net; connect-src 'self' https://bxdxztbdsxyyvvavvtoo.supabase.co https://vitals.vercel-insights.com https://googleads.g.doubleclick.net https://adservice.google.com https://ep1.adtrafficquality.google;",
           },
         ],
       },
