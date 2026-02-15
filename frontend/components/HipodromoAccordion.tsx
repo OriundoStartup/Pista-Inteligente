@@ -94,7 +94,7 @@ export default function HipodromoAccordion({ hipodromos, today }: HipodromoAccor
                                         gap: '0.5rem',
                                         textShadow: '0 0 20px rgba(139, 92, 246, 0.3)'
                                     }}>
-                                        🏇 {hipodromo}
+                                        🏇 {hipodromo.split('|')[0]}
                                     </h2>
                                     {hasToday && (
                                         <span className="badge-today">

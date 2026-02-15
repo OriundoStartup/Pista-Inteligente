@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     },
 }
 
-// ISR: Revalidar cada 5 minutos para datos frescos
-export const revalidate = 300
+// ISR: Revalidar en cada request (0 = no cache, always fresh data)
+export const revalidate = 0
 
 // Types
 interface Prediccion {
@@ -54,7 +54,8 @@ async function getPredicciones(): Promise<{ carreras: Carrera[], stats: { total_
             .select('id, fecha, hipodromo_id')
             .gte('fecha', today)
             .order('fecha', { ascending: true })
-            .limit(5)
+            .order('hipodromo_id', { ascending: true })
+            .limit(10)
 
         if (!jornadas || jornadas.length === 0) {
             return {
@@ -108,8 +109,19 @@ async function getPredicciones(): Promise<{ carreras: Carrera[], stats: { total_
         // @ts-ignore
         const completedRaceSet = new Set(results?.map((r: any) => r.carrera_id))
 
-        // Filter only active races (those NOT in completed set)
-        const activeCarreras = (carreras || []).filter(c => !completedRaceSet.has(c.id))
+        // Filter only active races (those NOT in completed set) AND from future/today jornadas
+        const activeCarreras = (carreras || []).filter(c => {
+            // Check if race has results
+            if (completedRaceSet.has(c.id)) return false
+
+            // CRITICAL FIX: Also filter out races from past jornadas
+            const jornada = jornadas.find((j: any) => j.id === c.jornada_id)
+            if (jornada && jornada.fecha < today) {
+                return false // Exclude races from past dates
+            }
+
+            return true
+        })
 
         // Get predictions for ACTIVE races only
         const { data: predicciones } = await supabase
@@ -148,8 +160,17 @@ async function getPredicciones(): Promise<{ carreras: Carrera[], stats: { total_
                 ]
             }
         })
-        // Filtrar carreras inválidas (carrera 0 o null no existen en la realidad)
-        .filter((c: Carrera) => c.carrera && c.carrera > 0)
+            // Filtrar carreras inválidas y sin predicciones reales
+            .filter((c: Carrera) => {
+                // Filtrar carreras inválidas (carrera 0 o null no existen en la realidad)
+                if (!c.carrera || c.carrera <= 0) return false
+                // Filtrar carreras sin predicciones válidas
+                if (!c.predicciones || c.predicciones.length === 0) return false
+                // Filtrar predicciones dummy
+                if (c.predicciones[0]?.caballo === 'Datos pendientes') return false
+                if (c.predicciones[0]?.caballo === 'N/A') return false
+                return true
+            })
 
         return {
             carreras: carrerasConPredicciones,
@@ -171,9 +192,9 @@ async function getPredicciones(): Promise<{ carreras: Carrera[], stats: { total_
 export default async function ProgramaPage() {
     const { carreras, stats } = await getPredicciones()
 
-    // Agrupar carreras por hipódromo fuera del JSX para limpieza
+    // Agrupar carreras por hipódromo Y fecha para evitar mezclar jornadas
     const hipodromoGroups = carreras.reduce((groups, carrera) => {
-        const key = carrera.hipodromo
+        const key = `${carrera.hipodromo}|${carrera.fecha}`
         if (!groups[key]) {
             groups[key] = []
         }
