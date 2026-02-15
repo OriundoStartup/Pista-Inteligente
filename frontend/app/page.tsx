@@ -35,9 +35,44 @@ async function getStats() {
   }
 }
 
-// Fetch top jockeys from 2026 results
-async function getTopJinetes() {
+interface JineteStat {
+  jinete: string
+  ganadas: number
+  eficiencia: string
+}
+
+// Fetch top jockeys using Database Function (RPC) for performance and complete data
+async function getTopJinetes(): Promise<JineteStat[]> {
   const supabase = await createClient()
+  try {
+    // 1. Try RPC Call (Server-side aggregation)
+    const { data, error } = await supabase.rpc('get_top_jinetes_2026')
+
+    if (error) {
+      console.warn("RPC get_top_jinetes_2026 failed, falling back to legacy fetch:", error.message)
+      return getTopJinetesLegacy(supabase)
+    }
+
+    if (!data || data.length === 0) {
+      console.log("No data from RPC")
+      return getTopJinetesLegacy(supabase)
+    }
+
+    // Map RPC result
+    return data.map((j: any) => ({
+      jinete: j.jinete,
+      ganadas: Number(j.ganadas),
+      eficiencia: j.eficiencia // Already formatted as text in SQL
+    }))
+
+  } catch (e) {
+    console.error("Exception in getTopJinetes:", e)
+    return fallbackJinetes()
+  }
+}
+
+// Legacy method (Client-side aggregation) - Subject to 1000 row limit
+async function getTopJinetesLegacy(supabase: any): Promise<JineteStat[]> {
   try {
     // Fetch all participaciones with jornada dates from 2026
     const { data, error } = await supabase
@@ -55,12 +90,11 @@ async function getTopJinetes() {
       .lte('carreras.jornadas.fecha', '2026-12-31')
 
     if (error) {
-      console.error("Error fetching jinetes 2026:", error)
+      console.error("Error fetching jinetes 2026 (Legacy):", error)
       return fallbackJinetes()
     }
 
     if (!data || data.length === 0) {
-      console.log("No data found for 2026 jockeys")
       return fallbackJinetes()
     }
 
@@ -93,16 +127,15 @@ async function getTopJinetes() {
       .sort((a, b) => b.ganadas - a.ganadas)
       .slice(0, 5)
 
-    // If we have data, return it, otherwise fallback
     return sortedJinetes.length > 0 ? sortedJinetes : fallbackJinetes()
 
   } catch (e) {
-    console.error("Exception in getTopJinetes:", e)
+    console.error("Exception in getTopJinetesLegacy:", e)
     return fallbackJinetes()
   }
 }
 
-function fallbackJinetes() {
+function fallbackJinetes(): JineteStat[] {
   return [
     { jinete: 'J. Medina', ganadas: 0, eficiencia: '0.0' },
     { jinete: 'B. Sancho', ganadas: 0, eficiencia: '0.0' },
