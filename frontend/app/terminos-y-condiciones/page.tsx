@@ -36,7 +36,7 @@ export default function TerminosCondicionesPage() {
 
                 <h2 style={{ marginTop: '2rem', color: 'var(--primary)' }}>2. Propiedad Intelectual</h2>
                 <p style={{ color: 'var(--text-muted)' }}>
-                    Todo el contenido de este sitio es propiedad de <strong>MIND TRADING SPA</strong> y está protegido
+                    Todo el contenido de este sitio es propiedad de <strong>Oriundo Startup Chile SpA</strong> y está protegido
                     por las leyes de propiedad intelectual de Chile.
                 </p>
 

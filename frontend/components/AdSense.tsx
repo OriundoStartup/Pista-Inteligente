@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 
 declare global {
     interface Window {
@@ -21,7 +21,13 @@ export function AdBanner({
     dataFullWidthResponsive = true,
     className = '',
 }: AdBannerProps) {
+    const adRef = useRef<boolean>(false)
+
     useEffect(() => {
+        // Guard: only push once per mount (avoids double-push in React StrictMode)
+        if (adRef.current) return
+        adRef.current = true
+
         try {
             if (typeof window !== 'undefined') {
                 (window.adsbygoogle = window.adsbygoogle || []).push({})
@@ -32,7 +38,8 @@ export function AdBanner({
     }, [])
 
     return (
-        <div className={`ad-container ${className}`} style={{ minHeight: '100px', textAlign: 'center' }}>
+        <div className={`ad-container ${className}`}>
+            <span className="ad-label">Publicidad</span>
             <ins
                 className="adsbygoogle"
                 style={{ display: 'block' }}
@@ -45,29 +52,40 @@ export function AdBanner({
     )
 }
 
-// Anuncio automático que Google optimiza
-export function AdAutoAds() {
-    useEffect(() => {
-        try {
-            if (typeof window !== 'undefined') {
-                (window.adsbygoogle = window.adsbygoogle || []).push({})
-            }
-        } catch (err) {
-            console.error('AdSense Auto Ads error:', err)
-        }
-    }, [])
+// ─── Variantes preconfiguradas ───────────────────────────────────
 
-    return null
+/** Banner horizontal responsive — ideal entre secciones */
+export function AdBannerHorizontal({ className }: { className?: string }) {
+    return (
+        <AdBanner
+            dataAdSlot="auto"
+            dataAdFormat="auto"
+            dataFullWidthResponsive={true}
+            className={className}
+        />
+    )
 }
 
-// Componente para inicializar AdSense (usar en layout)
-export function AdSenseInit() {
-    useEffect(() => {
-        // Inicializar array de adsbygoogle si no existe
-        if (typeof window !== 'undefined') {
-            window.adsbygoogle = window.adsbygoogle || []
-        }
-    }, [])
+/** Anuncio In-Article — se inserta dentro del flujo de contenido */
+export function AdBannerInArticle({ className }: { className?: string }) {
+    return (
+        <AdBanner
+            dataAdSlot="auto"
+            dataAdFormat="fluid"
+            dataFullWidthResponsive={true}
+            className={`ad-in-article ${className || ''}`}
+        />
+    )
+}
 
-    return null
+/** Anuncio Multiplex — grid de anuncios nativos al final del contenido */
+export function AdBannerMultiplex({ className }: { className?: string }) {
+    return (
+        <AdBanner
+            dataAdSlot="auto"
+            dataAdFormat="autorelaxed"
+            dataFullWidthResponsive={true}
+            className={`ad-multiplex ${className || ''}`}
+        />
+    )
 }

@@ -2,6 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { createClient } from '@supabase/supabase-js'
 import BotonQuinela from '@/components/BotonQuinela'
+import { AdBannerHorizontal } from '@/components/AdSense'
 
 export const metadata: Metadata = {
     title: 'Rendimiento Pista Inteligente - Precisión Real | Predicciones Hípicas IA',
@@ -81,19 +82,42 @@ async function getPerformanceData(): Promise<PerformanceData | null> {
             .gte('fecha', '2026-01-01')
             .or('acierto_ganador.eq.true,acierto_quiniela.eq.true,acierto_trifecta.eq.true,acierto_superfecta.eq.true')
             .order('fecha', { ascending: false })
-            .limit(100) // Increased limit to show more successful predictions
+        // Removed limit to show ALL matches
 
-        const races: RaceResult[] = (recentRaces || []).map((r: any) => ({
-            fecha: r.fecha,
-            hipodromo: r.hipodromo,
-            nro_carrera: r.nro_carrera,
-            acierto_ganador: r.acierto_ganador,
-            acierto_quiniela: r.acierto_quiniela,
-            acierto_trifecta: r.acierto_trifecta,
-            acierto_superfecta: r.acierto_superfecta,
-            prediccion_top4: typeof r.prediccion_top4 === 'string' ? JSON.parse(r.prediccion_top4) : r.prediccion_top4 || [],
-            resultado_top4: typeof r.resultado_top4 === 'string' ? JSON.parse(r.resultado_top4) : r.resultado_top4 || []
-        }))
+        // Filter, validate, and deduplicate race results
+        const races: RaceResult[] = (recentRaces || [])
+            .filter((r: any) => {
+                // Validate essential data
+                if (!r.fecha || !r.hipodromo || !r.nro_carrera) return false
+                if (r.nro_carrera <= 0) return false // Filter invalid race numbers
+                return true
+            })
+            .reduce((acc: RaceResult[], r: any) => {
+                // Deduplication: avoid duplicates by fecha-hipodromo-carrera
+                const key = `${r.fecha}-${r.hipodromo}-${r.nro_carrera}`
+                const isDuplicate = acc.find((existing) =>
+                    `${existing.fecha}-${existing.hipodromo}-${existing.nro_carrera}` === key
+                )
+
+                if (!isDuplicate) {
+                    acc.push({
+                        fecha: r.fecha,
+                        hipodromo: r.hipodromo,
+                        nro_carrera: r.nro_carrera,
+                        acierto_ganador: r.acierto_ganador,
+                        acierto_quiniela: r.acierto_quiniela,
+                        acierto_trifecta: r.acierto_trifecta,
+                        acierto_superfecta: r.acierto_superfecta,
+                        prediccion_top4: typeof r.prediccion_top4 === 'string'
+                            ? JSON.parse(r.prediccion_top4)
+                            : r.prediccion_top4 || [],
+                        resultado_top4: typeof r.resultado_top4 === 'string'
+                            ? JSON.parse(r.resultado_top4)
+                            : r.resultado_top4 || []
+                    })
+                }
+                return acc
+            }, [])
 
         return {
             generated_at: statsData.updated_at || new Date().toISOString(),
@@ -444,6 +468,9 @@ export default async function PrecisionPage() {
                 </div>
             </div>
 
+            {/* Ad Banner - After Global Stats */}
+            <AdBannerHorizontal />
+
             {/* By Hipódromo */}
             <div className="glass-card" style={{ marginBottom: '2rem', padding: '1.5rem' }}>
                 <div className="section-title" style={{ marginBottom: '1.5rem' }}>
@@ -607,6 +634,9 @@ export default async function PrecisionPage() {
                     </span>
                 </div>
             </div>
+
+            {/* Ad Banner - After Verified Races */}
+            <AdBannerHorizontal />
 
             {/* Transparency Section */}
             <div className="glass-card" style={{ marginBottom: '2rem', padding: '1.5rem' }}>

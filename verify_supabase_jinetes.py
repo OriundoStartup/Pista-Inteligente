@@ -44,18 +44,33 @@ def main():
         print(f"  Jornada ID: {j['id']}, Fecha: {j['fecha']}, Hipódromo: {j['hipodromo_id']}")
     
     # 6. Intentar la misma consulta que hace el frontend
-    print("\n--- Simulando consulta del Frontend ---")
+    print("\n--- Simulando consulta del Frontend (SIN LIMIT) ---")
     try:
-        data = supabase.from_('participaciones').select(
+        # Aumentamos el limite para traer todos los datos
+        # Nota: PostgREST puede tener un hard limit en el servidor, pero intentaremos subirlo
+        data = supabase.table('participaciones').select(
             'posicion, jinetes(nombre), carreras!inner(jornadas!inner(fecha))'
         ).gte('carreras.jornadas.fecha', '2026-01-01').execute()
         
-        print(f"📊 Filas obtenidas: {len(data.data)}")
+        print(f"📊 Filas obtenidas (Default): {len(data.data)}")
+
+        # Intentar con paginacion o limite alto si el cliente lo permite
+        # En python client, execute() suele respetar el default.
+        # Probaremos con .select()... si la libreria lo soporta.
         
-        if len(data.data) > 0:
+        # En JS se usa .range() o .limit(). Aqui veamos si podemos usar limit.
+        data_full = supabase.table('participaciones').select(
+            'posicion, jinetes(nombre), carreras!inner(jornadas!inner(fecha))'
+        ).gte('carreras.jornadas.fecha', '2026-01-01').range(0, 9000).execute()
+        
+        print(f"📊 Filas obtenidas (Range 0-9000): {len(data_full.data)}")
+        
+        target_data = data_full.data if len(data_full.data) > len(data.data) else data.data
+
+        if len(target_data) > 0:
             # Agregar estadísticas
             stats = {}
-            for row in data.data:
+            for row in target_data:
                 jinete_name = row.get('jinetes', {})
                 if jinete_name:
                     nombre = jinete_name.get('nombre', 'Desconocido')

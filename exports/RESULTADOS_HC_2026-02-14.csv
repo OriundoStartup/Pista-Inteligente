@@ -1,0 +1,254 @@
+fecha,hipodromo,nro_carrera,hora,distancia,superficie,numero,caballo,jinete,preparador,posicion,tiempo,dividendo,peso
+14-02-2026,Hipódromo Chile,1,12:30,1200,Arena,3,Puerto Clocker,N. Ramirez.,Eugenio Switt V.,1,1.11.63,2.50,489
+14-02-2026,Hipódromo Chile,1,12:30,1200,Arena,11,La Flambee,R. Fuenzalida.,Eduardo Lab R.,2,1.11.63,4.90,440
+14-02-2026,Hipódromo Chile,1,12:30,1200,Arena,1,Mecedor,M. Gutiérrez.,Angel Jaque S.,3,1.11.63,8.40,474
+14-02-2026,Hipódromo Chile,1,12:30,1200,Arena,4,Ya Magico,J. González.,Genaro J. Covarrubias E.,4,1.11.63,9.30,428
+14-02-2026,Hipódromo Chile,1,12:30,1200,Arena,7,Patmaho,B. Soto.,José Araya B.,5,1.11.63,5.30,521
+14-02-2026,Hipódromo Chile,1,12:30,1200,Arena,8,Beautiful Moon,H. Jiménez.,Jaime Hirmas R.,6,1.11.63,64.00,413
+14-02-2026,Hipódromo Chile,1,12:30,1200,Arena,9,Pombito,R. Painen.,Juan C. Pichara J.,7,1.11.63,17.60,456
+14-02-2026,Hipódromo Chile,1,12:30,1200,Arena,10,La Rumbera,I. Vargas.,Rafael Bernal G.,8,1.11.63,68.60,450
+14-02-2026,Hipódromo Chile,1,12:30,1200,Arena,6,Benvenuto Cellini,M. Morales.,Fernando Solar S.,9,1.11.63,12.20,484
+14-02-2026,Hipódromo Chile,1,12:30,1200,Arena,5,Vivimos Soñando,S. González.,Juan C. Pichara J.,10,1.11.63,15.60,467
+14-02-2026,Hipódromo Chile,1,12:30,1200,Arena,15,Lady Bay,B. Rubilar.,José Lastra B.,11,1.11.63,39.80,383
+14-02-2026,Hipódromo Chile,1,12:30,1200,Arena,12,Mestiza Flor,T. Seith.,Isaac Michea F.,12,1.11.63,35.40,422
+14-02-2026,Hipódromo Chile,1,12:30,1200,Arena,13,Cuando Llego Gano,J. Vera.,Juan Gonzalez M.,13,1.11.63,13.10,414
+14-02-2026,Hipódromo Chile,1,12:30,1200,Arena,2,Conociendote,L.D. Menghini.,Eugenio Switt V.,14,1.11.63,45.60,446
+14-02-2026,Hipódromo Chile,1,12:30,1200,Arena,14,City Blue,F. Moreno.,José Venegas P.,U,1.11.63,26.10,420
+14-02-2026,Hipódromo Chile,2,12:55,1000,Arena,7,Todos Mienten,A. Varas.,Julio Castillo D.,1,58.01,8.90,453
+14-02-2026,Hipódromo Chile,2,12:55,1000,Arena,3,El Gagui,D. Cheuque.,Patricio Valderrama C.,2,58.01,4.30,409
+14-02-2026,Hipódromo Chile,2,12:55,1000,Arena,2,Rey Olimpus,I. Vargas.,Oscar Donate S.,3,58.01,7.30,449
+14-02-2026,Hipódromo Chile,2,12:55,1000,Arena,5,Gianbruno,N. Rojas.,Rodrigo López B.,4,58.01,1.80,463
+14-02-2026,Hipódromo Chile,2,12:55,1000,Arena,1,Seven Points,N. Molina.,Rodrigo Quiroz S.,5,58.01,24.80,443
+14-02-2026,Hipódromo Chile,2,12:55,1000,Arena,8,Mi Nieto Facundo,T. Seith.,Aldo Castagneto U.,6,58.01,8.10,455
+14-02-2026,Hipódromo Chile,2,12:55,1000,Arena,9,Cartao Preto,M. Morales.,Fernando Solar S.,7,58.01,38.60,468
+14-02-2026,Hipódromo Chile,2,12:55,1000,Arena,10,American Bunny,J. Medina.,Cristobal Gonzalez M.,8,58.01,5.20,404
+14-02-2026,Hipódromo Chile,2,12:55,1000,Arena,4,Hazte Payasito,J. Eyzaguirre.,Isaac Michea F.,9,58.01,70.20,491
+14-02-2026,Hipódromo Chile,2,12:55,1000,Arena,6,On The Level,B. Rubilar.,Harrison Adonis B.,U,58.01,79.90,419
+14-02-2026,Hipódromo Chile,3,13:20,1900,Arena,5,Good Chief,S. González.,Isaac Michea F.,1,1.57.05,5.00,450
+14-02-2026,Hipódromo Chile,3,13:20,1900,Arena,14,Baby Shak,N. Ramirez.,Juan C. Pichara J.,2,1.57.05,5.50,480
+14-02-2026,Hipódromo Chile,3,13:20,1900,Arena,10,Roce Secreto,G. Aros.,Juan C. Pichara J.,3,1.57.05,5.20,434
+14-02-2026,Hipódromo Chile,3,13:20,1900,Arena,2,Lyngote,R. Fuenzalida.,Luis Machulas G.,4,1.57.05,30.30,506
+14-02-2026,Hipódromo Chile,3,13:20,1900,Arena,9,Tetra Goleador Z,M. Morales.,Oscar Donate S.,5,1.57.05,28.00,488
+14-02-2026,Hipódromo Chile,3,13:20,1900,Arena,6,Scar,C. Ortega.,José Alvarez D.,6,1.57.05,10.30,480
+14-02-2026,Hipódromo Chile,3,13:20,1900,Arena,8,Persevera Siempre,M. Gutiérrez.,Eugenio Switt V.,7,1.57.05,5.40,477
+14-02-2026,Hipódromo Chile,3,13:20,1900,Arena,13,Stavos,L. González.,Mario Covarrubias,8,1.57.05,26.00,487
+14-02-2026,Hipódromo Chile,3,13:20,1900,Arena,11,Zulthan,N. Molina.,Jaime Espineira C.,9,1.57.05,10.50,457
+14-02-2026,Hipódromo Chile,3,13:20,1900,Arena,1,El Forastero,R. Cisternas.,Ricardo Rojas S.,10,1.57.05,7.60,469
+14-02-2026,Hipódromo Chile,3,13:20,1900,Arena,12,Mariadynis,J.A. Miño.,José Araya B.,11,1.57.05,42.90,468
+14-02-2026,Hipódromo Chile,3,13:20,1900,Arena,3,El Puntuo,J. Toro.,José Araya B.,12,1.57.05,7.90,471
+14-02-2026,Hipódromo Chile,3,13:20,1900,Arena,4,Mi Rincon,P. Reyes.,Rodrigo Sánchez Q.,13,1.57.05,45.10,455
+14-02-2026,Hipódromo Chile,3,13:20,1900,Arena,15,El Florito,J. Zúñiga.,Rafael Bernal G.,14,1.57.05,16.00,439
+14-02-2026,Hipódromo Chile,3,13:20,1900,Arena,7,Peluka,L.D. Menghini.,Juan C. Pichara J.,U,1.57.05,62.30,445
+14-02-2026,Hipódromo Chile,4,13:46,1200,Arena,9,Bitter Black,J. Villablanca.,Maritza Pérez A.,1,1.12.24,6.10,500
+14-02-2026,Hipódromo Chile,4,13:46,1200,Arena,11,Marrakech,J. González.,Genaro J. Covarrubias E.,2,1.12.24,3.70,448
+14-02-2026,Hipódromo Chile,4,13:46,1200,Arena,3,Francoli,N. Molina.,Rodrigo Quiroz S.,3,1.12.24,8.80,434
+14-02-2026,Hipódromo Chile,4,13:46,1200,Arena,1,Rasheem,J. Soto.,Isaac Michea F.,4,1.12.24,6.70,448
+14-02-2026,Hipódromo Chile,4,13:46,1200,Arena,14,Ahmakil,A. Apablaza.,Alexis Pérez D.,5,1.12.24,31.00,430
+14-02-2026,Hipódromo Chile,4,13:46,1200,Arena,4,Incluye Todo,D. Medina.,Juan Aravena M.,6,1.12.24,57.80,420
+14-02-2026,Hipódromo Chile,4,13:46,1200,Arena,7,Silvestrin,H. Ochoa.,Mario A. Apablaza G.,7,1.12.24,3.40,449
+14-02-2026,Hipódromo Chile,4,13:46,1200,Arena,6,Joven Sanchis,B. Soto.,Jaime Espineira C.,8,1.12.24,43.60,470
+14-02-2026,Hipódromo Chile,4,13:46,1200,Arena,12,Red Knight,N. Santibañez.,Claudio Bernal G.,9,1.12.24,5.30,474
+14-02-2026,Hipódromo Chile,4,13:46,1200,Arena,13,Kirsch Royal,A. Covarrubias.,Mario Covarrubias,10,1.12.24,18.60,455
+14-02-2026,Hipódromo Chile,4,13:46,1200,Arena,8,India Adorada,J.A. Miño.,Eugenio Switt V.,11,1.12.24,18.00,450
+14-02-2026,Hipódromo Chile,4,13:46,1200,Arena,15,Natalino,A. Zúñiga.,Ricardo Rojas S.,12,1.12.24,57.30,489
+14-02-2026,Hipódromo Chile,4,13:46,1200,Arena,2,Keep Dreaming,G. Givovich.,Ricardo Rojas S.,13,1.12.24,21.70,393
+14-02-2026,Hipódromo Chile,4,13:46,1200,Arena,5,Guanaquero,B. Rubilar.,Eduardo Lab R.,14,1.12.24,111.30,481
+14-02-2026,Hipódromo Chile,4,13:46,1200,Arena,10,Bhadrak,R. Varas.,José Bravo M.,U,1.12.24,90.50,456
+14-02-2026,Hipódromo Chile,5,14:11,1200,Arena,7,Sogna Con Me,A. Varas.,José Venegas P.,1,1.12.63,2.50,436
+14-02-2026,Hipódromo Chile,5,14:11,1200,Arena,1,Sinag,D. Cheuque.,Rodrigo Quiroz S.,2,1.12.63,22.60,421
+14-02-2026,Hipódromo Chile,5,14:11,1200,Arena,12,Smile Queen,N. Ramirez.,Cristián Urbina R.,3,1.12.63,4.30,521
+14-02-2026,Hipódromo Chile,5,14:11,1200,Arena,15,Ragazza Viziata,N. Rojas.,Cristián Urbina R.,4,1.12.63,2.30,432
+14-02-2026,Hipódromo Chile,5,14:11,1200,Arena,4,Katerya,B. Soto.,José Araya B.,5,1.12.63,18.50,440
+14-02-2026,Hipódromo Chile,5,14:11,1200,Arena,6,La Hermana,R. Fuenzalida.,Alejandro Martínez C.,6,1.12.63,14.50,405
+14-02-2026,Hipódromo Chile,5,14:11,1200,Arena,9,Emperifollada,B. Rubilar.,Ricardo Rojas S.,7,1.12.63,51.00,464
+14-02-2026,Hipódromo Chile,5,14:11,1200,Arena,10,Como La Luna,M. Galáz.,Daniel Contreras A.,8,1.12.63,29.90,481
+14-02-2026,Hipódromo Chile,5,14:11,1200,Arena,2,La Universitaria,P. Zúñiga.,Rodrigo Quiroz S.,9,1.12.63,69.80,399
+14-02-2026,Hipódromo Chile,5,14:11,1200,Arena,5,Hildita Mia,I. Vargas.,Oscar Donate S.,10,1.12.63,112.30,474
+14-02-2026,Hipódromo Chile,5,14:11,1200,Arena,11,Paloma One,A. Morales.,Cristian Quiroz E.,11,1.12.63,27.00,443
+14-02-2026,Hipódromo Chile,5,14:11,1200,Arena,13,Madre Patria,J. Vera.,Juan Gonzalez M.,12,1.12.63,154.00,450
+14-02-2026,Hipódromo Chile,5,14:11,1200,Arena,14,Bad Romance,M. Herrera.,Rafael Bernal G.,13,1.12.63,62.10,380
+14-02-2026,Hipódromo Chile,5,14:11,1200,Arena,8,La Cia,L.P. Silva.,Oscar Donate S.,14,1.12.63,15.00,398
+14-02-2026,Hipódromo Chile,6,14:36,1000,Arena,6,Friday,D. Cheuque.,Rodrigo Quiroz S.,1,56.35,7.70,404
+14-02-2026,Hipódromo Chile,6,14:36,1000,Arena,3,Bella Spirit,R. Cisternas.,Marco Pavez O.,2,56.35,2.10,500
+14-02-2026,Hipódromo Chile,6,14:36,1000,Arena,1,Nueva Vida,N. Rojas.,Alejandro Padovani E.,3,56.35,3.30,430
+14-02-2026,Hipódromo Chile,6,14:36,1000,Arena,2,Lady Jets,A. Zúñiga.,Oscar Donate S.,4,56.35,25.30,451
+14-02-2026,Hipódromo Chile,6,14:36,1000,Arena,4,Cotillard,M. Morales.,Rodrigo López B.,5,56.35,7.20,452
+14-02-2026,Hipódromo Chile,6,14:36,1000,Arena,5,Classic Form,B. León.,Mario Covarrubias,6,56.35,8.00,391
+14-02-2026,Hipódromo Chile,6,14:36,1000,Arena,8,Diosa Kali,J. Villagran.,José Bravo M.,7,56.35,32.50,
+14-02-2026,Hipódromo Chile,6,14:36,1000,Arena,9,Atacama Flower,A. Varas.,Oscar Donate S.,8,56.35,16.90,471
+14-02-2026,Hipódromo Chile,6,14:36,1000,Arena,7,Tia Jazmin,N. Santibañez.,Daniel Contreras A.,U,56.35,6.80,483
+14-02-2026,Hipódromo Chile,7,15:02,1200,Arena,7,Ya Lo Creo,J. Toro.,Julio Castillo D.,1,1.11.22,2.60,387
+14-02-2026,Hipódromo Chile,7,15:02,1200,Arena,1,Te Diria,D. Cheuque.,Julio Castillo D.,1,1.11.22,4.20,426
+14-02-2026,Hipódromo Chile,7,15:02,1200,Arena,4,Mr Ranger,J. Eyzaguirre.,Isaac Michea F.,3,1.11.22,28.10,456
+14-02-2026,Hipódromo Chile,7,15:02,1200,Arena,10,Queen Any,N. Ramirez.,Raúl Montesino S.,4,1.11.22,2.30,439
+14-02-2026,Hipódromo Chile,7,15:02,1200,Arena,12,Vine Vide Vinci,N. Molina.,Rodrigo Quiroz S.,5,1.11.22,9.10,455
+14-02-2026,Hipódromo Chile,7,15:02,1200,Arena,2,Rosario Tijera,W. Quinteros.,Oscar Donate S.,6,1.11.22,13.40,456
+14-02-2026,Hipódromo Chile,7,15:02,1200,Arena,14,John Wayne,L. González.,Genaro J. Covarrubias E.,7,1.11.22,5.80,470
+14-02-2026,Hipódromo Chile,7,15:02,1200,Arena,11,Soy Enriqueta,N. Rojas.,Alejandro Padovani E.,8,1.11.22,64.40,479
+14-02-2026,Hipódromo Chile,7,15:02,1200,Arena,9,Good Morning Red,M. Fuentes.,Juan Gonzalez M.,9,1.11.22,235.30,423
+14-02-2026,Hipódromo Chile,7,15:02,1200,Arena,15,Tata Moncho,B. Soto.,Rodrigo Quiroz S.,10,1.11.22,15.00,434
+14-02-2026,Hipódromo Chile,7,15:02,1200,Arena,6,Que Hice Mal,H. Jiménez.,Jaime Hirmas R.,11,1.11.22,54.80,386
+14-02-2026,Hipódromo Chile,7,15:02,1200,Arena,13,Sasuke,A. Varas.,Juan C. Pichara J.,12,1.11.22,8.20,430
+14-02-2026,Hipódromo Chile,7,15:02,1200,Arena,8,Palabra Cierta,P. Zúñiga.,Rodrigo Quiroz S.,13,1.11.22,17.40,485
+14-02-2026,Hipódromo Chile,7,15:02,1200,Arena,3,Julia Domna,J. Solano.,José Venegas P.,14,1.11.22,100.40,483
+14-02-2026,Hipódromo Chile,8,15:27,1200,Arena,5,Frozen Storm,B. León.,Carlos Urbina H.,1,1.09.53,3.00,465
+14-02-2026,Hipódromo Chile,8,15:27,1200,Arena,4,Grande Tata,N. Molina.,Theodore.Cachely.,2,1.09.53,17.30,478
+14-02-2026,Hipódromo Chile,8,15:27,1200,Arena,9,Corazón Partío,K. Espina.,Eugenio Switt V.,3,1.09.53,2.40,438
+14-02-2026,Hipódromo Chile,8,15:27,1200,Arena,6,No Es Na Cierto,D. Sánchez.,Aldo Parra D.,4,1.09.53,21.70,441
+14-02-2026,Hipódromo Chile,8,15:27,1200,Arena,3,Flame Prize,R. Fuenzalida.,Juan Pablo Baeza J.,5,1.09.53,9.60,445
+14-02-2026,Hipódromo Chile,8,15:27,1200,Arena,8,Make It Count,H. Ochoa.,Claudio Bernal G.,6,1.09.53,6.40,414
+14-02-2026,Hipódromo Chile,8,15:27,1200,Arena,11,Que Locura,G. Aros.,Alejandro Padovani E.,7,1.09.53,3.80,464
+14-02-2026,Hipódromo Chile,8,15:27,1200,Arena,7,Yes Man,B. Soto.,Juan C. Pichara J.,8,1.09.53,49.70,405
+14-02-2026,Hipódromo Chile,8,15:27,1200,Arena,1,The Alcaraz,J. Cueto.,Juan C. Pichara J.,9,1.09.53,40.20,399
+14-02-2026,Hipódromo Chile,8,15:27,1200,Arena,2,Osbourne,R. Painen.,Juan C. Pichara J.,10,1.09.53,57.90,465
+14-02-2026,Hipódromo Chile,8,15:27,1200,Arena,10,Alegremente,P. Reyes.,Héctor Manríquez F.,U,1.09.53,120.50,421
+14-02-2026,Hipódromo Chile,9,15:52,1400,Arena,5,Elegido Con Pinzas,N. Rojas.,Alejandro Padovani E.,1,1.22.88,4.10,492
+14-02-2026,Hipódromo Chile,9,15:52,1400,Arena,9,Pretty Distorted,H. Ochoa.,Rodrigo Sánchez Q.,2,1.22.88,2.40,430
+14-02-2026,Hipódromo Chile,9,15:52,1400,Arena,13,No Me Pilla,S. González.,Rodrigo Quiroz S.,3,1.22.88,10.70,420
+14-02-2026,Hipódromo Chile,9,15:52,1400,Arena,3,El Cobalto,J. Toro.,Julio Castillo D.,4,1.22.88,6.50,500
+14-02-2026,Hipódromo Chile,9,15:52,1400,Arena,7,Mi Solcito,J. Zúñiga.,José Venegas P.,5,1.22.88,15.60,441
+14-02-2026,Hipódromo Chile,9,15:52,1400,Arena,2,Mendel Quinta,B. Soto.,Rafael Bernal G.,6,1.22.88,14.20,443
+14-02-2026,Hipódromo Chile,9,15:52,1400,Arena,8,Regia Piba,A. Varas.,Manuel Norambuena Ch.,7,1.22.88,4.70,457
+14-02-2026,Hipódromo Chile,9,15:52,1400,Arena,1,Giorgio Eloriginal,B. Rubilar.,José Lastra B.,8,1.22.88,23.30,441
+14-02-2026,Hipódromo Chile,9,15:52,1400,Arena,12,Hammer Time,M. Fuentes.,Genaro J. Covarrubias E.,9,1.22.88,80.10,465
+14-02-2026,Hipódromo Chile,9,15:52,1400,Arena,6,Cuccinello,B. León.,Enrique M. Becar B.,10,1.22.88,31.00,470
+14-02-2026,Hipódromo Chile,9,15:52,1400,Arena,4,Mixed Emotions,A. Morales.,Cristian Quiroz E.,11,1.22.88,77.10,492
+14-02-2026,Hipódromo Chile,9,15:52,1400,Arena,10,Kalanit,R. Fuenzalida.,Juan Pablo Baeza J.,12,1.22.88,21.70,492
+14-02-2026,Hipódromo Chile,9,15:52,1400,Arena,11,Don Picho,N. Molina.,Jaime Espineira C.,U,1.22.88,20.20,411
+14-02-2026,Hipódromo Chile,10,16:19,1200,Arena,7,Sisi Star,W. Quinteros.,Raúl Montesino S.,1,1.10.07,8.10,421
+14-02-2026,Hipódromo Chile,10,16:19,1200,Arena,2,Vasca Brava,M. Morales.,Jaime Espineira C.,2,1.10.07,7.50,427
+14-02-2026,Hipódromo Chile,10,16:19,1200,Arena,3,Hagale Hagale,I. Vargas.,Mario A. Apablaza G.,3,1.10.07,5.40,428
+14-02-2026,Hipódromo Chile,10,16:19,1200,Arena,6,Te Digo Algo,N. Santibañez.,Claudio Bernal G.,3,1.10.07,3.10,460
+14-02-2026,Hipódromo Chile,10,16:19,1200,Arena,4,Meme,M. Herrera.,Rafael Bernal G.,5,1.10.07,24.20,402
+14-02-2026,Hipódromo Chile,10,16:19,1200,Arena,9,Gran Nono,J. González.,Genaro J. Covarrubias E.,6,1.10.07,5.50,531
+14-02-2026,Hipódromo Chile,10,16:19,1200,Arena,15,La Soñe,L.P. Silva.,Genaro J. Covarrubias E.,7,1.10.07,20.30,431
+14-02-2026,Hipódromo Chile,10,16:19,1200,Arena,13,Desert Cat,N. Molina.,Jaime Espineira C.,8,1.10.07,8.00,443
+14-02-2026,Hipódromo Chile,10,16:19,1200,Arena,1,La Tostadora,J. Vera.,Juan Gonzalez M.,9,1.10.07,13.60,474
+14-02-2026,Hipódromo Chile,10,16:19,1200,Arena,11,Gran Facundo,P. Zúñiga.,Jaime Hirmas R.,10,1.10.07,20.70,478
+14-02-2026,Hipódromo Chile,10,16:19,1200,Arena,10,Fabrana,J. Zúñiga.,Ricardo Rojas S.,11,1.10.07,11.40,464
+14-02-2026,Hipódromo Chile,10,16:19,1200,Arena,12,Markinabizkaia,J. Villablanca.,Daniel Contreras A.,12,1.10.07,33.60,456
+14-02-2026,Hipódromo Chile,10,16:19,1200,Arena,14,Canovanas,F. Moreno.,José Venegas P.,13,1.10.07,77.30,465
+14-02-2026,Hipódromo Chile,10,16:19,1200,Arena,5,India Terca,L. Rivera.,Eugenio Switt V.,14,1.10.07,88.40,483
+14-02-2026,Hipódromo Chile,10,16:19,1200,Arena,8,Salma Alegre,B. Rubilar.,Eugenio Switt V.,U,1.10.07,134.90,414
+14-02-2026,Hipódromo Chile,11,16:45,1200,Arena,8,Paquete Platico,R. Fuenzalida.,Eugenio Switt V.,1,1.11.78,15.20,417
+14-02-2026,Hipódromo Chile,11,16:45,1200,Arena,12,Mandioka,J. Villablanca.,Maritza Pérez A.,2,1.11.78,16.60,417
+14-02-2026,Hipódromo Chile,11,16:45,1200,Arena,4,Mi Ciela,G. Aros.,Alejandro Padovani E.,3,1.11.78,2.60,447
+14-02-2026,Hipódromo Chile,11,16:45,1200,Arena,5,La Chucky Trini,J. González.,Genaro J. Covarrubias E.,4,1.11.78,9.70,414
+14-02-2026,Hipódromo Chile,11,16:45,1200,Arena,9,Cose Della Vita,P. Robles.,Alexis Pérez D.,5,1.11.78,4.50,405
+14-02-2026,Hipódromo Chile,11,16:45,1200,Arena,3,Fetlock Joint,C. Alegría.,Mario A. Apablaza G.,6,1.11.78,20.20,458
+14-02-2026,Hipódromo Chile,11,16:45,1200,Arena,6,Quicote,L. González.,Genaro J. Covarrubias E.,7,1.11.78,15.40,488
+14-02-2026,Hipódromo Chile,11,16:45,1200,Arena,15,Estratego,B. Rubilar.,Ricardo Rojas S.,8,1.11.78,22.10,484
+14-02-2026,Hipódromo Chile,11,16:45,1200,Arena,11,Chiqui Veloz,J. Castillo.,Luis Toledo C.,9,1.11.78,44.50,397
+14-02-2026,Hipódromo Chile,11,16:45,1200,Arena,7,Su Merci,J. Zúñiga.,Daniel Contreras A.,10,1.11.78,12.50,456
+14-02-2026,Hipódromo Chile,11,16:45,1200,Arena,1,Gamorra,N. Santibañez.,Rodrigo Quiroz S.,11,1.11.78,18.70,445
+14-02-2026,Hipódromo Chile,11,16:45,1200,Arena,10,Como El Sol,N. Ramirez.,Juan C. Pichara J.,12,1.11.78,7.40,469
+14-02-2026,Hipódromo Chile,11,16:45,1200,Arena,14,Cachorrita Mia,L.P. Silva.,Patricio Valderrama C.,13,1.11.78,35.20,452
+14-02-2026,Hipódromo Chile,11,16:45,1200,Arena,2,Solka,C. Bustos.,Rafael Bernal G.,14,1.11.78,87.30,461
+14-02-2026,Hipódromo Chile,11,16:45,1200,Arena,13,Soñado Campeon,J. Eyzaguirre.,Julio Castillo D.,U,1.11.78,9.00,521
+14-02-2026,Hipódromo Chile,12,17:10,1600,Arena,5,Oly Good,G. Aros.,Alejandro Padovani E.,1,1.32.68,6.80,501
+14-02-2026,Hipódromo Chile,12,17:10,1600,Arena,3,Pele O Rey,R. Cisternas.,Julio Orellana R.,2,1.32.68,2.80,457
+14-02-2026,Hipódromo Chile,12,17:10,1600,Arena,1,Rio Serrano,J. Toro.,Juan Pablo Baeza J.,3,1.32.68,15.20,480
+14-02-2026,Hipódromo Chile,12,17:10,1600,Arena,7,Niño Indomable,J. Zúñiga.,Cristián Urbina R.,4,1.32.68,4.50,484
+14-02-2026,Hipódromo Chile,12,17:10,1600,Arena,2,Joses,H. Ochoa.,Oscar Silva S.,5,1.32.68,3.80,484
+14-02-2026,Hipódromo Chile,12,17:10,1600,Arena,8,Referendum Joke,J. Medina.,Juan Pablo Baeza J.,6,1.32.68,3.90,482
+14-02-2026,Hipódromo Chile,12,17:10,1600,Arena,4,Latour Cent,B. Troncoso.,Pedro Diaz S.,7,1.32.68,13.70,481
+14-02-2026,Hipódromo Chile,12,17:10,1600,Arena,6,Flagship,N. Molina.,Theodore.Cachely.,U,1.32.68,16.00,535
+14-02-2026,Hipódromo Chile,13,17:38,1200,Arena,4,Avíspate Comadre,M. Gutiérrez.,Rafael Bernal G.,1,1.10.35,12.20,433
+14-02-2026,Hipódromo Chile,13,17:38,1200,Arena,5,Princesa Ruby,P. Zúñiga.,Rodrigo López B.,2,1.10.35,5.40,485
+14-02-2026,Hipódromo Chile,13,17:38,1200,Arena,12,Lady Chrome,J. González.,Juan Gonzalez M.,3,1.10.35,24.00,419
+14-02-2026,Hipódromo Chile,13,17:38,1200,Arena,2,Shamrock,A. Apablaza.,Julio Castillo D.,4,1.10.35,8.40,473
+14-02-2026,Hipódromo Chile,13,17:38,1200,Arena,8,Callahan,L.P. Silva.,Genaro J. Covarrubias E.,5,1.10.35,11.40,433
+14-02-2026,Hipódromo Chile,13,17:38,1200,Arena,9,Lumber Boy,A. Covarrubias.,Lauro Pérez A.,6,1.10.35,37.10,433
+14-02-2026,Hipódromo Chile,13,17:38,1200,Arena,10,Drink's Valley,F. Taun.,Rodrigo Quiroz S.,7,1.10.35,31.90,442
+14-02-2026,Hipódromo Chile,13,17:38,1200,Arena,1,Iron Swim,B. Soto.,Manuel Norambuena Ch.,8,1.10.35,5.80,481
+14-02-2026,Hipódromo Chile,13,17:38,1200,Arena,14,Doña Tota,N. Rojas.,Alejandro Padovani E.,9,1.10.35,5.10,502
+14-02-2026,Hipódromo Chile,13,17:38,1200,Arena,3,Mezzosoprano,A. Zúñiga.,Jaime Hirmas R.,10,1.10.35,11.30,514
+14-02-2026,Hipódromo Chile,13,17:38,1200,Arena,11,Cual Es Tu Ley,D. Cheuque.,Luis Machulas G.,11,1.10.35,36.40,410
+14-02-2026,Hipódromo Chile,13,17:38,1200,Arena,7,Me Veras Caer,L. González.,Julio Castillo D.,12,1.10.35,9.40,414
+14-02-2026,Hipódromo Chile,13,17:38,1200,Arena,6,Rucco,R. Covarrubias.,Pedro Diaz S.,13,1.10.35,18.20,492
+14-02-2026,Hipódromo Chile,13,17:38,1200,Arena,13,Arrancate Pairino,N. Santibañez.,Mario A. Apablaza G.,U,1.10.35,4.60,461
+14-02-2026,Hipódromo Chile,14,18:04,1200,Arena,4,La Que Manda,R.S. Dores.,Julio Castillo D.,1,1.09.11,11.80,442
+14-02-2026,Hipódromo Chile,14,18:04,1200,Arena,6,Maximus Matias,J. González.,Mario Covarrubias,2,1.09.11,2.00,488
+14-02-2026,Hipódromo Chile,14,18:04,1200,Arena,7,Montes Premium,M. Gutiérrez.,Rafael Bernal G.,3,1.09.11,7.40,445
+14-02-2026,Hipódromo Chile,14,18:04,1200,Arena,3,La Flower,J. Toro.,Juan Gonzalez M.,4,1.09.11,12.50,469
+14-02-2026,Hipódromo Chile,14,18:04,1200,Arena,8,Lucia De Siracusa,M. Morales.,Alejandro Padovani E.,5,1.09.11,6.70,439
+14-02-2026,Hipódromo Chile,14,18:04,1200,Arena,11,Dubai Wind,A. Morales.,Genaro J. Covarrubias E.,6,1.09.11,69.10,425
+14-02-2026,Hipódromo Chile,14,18:04,1200,Arena,13,Ciao Juanita,I. Vargas.,Francisco Pinochet P.,7,1.09.11,7.90,484
+14-02-2026,Hipódromo Chile,14,18:04,1200,Arena,2,Sigue Igual,P. Zúñiga.,Julio Castillo D.,8,1.09.11,17.00,465
+14-02-2026,Hipódromo Chile,14,18:04,1200,Arena,9,Hey Dj,N. Ramirez.,Cristián Urbina R.,9,1.09.11,10.00,435
+14-02-2026,Hipódromo Chile,14,18:04,1200,Arena,10,Hermano Eric,P. Reyes.,Alejandro Padovani E.,10,1.09.11,43.60,471
+14-02-2026,Hipódromo Chile,14,18:04,1200,Arena,5,La Ñoñita,J. Zúñiga.,Juan Gonzalez M.,11,1.09.11,28.00,480
+14-02-2026,Hipódromo Chile,14,18:04,1200,Arena,1,Gold Escudero,A. Covarrubias.,Julio Castillo D.,12,1.09.11,11.80,460
+14-02-2026,Hipódromo Chile,14,18:04,1200,Arena,14,Alajja,R. Varas.,Juan Aravena M.,13,1.09.11,53.30,429
+14-02-2026,Hipódromo Chile,14,18:04,1200,Arena,12,Lecclerc,J. Cueto.,Juan C. Pichara J.,U,1.09.11,22.30,555
+14-02-2026,Hipódromo Chile,15,18:31,1000,Arena,3,Luz Oculta,B. León.,Mario Covarrubias,1,56.24,9.90,460
+14-02-2026,Hipódromo Chile,15,18:31,1000,Arena,2,Tu Tu Y Tu,J. Medina.,Juan Pablo Baeza J.,2,56.24,2.10,468
+14-02-2026,Hipódromo Chile,15,18:31,1000,Arena,10,Isidora Mia,G. Aros.,Alejandro Padovani E.,3,56.24,11.60,484
+14-02-2026,Hipódromo Chile,15,18:31,1000,Arena,9,London Alerta,S. González.,Rodrigo Quiroz S.,4,56.24,6.30,483
+14-02-2026,Hipódromo Chile,15,18:31,1000,Arena,12,Ride Like A Girl,R. Cisternas.,Juan Pablo Baeza J.,5,56.24,7.80,447
+14-02-2026,Hipódromo Chile,15,18:31,1000,Arena,4,Fastlove,H. Barrera.,Rodrigo López B.,6,56.24,25.30,457
+14-02-2026,Hipódromo Chile,15,18:31,1000,Arena,6,Tordilla Divina,H. Ochoa.,Rodrigo Sánchez Q.,7,56.24,5.80,498
+14-02-2026,Hipódromo Chile,15,18:31,1000,Arena,8,Stay With Me,R. Fuenzalida.,José Lastra B.,8,56.24,17.60,464
+14-02-2026,Hipódromo Chile,15,18:31,1000,Arena,5,Moreau,N. Molina.,Rodrigo López B.,9,56.24,17.30,466
+14-02-2026,Hipódromo Chile,15,18:31,1000,Arena,7,Princess Rose,J. Zúñiga.,Eduardo Lab R.,10,56.24,12.50,436
+14-02-2026,Hipódromo Chile,15,18:31,1000,Arena,11,Cambiar De Vida,J. Toro.,Luis Machulas G.,11,56.24,85.40,426
+14-02-2026,Hipódromo Chile,15,18:31,1000,Arena,1,Miel Rubia,L. González.,Juan C. Pichara J.,12,56.24,18.10,443
+14-02-2026,Hipódromo Chile,15,18:31,1000,Arena,13,Yo Lo Entiendo,C. Ortega.,Eduardo Lab R.,13,56.24,57.70,445
+14-02-2026,Hipódromo Chile,15,18:31,1000,Arena,14,Famosa Luz,A. Morales.,Genaro J. Covarrubias E.,14,56.24,127.80,400
+14-02-2026,Hipódromo Chile,15,18:31,1000,Arena,15,Maria Camila,J. Hernández.,Eduardo Lab R.,U,56.24,172.80,440
+14-02-2026,Hipódromo Chile,16,19:01,1200,Arena,3,Bellafonte,H. Ochoa.,Luis Urbina H.,1,1.08.76,2.30,503
+14-02-2026,Hipódromo Chile,16,19:01,1200,Arena,9,Yeri Star,G. Aros.,Alejandro Padovani E.,2,1.08.76,8.50,473
+14-02-2026,Hipódromo Chile,16,19:01,1200,Arena,4,California Daddy,P. Reyes.,Rodrigo Pulgar A.,3,1.08.76,10.20,478
+14-02-2026,Hipódromo Chile,16,19:01,1200,Arena,6,Hugo El Terrible,M. Gutiérrez.,Oscar Donate S.,4,1.08.76,24.10,388
+14-02-2026,Hipódromo Chile,16,19:01,1200,Arena,10,Solo Amigos,N. Rojas.,Alejandro Padovani E.,5,1.08.76,7.30,456
+14-02-2026,Hipódromo Chile,16,19:01,1200,Arena,7,Primer Otrosi,L.P. Silva.,Juan Gonzalez M.,6,1.08.76,52.40,448
+14-02-2026,Hipódromo Chile,16,19:01,1200,Arena,1,Bob Parr,J. Castillo.,Luis Toledo C.,7,1.08.76,14.60,425
+14-02-2026,Hipódromo Chile,16,19:01,1200,Arena,12,Pero Pedro,R. Painen.,Juan C. Pichara J.,8,1.08.76,12.80,524
+14-02-2026,Hipódromo Chile,16,19:01,1200,Arena,5,Bello Encanto,D. Medina.,José Bravo M.,9,1.08.76,10.80,468
+14-02-2026,Hipódromo Chile,16,19:01,1200,Arena,13,Preziosi,B. León.,Cristián Urbina R.,10,1.08.76,23.50,446
+14-02-2026,Hipódromo Chile,16,19:01,1200,Arena,2,Perfecta Actitud,J. Villablanca.,Harrison Adonis B.,11,1.08.76,32.20,437
+14-02-2026,Hipódromo Chile,16,19:01,1200,Arena,14,Nagao,M. Morales.,Rodrigo López B.,12,1.08.76,15.20,494
+14-02-2026,Hipódromo Chile,16,19:01,1200,Arena,11,Secret Dragon,C. Alegría.,Mario A. Apablaza G.,13,1.08.76,83.10,455
+14-02-2026,Hipódromo Chile,16,19:01,1200,Arena,15,Zapiga,J. Zúñiga.,Luis Urbina H.,14,1.08.76,5.10,
+14-02-2026,Hipódromo Chile,16,19:01,1200,Arena,8,El Gran Menotti,J. Toro.,Rodrigo Quiroz S.,U,1.08.76,55.70,432
+14-02-2026,Hipódromo Chile,17,19:30,1200,Arena,5,Crem To Run,J. Medina.,Juan Pablo Baeza J.,1,1.09.00,2.50,461
+14-02-2026,Hipódromo Chile,17,19:30,1200,Arena,2,Bruno El Terrible,S. González.,Juan C. Pichara J.,2,1.09.00,4.50,500
+14-02-2026,Hipódromo Chile,17,19:30,1200,Arena,1,Gran Fiscal,A. Zúñiga.,Oscar Donate S.,3,1.09.00,18.60,467
+14-02-2026,Hipódromo Chile,17,19:30,1200,Arena,14,Eminem,G. Aros.,Alejandro Padovani E.,4,1.09.00,3.10,467
+14-02-2026,Hipódromo Chile,17,19:30,1200,Arena,3,Crans Montana,R. Cisternas.,Claudio Bernal G.,5,1.09.00,26.40,436
+14-02-2026,Hipódromo Chile,17,19:30,1200,Arena,13,Chiquito Campeador,N. Ramirez.,Rafael Bernal G.,6,1.09.00,17.60,417
+14-02-2026,Hipódromo Chile,17,19:30,1200,Arena,7,Pachekin,J. Zúñiga.,Juan Gonzalez M.,7,1.09.00,19.70,514
+14-02-2026,Hipódromo Chile,17,19:30,1200,Arena,9,Vieja Chela,P. Zúñiga.,Julio Castillo D.,8,1.09.00,32.10,501
+14-02-2026,Hipódromo Chile,17,19:30,1200,Arena,8,Seattle Snow,W. Quinteros.,Raúl Montesino S.,9,1.09.00,9.90,446
+14-02-2026,Hipódromo Chile,17,19:30,1200,Arena,6,Vaquita Loira,R. Covarrubias.,Mario Covarrubias,10,1.09.00,54.60,420
+14-02-2026,Hipódromo Chile,17,19:30,1200,Arena,4,Flower Power,B. Rubilar.,Pedro Diaz S.,11,1.09.00,43.80,430
+14-02-2026,Hipódromo Chile,17,19:30,1200,Arena,10,Un Guarito,L.P. Silva.,Genaro J. Covarrubias E.,12,1.09.00,24.00,462
+14-02-2026,Hipódromo Chile,17,19:30,1200,Arena,12,Lady Manu,R. Fuenzalida.,Alejandro Martínez C.,13,1.09.00,12.60,494
+14-02-2026,Hipódromo Chile,17,19:30,1200,Arena,11,Good Partner,L.D. Menghini.,Eugenio Switt V.,U,1.09.00,61.00,428
+14-02-2026,Hipódromo Chile,18,19:59,1200,Arena,3,Indian Tiger,M. Cordero.,Julio Castillo D.,1,1.09.87,11.20,495
+14-02-2026,Hipódromo Chile,18,19:59,1200,Arena,10,Facil La Pega,D. Sánchez.,Alberto Aviles L.,2,1.09.87,4.40,495
+14-02-2026,Hipódromo Chile,18,19:59,1200,Arena,4,Linz,P. Zúñiga.,José Bravo M.,3,1.09.87,6.60,471
+14-02-2026,Hipódromo Chile,18,19:59,1200,Arena,2,Cicarelli,A. Morales.,Genaro J. Covarrubias E.,4,1.09.87,6.40,456
+14-02-2026,Hipódromo Chile,18,19:59,1200,Arena,15,Gran Horus,M. Morales.,Alejandro Padovani E.,5,1.09.87,5.50,434
+14-02-2026,Hipódromo Chile,18,19:59,1200,Arena,7,Merengada,N. Santibañez.,Mario A. Apablaza G.,6,1.09.87,13.50,462
+14-02-2026,Hipódromo Chile,18,19:59,1200,Arena,9,Grozza,R. Fuenzalida.,Aldo Castagneto U.,7,1.09.87,8.50,497
+14-02-2026,Hipódromo Chile,18,19:59,1200,Arena,12,Maxiwario,L.P. Silva.,Genaro J. Covarrubias E.,8,1.09.87,11.90,467
+14-02-2026,Hipódromo Chile,18,19:59,1200,Arena,1,La Momita,J. Medina.,Rodrigo Sánchez Q.,9,1.09.87,4.50,442
+14-02-2026,Hipódromo Chile,18,19:59,1200,Arena,11,El Brujo,J. Cueto.,Claudio Bernal G.,10,1.09.87,46.50,441
+14-02-2026,Hipódromo Chile,18,19:59,1200,Arena,5,La Instrumentista,J. Eyzaguirre.,Isaac Michea F.,11,1.09.87,16.10,419
+14-02-2026,Hipódromo Chile,18,19:59,1200,Arena,14,Don't Cry Daddy,R. Covarrubias.,Oscar Silva G.,12,1.09.87,19.90,520
+14-02-2026,Hipódromo Chile,19,20:30,1200,Arena,8,Sinesio,J. González.,Genaro J. Covarrubias E.,1,1.09.73,61.60,487
+14-02-2026,Hipódromo Chile,19,20:30,1200,Arena,15,Satoshi,N. Rojas.,Alejandro Padovani E.,2,1.09.73,13.10,458
+14-02-2026,Hipódromo Chile,19,20:30,1200,Arena,9,Esterios,M. Morales.,Alejandro Padovani E.,3,1.09.73,10.80,555
+14-02-2026,Hipódromo Chile,19,20:30,1200,Arena,10,Enseñame,A.I. Maureira.,Eugenio Switt V.,4,1.09.73,3.60,454
+14-02-2026,Hipódromo Chile,19,20:30,1200,Arena,2,Tirrel,B. Rubilar.,Pedro Diaz S.,5,1.09.73,22.60,448
+14-02-2026,Hipódromo Chile,19,20:30,1200,Arena,4,Native Spirit,R. Cisternas.,Marco Pavez O.,6,1.09.73,3.10,477
+14-02-2026,Hipódromo Chile,19,20:30,1200,Arena,5,Hengroen,N. Ramirez.,Luis Machulas G.,7,1.09.73,24.00,458
+14-02-2026,Hipódromo Chile,19,20:30,1200,Arena,1,Terrible Bruno,S. González.,Juan C. Pichara J.,8,1.09.73,7.90,434
+14-02-2026,Hipódromo Chile,19,20:30,1200,Arena,3,Ciao Xena,P. Reyes.,Rodrigo Pulgar A.,9,1.09.73,38.80,472
+14-02-2026,Hipódromo Chile,19,20:30,1200,Arena,13,Plural,M. Herrera.,Juan Ubilla P.,10,1.09.73,53.40,465
+14-02-2026,Hipódromo Chile,19,20:30,1200,Arena,11,Salzburg,B. León.,Juan Pablo Baeza J.,11,1.09.73,6.20,447
+14-02-2026,Hipódromo Chile,19,20:30,1200,Arena,12,Blackcrack,B. Soto.,Juan C. Pichara J.,12,1.09.73,46.80,466
+14-02-2026,Hipódromo Chile,19,20:30,1200,Arena,7,Con Zeus,H. Ochoa.,Rodrigo Sánchez Q.,13,1.09.73,6.60,459
+14-02-2026,Hipódromo Chile,19,20:30,1200,Arena,6,Stop Loss,J. Cueto.,Juan C. Pichara J.,14,1.09.73,22.00,453
+14-02-2026,Hipódromo Chile,19,20:30,1200,Arena,14,Easy Peasy,F. Soto.,Rodrigo Pulgar A.,U,1.09.73,44.40,425

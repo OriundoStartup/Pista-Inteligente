@@ -1,24 +1,13 @@
-# Robots.txt for Pista Inteligente
-# https://pista-inteligente.vercel.app
+# Pista Inteligente - robots.txt
+# Permitir todos los crawlers incluyendo Mediapartners-Google (AdSense)
 
 User-agent: *
 Allow: /
 
-# Sitemap Location
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
 Sitemap: https://pista-inteligente.vercel.app/sitemap.xml
-
-# Crawl-delay for polite crawling
-Crawl-delay: 1
-
-# Block internal API routes
-Disallow: /api/
-
-# Allow all search engines
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Slurp
-Allow: /

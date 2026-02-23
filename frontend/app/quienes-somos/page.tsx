@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { AdBannerInArticle } from '@/components/AdSense'
 
 export const metadata: Metadata = {
     title: 'Quiénes Somos - Pista Inteligente',
@@ -72,6 +73,9 @@ export default function QuienesSomosPage() {
                     </p>
                 </section>
             </article>
+
+            {/* Ad Banner - After Article */}
+            <AdBannerInArticle />
         </div>
     )
 }

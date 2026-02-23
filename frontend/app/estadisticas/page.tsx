@@ -1,6 +1,7 @@
 import { createClient } from '../../utils/supabase/server'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { AdBannerHorizontal } from '@/components/AdSense'
 
 export const metadata: Metadata = {
     title: 'Estadísticas Hípicas | Pista Inteligente',
@@ -95,6 +96,9 @@ export default async function EstadisticasPage() {
                 </div>
             </div>
 
+            {/* Ad Banner - After Database Stats */}
+            <AdBannerHorizontal />
+
             {/* Performance CTA */}
             <div className="glass-card" style={{
                 marginBottom: '2rem',
@@ -167,6 +171,9 @@ export default async function EstadisticasPage() {
                     </div>
                 </div>
             </div>
+
+            {/* Ad Banner - After Hipódromos */}
+            <AdBannerHorizontal />
 
             {/* Model Info */}
             <div className="glass-card">

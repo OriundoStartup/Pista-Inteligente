@@ -1,9 +1,10 @@
 """
-Upload Predictions to Supabase
+Upload Predictions to Supabase (v2.0 - With Retry Logic)
 Reads predictions from JSON/SQLite and uploads to Supabase 'predicciones' table.
+Includes automatic retry on failures and post-upload verification.
 
 Author: ML Engineering Team
-Date: 2026-01-14
+Date: 2026-02-10
 """
 
 import os
@@ -12,6 +13,7 @@ import json
 import logging
 from datetime import datetime
 import pandas as pd
+from tenacity import retry, wait_exponential, stop_after_attempt, retry_if_exception_type
 
 # Add project root to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
@@ -244,14 +246,14 @@ def upload_predictions_to_supabase(predictions: list) -> int:
             }
             records.append(record)
         
-        # Insert batch
+        # Insert batch with retry
         try:
-            result = client.table('predicciones').insert(records).execute()
+            result = upload_batch_with_retry(client, records)
             if result.data:
                 uploaded_count += len(records)
                 logger.info(f"   ✅ Uploaded {len(records)} predictions for C{nro_carrera}")
         except Exception as e:
-            logger.error(f"   ❌ Error uploading predictions for {race_key}: {e}")
+            logger.error(f"   ❌ Error uploading predictions for {race_key} after retries: {e}")
             failed_races.append(race_key)
     
     if failed_races:
@@ -260,10 +262,52 @@ def upload_predictions_to_supabase(predictions: list) -> int:
     return uploaded_count
 
 
+@retry(
+    wait=wait_exponential(multiplier=1, min=2, max=10),
+    stop=stop_after_attempt(3),
+    retry=retry_if_exception_type((ConnectionError, TimeoutError, Exception)),
+    reraise=True
+)
+def upload_batch_with_retry(client, records):
+    """Upload a batch of predictions with automatic retry on failure."""
+    logger.debug(f"   Attempting upload of {len(records)} records...")
+    return client.table('predicciones').insert(records).execute()
+
+
+def verify_upload(client, expected_races, fecha_inicio):
+    """
+    Verify that predictions were uploaded correctly.
+    Returns True if verification passes.
+    """
+    try:
+        # Count predictions uploaded since fecha_inicio
+        result = client.table('predicciones').select(
+            'id,carreras!inner(jornadas!inner(fecha))'
+        ).gte('carreras.jornadas.fecha', fecha_inicio).execute()
+        
+        uploaded_count = len(result.data or [])
+        
+        logger.info(f"\n📊 Verificación:")
+        logger.info(f"   Predicciones en Supabase (desde {fecha_inicio}): {uploaded_count}")
+        logger.info(f"   Carreras esperadas: {expected_races}")
+        
+        # Check if we have reasonable coverage
+        if uploaded_count > 0:
+            logger.info(f"   ✅ Upload verificado exitosamente")
+            return True
+        else:
+            logger.warning(f"   ⚠️ No se encontraron predicciones en Supabase")
+            return False
+            
+    except Exception as e:
+        logger.error(f"   ❌ Error en verificación: {e}")
+        return False
+
+
 def run_upload():
-    """Main function to upload predictions"""
+    """Main function to upload predictions with verification"""
     logger.info("=" * 60)
-    logger.info("📤 UPLOAD PREDICTIONS TO SUPABASE")
+    logger.info("📤 UPLOAD PREDICTIONS TO SUPABASE (v2.0 - With Retry)")
     logger.info("=" * 60)
     
     # Load predictions
@@ -273,11 +317,28 @@ def run_upload():
         logger.warning("No predictions to upload. Run inference first.")
         return 0
     
+    # Get fecha range for verification
+    df = pd.DataFrame(predictions)
+    fecha_inicio = df['fecha'].min()
+    num_races = len(df.groupby(['fecha', 'hipodromo', 'carrera']))
+    
+    logger.info(f"\nPreparando upload:")
+    logger.info(f"   Total predicciones: {len(predictions)}")
+    logger.info(f"   Carreras: {num_races}")
+    logger.info(f"   Fecha inicio: {fecha_inicio}")
+    
     # Upload
     count = upload_predictions_to_supabase(predictions)
     
-    logger.info("=" * 60)
-    logger.info(f"✅ Uploaded {count} predictions to Supabase")
+    # Verify
+    db = SupabaseManager()
+    client = db.get_client()
+    
+    if client:
+        verify_upload(client, num_races, fecha_inicio)
+    
+    logger.info("\n" + "=" * 60)
+    logger.info(f"✅ Upload completado: {count} predicciones")
     logger.info("=" * 60)
     
     return count

@@ -1,0 +1,12 @@
+======================================================================
+Traceback (most recent call last):
+  File "C:\espacioDeTrabajo\HipicaAntigracity\check_supabase_valparaiso.py", line 117, in <module>
+    check_supabase_duplicates()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\espacioDeTrabajo\HipicaAntigracity\check_supabase_valparaiso.py", line 14, in check_supabase_duplicates
+    print("\U0001f50d AN┴LISIS DE DUPLICACIONES EN SUPABASE - VALPARA═SO")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>

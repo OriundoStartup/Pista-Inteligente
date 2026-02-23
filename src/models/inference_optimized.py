@@ -394,16 +394,27 @@ class OptimizedInferencePipeline:
         return results
     
     def _save_results(self, results):
-        """Guarda resultados."""
-        # JSON
+        """Guarda resultados con backup timestamped."""
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        
+        # 1. Guardar en directorio de backups con timestamp
+        backup_dir = 'data/predictions'
+        os.makedirs(backup_dir, exist_ok=True)
+        backup_path = f'{backup_dir}/pred_{timestamp}.json'
+        
+        with open(backup_path, 'w', encoding='utf-8') as f:
+            json.dump(results, f, default=str, indent=2, ensure_ascii=False)
+        logger.info(f"✅ Backup: {backup_path}")
+        
+        # 2. Guardar en predicciones_activas.json (para compatibilidad)
         json_path = 'data/predicciones_activas.json'
         os.makedirs(os.path.dirname(json_path), exist_ok=True)
         
         with open(json_path, 'w', encoding='utf-8') as f:
             json.dump(results, f, default=str, indent=2, ensure_ascii=False)
-        logger.info(f"✅ JSON: {json_path}")
+        logger.info(f"✅ JSON activo: {json_path}")
         
-        # SQLite
+        # 3. SQLite
         try:
             import sqlite3
             df = pd.DataFrame(results)

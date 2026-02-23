@@ -1,6 +1,7 @@
 import { createClient } from '../utils/supabase/server'
 import Link from 'next/link'
 import JackpotAlert from '@/components/JackpotAlert'
+import { AdBannerHorizontal } from '@/components/AdSense'
 
 // ISR: Revalidar cada 5 minutos
 export const revalidate = 300
@@ -204,6 +205,9 @@ export default async function Home() {
         </div>
       </div>
 
+      {/* Ad Banner - Between Stats and Top Jinetes */}
+      <AdBannerHorizontal />
+
       {/* Top Jinetes Card */}
       <div className="glass-card">
         <div className="section-title">🏆 Top Jinetes 2026 (En Vivo)</div>
@@ -226,6 +230,9 @@ export default async function Home() {
           </tbody>
         </table>
       </div>
+
+      {/* Ad Banner - After Top Jinetes */}
+      <AdBannerHorizontal />
 
       <JackpotAlert />
     </>

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import PatronesList from '@/components/PatronesList'
+import { AdBannerHorizontal } from '@/components/AdSense'
 
 export const metadata: Metadata = {
     title: 'Patrones de Carreras - Análisis con IA | Pista Inteligente',
@@ -38,6 +39,9 @@ export default function AnalisisPage() {
                 </div>
                 <PatronesList />
             </div>
+
+            {/* Ad Banner - After Live Patterns */}
+            <AdBannerHorizontal />
 
             {/* Patrones Grid (Teoría) */}
             <div className="glass-card" style={{ marginBottom: '2rem' }}>
@@ -104,6 +108,9 @@ export default function AnalisisPage() {
                     </div>
                 </div>
             </div>
+
+            {/* Ad Banner - After How It Works */}
+            <AdBannerHorizontal />
 
             {/* CTA */}
             <div style={{ textAlign: 'center', marginTop: '3rem', padding: '3rem 1rem', background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(52, 211, 153, 0.1))', borderRadius: '16px' }}>

@@ -114,14 +114,14 @@ def cargar_programa(nombre_db='data/db/hipica_data.db', solo_futuras=True):
              # Normalized programmatic join
              query = f"""
                 SELECT 
-                    pc.fecha, h.nombre as hipodromo, pc.nro_carrera, pc.hora, pc.distancia, pc.condicion,
+                    pc.fecha, COALESCE(h.nombre, pc.hipodromo) as hipodromo, pc.nro_carrera, pc.hora, pc.distancia, pc.condicion,
                     pc.numero as numero, 
                     COALESCE(c.nombre, 'Desconocido') as caballo, 
                     j.nombre as jinete, 
                     s.nombre as stud, 
                     pc.peso
                 FROM programa_carreras pc
-                LEFT JOIN hipodromos h ON pc.hipodromo = h.nombre OR h.codigo = pc.hipodromo
+                LEFT JOIN hipodromos h ON LOWER(pc.hipodromo) = LOWER(h.nombre) OR h.codigo = pc.hipodromo
                 LEFT JOIN caballos c ON pc.caballo_id = c.id
                 LEFT JOIN jinetes j ON pc.jinete_id = j.id
                 LEFT JOIN studs s ON pc.stud_id = s.id

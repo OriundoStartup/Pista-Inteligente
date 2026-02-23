@@ -1,0 +1,179 @@
+fecha,hipodromo,nro_carrera,hora,premio,distancia,superficie,numero,caballo,padrillo,peso,jinete,preparador
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,1,ROJO BURGUES,Straight Up,57,G. Rodriguez,G. Reyes L.
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,2,BLACK OLIVES,Scat Royal,57,M. Salinas,L. Maffud
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,3,DULCE ANITA,Good Samaritan (usa),57,W. Quinteros,R. Silva
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,4,ROSA COQUETA,Quick Casablanca,57,B. Sancho,B. Gomez
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,5,CONDE AUSTRAL,Carlotum,57,M. Morales,B. Gomez
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,6,POLLOLLO,Gemologist,57,A.L. Maureira,B. Gomez
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,7,COMMAND,Lookin At Lucky,57,C. Poblete,R. Olivares
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,8,LUIVERAR,Viscount Nelson,57,C. Bobadilla,B. Gomez
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,9,GRINGA UNICA,Unitarian,57,L. Gonzalez,L. Maffud
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,10,BIG WALLACE (ARG),Hurricane Cat,57,T. Seith,B. Gomez
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,11,PINTA DE MUSICO,Gemologist,57,F. Tapia,V. Moris
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,12,ROM TALE (USA),Tale Of The Cat,57,J. Gonzalez,A. Ferrero
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,13,SUEÑO DEL ALMA,El Facha,57,J. Cueto,R. Silva
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,14,CIOCOLATTA,Cunco (ire),57,J. D. Villagran,G. Reyes L.
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,15,MISTER CESAR,Mr Speaker,57,S. Marin,J. Araneda
+18-02-2026,Valparaíso Sporting,1,13:30,DANILO ARANCIBIA M.,1100,ARENA,16,DON BRUNO,Awesome Patriot,57,N. Ramirez,S. Salazar
+18-02-2026,Valparaíso Sporting,2,14:00,JOSE ARANCIBIA F.,1000,PASTO,1,ULTIMO PASEO,International Star (usa),57,A.L. Maureira,V. Moris
+18-02-2026,Valparaíso Sporting,2,14:00,JOSE ARANCIBIA F.,1000,PASTO,2,DE BOLOGNIA,Viscount Nelson,57,L. Gonzalez,E. Donoso
+18-02-2026,Valparaíso Sporting,2,14:00,JOSE ARANCIBIA F.,1000,PASTO,3,LADY LAURA,Sumerio,57,B. Sancho,L. Catena
+18-02-2026,Valparaíso Sporting,2,14:00,JOSE ARANCIBIA F.,1000,PASTO,4,WITTENBURG,Dubai Sky,57,N. Rojas,O. Urbina
+18-02-2026,Valparaíso Sporting,2,14:00,JOSE ARANCIBIA F.,1000,PASTO,5,GUAPA QUITEÑA,Sumerio,57,C. Poblete,M. Silva
+18-02-2026,Valparaíso Sporting,2,14:00,JOSE ARANCIBIA F.,1000,PASTO,6,NINE BRILLIANT,Ticket To Run,57,J. D. Villagran,L. Machulas
+18-02-2026,Valparaíso Sporting,2,14:00,JOSE ARANCIBIA F.,1000,PASTO,7,DOÑA MARLY,Flyer,57,A. Apablaza,R. Silva
+18-02-2026,Valparaíso Sporting,2,14:00,JOSE ARANCIBIA F.,1000,PASTO,8,MOROCHA DE ORO,Tapitdoro,57,S. Marin,J. Araneda
+18-02-2026,Valparaíso Sporting,2,14:00,JOSE ARANCIBIA F.,1000,PASTO,9,MI GRAN BICHOTA,Dubai Sky,57,J. Herrera,R. Bernal T.
+18-02-2026,Valparaíso Sporting,2,14:00,JOSE ARANCIBIA F.,1000,PASTO,10,AL AGUAITE,Zawraq (ire),57,F. Tapia,B. Gomez
+18-02-2026,Valparaíso Sporting,3,14:30,CESAR GALVEZ Z.,1000,PASTO,1,SIGAN LA MUSICA,Robert Bruce,57,C. Ortega,S. Morales
+18-02-2026,Valparaíso Sporting,3,14:30,CESAR GALVEZ Z.,1000,PASTO,2,CIBELES (ARG),Seahenge,57,T. Seith,X. Urenda
+18-02-2026,Valparaíso Sporting,3,14:30,CESAR GALVEZ Z.,1000,PASTO,3,LA MUJER DE BLANCO,Wingman,57,F. Moreno,E. Donoso
+18-02-2026,Valparaíso Sporting,3,14:30,CESAR GALVEZ Z.,1000,PASTO,4,SUNDY POINT,The Lumber Guy,57,J. Zuñiga,J. Araneda
+18-02-2026,Valparaíso Sporting,3,14:30,CESAR GALVEZ Z.,1000,PASTO,5,FLASH SPLACH,Grand Daddy,57,N. Ramirez,R. Silva
+18-02-2026,Valparaíso Sporting,3,14:30,CESAR GALVEZ Z.,1000,PASTO,6,SESTRI LEVANTE,Dylan Thomas,57,F. Tapia,V. Moris
+18-02-2026,Valparaíso Sporting,3,14:30,CESAR GALVEZ Z.,1000,PASTO,7,EXCLUDE (ARG),Forge,57,A. Apablaza,M. Contreras
+18-02-2026,Valparaíso Sporting,3,14:30,CESAR GALVEZ Z.,1000,PASTO,8,ROSITA DEL PUERTO,Sumerio,57,J. Gonzalez,G. Vegas
+18-02-2026,Valparaíso Sporting,3,14:30,CESAR GALVEZ Z.,1000,PASTO,9,LA PROPIA HERMANA,The Lumber Guy,57,A. L. Maureira,B. Gomez
+18-02-2026,Valparaíso Sporting,3,14:30,CESAR GALVEZ Z.,1000,PASTO,10,AUNT MERCY,Palm Springs (usa),57,G. Givovich,R. Bernal T.
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,1,FLACA DANY,Spun To Run (usa),55,N. Ramirez,M. Silva
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,2,BLACK MODEL,Sonoma Band,57,S. Marin,J. Araneda
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,3,LUMBER TOUCH,The Lumber Guy,57,C. Ortega,R. Olivares
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,4,LA PANDE,Seeking The Dia,55,S. E. Gonzalez,M. Silva
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,5,CATTO (ARG),Daddy Long Legs,57,A.L. Maureira,X. Urenda
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,6,EL LADO BE,International Star (usa),55,B. Rubilar,M. Silva
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,7,BOMBA DE RACIMO,Dubai Sky,57,J. Herrera,L. Catena
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,8,OTRA VEZ PITUCO,Tacitus (usa),57,J. Medina,C. Vasquez
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,9,MEJOR CALLADO,Flameaway (can),57,T. Seith,G. Reyes
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,10,ARRAZZO,Fallen From Heaven,57,J. Gonzalez,B. Gomez
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,11,SIN GLUTEN,Lookin At Lucky,57,G. Rodriguez,G. Reyes I.
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,12,LA FAJITA,Flameaway (can),55,N. Rojas,C. Vasquez
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,13,PRINCESS SIRIKIT,Katmai,55,J. Zuñiga,E. Donoso
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,14,BOM BOM ASESINO,Tacitus (usa),57,G.A. Perez,J. Garcia
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,15,SIMPLE CHANGARIN,California One,57,J. D. Villagran,G. Perez
+18-02-2026,Valparaíso Sporting,4,15:00,ALDO FLORES M.,1000,PASTO,16,KING CAPUCCINO,Sahara Spirit,57,M. Morales,M. Pavez
+18-02-2026,Valparaíso Sporting,5,15:30,CRISTOBAL GOMEZ S.,1100,ARENA,1,PAULIE GATTO,Sonoma Band,57,C. Bobadilla,W. Ara
+18-02-2026,Valparaíso Sporting,5,15:30,CRISTOBAL GOMEZ S.,1100,ARENA,2,BEIT JALA,Seeking The Dia,57,G. A. Perez,W. Mancilla
+18-02-2026,Valparaíso Sporting,5,15:30,CRISTOBAL GOMEZ S.,1100,ARENA,3,GRAN SAMCREDO,Ivan Denisovich,57,N. Rojas,C. Vasquez
+18-02-2026,Valparaíso Sporting,5,15:30,CRISTOBAL GOMEZ S.,1100,ARENA,4,TARRO LAYS,Iron Clad,57,L. Villagran,L. Machulas
+18-02-2026,Valparaíso Sporting,5,15:30,CRISTOBAL GOMEZ S.,1100,ARENA,5,FALLEN DREAMER,Fallen From Heaven,57,J. D. Villagran,J. Belzu
+18-02-2026,Valparaíso Sporting,5,15:30,CRISTOBAL GOMEZ S.,1100,ARENA,6,INDIAN LION,Indian Trail,57,M. Morales,M. Pavez
+18-02-2026,Valparaíso Sporting,5,15:30,CRISTOBAL GOMEZ S.,1100,ARENA,7,BRUCE BANNER,Imperia II,57,R. Fuenzalida,J. Araneda
+18-02-2026,Valparaíso Sporting,5,15:30,CRISTOBAL GOMEZ S.,1100,ARENA,8,HOFFA,Lookin At Lucky,57,G. Givovich,J. Belzu
+18-02-2026,Valparaíso Sporting,5,15:30,CRISTOBAL GOMEZ S.,1100,ARENA,9,HELLO,Palm Springs (usa),57,M. A. Donoso,O. Urbina
+18-02-2026,Valparaíso Sporting,5,15:30,CRISTOBAL GOMEZ S.,1100,ARENA,10,ANAHEIM,Katmai,57,G. Rodriguez,G. Vegas
+18-02-2026,Valparaíso Sporting,6,16:00,MOSCONA,1200,ARENA,1,ALBANTA (ARG),Hi Happy,53,S. E. Gonzalez,X. Urenda
+18-02-2026,Valparaíso Sporting,6,16:00,MOSCONA,1200,ARENA,2,A VER SI PUEDO,Pattenrecognition,61,N. Ramirez,H. Ulloa
+18-02-2026,Valparaíso Sporting,6,16:00,MOSCONA,1200,ARENA,3,ANEU,Newfoundland,55,G. Rodriguez,J. Garcia
+18-02-2026,Valparaíso Sporting,6,16:00,MOSCONA,1200,ARENA,4,LA SINFO,Practical Joke,53,J. Medina,J. Baeza
+18-02-2026,Valparaíso Sporting,6,16:00,MOSCONA,1200,ARENA,5,GRACIA CLASICA,Classic Empire (usa),57,T. Seith,G. Reyes l.
+18-02-2026,Valparaíso Sporting,6,16:00,MOSCONA,1200,ARENA,6,ALBA BRAVA,Kingly (usa),53,B. Troncoso,A. Padovani
+18-02-2026,Valparaíso Sporting,6,16:00,MOSCONA,1200,ARENA,7,JANSTAR,International Star (usa),59,G. A. Perez,M. Contreras
+18-02-2026,Valparaíso Sporting,6,16:00,MOSCONA,1200,ARENA,8,TONADA VIEJA,Monthir,54,J. Herrera,R. Bernal T.
+18-02-2026,Valparaíso Sporting,7,16:30,JOCELINE PEREZ A.,1300,ARENA,1,TED,Exaggerator,57,S. E. Gonzalez,V. Caballeria
+18-02-2026,Valparaíso Sporting,7,16:30,JOCELINE PEREZ A.,1300,ARENA,2,GERMANICUS,Midshipman,57,J. Herrera,X. Urenda
+18-02-2026,Valparaíso Sporting,7,16:30,JOCELINE PEREZ A.,1300,ARENA,3,JARRA DE VINO,Passion For Gold,57,L. Gonzalez,L. Maffud
+18-02-2026,Valparaíso Sporting,7,16:30,JOCELINE PEREZ A.,1300,ARENA,4,TUTTO APIACCERE,Annual Report,57,B. Sancho,B. Gomez
+18-02-2026,Valparaíso Sporting,7,16:30,JOCELINE PEREZ A.,1300,ARENA,5,GRAN ESPARTACO,Seeking The Dia,57,F. Tapia,C. Vasquez
+18-02-2026,Valparaíso Sporting,7,16:30,JOCELINE PEREZ A.,1300,ARENA,6,SUPER PIRATA,Boboman,57,M. Salinas,M. Silva
+18-02-2026,Valparaíso Sporting,7,16:30,JOCELINE PEREZ A.,1300,ARENA,7,GOCCE,Seeking The Dia,57,C. Poblete,B. Gomez
+18-02-2026,Valparaíso Sporting,7,16:30,JOCELINE PEREZ A.,1300,ARENA,8,PABLOSKY,Ascot Prince,57,A.L. Maureira,B. Gomez
+18-02-2026,Valparaíso Sporting,7,16:30,JOCELINE PEREZ A.,1300,ARENA,9,MONO MONIN,Ramaje,57,W. Quinteros,J. Araneda
+18-02-2026,Valparaíso Sporting,7,16:30,JOCELINE PEREZ A.,1300,ARENA,10,EL MISTER,Exaggerator,57,R. Fuenzalida,V. Moris
+18-02-2026,Valparaíso Sporting,7,16:30,JOCELINE PEREZ A.,1300,ARENA,11,ROYAL FIERCE,Constitution,57,J. Zuñiga,M. Silva
+18-02-2026,Valparaíso Sporting,8,17:00,ROLANDO CARVAJAL N.,1100,ARENA,1,RAIMUNDO A,Seeking The Dia,55,I. Valdivia,M. Silva
+18-02-2026,Valparaíso Sporting,8,17:00,ROLANDO CARVAJAL N.,1100,ARENA,2,ENCAÑADO,Practical Joke,58,J. Castillo,M. Contreras
+18-02-2026,Valparaíso Sporting,8,17:00,ROLANDO CARVAJAL N.,1100,ARENA,3,MAX FOUR,Awesome Patriot,57,S. E. Gonzalez,M. Silva
+18-02-2026,Valparaíso Sporting,8,17:00,ROLANDO CARVAJAL N.,1100,ARENA,4,ROPOPOMPOM,Patternrecognition,55,R. Fuenzalida,J. Garcia
+18-02-2026,Valparaíso Sporting,8,17:00,ROLANDO CARVAJAL N.,1100,ARENA,5,GHOST JOKE,Practical Joke,57,J. Medina,L. Valdivia
+18-02-2026,Valparaíso Sporting,8,17:00,ROLANDO CARVAJAL N.,1100,ARENA,6,ZIM,Sumerio,56,A. I. Maureira,M. Silva
+18-02-2026,Valparaíso Sporting,8,17:00,ROLANDO CARVAJAL N.,1100,ARENA,7,OMAYGOD,Omayad,58,B. Sancho,L. Catena
+18-02-2026,Valparaíso Sporting,8,17:00,ROLANDO CARVAJAL N.,1100,ARENA,8,MCCLANE,Competitive Edge,56,L. Silva F.,V. Moris
+18-02-2026,Valparaíso Sporting,8,17:00,ROLANDO CARVAJAL N.,1100,ARENA,9,TE QUIERO TODAVIA,Pattenrecognition,57,G. Rodriguez,V. Moris
+18-02-2026,Valparaíso Sporting,9,17:30,SINDICATO DE CUIDADORES VSC,1100,ARENA,1,DOPPLER,Goldencents,52,J. Zuñiga,J. Araya
+18-02-2026,Valparaíso Sporting,9,17:30,SINDICATO DE CUIDADORES VSC,1100,ARENA,2,ENCANTO VELOZ,Verrazano (usa),61,C. Ortega,G. Perez
+18-02-2026,Valparaíso Sporting,9,17:30,SINDICATO DE CUIDADORES VSC,1100,ARENA,3,GIACOMO PUCCINI,Robert Bruce,59,N. Ramirez,J. Leiva
+18-02-2026,Valparaíso Sporting,9,17:30,SINDICATO DE CUIDADORES VSC,1100,ARENA,4,HENDRICKS,International Star (usa),51,L. Silva F.,V. Moris
+18-02-2026,Valparaíso Sporting,9,17:30,SINDICATO DE CUIDADORES VSC,1100,ARENA,5,WHITE SPIRIT,Protonico,60,A.L. Maureira,L. Machulas
+18-02-2026,Valparaíso Sporting,9,17:30,SINDICATO DE CUIDADORES VSC,1100,ARENA,6,RULE OF LAW,Constitution,53,J. Medina,X. Urenda
+18-02-2026,Valparaíso Sporting,9,17:30,SINDICATO DE CUIDADORES VSC,1100,ARENA,7,MUY AMIGO,Competitive Edge,61,G. A. Perez,G. Perez
+18-02-2026,Valparaíso Sporting,9,17:30,SINDICATO DE CUIDADORES VSC,1100,ARENA,8,SUEÑO CHILOTE,Court Vision,54,B. Sancho,C. Vasquez
+18-02-2026,Valparaíso Sporting,9,17:30,SINDICATO DE CUIDADORES VSC,1100,ARENA,9,RUBATO,Indian Trail,57,S. E. Gonzalez,L. Catena
+18-02-2026,Valparaíso Sporting,10,18:05,BERTA ROJAS A.,1000,PASTO,1,PIETRA DI LUNA,Sumerio,57,J. D. Villagran,G. Reyes L.
+18-02-2026,Valparaíso Sporting,10,18:05,BERTA ROJAS A.,1000,PASTO,2,AHI VIENE AHI VA,Court Vision,57,C. Bobadilla,L. Machulas
+18-02-2026,Valparaíso Sporting,10,18:05,BERTA ROJAS A.,1000,PASTO,3,CAPRI LA BELLA,Hootenanny (usa),57,J. Gonzalez,B. Gomez
+18-02-2026,Valparaíso Sporting,10,18:05,BERTA ROJAS A.,1000,PASTO,4,PRIMO HAPPY,Good Samaritan (usa),57,G. A. Perez,W. Mancilla
+18-02-2026,Valparaíso Sporting,10,18:05,BERTA ROJAS A.,1000,PASTO,5,CAPO DI FAMIGLIA,Bad Daddy,57,F. Moreno,R. Olivares
+18-02-2026,Valparaíso Sporting,10,18:05,BERTA ROJAS A.,1000,PASTO,6,MUJER DE PASARELA,Mendelssohn (usa),57,T. Seith,M. Silva
+18-02-2026,Valparaíso Sporting,10,18:05,BERTA ROJAS A.,1000,PASTO,7,ALAS DE PLATA,Stay Thirsty,57,F. Tapia,V. Moris
+18-02-2026,Valparaíso Sporting,10,18:05,BERTA ROJAS A.,1000,PASTO,8,EXETER (ARG),Treasure Beach,57,R. Araya,R. Olivares
+18-02-2026,Valparaíso Sporting,10,18:05,BERTA ROJAS A.,1000,PASTO,9,EL VIEJO LAUCHA,El Farrero,57,B. Sancho,M. Contreras
+18-02-2026,Valparaíso Sporting,10,18:05,BERTA ROJAS A.,1000,PASTO,10,AGUILA DE FUEGO,Good Samaritan (usa),57,J. Herrera,M. Contreras
+18-02-2026,Valparaíso Sporting,10,18:05,BERTA ROJAS A.,1000,PASTO,11,MIGHTY FLOWER,The Mighty Tiger,57,J. Zuñiga,E. Donoso
+18-02-2026,Valparaíso Sporting,10,18:05,BERTA ROJAS A.,1000,PASTO,12,PRIMA NOTTE,Dylan Thomas,57,N. Ramirez,M. Silva
+18-02-2026,Valparaíso Sporting,10,18:05,BERTA ROJAS A.,1000,PASTO,13,WAR MICAN,War Command,57,G. Givovich,R. Bernal T.
+18-02-2026,Valparaíso Sporting,11,18:35,LUCIANO ASTUDILLO C.,1100,ARENA,1,STAR HONEY,Gemologist,56,F. Taun,J. Belzu
+18-02-2026,Valparaíso Sporting,11,18:35,LUCIANO ASTUDILLO C.,1100,ARENA,2,AFIRMATE GATO,Seeking The Dia,57,G. A. Perez,J. Garcia
+18-02-2026,Valparaíso Sporting,11,18:35,LUCIANO ASTUDILLO C.,1100,ARENA,3,MUÑECO DASH,Zawraq (ire),57,F. Tapia,V. Moris
+18-02-2026,Valparaíso Sporting,11,18:35,LUCIANO ASTUDILLO C.,1100,ARENA,4,STORMY LUCKY,Lookin At Lucky,56,B. Troncoso,W. Mancilla
+18-02-2026,Valparaíso Sporting,11,18:35,LUCIANO ASTUDILLO C.,1100,ARENA,5,GRAN VERRACO,Verrazano (usa),57,G. Rodriguez,G. Reyes L.
+18-02-2026,Valparaíso Sporting,11,18:35,LUCIANO ASTUDILLO C.,1100,ARENA,6,GLADIADOR ART,Dubai Sky,56,R. Fuenzalida,V. Moris
+18-02-2026,Valparaíso Sporting,11,18:35,LUCIANO ASTUDILLO C.,1100,ARENA,7,GATO POR LIEBRE,Gstaad,57,J. D. Villagran,E. Donoso
+18-02-2026,Valparaíso Sporting,11,18:35,LUCIANO ASTUDILLO C.,1100,ARENA,8,ORCA,Flameaway (can),57,P. Reyes,C. Vasquez
+18-02-2026,Valparaíso Sporting,11,18:35,LUCIANO ASTUDILLO C.,1100,ARENA,9,NARCISISTA,Strong Mandate,57,J. Castillo,W. Mancilla
+18-02-2026,Valparaíso Sporting,11,18:35,LUCIANO ASTUDILLO C.,1100,ARENA,10,CARIBEAN PASSION,Passion For Gold,58,M. Salinas,L. Maffud
+18-02-2026,Valparaíso Sporting,11,18:35,LUCIANO ASTUDILLO C.,1100,ARENA,11,DEFENSOR ROJO,Exaggerator,56,L. Gonzalez,E. Donoso
+18-02-2026,Valparaíso Sporting,11,18:35,LUCIANO ASTUDILLO C.,1100,ARENA,12,STEFFI YI,Grand Daddy,56,S. E. Gonzalez,E. Lagunas
+18-02-2026,Valparaíso Sporting,12,19:05,NOELY GODOY S.,1100,ARENA,1,NETHERLANDER,Sumerio,55,I. Valdivia,M. Silva
+18-02-2026,Valparaíso Sporting,12,19:05,NOELY GODOY S.,1100,ARENA,2,INDIAN MELODY,Indian Trail,60,J. Castillo,W. Mancilla
+18-02-2026,Valparaíso Sporting,12,19:05,NOELY GODOY S.,1100,ARENA,3,ANTIYAL,Grand Daddy,58,C. Ortega,V. Caballeria
+18-02-2026,Valparaíso Sporting,12,19:05,NOELY GODOY S.,1100,ARENA,4,PAICAVI,Good Samaritan (usa),54,S. E. Gonzalez,J. Araya
+18-02-2026,Valparaíso Sporting,12,19:05,NOELY GODOY S.,1100,ARENA,5,IL VENTO,Exaggerator,59,N. Ramirez,M. Silva
+18-02-2026,Valparaíso Sporting,12,19:05,NOELY GODOY S.,1100,ARENA,6,MALA MEMORIA,Gemologist,55,R. Fuenzalida,J. Araya
+18-02-2026,Valparaíso Sporting,12,19:05,NOELY GODOY S.,1100,ARENA,7,EL NIÑO GUSTAVO,Dylan Thomas,59,C. Bobadilla,B. Gomez
+18-02-2026,Valparaíso Sporting,12,19:05,NOELY GODOY S.,1100,ARENA,8,QUEBEC JOY (ARG),Fortify,58,A.L. Maureira,L. Catena
+18-02-2026,Valparaíso Sporting,12,19:05,NOELY GODOY S.,1100,ARENA,9,PETIT AIR,Il Rey Ivan,58,G. Rodriguez,G. Vegas
+18-02-2026,Valparaíso Sporting,12,19:05,NOELY GODOY S.,1100,ARENA,10,CHARLYE FLOW,Midshipman,61,G.A. Perez,R. Bernal T.
+18-02-2026,Valparaíso Sporting,12,19:05,NOELY GODOY S.,1100,ARENA,11,NADIE ME CREE,Grand Daddy,57,P. Reyes,C. Vasquez
+18-02-2026,Valparaíso Sporting,13,19:35,LUIS MOLINA T.,1000,PASTO,1,SOTO DE ANGOL,Constitution,56,R. Fuenzalida,V. Moris
+18-02-2026,Valparaíso Sporting,13,19:35,LUIS MOLINA T.,1000,PASTO,2,VIDA SALVAJE,Zawraq (ire),59,J. D. Villagran,V. Moris
+18-02-2026,Valparaíso Sporting,13,19:35,LUIS MOLINA T.,1000,PASTO,3,SOUL QUEEN,War Command,58,A. I. Maureira,V. Caballeria
+18-02-2026,Valparaíso Sporting,13,19:35,LUIS MOLINA T.,1000,PASTO,4,PINE BLACK,Sumerio,55,J. Herrera,L. Catena
+18-02-2026,Valparaíso Sporting,13,19:35,LUIS MOLINA T.,1000,PASTO,5,GLI AMICI,Alfonso (usa),58,G.A. Perez,R. Bernal T.
+18-02-2026,Valparaíso Sporting,13,19:35,LUIS MOLINA T.,1000,PASTO,6,CHECO IS A LEGEND,Gstaad II,56,S. Marin,H. Ulloa
+18-02-2026,Valparaíso Sporting,13,19:35,LUIS MOLINA T.,1000,PASTO,7,ALTOBELLO,Get Jets,58,B. Troncoso,W. Mancilla
+18-02-2026,Valparaíso Sporting,13,19:35,LUIS MOLINA T.,1000,PASTO,8,KING OCTOPUS,Dubai Sky,57,G. Rodriguez,G. Vegas
+18-02-2026,Valparaíso Sporting,13,19:35,LUIS MOLINA T.,1000,PASTO,9,JERUSA,Indian Trail,57,A. Apablaza,V. Moris
+18-02-2026,Valparaíso Sporting,13,19:35,LUIS MOLINA T.,1000,PASTO,10,HOOTEROAD,Hootenanny (usa),59,B. Sancho,V. Moris
+18-02-2026,Valparaíso Sporting,13,19:35,LUIS MOLINA T.,1000,PASTO,11,VIVE LE ROI,Ivan Denisovich,57,A. Vasquez,V. Moris
+18-02-2026,Valparaíso Sporting,13,19:35,LUIS MOLINA T.,1000,PASTO,12,ALTO FOREVER,Ivan Denisovich,55,T. Seith,G. Reyes L.
+18-02-2026,Valparaíso Sporting,13,19:35,LUIS MOLINA T.,1000,PASTO,13,LADY LUMBER,The Lumber Guy,54,C. Ortega,R. Olivares
+18-02-2026,Valparaíso Sporting,13,19:35,LUIS MOLINA T.,1000,PASTO,14,BACK TO BLACK,Hold Me Back,58,I. Valdivia,M. Silva
+18-02-2026,Valparaíso Sporting,13,19:35,LUIS MOLINA T.,1000,PASTO,15,OSCURO Y SALVAJE,Viscount Nelson,57,F. Tapia,C. Vasquez
+18-02-2026,Valparaíso Sporting,14,20:05,LINDA GELDRES G.,1000,PASTO,1,YULIECITA CRACK,The Lumber Guy,54,J. D. Villagran,G. Reyes L.
+18-02-2026,Valparaíso Sporting,14,20:05,LINDA GELDRES G.,1000,PASTO,2,ADIOS,Seeking The Dia,58,F. Tapia,C. Vasquez
+18-02-2026,Valparaíso Sporting,14,20:05,LINDA GELDRES G.,1000,PASTO,3,SAWARDED,Robert Bruce,57,G.A. Perez,O. Urbina
+18-02-2026,Valparaíso Sporting,14,20:05,LINDA GELDRES G.,1000,PASTO,4,SEVERUS SNAPE,California Chrome,53,J. Gonzalez,B. Gomez
+18-02-2026,Valparaíso Sporting,14,20:05,LINDA GELDRES G.,1000,PASTO,5,TEODORA,War Command,58,L. Gonzalez,M. Silva
+18-02-2026,Valparaíso Sporting,14,20:05,LINDA GELDRES G.,1000,PASTO,6,JAPONEITOR,Hiraboku Deep (jap),56,S. E. Gonzalez,R. Silva
+18-02-2026,Valparaíso Sporting,14,20:05,LINDA GELDRES G.,1000,PASTO,7,CALA DE ORO,Mendelssohn (usa),58,N. Ramirez,C. Gonzalez
+18-02-2026,Valparaíso Sporting,14,20:05,LINDA GELDRES G.,1000,PASTO,8,CALLATE TOMMY,Forward March,57,B. Sancho,B. Gomez
+18-02-2026,Valparaíso Sporting,14,20:05,LINDA GELDRES G.,1000,PASTO,9,BETTER THAN,Ivan Denisovich,57,R. Fuenzalida,B. Gomez
+18-02-2026,Valparaíso Sporting,14,20:05,LINDA GELDRES G.,1000,PASTO,10,THE TEACHER,Midshipman,58,F. Moreno,R. Olivares
+18-02-2026,Valparaíso Sporting,14,20:05,LINDA GELDRES G.,1000,PASTO,11,POOR SMELL,Ivan Denisovich,57,J. M. Soto,M. Silva
+18-02-2026,Valparaíso Sporting,14,20:05,LINDA GELDRES G.,1000,PASTO,12,PROFESORA TOP,Mendelssohn (usa),53,J. Medina,C. Vasquez
+18-02-2026,Valparaíso Sporting,14,20:05,LINDA GELDRES G.,1000,PASTO,13,VARESE,Flyer,53,A. Apablaza,M. Contreras
+18-02-2026,Valparaíso Sporting,15,20:35,LUIS ROMAN O.,1100,ARENA,1,ROY PARA UN POCO,Indy Dancer,56,J. Castillo,W. Mancilla
+18-02-2026,Valparaíso Sporting,15,20:35,LUIS ROMAN O.,1100,ARENA,2,BONE LESS,Newfoundland,58,G. Rodriguez,J. Belzu
+18-02-2026,Valparaíso Sporting,15,20:35,LUIS ROMAN O.,1100,ARENA,3,XENOTES,Katmai,58,N. Ramirez,S. Salazar
+18-02-2026,Valparaíso Sporting,15,20:35,LUIS ROMAN O.,1100,ARENA,4,THE GREAT DANY,Zawraq (ire),56,I. Villagran,R. Bernal T.
+18-02-2026,Valparaíso Sporting,15,20:35,LUIS ROMAN O.,1100,ARENA,5,WARRIOR SPIRIT,Protonico,58,J. Medina,W. Mancilla
+18-02-2026,Valparaíso Sporting,15,20:35,LUIS ROMAN O.,1100,ARENA,6,LIO CORDILLERANO,Monthir,56,J. Herrera,R. Bernal T.
+18-02-2026,Valparaíso Sporting,15,20:35,LUIS ROMAN O.,1100,ARENA,7,PEGGY NICE,Quick Casablanca,58,T. Seith,M. Contreras
+18-02-2026,Valparaíso Sporting,15,20:35,LUIS ROMAN O.,1100,ARENA,8,SALADO,Good Samaritan (usa),57,F. Tapia,C. Vasquez
+18-02-2026,Valparaíso Sporting,15,20:35,LUIS ROMAN O.,1100,ARENA,9,NEGRA FINA,Exaggerator,57,I. Valdivia,O. Urbina
+18-02-2026,Valparaíso Sporting,15,20:35,LUIS ROMAN O.,1100,ARENA,10,ULI EL LUCHADOR,Ecliptic,58,A. I. Maureira,G. Reyes L.
+18-02-2026,Valparaíso Sporting,15,20:35,LUIS ROMAN O.,1100,ARENA,11,LA TIA ELENA,Pattenrecognition,56,J. Gonzalez,V. Caballeria
+18-02-2026,Valparaíso Sporting,15,20:35,LUIS ROMAN O.,1100,ARENA,12,STEVIETOO,Stevie Wonderboy,56,C. Ortega,B. Gomez
+18-02-2026,Valparaíso Sporting,15,20:35,LUIS ROMAN O.,1100,ARENA,13,ALIVES,Easing Along,54,J. Miño,W. Ara
+18-02-2026,Valparaíso Sporting,15,20:35,LUIS ROMAN O.,1100,ARENA,14,LILYBETH,Fallen From Heaven,58,R. Fuenzalida,V. Moris
+18-02-2026,Valparaíso Sporting,15,20:35,LUIS ROMAN O.,1100,ARENA,15,BOMBONETE,Cupid,56,B. Sancho,S. Salazar

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import BotonQuinela from '@/components/BotonQuinela'
 import HipodromoAccordion from '@/components/HipodromoAccordion'
+import { AdBannerHorizontal } from '@/components/AdSense'
 
 
 export const metadata: Metadata = {
@@ -243,6 +244,9 @@ export default async function ProgramaPage() {
                 </div>
             </div>
 
+            {/* Ad Banner - After Stats */}
+            <AdBannerHorizontal />
+
             {/* Section Title */}
             <div className="glass-card">
                 <div className="section-title">🔮 Predicciones de Inteligencia Artificial</div>
@@ -272,6 +276,9 @@ export default async function ProgramaPage() {
                 )}
             </div>
 
+
+            {/* Ad Banner - After Predictions */}
+            <AdBannerHorizontal />
 
             {/* Sección de Agradecimiento - Momento perfecto después de ver predicciones */}
             {carreras.length > 0 && (
