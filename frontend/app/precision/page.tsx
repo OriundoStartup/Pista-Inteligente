@@ -233,11 +233,21 @@ function RaceResultCard({ race }: { race: RaceResult }) {
         return '🏇'
     }
 
+    // Determine the best match type for border and badge
+    const getBestMatch = () => {
+        if (race.acierto_superfecta) return { color: 'var(--primary)', label: '⭐ SUPERFECTA', bg: 'rgba(99, 102, 241, 0.1)', border: 'rgba(99, 102, 241, 0.3)' }
+        if (race.acierto_trifecta) return { color: '#CD7F32', label: '🏆 TRIFECTA', bg: 'rgba(205, 127, 50, 0.1)', border: 'rgba(205, 127, 50, 0.3)' }
+        if (race.acierto_quiniela) return { color: '#C0C0C0', label: '🎯 QUINIELA', bg: 'rgba(192, 192, 192, 0.1)', border: 'rgba(192, 192, 192, 0.3)' }
+        if (race.acierto_ganador) return { color: '#FFD700', label: '🥇 GANADOR', bg: 'rgba(255, 215, 0, 0.1)', border: 'rgba(255, 215, 0, 0.2)' }
+        return null
+    }
+    const bestMatch = getBestMatch()
+
     return (
         <div className="glass-card race-card" style={{
             padding: '1.25rem',
             marginBottom: '1rem',
-            borderLeft: race.acierto_ganador ? '4px solid #FFD700' : '4px solid transparent',
+            borderLeft: bestMatch ? `4px solid ${bestMatch.color}` : '4px solid transparent',
             background: 'rgba(255, 255, 255, 0.03)'
         }}>
             {/* Header */}
@@ -260,18 +270,20 @@ function RaceResultCard({ race }: { race: RaceResult }) {
                         </div>
                     </div>
                 </div>
-                {race.acierto_ganador && (
-                    <span className="badge" style={{
-                        background: 'rgba(255, 215, 0, 0.1)',
-                        color: '#FFD700',
-                        padding: '0.25rem 0.5rem',
-                        borderRadius: '4px',
-                        fontSize: '0.75rem',
-                        border: '1px solid rgba(255, 215, 0, 0.2)'
-                    }}>
-                        WINNER!
-                    </span>
-                )}
+                <div style={{ display: 'flex', gap: '0.35rem', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
+                    {race.acierto_ganador && (
+                        <span style={{ background: 'rgba(255, 215, 0, 0.1)', color: '#FFD700', padding: '0.2rem 0.5rem', borderRadius: '4px', fontSize: '0.7rem', border: '1px solid rgba(255, 215, 0, 0.2)', fontWeight: 600 }}>🥇</span>
+                    )}
+                    {race.acierto_quiniela && (
+                        <span style={{ background: 'rgba(192, 192, 192, 0.1)', color: '#C0C0C0', padding: '0.2rem 0.5rem', borderRadius: '4px', fontSize: '0.7rem', border: '1px solid rgba(192, 192, 192, 0.2)', fontWeight: 600 }}>🎯</span>
+                    )}
+                    {race.acierto_trifecta && (
+                        <span style={{ background: 'rgba(205, 127, 50, 0.1)', color: '#CD7F32', padding: '0.2rem 0.5rem', borderRadius: '4px', fontSize: '0.7rem', border: '1px solid rgba(205, 127, 50, 0.2)', fontWeight: 600 }}>🏆</span>
+                    )}
+                    {race.acierto_superfecta && (
+                        <span style={{ background: 'rgba(99, 102, 241, 0.1)', color: 'var(--primary)', padding: '0.2rem 0.5rem', borderRadius: '4px', fontSize: '0.7rem', border: '1px solid rgba(99, 102, 241, 0.2)', fontWeight: 600 }}>⭐</span>
+                    )}
+                </div>
             </div>
 
             {/* Hits Grid */}
@@ -539,10 +551,13 @@ export default async function PrecisionPage() {
 
                         const sortedDates = Object.keys(racesByDate).sort((a, b) => b.localeCompare(a))
 
-                        // Calculate stats for this hipódromo
+                        // Calculate stats for this hipódromo — count ALL match types
                         const totalRaces = races.length
                         const ganadorCount = races.filter(r => r.acierto_ganador).length
-                        const ganadorPct = totalRaces > 0 ? Math.round((ganadorCount / totalRaces) * 100) : 0
+                        const quinielaCount = races.filter(r => r.acierto_quiniela).length
+                        const trifectaCount = races.filter(r => r.acierto_trifecta).length
+                        const superfectaCount = races.filter(r => r.acierto_superfecta).length
+                        const totalAciertos = ganadorCount + quinielaCount + trifectaCount + superfectaCount
 
                         return (
                             <details key={hipodromo} className="glass-card" style={{ marginBottom: '1rem' }} open>
@@ -561,7 +576,7 @@ export default async function PrecisionPage() {
                                             {hipodromo}
                                         </div>
                                         <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-                                            {totalRaces} carreras • {ganadorPct}% ganador exacto
+                                            {totalRaces} carreras • 🥇{ganadorCount} 🎯{quinielaCount} 🏆{trifectaCount} ⭐{superfectaCount}
                                         </div>
                                     </div>
                                     <div style={{
@@ -572,7 +587,7 @@ export default async function PrecisionPage() {
                                         fontSize: '0.8rem',
                                         fontWeight: 600
                                     }}>
-                                        {ganadorCount} ✓
+                                        {totalAciertos} aciertos
                                     </div>
                                     <span style={{ fontSize: '1.2rem', color: 'var(--text-muted)' }}>▼</span>
                                 </summary>
