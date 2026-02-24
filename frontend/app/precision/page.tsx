@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: 'Transparencia total: Conoce el rendimiento real de Pista Inteligente. Ganador exacto, Quiniela, Trifecta y Superfecta por hipódromo.',
 }
 
-export const revalidate = 0 // Revalidar en cada request para datos siempre frescos
+export const revalidate = 300 // Cache 5 minutos — los datos se actualizan con cada sync
 
 interface StatsData {
     total_carreras: number
@@ -82,7 +82,7 @@ async function getPerformanceData(): Promise<PerformanceData | null> {
             .gte('fecha', '2026-01-01')
             .or('acierto_ganador.eq.true,acierto_quiniela.eq.true,acierto_trifecta.eq.true,acierto_superfecta.eq.true')
             .order('fecha', { ascending: false })
-        // Removed limit to show ALL matches
+            .limit(150) // Limit for performance — shows ~1 month of data
 
         // Filter, validate, and deduplicate race results
         const races: RaceResult[] = (recentRaces || [])

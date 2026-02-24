@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 }
 
 // ISR: Revalidar en cada request (0 = no cache, always fresh data)
-export const revalidate = 0
+export const revalidate = 300 // Cache 5 minutos
 
 // Types
 interface Prediccion {
