@@ -71,15 +71,15 @@ export default function LoginPage() {
                         </div>
                     </div>
 
-                    {/* Mini Stats */}
+                    {/* Platform Features */}
                     <div className="stats-mini mb-6 login-card-delay-2">
                         <div className="stat-mini-item">
-                            <div className="stat-mini-number">+2,500</div>
-                            <div className="stat-mini-label">Usuarios activos</div>
+                            <div className="stat-mini-number">4</div>
+                            <div className="stat-mini-label">Hipódromos cubiertos</div>
                         </div>
                         <div className="stat-mini-item">
-                            <div className="stat-mini-number">85%</div>
-                            <div className="stat-mini-label">Precisión promedio</div>
+                            <div className="stat-mini-number">50+</div>
+                            <div className="stat-mini-label">Variables analizadas</div>
                         </div>
                     </div>
 

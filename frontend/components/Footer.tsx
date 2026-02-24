@@ -10,7 +10,7 @@ export default function Footer() {
                     <BotonQuinela linkPago="https://link.mercadopago.cl/pistainteligente" />
                 </div>
 
-                <p className="copyright">© 2025 Pista Inteligente. Todos los derechos reservados.</p>
+                <p className="copyright">© 2026 Pista Inteligente. Todos los derechos reservados.</p>
                 <div className="footer-links" style={{ marginBottom: '0.5rem' }}>
                     <Link
                         href="/quienes-somos"
@@ -19,7 +19,7 @@ export default function Footer() {
                         Quiénes Somos
                     </Link>
                     <Link
-                        href="/privacidad"
+                        href="/politica-de-privacidad"
                         style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginRight: '1rem', textDecoration: 'none' }}
                     >
                         Política de Privacidad

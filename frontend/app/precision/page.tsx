@@ -468,8 +468,6 @@ export default async function PrecisionPage() {
                 </div>
             </div>
 
-            {/* Ad Banner - After Global Stats */}
-            <AdBannerHorizontal />
 
             {/* By Hipódromo */}
             <div className="glass-card" style={{ marginBottom: '2rem', padding: '1.5rem' }}>

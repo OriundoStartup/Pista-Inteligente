@@ -44,6 +44,7 @@ export default function Header() {
         { href: '/precision', label: 'Precisión', icon: '🎯' },
         { href: '/analisis', label: 'Patrones', icon: '📊' },
         { href: '/estadisticas', label: 'Estadísticas', icon: '📈' },
+        { href: '/guia', label: 'Guía', icon: '📖' },
     ]
 
     return (

@@ -244,8 +244,6 @@ export default async function ProgramaPage() {
                 </div>
             </div>
 
-            {/* Ad Banner - After Stats */}
-            <AdBannerHorizontal />
 
             {/* Section Title */}
             <div className="glass-card">

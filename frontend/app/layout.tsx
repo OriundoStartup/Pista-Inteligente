@@ -66,9 +66,6 @@ export const metadata: Metadata = {
     images: ["/header_brand.png"],
     creator: "@PistaInteligente",
   },
-  verification: {
-    google: "tu-codigo-de-verificacion-google", // Actualizar con tu código real de Google Search Console
-  },
   other: {
     "geo.region": "CL",
     "geo.placename": "Santiago, Chile",
