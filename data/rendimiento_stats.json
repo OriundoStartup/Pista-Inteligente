@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-24T16:23:52.987132",
+  "generated_at": "2026-02-24T16:38:01.301708",
   "global": {
     "last_30_days": {
-      "total_carreras": 235,
-      "ganador_pct": 4.7,
+      "total_carreras": 263,
+      "ganador_pct": 4.2,
       "quiniela_pct": 0.4,
       "trifecta_pct": 0.4,
       "superfecta_pct": 0.4,
@@ -13,8 +13,8 @@
       "superfecta_count": 1
     },
     "last_90_days": {
-      "total_carreras": 235,
-      "ganador_pct": 4.7,
+      "total_carreras": 263,
+      "ganador_pct": 4.2,
       "quiniela_pct": 0.4,
       "trifecta_pct": 0.4,
       "superfecta_pct": 0.4,
@@ -24,8 +24,8 @@
       "superfecta_count": 1
     },
     "all_time": {
-      "total_carreras": 235,
-      "ganador_pct": 4.7,
+      "total_carreras": 263,
+      "ganador_pct": 4.2,
       "quiniela_pct": 0.4,
       "trifecta_pct": 0.4,
       "superfecta_pct": 0.4,
@@ -76,6 +76,28 @@
       "trifecta_pct": 0.0,
       "superfecta_pct": 0.0,
       "ganador_count": 1,
+      "quiniela_count": 0,
+      "trifecta_count": 0,
+      "superfecta_count": 0
+    },
+    "CLUB HIPICO DE SANTIAGO": {
+      "total_carreras": 16,
+      "ganador_pct": 0.0,
+      "quiniela_pct": 0.0,
+      "trifecta_pct": 0.0,
+      "superfecta_pct": 0.0,
+      "ganador_count": 0,
+      "quiniela_count": 0,
+      "trifecta_count": 0,
+      "superfecta_count": 0
+    },
+    "VALPARAÍSO SPORTING": {
+      "total_carreras": 12,
+      "ganador_pct": 0.0,
+      "quiniela_pct": 0.0,
+      "trifecta_pct": 0.0,
+      "superfecta_pct": 0.0,
+      "ganador_count": 0,
       "quiniela_count": 0,
       "trifecta_count": 0,
       "superfecta_count": 0

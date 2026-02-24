@@ -13,6 +13,7 @@ import os
 import sys
 import json
 import logging
+import unicodedata
 from datetime import datetime, timedelta
 from collections import defaultdict
 
@@ -80,10 +81,11 @@ def get_predictions_from_supabase():
             if not fecha or not hip_nombre or not nro_carrera:
                 continue
             
-            key = (fecha, hip_nombre, nro_carrera)
+            key = (fecha, normalize_hipodromo(hip_nombre), nro_carrera)
             by_race[key].append({
                 'caballo': p.get('caballo'),
                 'numero_caballo': p.get('numero_caballo'),
+                'hipodromo_original': hip_nombre,
                 'rank_predicho': p.get('rank_predicho'),
                 'probabilidad': p.get('probabilidad')
             })
@@ -136,9 +138,10 @@ def get_results_from_sqlite():
     # Group by race
     by_race = defaultdict(list)
     for row in rows:
-        key = (row['fecha'], row['hipodromo'], row['nro_carrera'])
+        key = (row['fecha'], normalize_hipodromo(row['hipodromo']), row['nro_carrera'])
         by_race[key].append({
             'posicion': row['posicion'],
+            'hipodromo_original': row['hipodromo'],
             'caballo_id': row['caballo_id'],
             'caballo_nombre': row['caballo_nombre']
         })
@@ -158,6 +161,22 @@ def normalize_name(name):
     return name.upper().strip()
 
 
+def normalize_hipodromo(name):
+    """Normalize hipódromo name for matching between SQLite and Supabase.
+    
+    Handles differences like:
+    - 'Valparaiso Sporting' vs 'Valparaíso Sporting' (accents)
+    - 'CLUB HIPICO DE CONCEPCION' vs 'Club Hípico de Concepción' (case + accents)
+    - 'CHH' -> 'chh' (abbreviations)
+    """
+    if not name:
+        return ""
+    # Remove accents/diacritics
+    nfkd = unicodedata.normalize('NFKD', name)
+    ascii_name = ''.join(c for c in nfkd if not unicodedata.combining(c))
+    return ascii_name.upper().strip()
+
+
 def match_predictions_with_results(predictions_by_race, results_by_race):
     """
     Match predictions with results and calculate hits.
@@ -165,7 +184,9 @@ def match_predictions_with_results(predictions_by_race, results_by_race):
     results = []
     
     for key, preds in predictions_by_race.items():
-        fecha, hipodromo, nro_carrera = key
+        fecha, hipodromo_normalized, nro_carrera = key
+        # Use original name for display (prefer prediction's name)
+        hipodromo = preds[0].get('hipodromo_original', hipodromo_normalized) if preds else hipodromo_normalized
         
         if key not in results_by_race:
             continue  # No results for this race yet
@@ -205,7 +226,7 @@ def match_predictions_with_results(predictions_by_race, results_by_race):
         
         results.append({
             'fecha': fecha,
-            'hipodromo': hipodromo,
+            'hipodromo': hipodromo,  # Original display name
             'nro_carrera': nro_carrera,
             'acierto_ganador': ganador_exacto,
             'acierto_quiniela': quiniela,
