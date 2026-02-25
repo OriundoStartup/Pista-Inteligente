@@ -328,6 +328,42 @@ def save_to_sqlite(results):
     logger.info(f"Saved {len(results)} records to rendimiento_historico")
 
 
+def load_all_from_sqlite():
+    """Load ALL accumulated rendimiento records from SQLite.
+    
+    This is used after saving new matches so that stats and Supabase upload
+    reflect the full historical data, not just the current run's matches.
+    Historical predictions get rotated out of Supabase, but their match 
+    results are preserved in SQLite across runs.
+    """
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    
+    cursor.execute('''
+        SELECT fecha, hipodromo, nro_carrera, acierto_ganador, acierto_quiniela,
+               acierto_trifecta, acierto_superfecta, prediccion_top4, resultado_top4
+        FROM rendimiento_historico
+        ORDER BY fecha DESC
+    ''')
+    
+    all_results = []
+    for row in cursor.fetchall():
+        all_results.append({
+            'fecha': row[0],
+            'hipodromo': row[1],
+            'nro_carrera': row[2],
+            'acierto_ganador': bool(row[3]),
+            'acierto_quiniela': bool(row[4]),
+            'acierto_trifecta': bool(row[5]),
+            'acierto_superfecta': bool(row[6]),
+            'prediccion_top4': json.loads(row[7]) if row[7] else [],
+            'resultado_top4': json.loads(row[8]) if row[8] else []
+        })
+    
+    conn.close()
+    return all_results
+
+
 def save_stats_json(stats_global, stats_by_hip, recent_results):
     """Save stats to JSON for frontend consumption."""
     output = {
@@ -443,11 +479,27 @@ def run():
     for hip, stats in stats_by_hip.items():
         logger.info(f"  {hip}: {stats['total_carreras']} races, Ganador {stats['ganador_pct']}%")
     
-    # Save results
+    # Save new results to SQLite (INSERT OR REPLACE accumulates across runs)
     logger.info("\nSaving results...")
     save_to_sqlite(results)
-    save_stats_json(stats_global, stats_by_hip, results)
-    upload_to_supabase(stats_global, stats_by_hip, results)
+    
+    # Reload ALL accumulated records from SQLite for stats and upload
+    # This is critical because historical predictions get rotated out of Supabase,
+    # but their match results are preserved in SQLite across runs
+    logger.info("Loading ALL accumulated results from SQLite for stats...")
+    all_accumulated = load_all_from_sqlite()
+    logger.info(f"Total accumulated results: {len(all_accumulated)}")
+    
+    # Recalculate stats from full history
+    stats_global = calculate_stats(all_accumulated)
+    stats_by_hip = calculate_stats_by_hipodromo(all_accumulated)
+    logger.info(f"Full history: Ganador {stats_global['ganador_pct']}%, Quiniela {stats_global['quiniela_pct']}%, "
+                f"Trifecta {stats_global['trifecta_pct']}%, Superfecta {stats_global['superfecta_pct']}%")
+    for hip, s in stats_by_hip.items():
+        logger.info(f"  {hip}: {s['total_carreras']} races, Ganador {s['ganador_pct']}%")
+    
+    save_stats_json(stats_global, stats_by_hip, all_accumulated)
+    upload_to_supabase(stats_global, stats_by_hip, all_accumulated)
     
     logger.info("\n" + "=" * 60)
     logger.info("PERFORMANCE CALCULATION COMPLETE")
