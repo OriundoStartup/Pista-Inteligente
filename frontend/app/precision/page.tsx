@@ -79,7 +79,7 @@ async function getPerformanceData(): Promise<PerformanceData | null> {
         const { data: recentRaces, error: racesError } = await supabase
             .from('rendimiento_historico')
             .select('*')
-            .gte('fecha', '2026-01-01')
+            .gte('fecha', '2025-11-01') // Include all historical data since system launch
             .or('acierto_ganador.eq.true,acierto_quiniela.eq.true,acierto_trifecta.eq.true,acierto_superfecta.eq.true')
             .order('fecha', { ascending: false })
             .limit(150) // Limit for performance — shows ~1 month of data
@@ -497,7 +497,7 @@ export default async function PrecisionPage() {
             {/* Recent Races by Hipódromo (Accordion) */}
             <div style={{ marginBottom: '2rem' }}>
                 <div className="section-title" style={{ marginBottom: '1rem', paddingLeft: '0.5rem' }}>
-                    📋 Últimas Carreras Verificadas (2026)
+                    📋 Últimas Carreras Verificadas
                 </div>
 
                 {(() => {
