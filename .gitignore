@@ -1,15 +1,45 @@
 venv/
 __pycache__/
 .env
-*.db
 *.pyc
 .DS_Store
 serviceAccountKey.json
 
-# Ignorar BD duplicada en raíz (debe estar solo en data/db/)
+# Database (debe estar solo en data/db/)
 /hipica_data.db
+data/hipica.db
 
 # Scripts temporales de debugging
 check_*.py
 list_*.py
 debug_*.py
+verify_*.py
+diagnose_*.py
+investigate_*.py
+quick_check_*.py
+simple_*.py
+fix_*.py
+analyze_*.py
+migrate_*.py
+test_*.py
+!tests/
+
+# Logs y outputs
+*.log
+*_output.txt
+*_report.txt
+
+# Model checkpoints con timestamp (solo mantener *_latest.*)
+src/models/ensemble_2*.pkl
+src/models/ensemble_catboost_2*.pkl
+src/models/ensemble_lightgbm_2*.pkl
+src/models/ensemble_xgboost_2*.pkl
+src/models/feature_eng_v*_2*.pkl
+src/models/lgbm_ranker_v*_2*.pkl
+src/models/lgbm_optimized_2*.pkl
+src/models/metadata_v*_2*.json
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
