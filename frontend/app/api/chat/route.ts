@@ -24,7 +24,8 @@ async function getGeminiResponse(userMessage: string, systemPrompt: string): Pro
         body: JSON.stringify({
             contents: [{
                 parts: [{ text: `${systemPrompt}\n\nPREGUNTA USUARIO:\n${userMessage}` }]
-            }]
+            }],
+            generationConfig: { maxOutputTokens: 400 }
         })
     })
 
@@ -100,8 +101,9 @@ const fallbackResponses: Record<string, string> = {
     'default': 'Estoy teniendo problemas para conectar con mi cerebro de IA. Por favor intenta más tarde o visita Teletrak.cl.'
 }
 
-const responseCache = new Map<string, { response: string, timestamp: number }>();
-const CACHE_DURATION = 1000 * 60 * 5; // 5 minutes
+// TODO: Implementar caché con Redis (Upstash) o Supabase para ambientes serverless
+// No usar Map() en memoria: no persiste entre invocaciones en Vercel/Netlify
+
 
 export async function POST(request: Request) {
     try {
@@ -109,46 +111,47 @@ export async function POST(request: Request) {
 
         if (!message || typeof message !== 'string' || message.trim().length === 0) {
             return withCors(NextResponse.json(
-                { error: 'El campo "message" es requerido y debe ser un string no vacío.' },
+                { error: 'Mensaje requerido' },
                 { status: 400 }
             ))
         }
 
-        const cacheKey = message.trim().toLowerCase();
-        const cached = responseCache.get(cacheKey);
-        if (cached && (Date.now() - cached.timestamp < CACHE_DURATION)) {
-            return withCors(NextResponse.json({ response: cached.response }));
+        const trimmedMessage = message.trim();
+
+        if (trimmedMessage.length > 500) {
+            return withCors(NextResponse.json(
+                { error: 'Mensaje demasiado largo. Máximo 500 caracteres.' },
+                { status: 400 }
+            ))
         }
+
+        const sanitizedMessage = trimmedMessage.replace(/[<>{}]/g, '').slice(0, 500);
+
 
         try {
             // 1. Ejecutar búsquedas en paralelo (Sistema + Web)
-            const [systemInfo, webInfo] = await Promise.all([
-                searchSystem(message),
-                searchWeb(message)
+            const [systemInfo, webResult] = await Promise.all([
+                searchSystem(sanitizedMessage),
+                searchWeb(sanitizedMessage)
             ])
+
+            const webInfo = webResult.success ? webResult.data : "";
 
             const combinedContext = `
 --- INFORMACIÓN DEL SISTEMA ---
 ${systemInfo || "No se encontraron datos internos relevantes."}
 
 --- INFORMACIÓN EXTERNA (WEB) ---
-${webInfo || "No se encontraron datos externos relevantes."}
+${webInfo || (webResult.error ? `Error: ${webResult.error}` : "No se encontraron datos externos relevantes.")}
             `
 
             // 2. Consultar a la IA (Dinámica)
-            const aiResponse = await getAIResponse(message, combinedContext)
-
-            // Cache
-            responseCache.set(cacheKey, { response: aiResponse, timestamp: Date.now() });
-            if (responseCache.size > 100) {
-                const firstKey = responseCache.keys().next().value;
-                if (firstKey) responseCache.delete(firstKey);
-            }
+            const aiResponse = await getAIResponse(sanitizedMessage, combinedContext)
 
             return withCors(NextResponse.json({ response: aiResponse }))
         } catch (error) {
             console.error('Chat API Error:', error)
-            const fallback = message.toLowerCase().includes('hola') ? fallbackResponses['hola'] : fallbackResponses['default']
+            const fallback = sanitizedMessage.toLowerCase().includes('hola') ? fallbackResponses['hola'] : fallbackResponses['default']
             return withCors(NextResponse.json({ response: fallback }))
         }
 

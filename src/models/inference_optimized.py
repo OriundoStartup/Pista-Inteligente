@@ -263,9 +263,20 @@ class OptimizedInferencePipeline:
         for _, row in df_program.iterrows():
             # IDs
             c_name = row.get('caballo', 'Unknown')
-            c_id = c_map.get(c_name, 0)
+            # 1. Intentar usar el ID directo si viene del DataFrame
+            c_id = row.get('caballo_id')
+            if pd.isna(c_id) or c_id is None:
+                c_id = c_map.get(c_name, 0)
+            else:
+                c_id = int(c_id)
+                
             j_name = row.get('jinete', '')
-            j_id = j_map.get(j_name, 0)
+            j_id = row.get('jinete_id')
+            if pd.isna(j_id) or j_id is None:
+                j_id = j_map.get(j_name, 0)
+            else:
+                j_id = int(j_id)
+                
             h_name = row.get('hipodromo', '')
             h_id = hip_map.get(h_name, 0)
             
@@ -328,18 +339,25 @@ class OptimizedInferencePipeline:
             row_copy['hipodromo_id'] = h_id
             enriched_rows.append(row_copy)
         
-        X = pd.DataFrame(features_list)[feature_cols]
+        X = pd.DataFrame(features_list)
+        # Asegurar que todas las columnas requeridas existen (evita KeyError)
+        for col in feature_cols:
+            if col not in X.columns:
+                X[col] = 0.0
+        X = X[feature_cols].copy()
         X = X.fillna(0)
         
         df_enriched = pd.DataFrame(enriched_rows)
         
-        # Race ID para agrupación
-        df_enriched['race_unique_id'] = (
-            df_enriched['fecha'].astype(str) + "_" +
-            df_enriched['hipodromo'].astype(str) + "_" +
-            df_enriched['nro_carrera'].astype(str)
-        )
-        
+        # Race ID para agrupación (Safe Apply para evitar KeyError y mezclas de tipos)
+        if not df_enriched.empty:
+            df_enriched['race_unique_id'] = df_enriched.apply(
+                lambda r: f"{r.get('fecha', '')}_{r.get('hipodromo', '')}_{r.get('nro_carrera', '')}", 
+                axis=1
+            )
+        else:
+            df_enriched['race_unique_id'] = []
+            
         return X, df_enriched
     
     def _predict(self, X, df_enriched):

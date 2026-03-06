@@ -180,7 +180,7 @@ def get_hora_distancia_from_sqlite(fecha: str, hipodromo: str, nro_carrera: int)
         return (None, None)
 
 
-def upload_predictions_to_supabase(predictions: list) -> int:
+def upload_predictions_to_supabase(predictions: list, force_overwrite: bool = False) -> int:
     """
     Upload predictions to Supabase 'predicciones' table.
     Returns number of successfully uploaded predictions.
@@ -222,6 +222,16 @@ def upload_predictions_to_supabase(predictions: list) -> int:
         if not carrera_id:
             failed_races.append(race_key)
             continue
+            
+        # [NEW LOGIC] Check if predictions already exist to prevent changing published tips
+        if not force_overwrite:
+            try:
+                res = client.table('predicciones').select('id', count='exact').eq('carrera_id', carrera_id).limit(1).execute()
+                if res.count is not None and res.count > 0:
+                    logger.info(f"   ⏭️ SKIPPED C{nro_carrera} ({hipodromo}): Ya tiene predicciones publicadas (use --force para reescribir)")
+                    continue
+            except Exception as e:
+                logger.warning(f"   ⚠️ Could not check existing predictions for C{nro_carrera}: {e}")
         
         # Sort by probability for ranking
         group_sorted = group.sort_values('probabilidad', ascending=False).reset_index(drop=True)
@@ -304,7 +314,7 @@ def verify_upload(client, expected_races, fecha_inicio):
         return False
 
 
-def run_upload():
+def run_upload(force_overwrite: bool = False):
     """Main function to upload predictions with verification"""
     logger.info("=" * 60)
     logger.info("📤 UPLOAD PREDICTIONS TO SUPABASE (v2.0 - With Retry)")
@@ -328,7 +338,7 @@ def run_upload():
     logger.info(f"   Fecha inicio: {fecha_inicio}")
     
     # Upload
-    count = upload_predictions_to_supabase(predictions)
+    count = upload_predictions_to_supabase(predictions, force_overwrite=force_overwrite)
     
     # Verify
     db = SupabaseManager()

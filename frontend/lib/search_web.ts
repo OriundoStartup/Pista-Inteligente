@@ -8,7 +8,14 @@ const EXTERNAL_LINKS = `
 - Valparaíso Sporting: https://www.sporting.cl/
 `
 
-export async function searchWeb(query: string): Promise<string> {
+export type WebSearchResult = {
+    success: boolean;
+    data: string;
+    source: string;
+    error?: string
+};
+
+export async function searchWeb(query: string): Promise<WebSearchResult> {
     try {
         // 1. Serper API (Preferred)
         if (SERPER_API_KEY) {
@@ -25,61 +32,92 @@ export async function searchWeb(query: string): Promise<string> {
                 const data = await response.json()
                 let context = "Resultados de búsqueda web:\n"
 
-                // Process organic results
                 if (data.organic) {
                     data.organic.slice(0, 4).forEach((result: any) => {
                         context += `- [${result.title}](${result.link}): ${result.snippet}\n`
                     })
                 }
 
-                // Process knowledge graph if likely race info
                 if (data.knowledgeGraph) {
                     context += `\nDatos relevantes: ${data.knowledgeGraph.description}\n`
                 }
 
-                return context
+                return { success: true, data: context, source: 'Serper API' }
             }
         }
 
-        // 2. Fallback: Scraping Teletrak specific pages based on keywords
-        if (query.toLowerCase().includes('teletrak') || query.toLowerCase().includes('carrera')) {
+        // 2. Fallback: Scraping Teletrak robusto
+        if (query.toLowerCase().includes('teletrak') || query.toLowerCase().includes('carrera') || query.toLowerCase().includes('partantes')) {
             return await scrapeTeletrak()
         }
 
-        return `No se encontró información específica. Puedes revisar manualente en:\n${EXTERNAL_LINKS}`
+        return {
+            success: false,
+            data: `No se encontró información específica. Puedes revisar manualmente en:\n${EXTERNAL_LINKS}`,
+            source: 'Fallback Links'
+        }
 
     } catch (e) {
-        console.error('Web search failed:', e)
-        return ''
+        console.error('Web search overall failure:', e)
+        return { success: false, data: '', source: 'None', error: 'Error general en búsqueda web' }
     }
 }
 
-async function scrapeTeletrak(): Promise<string> {
-    try {
-        const response = await fetch('https://www.teletrak.cl/hipismo/carreras', {
-            headers: { 'User-Agent': 'Mozilla/5.0 (compatible; PistaInteligente/1.0)' }
-        })
+async function scrapeTeletrak(): Promise<WebSearchResult> {
+    const url = 'https://www.teletrak.cl/hipismo/carreras';
 
-        if (!response.ok) return ''
+    const headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'es-CL,es;q=0.9',
+        'Cache-Control': 'no-cache',
+    };
+
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 5000); // 5s máximo
+
+    try {
+        // TODO: Evaluar migración a SerpAPI o Browserless para scraping JavaScript-rendered
+        const response = await fetch(url, {
+            headers,
+            signal: controller.signal
+        })
+        clearTimeout(timeoutId);
+
+        if (!response.ok) {
+            return { success: false, data: '', source: 'Teletrak Scraper', error: `HTTP ${response.status}` };
+        }
 
         const html = await response.text()
+
+        // Validación: si el HTML es muy corto, probablemente es un bloqueo o error 403 disfrazado
+        if (html.length < 500) {
+            return { success: false, data: '', source: 'Teletrak Scraper', error: 'HTML insuficiente (posible bloqueo)' };
+        }
+
         const $ = cheerio.load(html)
         let info = '📡 Información en vivo desde Teletrak.cl:\n'
 
-        // Example scraping logic (adjust selectors to actual site structure)
-        // Teletrak often renders with JS, so this might be limited to meta tags or basic structure
         $('meta[name="description"]').each((_, el) => {
             info += `Resumen: ${$(el).attr('content')}\n`
         })
 
-        // Basic keyword detection in body if structured data fails
         const text = $('body').text()
         if (text.includes('Valparaíso Sporting')) info += "- Valparaíso Sporting: Activo\n"
         if (text.includes('Club Hípico')) info += "- Club Hípico: Activo\n"
         if (text.includes('Hipódromo Chile')) info += "- Hipódromo Chile: Activo\n"
 
-        return info
-    } catch (e) {
-        return ''
+        return { success: true, data: info, source: 'Teletrak Scraper' };
+
+    } catch (e: any) {
+        clearTimeout(timeoutId);
+        const isTimeout = e.name === 'AbortError';
+        console.error('Teletrak Scraping failed:', e.message);
+        return {
+            success: false,
+            data: '',
+            source: 'Teletrak Scraper',
+            error: isTimeout ? 'Timeout (5s)' : 'Scraping no disponible'
+        };
     }
 }

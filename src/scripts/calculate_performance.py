@@ -177,6 +177,20 @@ def normalize_hipodromo(name):
     return ascii_name.upper().strip()
 
 
+def standardize_hipodromo_display(name):
+    """Force an official title-case name preventing UI duplicates."""
+    norm = normalize_hipodromo(name)
+    if "SANTIAGO" in norm or "CHS" in norm:
+        return "Club Hípico de Santiago"
+    elif "CHILE" in norm or "HCH" in norm:
+        return "Hipódromo Chile"
+    elif "VALPARA" in norm or "VSC" in norm or "SPORTING" in norm:
+        return "Valparaíso Sporting"
+    elif "CONCEPCION" in norm or "CHC" in norm or "MEDIO CAMINO" in norm:
+        return "Club Hípico de Concepción"
+    return name.title()
+
+
 def match_predictions_with_results(predictions_by_race, results_by_race):
     """
     Match predictions with results and calculate hits.
@@ -185,8 +199,9 @@ def match_predictions_with_results(predictions_by_race, results_by_race):
     
     for key, preds in predictions_by_race.items():
         fecha, hipodromo_normalized, nro_carrera = key
-        # Use original name for display (prefer prediction's name)
-        hipodromo = preds[0].get('hipodromo_original', hipodromo_normalized) if preds else hipodromo_normalized
+        # Use official standard title case name ensuring stats group properly
+        raw_hipodromo = preds[0].get('hipodromo_original', hipodromo_normalized) if preds else hipodromo_normalized
+        hipodromo = standardize_hipodromo_display(raw_hipodromo)
         
         if key not in results_by_race:
             continue  # No results for this race yet

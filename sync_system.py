@@ -97,7 +97,7 @@ def main(force_sync=False):
     try:
         from src.utils.upload_predictions_supabase import run_upload
         
-        uploaded = run_upload()
+        uploaded = run_upload(force_overwrite=force_sync)
         logging.info(f"✅ {uploaded} predicciones subidas a Supabase.")
         
     except Exception as e:

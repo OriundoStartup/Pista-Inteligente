@@ -119,7 +119,10 @@ def cargar_programa(nombre_db='data/db/hipica_data.db', solo_futuras=True):
                     COALESCE(c.nombre, 'Desconocido') as caballo, 
                     j.nombre as jinete, 
                     s.nombre as stud, 
-                    pc.peso
+                    pc.peso,
+                    pc.caballo_id,
+                    pc.jinete_id,
+                    pc.stud_id
                 FROM programa_carreras pc
                 LEFT JOIN hipodromos h ON LOWER(pc.hipodromo) = LOWER(h.nombre) OR h.codigo = pc.hipodromo
                 LEFT JOIN caballos c ON pc.caballo_id = c.id
