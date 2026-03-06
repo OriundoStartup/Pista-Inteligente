@@ -199,7 +199,7 @@ export async function GET() {
             .sort((a, b) => b.veces - a.veces); // Most frequent first (though all are 2 now)
 
         // Limit results to prevent lag
-        return withCors(NextResponse.json({ patrones: result.slice(0, 50) }));
+        return withCors(NextResponse.json({ patrones: result.slice(0, 50), debug: 'v2_timezone_fix', date: todayStr }));
 
     } catch (error: any) {
         console.error('API Error:', error);
