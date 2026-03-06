@@ -8,6 +8,12 @@ const EXTERNAL_LINKS = `
 - Valparaíso Sporting: https://www.sporting.cl/
 `
 
+const TELETRAK_URLS = {
+    carreras: 'https://www.teletrak.cl/hipismo/carreras',
+    programas: 'https://www.teletrak.cl/hipismo/programas',
+    calendario: 'https://www.teletrak.cl/hipismo/calendario'
+}
+
 export type WebSearchResult = {
     success: boolean;
     data: string;
@@ -64,7 +70,10 @@ export async function searchWeb(query: string): Promise<WebSearchResult> {
 }
 
 async function scrapeTeletrak(): Promise<WebSearchResult> {
-    const url = 'https://www.teletrak.cl/hipismo/carreras';
+    // Intentamos primero con programas ya que suele tener más detalle estructurado
+    const urlsToTry = [TELETRAK_URLS.programas, TELETRAK_URLS.carreras];
+    let combinedInfo = '📡 Información recuperada de Teletrak.cl:\n';
+    let sourceFound = false;
 
     const headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -73,51 +82,56 @@ async function scrapeTeletrak(): Promise<WebSearchResult> {
         'Cache-Control': 'no-cache',
     };
 
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 5000); // 5s máximo
+    for (const url of urlsToTry) {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 4000); // 4s por URL
 
-    try {
-        // TODO: Evaluar migración a SerpAPI o Browserless para scraping JavaScript-rendered
-        const response = await fetch(url, {
-            headers,
-            signal: controller.signal
-        })
-        clearTimeout(timeoutId);
+        try {
+            const response = await fetch(url, { headers, signal: controller.signal });
+            clearTimeout(timeoutId);
 
-        if (!response.ok) {
-            return { success: false, data: '', source: 'Teletrak Scraper', error: `HTTP ${response.status}` };
+            if (!response.ok) continue;
+
+            const html = await response.text();
+            if (html.length < 500) continue;
+
+            const $ = cheerio.load(html);
+            sourceFound = true;
+
+            // Intentar extraer descripción meta
+            const metaDesc = $('meta[name="description"]').attr('content');
+            if (metaDesc && !combinedInfo.includes(metaDesc)) combinedInfo += `Contexto: ${metaDesc}\n`;
+
+            // Buscar tablas de programación o listas de carreras
+            $('table, .program-list, .race-entry, .row').each((_, el) => {
+                const text = $(el).text().trim().replace(/\s\s+/g, ' ');
+                // Filtramos por palabras clave para no traer ruido excesivo
+                if (text.includes('Carrera') || text.includes('Hipódromo') || text.includes('Hora')) {
+                    if (text.length > 20 && text.length < 400) {
+                        if (!combinedInfo.includes(text.substring(0, 50))) { // Evitar duplicados exactos
+                            combinedInfo += `- ${text}\n`;
+                        }
+                    }
+                }
+            });
+
+            // Si ya encontramos datos representativos decentes, paramos para no saturar el prompt
+            if (combinedInfo.length > 600) break;
+
+        } catch (e) {
+            clearTimeout(timeoutId);
+            console.error(`Error scraping ${url}:`, e);
         }
+    }
 
-        const html = await response.text()
-
-        // Validación: si el HTML es muy corto, probablemente es un bloqueo o error 403 disfrazado
-        if (html.length < 500) {
-            return { success: false, data: '', source: 'Teletrak Scraper', error: 'HTML insuficiente (posible bloqueo)' };
-        }
-
-        const $ = cheerio.load(html)
-        let info = '📡 Información en vivo desde Teletrak.cl:\n'
-
-        $('meta[name="description"]').each((_, el) => {
-            info += `Resumen: ${$(el).attr('content')}\n`
-        })
-
-        const text = $('body').text()
-        if (text.includes('Valparaíso Sporting')) info += "- Valparaíso Sporting: Activo\n"
-        if (text.includes('Club Hípico')) info += "- Club Hípico: Activo\n"
-        if (text.includes('Hipódromo Chile')) info += "- Hipódromo Chile: Activo\n"
-
-        return { success: true, data: info, source: 'Teletrak Scraper' };
-
-    } catch (e: any) {
-        clearTimeout(timeoutId);
-        const isTimeout = e.name === 'AbortError';
-        console.error('Teletrak Scraping failed:', e.message);
+    if (!sourceFound || combinedInfo.length < 50) {
         return {
             success: false,
-            data: '',
+            data: combinedInfo + 'No se pudo extraer detalle estructurado del programa.',
             source: 'Teletrak Scraper',
-            error: isTimeout ? 'Timeout (5s)' : 'Scraping no disponible'
+            error: 'Contenido dinámico o bloqueo de scraping'
         };
     }
+
+    return { success: true, data: combinedInfo, source: 'Teletrak Scraper' };
 }

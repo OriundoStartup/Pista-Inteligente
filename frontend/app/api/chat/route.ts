@@ -83,9 +83,9 @@ TU CONOCIMIENTO:
 REGLAS DE RESPUESTA:
 1. Sé analítico pero accesible. Usa emojis hípicos (🏇, 🏆, ⏱️).
 2. BASA TU RESPUESTA EN EL CONTEXTO PROPORCIONADO. Si el contexto tiene la respuesta, úsala.
-3. Si el contexto indica "Búsqueda web", cita la fuente si es relevante.
-4. Si no tienes información suficiente, sugiere dónde buscar (Teletrak, etc).
-5. Responde SIEMPRE en español, máximo 4 oraciones.`
+3. Si el contexto indica "Búsqueda web", cita la fuente. Si los datos son escasos, sugiere al usuario revisar el programa oficial en Teletrak.cl o ClubHipico.cl.
+4. Si no tienes información suficiente, no inventes datos. Indica qué encontraste y qué falta.
+5. Responde SIEMPRE en español, máximo 5 oraciones.`
 
     // Lógica de Selección de Proveedor
     if (GEMINI_API_KEY) {
