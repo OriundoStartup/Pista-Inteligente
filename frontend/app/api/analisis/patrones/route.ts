@@ -1,5 +1,9 @@
 import { createClient } from '@supabase/supabase-js';
 import { NextResponse } from 'next/server';
+import { withCors, corsOptionsResponse } from '../../../../lib/cors';
+
+// Handle CORS preflight
+export const OPTIONS = corsOptionsResponse;
 
 export const dynamic = 'force-dynamic'; // No caching, real-time analysis
 
@@ -31,12 +35,14 @@ interface Pattern {
 
 export async function GET() {
     try {
-        // 1. Calculate date 60 days ago
-        const today = new Date();
+        // 1. Calculate dates (adjusting for Chile timezone to avoid next-day rollover at night)
+        const now = new Date();
+        now.setHours(now.getHours() - 12);
+        const todayStr = now.toISOString().split('T')[0];
+
         const pastDate = new Date();
-        pastDate.setDate(today.getDate() - 60);
+        pastDate.setDate(pastDate.getDate() - 60);
         const fechaMin = pastDate.toISOString().split('T')[0];
-        const todayStr = new Date().toISOString().split('T')[0];
 
         // 2a. Fetch Future Program (Predicciones for today/tomorrow) to check availability
         const { data: futureData, error: futureError } = await supabase
@@ -87,11 +93,11 @@ export async function GET() {
 
         if (error) {
             console.error('Supabase Error:', error);
-            return NextResponse.json({ error: error.message }, { status: 500 });
+            return withCors(NextResponse.json({ error: error.message }, { status: 500 }));
         }
 
         if (!data || data.length === 0) {
-            return NextResponse.json({ patrones: [] });
+            return withCors(NextResponse.json({ patrones: [] }));
         }
 
         // 3. Process Data
@@ -176,7 +182,7 @@ export async function GET() {
                 // Check if this pattern is a SUBSET of any FUTURE race
                 // Optimization: Convert pattern numbers to Set once
                 const pSet = new Set(p.numeros);
-                
+
                 // Iterate all future races
                 for (const raceHorses of futureRaces.values()) {
                     let match = true;
@@ -189,14 +195,14 @@ export async function GET() {
                     if (match) return true; // Found a race where it can happen!
                 }
                 return false;
-            }) 
+            })
             .sort((a, b) => b.veces - a.veces); // Most frequent first (though all are 2 now)
 
         // Limit results to prevent lag
-        return NextResponse.json({ patrones: result.slice(0, 50) });
+        return withCors(NextResponse.json({ patrones: result.slice(0, 50) }));
 
     } catch (error: any) {
         console.error('API Error:', error);
-        return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
+        return withCors(NextResponse.json({ error: 'Internal Server Error' }, { status: 500 }));
     }
 }
