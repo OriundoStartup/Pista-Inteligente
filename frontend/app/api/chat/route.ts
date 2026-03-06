@@ -17,14 +17,24 @@ const GROQ_API_KEY = process.env.GROQ_API_KEY || ''
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions'
 const GROQ_MODEL = 'llama-3.3-70b-versatile'
 
-async function getGeminiResponse(userMessage: string, systemPrompt: string): Promise<string> {
+async function getGeminiResponse(userMessage: string, systemPrompt: string, history: any[] = []): Promise<string> {
+    // Mapear historial al formato de Gemini (user/model)
+    const contents = [
+        ...history.map(h => ({
+            role: h.role === 'assistant' ? 'model' : 'user',
+            parts: [{ text: h.content }]
+        })),
+        {
+            role: 'user',
+            parts: [{ text: `${systemPrompt}\n\nPREGUNTA USUARIO:\n${userMessage}` }]
+        }
+    ]
+
     const response = await fetch(`${GEMINI_API_URL}?key=${GEMINI_API_KEY}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-            contents: [{
-                parts: [{ text: `${systemPrompt}\n\nPREGUNTA USUARIO:\n${userMessage}` }]
-            }],
+            contents,
             generationConfig: { maxOutputTokens: 400 }
         })
     })
@@ -34,7 +44,13 @@ async function getGeminiResponse(userMessage: string, systemPrompt: string): Pro
     return data.candidates?.[0]?.content?.parts?.[0]?.text?.trim() || 'Sin respuesta de Gemini'
 }
 
-async function getGroqResponse(userMessage: string, systemPrompt: string): Promise<string> {
+async function getGroqResponse(userMessage: string, systemPrompt: string, history: any[] = []): Promise<string> {
+    const messages = [
+        { role: 'system', content: systemPrompt },
+        ...history,
+        { role: 'user', content: userMessage }
+    ]
+
     const response = await fetch(GROQ_API_URL, {
         method: 'POST',
         headers: {
@@ -43,10 +59,7 @@ async function getGroqResponse(userMessage: string, systemPrompt: string): Promi
         },
         body: JSON.stringify({
             model: GROQ_MODEL,
-            messages: [
-                { role: 'system', content: systemPrompt },
-                { role: 'user', content: userMessage }
-            ],
+            messages,
             temperature: 0.5,
             max_tokens: 400
         })
@@ -57,7 +70,7 @@ async function getGroqResponse(userMessage: string, systemPrompt: string): Promi
     return data.choices?.[0]?.message?.content?.trim() || 'Sin respuesta de Groq'
 }
 
-async function getAIResponse(userMessage: string, context: string): Promise<string> {
+async function getAIResponse(userMessage: string, context: string, history: any[] = []): Promise<string> {
     const SYSTEM_PROMPT = `Actúa como "Pista Inteligente Analyst", un experto en hípica chilena.
     
 CONTEXTO RECUPERADO (SISTEMA + WEB):
@@ -78,7 +91,7 @@ REGLAS DE RESPUESTA:
     if (GEMINI_API_KEY) {
         try {
             console.log("Usando proveedor: Gemini")
-            return await getGeminiResponse(userMessage, SYSTEM_PROMPT)
+            return await getGeminiResponse(userMessage, SYSTEM_PROMPT, history)
         } catch (e) {
             console.error("Gemini falló, intentando fallback...", e)
         }
@@ -87,7 +100,7 @@ REGLAS DE RESPUESTA:
     if (GROQ_API_KEY) {
         try {
             console.log("Usando proveedor: Groq")
-            return await getGroqResponse(userMessage, SYSTEM_PROMPT)
+            return await getGroqResponse(userMessage, SYSTEM_PROMPT, history)
         } catch (e) {
             console.error("Groq falló", e)
         }
@@ -107,7 +120,7 @@ const fallbackResponses: Record<string, string> = {
 
 export async function POST(request: Request) {
     try {
-        const { message } = await request.json()
+        const { message, history = [] } = await request.json()
 
         if (!message || typeof message !== 'string' || message.trim().length === 0) {
             return withCors(NextResponse.json(
@@ -124,6 +137,9 @@ export async function POST(request: Request) {
                 { status: 400 }
             ))
         }
+
+        // Validar historial (máximo 10 mensajes previos)
+        const safeHistory = Array.isArray(history) ? history.slice(-10) : []
 
         const sanitizedMessage = trimmedMessage.replace(/[<>{}]/g, '').slice(0, 500);
 
@@ -146,7 +162,7 @@ ${webInfo || (webResult.error ? `Error: ${webResult.error}` : "No se encontraron
             `
 
             // 2. Consultar a la IA (Dinámica)
-            const aiResponse = await getAIResponse(sanitizedMessage, combinedContext)
+            const aiResponse = await getAIResponse(sanitizedMessage, combinedContext, safeHistory)
 
             return withCors(NextResponse.json({ response: aiResponse }))
         } catch (error) {

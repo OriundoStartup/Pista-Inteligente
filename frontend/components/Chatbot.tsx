@@ -5,7 +5,7 @@ import { useState, useRef, useEffect } from 'react'
 export default function Chatbot() {
     const [isOpen, setIsOpen] = useState(false)
     const [messages, setMessages] = useState([
-        { text: '¡Hola! Soy el asistente de Pista Inteligente. 🏇 Pregúntame sobre predicciones, jinetes o cómo funciona nuestro modelo de IA.', sender: 'bot' }
+        { text: '¡Hola! Soy el asistente de Pista Inteligente. 🏇 Pregúntame sobre predicciones, jinetes o cómo funciona nuestro modelo de IA.', sender: 'assistant' }
     ])
     const [input, setInput] = useState('')
     const [isLoading, setIsLoading] = useState(false)
@@ -22,6 +22,13 @@ export default function Chatbot() {
         if (!input.trim() || isLoading) return
 
         const userMessage = input.trim()
+
+        // Preparar el historial para la API (últimos 6 mensajes para contexto)
+        const history = messages.slice(-6).map(m => ({
+            role: m.sender === 'user' ? 'user' : 'assistant',
+            content: m.text
+        }))
+
         setMessages(prev => [...prev, { text: userMessage, sender: 'user' }])
         setInput('')
         setIsLoading(true)
@@ -30,7 +37,10 @@ export default function Chatbot() {
             const response = await fetch('/api/chat', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ message: userMessage })
+                body: JSON.stringify({
+                    message: userMessage,
+                    history: history
+                })
             })
 
             if (!response.ok) {
@@ -38,11 +48,11 @@ export default function Chatbot() {
             }
 
             const data = await response.json()
-            setMessages(prev => [...prev, { text: data.response || 'Sin respuesta', sender: 'bot' }])
+            setMessages(prev => [...prev, { text: data.response || 'Sin respuesta', sender: 'assistant' }])
         } catch {
             setMessages(prev => [...prev, {
                 text: 'Puedo ayudarte con información sobre predicciones, precisión del modelo, o estadísticas de jinetes. ¿Qué te gustaría saber?',
-                sender: 'bot'
+                sender: 'assistant'
             }])
         } finally {
             setIsLoading(false)

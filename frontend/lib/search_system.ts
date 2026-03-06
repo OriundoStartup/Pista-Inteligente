@@ -6,6 +6,7 @@ const INTENT_KEYWORDS: Record<string, string[]> = {
     resultados: ['resultado', 'ganó', 'gano', 'ganador', 'primero', 'llegó', 'llego', 'pagó', 'pago'],
     estadisticas: ['estadística', 'estadistica', 'historial', 'récord', 'record', 'rendimiento', 'promedio'],
     quiniela: ['quiniela', 'apuesta', 'combinación', 'combinacion', 'trifecta', 'superfecta', 'exacta'],
+    predicciones: ['prediccion', 'predicciones', 'pronostico', 'pronosticos', 'dato', 'fijo', 'favorito', 'gana'],
 };
 
 function detectIntent(query: string): string[] {
@@ -80,6 +81,37 @@ export async function searchSystem(query: string): Promise<string> {
                 jinetes.forEach(j => {
                     const stats = j.estadisticas_jinetes?.[0]
                     results += `- ${j.nombre}: ${stats ? `${stats.triunfos} triunfos, ${stats.eficiencia}% eficiencia` : 'Sin estadísticas recientes'}\n`
+                })
+                results += "\n"
+            }
+        }
+
+        // 3. Búsqueda de Predicciones del Modelo
+        if (intents.includes('predicciones') || intents.includes('general')) {
+            const { data: preds } = await supabase
+                .from('predicciones')
+                .select(`
+                    prediccion_1,
+                    prediccion_2,
+                    prediccion_3,
+                    probabilidad,
+                    carrera:carreras!inner (
+                        numero,
+                        jornada:jornadas!inner (
+                            fecha,
+                            hipodromo:hipodromos!inner (nombre)
+                        )
+                    )
+                `)
+                .gte('carrera.jornada.fecha', today)
+                .order('carrera(numero)', { ascending: true })
+                .limit(5)
+
+            if (preds && preds.length > 0) {
+                results += `🔮 **Predicciones del Modelo IA (${preds.length}):**\n`
+                preds.forEach((p: any) => {
+                    const hipo = p.carrera?.jornada?.hipodromo?.nombre
+                    results += `- ${hipo} Carrera ${p.carrera?.numero}: 1º ${p.prediccion_1}, 2º ${p.prediccion_2}, 3º ${p.prediccion_3} (${p.probabilidad}% confianza).\n`
                 })
                 results += "\n"
             }
