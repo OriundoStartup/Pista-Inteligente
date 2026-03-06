@@ -54,10 +54,10 @@ export async function searchSystem(query: string): Promise<string> {
                 .gte('jornada.fecha', today)
                 .order('jornada(fecha)', { ascending: true })
                 .order('hora', { ascending: true })
-                .limit(3)
+                .limit(20)
 
             if (carreras && carreras.length > 0) {
-                results += "🏁 **Próximas Carreras / Programación:**\n"
+                results += `🏁 **Programación encontrada (${carreras.length} carreras):**\n`
                 carreras.forEach((c: any) => {
                     const hipodromo = c.jornada?.hipodromo?.nombre
                     const fecha = c.jornada?.fecha
@@ -73,10 +73,10 @@ export async function searchSystem(query: string): Promise<string> {
                 .from('jinetes')
                 .select('nombre, estadisticas_jinetes(triunfos, eficiencia)')
                 .ilike('nombre', `%${query}%`)
-                .limit(3)
+                .limit(10)
 
             if (jinetes && jinetes.length > 0) {
-                results += "🏇 **Jinetes Encontrados:**\n"
+                results += `🏇 **Jinetes Encontrados (${jinetes.length}):**\n`
                 jinetes.forEach(j => {
                     const stats = j.estadisticas_jinetes?.[0]
                     results += `- ${j.nombre}: ${stats ? `${stats.triunfos} triunfos, ${stats.eficiencia}% eficiencia` : 'Sin estadísticas recientes'}\n`
