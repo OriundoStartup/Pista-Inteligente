@@ -1,0 +1,3314 @@
+[
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 10,
+    "numero": 1,
+    "caballo": "MAGA BRAVA",
+    "jinete": "B. LEON",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 10,
+    "numero": 2,
+    "caballo": "SKY TROY",
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 10,
+    "numero": 3,
+    "caballo": "MISERICORDIOSA",
+    "jinete": "NICOLAS MOLINA",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 10,
+    "numero": 4,
+    "caballo": "BARELLA",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 10,
+    "numero": 5,
+    "caballo": "TAN ESPECIAL",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 10,
+    "numero": 6,
+    "caballo": "OWARIMASHITA",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 10,
+    "numero": 7,
+    "caballo": "AK AK",
+    "jinete": "D. SANCHEZ",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 10,
+    "numero": 8,
+    "caballo": "DOLLAR TREE",
+    "jinete": "B. SOTO",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 10,
+    "numero": 9,
+    "caballo": "LA GARONETTE",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 10,
+    "numero": 10,
+    "caballo": "ZHENG SHI",
+    "jinete": "GVO. AROS",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 10,
+    "numero": 11,
+    "caballo": "LA PALESS",
+    "jinete": "RAFAEL CISTERNAS",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 10,
+    "numero": 12,
+    "caballo": "KEIRA",
+    "jinete": "V. MIRANDA",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 10,
+    "numero": 13,
+    "caballo": "DELL AMORE",
+    "jinete": "D. ALVARADO",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 10,
+    "numero": 14,
+    "caballo": "AMAZING ONE",
+    "jinete": "I. VALDIVIA",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 11,
+    "numero": 1,
+    "caballo": "MUY ADMIRADO",
+    "jinete": "L. TORRES",
+    "probabilidad": 10.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 11,
+    "numero": 2,
+    "caballo": "GRAN PIOLA",
+    "jinete": "J. CASTILLO L.",
+    "probabilidad": 9.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 11,
+    "numero": 3,
+    "caballo": "FUEGO Y HIERRO",
+    "jinete": "CL. JORQUERA",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 11,
+    "numero": 4,
+    "caballo": "LEYSKA",
+    "jinete": "JN. M. SOTO",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 11,
+    "numero": 5,
+    "caballo": "L' PURA FE",
+    "jinete": "A. APABLAZA",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 11,
+    "numero": 6,
+    "caballo": "EL BIGOTE",
+    "jinete": "V. MIRANDA",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 11,
+    "numero": 7,
+    "caballo": "GANDA",
+    "jinete": "RAFAEL CISTERNAS",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 11,
+    "numero": 8,
+    "caballo": "MONARCA",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 11,
+    "numero": 9,
+    "caballo": "TODAS MIENTEN",
+    "jinete": "M. A. BUSTAMANTE",
+    "probabilidad": 10.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 11,
+    "numero": 10,
+    "caballo": "QUIEN ERES TU",
+    "jinete": "D. ALVARADO",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 12,
+    "numero": 1,
+    "caballo": "NUNCA PERDONA",
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 14.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 12,
+    "numero": 2,
+    "caballo": "SEE ME",
+    "jinete": "NICOLAS MOLINA",
+    "probabilidad": 12.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 12,
+    "numero": 3,
+    "caballo": "IMPLICADO",
+    "jinete": "O. ULLOA",
+    "probabilidad": 14.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 12,
+    "numero": 4,
+    "caballo": "DON MATIAS",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 14.8
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 12,
+    "numero": 5,
+    "caballo": "AQUIMBAO",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 14.8
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 12,
+    "numero": 6,
+    "caballo": "VICHITO",
+    "jinete": "I. VALDIVIA",
+    "probabilidad": 14.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 12,
+    "numero": 7,
+    "caballo": "SOS DE BOCA",
+    "jinete": "L. TORRES",
+    "probabilidad": 14.8
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 13,
+    "numero": 1,
+    "caballo": "LUQUITAS",
+    "jinete": "F. MEDINA",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 13,
+    "numero": 2,
+    "caballo": "SALTARIN",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 13,
+    "numero": 3,
+    "caballo": "MONTESOR",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 13,
+    "numero": 4,
+    "caballo": "EL INDOLENTE",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 13,
+    "numero": 5,
+    "caballo": "TRASCATRASCA",
+    "jinete": "JOH. GONZALEZ",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 13,
+    "numero": 6,
+    "caballo": "MR KRYUKOV",
+    "jinete": "B. AYALA",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 13,
+    "numero": 7,
+    "caballo": "AMIT",
+    "jinete": "NICOLAS MOLINA",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 13,
+    "numero": 8,
+    "caballo": "ELSEBAAHORRATODO",
+    "jinete": "GVO. AROS",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 13,
+    "numero": 9,
+    "caballo": "JOHN DUTTON",
+    "jinete": "N. ROJAS",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 13,
+    "numero": 10,
+    "caballo": "WILWITON",
+    "jinete": "JR. HERNANDEZ",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 13,
+    "numero": 11,
+    "caballo": "LUPO VELOCE",
+    "jinete": "L. C. GONZALEZ",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 13,
+    "numero": 12,
+    "caballo": "IL MERLINO",
+    "jinete": "V. MIRANDA",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 13,
+    "numero": 13,
+    "caballo": "EL LUBRISHELL",
+    "jinete": "A. VILLAGRA",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 13,
+    "numero": 14,
+    "caballo": "CARTAD PRETO",
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 14,
+    "numero": 1,
+    "caballo": "EL CURICANO",
+    "jinete": "I. VALDIVIA",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 14,
+    "numero": 2,
+    "caballo": "CANELO DORADO",
+    "jinete": "M. GUTIERREZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 14,
+    "numero": 3,
+    "caballo": "HUACARNECO",
+    "jinete": "JOH. GONZALEZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 14,
+    "numero": 4,
+    "caballo": "EN VECES",
+    "jinete": "M. GALAZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 14,
+    "numero": 5,
+    "caballo": "CRISTALINO",
+    "jinete": "L. C. GONZALEZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 14,
+    "numero": 6,
+    "caballo": "SALTO DE LUZ",
+    "jinete": "V. MIRANDA",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 14,
+    "numero": 7,
+    "caballo": "DISMAI",
+    "jinete": "L. TORRES",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 14,
+    "numero": 8,
+    "caballo": "MANHATTAN PROJECT",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 14,
+    "numero": 9,
+    "caballo": "SEÑOR GOMEZ",
+    "jinete": "D. ALVARADO",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 14,
+    "numero": 10,
+    "caballo": "OSCURO OSCURO",
+    "jinete": "R. S. DORES",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 14,
+    "numero": 11,
+    "caballo": "MISTER MINNION",
+    "jinete": "B. SOTO",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 14,
+    "numero": 12,
+    "caballo": "TENGO UN SUEÑO",
+    "jinete": "WLADIMIR QUINTEROS",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 15,
+    "numero": 1,
+    "caballo": "SALTO DE AMISTAD",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 8.8
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 15,
+    "numero": 2,
+    "caballo": "DEAR SISTER",
+    "jinete": "L. C. GONZALEZ",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 15,
+    "numero": 3,
+    "caballo": "TAMBERI",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 15,
+    "numero": 4,
+    "caballo": "NEL BLU",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 15,
+    "numero": 5,
+    "caballo": "DON'T CRY DADDY",
+    "jinete": "J. A. MIÑO",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 15,
+    "numero": 6,
+    "caballo": "BRUJO DORADO",
+    "jinete": "D. CARRASCO",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 15,
+    "numero": 7,
+    "caballo": "HIJA DEL PAN",
+    "jinete": "NICOLAS MOLINA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 15,
+    "numero": 8,
+    "caballo": "PUNTO QUIEBRE",
+    "jinete": "B. TRANCOSO",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 15,
+    "numero": 9,
+    "caballo": "ASTRO SOL",
+    "jinete": "JON. A. CASTILLO",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 15,
+    "numero": 10,
+    "caballo": "UNDER THE LIGHT",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 15,
+    "numero": 11,
+    "caballo": "SABIONDO",
+    "jinete": "B. LEON",
+    "probabilidad": 8.8
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 15,
+    "numero": 12,
+    "caballo": "TE DIGO ALGO",
+    "jinete": "D. ALVARADO",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 16,
+    "numero": 1,
+    "caballo": "MAKINEN",
+    "jinete": "NICOLAS MOLINA",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 16,
+    "numero": 2,
+    "caballo": "SALDO CONTABLE",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 16,
+    "numero": 3,
+    "caballo": "MI BELLA ESPERANZA",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 16,
+    "numero": 4,
+    "caballo": "QUEQUIERENLOSPARAM",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 16,
+    "numero": 5,
+    "caballo": "GOLFISTA",
+    "jinete": "M. GUTIERREZ",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 16,
+    "numero": 6,
+    "caballo": "NAMRUD TIGER",
+    "jinete": "R. SOLORZA",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 16,
+    "numero": 7,
+    "caballo": "FLEDGE",
+    "jinete": "L. C. GONZALEZ",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 16,
+    "numero": 8,
+    "caballo": "ANTUMBRA",
+    "jinete": "M. CHAMORRO",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 16,
+    "numero": 9,
+    "caballo": "GUACHACA",
+    "jinete": "M. GALAZ",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 16,
+    "numero": 10,
+    "caballo": "KOLETTE",
+    "jinete": "A. VILLAGRA",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 16,
+    "numero": 11,
+    "caballo": "IRON JUDGE",
+    "jinete": "R. COVARRUBIAS",
+    "probabilidad": 6.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 16,
+    "numero": 12,
+    "caballo": "CINDARA",
+    "jinete": "M. A. BUSTAMANTE",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 16,
+    "numero": 13,
+    "caballo": "VUELA EL AMOR",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 16,
+    "numero": 14,
+    "caballo": "JE T'AIME",
+    "jinete": "F. SANCHEZ",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 17,
+    "numero": 1,
+    "caballo": "A LA ORDEN",
+    "jinete": "JS. ARAYA B.",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 17,
+    "numero": 2,
+    "caballo": "SOLER DE CRUZ",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 17,
+    "numero": 3,
+    "caballo": "MISTER HEAD",
+    "jinete": "JOH. GONZALEZ",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 17,
+    "numero": 4,
+    "caballo": "MUY TEMPERADA",
+    "jinete": "J. TORO",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 17,
+    "numero": 5,
+    "caballo": "CAMELOT",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 17,
+    "numero": 6,
+    "caballo": "NIÑO SEXY",
+    "jinete": "R. SOLORZA",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 17,
+    "numero": 7,
+    "caballo": "LA KIKI BELLA",
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 17,
+    "numero": 8,
+    "caballo": "PRODIGIO DE AMAR",
+    "jinete": "GVO. AROS",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 17,
+    "numero": 9,
+    "caballo": "TIA LUZMIRA",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 17,
+    "numero": 10,
+    "caballo": "RUBIA CLARA",
+    "jinete": "GONZALO ULLOA",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 17,
+    "numero": 11,
+    "caballo": "UIESETTE",
+    "jinete": "D. CARRASCO",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 17,
+    "numero": 12,
+    "caballo": "SUBI",
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 17,
+    "numero": 13,
+    "caballo": "NOTORIOUS LOVER",
+    "jinete": "R. S. DORES",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 18,
+    "numero": 1,
+    "caballo": "RAPILLANA",
+    "jinete": "M. CHAMORRO",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 18,
+    "numero": 2,
+    "caballo": "WALK EASY",
+    "jinete": "L. C. GONZALEZ",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 18,
+    "numero": 3,
+    "caballo": "SISI STAR",
+    "jinete": "A. VILLAGRA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 18,
+    "numero": 4,
+    "caballo": "HERE I GO AGAIN",
+    "jinete": "B. AYALA",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 18,
+    "numero": 5,
+    "caballo": "CHECO ALEMAN",
+    "jinete": "WLADIMIR QUINTEROS",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 18,
+    "numero": 6,
+    "caballo": "TESORITO MIO",
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 18,
+    "numero": 7,
+    "caballo": "HENAO",
+    "jinete": "O. SANCHEZ",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 18,
+    "numero": 8,
+    "caballo": "SPELLBOUND",
+    "jinete": "R. SOLORZA",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 18,
+    "numero": 9,
+    "caballo": "DOMENICO",
+    "jinete": "JS. ARAYA B.",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 18,
+    "numero": 10,
+    "caballo": "ELMITA",
+    "jinete": "V. MIRANDA",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 18,
+    "numero": 11,
+    "caballo": "OBRA DE ARTE",
+    "jinete": "R. S. DORES",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 18,
+    "numero": 12,
+    "caballo": "BOY SCOUT",
+    "jinete": "JON. A. CASTILLO",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 18,
+    "numero": 13,
+    "caballo": "PARTNER QUERIDO",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 3,
+    "numero": 2,
+    "caballo": "PASCUERA",
+    "jinete": "CL. JORQUERA",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 3,
+    "numero": 3,
+    "caballo": "MY LITTLE GIRL",
+    "jinete": "T. SEITH",
+    "probabilidad": 10.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 3,
+    "numero": 4,
+    "caballo": "DAMA DE LA LUZ",
+    "jinete": "A. APABLAZA",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 3,
+    "numero": 5,
+    "caballo": "SEÑORA RITA",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 3,
+    "numero": 6,
+    "caballo": "NUEVA ACTRICE",
+    "jinete": "R. PAINEN",
+    "probabilidad": 13.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 3,
+    "numero": 7,
+    "caballo": "MINX",
+    "jinete": "A. VILLAGRA",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 3,
+    "numero": 8,
+    "caballo": "INARI",
+    "jinete": "N. ROJAS",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 3,
+    "numero": 9,
+    "caballo": "LIORA",
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 13.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 4,
+    "numero": 1,
+    "caballo": "NEOLIBERAL",
+    "jinete": "R. SOLORZA",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 4,
+    "numero": 2,
+    "caballo": "VITA KC",
+    "jinete": "A. APABLAZA",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 4,
+    "numero": 3,
+    "caballo": "PRAIA DO FORTE",
+    "jinete": "WLADIMIR QUINTEROS",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 4,
+    "numero": 4,
+    "caballo": "ACHAPLINA",
+    "jinete": "B. SOTO",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 4,
+    "numero": 5,
+    "caballo": "EL GRAN SOÑADOR",
+    "jinete": "J. REYES",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 4,
+    "numero": 6,
+    "caballo": "TANGERINE TANGO",
+    "jinete": "V. BRACETTI",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 4,
+    "numero": 7,
+    "caballo": "JAVIVALETU",
+    "jinete": "V. MIRANDA",
+    "probabilidad": 8.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 4,
+    "numero": 8,
+    "caballo": "ARTHUR SHELBY",
+    "jinete": "R. PAINEN",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 4,
+    "numero": 9,
+    "caballo": "FLEETWOOD",
+    "jinete": "AND. CASTILLO",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 4,
+    "numero": 10,
+    "caballo": "FELIPHON",
+    "jinete": "J. TORO",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 4,
+    "numero": 11,
+    "caballo": "MOLINO DE VIENTO",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 4,
+    "numero": 12,
+    "caballo": "EL NENE",
+    "jinete": "D. ALVARADO",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 5,
+    "numero": 1,
+    "caballo": "ONE LIFE SWEET",
+    "jinete": "M. A. BUSTAMANTE",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 5,
+    "numero": 2,
+    "caballo": "ZULEMA ZAHIR",
+    "jinete": "R. S. DORES",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 5,
+    "numero": 3,
+    "caballo": "SCALPING",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 5,
+    "numero": 4,
+    "caballo": "GRAND CODY'S",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 5,
+    "numero": 5,
+    "caballo": "JALISCO",
+    "jinete": "R. PAINEN",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 5,
+    "numero": 6,
+    "caballo": "ALCABONTA",
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 5,
+    "numero": 7,
+    "caballo": "STOP PLAYING",
+    "jinete": "B. TRANCOSO",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 5,
+    "numero": 8,
+    "caballo": "CARPINCHO",
+    "jinete": "RAFAEL CISTERNAS",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 5,
+    "numero": 9,
+    "caballo": "ELKAN DADDY",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 6,
+    "numero": 1,
+    "caballo": "MEDJOOL",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 25.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 6,
+    "numero": 2,
+    "caballo": "TOQUE Y DESPEGUE",
+    "jinete": "RAFAEL CISTERNAS",
+    "probabilidad": 25.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 6,
+    "numero": 3,
+    "caballo": "MY WAY",
+    "jinete": "O. ULLOA",
+    "probabilidad": 24.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 6,
+    "numero": 4,
+    "caballo": "FRATELI LA VITA",
+    "jinete": "L. TORRES",
+    "probabilidad": 25.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 7,
+    "numero": 1,
+    "caballo": "GRAN RAI",
+    "jinete": "JON. A. CASTILLO",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 7,
+    "numero": 2,
+    "caballo": "JAIMINI",
+    "jinete": "JR. HERNANDEZ",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 7,
+    "numero": 3,
+    "caballo": "MAHALO",
+    "jinete": "GONZALO ULLOA",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 7,
+    "numero": 4,
+    "caballo": "VIENTO AUSTRAL",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 7,
+    "numero": 5,
+    "caballo": "MAHER",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 7,
+    "numero": 6,
+    "caballo": "BORN TO BE WILD",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 7,
+    "numero": 7,
+    "caballo": "RIO PLATA",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 7,
+    "numero": 8,
+    "caballo": "SIMPLEMENTE SOY",
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 7,
+    "numero": 9,
+    "caballo": "YOGURDEMORATENIS",
+    "jinete": "A. APABLAZA",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 7,
+    "numero": 10,
+    "caballo": "NORTE RISUEÑO",
+    "jinete": "D. CARRASCO",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 7,
+    "numero": 11,
+    "caballo": "CASTOR TROY",
+    "jinete": "M. A. BUSTAMANTE",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 8,
+    "numero": 1,
+    "caballo": "DIANKA",
+    "jinete": "B. LEON",
+    "probabilidad": 11.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 8,
+    "numero": 2,
+    "caballo": "NO PASO AGOSTO",
+    "jinete": "NICOLAS MOLINA",
+    "probabilidad": 9.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 8,
+    "numero": 3,
+    "caballo": "COSA VUOI DIRE",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 11.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 8,
+    "numero": 4,
+    "caballo": "WEST PALM BEACH",
+    "jinete": "RAFAEL CISTERNAS",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 8,
+    "numero": 5,
+    "caballo": "RAUCO",
+    "jinete": "R. AVILA",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 8,
+    "numero": 6,
+    "caballo": "FAT MENDEL",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 8,
+    "numero": 7,
+    "caballo": "BRAVO NINO",
+    "jinete": "GONZALO ULLOA",
+    "probabilidad": 11.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 8,
+    "numero": 8,
+    "caballo": "EL NANY",
+    "jinete": "P. ROBLES",
+    "probabilidad": 9.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 8,
+    "numero": 9,
+    "caballo": "CALIFORNIA KING",
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 9,
+    "numero": 1,
+    "caballo": "REINHA",
+    "jinete": "B. LEON",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 9,
+    "numero": 2,
+    "caballo": "VELA AL VIENTO",
+    "jinete": "RAFAEL CISTERNAS",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 9,
+    "numero": 3,
+    "caballo": "SANDIA",
+    "jinete": "H. OCHOA",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 9,
+    "numero": 4,
+    "caballo": "MI MAMA INES",
+    "jinete": "I. VALDIVIA",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 9,
+    "numero": 5,
+    "caballo": "VELATRI",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 9,
+    "numero": 6,
+    "caballo": "SONRISA DULCE",
+    "jinete": "P. ROBLES",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 9,
+    "numero": 7,
+    "caballo": "CAMBIA EL SWITCH",
+    "jinete": "A. RIVERA",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 9,
+    "numero": 8,
+    "caballo": "MIA SELENTANA",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de S.",
+    "carrera": 9,
+    "numero": 9,
+    "caballo": "PASTORELLA BELLA",
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "numero": 1,
+    "caballo": "PATTY NENA",
+    "jinete": "R. AVILA",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "numero": 2,
+    "caballo": "TANGO Y COMPAS",
+    "jinete": "I. VALDIVIA",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "numero": 3,
+    "caballo": "SALE DE MIS OJOS",
+    "jinete": "D. ALVARADO",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "numero": 4,
+    "caballo": "PATMAHO",
+    "jinete": "B. SOTO",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "numero": 5,
+    "caballo": "TAO PRIZE",
+    "jinete": "L. C. GONZALEZ",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "numero": 6,
+    "caballo": "SOBRAO DE CARIÑO",
+    "jinete": "A. APABLAZA",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "numero": 7,
+    "caballo": "MY FLORENCE",
+    "jinete": "N. ROJAS",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "numero": 8,
+    "caballo": "BENVENUTO CELLINI",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "numero": 9,
+    "caballo": "EL SOM CENTAURO",
+    "jinete": "R. COVARRUBIAS",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "numero": 10,
+    "caballo": "VAN DER SAR",
+    "jinete": "B. TRANCOSO",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "numero": 11,
+    "caballo": "MICCA",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "numero": 12,
+    "caballo": "DOMINGO ISLEÑO",
+    "jinete": "O. CARRASCO",
+    "probabilidad": 7.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "numero": 13,
+    "caballo": "SULTAN GUERRERO",
+    "jinete": "WLADIMIR QUINTEROS",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 1,
+    "numero": 14,
+    "caballo": "NUTCRACKER",
+    "jinete": "J. PIMENTEL",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "numero": 1,
+    "caballo": "MAGA BRAVA",
+    "jinete": "B. LEON",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "numero": 2,
+    "caballo": "SKY TROY",
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "numero": 3,
+    "caballo": "MISERICORDIOSA",
+    "jinete": "NICOLAS MOLINA",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "numero": 4,
+    "caballo": "BARELLA",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "numero": 5,
+    "caballo": "TAN ESPECIAL",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "numero": 6,
+    "caballo": "OWARIMASHITA",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "numero": 7,
+    "caballo": "AK AK",
+    "jinete": "D. SANCHEZ",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "numero": 8,
+    "caballo": "DOLLAR TREE",
+    "jinete": "B. SOTO",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "numero": 9,
+    "caballo": "LA GARONETTE",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "numero": 10,
+    "caballo": "ZHENG SHI",
+    "jinete": "GVO. AROS",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "numero": 11,
+    "caballo": "LA PALESS",
+    "jinete": "RAFAEL CISTERNAS",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "numero": 12,
+    "caballo": "KEIRA",
+    "jinete": "V. MIRANDA",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "numero": 13,
+    "caballo": "DELL AMORE",
+    "jinete": "D. ALVARADO",
+    "probabilidad": 6.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 10,
+    "numero": 14,
+    "caballo": "AMAZING ONE",
+    "jinete": "I. VALDIVIA",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 11,
+    "numero": 1,
+    "caballo": "MUY ADMIRADO",
+    "jinete": "L. TORRES",
+    "probabilidad": 10.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 11,
+    "numero": 2,
+    "caballo": "GRAN PIOLA",
+    "jinete": "J. CASTILLO L.",
+    "probabilidad": 9.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 11,
+    "numero": 3,
+    "caballo": "FUEGO Y HIERRO",
+    "jinete": "CL. JORQUERA",
+    "probabilidad": 9.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 11,
+    "numero": 4,
+    "caballo": "LEYSKA",
+    "jinete": "JN. M. SOTO",
+    "probabilidad": 9.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 11,
+    "numero": 5,
+    "caballo": "L' PURA FE",
+    "jinete": "A. APABLAZA",
+    "probabilidad": 10.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 11,
+    "numero": 6,
+    "caballo": "EL BIGOTE",
+    "jinete": "V. MIRANDA",
+    "probabilidad": 10.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 11,
+    "numero": 7,
+    "caballo": "GANDA",
+    "jinete": "RAFAEL CISTERNAS",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 11,
+    "numero": 8,
+    "caballo": "MONARCA",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 9.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 11,
+    "numero": 9,
+    "caballo": "TODAS MIENTEN",
+    "jinete": "M. A. BUSTAMANTE",
+    "probabilidad": 10.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 11,
+    "numero": 10,
+    "caballo": "QUIEN ERES TU",
+    "jinete": "D. ALVARADO",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 12,
+    "numero": 1,
+    "caballo": "NUNCA PERDONA",
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 14.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 12,
+    "numero": 2,
+    "caballo": "SEE ME",
+    "jinete": "NICOLAS MOLINA",
+    "probabilidad": 12.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 12,
+    "numero": 3,
+    "caballo": "IMPLICADO",
+    "jinete": "O. ULLOA",
+    "probabilidad": 14.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 12,
+    "numero": 4,
+    "caballo": "DON MATIAS",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 14.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 12,
+    "numero": 5,
+    "caballo": "AQUIMBAO",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 14.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 12,
+    "numero": 6,
+    "caballo": "VICHITO",
+    "jinete": "I. VALDIVIA",
+    "probabilidad": 15.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 12,
+    "numero": 7,
+    "caballo": "SOS DE BOCA",
+    "jinete": "L. TORRES",
+    "probabilidad": 14.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "numero": 1,
+    "caballo": "LUQUITAS",
+    "jinete": "F. MEDINA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "numero": 2,
+    "caballo": "SALTARIN",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "numero": 3,
+    "caballo": "MONTESOR",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "numero": 4,
+    "caballo": "EL INDOLENTE",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "numero": 5,
+    "caballo": "TRASCATRASCA",
+    "jinete": "JOH. GONZALEZ",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "numero": 6,
+    "caballo": "MR KRYUKOV",
+    "jinete": "B. AYALA",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "numero": 7,
+    "caballo": "AMIT",
+    "jinete": "NICOLAS MOLINA",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "numero": 8,
+    "caballo": "ELSEBAAHORRATODO",
+    "jinete": "GVO. AROS",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "numero": 9,
+    "caballo": "JOHN DUTTON",
+    "jinete": "N. ROJAS",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "numero": 10,
+    "caballo": "WILWITON",
+    "jinete": "JR. HERNANDEZ",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "numero": 11,
+    "caballo": "LUPO VELOCE",
+    "jinete": "L. C. GONZALEZ",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "numero": 12,
+    "caballo": "IL MERLINO",
+    "jinete": "V. MIRANDA",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "numero": 13,
+    "caballo": "EL LUBRISHELL",
+    "jinete": "A. VILLAGRA",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 13,
+    "numero": 14,
+    "caballo": "CARTAD PRETO",
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 6.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 14,
+    "numero": 1,
+    "caballo": "EL CURICANO",
+    "jinete": "I. VALDIVIA",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 14,
+    "numero": 2,
+    "caballo": "CANELO DORADO",
+    "jinete": "M. GUTIERREZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 14,
+    "numero": 3,
+    "caballo": "HUACARNECO",
+    "jinete": "JOH. GONZALEZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 14,
+    "numero": 4,
+    "caballo": "EN VECES",
+    "jinete": "M. GALAZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 14,
+    "numero": 5,
+    "caballo": "CRISTALINO",
+    "jinete": "L. C. GONZALEZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 14,
+    "numero": 6,
+    "caballo": "SALTO DE LUZ",
+    "jinete": "V. MIRANDA",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 14,
+    "numero": 7,
+    "caballo": "DISMAI",
+    "jinete": "L. TORRES",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 14,
+    "numero": 8,
+    "caballo": "MANHATTAN PROJECT",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 14,
+    "numero": 9,
+    "caballo": "SEÑOR GOMEZ",
+    "jinete": "D. ALVARADO",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 14,
+    "numero": 10,
+    "caballo": "OSCURO OSCURO",
+    "jinete": "R. S. DORES",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 14,
+    "numero": 11,
+    "caballo": "MISTER MINNION",
+    "jinete": "B. SOTO",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 14,
+    "numero": 12,
+    "caballo": "TENGO UN SUEÑO",
+    "jinete": "WLADIMIR QUINTEROS",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 15,
+    "numero": 1,
+    "caballo": "SALTO DE AMISTAD",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 8.8
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 15,
+    "numero": 2,
+    "caballo": "DEAR SISTER",
+    "jinete": "L. C. GONZALEZ",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 15,
+    "numero": 3,
+    "caballo": "TAMBERI",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 15,
+    "numero": 4,
+    "caballo": "NEL BLU",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 15,
+    "numero": 5,
+    "caballo": "DON'T CRY DADDY",
+    "jinete": "J. A. MIÑO",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 15,
+    "numero": 6,
+    "caballo": "BRUJO DORADO",
+    "jinete": "D. CARRASCO",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 15,
+    "numero": 7,
+    "caballo": "HIJA DEL PAN",
+    "jinete": "NICOLAS MOLINA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 15,
+    "numero": 8,
+    "caballo": "PUNTO QUIEBRE",
+    "jinete": "B. TRANCOSO",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 15,
+    "numero": 9,
+    "caballo": "ASTRO SOL",
+    "jinete": "JON. A. CASTILLO",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 15,
+    "numero": 10,
+    "caballo": "UNDER THE LIGHT",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 15,
+    "numero": 11,
+    "caballo": "SABIONDO",
+    "jinete": "B. LEON",
+    "probabilidad": 8.8
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 15,
+    "numero": 12,
+    "caballo": "TE DIGO ALGO",
+    "jinete": "D. ALVARADO",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "numero": 1,
+    "caballo": "MAKINEN",
+    "jinete": "NICOLAS MOLINA",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "numero": 2,
+    "caballo": "SALDO CONTABLE",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "numero": 3,
+    "caballo": "MI BELLA ESPERANZA",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "numero": 4,
+    "caballo": "QUEQUIERENLOSPARAM",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "numero": 5,
+    "caballo": "GOLFISTA",
+    "jinete": "M. GUTIERREZ",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "numero": 6,
+    "caballo": "NAMRUD TIGER",
+    "jinete": "R. SOLORZA",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "numero": 7,
+    "caballo": "FLEDGE",
+    "jinete": "L. C. GONZALEZ",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "numero": 8,
+    "caballo": "ANTUMBRA",
+    "jinete": "M. CHAMORRO",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "numero": 9,
+    "caballo": "GUACHACA",
+    "jinete": "M. GALAZ",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "numero": 10,
+    "caballo": "KOLETTE",
+    "jinete": "A. VILLAGRA",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "numero": 11,
+    "caballo": "IRON JUDGE",
+    "jinete": "R. COVARRUBIAS",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "numero": 12,
+    "caballo": "CINDARA",
+    "jinete": "M. A. BUSTAMANTE",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "numero": 13,
+    "caballo": "VUELA EL AMOR",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 6.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 16,
+    "numero": 14,
+    "caballo": "JE T'AIME",
+    "jinete": "F. SANCHEZ",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 17,
+    "numero": 1,
+    "caballo": "A LA ORDEN",
+    "jinete": "JS. ARAYA B.",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 17,
+    "numero": 2,
+    "caballo": "SOLER DE CRUZ",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 17,
+    "numero": 3,
+    "caballo": "MISTER HEAD",
+    "jinete": "JOH. GONZALEZ",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 17,
+    "numero": 4,
+    "caballo": "MUY TEMPERADA",
+    "jinete": "J. TORO",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 17,
+    "numero": 5,
+    "caballo": "CAMELOT",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 17,
+    "numero": 6,
+    "caballo": "NIÑO SEXY",
+    "jinete": "R. SOLORZA",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 17,
+    "numero": 7,
+    "caballo": "LA KIKI BELLA",
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 17,
+    "numero": 8,
+    "caballo": "PRODIGIO DE AMAR",
+    "jinete": "GVO. AROS",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 17,
+    "numero": 9,
+    "caballo": "TIA LUZMIRA",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 17,
+    "numero": 10,
+    "caballo": "RUBIA CLARA",
+    "jinete": "GONZALO ULLOA",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 17,
+    "numero": 11,
+    "caballo": "UIESETTE",
+    "jinete": "D. CARRASCO",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 17,
+    "numero": 12,
+    "caballo": "SUBI",
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 17,
+    "numero": 13,
+    "caballo": "NOTORIOUS LOVER",
+    "jinete": "R. S. DORES",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 18,
+    "numero": 1,
+    "caballo": "RAPILLANA",
+    "jinete": "M. CHAMORRO",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 18,
+    "numero": 2,
+    "caballo": "WALK EASY",
+    "jinete": "L. C. GONZALEZ",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 18,
+    "numero": 3,
+    "caballo": "SISI STAR",
+    "jinete": "A. VILLAGRA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 18,
+    "numero": 4,
+    "caballo": "HERE I GO AGAIN",
+    "jinete": "B. AYALA",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 18,
+    "numero": 5,
+    "caballo": "CHECO ALEMAN",
+    "jinete": "WLADIMIR QUINTEROS",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 18,
+    "numero": 6,
+    "caballo": "TESORITO MIO",
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 18,
+    "numero": 7,
+    "caballo": "HENAO",
+    "jinete": "O. SANCHEZ",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 18,
+    "numero": 8,
+    "caballo": "SPELLBOUND",
+    "jinete": "R. SOLORZA",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 18,
+    "numero": 9,
+    "caballo": "DOMENICO",
+    "jinete": "JS. ARAYA B.",
+    "probabilidad": 7.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 18,
+    "numero": 10,
+    "caballo": "ELMITA",
+    "jinete": "V. MIRANDA",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 18,
+    "numero": 11,
+    "caballo": "OBRA DE ARTE",
+    "jinete": "R. S. DORES",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 18,
+    "numero": 12,
+    "caballo": "BOY SCOUT",
+    "jinete": "JON. A. CASTILLO",
+    "probabilidad": 8.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 18,
+    "numero": 13,
+    "caballo": "PARTNER QUERIDO",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 2,
+    "numero": 1,
+    "caballo": "NEGRO APAPUCHI",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 2,
+    "numero": 2,
+    "caballo": "THOTHO",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 2,
+    "numero": 3,
+    "caballo": "NIETA DEL MONTY",
+    "jinete": "T. SEITH",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 2,
+    "numero": 4,
+    "caballo": "BRINDO POR ELLA",
+    "jinete": "RAFAEL CISTERNAS",
+    "probabilidad": 9.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 2,
+    "numero": 5,
+    "caballo": "TORNADO DE BULI",
+    "jinete": "A. APABLAZA",
+    "probabilidad": 9.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 2,
+    "numero": 6,
+    "caballo": "PACIENCIA ETERNA",
+    "jinete": "N. ROJAS",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 2,
+    "numero": 7,
+    "caballo": "ANTIOCO",
+    "jinete": "WLADIMIR QUINTEROS",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 2,
+    "numero": 8,
+    "caballo": "GEROMILO",
+    "jinete": "D. ALVARADO",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 2,
+    "numero": 9,
+    "caballo": "LA SIGUIENTE",
+    "jinete": "R. PAINEN",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 2,
+    "numero": 10,
+    "caballo": "WILLIAM FAULKNER",
+    "jinete": "CL. JORQUERA",
+    "probabilidad": 9.3
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 2,
+    "numero": 11,
+    "caballo": "MAGNUS AURELIUS",
+    "jinete": "B. AYALA",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 3,
+    "numero": 1,
+    "caballo": "MI JARDIN",
+    "jinete": "F. MEDINA",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 3,
+    "numero": 2,
+    "caballo": "PASCUERA",
+    "jinete": "CL. JORQUERA",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 3,
+    "numero": 3,
+    "caballo": "MY LITTLE GIRL",
+    "jinete": "T. SEITH",
+    "probabilidad": 9.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 3,
+    "numero": 4,
+    "caballo": "DAMA DE LA LUZ",
+    "jinete": "A. APABLAZA",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 3,
+    "numero": 5,
+    "caballo": "SEÑORA RITA",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 3,
+    "numero": 6,
+    "caballo": "NUEVA ACTRICE",
+    "jinete": "R. PAINEN",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 3,
+    "numero": 7,
+    "caballo": "MINX",
+    "jinete": "A. VILLAGRA",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 3,
+    "numero": 8,
+    "caballo": "INARI",
+    "jinete": "N. ROJAS",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 3,
+    "numero": 9,
+    "caballo": "LIORA",
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 4,
+    "numero": 1,
+    "caballo": "NEOLIBERAL",
+    "jinete": "R. SOLORZA",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 4,
+    "numero": 2,
+    "caballo": "VITA KC",
+    "jinete": "A. APABLAZA",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 4,
+    "numero": 3,
+    "caballo": "PRAIA DO FORTE",
+    "jinete": "WLADIMIR QUINTEROS",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 4,
+    "numero": 4,
+    "caballo": "ACHAPLINA",
+    "jinete": "B. SOTO",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 4,
+    "numero": 5,
+    "caballo": "EL GRAN SOÑADOR",
+    "jinete": "J. REYES",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 4,
+    "numero": 6,
+    "caballo": "TANGERINE TANGO",
+    "jinete": "V. BRACETTI",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 4,
+    "numero": 7,
+    "caballo": "JAVIVALETU",
+    "jinete": "V. MIRANDA",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 4,
+    "numero": 8,
+    "caballo": "ARTHUR SHELBY",
+    "jinete": "R. PAINEN",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 4,
+    "numero": 9,
+    "caballo": "FLEETWOOD",
+    "jinete": "AND. CASTILLO",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 4,
+    "numero": 10,
+    "caballo": "FELIPHON",
+    "jinete": "J. TORO",
+    "probabilidad": 7.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 4,
+    "numero": 11,
+    "caballo": "MOLINO DE VIENTO",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 4,
+    "numero": 12,
+    "caballo": "EL NENE",
+    "jinete": "D. ALVARADO",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 5,
+    "numero": 1,
+    "caballo": "ONE LIFE SWEET",
+    "jinete": "M. A. BUSTAMANTE",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 5,
+    "numero": 2,
+    "caballo": "ZULEMA ZAHIR",
+    "jinete": "R. S. DORES",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 5,
+    "numero": 3,
+    "caballo": "SCALPING",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 5,
+    "numero": 4,
+    "caballo": "GRAND CODY'S",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 5,
+    "numero": 5,
+    "caballo": "JALISCO",
+    "jinete": "R. PAINEN",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 5,
+    "numero": 6,
+    "caballo": "ALCABONTA",
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 5,
+    "numero": 7,
+    "caballo": "STOP PLAYING",
+    "jinete": "B. TRANCOSO",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 5,
+    "numero": 8,
+    "caballo": "CARPINCHO",
+    "jinete": "RAFAEL CISTERNAS",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 5,
+    "numero": 9,
+    "caballo": "ELKAN DADDY",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 6,
+    "numero": 1,
+    "caballo": "MEDJOOL",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 25.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 6,
+    "numero": 2,
+    "caballo": "TOQUE Y DESPEGUE",
+    "jinete": "RAFAEL CISTERNAS",
+    "probabilidad": 25.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 6,
+    "numero": 3,
+    "caballo": "MY WAY",
+    "jinete": "O. ULLOA",
+    "probabilidad": 24.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 6,
+    "numero": 4,
+    "caballo": "FRATELI LA VITA",
+    "jinete": "L. TORRES",
+    "probabilidad": 24.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 7,
+    "numero": 1,
+    "caballo": "GRAN RAI",
+    "jinete": "JON. A. CASTILLO",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 7,
+    "numero": 2,
+    "caballo": "JAIMINI",
+    "jinete": "JR. HERNANDEZ",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 7,
+    "numero": 3,
+    "caballo": "MAHALO",
+    "jinete": "GONZALO ULLOA",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 7,
+    "numero": 4,
+    "caballo": "VIENTO AUSTRAL",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 7,
+    "numero": 5,
+    "caballo": "MAHER",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 7,
+    "numero": 6,
+    "caballo": "BORN TO BE WILD",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 7,
+    "numero": 7,
+    "caballo": "RIO PLATA",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 7,
+    "numero": 8,
+    "caballo": "SIMPLEMENTE SOY",
+    "jinete": "B. TRONCOSO",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 7,
+    "numero": 9,
+    "caballo": "YOGURDEMORATENIS",
+    "jinete": "A. APABLAZA",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 7,
+    "numero": 10,
+    "caballo": "NORTE RISUEÑO",
+    "jinete": "D. CARRASCO",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 7,
+    "numero": 11,
+    "caballo": "CASTOR TROY",
+    "jinete": "M. A. BUSTAMANTE",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 8,
+    "numero": 1,
+    "caballo": "DIANKA",
+    "jinete": "B. LEON",
+    "probabilidad": 11.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 8,
+    "numero": 2,
+    "caballo": "NO PASO AGOSTO",
+    "jinete": "NICOLAS MOLINA",
+    "probabilidad": 9.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 8,
+    "numero": 3,
+    "caballo": "COSA VUOI DIRE",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 11.2
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 8,
+    "numero": 4,
+    "caballo": "WEST PALM BEACH",
+    "jinete": "RAFAEL CISTERNAS",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 8,
+    "numero": 5,
+    "caballo": "RAUCO",
+    "jinete": "R. AVILA",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 8,
+    "numero": 6,
+    "caballo": "FAT MENDEL",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 8,
+    "numero": 7,
+    "caballo": "BRAVO NINO",
+    "jinete": "GONZALO ULLOA",
+    "probabilidad": 11.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 8,
+    "numero": 8,
+    "caballo": "EL NANY",
+    "jinete": "P. ROBLES",
+    "probabilidad": 9.7
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 8,
+    "numero": 9,
+    "caballo": "CALIFORNIA KING",
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 9,
+    "numero": 1,
+    "caballo": "REINHA",
+    "jinete": "B. LEON",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 9,
+    "numero": 2,
+    "caballo": "VELA AL VIENTO",
+    "jinete": "RAFAEL CISTERNAS",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 9,
+    "numero": 3,
+    "caballo": "SANDIA",
+    "jinete": "H. OCHOA",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 9,
+    "numero": 4,
+    "caballo": "MI MAMA INES",
+    "jinete": "I. VALDIVIA",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 9,
+    "numero": 5,
+    "caballo": "VELATRI",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 9,
+    "numero": 6,
+    "caballo": "SONRISA DULCE",
+    "jinete": "P. ROBLES",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 9,
+    "numero": 7,
+    "caballo": "CAMBIA EL SWITCH",
+    "jinete": "A. RIVERA",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 9,
+    "numero": 8,
+    "caballo": "MIA SELENTANA",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-02-27",
+    "hipodromo": "Club Hípico de Santiago",
+    "carrera": 9,
+    "numero": 9,
+    "caballo": "PASTORELLA BELLA",
+    "jinete": "SEB. GONZALEZ",
+    "probabilidad": 11.4
+  }
+]

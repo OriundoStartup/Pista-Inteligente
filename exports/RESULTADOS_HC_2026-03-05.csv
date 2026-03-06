@@ -1,0 +1,251 @@
+fecha,hipodromo,nro_carrera,hora,distancia,superficie,numero,caballo,jinete,preparador,posicion,tiempo,dividendo,peso
+2026-03-05,Hipódromo Chile,1,13:30,1000,Arena,6,Betone,J. Medina,Patricio Valderrama C.,1,58.62,3.80,56
+2026-03-05,Hipódromo Chile,1,13:30,1000,Arena,10,Salud Compadre,B. Sancho,José Venegas P.,2,58.62,2.40,57
+2026-03-05,Hipódromo Chile,1,13:30,1000,Arena,2,Redquiver,H. Barrera,Rodrigo Quiroz S.,3,58.62,9.10,56
+2026-03-05,Hipódromo Chile,1,13:30,1000,Arena,4,Disparo Letal,J. González,Juan C. Pichara J.,4,58.62,17.10,56
+2026-03-05,Hipódromo Chile,1,13:30,1000,Arena,3,Good Morning Red,F. Taun,Juan Gonzalez M.,5,58.62,46.30,56
+2026-03-05,Hipódromo Chile,1,13:30,1000,Arena,1,Sasuke,J. Toro,Juan C. Pichara J.,6,58.62,3.20,57
+2026-03-05,Hipódromo Chile,1,13:30,1000,Arena,12,Natalino,A. Covarrubias,Ricardo Rojas S.,7,58.62,62.30,56
+2026-03-05,Hipódromo Chile,1,13:30,1000,Arena,14,Conde Austral,J. Solano,Oscar Donate S.,8,58.62,10.20,56
+2026-03-05,Hipódromo Chile,1,13:30,1000,Arena,15,Tipica Chilena,R. Araya,Eugenio Switt V.,9,58.62,58.90,56
+2026-03-05,Hipódromo Chile,1,13:30,1000,Arena,5,Power Of Horses,H. Jiménez,Jaime Hirmas R.,10,58.62,11.30,56
+2026-03-05,Hipódromo Chile,1,13:30,1000,Arena,9,Guanaquero,S. Muñoz,Eduardo Lab R.,11,58.62,49.40,56
+2026-03-05,Hipódromo Chile,1,13:30,1000,Arena,8,Rubio Cruzado,J. Eyzaguirre,Mario A. Apablaza G.,12,58.62,40.40,56
+2026-03-05,Hipódromo Chile,2,13:55,1200,Arena,3,Leevan Cleff,D. Cheuque,Juan Pablo Baeza J.,1,1.13.14,2.90,53
+2026-03-05,Hipódromo Chile,2,13:55,1200,Arena,7,Catanzaro,M. Bustamante,José Araya B.,2,1.13.14,19.20,57
+2026-03-05,Hipódromo Chile,2,13:55,1200,Arena,9,Lupo Cattivo,F. Morales,Rodrigo Pulgar A.,3,1.13.14,5.70,57
+2026-03-05,Hipódromo Chile,2,13:55,1200,Arena,4,Dos Locos,J. Eyzaguirre,Mario A. Apablaza G.,4,1.13.14,17.00,56
+2026-03-05,Hipódromo Chile,2,13:55,1200,Arena,15,Sokolino,J. Zúñiga,Eduardo Lab R.,5,1.13.14,10.70,57
+2026-03-05,Hipódromo Chile,2,13:55,1200,Arena,12,Mi Nieto Facundo,R.S. Dores,Aldo Castagneto U.,6,1.13.14,6.40,57
+2026-03-05,Hipódromo Chile,2,13:55,1200,Arena,5,My Sweet Lord,T. Seith,Cristian Quiroz E.,7,1.13.14,21.00,57
+2026-03-05,Hipódromo Chile,2,13:55,1200,Arena,1,Portodos,R. Cisternas,Eugenio Switt V.,8,1.13.14,39.60,57
+2026-03-05,Hipódromo Chile,2,13:55,1200,Arena,8,On The Level,J. Villablanca,Harrison Adonis B.,9,1.13.14,7.90,57
+2026-03-05,Hipódromo Chile,2,13:55,1200,Arena,2,Negro Romero,J. Cueto,Eduardo Lab R.,10,1.13.14,41.60,57
+2026-03-05,Hipódromo Chile,2,13:55,1200,Arena,13,Carvalo Real,D. Alvarado,Eduardo Lab R.,11,1.13.14,57.10,57
+2026-03-05,Hipódromo Chile,2,13:55,1200,Arena,14,Coyotino,J. Villagran,Luis Machulas G.,12,1.13.14,5.30,53
+2026-03-05,Hipódromo Chile,2,13:55,1200,Arena,11,Floro Chico,R. Araya,Eugenio Switt V.,13,1.13.14,15.20,56
+2026-03-05,Hipódromo Chile,2,13:55,1200,Arena,10,Alfonso El Grande,B. Sancho,Claudio Bernal G.,14,1.13.14,18.90,57
+2026-03-05,Hipódromo Chile,2,13:55,1200,Arena,6,Brian Johnson,N. Venegas,Rafael Bernal G.,15,1.13.14,150.60,57
+2026-03-05,Hipódromo Chile,3,14:20,1000,Arena,2,Rucia De Oro,J. Toro,Juan C. Pichara J.,1,59.09,5.20,56
+2026-03-05,Hipódromo Chile,3,14:20,1000,Arena,7,John Wayne,L. González,Genaro J. Covarrubias E.,2,59.09,15.50,56
+2026-03-05,Hipódromo Chile,3,14:20,1000,Arena,3,La Soñe,L.P. Silva,Genaro J. Covarrubias E.,3,59.09,4.20,56
+2026-03-05,Hipódromo Chile,3,14:20,1000,Arena,5,Rosario Tijera,A. Vásquez,Maritza Pérez A.,4,59.09,5.20,56
+2026-03-05,Hipódromo Chile,3,14:20,1000,Arena,1,Yuliecita Crack,J. Villagran,Gabriel Reyes I.,5,59.09,2.90,56
+2026-03-05,Hipódromo Chile,3,14:20,1000,Arena,8,Una Propuesta,W. León,Patricio Valderrama C.,6,59.09,29.20,56
+2026-03-05,Hipódromo Chile,3,14:20,1000,Arena,6,Alesita,B. Sancho,Rodrigo Quiroz S.,7,59.09,8.40,56
+2026-03-05,Hipódromo Chile,3,14:20,1000,Arena,10,Silvestrin,L. Torres,Mario A. Apablaza G.,8,59.09,8.40,59
+2026-03-05,Hipódromo Chile,3,14:20,1000,Arena,9,Mago De Naipes,B. Soto,Rodrigo Quiroz S.,9,59.09,58.50,56
+2026-03-05,Hipódromo Chile,3,14:20,1000,Arena,4,La Nortiña,H. Barrera,Rodrigo Quiroz S.,10,59.09,38.00,56
+2026-03-05,Hipódromo Chile,3,14:20,1000,Arena,11,La Ovalle Negrete,A. Varas,Jaime Hirmas R.,11,59.09,10.40,56
+2026-03-05,Hipódromo Chile,4,14:46,1000,Arena,13,Como El Sol,N. Ramirez,Juan C. Pichara J.,1,59.23,15.00,56
+2026-03-05,Hipódromo Chile,4,14:46,1000,Arena,15,Ya Magico,A. Morales,Genaro J. Covarrubias E.,2,59.23,24.00,55
+2026-03-05,Hipódromo Chile,4,14:46,1000,Arena,8,Lady Lot,A. Apablaza,Jaime Hirmas R.,3,59.23,2.30,55
+2026-03-05,Hipódromo Chile,4,14:46,1000,Arena,2,Lady Bay,A. Covarrubias,José Lastra B.,4,59.23,9.10,55
+2026-03-05,Hipódromo Chile,4,14:46,1000,Arena,4,Tata Moncho,S. González,Rodrigo Quiroz S.,5,59.23,5.40,56
+2026-03-05,Hipódromo Chile,4,14:46,1000,Arena,7,Mas Amor,J. Cueto,Juan Ubilla P.,6,59.23,14.70,56
+2026-03-05,Hipódromo Chile,4,14:46,1000,Arena,6,Atacama Flower,R. Cisternas,Oscar Donate S.,7,59.23,7.80,56
+2026-03-05,Hipódromo Chile,4,14:46,1000,Arena,1,Señorita Jerico,H. Jiménez,Jaime Hirmas R.,8,59.23,53.90,55
+2026-03-05,Hipódromo Chile,4,14:46,1000,Arena,12,Beautiful Moon,A. Varas,Jaime Hirmas R.,9,59.23,17.70,55
+2026-03-05,Hipódromo Chile,4,14:46,1000,Arena,10,Mr Ranger,T. Seith,Isaac Michea F.,10,59.23,12.60,57
+2026-03-05,Hipódromo Chile,4,14:46,1000,Arena,5,Juniper,J. Castillo,Jaime Hirmas R.,11,59.23,55.60,55
+2026-03-05,Hipódromo Chile,4,14:46,1000,Arena,9,Yaella,R. Fuenzalida,Eduardo Lab R.,12,59.23,11.60,56
+2026-03-05,Hipódromo Chile,4,14:46,1000,Arena,3,Ukiyo,L. González,Maritza Pérez A.,13,59.23,10.20,56
+2026-03-05,Hipódromo Chile,4,14:46,1000,Arena,11,The Last Wolf,S. Muñoz,Patricio Valderrama C.,14,59.23,27.60,56
+2026-03-05,Hipódromo Chile,4,14:46,1000,Arena,14,Nanverqui,J. Villablanca,Maritza Pérez A.,15,59.23,42.00,56
+2026-03-05,Hipódromo Chile,5,15:11,1200,Arena,7,Dulce Lejania,J. Herrera,Oscar Donate S.,1,1.13.38,29.80,55
+2026-03-05,Hipódromo Chile,5,15:11,1200,Arena,12,Pensando En Vos,N. Santibañez,Patricio Valderrama C.,2,1.13.38,6.60,55
+2026-03-05,Hipódromo Chile,5,15:11,1200,Arena,9,Magoshisha,H. Barrera,Rodrigo Quiroz S.,3,1.13.38,12.70,55
+2026-03-05,Hipódromo Chile,5,15:11,1200,Arena,6,Badra,B. Sancho,Claudio Bernal G.,4,1.13.38,7.20,56
+2026-03-05,Hipódromo Chile,5,15:11,1200,Arena,10,Arranca Piscolita,B. Soto,Alberto Aviles L.,5,1.13.38,166.20,55
+2026-03-05,Hipódromo Chile,5,15:11,1200,Arena,13,Chini Chini,S. González,Eduardo Lab R.,6,1.13.38,19.40,55
+2026-03-05,Hipódromo Chile,5,15:11,1200,Arena,5,Ragazza Sofia,J. Medina,Juan Pablo Baeza J.,7,1.13.38,3.60,55
+2026-03-05,Hipódromo Chile,5,15:11,1200,Arena,15,Trata De Cambiar,J. Zúñiga,Oliverio Martínez L.,8,1.13.38,4.90,55
+2026-03-05,Hipódromo Chile,5,15:11,1200,Arena,14,Grand Suri,V. Miranda,Rodrigo López B.,9,1.13.38,60.50,55
+2026-03-05,Hipódromo Chile,5,15:11,1200,Arena,11,Keira,G. Aros,Alejandro Padovani E.,10,1.13.38,16.30,55
+2026-03-05,Hipódromo Chile,5,15:11,1200,Arena,3,Lady Esmeralda,M. Galáz,Daniel Contreras A.,11,1.13.38,14.50,55
+2026-03-05,Hipódromo Chile,5,15:11,1200,Arena,2,Seña Pagada,J. Cueto,Juan C. Pichara J.,12,1.13.38,98.10,55
+2026-03-05,Hipódromo Chile,5,15:11,1200,Arena,8,Sikelia,N. Venegas,Aldo Parra D.,13,1.13.38,123.40,55
+2026-03-05,Hipódromo Chile,5,15:11,1200,Arena,1,Te Quiero A Ti,D. Cheuque,Julio Castillo D.,14,1.13.38,18.40,51
+2026-03-05,Hipódromo Chile,5,15:11,1200,Arena,4,Immense deep,N. Molina,Rodrigo Quiroz S.,15,1.13.38,3.60,55
+2026-03-05,Hipódromo Chile,6,15:36,1000,Arena,3,Mate Amargo,R. Painen,José Araya B.,1,57.73,3.90,56
+2026-03-05,Hipódromo Chile,6,15:36,1000,Arena,4,La Mili,H. Ochoa,Rodrigo Sánchez Q.,2,57.73,3.10,56
+2026-03-05,Hipódromo Chile,6,15:36,1000,Arena,5,Paquete Platico,D. Alvarado,Eugenio Switt V.,3,57.73,55.10,55
+2026-03-05,Hipódromo Chile,6,15:36,1000,Arena,2,Todos Mienten,D. Cheuque,Julio Castillo D.,4,57.73,7.70,55
+2026-03-05,Hipódromo Chile,6,15:36,1000,Arena,11,Lexus,F. Morales,Rodrigo Pulgar A.,5,57.73,9.00,56
+2026-03-05,Hipódromo Chile,6,15:36,1000,Arena,9,Merengada,S. González,Mario A. Apablaza G.,6,57.73,4.90,56
+2026-03-05,Hipódromo Chile,6,15:36,1000,Arena,8,Lucia De Siracusa,V. Miranda,Alejandro Padovani E.,7,57.73,6.30,54
+2026-03-05,Hipódromo Chile,6,15:36,1000,Arena,7,Grozza,R. Fuenzalida,Aldo Castagneto U.,8,57.73,13.20,56
+2026-03-05,Hipódromo Chile,6,15:36,1000,Arena,1,Nuevo Horizonte,M. Gutiérrez,Rodrigo Quiroz S.,9,57.73,17.40,54
+2026-03-05,Hipódromo Chile,6,15:36,1000,Arena,6,Di Alba,A. Covarrubias,Genaro J. Covarrubias E.,10,57.73,33.50,56
+2026-03-05,Hipódromo Chile,6,15:36,1000,Arena,10,Chi Chi Jimenez,M. Fuentes,Juan C. Pichara J.,11,57.73,13.30,56
+2026-03-05,Hipódromo Chile,7,16:01,1200,Arena,13,Happy Trail,R. Cisternas,Marco Pavez O.,1,1.12.83,1.80,55
+2026-03-05,Hipódromo Chile,7,16:01,1200,Arena,12,Lady Juge,J. Eyzaguirre,Alejandro Martínez C.,2,1.12.83,6.10,54
+2026-03-05,Hipódromo Chile,7,16:01,1200,Arena,6,Ema Shadow,R.S. Dores,Mario Rabajille D.,3,1.12.83,6.90,55
+2026-03-05,Hipódromo Chile,7,16:01,1200,Arena,7,Hincha Cruzada,J. Medina,Juan Pablo Baeza J.,4,1.12.83,17.90,55
+2026-03-05,Hipódromo Chile,7,16:01,1200,Arena,2,Pix,O. Ulloa,Juan Pablo Baeza J.,5,1.12.83,5.50,57
+2026-03-05,Hipódromo Chile,7,16:01,1200,Arena,5,Miss Kingly,D. Cheuque,Rodrigo Quiroz S.,6,1.12.83,24.10,51
+2026-03-05,Hipódromo Chile,7,16:01,1200,Arena,11,Karthika,N. Ramirez,José Araya B.,7,1.12.83,10.70,55
+2026-03-05,Hipódromo Chile,7,16:01,1200,Arena,1,Santa Yapa,J. Villagran,Gabriel Reyes I.,8,1.12.83,38.50,51
+2026-03-05,Hipódromo Chile,7,16:01,1200,Arena,10,Costa Y Pampa,M. Gutiérrez,Rodrigo Quiroz S.,9,1.12.83,33.40,55
+2026-03-05,Hipódromo Chile,7,16:01,1200,Arena,8,Runa,I. Valdivia,Cristián Urbina R.,10,1.12.83,10.30,55
+2026-03-05,Hipódromo Chile,7,16:01,1200,Arena,9,Lady Faby,W. León,Daniel Contreras A.,11,1.12.83,37.20,55
+2026-03-05,Hipódromo Chile,7,16:01,1200,Arena,4,Julia Turttle,J. González,Juan C. Pichara J.,12,1.12.83,89.00,55
+2026-03-05,Hipódromo Chile,7,16:01,1200,Arena,3,La Hockista,B. Soto,Julio Castillo D.,13,1.12.83,95.20,55
+2026-03-05,Hipódromo Chile,8,16:27,1000,Arena,12,Fetlock Joint,N. Santibañez,Mario A. Apablaza G.,1,58.28,4.40,55
+2026-03-05,Hipódromo Chile,8,16:27,1000,Arena,14,La Chucky Trini,M. Galáz,Genaro J. Covarrubias E.,2,58.28,8.60,56
+2026-03-05,Hipódromo Chile,8,16:27,1000,Arena,2,Vicaria Amelia,J. Eyzaguirre,Mario A. Apablaza G.,3,58.28,45.40,55
+2026-03-05,Hipódromo Chile,8,16:27,1000,Arena,8,Wonder Woman,M. Gutiérrez,Oscar Donate S.,4,58.28,11.10,55
+2026-03-05,Hipódromo Chile,8,16:27,1000,Arena,15,Moment Of Get,J.A. Miño,Mario Covarrubias,5,58.28,9.50,54
+2026-03-05,Hipódromo Chile,8,16:27,1000,Arena,4,Lady Chrome,N. Venegas,Juan Gonzalez M.,6,58.28,11.90,56
+2026-03-05,Hipódromo Chile,8,16:27,1000,Arena,13,Como Te Tengo,R.S. Dores,Rodrigo Quiroz S.,7,58.28,13.50,56
+2026-03-05,Hipódromo Chile,8,16:27,1000,Arena,10,Lo Franco,I. Valdivia,Rodrigo Quiroz S.,8,58.28,6.70,58
+2026-03-05,Hipódromo Chile,8,16:27,1000,Arena,9,Temporal De Amor,B. Soto,Eduardo Lab R.,9,58.28,106.40,56
+2026-03-05,Hipódromo Chile,8,16:27,1000,Arena,5,Gran Facundo,A. Varas,Jaime Hirmas R.,10,58.28,4.30,55
+2026-03-05,Hipódromo Chile,8,16:27,1000,Arena,11,Legende,R. Fuenzalida,Ricardo Rojas S.,11,58.28,45.40,56
+2026-03-05,Hipódromo Chile,8,16:27,1000,Arena,7,Free Rein,A. Covarrubias,Ricardo Rojas S.,12,58.28,6.40,56
+2026-03-05,Hipódromo Chile,8,16:27,1000,Arena,6,Ayusa,F. Morales,Enrique M. Becar B.,13,58.28,10.90,56
+2026-03-05,Hipódromo Chile,8,16:27,1000,Arena,1,Marulina,L. Rivera,Genaro J. Covarrubias E.,14,58.28,20.10,54
+2026-03-05,Hipódromo Chile,8,16:27,1000,Arena,3,Sosa,M. Fuentes,Juan C. Pichara J.,15,58.28,116.00,56
+2026-03-05,Hipódromo Chile,9,16:51,1300,Arena,3,Joveure,O. Ulloa,Juan Pablo Baeza J.,1,1.17.32,3.40,57
+2026-03-05,Hipódromo Chile,9,16:51,1300,Arena,2,Miss Brownie,H. Ochoa,Rodrigo Sánchez Q.,2,1.17.32,1.60,55
+2026-03-05,Hipódromo Chile,9,16:51,1300,Arena,7,Diosa Del Rock,B. Troncoso,Alejandro Padovani E.,3,1.17.32,4.00,55
+2026-03-05,Hipódromo Chile,9,16:51,1300,Arena,5,Mi Clasica,J. Herrera,Luis Urbina H.,4,1.17.32,5.90,55
+2026-03-05,Hipódromo Chile,9,16:51,1300,Arena,1,Piazza Veneta,V. Miranda,Alejandro Padovani E.,5,1.17.32,31.40,55
+2026-03-05,Hipódromo Chile,9,16:51,1300,Arena,6,Crem To Run,J. Medina,Juan Pablo Baeza J.,6,1.17.32,10.20,55
+2026-03-05,Hipódromo Chile,10,17:17,1000,Arena,12,A La Bandada,N. Molina,Ricardo Rojas S.,1,58.88,6.00,55
+2026-03-05,Hipódromo Chile,10,17:17,1000,Arena,3,Sinag,D. Cheuque,Rodrigo Quiroz S.,2,58.88,42.50,56
+2026-03-05,Hipódromo Chile,10,17:17,1000,Arena,9,Vandu,B. Sancho,Rodrigo Quiroz S.,3,58.88,12.60,56
+2026-03-05,Hipódromo Chile,10,17:17,1000,Arena,8,Callahan,L.P. Silva,Genaro J. Covarrubias E.,4,58.88,22.30,55
+2026-03-05,Hipódromo Chile,10,17:17,1000,Arena,7,City Blue,A. Varas,José Venegas P.,5,58.88,24.50,56
+2026-03-05,Hipódromo Chile,10,17:17,1000,Arena,14,Dubai Wind,J. González,Genaro J. Covarrubias E.,6,58.88,5.60,56
+2026-03-05,Hipódromo Chile,10,17:17,1000,Arena,2,Bella Princesa,M. Gutiérrez,Rodrigo Quiroz S.,7,58.88,1.50,55
+2026-03-05,Hipódromo Chile,10,17:17,1000,Arena,5,Azra,B. Soto,Eduardo Lab R.,8,58.88,83.20,55
+2026-03-05,Hipódromo Chile,10,17:17,1000,Arena,1,Alajja,D. Medina,Juan Aravena M.,9,58.88,49.00,54
+2026-03-05,Hipódromo Chile,10,17:17,1000,Arena,6,La Kiki Bella,L. Torres,José Araya B.,10,58.88,6.10,59
+2026-03-05,Hipódromo Chile,10,17:17,1000,Arena,13,Agustina Sofia,R.S. Dores,Aldo Castagneto U.,11,58.88,45.20,56
+2026-03-05,Hipódromo Chile,10,17:17,1000,Arena,4,Lecclerc,D. Carrasco,Juan C. Pichara J.,15,58.88,25.90,56
+2026-03-05,Hipódromo Chile,11,17:44,1000,Arena,6,Black Kingly,J. Medina,Genaro J. Covarrubias E.,1,59.33,2.40,56
+2026-03-05,Hipódromo Chile,11,17:44,1000,Arena,2,Josie Girl,V. Miranda,Alejandro Padovani E.,2,59.33,11.70,55
+2026-03-05,Hipódromo Chile,11,17:44,1000,Arena,5,Cachorrita Mia,L.P. Silva,Patricio Valderrama C.,3,59.33,8.40,55
+2026-03-05,Hipódromo Chile,11,17:44,1000,Arena,10,Araukan,H. Ochoa,Gabriel Reyes I.,4,59.33,3.70,56
+2026-03-05,Hipódromo Chile,11,17:44,1000,Arena,12,Volaste A La Meta,T. Seith,Pedro Diaz S.,5,59.33,10.80,56
+2026-03-05,Hipódromo Chile,11,17:44,1000,Arena,9,Vivimos Soñando,A. Apablaza,Juan C. Pichara J.,6,59.33,31.20,56
+2026-03-05,Hipódromo Chile,11,17:44,1000,Arena,3,Vinnalia,R. Covarrubias,Angel Jaque S.,7,59.33,27.40,56
+2026-03-05,Hipódromo Chile,11,17:44,1000,Arena,13,Chica De Campeones,S. González,Rodrigo Quiroz S.,8,59.33,8.30,56
+2026-03-05,Hipódromo Chile,11,17:44,1000,Arena,11,Te Diria,D. Cheuque,Julio Castillo D.,9,59.33,9.40,56
+2026-03-05,Hipódromo Chile,11,17:44,1000,Arena,7,El Señor Anguita,H. Jiménez,Jaime Hirmas R.,10,59.33,105.80,56
+2026-03-05,Hipódromo Chile,11,17:44,1000,Arena,4,Nine Brilliant,J. Soto,Luis Machulas G.,11,59.33,162.30,56
+2026-03-05,Hipódromo Chile,11,17:44,1000,Arena,1,Canovanas,J. Villablanca,José Venegas P.,12,59.33,50.20,54
+2026-03-05,Hipódromo Chile,11,17:44,1000,Arena,8,Bulla Blue,W. León,Genaro J. Covarrubias E.,13,59.33,32.70,54
+2026-03-05,Hipódromo Chile,11,17:44,1000,Arena,14,Fabrana,R. Fuenzalida,Ricardo Rojas S.,14,59.33,13.30,56
+2026-03-05,Hipódromo Chile,11,17:44,1000,Arena,15,Salma Alegre,N. Venegas,Eugenio Switt V.,15,59.33,41.70,54
+2026-03-05,Hipódromo Chile,12,18:10,1300,Arena,1,Good Runner,A. Vásquez,José Araya B.,1,1.15.84,2.40,50
+2026-03-05,Hipódromo Chile,12,18:10,1300,Arena,2,Pasado Bucanero,N. Molina,Ximeno Urenda P.,2,1.15.84,19.20,51
+2026-03-05,Hipódromo Chile,12,18:10,1300,Arena,11,Johnny Dogs,N. Ramirez,Rodrigo Silva. S.,3,1.15.84,5.10,56
+2026-03-05,Hipódromo Chile,12,18:10,1300,Arena,3,Terik,D. Alvarado,Claudio Bernal G.,4,1.15.84,33.50,54
+2026-03-05,Hipódromo Chile,12,18:10,1300,Arena,10,Practical Sisi,I. Valdivia,Pedro Diaz S.,5,1.15.84,12.30,60
+2026-03-05,Hipódromo Chile,12,18:10,1300,Arena,8,Translucido,J. Medina,Juan Pablo Baeza J.,6,1.15.84,9.00,51
+2026-03-05,Hipódromo Chile,12,18:10,1300,Arena,9,Kapichu,R. Fuenzalida,Oscar Silva S.,7,1.15.84,51.60,53
+2026-03-05,Hipódromo Chile,12,18:10,1300,Arena,4,El Ungido,J. Zúñiga,José Araya B.,8,1.15.84,5.80,58
+2026-03-05,Hipódromo Chile,12,18:10,1300,Arena,6,The Scientist,G. Aros,Alejandro Padovani E.,9,1.15.84,49.30,60
+2026-03-05,Hipódromo Chile,12,18:10,1300,Arena,5,Ventidue,H. Ochoa,Rodrigo Sánchez Q.,10,1.15.84,5.40,52
+2026-03-05,Hipódromo Chile,12,18:10,1300,Arena,7,Fagiolo,V. Miranda,Alejandro Padovani E.,15,1.15.84,6.50,59
+2026-03-05,Hipódromo Chile,13,18:36,1400,Arena,11,Lusso,F. Henríquez,Manuel Norambuena Ch.,1,1.23.92,5.80,58
+2026-03-05,Hipódromo Chile,13,18:36,1400,Arena,1,Rey Gabriel Andres,J. Zúñiga,Alberto Aviles L.,2,1.23.92,10.00,52
+2026-03-05,Hipódromo Chile,13,18:36,1400,Arena,6,Matsuyama,J. Herrera,Mario Rabajille D.,3,1.23.92,2.20,59
+2026-03-05,Hipódromo Chile,13,18:36,1400,Arena,3,Guscher,B. Sancho,Claudio Bernal G.,4,1.23.92,3.90,55
+2026-03-05,Hipódromo Chile,13,18:36,1400,Arena,9,Tetra Goleador Z,R. Cisternas,Oscar Donate S.,5,1.23.92,16.90,55
+2026-03-05,Hipódromo Chile,13,18:36,1400,Arena,8,Pretty Distorted,H. Ochoa,Rodrigo Sánchez Q.,6,1.23.92,21.90,52
+2026-03-05,Hipódromo Chile,13,18:36,1400,Arena,2,Elegido Con Pinzas,N. Molina,Alejandro Padovani E.,7,1.23.92,23.90,53
+2026-03-05,Hipódromo Chile,13,18:36,1400,Arena,5,Chelenko,M. Salinas,Ximeno Urenda P.,8,1.23.92,14.40,53
+2026-03-05,Hipódromo Chile,13,18:36,1400,Arena,7,Esterios,G. Aros,Alejandro Padovani E.,9,1.23.92,15.10,59
+2026-03-05,Hipódromo Chile,13,18:36,1400,Arena,10,La Marre,S. González,José Araya B.,10,1.23.92,8.00,59
+2026-03-05,Hipódromo Chile,13,18:36,1400,Arena,4,Oblak,N. Ramirez,Luis Urbina H.,11,1.23.92,21.90,58
+2026-03-05,Hipódromo Chile,13,18:36,1400,Arena,12,Fashion Boy,J. Cueto,Juan C. Pichara J.,15,1.23.92,64.00,54
+2026-03-05,Hipódromo Chile,14,19:05,1000,Arena,3,Kaunas,J. Eyzaguirre,Rodrigo López B.,1,57.78,5.70,55
+2026-03-05,Hipódromo Chile,14,19:05,1000,Arena,4,Good Partner,N. Molina,Eugenio Switt V.,2,57.78,52.70,55
+2026-03-05,Hipódromo Chile,14,19:05,1000,Arena,7,Troyana,J. González,Mario Covarrubias,3,57.78,3.90,56
+2026-03-05,Hipódromo Chile,14,19:05,1000,Arena,6,Bless White Legs,V. Miranda,Alejandro Padovani E.,4,57.78,6.70,56
+2026-03-05,Hipódromo Chile,14,19:05,1000,Arena,2,Vida Sabrosa,N. Venegas,Rafael Bernal G.,5,57.78,17.90,55
+2026-03-05,Hipódromo Chile,14,19:05,1000,Arena,9,Linda Alma,B. Soto,Eduardo Lab R.,6,57.78,20.60,55
+2026-03-05,Hipódromo Chile,14,19:05,1000,Arena,5,Ruletazo,L. González,Genaro J. Covarrubias E.,7,57.78,5.70,55
+2026-03-05,Hipódromo Chile,14,19:05,1000,Arena,10,Fast Pattern,N. Santibañez,Patricio Valderrama C.,8,57.78,4.30,59
+2026-03-05,Hipódromo Chile,14,19:05,1000,Arena,14,Cambiar De Vida,D. Cheuque,Luis Machulas G.,9,57.78,8.60,55
+2026-03-05,Hipódromo Chile,14,19:05,1000,Arena,1,Avíspate Comadre,M. Gutiérrez,Rafael Bernal G.,10,57.78,41.20,54
+2026-03-05,Hipódromo Chile,14,19:05,1000,Arena,8,Atraquele Compadre,A. Apablaza,Juan C. Pichara J.,11,57.78,39.50,54
+2026-03-05,Hipódromo Chile,14,19:05,1000,Arena,13,Puros Cents,B. Sancho,Claudio Bernal G.,12,57.78,12.60,56
+2026-03-05,Hipódromo Chile,14,19:05,1000,Arena,15,Lucero Rojo,A. Vásquez,Carlos A. Flores C.,13,57.78,71.30,54
+2026-03-05,Hipódromo Chile,14,19:05,1000,Arena,12,Rabioso Pelao,D. Carrasco,Juan C. Pichara J.,14,57.78,27.50,55
+2026-03-05,Hipódromo Chile,14,19:05,1000,Arena,11,India Maulina,R.S. Dores,Jaime Hirmas R.,15,57.78,27.50,55
+2026-03-05,Hipódromo Chile,15,19:32,1000,Arena,3,Shayla,J. González,Mario A. Apablaza G.,1,58.82,11.80,55
+2026-03-05,Hipódromo Chile,15,19:32,1000,Arena,12,Casper Inn,N. Santibañez,Mario A. Apablaza G.,2,58.82,34.50,54
+2026-03-05,Hipódromo Chile,15,19:32,1000,Arena,2,Dubai Muchacha,N. Molina,Rodrigo Quiroz S.,3,58.82,5.60,54
+2026-03-05,Hipódromo Chile,15,19:32,1000,Arena,1,Meradonna,A. Apablaza,Daniel Contreras A.,4,58.82,21.90,54
+2026-03-05,Hipódromo Chile,15,19:32,1000,Arena,6,Princesa Ruby,J. Toro,Rodrigo López B.,5,58.82,13.10,57
+2026-03-05,Hipódromo Chile,15,19:32,1000,Arena,9,Sunam,R. Avila,Mario Covarrubias,6,58.82,18.30,55
+2026-03-05,Hipódromo Chile,15,19:32,1000,Arena,4,Resisto Bien,N. Ramirez,Juan C. Pichara J.,7,58.82,4.70,55
+2026-03-05,Hipódromo Chile,15,19:32,1000,Arena,11,Secret Dragon,J. Villablanca,Mario A. Apablaza G.,8,58.82,18.10,55
+2026-03-05,Hipódromo Chile,15,19:32,1000,Arena,15,Patyta Black,F. Henríquez,Manuel Norambuena Ch.,9,58.82,14.60,54
+2026-03-05,Hipódromo Chile,15,19:32,1000,Arena,7,Vicentica Maria,M. Galáz,Luis Toledo C.,10,58.82,18.80,56
+2026-03-05,Hipódromo Chile,15,19:32,1000,Arena,13,Hugo El Terrible,M. Gutiérrez,Oscar Donate S.,11,58.82,36.80,56
+2026-03-05,Hipódromo Chile,15,19:32,1000,Arena,14,Lightfoot,I. Valdivia,Carlos Urbina H.,12,58.82,2.20,55
+2026-03-05,Hipódromo Chile,15,19:32,1000,Arena,10,Koccia,R. Cisternas,Oscar Donate S.,13,58.82,10.50,57
+2026-03-05,Hipódromo Chile,15,19:32,1000,Arena,5,Cosita Dulce,W. León,Rodrigo Pulgar A.,14,58.82,59.30,54
+2026-03-05,Hipódromo Chile,16,19:59,1000,Arena,15,Ambrose,N. Molina,Alejandro Padovani E.,1,58.71,16.90,53
+2026-03-05,Hipódromo Chile,16,19:59,1000,Arena,6,Super Fly,S. González,Juan C. Pichara J.,2,58.71,6.80,56
+2026-03-05,Hipódromo Chile,16,19:59,1000,Arena,1,El Whisky Cuando,D. Cheuque,Julio Castillo D.,3,58.71,7.50,54
+2026-03-05,Hipódromo Chile,16,19:59,1000,Arena,12,Istrionico,J.A. Miño,Mario A. Apablaza G.,4,58.71,11.10,55
+2026-03-05,Hipódromo Chile,16,19:59,1000,Arena,9,Good Nepro,F. Moreno,José Lastra B.,5,58.71,52.40,55
+2026-03-05,Hipódromo Chile,16,19:59,1000,Arena,3,El Amigo,J. González,Aldo Castagneto U.,6,58.71,13.60,55
+2026-03-05,Hipódromo Chile,16,19:59,1000,Arena,8,Bruno Alonso,A. Apablaza,Juan C. Pichara J.,7,58.71,37.00,54
+2026-03-05,Hipódromo Chile,16,19:59,1000,Arena,13,The Lawyer,N. Ramirez,Carlos Urbina H.,8,58.71,2.10,56
+2026-03-05,Hipódromo Chile,16,19:59,1000,Arena,2,Tao Away,C. Ortega,Juan Pablo Baeza J.,9,58.71,4.20,55
+2026-03-05,Hipódromo Chile,16,19:59,1000,Arena,5,Merkel,B. Soto,Rodrigo Quiroz S.,10,58.71,44.30,55
+2026-03-05,Hipódromo Chile,16,19:59,1000,Arena,10,Socio Manuel,B. Sancho,Luis Machulas G.,11,58.71,15.00,59
+2026-03-05,Hipódromo Chile,16,19:59,1000,Arena,14,Vaquita Loira,R. Covarrubias,Mario Covarrubias,12,58.71,49.90,56
+2026-03-05,Hipódromo Chile,16,19:59,1000,Arena,7,Vamos De La Mano,H. Barrera,Rodrigo López B.,13,58.71,31.20,56
+2026-03-05,Hipódromo Chile,16,19:59,1000,Arena,11,Aragonero,H. Ochoa,Rodrigo Sánchez Q.,14,58.71,24.80,55
+2026-03-05,Hipódromo Chile,17,20:30,1000,Arena,3,Belleza India,R. Cisternas,Oscar Donate S.,1,57.91,3.80,54
+2026-03-05,Hipódromo Chile,17,20:30,1000,Arena,12,Gone Ritan,W. León,Genaro J. Covarrubias E.,2,57.91,19.30,54
+2026-03-05,Hipódromo Chile,17,20:30,1000,Arena,2,Stop Loss,N. Ramirez,Juan C. Pichara J.,3,57.91,8.00,54
+2026-03-05,Hipódromo Chile,17,20:30,1000,Arena,8,Blackcrack,J. Cueto,Juan C. Pichara J.,4,57.91,30.20,53
+2026-03-05,Hipódromo Chile,17,20:30,1000,Arena,5,Maximus Matias,J. González,Mario Covarrubias,5,57.91,2.80,54
+2026-03-05,Hipódromo Chile,17,20:30,1000,Arena,14,Famosa Luz,A. Covarrubias,Genaro J. Covarrubias E.,6,57.91,25.80,56
+2026-03-05,Hipódromo Chile,17,20:30,1000,Arena,7,City Magic,R. Covarrubias,Mario Covarrubias,7,57.91,19.20,56
+2026-03-05,Hipódromo Chile,17,20:30,1000,Arena,1,Hengroen,J. Soto,Luis Machulas G.,8,57.91,21.70,53
+2026-03-05,Hipódromo Chile,17,20:30,1000,Arena,6,Tatuador,N. Santibañez,Patricio Valderrama C.,9,57.91,7.90,57
+2026-03-05,Hipódromo Chile,17,20:30,1000,Arena,15,Blessed,L.P. Silva,Rodrigo Quiroz S.,10,57.91,13.60,52
+2026-03-05,Hipódromo Chile,17,20:30,1000,Arena,10,Nubes Negras,V. Miranda,Alejandro Padovani E.,11,57.91,5.50,57
+2026-03-05,Hipódromo Chile,17,20:30,1000,Arena,11,No Vuelvo Mas,N. Venegas,Jaime Hirmas R.,12,57.91,17.90,55
+2026-03-05,Hipódromo Chile,17,20:30,1000,Arena,4,Easy Peasy,C. Hernández,Rodrigo Pulgar A.,13,57.91,98.60,55
+2026-03-05,Hipódromo Chile,17,20:30,1000,Arena,9,Ciao Xena,F. Henríquez,Rodrigo Pulgar A.,14,57.91,44.20,54
+2026-03-05,Hipódromo Chile,18,21:00,1000,Arena,15,Puerto Clocker,N. Ramirez,Eugenio Switt V.,1,57.71,2.20,54
+2026-03-05,Hipódromo Chile,18,21:00,1000,Arena,11,Capo Azzurra,M. Gutiérrez,Patricio Valderrama C.,2,57.71,5.70,55
+2026-03-05,Hipódromo Chile,18,21:00,1000,Arena,12,Mente Brillante,A. Morales,Juan C. Pichara J.,3,57.71,34.60,55
+2026-03-05,Hipódromo Chile,18,21:00,1000,Arena,9,El Rey Julian,S. González,Rodrigo Quiroz S.,4,57.71,8.20,55
+2026-03-05,Hipódromo Chile,18,21:00,1000,Arena,2,Strong Diva,R. Avila,Mario Covarrubias,5,57.71,11.50,55
+2026-03-05,Hipódromo Chile,18,21:00,1000,Arena,8,Tren a Cajon,J. Toro,Rodrigo López B.,6,57.71,20.30,55
+2026-03-05,Hipódromo Chile,18,21:00,1000,Arena,3,El Joker,I. Valdivia,Rodrigo Quiroz S.,7,57.71,8.10,55
+2026-03-05,Hipódromo Chile,18,21:00,1000,Arena,4,Vivir Sin Ti,A. Apablaza,Juan C. Pichara J.,8,57.71,28.10,56
+2026-03-05,Hipódromo Chile,18,21:00,1000,Arena,10,Amor De Chocolate,N. Molina,Eduardo Lab R.,9,57.71,22.20,56
+2026-03-05,Hipódromo Chile,18,21:00,1000,Arena,13,Princesita Chrome,R. Varas,Juan Aravena M.,10,57.71,52.00,56
+2026-03-05,Hipódromo Chile,18,21:00,1000,Arena,1,Costamia,A. Vásquez,Maritza Pérez A.,11,57.71,9.40,54
+2026-03-05,Hipódromo Chile,18,21:00,1000,Arena,14,Terrible Bruno,R. Painen,Juan C. Pichara J.,12,57.71,24.30,56
+2026-03-05,Hipódromo Chile,18,21:00,1000,Arena,7,Professionals,N. Santibañez,Patricio Valderrama C.,13,57.71,20.50,56
+2026-03-05,Hipódromo Chile,18,21:00,1000,Arena,5,Reina Margaret,J. Herrera,Eduardo Lab R.,14,57.71,12.50,55
+2026-03-05,Hipódromo Chile,18,21:00,1000,Arena,6,Nueva Vida,V. Miranda,Alejandro Padovani E.,15,57.71,40.70,56
+2026-03-05,Hipódromo Chile,19,21:30,1000,Arena,3,The Alfa Dos,S. González,Mario A. Apablaza G.,1,57.34,1.70,57
+2026-03-05,Hipódromo Chile,19,21:30,1000,Arena,1,Javiera Constanza,A. Vásquez,Juan Aravena M.,2,57.34,18.20,53
+2026-03-05,Hipódromo Chile,19,21:30,1000,Arena,8,Estarqui,N. Santibañez,Mario A. Apablaza G.,3,57.34,30.00,53
+2026-03-05,Hipódromo Chile,19,21:30,1000,Arena,14,Nolan,C. Ortega,Luis Machulas G.,4,57.34,8.00,58
+2026-03-05,Hipódromo Chile,19,21:30,1000,Arena,11,Gonelli,R.S. Dores,Pedro Diaz S.,5,57.34,14.40,57
+2026-03-05,Hipódromo Chile,19,21:30,1000,Arena,4,Sinesio,J. González,Genaro J. Covarrubias E.,6,57.34,24.60,58
+2026-03-05,Hipódromo Chile,19,21:30,1000,Arena,2,El Pollo Dorado,N. Molina,Alejandro Padovani E.,7,57.34,21.90,53
+2026-03-05,Hipódromo Chile,19,21:30,1000,Arena,15,Otrosi,J. Zúñiga,Luis Urbina H.,8,57.34,14.50,53
+2026-03-05,Hipódromo Chile,19,21:30,1000,Arena,10,Sea Of Gold,G. Aros,Rodrigo López B.,9,57.34,12.40,59
+2026-03-05,Hipódromo Chile,19,21:30,1000,Arena,5,Badboy,B. Soto,Ricardo Rojas S.,10,57.34,37.80,53
+2026-03-05,Hipódromo Chile,19,21:30,1000,Arena,6,Terrible Pancho,F. Henríquez,Isaac Michea F.,11,57.34,5.70,58
+2026-03-05,Hipódromo Chile,19,21:30,1000,Arena,12,Villeta,H. Barrera,Rodrigo López B.,12,57.34,24.10,54
+2026-03-05,Hipódromo Chile,19,21:30,1000,Arena,7,Mufasa Forever,N. Ramirez,Juan C. Pichara J.,13,57.34,31.70,58
+2026-03-05,Hipódromo Chile,19,21:30,1000,Arena,13,Cosa De Locos,I. Valdivia,Rodrigo Quiroz S.,14,57.34,17.10,58
+2026-03-05,Hipódromo Chile,19,21:30,1000,Arena,9,Invito Yo,F. Soto,Rodrigo Pulgar A.,15,57.34,88.80,54

@@ -1,0 +1,12 @@
+PASS __tests__/ShareButton.test.tsx
+  ShareButton
+    ÔêÜ renders the share button (1494 ms)
+    ÔêÜ calls Share.share with correct message on press (77 ms)
+    ÔêÜ handles user dismissal silently (no error thrown) (3 ms)
+    ÔêÜ handles unexpected Share errors without crashing (3 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       4 passed, 4 total
+Snapshots:   0 total
+Time:        3.502 s
+Ran all test suites matching /__tests__\\ShareButton.test.tsx/i.

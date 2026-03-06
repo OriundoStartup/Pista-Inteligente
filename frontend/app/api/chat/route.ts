@@ -1,6 +1,10 @@
 import { NextResponse } from 'next/server'
+import { withCors, corsOptionsResponse } from '../../../lib/cors'
 import { searchSystem } from '../../../lib/search_system'
 import { searchWeb } from '../../../lib/search_web'
+
+// Handle CORS preflight
+export const OPTIONS = corsOptionsResponse;
 
 // --- PROVIDER CONFIGURATION ---
 
@@ -103,14 +107,17 @@ export async function POST(request: Request) {
     try {
         const { message } = await request.json()
 
-        if (!message || typeof message !== 'string') {
-            return NextResponse.json({ response: 'Mensaje inválido' }, { status: 400 })
+        if (!message || typeof message !== 'string' || message.trim().length === 0) {
+            return withCors(NextResponse.json(
+                { error: 'El campo "message" es requerido y debe ser un string no vacío.' },
+                { status: 400 }
+            ))
         }
 
         const cacheKey = message.trim().toLowerCase();
         const cached = responseCache.get(cacheKey);
         if (cached && (Date.now() - cached.timestamp < CACHE_DURATION)) {
-            return NextResponse.json({ response: cached.response });
+            return withCors(NextResponse.json({ response: cached.response }));
         }
 
         try {
@@ -138,14 +145,14 @@ ${webInfo || "No se encontraron datos externos relevantes."}
                 if (firstKey) responseCache.delete(firstKey);
             }
 
-            return NextResponse.json({ response: aiResponse })
+            return withCors(NextResponse.json({ response: aiResponse }))
         } catch (error) {
             console.error('Chat API Error:', error)
             const fallback = message.toLowerCase().includes('hola') ? fallbackResponses['hola'] : fallbackResponses['default']
-            return NextResponse.json({ response: fallback })
+            return withCors(NextResponse.json({ response: fallback }))
         }
 
     } catch (e) {
-        return NextResponse.json({ response: 'Error interno del servidor' }, { status: 500 })
+        return withCors(NextResponse.json({ error: 'Error interno del servidor' }, { status: 500 }))
     }
 }

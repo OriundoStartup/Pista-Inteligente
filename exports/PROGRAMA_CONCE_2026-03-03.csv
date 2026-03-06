@@ -1,0 +1,81 @@
+fecha,hipodromo,nro_carrera,hora,premio,distancia,superficie,numero,caballo,padrillo,peso,jinete,preparador
+03-03-2026,Concepción,1,16:30,JUMANA,1000,Normal,1,DANGER IN RIO,Dangerous Midge,56,B. Díaz,N. Norambuena
+03-03-2026,Concepción,1,16:30,JUMANA,1000,Normal,2,LA SHEMI,Distorted Economy,56,J.P. Torres,V. Gallardo
+03-03-2026,Concepción,1,16:30,JUMANA,1000,Normal,3,MI BARCO VELERO,Exaggerator,56,I. Cárcamo,N. Norambuena
+03-03-2026,Concepción,1,16:30,JUMANA,1000,Normal,4,GANDHI REPORT,Annual Report,56,I. Olate,H. Arteaga (AP)
+03-03-2026,Concepción,1,16:30,JUMANA,1000,Normal,5,SUZZANNE,Daddy Long Legs,56,Jn.A. Campos,R. Bello
+03-03-2026,Concepción,1,16:30,JUMANA,1000,Normal,6,EL IMPOLUTO,Exchange Rate,56,J.A. Inostroza,A. Cea
+03-03-2026,Concepción,1,16:30,JUMANA,1000,Normal,7,GRAN AMOR ETERNO,Dubai Sky,56,C.A. Rojas,R. Vásquez
+03-03-2026,Concepción,1,16:30,JUMANA,1000,Normal,8,PERLA INVASORA,Exaggerator,56,B. Cordero,A. Cea
+03-03-2026,Concepción,1,16:30,JUMANA,1000,Normal,9,BEL CUORE,Mayakovsky,56,V. Mardones,C. Córdova
+03-03-2026,Concepción,2,17:00,JACINTA MARIA,1300,Normal,1,ALMERILLO,Bad Daddy,57,J. Olate,H. Arteaga
+03-03-2026,Concepción,2,17:00,JACINTA MARIA,1300,Normal,2,SENSEI DE FRANKLIN,Ivan Denisovich,57,C. Cordero,F. Saavedra
+03-03-2026,Concepción,2,17:00,JACINTA MARIA,1300,Normal,3,LANNA,Ya Primo,55,G. Pereda,A. Cea
+03-03-2026,Concepción,2,17:00,JACINTA MARIA,1300,Normal,4,GRAN TAITA,Grand Daddy,57,B. Cordero,F. Acevedo
+03-03-2026,Concepción,2,17:00,JACINTA MARIA,1300,Normal,5,SEKOTI,The Mighty Tiger,55,A. Soto,L.G. Soto
+03-03-2026,Concepción,2,17:00,JACINTA MARIA,1300,Normal,6,GRAN DREAMER,Aragorn II,57,Jn.A. Campos,J. Espinosa
+03-03-2026,Concepción,2,17:00,JACINTA MARIA,1300,Normal,7,PATRON DE MUSKIZ,Lookin At Lucky,57,B. Díaz,N. Norambuena
+03-03-2026,Concepción,3,17:30,JOVEN AS,1300,Normal,1,ME LO LLEVO,Grand Daddy,58,J. Olate,F. Acevedo
+03-03-2026,Concepción,3,17:30,JOVEN AS,1300,Normal,2,ALBIORIX,Gemologist,56,A. Pereda,F. Acevedo
+03-03-2026,Concepción,3,17:30,JOVEN AS,1300,Normal,3,EL GRAN TORNADO,Newfoundland,54,V. Mardones,F. Acevedo
+03-03-2026,Concepción,3,17:30,JOVEN AS,1300,Normal,4,MY BJORK,Gstaad II,57,J. Moya,C. Córdova
+03-03-2026,Concepción,3,17:30,JOVEN AS,1300,Normal,5,PUMARA,Good Samaritan,54,C.A. Rojas,A. Cea
+03-03-2026,Concepción,3,17:30,JOVEN AS,1300,Normal,6,LUDMILA,Boboman,57,G. Vera,J. Espinosa
+03-03-2026,Concepción,3,17:30,JOVEN AS,1300,Normal,7,REMEMBER DADDY,Grand Daddy,57,C. Cordero,J. Amaya
+03-03-2026,Concepción,4,18:00,JACKSON,1100,Normal,1,GOLDEN GIANT,Timojin,59,C. Pavez,G. Melo
+03-03-2026,Concepción,4,18:00,JACKSON,1100,Normal,2,JUDGE ROOM,California Chrome,57,B. Díaz,C. Norambuena
+03-03-2026,Concepción,4,18:00,JACKSON,1100,Normal,3,DOBLE NEGRO,Lookin At Lucky,55,I. Barril,E. Alarcón
+03-03-2026,Concepción,4,18:00,JACKSON,1100,Normal,4,ROJO JAMAS,Mayakovsky,58,L. Pérez,G. Melo
+03-03-2026,Concepción,4,18:00,JACKSON,1100,Normal,5,VICTORY DAVID,Line Of David,55,G. Vera,F. Acevedo
+03-03-2026,Concepción,4,18:00,JACKSON,1100,Normal,6,GUAPO MATIAS,Gstaad II,59,C.A. Rojas,H. Arteaga
+03-03-2026,Concepción,4,18:00,JACKSON,1100,Normal,7,FERRATA,Ya Primo,58,V. Mardones,E. González
+03-03-2026,Concepción,4,18:00,JACKSON,1100,Normal,8,EL TATUADO,Exaggerator,55,Jn.A. Campos,J. Espinosa
+03-03-2026,Concepción,4,18:00,JACKSON,1100,Normal,9,BIG RED,California Chrome,60,J. Olate,R. Vásquez
+03-03-2026,Concepción,4,18:00,JACKSON,1100,Normal,10,VELA AZUL,Annual Report,57,G. Pereda,C. Norambuena
+03-03-2026,Concepción,5,18:30,JHON JHON,1100,Normal,1,CLAVERIA,Van Nistelrooy,57,I. Barril,E. Alarcón
+03-03-2026,Concepción,5,18:30,JHON JHON,1100,Normal,2,TE ANDAN BUSCANDO,Palm Springs,57,A. Pereda,F. Acevedo
+03-03-2026,Concepción,5,18:30,JHON JHON,1100,Normal,3,TEATRO GRIEGO,Viscount Nelson,57,I. Olate,A. Navarrete
+03-03-2026,Concepción,5,18:30,JHON JHON,1100,Normal,4,SEVEN POINTS,Dubai Sky,57,B. Cordero,A. Cea
+03-03-2026,Concepción,5,18:30,JHON JHON,1100,Normal,5,VIAJE A CARMEL,Forward March,57,Jn.A. Campos,J. Espinosa
+03-03-2026,Concepción,5,18:30,JHON JHON,1100,Normal,6,OLIMPIC BLUE,El Milagrito,57,M. Urzúa,Ev. Alarcón
+03-03-2026,Concepción,5,18:30,JHON JHON,1100,Normal,7,SEÑOR PENQUISTA,Flyer,57,V. Mardones,E. González
+03-03-2026,Concepción,5,18:30,JHON JHON,1100,Normal,8,TIO SALCHICHA,Imperia II,57,G. Vera,F. Acevedo
+03-03-2026,Concepción,6,19:00,JOSEFINO,1100,Normal,1,JOUMA,Midshipman,62,C. Pavez,Ev. Alarcón
+03-03-2026,Concepción,6,19:00,JOSEFINO,1100,Normal,2,EL MENTALISTA,Tourist,57,J. Barril,F. Acevedo
+03-03-2026,Concepción,6,19:00,JOSEFINO,1100,Normal,3,JOVENTURFMAN,Cloud Computing,55,G. Vera,L.G. Soto
+03-03-2026,Concepción,6,19:00,JOSEFINO,1100,Normal,4,SUENA EL DEMBOW,Gstaad II,58,J.P. Torres,J. Amaya
+03-03-2026,Concepción,6,19:00,JOSEFINO,1100,Normal,5,EL REGENTO,Forward March,54,G. Pereda,H. Arteaga
+03-03-2026,Concepción,6,19:00,JOSEFINO,1100,Normal,6,SIGNORE PIO,Flyer,58,V. Mardones,C. Córdova
+03-03-2026,Concepción,6,19:00,JOSEFINO,1100,Normal,7,CAMBUCHA,Goldencents,57,A. Soto,L.G. Soto
+03-03-2026,Concepción,6,19:00,JOSEFINO,1100,Normal,8,MEDIO BANCA,Midshipman,55,J. Moya,C. Córdova
+03-03-2026,Concepción,7,19:30,JUEGA SOLITA,1000,Normal,1,CORRE CALATO,Mr Speaker,56,G. Pereda,H. Arteaga
+03-03-2026,Concepción,7,19:30,JUEGA SOLITA,1000,Normal,2,PRINCIPE DE ORO,Hold Me Back,56,L. Pérez,E. Alarcón
+03-03-2026,Concepción,7,19:30,JUEGA SOLITA,1000,Normal,3,THE REAL FAFA,Strong Mandate,56,C. Cordero,J. Amaya
+03-03-2026,Concepción,7,19:30,JUEGA SOLITA,1000,Normal,4,LONG LONG TIME,Viscount Nelson,56,I. Barril,E. Alarcón
+03-03-2026,Concepción,7,19:30,JUEGA SOLITA,1000,Normal,5,WENA CASTILLO,Bad Daddy,56,J.A. Inostroza,C. Córdova
+03-03-2026,Concepción,7,19:30,JUEGA SOLITA,1000,Normal,6,GRAN KEVIN,Viscount Nelson,56,C.A. Rojas,A. Cea
+03-03-2026,Concepción,7,19:30,JUEGA SOLITA,1000,Normal,7,PAKITO,Scat Daddy,56,Jn.A. Campos,R. Bello
+03-03-2026,Concepción,7,19:30,JUEGA SOLITA,1000,Normal,8,TROMBONCITO,Viscount Nelson,56,G. Vera,L.G. Soto
+03-03-2026,Concepción,7,19:30,JUEGA SOLITA,1000,Normal,9,BUMPY,Dylan Thomas,56,B. Díaz,N. Norambuena
+03-03-2026,Concepción,7,19:30,JUEGA SOLITA,1000,Normal,10,SOY ECONOMICO,Distorted Economy,56,A. Soto,L.G. Soto
+03-03-2026,Concepción,8,20:00,JULES RIMET,1000,Normal,1,GOOD VICTORY,Good Samaritan,57,G. Vera,C. Norambuena
+03-03-2026,Concepción,8,20:00,JULES RIMET,1000,Normal,2,LA RECAUDADORA,Ascot Prince,56,J.A. Inostroza,A. Cea
+03-03-2026,Concepción,8,20:00,JULES RIMET,1000,Normal,3,ASTROAZURRO,Good Samaritan,55,I. Barril,E. Alarcón
+03-03-2026,Concepción,8,20:00,JULES RIMET,1000,Normal,4,SHE IS SO NICE,Gstaad II,57,C. Cordero,C. Córdova
+03-03-2026,Concepción,8,20:00,JULES RIMET,1000,Normal,5,GITANA GUAPA,State Of Play,55,L. Pérez,Ev. Alarcón
+03-03-2026,Concepción,8,20:00,JULES RIMET,1000,Normal,6,LOYALTY,Rydilluc,57,J. Olate,N. Norambuena
+03-03-2026,Concepción,8,20:00,JULES RIMET,1000,Normal,7,JASPER PARK,Lookin At Lucky,56,J.P. Torres,E. Alarcón
+03-03-2026,Concepción,8,20:00,JULES RIMET,1000,Normal,8,FLASH STREAK,Grand Daddy,55,C. Pavez,E. Alarcón
+03-03-2026,Concepción,8,20:00,JULES RIMET,1000,Normal,9,DESTELLO REAL,Destello Del Alma,57,C.A. Rojas,R. Vásquez
+03-03-2026,Concepción,8,20:00,JULES RIMET,1000,Normal,10,ONKEL BRUNO,Competitive Edge,56,A. Soto,Ev. Alarcón
+03-03-2026,Concepción,8,20:00,JULES RIMET,1000,Normal,11,PANTEU,Mo Town,55,B. Díaz,N. Norambuena
+03-03-2026,Concepción,9,20:30,JEFA DEL BAILE,1000,Normal,1,CHE NOVA,Dubai Sky,56,L. Pérez,Ev. Alarcón
+03-03-2026,Concepción,9,20:30,JEFA DEL BAILE,1000,Normal,2,COMO TE EXTRAÑO,Goldencents,55,I. Moya,N. Norambuena
+03-03-2026,Concepción,9,20:30,JEFA DEL BAILE,1000,Normal,3,GUAILON,Dubai Sky,55,B. Díaz,C. Norambuena
+03-03-2026,Concepción,9,20:30,JEFA DEL BAILE,1000,Normal,4,PUEDO Y MAS,Ya Primo,56,Jn.A. Campos,J. Espinosa
+03-03-2026,Concepción,9,20:30,JEFA DEL BAILE,1000,Normal,5,ULTRASONIDO,Court Vision,55,G. Vera,F. Acevedo
+03-03-2026,Concepción,9,20:30,JEFA DEL BAILE,1000,Normal,6,KASCLARITO,Mayakovsky,56,B. Cordero,F. Acevedo
+03-03-2026,Concepción,9,20:30,JEFA DEL BAILE,1000,Normal,7,BAD BUNNY,Boboman,55,J. Olate,R. Bello
+03-03-2026,Concepción,9,20:30,JEFA DEL BAILE,1000,Normal,8,IL IMPERATORE,Mayakovsky,55,V. Mardones,C. Córdova
+03-03-2026,Concepción,9,20:30,JEFA DEL BAILE,1000,Normal,9,CHARMING STAR,Mendelssohn,56,I. Barril,C. Norambuena
+03-03-2026,Concepción,9,20:30,JEFA DEL BAILE,1000,Normal,10,DESTELLO FUGAZ,Destello Del Alma,55,C. Pavez,R. Vásquez

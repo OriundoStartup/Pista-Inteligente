@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useMemo, useCallback } from 'react'
 
 interface Prediccion {
     numero: number
@@ -25,19 +25,20 @@ interface HipodromoAccordionProps {
 }
 
 export default function HipodromoAccordion({ hipodromos, today }: HipodromoAccordionProps) {
-    // Encontrar hipódromos con carreras del día actual
-    const todayHipodromos = hipodromos
-        .filter(([_, carreras]) => carreras.some(c => c.fecha === today))
-        .map(([name]) => name)
+    // Memoizar el cálculo inicial de qué hipódromos están abiertos
+    const defaultOpen = useMemo(() => {
+        const todayHipodromos = hipodromos
+            .filter(([_, carreras]) => carreras.some(c => c.fecha === today))
+            .map(([name]) => name)
 
-    // Por defecto, abrir los hipódromos del día actual (o el primero si no hay ninguno hoy)
-    const defaultOpen = todayHipodromos.length > 0
-        ? new Set(todayHipodromos)
-        : new Set(hipodromos.slice(0, 1).map(([name]) => name))
+        return todayHipodromos.length > 0
+            ? new Set(todayHipodromos)
+            : new Set(hipodromos.slice(0, 1).map(([name]) => name))
+    }, [hipodromos, today])
 
     const [openHipodromos, setOpenHipodromos] = useState<Set<string>>(defaultOpen)
 
-    const toggleHipodromo = (name: string) => {
+    const toggleHipodromo = useCallback((name: string) => {
         setOpenHipodromos(prev => {
             const newSet = new Set(prev)
             if (newSet.has(name)) {
@@ -47,15 +48,23 @@ export default function HipodromoAccordion({ hipodromos, today }: HipodromoAccor
             }
             return newSet
         })
-    }
+    }, [])
 
-    const isToday = (fecha: string) => fecha === today
+    const isToday = useCallback((fecha: string) => fecha === today, [today])
+
+    // Pre-organizar y sortear carreras para evitar hacerlo en cada render de la iteración
+    const processedHipodromos = useMemo(() => {
+        return hipodromos.map(([hipodromo, carrerasHip]) => {
+            const hasToday = carrerasHip.some(c => isToday(c.fecha))
+            const sortedCarreras = [...carrerasHip].sort((a, b) => a.carrera - b.carrera)
+            return { hipodromo, sortedCarreras, hasToday }
+        })
+    }, [hipodromos, isToday])
 
     return (
         <>
-            {hipodromos.map(([hipodromo, carrerasHip]) => {
+            {processedHipodromos.map(({ hipodromo, sortedCarreras, hasToday }) => {
                 const isOpen = openHipodromos.has(hipodromo)
-                const hasToday = carrerasHip.some(c => isToday(c.fecha))
 
                 return (
                     <div
@@ -107,7 +116,7 @@ export default function HipodromoAccordion({ hipodromos, today }: HipodromoAccor
                                     margin: '0.25rem 0 0 0',
                                     fontSize: 'clamp(0.8rem, 2.5vw, 1rem)'
                                 }}>
-                                    📅 {carrerasHip[0]?.fecha} • {carrerasHip.length} Carreras
+                                    📅 {sortedCarreras[0]?.fecha} • {sortedCarreras.length} Carreras
                                 </p>
                             </div>
 
@@ -147,7 +156,7 @@ export default function HipodromoAccordion({ hipodromos, today }: HipodromoAccor
                                 flexDirection: 'column',
                                 gap: '1.5rem'
                             }}>
-                                {carrerasHip.sort((a, b) => a.carrera - b.carrera).map((carrera) => (
+                                {sortedCarreras.map((carrera) => (
                                     <div key={carrera.id} className="carrera-card" style={{
                                         padding: 'clamp(0.75rem, 3vw, 1.5rem)',
                                         background: 'rgba(255,255,255,0.02)',

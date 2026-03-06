@@ -1,0 +1,500 @@
+  console.error
+    Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+    1. You might have mismatching versions of React and the renderer (such as React DOM)
+    2. You might be breaking the Rules of Hooks
+    3. You might have more than one copy of React in the same app
+    See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+    [0m [90m 25 |[39m     ttlMinutes[33m:[39m number [33m=[39m [33mDEFAULT_TTL_MINUTES[39m
+     [90m 26 |[39m )[33m:[39m [33mUseSupabaseResult[39m[33m<[39m[33mT[39m[33m>[39m {
+    [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m [data[33m,[39m setData] [33m=[39m useState[33m<[39m[33mT[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m    |[39m                                     [31m[1m^[22m[39m
+     [90m 28 |[39m     [36mconst[39m [loading[33m,[39m setLoading] [33m=[39m useState([36mtrue[39m)[33m;[39m
+     [90m 29 |[39m     [36mconst[39m [error[33m,[39m setError] [33m=[39m useState[33m<[39m[33mstring[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m 30 |[39m     [36mconst[39m [lastUpdated[33m,[39m setLastUpdated] [33m=[39m useState[33m<[39m[33mDate[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+
+      at resolveDispatcher (node_modules/react/cjs/react.development.js:518:17)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.useState (node_modules/react/cjs/react.development.js:1263:14)
+      at useSupabaseQuery (hooks/useSupabase.ts:27:37)
+      at useSupabaseQuery (__tests__/useSupabase.test.ts:47:13)
+      at hookToRender (node_modules/@testing-library/react-native/src/render-hook.tsx:46:26)
+      at Object.react_stack_bottom_frame (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15670:20)
+      at renderWithHooks (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4863:22)
+      at updateFunctionComponent (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7018:19)
+      at beginWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8499:18)
+      at runWithFiberInDEV (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2315:13)
+      at performUnitOfWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13224:22)
+      at workLoopSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13068:41)
+      at renderRootSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13049:11)
+      at performWorkOnRoot (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:12181:11)
+      at performWorkOnRootViaSchedulerTask (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2908:7)
+      at flushActQueue (node_modules/react/cjs/react.development.js:590:34)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.act (node_modules/react/cjs/react.development.js:884:10)
+      at actImplementation (node_modules/@testing-library/react-native/src/act.ts:30:25)
+      at renderWithAct (node_modules/@testing-library/react-native/src/render-act.ts:13:11)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:69:33)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:44:10)
+      at renderHook (node_modules/@testing-library/react-native/src/render-hook.tsx:55:58)
+      at Object.<anonymous> (__tests__/useSupabase.test.ts:46:38)
+      at asyncGeneratorStep (node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+      at node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+      at Object.<anonymous> (node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+
+  console.error
+    Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+    1. You might have mismatching versions of React and the renderer (such as React DOM)
+    2. You might be breaking the Rules of Hooks
+    3. You might have more than one copy of React in the same app
+    See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+    [0m [90m 25 |[39m     ttlMinutes[33m:[39m number [33m=[39m [33mDEFAULT_TTL_MINUTES[39m
+     [90m 26 |[39m )[33m:[39m [33mUseSupabaseResult[39m[33m<[39m[33mT[39m[33m>[39m {
+    [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m [data[33m,[39m setData] [33m=[39m useState[33m<[39m[33mT[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m    |[39m                                     [31m[1m^[22m[39m
+     [90m 28 |[39m     [36mconst[39m [loading[33m,[39m setLoading] [33m=[39m useState([36mtrue[39m)[33m;[39m
+     [90m 29 |[39m     [36mconst[39m [error[33m,[39m setError] [33m=[39m useState[33m<[39m[33mstring[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m 30 |[39m     [36mconst[39m [lastUpdated[33m,[39m setLastUpdated] [33m=[39m useState[33m<[39m[33mDate[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+
+      at resolveDispatcher (node_modules/react/cjs/react.development.js:518:17)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.useState (node_modules/react/cjs/react.development.js:1263:14)
+      at useSupabaseQuery (hooks/useSupabase.ts:27:37)
+      at useSupabaseQuery (__tests__/useSupabase.test.ts:47:13)
+      at hookToRender (node_modules/@testing-library/react-native/src/render-hook.tsx:46:26)
+      at Object.react_stack_bottom_frame (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15670:20)
+      at renderWithHooks (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4863:22)
+      at updateFunctionComponent (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7018:19)
+      at beginWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8499:18)
+      at runWithFiberInDEV (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2315:13)
+      at performUnitOfWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13224:22)
+      at workLoopSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13068:41)
+      at renderRootSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13049:11)
+      at performWorkOnRoot (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:12253:39)
+      at performWorkOnRootViaSchedulerTask (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2908:7)
+      at flushActQueue (node_modules/react/cjs/react.development.js:590:34)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.act (node_modules/react/cjs/react.development.js:884:10)
+      at actImplementation (node_modules/@testing-library/react-native/src/act.ts:30:25)
+      at renderWithAct (node_modules/@testing-library/react-native/src/render-act.ts:13:11)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:69:33)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:44:10)
+      at renderHook (node_modules/@testing-library/react-native/src/render-hook.tsx:55:58)
+      at Object.<anonymous> (__tests__/useSupabase.test.ts:46:38)
+      at asyncGeneratorStep (node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+      at node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+      at Object.<anonymous> (node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+
+  console.error
+    Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+    1. You might have mismatching versions of React and the renderer (such as React DOM)
+    2. You might be breaking the Rules of Hooks
+    3. You might have more than one copy of React in the same app
+    See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+    [0m [90m 25 |[39m     ttlMinutes[33m:[39m number [33m=[39m [33mDEFAULT_TTL_MINUTES[39m
+     [90m 26 |[39m )[33m:[39m [33mUseSupabaseResult[39m[33m<[39m[33mT[39m[33m>[39m {
+    [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m [data[33m,[39m setData] [33m=[39m useState[33m<[39m[33mT[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m    |[39m                                     [31m[1m^[22m[39m
+     [90m 28 |[39m     [36mconst[39m [loading[33m,[39m setLoading] [33m=[39m useState([36mtrue[39m)[33m;[39m
+     [90m 29 |[39m     [36mconst[39m [error[33m,[39m setError] [33m=[39m useState[33m<[39m[33mstring[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m 30 |[39m     [36mconst[39m [lastUpdated[33m,[39m setLastUpdated] [33m=[39m useState[33m<[39m[33mDate[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+
+      at resolveDispatcher (node_modules/react/cjs/react.development.js:518:17)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.useState (node_modules/react/cjs/react.development.js:1263:14)
+      at useSupabaseQuery (hooks/useSupabase.ts:27:37)
+      at useSupabaseQuery (__tests__/useSupabase.test.ts:77:13)
+      at hookToRender (node_modules/@testing-library/react-native/src/render-hook.tsx:46:26)
+      at Object.react_stack_bottom_frame (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15670:20)
+      at renderWithHooks (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4863:22)
+      at updateFunctionComponent (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7018:19)
+      at beginWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8499:18)
+      at runWithFiberInDEV (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2315:13)
+      at performUnitOfWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13224:22)
+      at workLoopSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13068:41)
+      at renderRootSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13049:11)
+      at performWorkOnRoot (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:12181:11)
+      at performWorkOnRootViaSchedulerTask (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2908:7)
+      at flushActQueue (node_modules/react/cjs/react.development.js:590:34)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.act (node_modules/react/cjs/react.development.js:884:10)
+      at actImplementation (node_modules/@testing-library/react-native/src/act.ts:30:25)
+      at renderWithAct (node_modules/@testing-library/react-native/src/render-act.ts:13:11)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:69:33)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:44:10)
+      at renderHook (node_modules/@testing-library/react-native/src/render-hook.tsx:55:58)
+      at Object.<anonymous> (__tests__/useSupabase.test.ts:76:38)
+      at asyncGeneratorStep (node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+      at node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+      at Object.<anonymous> (node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+
+  console.error
+    Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+    1. You might have mismatching versions of React and the renderer (such as React DOM)
+    2. You might be breaking the Rules of Hooks
+    3. You might have more than one copy of React in the same app
+    See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+    [0m [90m 25 |[39m     ttlMinutes[33m:[39m number [33m=[39m [33mDEFAULT_TTL_MINUTES[39m
+     [90m 26 |[39m )[33m:[39m [33mUseSupabaseResult[39m[33m<[39m[33mT[39m[33m>[39m {
+    [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m [data[33m,[39m setData] [33m=[39m useState[33m<[39m[33mT[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m    |[39m                                     [31m[1m^[22m[39m
+     [90m 28 |[39m     [36mconst[39m [loading[33m,[39m setLoading] [33m=[39m useState([36mtrue[39m)[33m;[39m
+     [90m 29 |[39m     [36mconst[39m [error[33m,[39m setError] [33m=[39m useState[33m<[39m[33mstring[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m 30 |[39m     [36mconst[39m [lastUpdated[33m,[39m setLastUpdated] [33m=[39m useState[33m<[39m[33mDate[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+
+      at resolveDispatcher (node_modules/react/cjs/react.development.js:518:17)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.useState (node_modules/react/cjs/react.development.js:1263:14)
+      at useSupabaseQuery (hooks/useSupabase.ts:27:37)
+      at useSupabaseQuery (__tests__/useSupabase.test.ts:77:13)
+      at hookToRender (node_modules/@testing-library/react-native/src/render-hook.tsx:46:26)
+      at Object.react_stack_bottom_frame (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15670:20)
+      at renderWithHooks (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4863:22)
+      at updateFunctionComponent (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7018:19)
+      at beginWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8499:18)
+      at runWithFiberInDEV (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2315:13)
+      at performUnitOfWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13224:22)
+      at workLoopSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13068:41)
+      at renderRootSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13049:11)
+      at performWorkOnRoot (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:12253:39)
+      at performWorkOnRootViaSchedulerTask (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2908:7)
+      at flushActQueue (node_modules/react/cjs/react.development.js:590:34)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.act (node_modules/react/cjs/react.development.js:884:10)
+      at actImplementation (node_modules/@testing-library/react-native/src/act.ts:30:25)
+      at renderWithAct (node_modules/@testing-library/react-native/src/render-act.ts:13:11)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:69:33)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:44:10)
+      at renderHook (node_modules/@testing-library/react-native/src/render-hook.tsx:55:58)
+      at Object.<anonymous> (__tests__/useSupabase.test.ts:76:38)
+      at asyncGeneratorStep (node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+      at node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+      at Object.<anonymous> (node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+
+  console.error
+    Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+    1. You might have mismatching versions of React and the renderer (such as React DOM)
+    2. You might be breaking the Rules of Hooks
+    3. You might have more than one copy of React in the same app
+    See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+    [0m [90m 25 |[39m     ttlMinutes[33m:[39m number [33m=[39m [33mDEFAULT_TTL_MINUTES[39m
+     [90m 26 |[39m )[33m:[39m [33mUseSupabaseResult[39m[33m<[39m[33mT[39m[33m>[39m {
+    [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m [data[33m,[39m setData] [33m=[39m useState[33m<[39m[33mT[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m    |[39m                                     [31m[1m^[22m[39m
+     [90m 28 |[39m     [36mconst[39m [loading[33m,[39m setLoading] [33m=[39m useState([36mtrue[39m)[33m;[39m
+     [90m 29 |[39m     [36mconst[39m [error[33m,[39m setError] [33m=[39m useState[33m<[39m[33mstring[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m 30 |[39m     [36mconst[39m [lastUpdated[33m,[39m setLastUpdated] [33m=[39m useState[33m<[39m[33mDate[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+
+      at resolveDispatcher (node_modules/react/cjs/react.development.js:518:17)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.useState (node_modules/react/cjs/react.development.js:1263:14)
+      at useSupabaseQuery (hooks/useSupabase.ts:27:37)
+      at useSupabaseQuery (__tests__/useSupabase.test.ts:96:13)
+      at hookToRender (node_modules/@testing-library/react-native/src/render-hook.tsx:46:26)
+      at Object.react_stack_bottom_frame (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15670:20)
+      at renderWithHooks (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4863:22)
+      at updateFunctionComponent (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7018:19)
+      at beginWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8499:18)
+      at runWithFiberInDEV (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2315:13)
+      at performUnitOfWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13224:22)
+      at workLoopSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13068:41)
+      at renderRootSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13049:11)
+      at performWorkOnRoot (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:12181:11)
+      at performWorkOnRootViaSchedulerTask (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2908:7)
+      at flushActQueue (node_modules/react/cjs/react.development.js:590:34)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.act (node_modules/react/cjs/react.development.js:884:10)
+      at actImplementation (node_modules/@testing-library/react-native/src/act.ts:30:25)
+      at renderWithAct (node_modules/@testing-library/react-native/src/render-act.ts:13:11)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:69:33)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:44:10)
+      at renderHook (node_modules/@testing-library/react-native/src/render-hook.tsx:55:58)
+      at Object.<anonymous> (__tests__/useSupabase.test.ts:95:38)
+      at asyncGeneratorStep (node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+      at node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+      at Object.<anonymous> (node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+
+  console.error
+    Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+    1. You might have mismatching versions of React and the renderer (such as React DOM)
+    2. You might be breaking the Rules of Hooks
+    3. You might have more than one copy of React in the same app
+    See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+    [0m [90m 25 |[39m     ttlMinutes[33m:[39m number [33m=[39m [33mDEFAULT_TTL_MINUTES[39m
+     [90m 26 |[39m )[33m:[39m [33mUseSupabaseResult[39m[33m<[39m[33mT[39m[33m>[39m {
+    [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m [data[33m,[39m setData] [33m=[39m useState[33m<[39m[33mT[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m    |[39m                                     [31m[1m^[22m[39m
+     [90m 28 |[39m     [36mconst[39m [loading[33m,[39m setLoading] [33m=[39m useState([36mtrue[39m)[33m;[39m
+     [90m 29 |[39m     [36mconst[39m [error[33m,[39m setError] [33m=[39m useState[33m<[39m[33mstring[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m 30 |[39m     [36mconst[39m [lastUpdated[33m,[39m setLastUpdated] [33m=[39m useState[33m<[39m[33mDate[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+
+      at resolveDispatcher (node_modules/react/cjs/react.development.js:518:17)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.useState (node_modules/react/cjs/react.development.js:1263:14)
+      at useSupabaseQuery (hooks/useSupabase.ts:27:37)
+      at useSupabaseQuery (__tests__/useSupabase.test.ts:96:13)
+      at hookToRender (node_modules/@testing-library/react-native/src/render-hook.tsx:46:26)
+      at Object.react_stack_bottom_frame (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15670:20)
+      at renderWithHooks (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4863:22)
+      at updateFunctionComponent (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7018:19)
+      at beginWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8499:18)
+      at runWithFiberInDEV (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2315:13)
+      at performUnitOfWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13224:22)
+      at workLoopSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13068:41)
+      at renderRootSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13049:11)
+      at performWorkOnRoot (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:12253:39)
+      at performWorkOnRootViaSchedulerTask (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2908:7)
+      at flushActQueue (node_modules/react/cjs/react.development.js:590:34)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.act (node_modules/react/cjs/react.development.js:884:10)
+      at actImplementation (node_modules/@testing-library/react-native/src/act.ts:30:25)
+      at renderWithAct (node_modules/@testing-library/react-native/src/render-act.ts:13:11)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:69:33)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:44:10)
+      at renderHook (node_modules/@testing-library/react-native/src/render-hook.tsx:55:58)
+      at Object.<anonymous> (__tests__/useSupabase.test.ts:95:38)
+      at asyncGeneratorStep (node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+      at node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+      at Object.<anonymous> (node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+
+  console.error
+    Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+    1. You might have mismatching versions of React and the renderer (such as React DOM)
+    2. You might be breaking the Rules of Hooks
+    3. You might have more than one copy of React in the same app
+    See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+    [0m [90m 25 |[39m     ttlMinutes[33m:[39m number [33m=[39m [33mDEFAULT_TTL_MINUTES[39m
+     [90m 26 |[39m )[33m:[39m [33mUseSupabaseResult[39m[33m<[39m[33mT[39m[33m>[39m {
+    [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m [data[33m,[39m setData] [33m=[39m useState[33m<[39m[33mT[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m    |[39m                                     [31m[1m^[22m[39m
+     [90m 28 |[39m     [36mconst[39m [loading[33m,[39m setLoading] [33m=[39m useState([36mtrue[39m)[33m;[39m
+     [90m 29 |[39m     [36mconst[39m [error[33m,[39m setError] [33m=[39m useState[33m<[39m[33mstring[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m 30 |[39m     [36mconst[39m [lastUpdated[33m,[39m setLastUpdated] [33m=[39m useState[33m<[39m[33mDate[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+
+      at resolveDispatcher (node_modules/react/cjs/react.development.js:518:17)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.useState (node_modules/react/cjs/react.development.js:1263:14)
+      at useSupabaseQuery (hooks/useSupabase.ts:27:37)
+      at useSupabaseQuery (__tests__/useSupabase.test.ts:116:13)
+      at hookToRender (node_modules/@testing-library/react-native/src/render-hook.tsx:46:26)
+      at Object.react_stack_bottom_frame (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15670:20)
+      at renderWithHooks (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4863:22)
+      at updateFunctionComponent (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7018:19)
+      at beginWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8499:18)
+      at runWithFiberInDEV (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2315:13)
+      at performUnitOfWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13224:22)
+      at workLoopSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13068:41)
+      at renderRootSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13049:11)
+      at performWorkOnRoot (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:12181:11)
+      at performWorkOnRootViaSchedulerTask (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2908:7)
+      at flushActQueue (node_modules/react/cjs/react.development.js:590:34)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.act (node_modules/react/cjs/react.development.js:884:10)
+      at actImplementation (node_modules/@testing-library/react-native/src/act.ts:30:25)
+      at renderWithAct (node_modules/@testing-library/react-native/src/render-act.ts:13:11)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:69:33)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:44:10)
+      at renderHook (node_modules/@testing-library/react-native/src/render-hook.tsx:55:58)
+      at Object.<anonymous> (__tests__/useSupabase.test.ts:115:38)
+
+  console.error
+    Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+    1. You might have mismatching versions of React and the renderer (such as React DOM)
+    2. You might be breaking the Rules of Hooks
+    3. You might have more than one copy of React in the same app
+    See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+    [0m [90m 25 |[39m     ttlMinutes[33m:[39m number [33m=[39m [33mDEFAULT_TTL_MINUTES[39m
+     [90m 26 |[39m )[33m:[39m [33mUseSupabaseResult[39m[33m<[39m[33mT[39m[33m>[39m {
+    [31m[1m>[22m[39m[90m 27 |[39m     [36mconst[39m [data[33m,[39m setData] [33m=[39m useState[33m<[39m[33mT[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m    |[39m                                     [31m[1m^[22m[39m
+     [90m 28 |[39m     [36mconst[39m [loading[33m,[39m setLoading] [33m=[39m useState([36mtrue[39m)[33m;[39m
+     [90m 29 |[39m     [36mconst[39m [error[33m,[39m setError] [33m=[39m useState[33m<[39m[33mstring[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m
+     [90m 30 |[39m     [36mconst[39m [lastUpdated[33m,[39m setLastUpdated] [33m=[39m useState[33m<[39m[33mDate[39m [33m|[39m [36mnull[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+
+      at resolveDispatcher (node_modules/react/cjs/react.development.js:518:17)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.useState (node_modules/react/cjs/react.development.js:1263:14)
+      at useSupabaseQuery (hooks/useSupabase.ts:27:37)
+      at useSupabaseQuery (__tests__/useSupabase.test.ts:116:13)
+      at hookToRender (node_modules/@testing-library/react-native/src/render-hook.tsx:46:26)
+      at Object.react_stack_bottom_frame (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15670:20)
+      at renderWithHooks (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4863:22)
+      at updateFunctionComponent (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7018:19)
+      at beginWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8499:18)
+      at runWithFiberInDEV (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2315:13)
+      at performUnitOfWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13224:22)
+      at workLoopSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13068:41)
+      at renderRootSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13049:11)
+      at performWorkOnRoot (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:12253:39)
+      at performWorkOnRootViaSchedulerTask (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2908:7)
+      at flushActQueue (node_modules/react/cjs/react.development.js:590:34)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.act (node_modules/react/cjs/react.development.js:884:10)
+      at actImplementation (node_modules/@testing-library/react-native/src/act.ts:30:25)
+      at renderWithAct (node_modules/@testing-library/react-native/src/render-act.ts:13:11)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:69:33)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:44:10)
+      at renderHook (node_modules/@testing-library/react-native/src/render-hook.tsx:55:58)
+      at Object.<anonymous> (__tests__/useSupabase.test.ts:115:38)
+
+FAIL __tests__/useSupabase.test.ts
+  useSupabaseQuery
+    ├ù returns cached data if cache exists and is fresh (51 ms)
+    ├ù marks data as stale if cache timestamp exceeds TTL (10 ms)
+    ├ù calls query function when cache does not exist (13 ms)
+    ├ù has lastUpdated=null initially before any data loads (9 ms)
+
+  ÔùÅ useSupabaseQuery ÔÇ║ returns cached data if cache exists and is fresh
+
+    TypeError: Cannot read properties of null (reading 'useState')
+
+      25 |     ttlMinutes: number = DEFAULT_TTL_MINUTES
+      26 | ): UseSupabaseResult<T> {
+    > 27 |     const [data, setData] = useState<T | null>(null);
+         |                                     ^
+      28 |     const [loading, setLoading] = useState(true);
+      29 |     const [error, setError] = useState<string | null>(null);
+      30 |     const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
+
+      at Object.<anonymous>.process.env.NODE_ENV.exports.useState (node_modules/react/cjs/react.development.js:1263:33)
+      at useSupabaseQuery (hooks/useSupabase.ts:27:37)
+      at useSupabaseQuery (__tests__/useSupabase.test.ts:47:13)
+      at hookToRender (node_modules/@testing-library/react-native/src/render-hook.tsx:46:26)
+      at Object.react_stack_bottom_frame (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15670:20)
+      at renderWithHooks (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4863:22)
+      at updateFunctionComponent (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7018:19)
+      at beginWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8499:18)
+      at runWithFiberInDEV (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2315:13)
+      at performUnitOfWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13224:22)
+      at workLoopSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13068:41)
+      at renderRootSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13049:11)
+      at performWorkOnRoot (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:12253:39)
+      at performWorkOnRootViaSchedulerTask (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2908:7)
+      at flushActQueue (node_modules/react/cjs/react.development.js:590:34)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.act (node_modules/react/cjs/react.development.js:884:10)
+      at actImplementation (node_modules/@testing-library/react-native/src/act.ts:30:25)
+      at renderWithAct (node_modules/@testing-library/react-native/src/render-act.ts:13:11)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:69:33)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:44:10)
+      at renderHook (node_modules/@testing-library/react-native/src/render-hook.tsx:55:58)
+      at Object.<anonymous> (__tests__/useSupabase.test.ts:46:38)
+      at asyncGeneratorStep (node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+      at node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+      at Object.<anonymous> (node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+
+  ÔùÅ useSupabaseQuery ÔÇ║ marks data as stale if cache timestamp exceeds TTL
+
+    TypeError: Cannot read properties of null (reading 'useState')
+
+      25 |     ttlMinutes: number = DEFAULT_TTL_MINUTES
+      26 | ): UseSupabaseResult<T> {
+    > 27 |     const [data, setData] = useState<T | null>(null);
+         |                                     ^
+      28 |     const [loading, setLoading] = useState(true);
+      29 |     const [error, setError] = useState<string | null>(null);
+      30 |     const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
+
+      at Object.<anonymous>.process.env.NODE_ENV.exports.useState (node_modules/react/cjs/react.development.js:1263:33)
+      at useSupabaseQuery (hooks/useSupabase.ts:27:37)
+      at useSupabaseQuery (__tests__/useSupabase.test.ts:77:13)
+      at hookToRender (node_modules/@testing-library/react-native/src/render-hook.tsx:46:26)
+      at Object.react_stack_bottom_frame (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15670:20)
+      at renderWithHooks (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4863:22)
+      at updateFunctionComponent (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7018:19)
+      at beginWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8499:18)
+      at runWithFiberInDEV (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2315:13)
+      at performUnitOfWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13224:22)
+      at workLoopSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13068:41)
+      at renderRootSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13049:11)
+      at performWorkOnRoot (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:12253:39)
+      at performWorkOnRootViaSchedulerTask (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2908:7)
+      at flushActQueue (node_modules/react/cjs/react.development.js:590:34)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.act (node_modules/react/cjs/react.development.js:884:10)
+      at actImplementation (node_modules/@testing-library/react-native/src/act.ts:30:25)
+      at renderWithAct (node_modules/@testing-library/react-native/src/render-act.ts:13:11)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:69:33)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:44:10)
+      at renderHook (node_modules/@testing-library/react-native/src/render-hook.tsx:55:58)
+      at Object.<anonymous> (__tests__/useSupabase.test.ts:76:38)
+      at asyncGeneratorStep (node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+      at node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+      at Object.<anonymous> (node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+
+  ÔùÅ useSupabaseQuery ÔÇ║ calls query function when cache does not exist
+
+    TypeError: Cannot read properties of null (reading 'useState')
+
+      25 |     ttlMinutes: number = DEFAULT_TTL_MINUTES
+      26 | ): UseSupabaseResult<T> {
+    > 27 |     const [data, setData] = useState<T | null>(null);
+         |                                     ^
+      28 |     const [loading, setLoading] = useState(true);
+      29 |     const [error, setError] = useState<string | null>(null);
+      30 |     const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
+
+      at Object.<anonymous>.process.env.NODE_ENV.exports.useState (node_modules/react/cjs/react.development.js:1263:33)
+      at useSupabaseQuery (hooks/useSupabase.ts:27:37)
+      at useSupabaseQuery (__tests__/useSupabase.test.ts:96:13)
+      at hookToRender (node_modules/@testing-library/react-native/src/render-hook.tsx:46:26)
+      at Object.react_stack_bottom_frame (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15670:20)
+      at renderWithHooks (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4863:22)
+      at updateFunctionComponent (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7018:19)
+      at beginWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8499:18)
+      at runWithFiberInDEV (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2315:13)
+      at performUnitOfWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13224:22)
+      at workLoopSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13068:41)
+      at renderRootSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13049:11)
+      at performWorkOnRoot (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:12253:39)
+      at performWorkOnRootViaSchedulerTask (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2908:7)
+      at flushActQueue (node_modules/react/cjs/react.development.js:590:34)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.act (node_modules/react/cjs/react.development.js:884:10)
+      at actImplementation (node_modules/@testing-library/react-native/src/act.ts:30:25)
+      at renderWithAct (node_modules/@testing-library/react-native/src/render-act.ts:13:11)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:69:33)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:44:10)
+      at renderHook (node_modules/@testing-library/react-native/src/render-hook.tsx:55:58)
+      at Object.<anonymous> (__tests__/useSupabase.test.ts:95:38)
+      at asyncGeneratorStep (node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+      at node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+      at Object.<anonymous> (node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+
+  ÔùÅ useSupabaseQuery ÔÇ║ has lastUpdated=null initially before any data loads
+
+    TypeError: Cannot read properties of null (reading 'useState')
+
+      25 |     ttlMinutes: number = DEFAULT_TTL_MINUTES
+      26 | ): UseSupabaseResult<T> {
+    > 27 |     const [data, setData] = useState<T | null>(null);
+         |                                     ^
+      28 |     const [loading, setLoading] = useState(true);
+      29 |     const [error, setError] = useState<string | null>(null);
+      30 |     const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
+
+      at Object.<anonymous>.process.env.NODE_ENV.exports.useState (node_modules/react/cjs/react.development.js:1263:33)
+      at useSupabaseQuery (hooks/useSupabase.ts:27:37)
+      at useSupabaseQuery (__tests__/useSupabase.test.ts:116:13)
+      at hookToRender (node_modules/@testing-library/react-native/src/render-hook.tsx:46:26)
+      at Object.react_stack_bottom_frame (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15670:20)
+      at renderWithHooks (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4863:22)
+      at updateFunctionComponent (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7018:19)
+      at beginWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8499:18)
+      at runWithFiberInDEV (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2315:13)
+      at performUnitOfWork (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13224:22)
+      at workLoopSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13068:41)
+      at renderRootSync (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13049:11)
+      at performWorkOnRoot (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:12253:39)
+      at performWorkOnRootViaSchedulerTask (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2908:7)
+      at flushActQueue (node_modules/react/cjs/react.development.js:590:34)
+      at Object.<anonymous>.process.env.NODE_ENV.exports.act (node_modules/react/cjs/react.development.js:884:10)
+      at actImplementation (node_modules/@testing-library/react-native/src/act.ts:30:25)
+      at renderWithAct (node_modules/@testing-library/react-native/src/render-act.ts:13:11)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:69:33)
+      at renderInternal (node_modules/@testing-library/react-native/src/render.tsx:44:10)
+      at renderHook (node_modules/@testing-library/react-native/src/render-hook.tsx:55:58)
+      at Object.<anonymous> (__tests__/useSupabase.test.ts:115:38)
+
+Test Suites: 1 failed, 1 total
+Tests:       4 failed, 4 total
+Snapshots:   0 total
+Time:        0.665 s, estimated 2 s
+Ran all test suites matching /__tests__\\useSupabase.test.ts/i.

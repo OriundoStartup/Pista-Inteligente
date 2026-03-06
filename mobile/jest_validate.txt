@@ -1,0 +1,209 @@
+  console.log
+    === secureConfig: module loading ===
+
+      at Object.log (utils/secureConfig.ts:11:9)
+
+  console.log
+    === secureConfig: module loaded ===
+
+      at Object.log (utils/secureConfig.ts:23:9)
+
+  console.log
+      SUPABASE_URL length: 0
+
+      at Object.log (utils/secureConfig.ts:24:9)
+
+  console.log
+      SUPABASE_ANON_KEY length: 40
+
+      at Object.log (utils/secureConfig.ts:25:9)
+
+  console.log
+      API_BASE_URL: https://pista-inteligente.vercel.app
+
+      at Object.log (utils/secureConfig.ts:26:9)
+
+  console.log
+    === secureConfig: module loading ===
+
+      at Object.log (utils/secureConfig.ts:11:9)
+
+  console.log
+    === secureConfig: module loaded ===
+
+      at Object.log (utils/secureConfig.ts:23:9)
+
+  console.log
+      SUPABASE_URL length: 28
+
+      at Object.log (utils/secureConfig.ts:24:9)
+
+  console.log
+      SUPABASE_ANON_KEY length: 40
+
+      at Object.log (utils/secureConfig.ts:25:9)
+
+  console.log
+      API_BASE_URL: https://pista-inteligente.vercel.app
+
+      at Object.log (utils/secureConfig.ts:26:9)
+
+  console.log
+    === secureConfig: module loading ===
+
+      at Object.log (utils/secureConfig.ts:11:9)
+
+  console.log
+    === secureConfig: module loaded ===
+
+      at Object.log (utils/secureConfig.ts:23:9)
+
+  console.log
+      SUPABASE_URL length: 24
+
+      at Object.log (utils/secureConfig.ts:24:9)
+
+  console.log
+      SUPABASE_ANON_KEY length: 0
+
+      at Object.log (utils/secureConfig.ts:25:9)
+
+  console.log
+      API_BASE_URL: https://pista-inteligente.vercel.app
+
+      at Object.log (utils/secureConfig.ts:26:9)
+
+  console.log
+    === secureConfig: module loading ===
+
+      at Object.log (utils/secureConfig.ts:11:9)
+
+  console.log
+    === secureConfig: module loaded ===
+
+      at Object.log (utils/secureConfig.ts:23:9)
+
+  console.log
+      SUPABASE_URL length: 24
+
+      at Object.log (utils/secureConfig.ts:24:9)
+
+  console.log
+      SUPABASE_ANON_KEY length: 5
+
+      at Object.log (utils/secureConfig.ts:25:9)
+
+  console.log
+      API_BASE_URL: https://pista-inteligente.vercel.app
+
+      at Object.log (utils/secureConfig.ts:26:9)
+
+  console.log
+    === secureConfig: module loading ===
+
+      at Object.log (utils/secureConfig.ts:11:9)
+
+  console.log
+    === secureConfig: module loaded ===
+
+      at Object.log (utils/secureConfig.ts:23:9)
+
+  console.log
+      SUPABASE_URL length: 24
+
+      at Object.log (utils/secureConfig.ts:24:9)
+
+  console.log
+      SUPABASE_ANON_KEY length: 40
+
+      at Object.log (utils/secureConfig.ts:25:9)
+
+  console.log
+      API_BASE_URL: https://example.com
+
+      at Object.log (utils/secureConfig.ts:26:9)
+
+  console.log
+    === secureConfig: module loading ===
+
+      at Object.log (utils/secureConfig.ts:11:9)
+
+  console.log
+    === secureConfig: module loaded ===
+
+      at Object.log (utils/secureConfig.ts:23:9)
+
+  console.log
+      SUPABASE_URL length: 24
+
+      at Object.log (utils/secureConfig.ts:24:9)
+
+  console.log
+      SUPABASE_ANON_KEY length: 40
+
+      at Object.log (utils/secureConfig.ts:25:9)
+
+  console.log
+      API_BASE_URL: https://pista-inteligente.vercel.app
+
+      at Object.log (utils/secureConfig.ts:26:9)
+
+  console.log
+    === secureConfig: module loading ===
+
+      at Object.log (utils/secureConfig.ts:11:9)
+
+  console.log
+    === secureConfig: module loaded ===
+
+      at Object.log (utils/secureConfig.ts:23:9)
+
+  console.log
+      SUPABASE_URL length: 24
+
+      at Object.log (utils/secureConfig.ts:24:9)
+
+  console.log
+      SUPABASE_ANON_KEY length: 24
+
+      at Object.log (utils/secureConfig.ts:25:9)
+
+  console.log
+      API_BASE_URL: https://pista.vercel.app
+
+      at Object.log (utils/secureConfig.ts:26:9)
+
+FAIL __tests__/validateEnv.test.ts
+  validateEnv
+    ÔêÜ throws if EXPO_PUBLIC_SUPABASE_URL is missing (34 ms)
+    ÔêÜ throws if EXPO_PUBLIC_SUPABASE_URL is not a valid https URL (7 ms)
+    ÔêÜ throws if EXPO_PUBLIC_SUPABASE_ANON_KEY is missing (6 ms)
+    ÔêÜ throws if EXPO_PUBLIC_SUPABASE_ANON_KEY is too short (7 ms)
+    ÔêÜ does NOT throw when both required vars are valid (6 ms)
+    ├ù warns (not throws) if EXPO_PUBLIC_API_BASE_URL is missing (10 ms)
+  getEnv
+    ÔêÜ returns typed environment variables (5 ms)
+
+  ÔùÅ validateEnv ÔÇ║ warns (not throws) if EXPO_PUBLIC_API_BASE_URL is missing
+
+    expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+    Expected: StringContaining "EXPO_PUBLIC_API_BASE_URL"
+
+    Number of calls: 0
+
+      74 |         const validateEnv = loadValidateEnv();
+      75 |         expect(() => validateEnv()).not.toThrow();
+    > 76 |         expect(warnSpy).toHaveBeenCalledWith(
+         |                         ^
+      77 |             expect.stringContaining('EXPO_PUBLIC_API_BASE_URL')
+      78 |         );
+      79 |
+
+      at Object.toHaveBeenCalledWith (__tests__/validateEnv.test.ts:76:25)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 6 passed, 7 total
+Snapshots:   0 total
+Time:        0.521 s, estimated 1 s
+Ran all test suites matching /__tests__\\validateEnv.test.ts/i.

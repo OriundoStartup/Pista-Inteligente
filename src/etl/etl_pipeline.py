@@ -591,6 +591,21 @@ class HipicaETL:
             if 'hipodromo' not in df.columns:
                 df['hipodromo'] = full_name
 
+        # Normalizar nombres de hipódromo abreviados en los datos del CSV
+        # Esto previene que abreviaciones como "Club Hípico de S." creen acordeones duplicados
+        if 'hipodromo' in df.columns:
+            hipodromo_aliases = {
+                'Club Hípico de S.': 'Club Hípico de Santiago',
+                'Club Hipico de S.': 'Club Hípico de Santiago',
+                'Club Hípico de Stgo': 'Club Hípico de Santiago',
+                'Club Hipico de Santiago': 'Club Hípico de Santiago',
+                'Club Hípico de Conce': 'Club Hípico de Concepción',
+                'Club Hipico de Concepcion': 'Club Hípico de Concepción',
+                'Valparaiso Sporting': 'Valparaíso Sporting',
+                'Hipodromo Chile': 'Hipódromo Chile',
+            }
+            df['hipodromo'] = df['hipodromo'].replace(hipodromo_aliases)
+
         if is_program:
             num_registros = self._process_program_bulk(df)
         else:

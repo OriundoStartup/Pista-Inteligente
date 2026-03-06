@@ -1,0 +1,153 @@
+fecha,hipodromo,nro_carrera,hora,distancia,superficie,numero,caballo,jinete,preparador,posicion,tiempo,dividendo,peso
+04/03/2026,Valparaíso Sporting,1,13:30,1100m,Arena,12,Justinsito Crack,Carlos Ortega,Juan Garcia,1,1:10.64,9.1,57
+04/03/2026,Valparaíso Sporting,1,13:30,1100m,Arena,11,Louving,Jose Eyzaguirre,Victor Caballeria,2,1:10.64,5.0,57
+04/03/2026,Valparaíso Sporting,1,13:30,1100m,Arena,9,La Banda Verde,Wladimir Quinteros,Jorge Araneda,3,1:10.64,3.7,57
+04/03/2026,Valparaíso Sporting,1,13:30,1100m,Arena,6,El Mister,Patricio Galaz,Victor Moris,4,1:10.64,7.2,57
+04/03/2026,Valparaíso Sporting,1,13:30,1100m,Arena,2,Rom Tale (usa),Johan Gonzalez,Alberto Ferrero,5,1:10.64,3.7,57
+04/03/2026,Valparaíso Sporting,1,13:30,1100m,Arena,10,Rakata,Felipe Tapia,Victor Moris,6,1:10.64,49.1,57
+04/03/2026,Valparaíso Sporting,1,13:30,1100m,Arena,4,Igmafe,Nelson Rojas,Sergio Salazar,7,1:10.64,28.0,57
+04/03/2026,Valparaíso Sporting,1,13:30,1100m,Arena,1,Thunderman,Guillermo A. Perez,Rafael Bernal T.,8,1:10.64,16.5,57
+04/03/2026,Valparaíso Sporting,1,13:30,1100m,Arena,5,Command,Jose D. Villagran,Ramon Olivares,9,1:10.64,34.7,57
+04/03/2026,Valparaíso Sporting,1,13:30,1100m,Arena,8,Royal Fierce,Alejandro I. Maureira,Maximo Silva,10,1:10.64,4.0,57
+04/03/2026,Valparaíso Sporting,1,13:30,1100m,Arena,3,El Cariñoso,Cristian Bobadilla,Domingo Matte,11,1:10.64,17.8,57
+04/03/2026,Valparaíso Sporting,2,14:00,1000m,Pasto,8,Naipur Raider,Alejandro I. Maureira,Marco Pavez,1,0:57.34,4.6,56
+04/03/2026,Valparaíso Sporting,2,14:00,1000m,Pasto,11,Prometeo,Joaquin Herrera,Ximeno Urenda,2,0:57.34,1.3,57
+04/03/2026,Valparaíso Sporting,2,14:00,1000m,Pasto,6,Ave Dorada,Nelson Rojas,Carlos Vasquez,3,0:57.34,19.0,53
+04/03/2026,Valparaíso Sporting,2,14:00,1000m,Pasto,4,Bom Bom Asesino,Jose D. Villagran,Juan Garcia,4,0:57.34,32.8,53
+04/03/2026,Valparaíso Sporting,2,14:00,1000m,Pasto,7,La Pande,Sebastian E. Gonzalez,Maximo Silva,5,0:57.34,6.3,55.5
+04/03/2026,Valparaíso Sporting,2,14:00,1000m,Pasto,9,Fafifo,Nicolas Ramirez,Maximo Silva,6,0:57.34,23.5,57
+04/03/2026,Valparaíso Sporting,2,14:00,1000m,Pasto,1,Princess Sirikit,Carlos Ortega,Eduardo Donoso,7,0:57.34,7.2,55
+04/03/2026,Valparaíso Sporting,2,14:00,1000m,Pasto,3,Arrazzo,Moises A. Donoso,Braulio Gomez,8,0:57.34,46.8,57
+04/03/2026,Valparaíso Sporting,2,14:00,1000m,Pasto,5,Akytoy Papa,Maximiliano Salinas,Maximo Silva,9,0:57.34,45.9,57
+04/03/2026,Valparaíso Sporting,2,14:00,1000m,Pasto,2,Sinnerbarato,Johan Gonzalez,Maximo Silva,10,0:57.34,33.9,57
+04/03/2026,Valparaíso Sporting,3,14:30,1100m,Arena,2,Indian Melody,Nicolas Ramirez,Wilfredo Mancilla,1,1:09.21,3.2,54
+04/03/2026,Valparaíso Sporting,3,14:30,1100m,Arena,5,Te Quiero Todavia,Carlos Ortega,Victor Moris,2,1:09.21,4.4,58
+04/03/2026,Valparaíso Sporting,3,14:30,1100m,Arena,1,Mis Mejores Amigos,Jaime Medina,Carlos Vasquez,3,1:09.21,2.7,54.5
+04/03/2026,Valparaíso Sporting,3,14:30,1100m,Arena,3,Golden East,Piero Reyes,Carlos Vasquez,4,1:09.21,2.4,56
+04/03/2026,Valparaíso Sporting,3,14:30,1100m,Arena,4,Carita De Whisky,Johan Gonzalez,Victor Caballeria,5,1:09.21,21.4,54
+04/03/2026,Valparaíso Sporting,3,14:30,1100m,Arena,6,Pato Cuncuna,Sebastian Marin,Jose Leiva,6,1:09.21,14.0,55
+04/03/2026,Valparaíso Sporting,4,15:00,1100m,Arena,13,Mi Gigante,Pedro Robles,Victor Moris,1,1:10.39,2.2,57
+04/03/2026,Valparaíso Sporting,4,15:00,1100m,Arena,3,El Salvador,Nicolas Ramirez,Eduardo Donoso,2,1:10.39,7.0,57
+04/03/2026,Valparaíso Sporting,4,15:00,1100m,Arena,12,Grosseto,Guillermo A. Perez,Rafael Bernal T.,3,1:10.39,36.0,57
+04/03/2026,Valparaíso Sporting,4,15:00,1100m,Arena,4,Gran Samcredo,Nelson Rojas,Carlos Vasquez,4,1:10.39,4.5,53
+04/03/2026,Valparaíso Sporting,4,15:00,1100m,Arena,11,King Eolo,Jose Eyzaguirre,Victor Moris,5,1:10.39,34.4,56
+04/03/2026,Valparaíso Sporting,4,15:00,1100m,Arena,15,Vincero,Moises A. Donoso,Rafael Bernal T.,6,1:10.39,39.4,57
+04/03/2026,Valparaíso Sporting,4,15:00,1100m,Arena,6,Fallen Dreamer,Jose D. Villagran,Juan Belzu,7,1:10.39,14.4,53
+04/03/2026,Valparaíso Sporting,4,15:00,1100m,Arena,9,Hoffa,Sebastian Marin,Juan Belzu,8,1:10.39,15.6,57
+04/03/2026,Valparaíso Sporting,4,15:00,1100m,Arena,10,Mati Rockero,Israel Villagran,Osvaldo Urbina,9,1:10.39,13.6,57
+04/03/2026,Valparaíso Sporting,4,15:00,1100m,Arena,7,Ramsis,Rodolfo Fuenzalida,Victor Caballeria,10,1:10.39,47.3,57
+04/03/2026,Valparaíso Sporting,4,15:00,1100m,Arena,14,American Bunny,Jaime Medina,Cristobal Gonzalez,11,1:10.39,5.2,57
+04/03/2026,Valparaíso Sporting,4,15:00,1100m,Arena,5,Catapos,Alejandro I. Maureira,Juan Garcia,12,1:10.39,11.0,57
+04/03/2026,Valparaíso Sporting,4,15:00,1100m,Arena,2,Mysterio,Jorge Baeza,Rafael Bernal T.,13,1:10.39,56.8,57
+04/03/2026,Valparaíso Sporting,4,15:00,1100m,Arena,1,Tatun,Maximiliano Salinas,Gabriel Reyes I.,14,1:10.39,107.1,57
+04/03/2026,Valparaíso Sporting,5,15:30,1600m,Pasto,3,Fallen Star,Joaquin Herrera,Juan Belzu,1,1:36.61,2.2,58
+04/03/2026,Valparaíso Sporting,5,15:30,1600m,Pasto,7,Sud Americano,Jaime Medina,Ximeno Urenda,2,1:36.61,2.3,55
+04/03/2026,Valparaíso Sporting,5,15:30,1600m,Pasto,6,Karstadt,Alejandro I. Maureira,Braulio Gomez,3,1:36.61,23.2,58
+04/03/2026,Valparaíso Sporting,5,15:30,1600m,Pasto,4,New Day (arg),Piero Reyes,Ximeno Urenda,4,1:36.61,19.3,58
+04/03/2026,Valparaíso Sporting,5,15:30,1600m,Pasto,5,Stormy Lucky,Sebastian Marin,Wilfredo Mancilla,5,1:36.61,22.5,59
+04/03/2026,Valparaíso Sporting,5,15:30,1600m,Pasto,1,Germanicus,Rodolfo S. Dores,Ximeno Urenda,6,1:36.61,9.2,54.5
+04/03/2026,Valparaíso Sporting,5,15:30,1600m,Pasto,9,So Handsome,Sebastian E. Gonzalez,Rodrigo Silva,7,1:36.61,5.6,58
+04/03/2026,Valparaíso Sporting,5,15:30,1600m,Pasto,2,Makis (arg),Jorge Zuñiga,Luis Catena,8,1:36.61,8.0,55
+04/03/2026,Valparaíso Sporting,6,16:00,1100m,Arena,7,Daddy Tito,Johan Gonzalez,Carlos Vasquez,1,1:09.10,10.0,54
+04/03/2026,Valparaíso Sporting,6,16:00,1100m,Arena,1,Levantate Bebe,Jorge Zuñiga,Jorge Araneda,2,1:09.10,5.2,54
+04/03/2026,Valparaíso Sporting,6,16:00,1100m,Arena,6,Parsifal,Rodolfo Fuenzalida,Victor Caballeria,3,1:09.10,16.7,58
+04/03/2026,Valparaíso Sporting,6,16:00,1100m,Arena,5,Warrior Spirit,Jaime Medina,Wilfredo Mancilla,4,1:09.10,2.6,59
+04/03/2026,Valparaíso Sporting,6,16:00,1100m,Arena,4,Sol De Troya,Joaquin Herrera,Gonzalo Vegas,5,1:09.10,3.6,58
+04/03/2026,Valparaíso Sporting,6,16:00,1100m,Arena,8,No Pain No Gain,Alejandro I. Maureira,Juan Garcia,6,1:09.10,9.0,57
+04/03/2026,Valparaíso Sporting,6,16:00,1100m,Arena,2,Andrei Bolkonsky,Sebastian E. Gonzalez,Jose Leiva,7,1:09.10,6.4,57
+04/03/2026,Valparaíso Sporting,6,16:00,1100m,Arena,3,Dale Isi,Lesly Gonzalez,Eduardo Donoso,8,1:09.10,5.8,58
+04/03/2026,Valparaíso Sporting,7,16:30,1100m,Arena,8,Dale Flaca,Lesly Gonzalez,Eduardo Donoso,1,1:10.76,4.9,57
+04/03/2026,Valparaíso Sporting,7,16:30,1100m,Arena,3,Gran Cafrune,Jose Eyzaguirre,Victor Caballeria,2,1:10.76,3.5,58
+04/03/2026,Valparaíso Sporting,7,16:30,1100m,Arena,5,Alives,Jaime Miño,William Ara,3,1:10.76,6.0,60
+04/03/2026,Valparaíso Sporting,7,16:30,1100m,Arena,2,Caribean Passion,Wladimir Quinteros,Ines Maffud,4,1:10.76,16.1,57
+04/03/2026,Valparaíso Sporting,7,16:30,1100m,Arena,6,Green Dress,Carlos Ortega,Eduardo Donoso,5,1:10.76,4.6,58
+04/03/2026,Valparaíso Sporting,7,16:30,1100m,Arena,4,Primo Happy,Guillermo A. Perez,Wilfredo Mancilla,6,1:10.76,7.1,58
+04/03/2026,Valparaíso Sporting,7,16:30,1100m,Arena,1,Meloni,Alejandro I. Maureira,Osvaldo Urbina,7,1:10.76,5.6,57
+04/03/2026,Valparaíso Sporting,7,16:30,1100m,Arena,9,Watakin,Israel Villagran,Juan Belzu,8,1:10.76,14.3,58
+04/03/2026,Valparaíso Sporting,7,16:30,1100m,Arena,10,Black Olives,Maximiliano Salinas,Ines Maffud,9,1:10.76,8.5,57
+04/03/2026,Valparaíso Sporting,8,17:00,1100m,Arena,8,Modelo Del Salto,Sebastian E. Gonzalez,Sergio Salazar,1,1:10.76,3.4,57
+04/03/2026,Valparaíso Sporting,8,17:00,1100m,Arena,2,Jarra De Vino,Wladimir Quinteros,Ines Maffud,2,1:10.76,6.6,57
+04/03/2026,Valparaíso Sporting,8,17:00,1100m,Arena,10,Guerrero Arabe,Carlos Ortega,Eduardo Donoso,3,1:10.76,3.5,57
+04/03/2026,Valparaíso Sporting,8,17:00,1100m,Arena,9,Gladiatore,Nelson Rojas,Gabriel Reyes,4,1:10.76,22.6,57
+04/03/2026,Valparaíso Sporting,8,17:00,1100m,Arena,5,Afirmate Gato,Guillermo A. Perez,Juan Garcia,5,1:10.76,4.5,57
+04/03/2026,Valparaíso Sporting,8,17:00,1100m,Arena,7,Narcisista,Nicolas Ramirez,Wilfredo Mancilla,6,1:10.76,3.9,60
+04/03/2026,Valparaíso Sporting,8,17:00,1100m,Arena,4,El Odioso (arg),Jorge Baeza,Marcos Contreras,7,1:10.76,14.4,57
+04/03/2026,Valparaíso Sporting,8,17:00,1100m,Arena,3,Big Wallace (arg),Lesly Gonzalez,Braulio Gomez,8,1:10.76,8.7,57
+04/03/2026,Valparaíso Sporting,9,17:30,1000m,Pasto,1,Soul Queen,Hugo Ochoa,Victor Caballeria,1,0:57.13,2.6,52
+04/03/2026,Valparaíso Sporting,9,17:30,1000m,Pasto,4,Don Altobello,Jaime Medina,Juan Baeza,2,0:57.13,4.2,54
+04/03/2026,Valparaíso Sporting,9,17:30,1000m,Pasto,8,Sueño Chilote,Johan Gonzalez,Carlos Vasquez,3,0:57.13,10.8,54
+04/03/2026,Valparaíso Sporting,9,17:30,1000m,Pasto,7,Hooteroad,Jorge Zuñiga,Victor Moris,4,0:57.13,18.6,52
+04/03/2026,Valparaíso Sporting,9,17:30,1000m,Pasto,2,Irish Boy,Joaquin Herrera,Ximeno Urenda,5,0:57.13,2.7,54
+04/03/2026,Valparaíso Sporting,9,17:30,1000m,Pasto,6,Last Gamble,Piero Reyes,Ximeno Urenda,6,0:57.13,4.9,55.4
+04/03/2026,Valparaíso Sporting,9,17:30,1000m,Pasto,5,Muy Amigo,Guillermo A. Perez,Guillermo Perez,7,0:57.13,20.8,60
+04/03/2026,Valparaíso Sporting,9,17:30,1000m,Pasto,3,White Spirit,Nicolas Ramirez,Luis Machulas,8,0:57.13,15.9,57
+04/03/2026,Valparaíso Sporting,10,18:00,1300m,Arena,12,Days Of Future,Joaquin Herrera,Wilfredo Mancilla,1,1:22.67,1.6,57
+04/03/2026,Valparaíso Sporting,10,18:00,1300m,Arena,10,Calveti,Johan Gonzalez,Maximo Silva,2,1:22.67,28.6,55
+04/03/2026,Valparaíso Sporting,10,18:00,1300m,Arena,5,Ya Silio,Sebastian E. Gonzalez,Eduardo Donoso,3,1:22.67,14.0,58
+04/03/2026,Valparaíso Sporting,10,18:00,1300m,Arena,3,El Profeta,Israel Villagran,Ximeno Urenda,4,1:22.67,7.6,58
+04/03/2026,Valparaíso Sporting,10,18:00,1300m,Arena,9,Calochita,Nelson Rojas,Gabriel Reyes I.,5,1:22.67,41.1,56
+04/03/2026,Valparaíso Sporting,10,18:00,1300m,Arena,8,Perla Del Austro,Sebastian Marin,Jorge Araneda,6,1:22.67,21.1,55
+04/03/2026,Valparaíso Sporting,10,18:00,1300m,Arena,2,Muy Maton,Lesly Gonzalez,Jorge Araneda,7,1:22.67,13.8,55
+04/03/2026,Valparaíso Sporting,10,18:00,1300m,Arena,4,Dale Like,Guillermo A. Perez,Wilfredo Mancilla,8,1:22.67,16.6,57
+04/03/2026,Valparaíso Sporting,10,18:00,1300m,Arena,6,Constitution's Son,Jaime Medina,Carlos Vasquez,9,1:22.67,5.3,57
+04/03/2026,Valparaíso Sporting,10,18:00,1300m,Arena,1,Keidar (arg),Jorge Zuñiga,Luis Catena,10,1:22.67,17.2,52
+04/03/2026,Valparaíso Sporting,10,18:00,1300m,Arena,7,All Stars,Nicolas Ramirez,Gonzalo Vegas,11,1:22.67,6.4,54
+04/03/2026,Valparaíso Sporting,11,18:30,1000m,Pasto,7,Princesa Ludy,Felipe Tapia,Victor Moris,1,0:58.94,8.4,57
+04/03/2026,Valparaíso Sporting,11,18:30,1000m,Pasto,6,Champelice,Jose Eyzaguirre,Victor Caballeria,2,0:58.94,2.3,57
+04/03/2026,Valparaíso Sporting,11,18:30,1000m,Pasto,4,Exeter (arg),Claudio Poblete,Ramon Olivares,3,0:58.94,8.9,57
+04/03/2026,Valparaíso Sporting,11,18:30,1000m,Pasto,8,Pazzelle,Johan Gonzalez,Victor Caballeria,4,0:58.94,4.7,57
+04/03/2026,Valparaíso Sporting,11,18:30,1000m,Pasto,2,No Hay Adios,Wladimir Quinteros,Marcos Contreras,5,0:58.94,36.1,57
+04/03/2026,Valparaíso Sporting,11,18:30,1000m,Pasto,3,Candela Special,Patricio Galaz,Eduardo Donoso,6,0:58.94,48.4,57
+04/03/2026,Valparaíso Sporting,11,18:30,1000m,Pasto,5,Aguila De Fuego,Guillermo A. Perez,Marcos Contreras,7,0:58.94,14.8,57
+04/03/2026,Valparaíso Sporting,11,18:30,1000m,Pasto,9,Gran Romano,Jose D. Villagran,Wilfredo Mancilla,8,0:58.94,12.0,57
+04/03/2026,Valparaíso Sporting,11,18:30,1000m,Pasto,10,Lattice,Maximiliano Salinas,Jose Leiva,9,0:58.94,3.5,57
+04/03/2026,Valparaíso Sporting,11,18:30,1000m,Pasto,1,Varese,Cristian Bobadilla,Marcos Contreras,10,0:58.94,11.7,57
+04/03/2026,Valparaíso Sporting,12,19:00,1100m,Arena,10,La Tia Elena,Jose Eyzaguirre,Victor Caballeria,1,1:09.83,2.8,57
+04/03/2026,Valparaíso Sporting,12,19:00,1100m,Arena,3,Lorenz Black,Juan M.soto,Enrique Lagunas,2,1:09.83,7.9,58
+04/03/2026,Valparaíso Sporting,12,19:00,1100m,Arena,8,Better Than,Rodolfo Fuenzalida,Braulio Gomez,3,1:09.83,9.9,56
+04/03/2026,Valparaíso Sporting,12,19:00,1100m,Arena,4,Wind Of Changes,Jaime Medina,Osvaldo Urbina,4,1:09.83,2.8,58
+04/03/2026,Valparaíso Sporting,12,19:00,1100m,Arena,5,El Espia,Jorge Baeza,Juan Garcia,5,1:09.83,8.4,57
+04/03/2026,Valparaíso Sporting,12,19:00,1100m,Arena,2,The Great Dany,Joaquin Herrera,Rafael Bernal T.,6,1:09.83,4.9,57
+04/03/2026,Valparaíso Sporting,12,19:00,1100m,Arena,6,Mono Monin,Wladimir Quinteros,Jorge Araneda,7,1:09.83,9.4,58
+04/03/2026,Valparaíso Sporting,12,19:00,1100m,Arena,9,El Tanque Agus,Cristian Bobadilla,Eduardo Donoso,8,1:09.83,37.3,57
+04/03/2026,Valparaíso Sporting,12,19:00,1100m,Arena,1,Sigan La Musica,Carlos Ortega,Eduardo Donoso,9,1:09.83,23.7,56.5
+04/03/2026,Valparaíso Sporting,13,19:30,1000m,Pasto,5,Il Vento,Sebastian E. Gonzalez,Maximo Silva,1,0:58.13,8.6,61
+04/03/2026,Valparaíso Sporting,13,19:30,1000m,Pasto,3,King Octopus,Joaquin Herrera,Gonzalo Vegas,2,0:58.13,2.1,60
+04/03/2026,Valparaíso Sporting,13,19:30,1000m,Pasto,2,California Spring,Sebastian Marin,Luis Valdivia,3,0:58.13,14.0,57
+04/03/2026,Valparaíso Sporting,13,19:30,1000m,Pasto,13,Kiss The Queen,Felipe Tapia,Braulio Gomez,4,0:58.13,30.0,58
+04/03/2026,Valparaíso Sporting,13,19:30,1000m,Pasto,6,Jerusa,Israel Villagran,Victor Moris,5,0:58.13,25.9,60
+04/03/2026,Valparaíso Sporting,13,19:30,1000m,Pasto,9,Alto Forever,Nelson Rojas,Gabriel Reyes I.,6,0:58.13,8.0,59
+04/03/2026,Valparaíso Sporting,13,19:30,1000m,Pasto,10,Gran Morron,Guillermo A. Perez,Eduardo Donoso,7,0:58.13,5.3,58
+04/03/2026,Valparaíso Sporting,13,19:30,1000m,Pasto,8,Moringa,Johan Gonzalez,Victor Caballeria,8,0:58.13,8.6,57
+04/03/2026,Valparaíso Sporting,13,19:30,1000m,Pasto,7,Che Samaritan,Rodolfo Fuenzalida,Marcos Contreras,9,0:58.13,24.0,56
+04/03/2026,Valparaíso Sporting,13,19:30,1000m,Pasto,14,Back To Black,Nicolas Ramirez,Maximo Silva,10,0:58.13,11.9,61
+04/03/2026,Valparaíso Sporting,13,19:30,1000m,Pasto,11,Hipatia,Rodolfo S. Dores,Marcos Contreras,11,0:58.13,28.8,59
+04/03/2026,Valparaíso Sporting,13,19:30,1000m,Pasto,4,Nakba,Piero Reyes,Carlos Vasquez,12,0:58.13,39.6,60
+04/03/2026,Valparaíso Sporting,13,19:30,1000m,Pasto,12,Soto De Angol,Patricio Galaz,Victor Moris,13,0:58.13,23.1,60
+04/03/2026,Valparaíso Sporting,13,19:30,1000m,Pasto,1,Ahi Viene Ahi Va,Cristian Bobadilla,Luis Machulas,14,0:58.13,55.0,52
+04/03/2026,Valparaíso Sporting,13,19:30,1000m,Pasto,15,Shivers,Lesly Gonzalez,Marcos Contreras,15,0:58.13,33.9,52
+04/03/2026,Valparaíso Sporting,14,20:00,1100m,Arena,11,Terrible Good,Alejandro I. Maureira,Jose Araya,1,1:09.68,2.8,57.5
+04/03/2026,Valparaíso Sporting,14,20:00,1100m,Arena,4,Spotter,Nicolas Ramirez,Wilfredo Mancilla,2,1:09.68,13.8,58
+04/03/2026,Valparaíso Sporting,14,20:00,1100m,Arena,3,Paicavi,Carlos Ortega,Jose Araya,3,1:09.68,5.8,58
+04/03/2026,Valparaíso Sporting,14,20:00,1100m,Arena,8,Lio Cordillerano,Joaquin Herrera,Rafael Bernal T.,4,1:09.68,4.0,56
+04/03/2026,Valparaíso Sporting,14,20:00,1100m,Arena,12,Creo En Mi,Israel Villagran,Rafael Bernal T.,5,1:09.68,11.7,57
+04/03/2026,Valparaíso Sporting,14,20:00,1100m,Arena,7,Peggy Nice,Johan Gonzalez,Marcos Contreras,6,1:09.68,10.3,56
+04/03/2026,Valparaíso Sporting,14,20:00,1100m,Arena,2,Bone Less,Guillermo A. Perez,Juan Belzu,7,1:09.68,58.5,56
+04/03/2026,Valparaíso Sporting,14,20:00,1100m,Arena,9,Radio Teatro (arg),Maximiliano Salinas,Maximo Silva,8,1:09.68,71.1,56
+04/03/2026,Valparaíso Sporting,14,20:00,1100m,Arena,10,Uli El Luchador,Jose D. Villagran,Gabriel Reyes I.,9,1:09.68,7.5,57
+04/03/2026,Valparaíso Sporting,14,20:00,1100m,Arena,6,Respect,Rodolfo S. Dores,Braulio Gomez,10,1:09.68,5.1,58
+04/03/2026,Valparaíso Sporting,14,20:00,1100m,Arena,1,Tigre De Fuego,Patricio Galaz,Victor Moris,11,1:09.68,34.2,56
+04/03/2026,Valparaíso Sporting,14,20:00,1100m,Arena,5,Lady Lumber,Cristian Bobadilla,Ramon Olivares,12,1:09.68,822.2,58
+04/03/2026,Valparaíso Sporting,15,20:30,1100m,Arena,3,El Palomo,Jaime Medina,Jorge Araneda,1,1:08.55,3.9,58
+04/03/2026,Valparaíso Sporting,15,20:30,1100m,Arena,1,The Great Texas,Rodolfo Fuenzalida,Rafael Bernal T.,2,1:08.55,12.7,56
+04/03/2026,Valparaíso Sporting,15,20:30,1100m,Arena,13,Cristal Ginger,Lesly Gonzalez,Eduardo Donoso,3,1:08.55,25.1,56
+04/03/2026,Valparaíso Sporting,15,20:30,1100m,Arena,6,Kapu,Jorge Baeza,Gonzalo Vegas,4,1:08.55,8.0,58
+04/03/2026,Valparaíso Sporting,15,20:30,1100m,Arena,9,Breezy Star,Jorge Zuñiga,Jose Araya,5,1:08.55,14.3,56
+04/03/2026,Valparaíso Sporting,15,20:30,1100m,Arena,12,Wings Of Fire,Sebastian E. Gonzalez,Enrique Lagunas,6,1:08.55,23.3,58
+04/03/2026,Valparaíso Sporting,15,20:30,1100m,Arena,5,El Arte De Cantar,Carlos Ortega,Victor Moris,7,1:08.55,4.9,58
+04/03/2026,Valparaíso Sporting,15,20:30,1100m,Arena,8,Le Peintre (arg),Guillermo A. Perez,Juan Garcia,8,1:08.55,8.5,57
+04/03/2026,Valparaíso Sporting,15,20:30,1100m,Arena,11,Roy Para Un Poco,Nicolas Ramirez,Wilfredo Mancilla,9,1:08.55,4.0,59
+04/03/2026,Valparaíso Sporting,15,20:30,1100m,Arena,14,Desprolijo,Israel Villagran,Carlos Vasquez,10,1:08.55,22.1,58
+04/03/2026,Valparaíso Sporting,15,20:30,1100m,Arena,4,Potro Querido,Piero Reyes,Carlos Vasquez,11,1:08.55,13.1,58
+04/03/2026,Valparaíso Sporting,15,20:30,1100m,Arena,10,Tanytus,Johan Gonzalez,Victor Caballeria,12,1:08.55,8.3,57
+04/03/2026,Valparaíso Sporting,15,20:30,1100m,Arena,2,La Dopinhue,Cristian Bobadilla,Eduardo Donoso,13,1:08.55,93.4,56

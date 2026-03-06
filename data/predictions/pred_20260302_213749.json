@@ -1,0 +1,3161 @@
+[
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 1,
+    "numero": 1,
+    "caballo": "GLADIADOR ART",
+    "jinete": "P. GALAZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 1,
+    "numero": 2,
+    "caballo": "EL VENECO",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 1,
+    "numero": 3,
+    "caballo": "SUPER PIRATA",
+    "jinete": "M. SALINAS",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 1,
+    "numero": 4,
+    "caballo": "LOCO HERMES",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 1,
+    "numero": 5,
+    "caballo": "REGALITO",
+    "jinete": "L. GONZALEZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 1,
+    "numero": 6,
+    "caballo": "BRUNO SALVAJE",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 1,
+    "numero": 7,
+    "caballo": "CAPRI LA BELLA",
+    "jinete": "F. MORENO",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 1,
+    "numero": 8,
+    "caballo": "MERENGON",
+    "jinete": "F. TAPIA",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 1,
+    "numero": 9,
+    "caballo": "NARCISISTA",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 1,
+    "numero": 10,
+    "caballo": "GIPSY VANNER",
+    "jinete": "C. BOBADILLA",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 1,
+    "numero": 11,
+    "caballo": "JUSTINSITO CRACK",
+    "jinete": "G.A. PEREZ",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 1,
+    "numero": 12,
+    "caballo": "COMMAND",
+    "jinete": "C. POBLETE",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 10,
+    "numero": 1,
+    "caballo": "EL RENACIDO",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 10,
+    "numero": 2,
+    "caballo": "DRAKE (ARG)",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 10,
+    "numero": 3,
+    "caballo": "SALUS",
+    "jinete": "I. VILLAGRAN",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 10,
+    "numero": 4,
+    "caballo": "ENCINITAS",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 10,
+    "numero": 5,
+    "caballo": "MORGAN SOUL",
+    "jinete": "S. MARIN",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 10,
+    "numero": 6,
+    "caballo": "FRANK SLADE",
+    "jinete": "J. BAEZA",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 10,
+    "numero": 7,
+    "caballo": "LOBELIUS",
+    "jinete": "A.L. MAUREIRA",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 10,
+    "numero": 8,
+    "caballo": "SEÑOR SONRISA (ARG)",
+    "jinete": "A.L. VILLAGRA",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 10,
+    "numero": 9,
+    "caballo": "STRACCIATELLA",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 10,
+    "numero": 10,
+    "caballo": "EL ESPIA",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 10,
+    "numero": 11,
+    "caballo": "NALHUITAD",
+    "jinete": "G.A. PEREZ",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 10,
+    "numero": 12,
+    "caballo": "SALADO",
+    "jinete": "F. TAPIA",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 2,
+    "numero": 1,
+    "caballo": "LA LUNA DE TODOS",
+    "jinete": "G.A. PEREZ",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 2,
+    "numero": 2,
+    "caballo": "EXCLUDE (ARG)",
+    "jinete": "A. APABLAZA",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 2,
+    "numero": 3,
+    "caballo": "ULTIMO PASEO",
+    "jinete": "P. ROBLES",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 2,
+    "numero": 4,
+    "caballo": "LADY LAURA",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 2,
+    "numero": 5,
+    "caballo": "SESTRI LEVANTE",
+    "jinete": "F. TAPIA",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 2,
+    "numero": 6,
+    "caballo": "AUNT MERCY",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 2,
+    "numero": 7,
+    "caballo": "DE BOLOGNIA",
+    "jinete": "L. GONZALEZ",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 2,
+    "numero": 8,
+    "caballo": "MADAM SECRETARY",
+    "jinete": "J. BAEZA",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 2,
+    "numero": 9,
+    "caballo": "ROSITA DEL PUERTO",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 2,
+    "numero": 10,
+    "caballo": "GUAPA QUITEÑA",
+    "jinete": "C. POBLETE",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 2,
+    "numero": 11,
+    "caballo": "LA PROPIA HERMANA",
+    "jinete": "A.L. VILLAGRA",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 2,
+    "numero": 12,
+    "caballo": "DOÑA MARLY",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 2,
+    "numero": 13,
+    "caballo": "KOBRICH",
+    "jinete": "A. L. MAUREIRA",
+    "probabilidad": 7.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 3,
+    "numero": 1,
+    "caballo": "MACKLIN",
+    "jinete": "A. APABLAZA",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 3,
+    "numero": 2,
+    "caballo": "LUCKY STORM",
+    "jinete": "P. GALAZ",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 3,
+    "numero": 3,
+    "caballo": "TIENES MI SONRISA",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 3,
+    "numero": 4,
+    "caballo": "MICHELITINA",
+    "jinete": "I. VILLAGRAN",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 3,
+    "numero": 5,
+    "caballo": "TE CANTO A TI",
+    "jinete": "P. REYES",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 3,
+    "numero": 6,
+    "caballo": "AFIRMATE GATO",
+    "jinete": "G. A. PEREZ",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 3,
+    "numero": 7,
+    "caballo": "DEFENSOR ROJO",
+    "jinete": "L. GONZALEZ",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 3,
+    "numero": 8,
+    "caballo": "MISTER CESAR",
+    "jinete": "J. ZUÑIGA",
+    "probabilidad": 11.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 3,
+    "numero": 9,
+    "caballo": "MUBARAK",
+    "jinete": "J. CASTILLO",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 4,
+    "numero": 1,
+    "caballo": "MISTER E",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 4,
+    "numero": 2,
+    "caballo": "EL OPORTUNO",
+    "jinete": "G. A. PEREZ",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 4,
+    "numero": 3,
+    "caballo": "MAGIC FLAME",
+    "jinete": "P. GALAZ",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 4,
+    "numero": 4,
+    "caballo": "WARRIOR SPIRIT",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 4,
+    "numero": 5,
+    "caballo": "NADIE ME CREE",
+    "jinete": "I. VILLAGRAN",
+    "probabilidad": 11.0
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 4,
+    "numero": 6,
+    "caballo": "RAIMUNDO A",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 13.1
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 4,
+    "numero": 7,
+    "caballo": "EL GRAN PIRATA",
+    "jinete": "A.L. MAUREIRA",
+    "probabilidad": 12.7
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 4,
+    "numero": 8,
+    "caballo": "BETTOLINA",
+    "jinete": "P. REYES",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 5,
+    "numero": 1,
+    "caballo": "ALPHATAURI",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 5,
+    "numero": 2,
+    "caballo": "KWIN",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 5,
+    "numero": 3,
+    "caballo": "STEFFI YI",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 5,
+    "numero": 4,
+    "caballo": "MUÑECO DASH",
+    "jinete": "F. TAPIA",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 5,
+    "numero": 5,
+    "caballo": "SEVERUS SNAPE",
+    "jinete": "C. BOBADILLA",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 5,
+    "numero": 6,
+    "caballo": "ALIVES",
+    "jinete": "J. MIÑO",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 5,
+    "numero": 7,
+    "caballo": "HUEVO DE CHOCOLATE",
+    "jinete": "A.L. MAUREIRA",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 5,
+    "numero": 8,
+    "caballo": "RIO PEREZ",
+    "jinete": "S. MARIN",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 5,
+    "numero": 9,
+    "caballo": "ROJO BURGUES",
+    "jinete": "G.A. PEREZ",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 5,
+    "numero": 10,
+    "caballo": "MUY AVISPADA",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 5,
+    "numero": 11,
+    "caballo": "BAPKIZA",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 7.8
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 6,
+    "numero": 1,
+    "caballo": "LA ALBITA",
+    "jinete": "A. L. MAUREIRA",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 6,
+    "numero": 2,
+    "caballo": "ROY PARA UN POCO",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 6,
+    "numero": 3,
+    "caballo": "RADIO TEATRO (ARG)",
+    "jinete": "M. SALINAS",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 6,
+    "numero": 4,
+    "caballo": "MALA MEMORIA",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 9.2
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 6,
+    "numero": 5,
+    "caballo": "PINO HUACHO",
+    "jinete": "J. ZUÑIGA",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 6,
+    "numero": 6,
+    "caballo": "BREEZY STAR",
+    "jinete": "L. GONZALEZ",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 6,
+    "numero": 7,
+    "caballo": "EL LOBO PAGA",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 6,
+    "numero": 8,
+    "caballo": "PAICAVI",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 6,
+    "numero": 9,
+    "caballo": "IRISH BAND",
+    "jinete": "P. GALAZ",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 6,
+    "numero": 10,
+    "caballo": "GERASIMOVA",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 6,
+    "numero": 11,
+    "caballo": "LE PEINTRE (ARG)",
+    "jinete": "T. SEITH",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 7,
+    "numero": 1,
+    "caballo": "GUAPA PORTEÑA",
+    "jinete": "A. L. MAUREIRA",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 7,
+    "numero": 2,
+    "caballo": "DI LUNA",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 7,
+    "numero": 3,
+    "caballo": "LA PELA",
+    "jinete": "S. MARIN",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 7,
+    "numero": 4,
+    "caballo": "AKA AND RED",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 7,
+    "numero": 5,
+    "caballo": "OURO",
+    "jinete": "P. REYES",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 7,
+    "numero": 6,
+    "caballo": "JAPONEITOR",
+    "jinete": "S.E. GONZALEZ",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 7,
+    "numero": 7,
+    "caballo": "CON OLOR A POBRE",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 7,
+    "numero": 8,
+    "caballo": "FURIOSO NANO",
+    "jinete": "F. TAPIA",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 7,
+    "numero": 9,
+    "caballo": "OPPA",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 8,
+    "numero": 1,
+    "caballo": "NIÑA POCHOCHA",
+    "jinete": "C. BOBADILLA",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 8,
+    "numero": 2,
+    "caballo": "GOCCE",
+    "jinete": "C. POBLETE",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 8,
+    "numero": 3,
+    "caballo": "WAR MICAN",
+    "jinete": "J. ZUÑIGA",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 8,
+    "numero": 4,
+    "caballo": "SEXTA FEIRA",
+    "jinete": "T. SEITH",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 8,
+    "numero": 5,
+    "caballo": "TOPACIO AZUL",
+    "jinete": "WLADIMIR QUINTEROS",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 8,
+    "numero": 6,
+    "caballo": "DOLCE AMARENA",
+    "jinete": "F. MORENO",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 8,
+    "numero": 7,
+    "caballo": "EJEMPLO DE VALOR",
+    "jinete": "J. CASTILLO",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 8,
+    "numero": 8,
+    "caballo": "TENIA QUE SER",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 8,
+    "numero": 9,
+    "caballo": "TIZZIANO",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 8,
+    "numero": 10,
+    "caballo": "LA LIBERTINA",
+    "jinete": "I. VILLAGRAN",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 8,
+    "numero": 11,
+    "caballo": "PRESUMIDA FLAME",
+    "jinete": "G.A. PEREZ",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 8,
+    "numero": 12,
+    "caballo": "EXETER (ARG)",
+    "jinete": "B. RUBILAR",
+    "probabilidad": 8.4
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 9,
+    "numero": 1,
+    "caballo": "LIUCURA PARK",
+    "jinete": "G. A. PEREZ",
+    "probabilidad": 9.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 9,
+    "numero": 2,
+    "caballo": "TODO CAMBIA",
+    "jinete": "S. MARIN",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 9,
+    "numero": 3,
+    "caballo": "AMIGO CALICHEI",
+    "jinete": "L. GONZALEZ",
+    "probabilidad": 9.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 9,
+    "numero": 4,
+    "caballo": "SEÑORA BERNI",
+    "jinete": "J. ZUÑIGA",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 9,
+    "numero": 5,
+    "caballo": "RUBIO ALOCADO",
+    "jinete": "WLADIMIR QUINTEROS",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 9,
+    "numero": 6,
+    "caballo": "ALBANTA (ARG)",
+    "jinete": "A.L. MAUREIRA",
+    "probabilidad": 9.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 9,
+    "numero": 7,
+    "caballo": "LUCA BRASI",
+    "jinete": "F. TAPIA",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 9,
+    "numero": 8,
+    "caballo": "GRAN CAFRUNE",
+    "jinete": "G. RODRIGUEZ",
+    "probabilidad": 9.5
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 9,
+    "numero": 9,
+    "caballo": "PICHO AMADO",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 9,
+    "numero": 10,
+    "caballo": "ELON",
+    "jinete": "J. BAEZA",
+    "probabilidad": 9.6
+  },
+  {
+    "fecha": "2026-03-02",
+    "hipodromo": "Valparaiso Sporting",
+    "carrera": 9,
+    "numero": 11,
+    "caballo": "PABLOSKY",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 1,
+    "numero": 1,
+    "caballo": "DANGER IN RIO",
+    "jinete": "B. DÍAZ",
+    "probabilidad": 10.9
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 1,
+    "numero": 2,
+    "caballo": "LA SHEMI",
+    "jinete": "J.P. TORRES",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 1,
+    "numero": 3,
+    "caballo": "MI BARCO VELERO",
+    "jinete": "I. CÁRCAMO",
+    "probabilidad": 10.9
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 1,
+    "numero": 4,
+    "caballo": "GANDHI REPORT",
+    "jinete": "I. OLATE",
+    "probabilidad": 10.9
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 1,
+    "numero": 5,
+    "caballo": "SUZZANNE",
+    "jinete": "JN.A. CAMPOS",
+    "probabilidad": 10.9
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 1,
+    "numero": 6,
+    "caballo": "EL IMPOLUTO",
+    "jinete": "J.A. INOSTROZA",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 1,
+    "numero": 7,
+    "caballo": "GRAN AMOR ETERNO",
+    "jinete": "C.A. ROJAS",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 1,
+    "numero": 8,
+    "caballo": "PERLA INVASORA",
+    "jinete": "B. CORDERO",
+    "probabilidad": 11.3
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 1,
+    "numero": 9,
+    "caballo": "BEL CUORE",
+    "jinete": "V. MARDONES",
+    "probabilidad": 10.9
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 2,
+    "numero": 1,
+    "caballo": "ALMERILLO",
+    "jinete": "J. OLATE",
+    "probabilidad": 14.6
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 2,
+    "numero": 2,
+    "caballo": "SENSEI DE FRANKLIN",
+    "jinete": "C. CORDERO",
+    "probabilidad": 14.1
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 2,
+    "numero": 3,
+    "caballo": "LANNA",
+    "jinete": "G. PEREDA",
+    "probabilidad": 14.1
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 2,
+    "numero": 4,
+    "caballo": "GRAN TAITA",
+    "jinete": "B. CORDERO",
+    "probabilidad": 14.6
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 2,
+    "numero": 5,
+    "caballo": "SEKOTI",
+    "jinete": "A. SOTO",
+    "probabilidad": 14.6
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 2,
+    "numero": 6,
+    "caballo": "GRAN DREAMER",
+    "jinete": "JN.A. CAMPOS",
+    "probabilidad": 14.1
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 2,
+    "numero": 7,
+    "caballo": "PATRON DE MUSKIZ",
+    "jinete": "B. DÍAZ",
+    "probabilidad": 14.1
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 3,
+    "numero": 1,
+    "caballo": "ME LO LLEVO",
+    "jinete": "J. OLATE",
+    "probabilidad": 14.4
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 3,
+    "numero": 2,
+    "caballo": "ALBIORIX",
+    "jinete": "A. PEREDA",
+    "probabilidad": 13.9
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 3,
+    "numero": 3,
+    "caballo": "EL GRAN TORNADO",
+    "jinete": "V. MARDONES",
+    "probabilidad": 13.9
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 3,
+    "numero": 4,
+    "caballo": "MY BJORK",
+    "jinete": "J. MOYA",
+    "probabilidad": 14.4
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 3,
+    "numero": 5,
+    "caballo": "PUMARA",
+    "jinete": "C.A. ROJAS",
+    "probabilidad": 14.4
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 3,
+    "numero": 6,
+    "caballo": "LUDMILA",
+    "jinete": "G. VERA",
+    "probabilidad": 14.5
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 3,
+    "numero": 7,
+    "caballo": "REMEMBER DADDY",
+    "jinete": "C. CORDERO",
+    "probabilidad": 14.4
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 4,
+    "numero": 1,
+    "caballo": "GOLDEN GIANT",
+    "jinete": "C. PAVEZ",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 4,
+    "numero": 2,
+    "caballo": "JUDGE ROOM",
+    "jinete": "B. DÍAZ",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 4,
+    "numero": 3,
+    "caballo": "DOBLE NEGRO",
+    "jinete": "I. BARRIL",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 4,
+    "numero": 4,
+    "caballo": "ROJO JAMAS",
+    "jinete": "L. PÉREZ",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 4,
+    "numero": 5,
+    "caballo": "VICTORY DAVID",
+    "jinete": "G. VERA",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 4,
+    "numero": 6,
+    "caballo": "GUAPO MATIAS",
+    "jinete": "C.A. ROJAS",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 4,
+    "numero": 7,
+    "caballo": "FERRATA",
+    "jinete": "V. MARDONES",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 4,
+    "numero": 8,
+    "caballo": "EL TATUADO",
+    "jinete": "JN.A. CAMPOS",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 4,
+    "numero": 9,
+    "caballo": "BIG RED",
+    "jinete": "J. OLATE",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 4,
+    "numero": 10,
+    "caballo": "VELA AZUL",
+    "jinete": "G. PEREDA",
+    "probabilidad": 10.5
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 5,
+    "numero": 1,
+    "caballo": "CLAVERIA",
+    "jinete": "I. BARRIL",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 5,
+    "numero": 2,
+    "caballo": "TE ANDAN BUSCANDO",
+    "jinete": "A. PEREDA",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 5,
+    "numero": 3,
+    "caballo": "TEATRO GRIEGO",
+    "jinete": "I. OLATE",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 5,
+    "numero": 4,
+    "caballo": "SEVEN POINTS",
+    "jinete": "B. CORDERO",
+    "probabilidad": 13.1
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 5,
+    "numero": 5,
+    "caballo": "VIAJE A CARMEL",
+    "jinete": "JN.A. CAMPOS",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 5,
+    "numero": 6,
+    "caballo": "OLIMPIC BLUE",
+    "jinete": "M. URZÚA",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 5,
+    "numero": 7,
+    "caballo": "SEÑOR PENQUISTA",
+    "jinete": "V. MARDONES",
+    "probabilidad": 10.9
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 5,
+    "numero": 8,
+    "caballo": "TIO SALCHICHA",
+    "jinete": "G. VERA",
+    "probabilidad": 13.1
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 6,
+    "numero": 1,
+    "caballo": "JOUMA",
+    "jinete": "C. PAVEZ",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 6,
+    "numero": 2,
+    "caballo": "EL MENTALISTA",
+    "jinete": "J. BARRIL",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 6,
+    "numero": 3,
+    "caballo": "JOVENTURFMAN",
+    "jinete": "G. VERA",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 6,
+    "numero": 4,
+    "caballo": "SUENA EL DEMBOW",
+    "jinete": "J.P. TORRES",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 6,
+    "numero": 5,
+    "caballo": "EL REGENTO",
+    "jinete": "G. PEREDA",
+    "probabilidad": 12.2
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 6,
+    "numero": 6,
+    "caballo": "SIGNORE PIO",
+    "jinete": "V. MARDONES",
+    "probabilidad": 12.1
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 6,
+    "numero": 7,
+    "caballo": "CAMBUCHA",
+    "jinete": "A. SOTO",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 6,
+    "numero": 8,
+    "caballo": "MEDIO BANCA",
+    "jinete": "J. MOYA",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 7,
+    "numero": 1,
+    "caballo": "CORRE CALATO",
+    "jinete": "G. PEREDA",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 7,
+    "numero": 2,
+    "caballo": "PRINCIPE DE ORO",
+    "jinete": "L. PÉREZ",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 7,
+    "numero": 3,
+    "caballo": "THE REAL FAFA",
+    "jinete": "C. CORDERO",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 7,
+    "numero": 4,
+    "caballo": "LONG LONG TIME",
+    "jinete": "I. BARRIL",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 7,
+    "numero": 5,
+    "caballo": "WENA CASTILLO",
+    "jinete": "J.A. INOSTROZA",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 7,
+    "numero": 6,
+    "caballo": "GRAN KEVIN",
+    "jinete": "C.A. ROJAS",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 7,
+    "numero": 7,
+    "caballo": "PAKITO",
+    "jinete": "JN.A. CAMPOS",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 7,
+    "numero": 8,
+    "caballo": "TROMBONCITO",
+    "jinete": "G. VERA",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 7,
+    "numero": 9,
+    "caballo": "BUMPY",
+    "jinete": "B. DÍAZ",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 7,
+    "numero": 10,
+    "caballo": "SOY ECONOMICO",
+    "jinete": "A. SOTO",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 8,
+    "numero": 1,
+    "caballo": "GOOD VICTORY",
+    "jinete": "G. VERA",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 8,
+    "numero": 2,
+    "caballo": "LA RECAUDADORA",
+    "jinete": "J.A. INOSTROZA",
+    "probabilidad": 9.3
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 8,
+    "numero": 3,
+    "caballo": "ASTROAZURRO",
+    "jinete": "I. BARRIL",
+    "probabilidad": 8.9
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 8,
+    "numero": 4,
+    "caballo": "SHE IS SO NICE",
+    "jinete": "C. CORDERO",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 8,
+    "numero": 5,
+    "caballo": "GITANA GUAPA",
+    "jinete": "L. PÉREZ",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 8,
+    "numero": 6,
+    "caballo": "LOYALTY",
+    "jinete": "J. OLATE",
+    "probabilidad": 9.3
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 8,
+    "numero": 7,
+    "caballo": "JASPER PARK",
+    "jinete": "J.P. TORRES",
+    "probabilidad": 9.3
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 8,
+    "numero": 8,
+    "caballo": "FLASH STREAK",
+    "jinete": "C. PAVEZ",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 8,
+    "numero": 9,
+    "caballo": "DESTELLO REAL",
+    "jinete": "C.A. ROJAS",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 8,
+    "numero": 10,
+    "caballo": "ONKEL BRUNO",
+    "jinete": "A. SOTO",
+    "probabilidad": 9.3
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 8,
+    "numero": 11,
+    "caballo": "PANTEU",
+    "jinete": "B. DÍAZ",
+    "probabilidad": 8.9
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 9,
+    "numero": 1,
+    "caballo": "CHE NOVA",
+    "jinete": "L. PÉREZ",
+    "probabilidad": 9.9
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 9,
+    "numero": 2,
+    "caballo": "COMO TE EXTRAÑO",
+    "jinete": "I. MOYA",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 9,
+    "numero": 3,
+    "caballo": "GUAILON",
+    "jinete": "B. DÍAZ",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 9,
+    "numero": 4,
+    "caballo": "PUEDO Y MAS",
+    "jinete": "JN.A. CAMPOS",
+    "probabilidad": 9.9
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 9,
+    "numero": 5,
+    "caballo": "ULTRASONIDO",
+    "jinete": "G. VERA",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 9,
+    "numero": 6,
+    "caballo": "KASCLARITO",
+    "jinete": "B. CORDERO",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 9,
+    "numero": 7,
+    "caballo": "BAD BUNNY",
+    "jinete": "J. OLATE",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 9,
+    "numero": 8,
+    "caballo": "IL IMPERATORE",
+    "jinete": "V. MARDONES",
+    "probabilidad": 9.8
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 9,
+    "numero": 9,
+    "caballo": "CHARMING STAR",
+    "jinete": "I. BARRIL",
+    "probabilidad": 9.9
+  },
+  {
+    "fecha": "2026-03-03",
+    "hipodromo": "Concepción",
+    "carrera": 9,
+    "numero": 10,
+    "caballo": "DESTELLO FUGAZ",
+    "jinete": "C. PAVEZ",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 1,
+    "caballo": "THUNDERMAN",
+    "jinete": "G. A. PEREZ",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 2,
+    "caballo": "ROM TALE (USA)",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 3,
+    "caballo": "EL CARIÑOSO",
+    "jinete": "C. BOBADILLA",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 4,
+    "caballo": "IGMAFE",
+    "jinete": "N. ROJAS",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 5,
+    "caballo": "COMMAND",
+    "jinete": "C. POBLETE",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 6,
+    "caballo": "EL MISTER",
+    "jinete": "P. GALAZ",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 7,
+    "caballo": "SUPER PIRATA",
+    "jinete": "M. SALINAS",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 8,
+    "caballo": "ROYAL FIERCE",
+    "jinete": "AL MAUREIRA",
+    "probabilidad": 8.5
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 9,
+    "caballo": "LA BANDA VERDE",
+    "jinete": "WLADIMIR QUINTEROS",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 10,
+    "caballo": "RAKATA",
+    "jinete": "F. TAPIA",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 11,
+    "caballo": "LOUVING",
+    "jinete": "J. EYZAGUIRRE",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 1,
+    "numero": 12,
+    "caballo": "JUSTINSITO CRACK",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 8.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 1,
+    "caballo": "KEIDAR (ARG)",
+    "jinete": "J. ZUÑIGA",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 2,
+    "caballo": "MUY MATON",
+    "jinete": "L. GONZALEZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 3,
+    "caballo": "EL PROFETA",
+    "jinete": "VILLAGRAN",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 4,
+    "caballo": "DALE LIKE",
+    "jinete": "G. A. PEREZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 5,
+    "caballo": "YA SILIO",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 6,
+    "caballo": "CONSTITUTION'S SON",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 7,
+    "caballo": "ALL STARS",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 8,
+    "caballo": "PERLA DEL AUSTRO",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 9,
+    "caballo": "CALOCHITA",
+    "jinete": "N. ROJAS",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 10,
+    "caballo": "CALVETI",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 11,
+    "caballo": "LILYBETH",
+    "jinete": "P. GALAZ",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 10,
+    "numero": 12,
+    "caballo": "DAYS OF FUTURE",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 1,
+    "caballo": "VARESE",
+    "jinete": "C. BOBADILLA",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 2,
+    "caballo": "NO HAY ADIOS",
+    "jinete": "WLADIMIR QUINTEROS",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 3,
+    "caballo": "SCANDELA SPECIAL",
+    "jinete": "F. MORENO",
+    "probabilidad": 7.9
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 4,
+    "caballo": "EXETER (ARG)",
+    "jinete": "C. POBLETE",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 5,
+    "caballo": "AGUILADE FUEGO",
+    "jinete": "G. A. PEREZ",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 6,
+    "caballo": "CHAMPELICE",
+    "jinete": "J. EYZAGUIRRE",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 7,
+    "caballo": "PRINCESA LUDY",
+    "jinete": "F. TAPIA",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 8,
+    "caballo": "PAZZELLE",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 9,
+    "caballo": "GRAN ROMANO",
+    "jinete": "J. D. VILLAGRAN",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 10,
+    "caballo": "LATTICE",
+    "jinete": "D. CARVACHO",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 11,
+    "numero": 11,
+    "caballo": "JUNTITOS SIEMPRE",
+    "jinete": "R. S. DORES",
+    "probabilidad": 9.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 1,
+    "caballo": "SIGAN LA MUSICA",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 2,
+    "caballo": "THE GREAT DANY",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 3,
+    "caballo": "LORENZ BLACK",
+    "jinete": "J. M.SOTO",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 4,
+    "caballo": "WIND OF CHANGES",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 5,
+    "caballo": "EL ESPIA",
+    "jinete": "J. BAEZA",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 6,
+    "caballo": "MONO MONIN",
+    "jinete": "WLADIMIR QUINTEROS",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 7,
+    "caballo": "CIOCOLATTA",
+    "jinete": "J. D. VILLAGRAN",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 8,
+    "caballo": "BETTER THAN",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 9,
+    "caballo": "EL TANQUE AGUS",
+    "jinete": "F. MORENO",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 12,
+    "numero": 10,
+    "caballo": "LA TIA ELENA",
+    "jinete": "J. EYZAGUIRRE",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 1,
+    "caballo": "AHI VIENE AHI VA",
+    "jinete": "C. BOBADILLA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 2,
+    "caballo": "CALIFORNIA SPRING",
+    "jinete": "S. MARIN",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 3,
+    "caballo": "KING OCTOPUS",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 4,
+    "caballo": "NAKBA",
+    "jinete": "P. REYES",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 5,
+    "caballo": "IL VENTO",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 6,
+    "caballo": "JERUSA",
+    "jinete": "L VILLAGRAN",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 7,
+    "caballo": "CHE SAMARITAN",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 5.8
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 8,
+    "caballo": "MORINGA",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 9,
+    "caballo": "ALTO FOREVER",
+    "jinete": "N. ROJAS",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 10,
+    "caballo": "GRAN MORRON",
+    "jinete": "G.A. PEREZ",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 11,
+    "caballo": "HIPATIA",
+    "jinete": "A APABLAZA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 12,
+    "caballo": "SOTO DE ANGOL",
+    "jinete": "P. GALAZ",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 13,
+    "caballo": "KISS THE QUEEN",
+    "jinete": "F. TAPIA",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 14,
+    "caballo": "BACK TO BLACK",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 7.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 13,
+    "numero": 15,
+    "caballo": "SHIVERS",
+    "jinete": "L. GONZALEZ",
+    "probabilidad": 6.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 1,
+    "caballo": "TIGRE DE FUEGO",
+    "jinete": "P. GALAZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 2,
+    "caballo": "BONE LESS",
+    "jinete": "G. A. PEREZ",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 3,
+    "caballo": "PAICAVI",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 7.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 4,
+    "caballo": "SPOTTER",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 5,
+    "caballo": "LADY LUMBER",
+    "jinete": "C. BOBADILLA",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 6,
+    "caballo": "RESPECT",
+    "jinete": "R. S. DORES",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 7,
+    "caballo": "PEGGY NICE",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 8,
+    "caballo": "LIO CORDILLERANO",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 9,
+    "caballo": "RADIO TEATRO (ARG)",
+    "jinete": "M. SALINAS",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 10,
+    "caballo": "ULI EL LUCHADOR",
+    "jinete": "J. D. VILLAGRAN",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 11,
+    "caballo": "TERRIBLE GOOD",
+    "jinete": "A. 1. MAUREIRA",
+    "probabilidad": 8.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 14,
+    "numero": 12,
+    "caballo": "CREO EN MI",
+    "jinete": "1. VILLAGRAN",
+    "probabilidad": 8.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 1,
+    "caballo": "THE GREAT TEXAS",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 2,
+    "caballo": "LA DOPINHUE",
+    "jinete": "F. MORENO",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 3,
+    "caballo": "EL PALOMO",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 4,
+    "caballo": "POTRO QUERIDO",
+    "jinete": "P. REYES",
+    "probabilidad": 6.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 5,
+    "caballo": "EL ARTE DE CANTAR",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 6,
+    "caballo": "KAPU",
+    "jinete": "J. BAEZA",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 7,
+    "caballo": "MALA MEMORIA",
+    "jinete": "M. A. DONOSO",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 8,
+    "caballo": "LE PEINTRE (ARG)",
+    "jinete": "G. A. PEREZ",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 9,
+    "caballo": "BREEZY STAR",
+    "jinete": "J. ZUÑIGA",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 10,
+    "caballo": "TANYTUS",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 11,
+    "caballo": "ROY PARA UN POCO",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 12,
+    "caballo": "WINGS OF FIRE",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 7.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 13,
+    "caballo": "CRISTAL GINGER",
+    "jinete": "L. GONZALEZ",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 15,
+    "numero": 14,
+    "caballo": "DESPROLIJO",
+    "jinete": "I VILLAGRAN",
+    "probabilidad": 7.3
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 1,
+    "caballo": "PRINCESS SIRIKIT",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 2,
+    "caballo": "SINNERBARATO",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 3,
+    "caballo": "ARRAZZO",
+    "jinete": "M. A. DONOSO",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 4,
+    "caballo": "BOM BOM ASESINO",
+    "jinete": "J. D. VILLAGRAN",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 5,
+    "caballo": "AKYTOY PAPA",
+    "jinete": "M. SALINAS",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 6,
+    "caballo": "AVE DORADA",
+    "jinete": "N. ROJAS",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 7,
+    "caballo": "LA PANDE",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 8,
+    "caballo": "NAIPUR RAIDER",
+    "jinete": "AL MAUREIRA",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 9,
+    "caballo": "FAFIFO",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 10,
+    "caballo": "RITMO SALVAJE",
+    "jinete": "C. BOBADILLA",
+    "probabilidad": 9.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 2,
+    "numero": 11,
+    "caballo": "PROMETEO",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 9.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 1,
+    "caballo": "MIS MEJORES AMIGOS",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 17.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 2,
+    "caballo": "INDIAN MELODY",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 16.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 3,
+    "caballo": "GOLDEN EAST",
+    "jinete": "P. REYES",
+    "probabilidad": 16.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 4,
+    "caballo": "CARITA DE WHISKY",
+    "jinete": "J. GONZALEZ",
+    "probabilidad": 17.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 5,
+    "caballo": "TE QUIERO TODAVIA",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 14.5
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 3,
+    "numero": 6,
+    "caballo": "PATO CUNCUNA",
+    "jinete": "S. MARIN",
+    "probabilidad": 17.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 1,
+    "caballo": "TATUN",
+    "jinete": "A.L VILLAGRA",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 2,
+    "caballo": "MYSTERIO",
+    "jinete": "J. BAEZA",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 3,
+    "caballo": "EL SALVADOR",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 4,
+    "caballo": "GRAN SAMCREDO",
+    "jinete": "N. ROJAS",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 5,
+    "caballo": "CATAPOS",
+    "jinete": "A. L. MAUREIRA",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 6,
+    "caballo": "FALLEN DREAMER",
+    "jinete": "J. D. VILLAGRAN",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 7,
+    "caballo": "RAMSIS",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 5.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 8,
+    "caballo": "PRIMO JULERO",
+    "jinete": "C. BOBADILLA",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 9,
+    "caballo": "HOFFA",
+    "jinete": "S. MARIN",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 10,
+    "caballo": "MATI ROCKERO",
+    "jinete": "I. VILLAGRAN",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 11,
+    "caballo": "KING EOLO",
+    "jinete": "J. EYZAGUIRRE",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 12,
+    "caballo": "GROSSETO",
+    "jinete": "G.A. PEREZ",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 13,
+    "caballo": "MI GIGANTE",
+    "jinete": "P. ROBLES",
+    "probabilidad": 6.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 14,
+    "caballo": "AMERICAN BUNNY",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 6.9
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 4,
+    "numero": 15,
+    "caballo": "VINCERO",
+    "jinete": "M.A. DONOSO",
+    "probabilidad": 6.8
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 1,
+    "caballo": "GERMANICUS",
+    "jinete": "R.S. DORES",
+    "probabilidad": 11.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 2,
+    "caballo": "MAKIS (ARG)",
+    "jinete": "J. ZUÑIGA",
+    "probabilidad": 11.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 3,
+    "caballo": "FALLEN STAR",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 11.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 4,
+    "caballo": "NEW DAY (ARG)",
+    "jinete": "P. REYES",
+    "probabilidad": 11.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 5,
+    "caballo": "STORMY LUCKY",
+    "jinete": "S. MARIN",
+    "probabilidad": 11.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 6,
+    "caballo": "KARSTADT",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 11.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 7,
+    "caballo": "SUD AMERICANO",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 11.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 8,
+    "caballo": "SEVERUS SNAPE",
+    "jinete": "C. BOBADILLA",
+    "probabilidad": 11.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 5,
+    "numero": 9,
+    "caballo": "SO HANDSOME",
+    "jinete": "A. APABLAZA",
+    "probabilidad": 9.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 1,
+    "caballo": "LEVANTATE BEBE",
+    "jinete": "J. ZUÑIGA",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 2,
+    "caballo": "ANDRE BOLKONSKY",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 10.9
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 3,
+    "caballo": "DALE ISI",
+    "jinete": "L. GONZALEZ",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 4,
+    "caballo": "SOL DE TROYA",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 13.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 5,
+    "caballo": "WARRIOR SPIRIT",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 6,
+    "caballo": "PARSIFAL",
+    "jinete": "R. FUENZALIDA",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 7,
+    "caballo": "DADDY TITO",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 13.1
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 6,
+    "numero": 8,
+    "caballo": "NO PAIN NO GAIN",
+    "jinete": "A. L MAUREIRA",
+    "probabilidad": 12.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 1,
+    "caballo": "MELONI",
+    "jinete": "A.L MAUREIRA",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 2,
+    "caballo": "CARIBEAN PASSION",
+    "jinete": "WLADIMIR QUINTEROS",
+    "probabilidad": 8.8
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 3,
+    "caballo": "GRAN CAFRUNE",
+    "jinete": "J. EYZAGUIRRE",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 4,
+    "caballo": "PRIMO HAPPY",
+    "jinete": "G. A. PEREZ",
+    "probabilidad": 10.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 5,
+    "caballo": "ALIVES",
+    "jinete": "J. MIÑO",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 6,
+    "caballo": "GREEN DRESS",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 8.8
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 7,
+    "caballo": "GATO POR LIEBRE",
+    "jinete": "J. D. VILLAGRAN",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 8,
+    "caballo": "DALE FLACA",
+    "jinete": "L GONZALEZ",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 9,
+    "caballo": "WATAKIN",
+    "jinete": "I. VILLAGRAN",
+    "probabilidad": 10.2
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 7,
+    "numero": 10,
+    "caballo": "BLACK OLIVES",
+    "jinete": "M. SALINAS",
+    "probabilidad": 10.6
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 1,
+    "caballo": "TIENES MI SONRISA",
+    "jinete": "L VILLAGRAN",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 2,
+    "caballo": "JARRA DE VINO",
+    "jinete": "WLADIMIR QUINTEROS",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 3,
+    "caballo": "BIG WALLACE (ARG)",
+    "jinete": "L. GONZALEZ",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 4,
+    "caballo": "EL ODIOSO (ARG)",
+    "jinete": "J. BAEZA",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 5,
+    "caballo": "AFIRMATE GATO",
+    "jinete": "G. A. PEREZ",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 6,
+    "caballo": "DICTATORIAL",
+    "jinete": "S. MARIN",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 7,
+    "caballo": "NARCISISTA",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 10.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 8,
+    "caballo": "MODELO DEL SALTO",
+    "jinete": "S. E. GONZALEZ",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 9,
+    "caballo": "GLADIATORE",
+    "jinete": "N. ROJAS",
+    "probabilidad": 10.0
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 8,
+    "numero": 10,
+    "caballo": "GUERRERO ARABE",
+    "jinete": "C. ORTEGA",
+    "probabilidad": 8.7
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 1,
+    "caballo": "SOUL QUEEN",
+    "jinete": "H. OCHOA",
+    "probabilidad": 12.9
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 2,
+    "caballo": "IRISH BOY",
+    "jinete": "JOAQUIN HERRERA",
+    "probabilidad": 12.9
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 3,
+    "caballo": "WHITE SPIRIT",
+    "jinete": "N. RAMIREZ",
+    "probabilidad": 12.9
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 4,
+    "caballo": "DON ALTOBELLO",
+    "jinete": "JAIME MEDINA",
+    "probabilidad": 12.9
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 5,
+    "caballo": "MUY AMIGO",
+    "jinete": "G. A. PEREZ",
+    "probabilidad": 12.9
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 6,
+    "caballo": "LAST GAMBLE",
+    "jinete": "P. REYES",
+    "probabilidad": 10.8
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 7,
+    "caballo": "HOOTEROAD",
+    "jinete": "L. SILVA F.",
+    "probabilidad": 12.4
+  },
+  {
+    "fecha": "2026-03-04",
+    "hipodromo": "Valparaíso Sporting",
+    "carrera": 9,
+    "numero": 8,
+    "caballo": "SUEÑO CHILOTE",
+    "jinete": "BENJAMIN SANCHO",
+    "probabilidad": 12.4
+  }
+]
