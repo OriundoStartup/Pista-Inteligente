@@ -17,6 +17,25 @@ def get_sqlite_conn():
         return None
     return sqlite3.connect(DB_PATH)
 
+def fetch_all_supabase(query_builder):
+    """
+    Helper to fetch all records from Supabase using pagination.
+    """
+    all_data = []
+    page_size = 1000
+    offset = 0
+    
+    while True:
+        res = query_builder.range(offset, offset + page_size - 1).execute()
+        if not res.data:
+            break
+        all_data.extend(res.data)
+        if len(res.data) < page_size:
+            break
+        offset += page_size
+        
+    return all_data
+
 def migrate_table(table_name, supabase_table, mapping=None, on_conflict=None, columns=None):
     """
     Reads a table from SQLite and upserts to Supabase.
@@ -120,9 +139,9 @@ def run_migration():
             # Usar UPSERT en lugar de delete+insert
             # Filter out existing hipodromos by name to avoid Unique Key violations
             try:
-                # Get existing names from Supabase
-                res = client.get_client().table('hipodromos').select('nombre').execute()
-                existing_names = {r['nombre'] for r in res.data} if res.data else set()
+                # Get existing names from Supabase using pagination
+                sup_data = fetch_all_supabase(client.get_client().table('hipodromos').select('nombre'))
+                existing_names = {r['nombre'] for r in sup_data} if sup_data else set()
                 
                 # Filter records
                 clean_records = []
@@ -164,9 +183,9 @@ def run_migration():
             JOIN hipodromos h ON j.hipodromo_id = h.id
         """, conn)
         
-        # Get hipodromo mapping: nombre -> Supabase ID
-        supabase_hip = client.get_client().table('hipodromos').select('id, nombre').execute()
-        hip_name_to_id = {r['nombre']: r['id'] for r in supabase_hip.data} if supabase_hip.data else {}
+        # Get hipodromo mapping: nombre -> Supabase ID using pagination
+        sup_hip = fetch_all_supabase(client.get_client().table('hipodromos').select('id, nombre'))
+        hip_name_to_id = {r['nombre']: r['id'] for r in sup_hip} if sup_hip else {}
         
         if sqlite_jornadas.empty:
             print("   ⚠️ No jornadas in SQLite")
@@ -208,24 +227,24 @@ def run_migration():
         """, conn)
         conn.close()
         
-        # Get current jornadas from Supabase for mapping
-        sup_jornadas = client.get_client().table('jornadas').select(
+        # Get current jornadas from Supabase for mapping using pagination
+        sup_jornadas = fetch_all_supabase(client.get_client().table('jornadas').select(
             'id, fecha, hipodromos(nombre)'
-        ).execute()
+        ))
         
         # Build jornada lookup: (hipodromo_nombre, fecha) -> jornada_id
         jornada_lookup = {}
-        if sup_jornadas.data:
-            for j in sup_jornadas.data:
+        if sup_jornadas:
+            for j in sup_jornadas:
                 if j.get('hipodromos'):
                     key = (j['hipodromos']['nombre'], j['fecha'])
                     jornada_lookup[key] = j['id']
         
-        # Get existing carreras from Supabase to avoid duplicates
-        existing_carreras = client.get_client().table('carreras').select(
+        # Get existing carreras from Supabase to avoid duplicates using pagination
+        existing_carreras = fetch_all_supabase(client.get_client().table('carreras').select(
             'jornada_id, numero'
-        ).execute()
-        existing_set = {(r['jornada_id'], r['numero']) for r in existing_carreras.data} if existing_carreras.data else set()
+        ))
+        existing_set = {(r['jornada_id'], r['numero']) for r in existing_carreras} if existing_carreras else set()
         print(f"   Existing carreras in Supabase: {len(existing_set)}")
         
         if sqlite_carreras.empty:
@@ -296,15 +315,15 @@ def run_migration():
             JOIN hipodromos h ON j.hipodromo_id = h.id
         """, conn)
         
-        # Get ALL data from Supabase with natural keys
-        sup_carreras = client.get_client().table('carreras').select(
+        # Get ALL data from Supabase with natural keys using pagination
+        sup_carreras = fetch_all_supabase(client.get_client().table('carreras').select(
             'id, numero, jornadas(fecha, hipodromos(nombre))'
-        ).execute()
+        ))
         
         # Build Supabase lookup: (hipodromo_nombre, fecha, numero) -> supabase_carrera_id
         supabase_lookup = {}
-        if sup_carreras.data:
-            for r in sup_carreras.data:
+        if sup_carreras:
+            for r in sup_carreras:
                 if r.get('jornadas') and r['jornadas'].get('hipodromos'):
                     key = (
                         r['jornadas']['hipodromos']['nombre'],

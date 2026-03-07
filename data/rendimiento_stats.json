@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-03-06T00:42:00.207205",
+  "generated_at": "2026-03-07T13:26:25.572912",
   "global": {
     "last_30_days": {
-      "total_carreras": 310,
-      "ganador_pct": 4.8,
+      "total_carreras": 298,
+      "ganador_pct": 4.7,
       "quiniela_pct": 0.3,
       "trifecta_pct": 0.3,
       "superfecta_pct": 0.3,
-      "ganador_count": 15,
+      "ganador_count": 14,
       "quiniela_count": 1,
       "trifecta_count": 1,
       "superfecta_count": 1

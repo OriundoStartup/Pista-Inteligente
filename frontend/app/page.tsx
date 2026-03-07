@@ -1,13 +1,14 @@
-import { createClient } from '@supabase/supabase-js'
+import { createClient } from '@/utils/supabase/server'
 import Link from 'next/link'
 import JackpotAlert from '@/components/JackpotAlert'
+import { getTopJinetes } from '@/lib/jinetes'
 
 // ISR: Revalidar cada 5 minutos
 export const revalidate = 300
 
 // Fetch stats from Supabase (real data only)
 async function getStats() {
-  const supabase = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!)
+  const supabase = await createClient()
   try {
     // Get total races count
     const { count: totalCarreras } = await supabase
@@ -38,117 +39,9 @@ async function getStats() {
   }
 }
 
-interface JineteStat {
-  jinete: string
-  ganadas: number
-  eficiencia: string
-}
-
-// Fetch top jockeys using Database Function (RPC) for performance and complete data
-async function getTopJinetes(): Promise<JineteStat[]> {
-  const supabase = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!)
-  try {
-    // 1. Try RPC Call (Server-side aggregation)
-    const { data, error } = await supabase.rpc('get_top_jinetes_2026')
-
-    if (error) {
-      console.warn("RPC get_top_jinetes_2026 failed, falling back to legacy fetch:", error.message)
-      return getTopJinetesLegacy(supabase)
-    }
-
-    if (!data || data.length === 0) {
-      console.log("No data from RPC")
-      return getTopJinetesLegacy(supabase)
-    }
-
-    // Map RPC result
-    return data.map((j: any) => ({
-      jinete: j.jinete,
-      ganadas: Number(j.ganadas),
-      eficiencia: j.eficiencia // Already formatted as text in SQL
-    }))
-
-  } catch (e) {
-    console.error("Exception in getTopJinetes:", e)
-    return fallbackJinetes()
-  }
-}
-
-// Legacy method (Client-side aggregation) - Subject to 1000 row limit
-async function getTopJinetesLegacy(supabase: any): Promise<JineteStat[]> {
-  try {
-    // Fetch all participaciones with jornada dates from 2026
-    const { data, error } = await supabase
-      .from('participaciones')
-      .select(`
-        posicion,
-        jinetes (nombre),
-        carreras!inner (
-          jornadas!inner (
-            fecha
-          )
-        )
-      `)
-      .gte('carreras.jornadas.fecha', '2026-01-01')
-      .lte('carreras.jornadas.fecha', '2026-12-31')
-
-    if (error) {
-      console.error("Error fetching jinetes 2026 (Legacy):", error)
-      return fallbackJinetes()
-    }
-
-    if (!data || data.length === 0) {
-      return fallbackJinetes()
-    }
-
-    // Aggregate wins and mounts
-    const stats: Record<string, { ganadas: number; montes: number }> = {}
-
-    data.forEach((row: any) => {
-      const jineteName = row.jinetes?.nombre || 'Desconocido'
-      const nombre = jineteName.trim()
-
-      if (!stats[nombre]) {
-        stats[nombre] = { ganadas: 0, montes: 0 }
-      }
-
-      stats[nombre].montes += 1
-
-      // Count wins (position 1)
-      if (row.posicion == 1 || row.posicion == '1') {
-        stats[nombre].ganadas += 1
-      }
-    })
-
-    // Convert to array and sort by wins
-    const sortedJinetes = Object.entries(stats)
-      .map(([nombre, stat]) => ({
-        jinete: nombre,
-        ganadas: stat.ganadas,
-        eficiencia: stat.montes > 0 ? ((stat.ganadas / stat.montes) * 100).toFixed(1) : '0.0'
-      }))
-      .sort((a, b) => b.ganadas - a.ganadas)
-      .slice(0, 5)
-
-    return sortedJinetes.length > 0 ? sortedJinetes : fallbackJinetes()
-
-  } catch (e) {
-    console.error("Exception in getTopJinetesLegacy:", e)
-    return fallbackJinetes()
-  }
-}
-
-function fallbackJinetes(): JineteStat[] {
-  return [
-    { jinete: 'J. Medina', ganadas: 0, eficiencia: '0.0' },
-    { jinete: 'B. Sancho', ganadas: 0, eficiencia: '0.0' },
-    { jinete: 'Sin Datos', ganadas: 0, eficiencia: '0.0' },
-  ]
-}
-
 export default async function Home() {
   const stats = await getStats()
-  const topJinetes = await getTopJinetes()
+  const topJinetes = await getTopJinetes(2026)
 
   return (
     <>
@@ -261,13 +154,21 @@ export default async function Home() {
             </tr>
           </thead>
           <tbody>
-            {topJinetes.map((jinete, index) => (
-              <tr key={index}>
-                <td>{jinete.jinete}</td>
-                <td>{jinete.ganadas}</td>
-                <td>{jinete.eficiencia}%</td>
+            {topJinetes.length > 0 ? (
+              topJinetes.map((jinete, index) => (
+                <tr key={index}>
+                  <td>{jinete.jinete}</td>
+                  <td>{jinete.ganadas}</td>
+                  <td>{jinete.eficiencia}%</td>
+                </tr>
+              ))
+            ) : (
+              <tr>
+                <td colSpan={3} style={{ textAlign: 'center', padding: '2rem', color: 'var(--text-muted)' }}>
+                  No hay datos disponibles para el ranking 2026 en este momento.
+                </td>
               </tr>
-            ))}
+            )}
           </tbody>
         </table>
       </div>
