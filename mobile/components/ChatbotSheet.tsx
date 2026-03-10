@@ -9,8 +9,8 @@ import {
     Platform,
     ActivityIndicator,
     Modal,
-    SafeAreaView,
 } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { ThemedText } from './ThemedText';
 import { Colors } from '../constants/Colors';
@@ -110,6 +110,7 @@ export function ChatbotSheet({ visible, onClose }: ChatbotSheetProps) {
     const [input, setInput] = useState('');
     const [isLoading, setIsLoading] = useState(false);
     const flatListRef = useRef<FlatList>(null);
+    const insets = useSafeAreaInsets();
 
     const sendMessage = useCallback(async () => {
         const trimmed = input.trim();
@@ -171,14 +172,14 @@ export function ChatbotSheet({ visible, onClose }: ChatbotSheetProps) {
             presentationStyle={Platform.OS === 'ios' ? 'pageSheet' : 'fullScreen'}
             transparent={false}
         >
-            <SafeAreaView style={styles.container}>
+            <View style={styles.container}>
                 <KeyboardAvoidingView
-                    behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+                    behavior={Platform.OS === 'ios' ? 'padding' : undefined}
                     style={styles.keyboardView}
                     keyboardVerticalOffset={Platform.OS === 'ios' ? 0 : 0}
                 >
                     {/* ─── Header ─── */}
-                    <View style={styles.header}>
+                    <View style={[styles.header, { paddingTop: Math.max(Spacing.lg, insets.top) }]}>
                         <View style={styles.headerLeft}>
                             <ThemedText style={{ fontSize: 24 }}>🤖</ThemedText>
                             <View>
@@ -218,7 +219,10 @@ export function ChatbotSheet({ visible, onClose }: ChatbotSheetProps) {
                     />
 
                     {/* ─── Input footer ─── */}
-                    <View style={styles.inputRow}>
+                    <View style={[
+                        styles.inputRow,
+                        { paddingBottom: Math.max(Spacing.md, insets.bottom + (Platform.OS === 'android' ? 4 : 0)) }
+                    ]}>
                         <TextInput
                             style={styles.textInput}
                             value={input}
@@ -249,7 +253,7 @@ export function ChatbotSheet({ visible, onClose }: ChatbotSheetProps) {
                         </TouchableOpacity>
                     </View>
                 </KeyboardAvoidingView>
-            </SafeAreaView>
+            </View>
         </Modal>
     );
 }

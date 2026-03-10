@@ -34,6 +34,7 @@
       },
       "package": "com.pistainteligente.app",
       "versionCode": 1,
+      "softwareKeyboardLayoutMode": "resize",
       "permissions": [
         "NOTIFICATIONS",
         "INTERNET",

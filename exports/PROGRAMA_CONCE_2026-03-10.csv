@@ -1,0 +1,82 @@
+fecha,hipodromo,nro_carrera,hora,premio,distancia,superficie,numero,caballo,padrillo,peso,jinete,preparador,pozo
+10-03-2026,Concepción,1,16:30,KAINITA,1100,Arena,1,KASCLARITO,Mayakovsky,55,F. Acevedo,A. Pereda,6.000.000
+10-03-2026,Concepción,1,16:30,KAINITA,1100,Arena,2,LUDMILA,Boboman,56,J. Espinosa,G. Vera,6.000.000
+10-03-2026,Concepción,1,16:30,KAINITA,1100,Arena,3,LA RECAUDADORA,Ascot Prince,56,A. Cea,J.A. Inostroza,6.000.000
+10-03-2026,Concepción,1,16:30,KAINITA,1100,Arena,4,TROMBONCITO,Viscount Nelson,55,L.G. Soto,A. Soto,6.000.000
+10-03-2026,Concepción,1,16:30,KAINITA,1100,Arena,5,CHARMING STAR,Mendelssohn,56,C. Norambuena,G. Pereda,6.000.000
+10-03-2026,Concepción,1,16:30,KAINITA,1100,Arena,6,PATRONUS,Gemologist,55,H. Arteaga,J. Olate,6.000.000
+10-03-2026,Concepción,1,16:30,KAINITA,1100,Arena,7,DALE FLORA,Feliz De La Vida,57,F. Saavedra,Jn.A. Campos,6.000.000
+10-03-2026,Concepción,1,16:30,KAINITA,1100,Arena,8,CHE NOVA,Dubai Sky,55,Ev. Alarcón,A. Vega,6.000.000
+10-03-2026,Concepción,1,16:30,KAINITA,1100,Arena,9,MISS SPRING,Palm Springs,57,C. Córdova,V. Mardones,6.000.000
+10-03-2026,Concepción,2,17:00,KAPPO,900,Arena,1,PREFIERO CALLAR,Grand Daddy,56,H. Arteaga (AP),1. Cárcamo,1.000.000
+10-03-2026,Concepción,2,17:00,KAPPO,900,Arena,2,GUERRERO MAZAI,Ivan Denisovich,56,F. Acevedo,B. Díaz,1.000.000
+10-03-2026,Concepción,2,17:00,KAPPO,900,Arena,3,ENGLA,Tumblebrutus,56,C. Córdova,J. Moya,1.000.000
+10-03-2026,Concepción,2,17:00,KAPPO,900,Arena,4,SOY ECONOMICO,Distorted Economy,56,LG. Soto,A. Soto,1.000.000
+10-03-2026,Concepción,2,17:00,KAPPO,900,Arena,5,EL PERRO NEGRO,Exaggerator,56,H. Arteaga,G. Pereda,1.000.000
+10-03-2026,Concepción,2,17:00,KAPPO,900,Arena,6,PRINCIPE DE ORO,Hold Me Back,56,J.P. Torres,E. Alarcón,1.000.000
+10-03-2026,Concepción,2,17:00,KAPPO,900,Arena,7,COMO TE EXTRAÑO,Goldencents,56,C. Pavez,N. Norambuena,1.000.000
+10-03-2026,Concepción,2,17:00,KAPPO,900,Arena,8,HEY NINA,Seeking The Dia,56,R. Bello,J.A. Miño,1.000.000
+10-03-2026,Concepción,2,17:00,KAPPO,900,Arena,9,EL PARACAIDISTA,Sposito,56,C. Córdova,V. Mardones,1.000.000
+10-03-2026,Concepción,3,17:30,GRACIOSISIMO,1400,Arena,1,FIRST RAIDER,Morning Raider,53,G. Melo,C. Pavez,2.000.000
+10-03-2026,Concepción,3,17:30,GRACIOSISIMO,1400,Arena,2,NEGRO BUENO,Dylan Thomas,54,C. Norambuena,G. Pereda,2.000.000
+10-03-2026,Concepción,3,17:30,GRACIOSISIMO,1400,Arena,3,MUY DONOSO,Lookin At Lucky,60,E. González,1. Olate,2.000.000
+10-03-2026,Concepción,3,17:30,GRACIOSISIMO,1400,Arena,4,PECADO INCONFESABLE,Remote,51,C. Córdova,V. Mardones,2.000.000
+10-03-2026,Concepción,3,17:30,GRACIOSISIMO,1400,Arena,5,CORONADO,Practical Joke,61,C. Norambuena,G. Vera,2.000.000
+10-03-2026,Concepción,4,18:00,KIOTO,1000,Arena,1,LA SCHIFFER,El Manu,55,A. Cea,A. Pereda (4),5.000.000
+10-03-2026,Concepción,4,18:00,KIOTO,1000,Arena,2,VIAJE A CARMEL,Forward March,57,J. Espinosa,Jn.A. Campos (2),5.000.000
+10-03-2026,Concepción,4,18:00,KIOTO,1000,Arena,3,SEÑOR PENQUISTA,Flyer,57,E. González,G. Pereda (4),5.000.000
+10-03-2026,Concepción,4,18:00,KIOTO,1000,Arena,4,POLLY GRAY,Ticket To Run,55,G. Melo,G. Vera,5.000.000
+10-03-2026,Concepción,4,18:00,KIOTO,1000,Arena,5,SEVEN POINTS,Dubai Sky,57,A. Cea,J. Moya,5.000.000
+10-03-2026,Concepción,4,18:00,KIOTO,1000,Arena,6,MI TOÑITA,El Manu,55,A. Cea,C. Pavez (1),5.000.000
+10-03-2026,Concepción,4,18:00,KIOTO,1000,Arena,7,ARANTES,Newfoundland,57,E. Alarcón,B. Díaz (4),5.000.000
+10-03-2026,Concepción,4,18:00,KIOTO,1000,Arena,8,LA PECORA,Flyer,55,E. González,V. Mardones (4),5.000.000
+10-03-2026,Concepción,4,18:00,KIOTO,1000,Arena,9,OLIMPIC BLUE,El Milagrito,57,Ev. Alarcón,M. Urzúa (4),5.000.000
+10-03-2026,Concepción,5,18:30,KAWESKAR,1000,Arena,1,COMPADRE CRISTIAN,Gstaad II,56,C. Córdova,V. Mardones,1.000.000
+10-03-2026,Concepción,5,18:30,KAWESKAR,1000,Arena,2,LINDA LA GRINGA,Megliore Di Tutti,57,E. González,J. Moya,1.000.000
+10-03-2026,Concepción,5,18:30,KAWESKAR,1000,Arena,3,GANO Y VUELVO,Competitive Edge,61,Ev. Alarcón,A. Vega,1.000.000
+10-03-2026,Concepción,5,18:30,KAWESKAR,1000,Arena,4,MISS LADY CLASSIC,Classic Empire,54,J. Espinosa.,G. Vera,1.000.000
+10-03-2026,Concepción,5,18:30,KAWESKAR,1000,Arena,5,DON PACHALO,Mayakovsky,61,E. González,C. Pavez,1.000.000
+10-03-2026,Concepción,5,18:30,KAWESKAR,1000,Arena,6,CHACAYALINO,Mayakovsky,55,E. Alarcón,J.P. Torres,1.000.000
+10-03-2026,Concepción,5,18:30,KAWESKAR,1000,Arena,7,CARLUCCI,Seeking The Dia,63,H. Arteaga (AP),J. Pimentel,1.000.000
+10-03-2026,Concepción,5,18:30,KAWESKAR,1000,Arena,8,STROKE OF LUCK,Lookin At Lucky,57,R. Vásquez,J. Olate,1.000.000
+10-03-2026,Concepción,6,19:00,KIRBY,1000,Arena,1,STAIN,Arabian Spirit,56,J. Pimentel,N. Norambuena,2.000.000
+10-03-2026,Concepción,6,19:00,KIRBY,1000,Arena,2,GOLDEN GIANT,Timojin,56,C. Pavez,G. Melo,2.000.000
+10-03-2026,Concepción,6,19:00,KIRBY,1000,Arena,3,GENUINE COMAND,War Command,56,A. Cea,A. Pereda,2.000.000
+10-03-2026,Concepción,6,19:00,KIRBY,1000,Arena,4,SCHNELLER,Gemologist,55,R. Bello,Jn.A. Campos,2.000.000
+10-03-2026,Concepción,6,19:00,KIRBY,1000,Arena,5,FABI,Dangerous Midge,56,L.G. Soto,A. Soto,2.000.000
+10-03-2026,Concepción,6,19:00,KIRBY,1000,Arena,6,MIRADA DE ANGEL,Flyer,55,E. González,J. Moya,2.000.000
+10-03-2026,Concepción,6,19:00,KIRBY,1000,Arena,7,ASSADI,Grand Daddy,58,H. Arteaga,G. Pereda,2.000.000
+10-03-2026,Concepción,6,19:00,KIRBY,1000,Arena,8,ROJO JAMAS,Mayakovsky,56,G. Melo,A. Vega,2.000.000
+10-03-2026,Concepción,6,19:00,KIRBY,1000,Arena,9,BIG RED,California Chrome,58,R. Vásquez,C.A. Rojas,2.000.000
+10-03-2026,Concepción,7,19:30,KULLANKA,1000,Arena,1,GITANA GUAPA,State Of Play,55,Ev. Alarcón,A. Vega,9.000.000
+10-03-2026,Concepción,7,19:30,KULLANKA,1000,Arena,2,CINEMA PARADISO,Grand Daddy,56,A. Cea,C.A. Rojas,9.000.000
+10-03-2026,Concepción,7,19:30,KULLANKA,1000,Arena,3,VELA AZUL,Annual Report,57,C. Norambuena,G. Pereda,9.000.000
+10-03-2026,Concepción,7,19:30,KULLANKA,1000,Arena,4,SAFAT,Dylan Thomas,55,H. Arteaga,J. Olate,9.000.000
+10-03-2026,Concepción,7,19:30,KULLANKA,1000,Arena,5,ROGER RED,Awesome Patriot,57,A. Cea,A. Pereda,9.000.000
+10-03-2026,Concepción,7,19:30,KULLANKA,1000,Arena,6,MAL MIRADA,II Rey Ivan,55,G. Melo,G. Vera,9.000.000
+10-03-2026,Concepción,7,19:30,KULLANKA,1000,Arena,7,BAD BUNNY,Boboman,57,R. Bello,J.A. Miño,9.000.000
+10-03-2026,Concepción,7,19:30,KULLANKA,1000,Arena,8,GOLDEN WARRIOR,Ecliptic,56,H. Arteaga (AP),N. Carvajal,9.000.000
+10-03-2026,Concepción,7,19:30,KULLANKA,1000,Arena,9,GRAN DREAMER,Aragorn II,57,J. Espinosa,Jn.A. Campos,9.000.000
+10-03-2026,Concepción,7,19:30,KULLANKA,1000,Arena,10,FERRATA,Ya Primo,57,E. González,V. Mardones,9.000.000
+10-03-2026,Concepción,7,19:30,KULLANKA,1000,Arena,11,SONRIELE,Flyer,55,R. Vásquez,C. Pavez,9.000.000
+10-03-2026,Concepción,8,20:00,KABICA,1100,Arena,1,MI BUENA AMIGA,Mo Town,56,A. Cea,J. Moya,2.000.000
+10-03-2026,Concepción,8,20:00,KABICA,1100,Arena,2,HUMOR GENIAL,Stay Thirsty,56,C. Norambuena,B. Díaz,2.000.000
+10-03-2026,Concepción,8,20:00,KABICA,1100,Arena,3,FRAY LEON,Awesome Patriot,56,E. Alarcón,A. Vega,2.000.000
+10-03-2026,Concepción,8,20:00,KABICA,1100,Arena,4,ULTRASONIDO,Court Vision,56,F. Acevedo,G. Vera,2.000.000
+10-03-2026,Concepción,8,20:00,KABICA,1100,Arena,5,DEMOS UN PASEITO,Patternrecognition,56,G. Melo,C. Pavez,2.000.000
+10-03-2026,Concepción,8,20:00,KABICA,1100,Arena,6,REINA FILETE,Exaggerator,56,R. Vásquez,Jn.A. Campos,2.000.000
+10-03-2026,Concepción,8,20:00,KABICA,1100,Arena,7,ANDIAMO BAMBINO,Grand Daddy,56,C. Córdova,V. Mardones,2.000.000
+10-03-2026,Concepción,8,20:00,KABICA,1100,Arena,8,I AM BLACKLIST,Hold Me Back,56,C. Córdova,J.A. Inostroza,2.000.000
+10-03-2026,Concepción,8,20:00,KABICA,1100,Arena,9,DANGER IN RIO,Dangerous Midge,56,N. Norambuena,J. Pimentel,2.000.000
+10-03-2026,Concepción,8,20:00,KABICA,1100,Arena,10,CHECOMAN,Mastercraftsman,56,R. Vásquez,J. Olate,2.000.000
+10-03-2026,Concepción,9,20:30,KESPIKALA,1100,Arena,1,ALASHDI,Magnifi Cat,55,C. Córdova,C. Cordero,1.500.000
+10-03-2026,Concepción,9,20:30,KESPIKALA,1100,Arena,2,QUE PASA NEGRO,Goldencents,56,J. Espinosa,Jn.A. Campos,1.500.000
+10-03-2026,Concepción,9,20:30,KESPIKALA,1100,Arena,3,NUNCA VIGILANTE,Seeking The Dia,56,A. Cea,J. Moya,1.500.000
+10-03-2026,Concepción,9,20:30,KESPIKALA,1100,Arena,4,FRESCO,Mayakovsky,55,F. Acevedo,G. Vera,1.500.000
+10-03-2026,Concepción,9,20:30,KESPIKALA,1100,Arena,5,MY HERO,Sahara Spirit,56,N. Norambuena,J. Pimentel,1.500.000
+10-03-2026,Concepción,9,20:30,KESPIKALA,1100,Arena,6,CEDERIC,California Chrome,55,C. Norambuena,G. Pereda,1.500.000
+10-03-2026,Concepción,9,20:30,KESPIKALA,1100,Arena,7,BITTER BATIDO,Competitive Edge,56,H. Arteaga,C.A. Rojas,1.500.000
+10-03-2026,Concepción,9,20:30,KESPIKALA,1100,Arena,8,SOÑADO CAMPEON,El Hueñe,56,V. Gallardo,V. Mardones,1.500.000
+10-03-2026,Concepción,9,20:30,KESPIKALA,1100,Arena,9,GHOST RAIDER,California Chrome,56,R. Vásquez,A. Vega,1.500.000
+10-03-2026,Concepción,9,20:30,KESPIKALA,1100,Arena,10,FURIA DE TROYA,Stevie Wonderboy,56,J. Olate,A. Navarrete,1.500.000
+10-03-2026,Concepción,9,20:30,KESPIKALA,1100,Arena,11,GIANNI,Seeking The Dia,55,G. Melo,B. Díaz,1.500.000

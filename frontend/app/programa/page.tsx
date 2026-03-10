@@ -275,8 +275,8 @@ export default async function ProgramaPage() {
             </div>
 
 
-            {/* Ad Banner - After Predictions */}
-            <AdBannerHorizontal />
+            {/* Ad Banner - After Predictions (Only if there are races) */}
+            {carreras.length > 0 && <AdBannerHorizontal />}
 
             {/* Sección de Agradecimiento - Momento perfecto después de ver predicciones */}
             {carreras.length > 0 && (

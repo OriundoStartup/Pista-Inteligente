@@ -42,8 +42,9 @@ export default function Header() {
         { href: '/', label: 'Inicio', icon: '🏠' },
         { href: '/programa', label: 'Predicciones', icon: '🔮' },
         { href: '/precision', label: 'Precisión', icon: '🎯' },
+        { href: '/metodologia', label: 'Metodología', icon: '🤖' },
         { href: '/analisis', label: 'Patrones', icon: '📊' },
-        { href: '/estadisticas', label: 'Estadísticas', icon: '📈' },
+        { href: '/consejos', label: 'Consejos', icon: '💡' },
         { href: '/guia', label: 'Guía', icon: '📖' },
     ]
 

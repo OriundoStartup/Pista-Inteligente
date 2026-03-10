@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-03-07T13:26:25.572912",
+  "generated_at": "2026-03-09T22:40:59.444605",
   "global": {
     "last_30_days": {
-      "total_carreras": 298,
+      "total_carreras": 318,
       "ganador_pct": 4.7,
       "quiniela_pct": 0.3,
       "trifecta_pct": 0.3,
       "superfecta_pct": 0.3,
-      "ganador_count": 14,
+      "ganador_count": 15,
       "quiniela_count": 1,
       "trifecta_count": 1,
       "superfecta_count": 1
     },
     "last_90_days": {
-      "total_carreras": 557,
-      "ganador_pct": 11.3,
-      "quiniela_pct": 1.1,
+      "total_carreras": 580,
+      "ganador_pct": 8.8,
+      "quiniela_pct": 1.0,
       "trifecta_pct": 0.7,
       "superfecta_pct": 0.7,
-      "ganador_count": 63,
+      "ganador_count": 51,
       "quiniela_count": 6,
       "trifecta_count": 4,
       "superfecta_count": 4
     },
     "all_time": {
-      "total_carreras": 576,
-      "ganador_pct": 13.2,
+      "total_carreras": 615,
+      "ganador_pct": 12.7,
       "quiniela_pct": 1.0,
       "trifecta_pct": 0.7,
       "superfecta_pct": 0.7,
-      "ganador_count": 76,
+      "ganador_count": 78,
       "quiniela_count": 6,
       "trifecta_count": 4,
       "superfecta_count": 4
@@ -37,13 +37,24 @@
   },
   "by_hipodromo": {
     "Hipódromo Chile": {
-      "total_carreras": 261,
-      "ganador_pct": 10.3,
-      "quiniela_pct": 0.8,
+      "total_carreras": 282,
+      "ganador_pct": 9.6,
+      "quiniela_pct": 0.7,
       "trifecta_pct": 0.4,
       "superfecta_pct": 0.4,
       "ganador_count": 27,
       "quiniela_count": 2,
+      "trifecta_count": 1,
+      "superfecta_count": 1
+    },
+    "Club Hípico de Santiago": {
+      "total_carreras": 198,
+      "ganador_pct": 21.2,
+      "quiniela_pct": 0.5,
+      "trifecta_pct": 0.5,
+      "superfecta_pct": 0.5,
+      "ganador_count": 42,
+      "quiniela_count": 1,
       "trifecta_count": 1,
       "superfecta_count": 1
     },
@@ -58,17 +69,6 @@
       "trifecta_count": 2,
       "superfecta_count": 2
     },
-    "Club Hípico de Santiago": {
-      "total_carreras": 180,
-      "ganador_pct": 22.2,
-      "quiniela_pct": 0.6,
-      "trifecta_pct": 0.6,
-      "superfecta_pct": 0.6,
-      "ganador_count": 40,
-      "quiniela_count": 1,
-      "trifecta_count": 1,
-      "superfecta_count": 1
-    },
     "Club Hípico de Concepción": {
       "total_carreras": 38,
       "ganador_pct": 2.6,
@@ -82,6 +82,825 @@
     }
   },
   "recent_races": [
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 21,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "ESTERIOS",
+        "INVITO YO",
+        "PAPITO ALFREDO",
+        "MONCHITOCRACK"
+      ],
+      "resultado_top4": [
+        "STAR MAGIC",
+        "ENSEÑAME",
+        "MALANDRO",
+        "HORCON DORADO"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 20,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "MAGIC FLAME",
+        "NATURAL MYSTIC",
+        "ROYAL DUBLIN",
+        "CRANS MONTANA"
+      ],
+      "resultado_top4": [
+        "TIRREL",
+        "BELLO ENCANTO",
+        "MAGIC FLAME",
+        "CRANS MONTANA"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 19,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "EL FERROVIARIO",
+        "MR BOJANGLES",
+        "ME VEO CONTENTO",
+        "GUERRERO MAX"
+      ],
+      "resultado_top4": [
+        "GUENA PETETE",
+        "JOSES",
+        "HENDRICKS",
+        "GUERRERO MAX"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 18,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "LINZ",
+        "DE GAULLE",
+        "YERI STAR",
+        "MAXIWARIO"
+      ],
+      "resultado_top4": [
+        "CHICA DE LA PALMA",
+        "BIRD RITAN",
+        "CALIFORNIA DADDY",
+        "EL CHICO RICHARD"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 17,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "TE DIGO ALGO",
+        "AHORA QUIZAS",
+        "RIO DE LOS CIERVOS",
+        "EL COBALTO"
+      ],
+      "resultado_top4": [
+        "STAR RATE",
+        "CICARELLI",
+        "AHORA QUIZAS",
+        "EL GRAN MENOTTI"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 16,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "RISBY",
+        "SOLO AMIGOS",
+        "SIGUE IGUAL",
+        "ERKAN"
+      ],
+      "resultado_top4": [
+        "GARAFULIC",
+        "KARMELIA",
+        "RISBY",
+        "BUEN NORTE"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 15,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "SIETE DEL NUEVE",
+        "ANGEOLINA",
+        "EMINEM",
+        "DISMAJ"
+      ],
+      "resultado_top4": [
+        "INDIAN TIGER",
+        "DISMAI",
+        "EL CANCHERO",
+        "ANGEOLINA"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 14,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "VALCABADO",
+        "ESTEBANOPRO",
+        "LORD GONI",
+        "MR TOCO"
+      ],
+      "resultado_top4": [
+        "TSUBASA",
+        "YO NO VINE A ESTO",
+        "MR TOCO",
+        "JOAQUIN"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 13,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "SHAMROCK",
+        "MIXED EMOTIONS",
+        "MI CIELA",
+        "IRON SWIM"
+      ],
+      "resultado_top4": [
+        "EL ORADOR",
+        "MI GIGANTE",
+        "LA ÑOÑITA",
+        "GOLD ESCUDERO"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 12,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "MARIA CAMILA",
+        "HERMANO ERIC",
+        "NO ME PILLA",
+        "GRAN VERA"
+      ],
+      "resultado_top4": [
+        "MONTES PREMIUM",
+        "NO ME PILLA",
+        "GAELIA",
+        "HERMANO ERIC"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 11,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "MUAK",
+        "BAHIA PERDIDA",
+        "GAUCHAZA",
+        "LA GIOCONDA"
+      ],
+      "resultado_top4": [
+        "BAHIA PERDIDA",
+        "GAUCHAZA",
+        "LA GIOCONDA",
+        "FLACA DANY"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 10,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "STEFFI YI",
+        "GUSTAVO TULIO",
+        "MIPIPO",
+        "ARRANCATE PAIRINO"
+      ],
+      "resultado_top4": [
+        "RED KNIGHT",
+        "GUSTAVO TULIO",
+        "ARRANCATE PAIRINO",
+        "INDY JETS"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 9,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "TEEN WOLF",
+        "KALIL",
+        "REY OLIMPUS",
+        "MI BELLO MILAN"
+      ],
+      "resultado_top4": [
+        "REY OLIMPUS",
+        "BELLO BIJOU",
+        "EL GAGUI",
+        "LUPO CATTIVO"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 8,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "DESTELLANTE",
+        "GRANDE TATA",
+        "BRUNO FERRARI",
+        "CHINA BAND"
+      ],
+      "resultado_top4": [
+        "MONTENEGRO",
+        "PEATRES",
+        "CHINA BAND",
+        "INDY DOBLE"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 7,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "TATA MONCHO",
+        "ERES DULCE AMOR",
+        "CHIQUI VELOZ",
+        "SILVESTRIN"
+      ],
+      "resultado_top4": [
+        "AUDELIO",
+        "VICARIA AMELIA",
+        "ERES DULCE AMOR",
+        "BIEN PLANTAO"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 6,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "TSUKIMI",
+        "EMPERIFOLLADA",
+        "MARIADYNIS",
+        "POISON HEART"
+      ],
+      "resultado_top4": [
+        "ME DAS OTRO BESO",
+        "TSUKIMI",
+        "POISON HEART",
+        "BAD ROMANCE"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 5,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "LA UNIVERSITARIA",
+        "SERKET",
+        "MADRE PATRIA",
+        "SONG SONG BLUE"
+      ],
+      "resultado_top4": [
+        "STUPENDA",
+        "SERKET",
+        "ULTIMO PASEO",
+        "LOVELY BIJOU"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 4,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "MESTIZA FLOR",
+        "CUANDO LLEGO GANO",
+        "DISPARO LETAL",
+        "WESTERN FILM"
+      ],
+      "resultado_top4": [
+        "SATISFY MY SOUL",
+        "GRAN NONO",
+        "BEAUTIFUL CHAMPION",
+        "DEMOOV"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 3,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "EL PUNTUO",
+        "SCAR",
+        "EL FLORITO",
+        "STAVOS"
+      ],
+      "resultado_top4": [
+        "DONNARUMMA",
+        "ROCE SECRETO",
+        "SCAR",
+        "SUEÑOS DE LEON"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 2,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "SANSSITA",
+        "TIGUARDA",
+        "HILDITA MIA",
+        "SHYUANNA"
+      ],
+      "resultado_top4": [
+        "PARA TI MI AMOR",
+        "LA CIA",
+        "GUAGUA FELIZ",
+        "BELLA CHICHI"
+      ]
+    },
+    {
+      "fecha": "2026-03-07",
+      "hipodromo": "Hipódromo Chile",
+      "nro_carrera": 1,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "PINTA DE MUSICO",
+        "SORPRENDEME",
+        "INCLUYE TODO",
+        "LA RUMBERA"
+      ],
+      "resultado_top4": [
+        "LA SOÑE",
+        "TUTTO APIACCERE",
+        "PEQUEÑO CRILIN",
+        "MARRAKECH"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 18,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "CRISTALINO",
+        "ELQUILIMAY",
+        "GRANDE TUZA",
+        "ANFIELD ROAD"
+      ],
+      "resultado_top4": [
+        "GRANDE TUZA",
+        "BOY SCOUT",
+        "ANFIELD ROAD",
+        "CANELO DORADO"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 17,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "LA BUENA MOZA",
+        "ELMITA",
+        "SORELLA DEL KING",
+        "WALK EASY"
+      ],
+      "resultado_top4": [
+        "EL INDOLENTE",
+        "TEJEDOR DE SUEÑOS",
+        "VUELA EL AMOR",
+        "LA BUENA MOZA"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 16,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "INCENTS",
+        "ONIX BLUE",
+        "GRAND CODY'S",
+        "SIN EL"
+      ],
+      "resultado_top4": [
+        "GRAND CODY'S",
+        "DIVINA FE",
+        "KUAI MA",
+        "ONIX BLUE"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 15,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "MR NUTS",
+        "DOMENICO",
+        "ULTIMO BRINDIS",
+        "LOU ARMSTRONG"
+      ],
+      "resultado_top4": [
+        "LOU ARMSTRONG",
+        "MR NUTS",
+        "SALTO DE LUZ",
+        "JALISCO"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 14,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "HUMAN SOUL",
+        "FUTURO CAPITAN",
+        "LA MORITA",
+        "JE T'AIME"
+      ],
+      "resultado_top4": [
+        "BEHIND THE SUN",
+        "JE T'AIME",
+        "AIRE DE TIGRE",
+        "SUBI"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 13,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "PETIROSSA",
+        "XENOTES",
+        "GOLFISTA",
+        "MUY TEMPERADA"
+      ],
+      "resultado_top4": [
+        "XENOTES",
+        "EL NENE",
+        "NOTORIOUS LOVER",
+        "PETIROSSA"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 12,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "NALALA",
+        "WEST PALM BEACH",
+        "AQUIMBAO",
+        "VICHITO"
+      ],
+      "resultado_top4": [
+        "BRAVO NINO",
+        "COCHERO DEL DIABLO",
+        "VICHITO",
+        "WEST PALM BEACH"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 11,
+      "acierto_ganador": true,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "SORRISI",
+        "ON LOOK",
+        "TOUCHING ME",
+        "RAUCO"
+      ],
+      "resultado_top4": [
+        "SORRISI",
+        "COLLIPULLI",
+        "TOUCHING ME",
+        "RAUCO"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 10,
+      "acierto_ganador": true,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "FAT MENDEL",
+        "SASSI",
+        "TODAS MIENTEN",
+        "FITTIPALDI"
+      ],
+      "resultado_top4": [
+        "FAT MENDEL",
+        "PONGASE AL DIA",
+        "CHILGLAND",
+        "SASSI"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 9,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "REGALO PARA TI",
+        "DOLLAR TREE",
+        "CALENTITA",
+        "BARELLA"
+      ],
+      "resultado_top4": [
+        "HONEY RAW",
+        "CALENTITA",
+        "DOLLAR TREE",
+        "TE TENGO CARIÑO"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 8,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "SAWYER",
+        "DALIKA",
+        "PALTOCITO",
+        "MAHALO"
+      ],
+      "resultado_top4": [
+        "C'EST VRAI",
+        "PALTOCITO",
+        "EL CURANDERO",
+        "DENALI"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 7,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "MONTESOR",
+        "IL MERLINO",
+        "EL MEJOR DE MARIO",
+        "WILWITON"
+      ],
+      "resultado_top4": [
+        "IL MERLINO",
+        "ELSEBAAHORRATODO",
+        "ALFIE SOLOMONS",
+        "LUQUITAS"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 6,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "HEY JOKE",
+        "ALCIDES",
+        "AMOR CLANDESTINO",
+        "BELATOR"
+      ],
+      "resultado_top4": [
+        "BELATOR",
+        "EL RECTOR",
+        "LE KOPPERS",
+        "HEY JOKE"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 5,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "PASION POR ELLA",
+        "MOLINO DE VIENTO",
+        "TORNADO DE BULI",
+        "LA SIGUIENTE"
+      ],
+      "resultado_top4": [
+        "TORNADO DE BULI",
+        "PASION POR ELLA",
+        "MOLINO DE VIENTO",
+        "NIÑITA POR DIOS"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 4,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "CUFFINA",
+        "ZIP ZAP",
+        "CRYSTAL BEACH",
+        "COMANCHE BRAVA"
+      ],
+      "resultado_top4": [
+        "CRYSTAL BEACH",
+        "KANDAN",
+        "CUFFINA",
+        "ZHENG SHI"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 3,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "EDDIE",
+        "GUNDOGAN",
+        "ENTRE LOS DOS",
+        "GAMBITTA"
+      ],
+      "resultado_top4": [
+        "RAMHE",
+        "GUNDOGAN",
+        "KAULA",
+        "MURCOTT"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 2,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "NORITA ROMATICA",
+        "LIORA",
+        "SIRENA SOLITARIA",
+        "DULCITA"
+      ],
+      "resultado_top4": [
+        "REINA SIGRUN",
+        "NORITA ROMATICA",
+        "LIORA",
+        "PRINCESS THAI"
+      ]
+    },
+    {
+      "fecha": "2026-03-06",
+      "hipodromo": "Club Hípico de Santiago",
+      "nro_carrera": 1,
+      "acierto_ganador": false,
+      "acierto_quiniela": false,
+      "acierto_trifecta": false,
+      "acierto_superfecta": false,
+      "prediccion_top4": [
+        "BRINDO POR ELLA",
+        "GEROMILO",
+        "WALKA",
+        "AHMAKIL"
+      ],
+      "resultado_top4": [
+        "VIVIR CONTENTA",
+        "THOTHO",
+        "MISIA GOGUITA",
+        "ANTIOCO"
+      ]
+    },
     {
       "fecha": "2026-03-05",
       "hipodromo": "Hipódromo Chile",
@@ -311,825 +1130,6 @@
         "MISS BROWNIE",
         "DIOSA DEL ROCK",
         "MI CLASICA"
-      ]
-    },
-    {
-      "fecha": "2026-03-05",
-      "hipodromo": "Hipódromo Chile",
-      "nro_carrera": 8,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "AYUSA",
-        "GRAN FACUNDO",
-        "FREE REIN",
-        "COMO TE TENGO"
-      ],
-      "resultado_top4": [
-        "FETLOCK JOINT",
-        "LA CHUCKY TRINI",
-        "VICARIA AMELIA",
-        "WONDER WOMAN"
-      ]
-    },
-    {
-      "fecha": "2026-03-05",
-      "hipodromo": "Hipódromo Chile",
-      "nro_carrera": 7,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "MISS KINGLY",
-        "JULIA TURTTLE",
-        "RUNA",
-        "HINCHA CRUZADA"
-      ],
-      "resultado_top4": [
-        "HAPPY TRAIL",
-        "LADY JUGE",
-        "EMA SHADOW",
-        "HINCHA CRUZADA"
-      ]
-    },
-    {
-      "fecha": "2026-03-05",
-      "hipodromo": "Hipódromo Chile",
-      "nro_carrera": 6,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "CHI CHI JIMENEZ",
-        "LEXUS",
-        "NUEVO HORIZONTE",
-        "TODOS MIENTEN"
-      ],
-      "resultado_top4": [
-        "MATE AMARGO",
-        "LA MILI",
-        "PAQUETE PLATICO",
-        "TODOS MIENTEN"
-      ]
-    },
-    {
-      "fecha": "2026-03-05",
-      "hipodromo": "Hipódromo Chile",
-      "nro_carrera": 5,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "RAGAZZA SOFIA",
-        "BADRA",
-        "PENSANDO EN VOS",
-        "KEIRA"
-      ],
-      "resultado_top4": [
-        "DULCE LEJANIA",
-        "PENSANDO EN VOS",
-        "MAGOSHISHA",
-        "BADRA"
-      ]
-    },
-    {
-      "fecha": "2026-03-05",
-      "hipodromo": "Hipódromo Chile",
-      "nro_carrera": 4,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "ATACAMA FLOWER",
-        "MR RANGER",
-        "THE LAST WOLF",
-        "BEAUTIFUL MOON"
-      ],
-      "resultado_top4": [
-        "COMO EL SOL",
-        "YA MAGICO",
-        "LADY LOT",
-        "LADY BAY"
-      ]
-    },
-    {
-      "fecha": "2026-03-05",
-      "hipodromo": "Hipódromo Chile",
-      "nro_carrera": 3,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "SILVESTRIN",
-        "LA OVALLE NEGRETE",
-        "ALESITA",
-        "LA SONE"
-      ],
-      "resultado_top4": [
-        "RUCIA DE ORO",
-        "JOHN WAYNE",
-        "LA SOÑE",
-        "ROSARIO TIJERA"
-      ]
-    },
-    {
-      "fecha": "2026-03-05",
-      "hipodromo": "Hipódromo Chile",
-      "nro_carrera": 2,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "BRIAN JOHNSON",
-        "MY SWEET LORD",
-        "DOS LOCOS",
-        "CATANZARO"
-      ],
-      "resultado_top4": [
-        "LEEVAN CLEFF",
-        "CATANZARO",
-        "LUPO CATTIVO",
-        "DOS LOCOS"
-      ]
-    },
-    {
-      "fecha": "2026-03-05",
-      "hipodromo": "Hipódromo Chile",
-      "nro_carrera": 1,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "NATALINO",
-        "SALUD COMPADRE",
-        "EL DUKE",
-        "DISPARO LETAL"
-      ],
-      "resultado_top4": [
-        "BETONE",
-        "SALUD COMPADRE",
-        "REDQUIVER",
-        "DISPARO LETAL"
-      ]
-    },
-    {
-      "fecha": "2026-03-04",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 15,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "KAPU",
-        "DESPROLIJO",
-        "ROY PARA UN POCO",
-        "CRISTAL GINGER"
-      ],
-      "resultado_top4": [
-        "EL PALOMO",
-        "THE GREAT TEXAS",
-        "CRISTAL GINGER",
-        "KAPU"
-      ]
-    },
-    {
-      "fecha": "2026-03-04",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 14,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "SPOTTER",
-        "LIO CORDILLERANO",
-        "PEGGY NICE",
-        "TIGRE DE FUEGO"
-      ],
-      "resultado_top4": [
-        "TERRIBLE GOOD",
-        "SPOTTER",
-        "PAICAVI",
-        "LIO CORDILLERANO"
-      ]
-    },
-    {
-      "fecha": "2026-03-04",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 13,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "BACK TO BLACK",
-        "GRAN MORRON",
-        "MORINGA",
-        "SOTO DE ANGOL"
-      ],
-      "resultado_top4": [
-        "IL VENTO",
-        "KING OCTOPUS",
-        "CALIFORNIA SPRING",
-        "KISS THE QUEEN"
-      ]
-    },
-    {
-      "fecha": "2026-03-04",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 12,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "THE GREAT DANY",
-        "WIND OF CHANGES",
-        "BETTER THAN",
-        "CIOCOLATTA"
-      ],
-      "resultado_top4": [
-        "LA TIA ELENA",
-        "LORENZ BLACK",
-        "BETTER THAN",
-        "WIND OF CHANGES"
-      ]
-    },
-    {
-      "fecha": "2026-03-04",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 11,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "GRAN ROMANO",
-        "LATTICE",
-        "EXETER (ARG)",
-        "PAZZELLE"
-      ],
-      "resultado_top4": [
-        "PRINCESA LUDY",
-        "CHAMPELICE",
-        "EXETER (ARG)",
-        "PAZZELLE"
-      ]
-    },
-    {
-      "fecha": "2026-03-04",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 10,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "ALL STARS",
-        "CONSTITUTION'S SON",
-        "CALVETI",
-        "LILYBETH"
-      ],
-      "resultado_top4": [
-        "DAYS OF FUTURE",
-        "CALVETI",
-        "YA SILIO",
-        "EL PROFETA"
-      ]
-    },
-    {
-      "fecha": "2026-03-04",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 9,
-      "acierto_ganador": true,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "SOUL QUEEN",
-        "IRISH BOY",
-        "WHITE SPIRIT",
-        "DON ALTOBELLO"
-      ],
-      "resultado_top4": [
-        "SOUL QUEEN",
-        "DON ALTOBELLO",
-        "SUEÑO CHILOTE",
-        "HOOTEROAD"
-      ]
-    },
-    {
-      "fecha": "2026-03-04",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 8,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "NARCISISTA",
-        "DICTATORIAL",
-        "AFIRMATE GATO",
-        "TIENES MI SONRISA"
-      ],
-      "resultado_top4": [
-        "MODELO DEL SALTO",
-        "JARRA DE VINO",
-        "GUERRERO ARABE",
-        "GLADIATORE"
-      ]
-    },
-    {
-      "fecha": "2026-03-04",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 7,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "BLACK OLIVES",
-        "PRIMO HAPPY",
-        "DALE FLACA",
-        "MELONI"
-      ],
-      "resultado_top4": [
-        "DALE FLACA",
-        "GRAN CAFRUNE",
-        "ALIVES",
-        "CARIBEAN PASSION"
-      ]
-    },
-    {
-      "fecha": "2026-03-04",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 6,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "SOL DE TROYA",
-        "DADDY TITO",
-        "DALE ISI",
-        "LEVANTATE BEBE"
-      ],
-      "resultado_top4": [
-        "DADDY TITO",
-        "LEVANTATE BEBE",
-        "PARSIFAL",
-        "WARRIOR SPIRIT"
-      ]
-    },
-    {
-      "fecha": "2026-03-04",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 5,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "SUD AMERICANO",
-        "SEVERUS SNAPE",
-        "GERMANICUS",
-        "MAKIS (ARG)"
-      ],
-      "resultado_top4": [
-        "FALLEN STAR",
-        "SUD AMERICANO",
-        "KARSTADT",
-        "NEW DAY (ARG)"
-      ]
-    },
-    {
-      "fecha": "2026-03-04",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 4,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "AMERICAN BUNNY",
-        "FALLEN DREAMER",
-        "EL SALVADOR",
-        "HOFFA"
-      ],
-      "resultado_top4": [
-        "MI GIGANTE",
-        "EL SALVADOR",
-        "GROSSETO",
-        "GRAN SAMCREDO"
-      ]
-    },
-    {
-      "fecha": "2026-03-04",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 3,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "MIS MEJORES AMIGOS",
-        "CARITA DE WHISKY",
-        "PATO CUNCUNA",
-        "INDIAN MELODY"
-      ],
-      "resultado_top4": [
-        "INDIAN MELODY",
-        "TE QUIERO TODAVIA",
-        "MIS MEJORES AMIGOS",
-        "GOLDEN EAST"
-      ]
-    },
-    {
-      "fecha": "2026-03-04",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 2,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "PROMETEO",
-        "FAFIFO",
-        "BOM BOM ASESINO",
-        "AKYTOY PAPA"
-      ],
-      "resultado_top4": [
-        "NAIPUR RAIDER",
-        "PROMETEO",
-        "AVE DORADA",
-        "BOM BOM ASESINO"
-      ]
-    },
-    {
-      "fecha": "2026-03-04",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 1,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "ROYAL FIERCE",
-        "SUPER PIRATA",
-        "EL MISTER",
-        "COMMAND"
-      ],
-      "resultado_top4": [
-        "JUSTINSITO CRACK",
-        "LOUVING",
-        "LA BANDA VERDE",
-        "EL MISTER"
-      ]
-    },
-    {
-      "fecha": "2026-03-02",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 10,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "SEÑOR SONRISA (ARG)",
-        "FRANK SLADE",
-        "EL RENACIDO",
-        "DRAKE (ARG)"
-      ],
-      "resultado_top4": [
-        "DRAKE (ARG)",
-        "SALADO",
-        "NALHUITAD",
-        "EL ESPIA"
-      ]
-    },
-    {
-      "fecha": "2026-03-02",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 9,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "LIUCURA PARK",
-        "AMIGO CALICHEI",
-        "ALBANTA (ARG)",
-        "ELON"
-      ],
-      "resultado_top4": [
-        "ALBANTA (ARG)",
-        "GRAN CAFRUNE",
-        "LIUCURA PARK",
-        "ELON"
-      ]
-    },
-    {
-      "fecha": "2026-03-02",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 8,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "TIZZIANO",
-        "PRESUMIDA FLAME",
-        "NIÑA POCHOCHA",
-        "GOCCE"
-      ],
-      "resultado_top4": [
-        "TOPACIO AZUL",
-        "TIZZIANO",
-        "PRESUMIDA FLAME",
-        "SEXTA FEIRA"
-      ]
-    },
-    {
-      "fecha": "2026-03-02",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 7,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "GUAPA PORTEÑA",
-        "DI LUNA",
-        "LA PELA",
-        "OURO"
-      ],
-      "resultado_top4": [
-        "OPPA",
-        "LA PELA",
-        "GUAPA PORTEÑA",
-        "DI LUNA"
-      ]
-    },
-    {
-      "fecha": "2026-03-02",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 6,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "EL LOBO PAGA",
-        "GERASIMOVA",
-        "MALA MEMORIA",
-        "RADIO TEATRO (ARG)"
-      ],
-      "resultado_top4": [
-        "ROY PARA UN POCO",
-        "LE PEINTRE (ARG)",
-        "PAICAVI",
-        "BREEZY STAR"
-      ]
-    },
-    {
-      "fecha": "2026-03-02",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 5,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "ALPHATAURI",
-        "STEFFI YI",
-        "HUEVO DE CHOCOLATE",
-        "ROJO BURGUES"
-      ],
-      "resultado_top4": [
-        "ALIVES",
-        "MUÑECO DASH",
-        "BAPKIZA",
-        "ALPHATAURI"
-      ]
-    },
-    {
-      "fecha": "2026-03-02",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 4,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "RAIMUNDO A",
-        "EL GRAN PIRATA",
-        "MISTER E",
-        "EL OPORTUNO"
-      ],
-      "resultado_top4": [
-        "EL GRAN PIRATA",
-        "MISTER E",
-        "WARRIOR SPIRIT",
-        "BETTOLINA"
-      ]
-    },
-    {
-      "fecha": "2026-03-02",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 3,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "MISTER CESAR",
-        "AFIRMATE GATO",
-        "MACKLIN",
-        "LUCKY STORM"
-      ],
-      "resultado_top4": [
-        "DEFENSOR ROJO",
-        "MISTER CESAR",
-        "MICHELITINA",
-        "LUCKY STORM"
-      ]
-    },
-    {
-      "fecha": "2026-03-02",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 2,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "ROSITA DEL PUERTO",
-        "GUAPA QUITEÑA",
-        "LA PROPIA HERMANA",
-        "EXCLUDE (ARG)"
-      ],
-      "resultado_top4": [
-        "LADY LAURA",
-        "ROSITA DEL PUERTO",
-        "ULTIMO PASEO",
-        "DE BOLOGNIA"
-      ]
-    },
-    {
-      "fecha": "2026-03-02",
-      "hipodromo": "Valparaíso Sporting",
-      "nro_carrera": 1,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "COMMAND",
-        "GIPSY VANNER",
-        "JUSTINSITO CRACK",
-        "GLADIADOR ART"
-      ],
-      "resultado_top4": [
-        "NARCISISTA",
-        "GLADIADOR ART",
-        "GIPSY VANNER",
-        "JUSTINSITO CRACK"
-      ]
-    },
-    {
-      "fecha": "2026-03-01",
-      "hipodromo": "Club Hípico de Santiago",
-      "nro_carrera": 15,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "DOCTORA MILAGRO",
-        "QUEEN TIGER",
-        "MR NUTS",
-        "MR MISTER"
-      ],
-      "resultado_top4": [
-        "EL CASTI",
-        "QUEEN TIGER",
-        "MR NUTS",
-        "JAGER MAISTER"
-      ]
-    },
-    {
-      "fecha": "2026-03-01",
-      "hipodromo": "Club Hípico de Santiago",
-      "nro_carrera": 14,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "YO SOY YI",
-        "MECEDOR",
-        "LADY ARANTZA",
-        "JAVIVALETU"
-      ],
-      "resultado_top4": [
-        "JAVIVALETU",
-        "LADY ARANTZA",
-        "MY HERO",
-        "PRIMA TOWN"
-      ]
-    },
-    {
-      "fecha": "2026-03-01",
-      "hipodromo": "Club Hípico de Santiago",
-      "nro_carrera": 13,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "CICARELLI",
-        "LA VEGANA",
-        "VAI BENE COSI",
-        "JE T'AIME"
-      ],
-      "resultado_top4": [
-        "REY DEL ESTERO",
-        "CICARELLI",
-        "ANFIELD ROAD",
-        "SIN PREJUICIOS"
-      ]
-    },
-    {
-      "fecha": "2026-03-01",
-      "hipodromo": "Club Hípico de Santiago",
-      "nro_carrera": 12,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "MILTEO",
-        "KUAI MA",
-        "PERTINAX",
-        "PRINCESS MARGARET"
-      ],
-      "resultado_top4": [
-        "RUIDO DE CASCOS",
-        "PRINCESS MARGARET",
-        "AMANDA PEPITA",
-        "KUAI MA"
-      ]
-    },
-    {
-      "fecha": "2026-03-01",
-      "hipodromo": "Club Hípico de Santiago",
-      "nro_carrera": 11,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "MURCOTT",
-        "ALPAQUITAY",
-        "VALTOR",
-        "CRUZA EL RIO"
-      ],
-      "resultado_top4": [
-        "CRUZA EL RIO",
-        "POETA GRIEGO (ARG)",
-        "ENTRE LOS DOS",
-        "VALTOR"
-      ]
-    },
-    {
-      "fecha": "2026-03-01",
-      "hipodromo": "Club Hípico de Santiago",
-      "nro_carrera": 10,
-      "acierto_ganador": false,
-      "acierto_quiniela": false,
-      "acierto_trifecta": false,
-      "acierto_superfecta": false,
-      "prediccion_top4": [
-        "ONIX BLUE",
-        "FERLUISI",
-        "INDHIRA",
-        "PIANTAO"
-      ],
-      "resultado_top4": [
-        "TRES PRINCIPES",
-        "PALACETE",
-        "INDHIRA",
-        "ARAKI"
       ]
     }
   ]

@@ -438,6 +438,40 @@ export default async function PrecisionPage() {
                 </p>
             </div>
 
+            {/* Educational Context for AdSense Compliance */}
+            <div className="glass-card" style={{ marginBottom: '2rem', padding: '1.5rem', lineHeight: 1.7 }}>
+                <h2 style={{ color: 'var(--primary)', marginBottom: '1rem', fontSize: '1.3rem' }}>
+                    🔍 ¿Cómo se calcula nuestra precisión?
+                </h2>
+                <p style={{ color: 'var(--text-muted)', marginBottom: '1rem' }}>
+                    La precisión de nuestro modelo de Inteligencia Artificial se mide comparando cada una de nuestras
+                    <strong> predicciones diarias</strong> con los resultados oficiales publicados por los hipódromos de Chile.
+                    No utilizamos muestras seleccionadas; procesamos el 100% de las carreras donde nuestro sistema genera
+                    un pronóstico válido.
+                </p>
+
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem', marginTop: '1.5rem' }}>
+                    <div>
+                        <h3 style={{ color: 'var(--text-main)', fontSize: '1.05rem', marginBottom: '0.5rem' }}>🏆 Tipos de Acierto</h3>
+                        <ul style={{ color: 'var(--text-muted)', paddingLeft: '1.2rem', fontSize: '0.95rem' }}>
+                            <li><strong>Ganador:</strong> El caballo predicho en primer lugar ganó la carrera.</li>
+                            <li><strong>Quiniela:</strong> Nuestros dos primeros caballos llegaron en el top 2 (en cualquier orden).</li>
+                            <li><strong>Trifecta:</strong> Tres de nuestros cuatro caballos recomendados ocuparon el podio.</li>
+                            <li><strong>Superfecta:</strong> Los cuatro caballos de nuestro Top 4 ocuparon los cuatro primeros lugares.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 style={{ color: 'var(--text-main)', fontSize: '1.05rem', marginBottom: '0.5rem' }}>📈 Metodología Estadística</h3>
+                        <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>
+                            Utilizamos un conjunto de validación temporal para asegurar que el modelo sea capaz de predecir
+                            el futuro, no solo de recordar el pasado. Las tasas de acierto que ves aquí son el resultado
+                            de promediar miles de carreras, proporcionando una base sólida para que los aficionados puedan
+                            tomar decisiones más informadas y basadas en datos técnicos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
             {/* Global Stats */}
             <div className="glass-card" style={{ marginBottom: '2rem', padding: '1.5rem' }}>
                 <div className="section-title" style={{ marginBottom: '1.5rem' }}>
@@ -646,6 +680,25 @@ export default async function PrecisionPage() {
                         Mostrando carreras verificadas de 2026
                     </span>
                 </div>
+            </div>
+
+            {/* Transparency Section - Content Value Add */}
+            <div className="glass-card" style={{ marginBottom: '2rem', padding: '1.5rem' }}>
+                <h3 style={{ color: 'var(--primary)', marginBottom: '1rem', fontSize: '1.2rem' }}>
+                    🤝 ¿Por qué somos 100% transparentes?
+                </h3>
+                <p style={{ color: 'var(--text-muted)', lineHeight: 1.7, marginBottom: '1rem' }}>
+                    En el mundo de los pronósticos hípicos, la opacidad es común. Muchos servicios suelen destacar solo
+                    sus grandes aciertos omitiendo los fallos. En <strong>Pista Inteligente</strong>, creemos que la
+                    confianza se construye con datos crudos. Publicamos nuestro rendimiento real, incluso en rachas bajas,
+                    porque nuestro objetivo es el análisis deportivo a largo plazo.
+                </p>
+                <p style={{ color: 'var(--text-muted)', lineHeight: 1.7 }}>
+                    Estos datos también sirven como feedback para nuestro propio pipeline de desarrollo. Cuando detectamos
+                    que la precisión en un hipódromo específico como el <strong>Club Hípico de Concepción</strong> o el
+                    <strong> Valparaíso Sporting</strong> baja de ciertos umbrales, nuestro equipo de Data Science
+                    procede a re-ajustar las variables y entrenar nuevas iteraciones del modelo.
+                </p>
             </div>
 
             {/* Ad Banner - After Verified Races */}

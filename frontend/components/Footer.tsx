@@ -19,16 +19,28 @@ export default function Footer() {
                         Quiénes Somos
                     </Link>
                     <Link
+                        href="/metodologia"
+                        style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginRight: '1rem', textDecoration: 'none' }}
+                    >
+                        Metodología
+                    </Link>
+                    <Link
+                        href="/consejos"
+                        style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginRight: '1rem', textDecoration: 'none' }}
+                    >
+                        Consejos
+                    </Link>
+                    <Link
                         href="/politica-de-privacidad"
                         style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginRight: '1rem', textDecoration: 'none' }}
                     >
-                        Política de Privacidad
+                        Privacidad
                     </Link>
                     <Link
                         href="/terminos-y-condiciones"
                         style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginRight: '1rem', textDecoration: 'none' }}
                     >
-                        Términos y Condiciones
+                        Términos
                     </Link>
                 </div>
                 <p className="credits">
